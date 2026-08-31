@@ -1,16 +1,10 @@
 # Crystal equation
 
-Status: EMPTY IN THIS REPO.
+FOUND on Drive. Not invented.
 
-Do not invent a formula to fill this file.
+https://drive.google.com/file/d/1PtsHESYsJm8SwbgJ00EAGUHkQTH81LAE/view
+Filename: 69F70B5A-B486-4E2D-9B93-7BA19D4FD92B.jpg
+Date on Drive: 2026-08-13
+Size: 78589 bytes
 
-Drive lead (screenshot listing, file not copied here):
-
-- 69F70B5A-B486-4E2D-9B93-7BA19D4FD92B.jpg
-- Visible on that listing: Riemann Hypothesis; 67% of the zeroes on the line; Guinand-Weil explicit formula; cotangent.
-
-When the page is recovered, paste it below this line as the owner notes.
-
----
-
-(paste here)
+Open the photo. That is the worksheet.
