@@ -1,0 +1,7 @@
+# 10_ORIGINAL_CREATIVE
+
+Codex Crystalum lives here in the CVSC tree.
+Canonical file in this repo: `/codex/CODEX-CRYSTALUM.md` (first gathering, not Canon).
+
+Library Before Maps, Compass story: Drive 10. Commit here when extracted.
+Permutt stays in 13_RESEARCH_SOURCES.
