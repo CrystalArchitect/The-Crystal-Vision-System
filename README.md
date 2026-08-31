@@ -2,24 +2,15 @@
 
 Owner: Crystal Arena-Turner (CrystalArchitect).
 
-**This repository is the source of truth for Crystal Vision connective work.**
-Drive is the collection staging area (extracts land there first). GitHub is where the kept trail is committed.
+**Filing system is already defined. Use it.**
 
-It does not replace CrystalCore, Clementine, SAT, Starlines, Dreamlines, TerAustralis Incognita, or Celestial Portal. **Do not merge those repositories into this one.**
+1. Read [`STRUCTURE.md`](STRUCTURE.md) — Drive drawers 00–15+99, same names here.
+2. File into the matching drawer. Do not invent `docs/`-only piles for new work.
+3. One row in [`00_MASTER_INDEX/WORKING-INDEX.md`](00_MASTER_INDEX/WORKING-INDEX.md).
+4. GitHub = kept trail. Drive = staging. **Canon = Crystal stamp**, not “it is in git.”
 
-## Canonical in this repo now
+Does not replace CrystalCore, Clementine, SAT, Starlines, Dreamlines, TerAustralis, or Celestial Portal. Do not merge those repos.
 
-| Path | What |
-| --- | --- |
-| [`codex/CODEX-CRYSTALUM.md`](codex/CODEX-CRYSTALUM.md) | Codex Crystalum — first gathering |
-| [`docs/SOURCE-OF-TRUTH.md`](docs/SOURCE-OF-TRUTH.md) | GitHub vs Drive vs other repos |
-| [`docs/PROVENANCE-LINKING.md`](docs/PROVENANCE-LINKING.md) | How extracts link without merging |
-| [`handoff/celestial-portal/`](handoff/celestial-portal/) | Portal A/B handoff notes — not the full zip |
-| `docs/` | Ledger, SAT stack, equation slot |
+Collection Mode v0.2.0 (one copy): https://drive.google.com/file/d/1I4n2n3uYMJ3oaHJwGIirfekaprq6A7Hg/view
 
-## What this repo is not
-
-- Not a reconstruction of Celestial Portal from a file listing
-- Not CrystalCore.OS as a runtime
-- Not a Songline product
-- Not a dump of every chat (extracts only)
+Codex Crystalum (drawer 10, not Canon): [`codex/CODEX-CRYSTALUM.md`](codex/CODEX-CRYSTALUM.md)
