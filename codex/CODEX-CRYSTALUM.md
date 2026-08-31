@@ -1,9 +1,10 @@
 # Codex Crystalum
 ## The Book of the Crystal Mechanical Arts
 
-First gathering. GitHub is the canonical copy of this gathering.
-Compass: Philip Permutt, *The Ancient Power of Crystals* (cover observed). Not a copy of that book.
-Not medicine. Not CrystalCore. Not Songline. Not Celestial Portal.
+First gathering (with folio IX). GitHub is the canonical copy of this gathering.
+Compass (crystals): Philip Permutt, *The Ancient Power of Crystals* (cover observed).
+Compass (dreams): James R. Lewis, *The Dream Encyclopedia*, 2nd ed. (cover observed).
+Neither book is copied. Neither is Canon. Lewis is not Dreamlines.
 
 Left page = observation. Right page = imagination.
 
@@ -137,13 +138,26 @@ Keep a journal. How the dust looked in late light. How a chorus landed. How a ge
 
 Share pages to sit together, not to merge. Collaboration is not fusion.
 
+## Folio IX — The ninth art — Sleep's ledger
+*A dream record is not a map. An encyclopedia is not Dreamlines.*
+
+### Observation
+On the shelf: James R. Lewis, The Dream Encyclopedia, 2nd edition (Visible Ink). Cover observed. Subtitle: the complete guide to interpreting your dreams. Interior not read in this gathering.
+
+A dream record is: date, images, what was in front of the sleeper when they woke. That is observation. Lewis's A–Z of symbols, if opened later, is another author's interpretation. It is filed in 13_RESEARCH_SOURCES. It is not this Codex and it is not Dreamlines.
+
+### Imagination
+The traveller still writes two pages: what happened in the night, and what it felt like. The encyclopedia may sit beside the journal. It does not get to fill in the blanks.
+
+Dreamlines, if they exist as a project, remain the traveller — a different drawer (05). This folio only says: sleep produces material; classify it; do not promote a symbol-book into a system.
+
 ## Folio C — Colophon
 *What this book will not do.*
 
 ### Observation
 It will not prescribe crystals as medicine. It will not speak as Songline. It will not replace CrystalCore, Clementine, Celestial Portal, or the Drive archive.
 
-Permutt remains an external book on a shelf. Interior claims of that book remain unread unless Crystal reads them and files them as research.
+Permutt remains an external book on a shelf. Lewis's Dream Encyclopedia remains another. Interior claims of those books remain unread unless Crystal reads them and files them as research.
 
 ### Imagination
 The mechanical arts are how stone, light, time, and attention are worked with the hands and with instruments.

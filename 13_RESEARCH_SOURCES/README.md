@@ -1,4 +1,10 @@
 # 13_RESEARCH_SOURCES
 
-Permutt, *The Ancient Power of Crystals* — cover observed. Interior unread unless Crystal files it.
-Compass for Codex. Not a Codex component.
+External books. Compass, not components.
+
+| Source | Observed | Interior | Used as |
+| --- | --- | --- | --- |
+| Philip Permutt, *The Ancient Power of Crystals* | cover | unread here | compass for Codex crystal arts |
+| James R. Lewis, *The Dream Encyclopedia* (2nd ed., Visible Ink) | cover | unread here | compass for Codex folio IX; NOT Dreamlines |
+
+Do not copy symbol lists into the Codex. Do not file Lewis under 05_DREAMLINES.
