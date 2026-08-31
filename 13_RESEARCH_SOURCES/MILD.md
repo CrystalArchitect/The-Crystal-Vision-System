@@ -1,15 +1,19 @@
-# MILD night drill
+# MILD night drill — part of CVSC automation
 
-Skill trainer on the Crystal Vision desk (Night tab). Not Canon. Not 05_DREAMLINES. Not Lewis A–Z.
+Not Canon. Not 05_DREAMLINES. Not Lewis A–Z.
 
-LaBerge MILD + WBTB. Aspy 2017: combo with reality testing is the evidenced path.
+## Desk (Night tab)
 
-## What the desk does
+- Look twice (optional tell-practice)
+- My signs (device only)
+- MILD walk
+- Cue every ~90 minutes while the desk is open (can switch off)
 
-1. Look twice — waking line holds; optional tell-practice where the second look changes.
-2. My signs — Crystal's own dreamsigns only, stored on this device.
-3. MILD walk — five steps; step 4 uses the first saved sign.
+## Grok automation
 
-Phrase: Next time I'm dreaming, I'll remember I'm dreaming.
+Name: `cvsc-night-mild-keep`
+When: daily 21:30 Australia/Sydney, app notification
+Does: MILD prime + extract a dream record into drawer 13 if Crystal sends one. No invented dreams. Follows STRUCTURE.md.
 
-Sleep first if wrecked.
+Existing morning run (`morning-skills-kit-drive-sync` 07:00) stays separate.
+The 2026-08-31 CVSC automation brief is now used for this night keep — not a second tree.
