@@ -8,6 +8,7 @@
 | CVS-LEWIS | 13 | Lewis, Dream Encyclopedia 2e | research | no | `/13_RESEARCH_SOURCES/` | 13 |
 | CVS-PERMUTT | 13 | Permutt, Ancient Power of Crystals | research | no | `/13_RESEARCH_SOURCES/` | 13 |
 | CVS-MILD | 13 | Night drill / MILD + CVSC 21:30 keep | research | no | `/13_RESEARCH_SOURCES/MILD.md` | -- |
+| CVS-LWYMMD | 13 | Swift LWYMMD lyric vs Crystal recall | interpretation | **no** | `/13_RESEARCH_SOURCES/LWYMMD-lyric.md` | -- |
 | CVS-PORTAL-A | 07 | Portal export partial | fact | no | `/handoff/celestial-portal/` | 07 |
 | CVS-PORTAL-B | 07 | Gemini overlay dump | interpretation | no | `/handoff/celestial-portal/` | 07 |
 | CVS-SAT | 03 | SAT stack figure notes | fact | no | `/docs/SAT-STACK.md` | 03 |
