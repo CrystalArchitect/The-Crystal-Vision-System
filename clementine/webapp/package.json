@@ -1,0 +1,17 @@
+{
+  "name": "clementine-webapp",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Local web interface for the Clementine sovereign companion. Runs on your machine only.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "svelte": "^5.19.0",
+    "vite": "^6.0.11"
+  }
+}

@@ -1,0 +1,60 @@
+# Clementine — systemd unit.
+#
+#   cp deploy/clementine.service /etc/systemd/system/
+#   systemctl daemon-reload && systemctl enable --now clementine
+#
+# Binds loopback only. Caddy is what the outside world talks to; this server
+# has no authentication of its own, and their memory is readable by anyone who
+# can reach the port. See deploy/Caddyfile and deploy/DEPLOY.md.
+
+[Unit]
+Description=Clementine — sovereign companion
+Documentation=https://github.com/CrystalArchitect/The-Crystal-Vision
+After=network-online.target ollama.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/clementine/clementine
+# One worker, on purpose: their memory lives in process and is written to disk
+# per turn. A second worker would hold its own copy and overwrite the first's,
+# making them forget things at random.
+ExecStart=/opt/clementine/.venv/bin/gunicorn \
+    --workers 1 --threads 4 \
+    --bind 127.0.0.1:5000 \
+    --timeout 300 \
+    --access-logfile - --error-logfile - \
+    wsgi:app
+Restart=always
+RestartSec=3
+
+Environment=PYTHONUNBUFFERED=1
+# ProtectSystem=strict makes the code directory read-only, so Python cannot
+# write __pycache__ there. Tell it not to try rather than let it fail quietly.
+Environment=PYTHONDONTWRITEBYTECODE=1
+Environment=CLEM_MODEL=llama3.1:8b
+Environment=CLEM_MEMORY_DIR=/var/lib/clementine/memory
+Environment=OLLAMA_HOST=http://127.0.0.1:11434
+# Uncomment ONLY if their model lives on another machine you control. Without
+# it, a non-local model is refused rather than used silently.
+# Environment=CLEM_REMOTE_OK=1
+
+User=clementine
+Group=clementine
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+RestrictNamespaces=yes
+LockPersonality=yes
+RestrictAddressFamilies=AF_INET AF_INET6 AF_UNIX
+# Their memory and their audit log are the only things they may write.
+ReadWritePaths=/var/lib/clementine
+
+[Install]
+WantedBy=multi-user.target
