@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clementine — clone and run</title>
+<meta name="description" content="Clementine is a local-first companion. This GitHub Pages URL is a signpost, not the runtime. Clone the repository. The public site is www.teraustralis.com.au.">
+<link rel="canonical" href="https://www.teraustralis.com.au/">
+<style>
+  :root { --bg:#05060a; --star:#f4f6fb; --dim:#aab2c6; --faint:#6a7186; --ember:#f5e3b8; --border:#242a3b; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--star); font: 1.05rem/1.6 Georgia, "Iowan Old Style", serif; min-height:100vh; display:flex; align-items:center; }
+  main { max-width: 36rem; margin: 0 auto; padding: 2.5rem 1.5rem; }
+  .eyebrow { font-family: Futura, "Century Gothic", sans-serif; letter-spacing:.2em; text-transform:uppercase; font-size:.72rem; color:var(--ember); }
+  h1 { font-weight:400; font-size:2rem; margin:.6rem 0 1rem; }
+  p { color:var(--dim); }
+  code { color:var(--ember); font-size:.9em; }
+  a { color:var(--ember); }
+  .actions { display:flex; flex-wrap:wrap; gap:.75rem; margin-top:1.5rem; }
+  .actions a { min-height:44px; display:inline-flex; align-items:center; padding:0 1.1rem; text-decoration:none; border:1px solid var(--border); border-radius:3px; font-family: Futura, "Century Gothic", sans-serif; font-size:.78rem; letter-spacing:.06em; text-transform:uppercase; color:var(--star); }
+  .actions a.primary { background:#c9a568; color:#05060a; border-color:#f0d9a8; }
+  .note { margin-top:2rem; font-size:.85rem; color:var(--faint); }
+</style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">Clementine · clone and run</div>
+  <h1>This is not the companion.</h1>
+  <p>Clementine lives on your machine. This GitHub Pages URL used to 404. It is now a signpost. The public site is <a href="https://www.teraustralis.com.au/">www.teraustralis.com.au</a>. The runtime is this repository — clone it, do not expect a cloud app here.</p>
+  <p><code>git clone https://github.com/CrystalArchitect/Clementine-ai-companion.git</code></p>
+  <div class="actions">
+    <a class="primary" href="https://www.teraustralis.com.au/">Public site</a>
+    <a href="https://github.com/CrystalArchitect/Clementine-ai-companion">Repository</a>
+  </div>
+  <p class="note">GitHub Pages cannot run the SvelteKit/Vercel adapter in this tree. A 200 here is honest. A running companion is not.</p>
+</main>
+</body>
+</html>

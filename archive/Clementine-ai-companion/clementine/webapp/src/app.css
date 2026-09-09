@@ -1,0 +1,50 @@
+/* Clementine local interface — Matrix meets TerAustralis.
+   No external fonts, no external anything: this page never leaves the device. */
+
+:root {
+  --bg: #000004;
+  --panel: #07070f;
+  --ink: #e9ebf4;
+  --muted: #a6acc4;
+  --purple: #a78bfa;
+  --green: #34d399;
+  --line: rgba(233, 235, 244, 0.12);
+  --sans: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Menlo, Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html.bg,
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  height: 100%;
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+::selection {
+  background: rgba(167, 139, 250, 0.35);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: var(--ink);
+}
+
+a {
+  color: var(--purple);
+}

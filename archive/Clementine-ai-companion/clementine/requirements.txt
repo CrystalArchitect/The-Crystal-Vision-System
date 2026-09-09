@@ -1,0 +1,10 @@
+requests>=2.28
+flask>=3.0
+
+# Only needed to run them behind a reverse proxy (see deploy/). Neither the
+# terminal version nor a local `python server.py` touches it.
+gunicorn>=21.2; sys_platform != "win32"
+
+# Optional: local speech-to-text (OpenAI Whisper weights). Without this,
+# POST /api/transcribe answers 503 with an install hint. Audio stays on-device.
+faster-whisper>=1.0

@@ -1,0 +1,14 @@
+{
+	"/": [
+		"src/routes/+page.js"
+	],
+	"/apocryphon": [],
+	"/clementine": [],
+	"/codex": [],
+	"/docs": [
+		"src/routes/docs/+page.js"
+	],
+	"/docs/[slug]": [
+		"src/routes/docs/[slug]/+page.js"
+	]
+}
