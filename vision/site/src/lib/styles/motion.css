@@ -1,0 +1,86 @@
+/* Copyright 2026 Crystal Arena-Turner (TerAustralis Incognita)
+   SPDX-License-Identifier: CC-BY-NC-ND-4.0
+
+   CrystalUI orbital motion utilities — from the CrystalUI Foundation
+   plan: drift, glow, breathe, connect. Forbidden: bounce, spin, flash,
+   elastic, overshoot. The site's own atmosphere animations (twinkle,
+   shimmer, scroll-reveal) live in app.css and stay; these are named
+   utilities for components that want deliberate, orbital motion.
+   Everything here stills completely under prefers-reduced-motion. */
+
+/* Gentle orbital drift — background elements, distant nodes */
+@keyframes orbit-drift {
+  0%   { transform: translate(0, 0) rotate(0deg); }
+  25%  { transform: translate(4px, -6px) rotate(0.5deg); }
+  50%  { transform: translate(-3px, -10px) rotate(0deg); }
+  75%  { transform: translate(-6px, -4px) rotate(-0.4deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+/* Soft breathing scale + opacity — a living, active element */
+@keyframes ui-breathe {
+  0%, 100% { transform: scale(1); opacity: 0.85; }
+  50%      { transform: scale(1.035); opacity: 1; }
+}
+
+/* Slow internal glow pulse — hover/focus attention, in canon glow */
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow:
+      0 0 12px color-mix(in srgb, var(--glow-color, var(--silver)) 15%, transparent),
+      0 0 24px color-mix(in srgb, var(--glow-color, var(--silver)) 8%, transparent);
+  }
+  50% {
+    box-shadow:
+      0 0 20px color-mix(in srgb, var(--glow-color, var(--silver)) 28%, transparent),
+      0 0 40px color-mix(in srgb, var(--glow-color, var(--silver)) 14%, transparent);
+  }
+}
+
+/* Subtle connection shimmer — constellation edges (set your own
+   stroke-dasharray on the element) */
+@keyframes connection-shimmer {
+  0%   { opacity: 0.25; stroke-dashoffset: 0; }
+  50%  { opacity: 0.55; }
+  100% { opacity: 0.25; stroke-dashoffset: 24; }
+}
+
+/* Soft fade-in with a slight settle — section entrances */
+@keyframes settle-in {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ---------- Utilities ---------- */
+
+.orbit-drift      { animation: orbit-drift 28s ease-in-out infinite; }
+.orbit-drift-slow { animation: orbit-drift 42s ease-in-out infinite; }
+.ui-breathe       { animation: ui-breathe 6.5s ease-in-out infinite; }
+.ui-breathe-slow  { animation: ui-breathe 9s ease-in-out infinite; }
+.glow-pulse       { animation: glow-pulse 5s ease-in-out infinite; }
+.connection-shimmer { animation: connection-shimmer 8s linear infinite; }
+.settle-in        { animation: settle-in 0.9s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+
+/* Stagger helpers for constellation-style entrances */
+.settle-in-delay-1 { animation-delay: 0.08s; }
+.settle-in-delay-2 { animation-delay: 0.16s; }
+.settle-in-delay-3 { animation-delay: 0.24s; }
+.settle-in-delay-4 { animation-delay: 0.32s; }
+.settle-in-delay-5 { animation-delay: 0.4s; }
+
+/* The still switch — consent is absolute */
+@media (prefers-reduced-motion: reduce) {
+  .orbit-drift,
+  .orbit-drift-slow,
+  .ui-breathe,
+  .ui-breathe-slow,
+  .glow-pulse,
+  .connection-shimmer {
+    animation: none;
+  }
+  .settle-in {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}

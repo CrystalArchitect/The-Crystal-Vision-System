@@ -1,0 +1,14 @@
+# Consent Transport is the one part of crystal-core that isn't stdlib-only.
+# It needs real, audited crypto primitives (X25519, Ed25519, ChaCha20-
+# Poly1305, ML-KEM-768, ML-DSA-65) that Python's standard library lacks.
+#
+#     pip install -r requirements-consenttransport.txt
+#
+# The floor is 47, not 41: ML-KEM (FIPS 203) and ML-DSA (FIPS 204) landed
+# in `cryptography` 47.0.0 as `hazmat.primitives.asymmetric.mlkem` and
+# `.mldsa`. Starline's handshake and its identities are both hybrid
+# post-quantum, so neither is optional. Verified by installing each release
+# in a clean venv — 46.0.0 has no `mlkem` module, 47.0.0 does. On an older
+# version the handshake and identity generation both refuse to start and
+# say why, rather than quietly falling back to classical-only.
+cryptography>=47

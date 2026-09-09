@@ -1,0 +1,39 @@
+# Opt-in steward runner. Default GitHub-hosted CI is unchanged.
+#
+# Skips unless repository variable CRYSTAL_SELF_HOSTED is the string true.
+# A missing runner with the var set queues forever — leave the var unset
+# until a Linux box the steward controls is registered.
+#
+# See docs/deployment/STEWARD-RUNNER.md.
+
+name: Steward runner
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  persist-on-delegated:
+    name: Persist on delegated host
+    if: vars.CRYSTAL_SELF_HOSTED == 'true'
+    runs-on: [self-hosted, linux]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Host trust self-test
+        working-directory: core/crystal-core
+        run: python -m host_trust.selftest
+      - name: Install Starline dependencies
+        working-directory: core/crystal-core
+        run: pip install -r requirements-consenttransport.txt
+      - name: Starline self-test
+        working-directory: core/crystal-core
+        run: python -m consent_transport.selftest

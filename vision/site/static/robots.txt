@@ -1,0 +1,29 @@
+# TerAustralis Incognita — www.teraustralis.com.au
+#
+# Everything published here is the project's consent-cleared public face;
+# material that must not enter models or indexes is withheld upstream and
+# never reaches this site. Crawlers — search and AI alike — are welcome.
+
+User-agent: *
+Allow: /
+
+# Explicitly welcome the current AI retrieval and search crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://www.teraustralis.com.au/sitemap.xml

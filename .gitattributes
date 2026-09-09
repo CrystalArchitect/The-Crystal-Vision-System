@@ -1,0 +1,4 @@
+# Windows batch files must reach a Windows machine with CRLF endings —
+# cmd.exe mis-parses some LF-only constructs (notably parenthesised
+# blocks). Everything else stays LF.
+*.bat text eol=crlf

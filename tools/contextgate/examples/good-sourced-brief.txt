@@ -1,0 +1,14 @@
+<!-- ContextGate test fixture. The Iluka Resources and Liquid Instruments
+     facts below are drawn from the already-merged, independently
+     web-search-verified content in
+     TerAustralis-Incognita/mythos/teraustralis/publish/onshore-chain-one-pager.md.
+     The URLs here are illustrative placeholders for this fixture, not
+     claimed to be live citation links. -->
+
+Onshore Chain One-Pager — Mineral stage (sourced excerpt)
+
+[Fact] Iluka Resources (ASX: ILU) is an established, ASX-listed Australian producer of titanium dioxide feedstocks. Source: https://www.iluka.com/operations
+
+[Fact] Liquid Instruments received a $28.45 million investment from the National Reconstruction Fund Corporation, per the Australian Space Agency's public statement (source: https://www.industry.gov.au/nrfc-liquid-instruments).
+
+Liquid Instruments as an Integration Anchor for the launch-use stage, confirmed via the ASA's February 2026 Critical Minerals Prospectus (source: https://www.industry.gov.au/critical-minerals-prospectus-2026).

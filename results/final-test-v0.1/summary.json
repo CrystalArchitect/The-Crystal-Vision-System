@@ -1,0 +1,402 @@
+{
+  "protocol": "H2-V0.1",
+  "phase": "immutable-final-test",
+  "partition": "final",
+  "configuration_frozen": true,
+  "one_m_dual_gate_evaluated": true,
+  "n_per_length": 1000,
+  "lengths": [
+    32768,
+    65536,
+    131072,
+    262144,
+    524288,
+    1048576
+  ],
+  "reference_gold_accuracy": 1.0,
+  "reference_gold_accuracy_1M": 1.0,
+  "quality_gate": 0.9,
+  "bandwidth_gate": 0.4,
+  "compute_envelope": {
+    "reference_sec": 2504.949833393097,
+    "candidate_a_sec": 3443.8373081684113,
+    "candidate_b_sec": 2452.0921800136566,
+    "note": "Wall-clock on the experimental runner. Not a dollar BOM. Not hardware PMU."
+  },
+  "candidate_a": {
+    "system": "candidate_a",
+    "cfg": {
+      "block_size": 512,
+      "local_window": 2,
+      "global_summaries": 1,
+      "cross_block_selections": 32,
+      "selection_frequency": "every_layer"
+    },
+    "overall": {
+      "n": 6000,
+      "gold_accuracy": 0.9953333333333333,
+      "gold_accuracy_lcb": 0.9932635311305634,
+      "agreement_with_reference": 0.9953333333333333,
+      "quality_ratio_vs_reference": 0.9953333333333333,
+      "quality_ratio_lcb": 0.9935,
+      "bandwidth_bytes": 2777780487332,
+      "bandwidth_ratio_vs_reference": 0.5791944242179384,
+      "by_class": {
+        "cross_context_composition": 1.0,
+        "distractor_discrimination": 1.0,
+        "position_balanced": 1.0,
+        "single_distant_fact": 1.0,
+        "two_source": 0.9766666666666667
+      },
+      "by_length": {
+        "1048576": 0.987,
+        "131072": 0.998,
+        "262144": 0.993,
+        "32768": 1.0,
+        "524288": 0.995,
+        "65536": 0.999
+      }
+    },
+    "per_length": {
+      "32768": {
+        "n": 1000,
+        "gold_accuracy": 1.0,
+        "gold_accuracy_lcb": 0.9961731014136096,
+        "agreement_with_reference": 1.0,
+        "quality_ratio_vs_reference": 1.0,
+        "quality_ratio_lcb": 1.0,
+        "bandwidth_bytes": 60243105260,
+        "bandwidth_ratio_vs_reference": 0.7914216249110458,
+        "by_class": {
+          "cross_context_composition": 1.0,
+          "distractor_discrimination": 1.0,
+          "position_balanced": 1.0,
+          "single_distant_fact": 1.0,
+          "two_source": 1.0
+        },
+        "by_length": {
+          "32768": 1.0
+        }
+      },
+      "65536": {
+        "n": 1000,
+        "gold_accuracy": 0.999,
+        "gold_accuracy_lcb": 0.9943572970398397,
+        "agreement_with_reference": 0.999,
+        "quality_ratio_vs_reference": 0.999,
+        "quality_ratio_lcb": 0.997,
+        "bandwidth_bytes": 102963932236,
+        "bandwidth_ratio_vs_reference": 0.6762964980749985,
+        "by_class": {
+          "cross_context_composition": 1.0,
+          "distractor_discrimination": 1.0,
+          "position_balanced": 1.0,
+          "single_distant_fact": 1.0,
+          "two_source": 0.995
+        },
+        "by_length": {
+          "65536": 0.999
+        }
+      },
+      "131072": {
+        "n": 1000,
+        "gold_accuracy": 0.998,
+        "gold_accuracy_lcb": 0.9927370411104123,
+        "agreement_with_reference": 0.998,
+        "quality_ratio_vs_reference": 0.998,
+        "quality_ratio_lcb": 0.995,
+        "bandwidth_bytes": 187809297956,
+        "bandwidth_ratio_vs_reference": 0.6167793684497201,
+        "by_class": {
+          "cross_context_composition": 1.0,
+          "distractor_discrimination": 1.0,
+          "position_balanced": 1.0,
+          "single_distant_fact": 1.0,
+          "two_source": 0.99
+        },
+        "by_length": {
+          "131072": 0.998
+        }
+      },
+      "262144": {
+        "n": 1000,
+        "gold_accuracy": 0.993,
+        "gold_accuracy_lcb": 0.985621503073051,
+        "agreement_with_reference": 0.993,
+        "quality_ratio_vs_reference": 0.993,
+        "quality_ratio_lcb": 0.988,
+        "bandwidth_bytes": 357259135936,
+        "bandwidth_ratio_vs_reference": 0.5866262052575371,
+        "by_class": {
+          "cross_context_composition": 1.0,
+          "distractor_discrimination": 1.0,
+          "position_balanced": 1.0,
+          "single_distant_fact": 1.0,
+          "two_source": 0.965
+        },
+        "by_length": {
+          "262144": 0.993
+        }
+      },
+      "524288": {
+        "n": 1000,
+        "gold_accuracy": 0.995,
+        "gold_accuracy_lcb": 0.9883488743952387,
+        "agreement_with_reference": 0.995,
+        "quality_ratio_vs_reference": 0.995,
+        "quality_ratio_lcb": 0.99,
+        "bandwidth_bytes": 696026566456,
+        "bandwidth_ratio_vs_reference": 0.5714412909531481,
+        "by_class": {
+          "cross_context_composition": 1.0,
+          "distractor_discrimination": 1.0,
+          "position_balanced": 1.0,
+          "single_distant_fact": 1.0,
+          "two_source": 0.975
+        },
+        "by_length": {
+          "524288": 0.995
+        }
+      },
+      "1048576": {
+        "n": 1000,
+        "gold_accuracy": 0.987,
+        "gold_accuracy_lcb": 0.9778853478989854,
+        "agreement_with_reference": 0.987,
+        "quality_ratio_vs_reference": 0.987,
+        "quality_ratio_lcb": 0.98,
+        "bandwidth_bytes": 1373478449488,
+        "bandwidth_ratio_vs_reference": 0.5638148320105301,
+        "by_class": {
+          "cross_context_composition": 1.0,
+          "distractor_discrimination": 1.0,
+          "position_balanced": 1.0,
+          "single_distant_fact": 1.0,
+          "two_source": 0.935
+        },
+        "by_length": {
+          "1048576": 0.987
+        }
+      }
+    },
+    "at_1M": {
+      "n": 1000,
+      "gold_accuracy": 0.987,
+      "gold_accuracy_lcb": 0.9778853478989854,
+      "agreement_with_reference": 0.987,
+      "quality_ratio_vs_reference": 0.987,
+      "quality_ratio_lcb": 0.98,
+      "bandwidth_bytes": 1373478449488,
+      "bandwidth_ratio_vs_reference": 0.5638148320105301,
+      "by_class": {
+        "cross_context_composition": 1.0,
+        "distractor_discrimination": 1.0,
+        "position_balanced": 1.0,
+        "single_distant_fact": 1.0,
+        "two_source": 0.935
+      },
+      "by_length": {
+        "1048576": 0.987
+      }
+    },
+    "dual_gate_1M": {
+      "quality_gate": 0.9,
+      "bandwidth_gate": 0.4,
+      "quality_ratio_lcb": 0.98,
+      "bandwidth_ratio_vs_reference": 0.5638148320105301,
+      "quality_pass": true,
+      "bandwidth_pass": false,
+      "dual_gate": "fail",
+      "simultaneous": false
+    },
+    "elapsed_sec": 3443.8373081684113
+  },
+  "candidate_b": {
+    "system": "candidate_b",
+    "cfg": {
+      "leaf_block": 512,
+      "summary_levels": 2,
+      "retrieved_blocks": 32,
+      "refinement_stages": 2,
+      "group_size": 4
+    },
+    "overall": {
+      "n": 6000,
+      "gold_accuracy": 0.9951666666666666,
+      "gold_accuracy_lcb": 0.993067113985739,
+      "agreement_with_reference": 0.9951666666666666,
+      "quality_ratio_vs_reference": 0.9951666666666666,
+      "quality_ratio_lcb": 0.9933333333333333,
+      "bandwidth_bytes": 2761513404800,
+      "bandwidth_ratio_vs_reference": 0.5758025782661812,
+      "by_class": {
+        "cross_context_composition": 1.0,
+        "distractor_discrimination": 1.0,
+        "position_balanced": 1.0,
+        "single_distant_fact": 1.0,
+        "two_source": 0.9758333333333333
+      },
+      "by_length": {
+        "1048576": 0.987,
+        "131072": 0.998,
+        "262144": 0.993,
+        "32768": 1.0,
+        "524288": 0.994,
+        "65536": 0.999
+      }
+    },
+    "per_length": {
+      "32768": {
+        "n": 1000,
+        "gold_accuracy": 1.0,
+        "gold_accuracy_lcb": 0.9961731014136096,
+        "agreement_with_reference": 1.0,
+        "quality_ratio_vs_reference": 1.0,
+        "quality_ratio_lcb": 1.0,
+        "bandwidth_bytes": 59295447936,
+        "bandwidth_ratio_vs_reference": 0.7789721255702987,
+        "by_class": {
+          "cross_context_composition": 1.0,
+          "distractor_discrimination": 1.0,
+          "position_balanced": 1.0,
+          "single_distant_fact": 1.0,
+          "two_source": 1.0
+        },
+        "by_length": {
+          "32768": 1.0
+        }
+      },
+      "65536": {
+        "n": 1000,
+        "gold_accuracy": 0.999,
+        "gold_accuracy_lcb": 0.9943572970398397,
+        "agreement_with_reference": 0.999,
+        "quality_ratio_vs_reference": 0.999,
+        "quality_ratio_lcb": 0.997,
+        "bandwidth_bytes": 101503330048,
+        "bandwidth_ratio_vs_reference": 0.6667028459739794,
+        "by_class": {
+          "cross_context_composition": 1.0,
+          "distractor_discrimination": 1.0,
+          "position_balanced": 1.0,
+          "single_distant_fact": 1.0,
+          "two_source": 0.995
+        },
+        "by_length": {
+          "65536": 0.999
+        }
+      },
+      "131072": {
+        "n": 1000,
+        "gold_accuracy": 0.998,
+        "gold_accuracy_lcb": 0.9927370411104123,
+        "agreement_with_reference": 0.998,
+        "quality_ratio_vs_reference": 0.998,
+        "quality_ratio_lcb": 0.995,
+        "bandwidth_bytes": 185915444544,
+        "bandwidth_ratio_vs_reference": 0.6105598163609659,
+        "by_class": {
+          "cross_context_composition": 1.0,
+          "distractor_discrimination": 1.0,
+          "position_balanced": 1.0,
+          "single_distant_fact": 1.0,
+          "two_source": 0.99
+        },
+        "by_length": {
+          "131072": 0.998
+        }
+      },
+      "262144": {
+        "n": 1000,
+        "gold_accuracy": 0.993,
+        "gold_accuracy_lcb": 0.985621503073051,
+        "agreement_with_reference": 0.993,
+        "quality_ratio_vs_reference": 0.993,
+        "quality_ratio_lcb": 0.988,
+        "bandwidth_bytes": 354738740224,
+        "bandwidth_ratio_vs_reference": 0.5824876682026224,
+        "by_class": {
+          "cross_context_composition": 1.0,
+          "distractor_discrimination": 1.0,
+          "position_balanced": 1.0,
+          "single_distant_fact": 1.0,
+          "two_source": 0.965
+        },
+        "by_length": {
+          "262144": 0.993
+        }
+      },
+      "524288": {
+        "n": 1000,
+        "gold_accuracy": 0.994,
+        "gold_accuracy_lcb": 0.9869716557675544,
+        "agreement_with_reference": 0.994,
+        "quality_ratio_vs_reference": 0.994,
+        "quality_ratio_lcb": 0.989,
+        "bandwidth_bytes": 692384538560,
+        "bandwidth_ratio_vs_reference": 0.5684511678416487,
+        "by_class": {
+          "cross_context_composition": 1.0,
+          "distractor_discrimination": 1.0,
+          "position_balanced": 1.0,
+          "single_distant_fact": 1.0,
+          "two_source": 0.97
+        },
+        "by_length": {
+          "524288": 0.994
+        }
+      },
+      "1048576": {
+        "n": 1000,
+        "gold_accuracy": 0.987,
+        "gold_accuracy_lcb": 0.9778853478989854,
+        "agreement_with_reference": 0.987,
+        "quality_ratio_vs_reference": 0.987,
+        "quality_ratio_lcb": 0.98,
+        "bandwidth_bytes": 1367675903488,
+        "bandwidth_ratio_vs_reference": 0.561432878730198,
+        "by_class": {
+          "cross_context_composition": 1.0,
+          "distractor_discrimination": 1.0,
+          "position_balanced": 1.0,
+          "single_distant_fact": 1.0,
+          "two_source": 0.935
+        },
+        "by_length": {
+          "1048576": 0.987
+        }
+      }
+    },
+    "at_1M": {
+      "n": 1000,
+      "gold_accuracy": 0.987,
+      "gold_accuracy_lcb": 0.9778853478989854,
+      "agreement_with_reference": 0.987,
+      "quality_ratio_vs_reference": 0.987,
+      "quality_ratio_lcb": 0.98,
+      "bandwidth_bytes": 1367675903488,
+      "bandwidth_ratio_vs_reference": 0.561432878730198,
+      "by_class": {
+        "cross_context_composition": 1.0,
+        "distractor_discrimination": 1.0,
+        "position_balanced": 1.0,
+        "single_distant_fact": 1.0,
+        "two_source": 0.935
+      },
+      "by_length": {
+        "1048576": 0.987
+      }
+    },
+    "dual_gate_1M": {
+      "quality_gate": 0.9,
+      "bandwidth_gate": 0.4,
+      "quality_ratio_lcb": 0.98,
+      "bandwidth_ratio_vs_reference": 0.561432878730198,
+      "quality_pass": true,
+      "bandwidth_pass": false,
+      "dual_gate": "fail",
+      "simultaneous": false
+    },
+    "elapsed_sec": 2452.0921800136566
+  }
+}

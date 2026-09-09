@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__github__pull_request_read",
+      "mcp__github__actions_list",
+      "Bash(python3 -m clementine.bridge.selftest)",
+      "Bash(python3 -m services.selftest)"
+    ]
+  }
+}
