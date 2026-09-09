@@ -6,7 +6,7 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 
 from app.api.deps import get_current_admin, get_db
-from app.core.llm import ModelNotAvailableError
+from app.core.llm import AllTiersUnavailableError, CloudNotConfiguredError, ModelNotAvailableError
 from app.core.llm import generate as llm_generate
 from app.models.container import Container
 from app.schemas.admin import (
@@ -76,12 +76,18 @@ def get_container_terminal(container_id: str, db: Session = Depends(get_db)) -> 
 
 @router.post("/generate", response_model=GenerateResponse)
 def generate_text(payload: GenerateRequest) -> GenerateResponse:
+    """Three-tier completion: webllm (client-side, never reaches here) ->
+    local (this machine's llama.cpp model) -> cloud (hosted API fallback).
+    See app/core/llm.py for the cascade logic behind `tier`."""
     try:
-        completion = llm_generate(
-            payload.prompt, max_tokens=payload.max_tokens, temperature=payload.temperature
+        completion, tier_used = llm_generate(
+            payload.prompt,
+            max_tokens=payload.max_tokens,
+            temperature=payload.temperature,
+            tier=payload.tier,
         )
-    except ModelNotAvailableError as exc:
+    except (ModelNotAvailableError, CloudNotConfiguredError, AllTiersUnavailableError) as exc:
         raise HTTPException(
             status_code=status.HTTP_503_SERVICE_UNAVAILABLE, detail=str(exc)
         ) from exc
-    return GenerateResponse(completion=completion)
+    return GenerateResponse(completion=completion, tier_used=tier_used)

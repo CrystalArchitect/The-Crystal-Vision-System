@@ -21,6 +21,12 @@ class Settings(BaseSettings):
     llm_n_ctx: int = 4096
     llm_n_threads: int = 4
 
+    # Cloud tier (tier 3) for POST /api/v1/admin/generate -- used only when
+    # the local tier is unavailable or explicitly requested. Empty key means
+    # this tier is disabled; see app/core/llm.py.
+    anthropic_api_key: str = ""
+    cloud_llm_model: str = "claude-sonnet-5"
+
     @property
     def cors_origins_list(self) -> list[str]:
         return [origin.strip() for origin in self.cors_allow_origins.split(",") if origin.strip()]

@@ -64,7 +64,7 @@ Run tests: `pytest` (from `backend/`).
 | GET | `/api/v1/admin/diagnostics` | Bearer JWT | Real host CPU/RAM/disk via `psutil` -- reports whatever machine the process runs on |
 | GET | `/api/v1/admin/containers` | Bearer JWT | Reads from the `containers` table (seeded with `cc-container-01` on startup) |
 | GET | `/api/v1/admin/containers/{id}/terminal` | Bearer JWT | **Log-replay only, see below** |
-| POST | `/api/v1/admin/generate` | Bearer JWT | Local LLM completion, see below |
+| POST | `/api/v1/admin/generate` | Bearer JWT | Three-tier LLM completion, see below |
 | GET | `/healthz` | - | Liveness check |
 
 ### The terminal endpoint does not execute commands
@@ -84,30 +84,66 @@ execution surface. Before doing that, decide explicitly:
 Happy to help design and build that once you've made those calls -- it's a
 different, higher-stakes piece of work than the rest of this API.
 
-### Local LLM (`POST /api/v1/admin/generate`)
+### Three-tier LLM (`POST /api/v1/admin/generate`)
 
-Runs a small quantized model locally via [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
--- no external API calls, no API key. Default model: [Qwen2.5-3B-Instruct-GGUF](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF),
-Q4_K_M quantization (~2GB on disk, runs comfortably in ~4-6GB RAM on CPU).
+Full design: [`docs/architecture/THREE-TIER-GENERATE.md`](docs/architecture/THREE-TIER-GENERATE.md).
+Three tiers, cheapest/most-private first, cascading only on unavailability
+(never on a slow-but-working tier):
 
-Setup (one-time): `python3 download_model.py` fetches the weights into
-`models/` (gitignored -- weights don't belong in version control). Re-running
-it is a no-op if the file's already there. Override the repo/file/destination
-with `MODEL_REPO_ID` / `MODEL_FILENAME` / `MODEL_DIR`; `LLM_MODEL_PATH` in
-`.env` must point at wherever that lands.
+1. **webllm** -- runs entirely in the caller's browser (WebGPU), never
+   reaches this server. Reference client only, see the architecture doc --
+   no frontend in this repo calls it yet (**Vision**, not Built).
+2. **local** -- this machine's quantized model via
+   [llama-cpp-python](https://github.com/abetlen/llama-cpp-python), no
+   external API call, no API key. Default:
+   [Qwen2.5-3B-Instruct-GGUF](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct-GGUF),
+   Q4_K_M quantization (~2GB on disk, runs comfortably in ~4-6GB RAM on CPU).
+   (**Built**.)
+3. **cloud** -- hosted Claude API call via `ANTHROPIC_API_KEY`, used only
+   when local can't serve the request (model not downloaded, e.g.) or a
+   caller explicitly pins `tier: "cloud"`. Costs money and leaves this
+   machine; local stays the default. (**Built**, but untested against a real
+   key in this session -- no network access here to verify a live call.)
+
+Setup for tier 2 (one-time): `python3 download_model.py` fetches the weights
+into `models/` (gitignored -- weights don't belong in version control).
+Re-running it is a no-op if the file's already there. Override the
+repo/file/destination with `MODEL_REPO_ID` / `MODEL_FILENAME` / `MODEL_DIR`;
+`LLM_MODEL_PATH` in `.env` must point at wherever that lands.
+
+Setup for tier 3 (optional): set `ANTHROPIC_API_KEY` in `.env`. Leave it
+blank to disable the cloud tier entirely -- `tier: "cloud"` and an exhausted
+`"auto"` cascade both then 503 with a clear message instead of silently
+calling out anywhere.
 
 ```bash
+# Default: tries local first, falls back to cloud only if local can't serve it.
 curl -X POST http://localhost:8080/api/v1/admin/generate \
   -H "Authorization: Bearer $TOKEN" \
   -H "Content-Type: application/json" \
   -d '{"prompt": "Summarize what CrystalCore.OS is.", "max_tokens": 128}'
+
+# Pin a tier explicitly (no fallback):
+curl -X POST http://localhost:8080/api/v1/admin/generate \
+  -H "Authorization: Bearer $TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"prompt": "hello", "tier": "cloud"}'
 ```
 
-The model loads lazily on first request (not at server startup), and a
-missing model file returns `503` rather than crashing the app. Requests are
-serialized through a single model instance (`app/core/llm.py`) -- llama.cpp
-contexts aren't safe for concurrent calls -- so this is fine for occasional
-admin use, not a high-throughput inference server.
+The response body carries `tier_used` so a caller (or your logs) can tell
+which tier actually served a given request:
+
+```json
+{"completion": "...", "tier_used": "local"}
+```
+
+The local model loads lazily on first request (not at server startup), and a
+missing model file falls through to the cloud tier (if configured) rather
+than crashing the app. Local requests are serialized through a single model
+instance (`app/core/llm.py`) -- llama.cpp contexts aren't safe for concurrent
+calls -- so this is fine for occasional admin use, not a high-throughput
+inference server. Cloud requests have no such serialization; each is an
+independent API call.
 
 `llama-cpp-python` builds a C++ extension on install; if `pip install` fails,
 you're missing a C/C++ toolchain (`build-essential` on Debian/Ubuntu, Xcode

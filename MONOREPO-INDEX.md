@@ -187,11 +187,12 @@ All original repositories remain **untouched** on GitHub:
 
 ## Next Steps
 
-1. **Verify Separation**: Run verification commands above to confirm isolation
-2. **Push Branch**: `git push -u origin claude/github-repos-llm-endpoint-0qeomr`
-3. **Create PR**: Draft PR documenting monorepo consolidation
-4. **Optional: Import Private Repos**: Run in interactive session with auth configured
-5. **Design LLM Endpoint**: Begin three-tier `/generate` endpoint (WebLLM → local → cloud)
+1. ~~**Verify Separation**: Run verification commands above to confirm isolation~~
+2. ~~**Push Branch**: `git push -u origin claude/github-repos-llm-endpoint-0qeomr`~~
+3. ~~**Create PR**: Draft PR documenting monorepo consolidation~~ — merged as PR #1
+4. **Optional: Import Private Repos**: Run in interactive session with auth configured — still open, see [`memory/OPEN-QUESTIONS.md`](memory/OPEN-QUESTIONS.md)
+5. ~~**Design LLM Endpoint**: Begin three-tier `/generate` endpoint (WebLLM → local → cloud)~~ — local + cloud tiers built, WebLLM documented; see [`archive/CrystalCore-OS/docs/architecture/THREE-TIER-GENERATE.md`](archive/CrystalCore-OS/docs/architecture/THREE-TIER-GENERATE.md)
+6. **Decide on deleting the 20 original source repositories** — raised, not executed; needs the repository owner's explicit per-repo confirmation. See [`memory/OPEN-QUESTIONS.md`](memory/OPEN-QUESTIONS.md) for what would need to be true first.
 
 ---
 
@@ -207,7 +208,8 @@ All original repositories remain **untouched** on GitHub:
 ## Notes
 
 - This index is authoritative for monorepo inventory but defers to individual repo `CLAUDE.md` files for repo-specific guidance
-- Memory system: See `memory/projects/Code/` in TerAustralis-Incognita umbrella for per-repo state
+- This repo's own memory (consolidation state, `/generate` endpoint decisions, open gates): [`memory/`](memory/README.md) — distinct from any subtree's own memory
+- TerAustralis-Incognita's per-repo state (a different project's own umbrella, imported as a subtree here): `archive/TerAustralis-Incognita/memory/projects/Code/`
 - Locked canon (Constitution, locked names) is **not** editable without Crystal's explicit approval
 - Incognita Rule applies: surveyed (built) vs. dreamed (vision) distinctions must be preserved
 

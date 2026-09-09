@@ -12,5 +12,6 @@
 | CVS-PORTAL-A | 07 | Portal export partial | fact | no | `/handoff/celestial-portal/` |
 | CVS-Q32K | 99 | Quartz as timeline grid | speculation | no | `/99_UNRESOLVED/QUARTZ-TIMELINE-METAPHOR.md` |
 | CVS-SONGLINE | -- | Songline | out of bounds | never | -- |
+| CVS-MEMORY | 00 | memory/ umbrella protocol (DECISIONS/MILESTONES/OPEN-QUESTIONS/PRIVACY) | fact | no | `/memory/` |
 
 Canon stays **no** until Crystal stamps it.
