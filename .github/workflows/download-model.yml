@@ -1,0 +1,31 @@
+name: Download LLM model
+
+# Verifies backend/download_model.py still resolves and fetches the
+# configured GGUF file from Hugging Face. This runner is ephemeral -- it
+# does NOT publish the model anywhere or update a running deployment. A
+# real deploy needs its own step (baking the file into an image, or running
+# download_model.py directly on the target host) that reuses this script.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "backend/download_model.py"
+      - "backend/requirements.txt"
+      - ".github/workflows/download-model.yml"
+
+jobs:
+  download-model:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install download dependencies
+        run: pip install huggingface_hub
+
+      - name: Download model
+        working-directory: backend
+        run: python download_model.py

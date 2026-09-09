@@ -1,0 +1,79 @@
+{
+  "version": "CrystalCore.OS v0.4-Δ+Seldon",
+  "dated": "2026-08-19",
+  "rule": "No mystique without a row. Reality is the referee.",
+  "forecasts": [
+    {
+      "id": "P0",
+      "status": "hit",
+      "confidence": 1.0,
+      "checkpoint": "2026-08-19",
+      "belt": "science",
+      "claim": "Elon 2011: SpaceX has Boeing, Lockheed, Ariane, Proton/Soyuz near checkmate in rocket technology."
+    },
+    {
+      "id": "P0b",
+      "status": "late",
+      "confidence": 1.0,
+      "checkpoint": "2026-08-19",
+      "belt": "science",
+      "claim": "Elon 2011: Endgame is China — the remaining industrial peer."
+    },
+    {
+      "id": "P1",
+      "status": "open",
+      "confidence": 0.72,
+      "checkpoint": "2028-12-31",
+      "belt": "science",
+      "claim": "At least two independent Chinese operators each log five or more successful orbital booster recoveries."
+    },
+    {
+      "id": "P2",
+      "status": "open",
+      "confidence": 0.64,
+      "checkpoint": "2029-12-31",
+      "belt": "science",
+      "claim": "At least one Chinese orbital booster is reflown (true reuse, not only recovered)."
+    },
+    {
+      "id": "P3",
+      "status": "open",
+      "confidence": 0.8,
+      "checkpoint": "2028-12-31",
+      "belt": "science",
+      "claim": "Combined Chinese orbital launch cadence remains below SpaceX cadence."
+    },
+    {
+      "id": "P4",
+      "status": "open",
+      "confidence": 0.55,
+      "checkpoint": "2030-12-31",
+      "belt": "science",
+      "claim": "Starship logs 50+ orbital flights in a calendar year before any Chinese vehicle does."
+    },
+    {
+      "id": "P5",
+      "status": "open",
+      "confidence": 0.85,
+      "checkpoint": "2030-12-31",
+      "belt": "science",
+      "claim": "No engineering-grade psychohistory exists as a discipline by 2030."
+    },
+    {
+      "id": "P6",
+      "status": "open",
+      "confidence": 0.4,
+      "checkpoint": "2029-12-31",
+      "belt": "gov",
+      "claim": "A major US or allied space-industrial strategy names Southern Hemisphere recovery or feedstock as a gap."
+    },
+    {
+      "id": "P7",
+      "status": "open",
+      "confidence": 0.7,
+      "checkpoint": "2030-12-31",
+      "belt": "science",
+      "claim": "Falcon-class is the global default for medium-lift; the other league is Starship-class or empty."
+    }
+  ]
+}
