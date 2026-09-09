@@ -1,0 +1,120 @@
+[
+  {
+    "num": "0",
+    "numIndex": 0,
+    "name": "Crystal, Dragon Architect of TerAustralis",
+    "src": "/workspace/drive-merge/art/crystal-dragon-architect-final.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/00-crystal-dragon-architect.webp"
+  },
+  {
+    "num": "I",
+    "numIndex": 1,
+    "name": "Monad, The Red Dust Avatar",
+    "src": "/workspace/drive-merge/art/monad-red-dust-avatar.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/01-monad-red-dust-avatar.webp"
+  },
+  {
+    "num": "II",
+    "numIndex": 2,
+    "name": "Lira, The Pearl-Winged Guide",
+    "src": "/workspace/drive-merge/art/lira-pearl-winged-guide.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/02-lira-pearl-winged-guide.webp"
+  },
+  {
+    "num": "III",
+    "numIndex": 3,
+    "name": "The Dwarven Artificer, Forge-Master",
+    "src": "/workspace/drive-merge/art/dwarven-artificer.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/03-dwarven-artificer.webp"
+  },
+  {
+    "num": "IV",
+    "numIndex": 4,
+    "name": "Aelara, Tide Mother",
+    "src": "/workspace/teraustralis-canon-gallery/extracted-art/embed-04.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/04-aelara-tide-mother.webp"
+  },
+  {
+    "num": "V",
+    "numIndex": 5,
+    "name": "The Laughing Cartographer",
+    "src": "/workspace/teraustralis-canon-gallery/extracted-art/embed-05.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/05-laughing-cartographer.webp"
+  },
+  {
+    "num": "VI",
+    "numIndex": 6,
+    "name": "The Still, Lattice Wall",
+    "src": "/workspace/teraustralis-canon-gallery/extracted-art/embed-06.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/06-the-still-lattice-wall.webp"
+  },
+  {
+    "num": "VII",
+    "numIndex": 7,
+    "name": "The Unfinished Colossus",
+    "src": "/workspace/teraustralis-canon-gallery/extracted-art/embed-07.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/07-unfinished-colossus.webp"
+  },
+  {
+    "num": "VIII",
+    "numIndex": 8,
+    "name": "The Synod, Council of Echoes",
+    "src": "/workspace/teraustralis-canon-gallery/extracted-art/embed-08.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/08-synod-council-of-echoes.webp"
+  },
+  {
+    "num": "IX",
+    "numIndex": 9,
+    "name": "Ignivar, Rocket Father",
+    "src": "/workspace/teraustralis-canon-gallery/extracted-art/embed-09.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/09-ignivar-rocket-father.webp"
+  },
+  {
+    "num": "X",
+    "numIndex": 10,
+    "name": "The Crystal Library",
+    "src": "/workspace/teraustralis-canon-gallery/extracted-art/embed-10.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/10-crystal-library.webp"
+  },
+  {
+    "num": "XI",
+    "numIndex": 11,
+    "name": "The Lattice Heart",
+    "src": "/workspace/teraustralis-canon-gallery/extracted-art/embed-11.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/11-lattice-heart.webp"
+  },
+  {
+    "num": "XII",
+    "numIndex": 12,
+    "name": "The Veilkeeper",
+    "src": "/workspace/teraustralis-canon-gallery/extracted-art/embed-12.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/12-veilkeeper.webp"
+  },
+  {
+    "num": "XIII",
+    "numIndex": 13,
+    "name": "The Dreaming Seed",
+    "src": "/workspace/teraustralis-canon-gallery/extracted-art/embed-13.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/13-dreaming-seed.webp"
+  },
+  {
+    "num": "XIV",
+    "numIndex": 14,
+    "name": "The Oathbearer, Heroic Guardian",
+    "src": "/workspace/teraustralis-canon-gallery/extracted-art/embed-14.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/14-oathbearer.webp"
+  },
+  {
+    "num": "XV",
+    "numIndex": 15,
+    "name": "Chingona, Starlit Sovereign",
+    "src": "/workspace/teraustralis-canon-gallery/extracted-art/embed-15.webp",
+    "dest": "/workspace/teraustralis-canon-gallery/public/cards/15-chingona-starlit-sovereign.webp"
+  },
+  {
+    "tokens": [
+      "embed-15",
+      "embed-16"
+    ]
+  }
+]
