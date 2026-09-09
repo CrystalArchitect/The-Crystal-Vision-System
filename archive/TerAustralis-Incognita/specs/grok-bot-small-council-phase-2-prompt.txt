@@ -1,0 +1,116 @@
+Grok Bot Briefing: Small Council Phase 2 Outreach
+=================================================
+
+OBJECTIVE
+Draft and send three personalized technical briefing emails inviting Iluka Resources, Australian Rare Earths Ltd + ANSTO, and Liquid Instruments to co-develop a six-component proof-of-concept suite through an end-to-end Australian onshore supply chain. Components span advanced materials (CVD diamond thermal spreader, NV-center resonator, RF window) and a complete high-heat engine assembly (combustion chamber, nozzle, ceramic thermal liner). Timeline: 13 weeks, Sept–Dec 2026.
+
+WHAT TO DO
+1. Read: specs/small-council-phase-2-technical-pitch.md (this is the master briefing)
+2. Draft three emails (one per company, personalized for their role)
+3. Each email should:
+   - Introduce the six-component suite:
+       * CVD diamond thermal spreader (DTS-POC-01)
+       * CVD diamond frequency resonator (DFR-POC-02)
+       * CVD diamond RF window (DRF-POC-03)
+       * Combustion chamber (HEA-POC-04A)
+       * Nozzle insert (HEA-POC-04B)
+       * Ceramic matrix composite thermal liner (HEA-POC-04C)
+   - Emphasize that all six go through the same supply chain (rare earths → processing → precision engineering)
+   - Emphasize the engine assembly is a REAL three-part system (chamber + liner + nozzle integrated), not an isolated part
+   - State their specific role and timeline (see mapping in the tech pitch)
+   - Highlight what they gain (capability proof, market signal, customer relationship, case study)
+   - Attach or link to the technical pitch PDF
+   - Include a simple LOI template (one paragraph, non-binding commitment to scoping call)
+   - Propose kickoff call in Week of Sept 9, 2026
+   - Use tone: professional, specific, collaborative, ambitious but achievable (not sales pitch)
+
+4. Send emails to:
+   - **Iluka Resources**: investor.relations@iluka.com (or primary contact if available)
+   - **Australian Rare Earths Ltd + ANSTO**: contact@australianrareearths.com + ANSTO critical minerals contact
+   - **Liquid Instruments**: partnerships@liquidinstruments.com (or CEO/BD contact)
+
+5. CC: teraustralis.incognita@gmail.com (for record)
+
+CUSTOMIZATION GUIDANCE
+All three companies work on the same six-component suite, but different emphasis per company:
+
+**For Iluka:**
+- Emphasize: mineral-stage titanium feedstock role matching the onshore one-pager (not REE; not an existing partnership claim)
+- Their timeline: Weeks 1–2 (feedstock pathway scoped)
+- Their components: Ti pathway for chamber + nozzle (HEA-POC-04A/B) only
+- Benefit: Downstream demand signal + case study; co-development scoping call — no partnership / exclusivity language
+- DO NOT: attribute rare-earth dopants, CVD precursors, or CMC dopants to Iluka
+
+**For Australian Rare Earths + ANSTO:**
+- Emphasize: pilot-scale processing capability across THREE material classes (Ti alloying, rare-earth doped ceramics, CVD diamond/NV-center doping); validates June 2026 facility launch with multi-domain capability
+- Their timeline: Weeks 2–7 (Ti synthesis + CMC liner processing + diamond CVD growth + characterization, run in parallel)
+- Their components: Rare-earth doped Ti-6Al-4V ingot (chamber + nozzle stock); rare-earth doped CMC thermal liner; three CVD diamond components (spreader, resonator, RF window) with characterization data
+- Benefit: First real customer in quantum materials AND advanced ceramics; positions facility as source for aerospace metallurgy, thermal ceramics, and quantum tech simultaneously
+
+**For Liquid Instruments:**
+- Emphasize: NRFC investment delivers across a COMPLETE engine assembly (not just one part) plus quantum/RF diamond components; demonstrates onshore capability spanning pressure-vessel structures, ceramic bonding, and emerging quantum/RF tech
+- Their timeline: Weeks 6–13 (chamber + nozzle machining, CMC liner bonding, diamond polishing, full engine integration, dimensional inspection, test prep — run in parallel)
+- Their components: Combustion chamber + nozzle machining and weld/joint integrity; CMC liner fit/bonding; diamond spreader polishing (>5000 W/m·K); RF window processing (<0.1dB loss); resonator Q-factor tuning; final six-component/three-part-assembly integration
+- Benefit: Case study spanning propulsion hardware (full engine assembly) AND quantum/RF/communications; positions company as a complete-systems integrator, not just a parts machinist; leverages NRFC investment across both frontiers
+
+CONTENT TO INCLUDE IN EACH EMAIL
+1. Opening: "We're coordinating a six-component proof-of-concept…" (three diamond components + a complete three-part engine assembly)
+2. Component overview (table or brief list):
+   - CVD diamond thermal spreader (satellite heat dissipation)
+   - CVD diamond frequency resonator (atomic clock / quantum timing)
+   - CVD diamond RF window (satellite communications)
+   - Combustion chamber (main engine pressure structure)
+   - Nozzle insert (throat/exit thermal structure)
+   - Ceramic matrix composite thermal liner (chamber/nozzle thermal protection)
+3. Supply chain narrative: "All six components flow through a single Australian onshore pipeline…"
+4. Their specific role (customized from section above)
+5. Timeline (13 weeks, Sept–Dec 2026)
+6. What they get: working components (including a real assembled engine) + supply-chain case study + attestation document + government briefing capability
+7. LOI template: "We commit to a 1-hour scoping call in Week of Sept 9 to evaluate participation"
+8. Next steps: "If you're interested, please respond with your availability for a kickoff call"
+9. Attachment: specs/small-council-phase-2-technical-pitch.md (or as PDF if possible)
+
+GROUNDING
+All three companies are real and publicly documented:
+- Iluka Resources (ASX: ILU): Australian mineral-sands / titanium feedstock producer (canon one-pager mineral stage)
+- Australian Rare Earths Ltd (ASX: AR3) + ANSTO: June 2026 pilot-scale facility launch announced; AR3 already named as first partner
+- Liquid Instruments: $28.45M NRFC investment (Sept 2026 public announcement), explicitly cited by Australian Space Agency
+
+Source: mythos/teraustralis/publish/onshore-chain-one-pager.md (verified Sept 3, 2026)
+
+SUCCESS CRITERIA FOR OUTREACH
+- All three briefing emails drafted and sent by Sept 6, 2026
+- Each email includes LOI template and kickoff-call proposal
+- Each email is customized (different emphasis per company, their components/timeline clearly stated)
+- Each email makes clear the engine assembly is a real three-part integrated system, not a single part
+- Record of sends in teraustralis.incognita@gmail.com inbox
+- Return to Crystal with: (a) email transcripts, (b) LOI responses, (c) company feedback/questions summary, (d) confirmed dates for kickoff calls
+
+TONE GUIDANCE
+- Collaborative, specific, ambitious but achievable
+- Professional but not corporate-speak
+- Emphasize: real hardware, real companies, real supply chain, auditable proof, a genuinely assembled engine (not a token part)
+- Do NOT: oversell, promise beyond 13 weeks, use "partnership" language, imply government involvement yet
+
+DO NOT
+- Invent company interests or benefits not stated here
+- Promise anything beyond this 13-week PoC
+- Imply government endorsement or certification (we are not seeking that in Phase 2)
+- Use language like "partnership" or "collaboration agreement" — use "co-development", "technical engagement", or "proof-of-concept"
+- Mention pricing, investment, IP ownership, or exclusivity in the initial briefing
+- Describe the engine assembly as just "a nozzle" — it is a chamber + liner + nozzle system
+
+QUESTIONS FOR GROK BOT
+If you need clarification on any company's role, timeline, components, or what to emphasize, ask before drafting. Otherwise, proceed with drafting all three emails and send when ready.
+
+---
+
+
+
+ACCURACY OVERRIDE (Crystal 2026-09-05)
+- Mineral company is Iluka Resources (ASX: ILU), NOT Lynas. Match onshore-chain-one-pager.md.
+- Chain is a proposed sourcing narrative connecting independently real companies — not a reported partnership.
+- Draft emails for Crystal review only. Do not send until approved.
+- Do not invent Iluka rare-earth / CVD / CMC dopant supply.
+
+Ready when you are. Hand this briefing to Grok Bot and report back with send confirmations and any company responses.

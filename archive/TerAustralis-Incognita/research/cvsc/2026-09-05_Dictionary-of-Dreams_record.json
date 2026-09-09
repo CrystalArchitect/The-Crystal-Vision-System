@@ -1,0 +1,66 @@
+{
+  "accession": "2026-09-05",
+  "codex": "Codex Crystalum",
+  "holding_id": "CC-EXT-001",
+  "status": "citation",
+  "canon": false,
+  "github_pushed": false,
+  "title": "The Dictionary of Dreams: Every Meaning Interpreted",
+  "subtitle": "Every Meaning Interpreted",
+  "series": "Complete Illustrated Encyclopedia",
+  "authors_contributors": [
+    "Gustavus Hindman Miller (core A–Z dictionary)",
+    "Sigmund Freud (selections from The Interpretation of Dreams)",
+    "Henri Bergson (selections from “Dreams”)",
+    "Linda Shields (Foreword)",
+    "Prudence J. M. Theriault (Top-Ten Common Dreams section)"
+  ],
+  "publisher": "Wellfleet Press (imprint of The Quarto Group)",
+  "publication_year": 2017,
+  "isbn_13": "978-1-57715-156-2",
+  "pages": 528,
+  "format": "Illustrated hardcover / flexibound reference",
+  "language": "English",
+  "genre": ["Self-help", "Dreams", "Symbolism", "Psychology", "Spirituality"],
+  "original_price": {
+    "USD": 22.99,
+    "GBP": 14.99,
+    "CAD": 29.99
+  },
+  "description": "A practical illustrated dream-interpretation reference combining classic texts with a heavily updated A–Z dictionary of dream symbols. Expanded and modernized from Gustavus Hindman Miller’s 1901 classic 10,000 Dreams Interpreted, with contemporary additions (cell phones, computers, televisions, etc.). Claims coverage of more than 15,000 dream symbols.",
+  "table_of_contents": {
+    "Foreword": {"author": "Linda Shields", "page": 6},
+    "Introduction": {"page": 8},
+    "PART I: UNDERSTANDING DREAMS": {
+      "start_page": 11,
+      "sections": [
+        "The Top-Ten Most Common Dreams and Their Meanings (by Prudence J. M. Theriault)",
+        "Selections from “Dreams” (Henri Bergson)",
+        "Selections from The Interpretation of Dreams (Sigmund Freud)"
+      ]
+    },
+    "PART II: KEEPING A DREAM JOURNAL": {
+      "start_page": 35,
+      "sections": ["How to Keep a Dream Journal"]
+    },
+    "PART III: DREAM SYMBOL DICTIONARY": {
+      "start_page": 43,
+      "sections": [
+        "Introduction to Dream Symbols (from Miller’s original preface)",
+        "A–Z Dictionary of Dream Symbols (updated/revised Miller)"
+      ]
+    },
+    "Contributor Biographies": {"page": 520},
+    "Index": {"page": 522}
+  },
+  "key_features": [
+    "Classic theoretical excerpts (Freud + Bergson)",
+    "Practical dream journaling guide",
+    "Analysis of the 10 most common dreams",
+    "Large modernized A–Z symbol dictionary",
+    "Decorative celestial illustrations throughout"
+  ],
+  "notes": "Not a pure reprint of Miller’s 1901 book. Expanded, revised, and modernized compilation. Physical copy shown is a library edition (Campbelltown City Library). Do not rehouse copyrighted dictionary text.",
+  "cvsc_domains": ["05_DREAMLINES", "13_RESEARCH_SOURCES"],
+  "physical_copy": "Campbelltown City Library edition"
+}

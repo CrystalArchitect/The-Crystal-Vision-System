@@ -1,0 +1,98 @@
+# Anchor the creative-work manifest to Bitcoin, from a phone.
+#
+# The environment this tooling was written in cannot reach the OpenTimestamps
+# calendars — its network policy answers 403 to CONNECT on all four pools.
+# GitHub's runners can. So the stamping happens here, triggered by a tap in a
+# browser, and the proof is committed back automatically. No terminal, no
+# laptop, nothing to type.
+#
+# To run it: Actions tab -> "Stamp the manifest" -> Run workflow.
+#
+# Free. No wallet, no token, no cryptocurrency touched at any point. See
+# docs/governance/PROVENANCE-TIMESTAMPS.md for what the proof does and does
+# not demonstrate.
+name: Stamp the manifest
+
+on:
+  workflow_dispatch:
+  # A fresh proof is incomplete until the Bitcoin block it depends on is mined.
+  # This re-runs weekly to upgrade it, and does nothing once it is complete.
+  schedule:
+    - cron: "17 4 * * 1"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stamp-manifest
+  cancel-in-progress: false
+
+jobs:
+  stamp:
+    name: Stamp or upgrade
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install the OpenTimestamps client
+        run: pip install --quiet opentimestamps-client
+
+      # Refuses to proceed if the manifest no longer matches the files, so a
+      # proof is never anchored to a record that has drifted from the work.
+      - name: Check the manifest is current
+        run: python3 mythos/tools/provenance.py --check
+
+      # A proof attests one exact manifest. Upgrading a proof that attests a
+      # different one would refresh evidence for work that has moved on and
+      # leave the repository looking anchored when it is not. provenance.py
+      # archives superseded proofs when the manifest changes; this is the
+      # second line, in case a manifest ever changes some other way.
+      - name: Stamp, or upgrade the proof if it still matches
+        run: |
+          CURRENT=$(sha256sum mythos/MANIFEST.sha256 | awk '{print $1}')
+          if [ ! -e mythos/MANIFEST.sha256.ots ]; then
+            echo "No proof yet - stamping $CURRENT"
+            ots stamp mythos/MANIFEST.sha256
+            exit 0
+          fi
+          ATTESTED=$(ots info mythos/MANIFEST.sha256.ots | sed -n 's/^File sha256 hash: //p')
+          if [ "$ATTESTED" = "$CURRENT" ]; then
+            echo "Proof matches the manifest - upgrading it."
+            ots upgrade mythos/MANIFEST.sha256.ots || true
+          else
+            echo "::error::The proof attests $ATTESTED but the manifest is $CURRENT."
+            echo "The manifest changed without the old proof being archived."
+            echo "Run: python3 mythos/tools/provenance.py  (it archives the pair)"
+            exit 1
+          fi
+
+      - name: Verify, for the log
+        run: ots verify mythos/MANIFEST.sha256.ots || true
+
+      - name: Stage any archived proofs too
+        run: git add -A mythos/proofs 2>/dev/null || true
+
+      - name: Commit the proof if it changed
+        run: |
+          git add -A mythos/MANIFEST.sha256.ots
+          if git diff --cached --quiet; then
+            echo "Proof unchanged - nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -F - <<'MSG'
+          Anchor the manifest to Bitcoin
+
+          Proof written by the stamp workflow. It covers every file listed in
+          mythos/MANIFEST.sha256 as at this commit, and demonstrates that those
+          exact bytes existed no later than the Bitcoin block it references.
+
+          It does not demonstrate who made them, or that they are original.
+          See docs/governance/PROVENANCE-TIMESTAMPS.md.
+          MSG
+          git push

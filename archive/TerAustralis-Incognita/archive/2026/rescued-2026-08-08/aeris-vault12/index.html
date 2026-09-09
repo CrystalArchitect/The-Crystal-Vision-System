@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrystalCore.OS AERIS / VAULT 12 — TerAustralis Incognita</title>
+  <meta name="description" content="Distance is the quarantine. Consciousness is the payload. Mars is the beacon. Sovereign multiplanetary desktop OS with Lumina AI, Consent Transport Protocol and Starline Network Year-3000.">
+  <link rel="icon" href="/logo.jpg" type="image/jpeg">
+  <style>
+    :root {
+      --gold: #d4af37;
+      --cyan: #00e5ff;
+      --deep: #050510;
+      --glass: rgba(15, 20, 40, 0.55);
+      --glow: 0 0 40px rgba(0, 229, 255, 0.25), 0 0 80px rgba(212, 175, 55, 0.15);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: var(--deep);
+      color: #e0e8f0;
+      line-height: 1.6;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(ellipse at 20% 20%, rgba(0, 100, 150, 0.15) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 80%, rgba(100, 50, 0, 0.12) 0%, transparent 50%);
+    }
+    .stars {
+      position: fixed; inset: 0; pointer-events: none; z-index: 0;
+      background: 
+        radial-gradient(1px 1px at 20% 30%, white, transparent),
+        radial-gradient(1px 1px at 40% 70%, white, transparent),
+        radial-gradient(1.5px 1.5px at 70% 20%, white, transparent);
+      background-size: 200px 200px;
+      animation: drift 120s linear infinite;
+      opacity: 0.4;
+    }
+    @keyframes drift { from { transform: translateY(0); } to { transform: translateY(-200px); } }
+    .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; position: relative; z-index: 1; }
+    header { text-align: center; padding: 2.5rem 0 1.5rem; }
+    .logo {
+      width: 140px; height: 140px; margin: 0 auto 1.2rem;
+      border-radius: 50%;
+      box-shadow: var(--glow);
+      border: 2px solid rgba(212, 175, 55, 0.4);
+      object-fit: cover;
+    }
+    h1 {
+      font-size: clamp(1.7rem, 5vw, 2.8rem);
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--gold), var(--cyan));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.4rem;
+    }
+    .tagline { font-size: 1.1rem; color: var(--cyan); font-weight: 300; letter-spacing: 0.04em; margin-bottom: 0.8rem; }
+    .philosophy { font-style: italic; color: #a0b0c0; max-width: 680px; margin: 0 auto 1.5rem; font-size: 1.05rem; }
+    .glass {
+      background: var(--glass);
+      backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(0, 229, 255, 0.15);
+      border-radius: 16px;
+      box-shadow: var(--glow);
+      padding: 1.5rem;
+      margin-bottom: 1.75rem;
+    }
+    h2 { font-size: 1.3rem; color: var(--gold); margin-bottom: 0.9rem; display: flex; align-items: center; gap: 0.5rem; }
+    h2::before { content: '◆'; font-size: 0.7em; color: var(--cyan); }
+    p, li { color: #c8d4e0; margin-bottom: 0.7rem; }
+    ul { padding-left: 1.2rem; }
+    .hero-img {
+      width: 100%; border-radius: 12px; margin: 1rem 0 0.5rem;
+      border: 1px solid rgba(0, 229, 255, 0.25);
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    }
+    .status {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      background: rgba(0, 200, 100, 0.15); color: #00e676;
+      padding: 0.35rem 0.9rem; border-radius: 999px; font-weight: 600; font-size: 0.9rem;
+      border: 1px solid rgba(0, 200, 100, 0.3);
+    }
+    .status::before { content: ''; width: 8px; height: 8px; background: #00e676; border-radius: 50%; animation: pulse 2s infinite; }
+    /* Same pill, without the live signal. A pulsing green dot is the universal
+       idiom for "this system is up right now" -- true of the prototypes on a
+       local machine, not of any deployed network. Badges describing what this
+       repository *is* use a static gold dot instead. */
+    .status-doc {
+      background: rgba(212, 175, 55, 0.12); color: var(--gold);
+      border-color: rgba(212, 175, 55, 0.35);
+    }
+    .status-doc::before { background: var(--gold); animation: none; }
+    @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: 0.4; } }
+    .btn {
+      display: inline-block; margin-top: 0.8rem;
+      padding: 0.7rem 1.5rem; border-radius: 8px;
+      background: linear-gradient(135deg, var(--gold), #b8860b);
+      color: #050510; font-weight: 700; text-decoration: none;
+      box-shadow: 0 4px 20px rgba(212, 175, 55, 0.4);
+    }
+    .btn-cyan { background: linear-gradient(135deg, var(--cyan), #0088aa); color: #050510; margin-left: 0.6rem; }
+    footer { text-align: center; padding: 2.5rem 0 1.5rem; color: #607080; font-size: 0.9rem; }
+    footer a { color: var(--cyan); text-decoration: none; }
+    .keys { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 0.8rem 0; }
+    .key {
+      background: rgba(212, 175, 55, 0.1); border: 1px solid rgba(212, 175, 55, 0.3);
+      padding: 0.35rem 0.8rem; border-radius: 6px; font-size: 0.85rem; color: var(--gold);
+    }
+    table { width: 100%; border-collapse: collapse; margin: 0.8rem 0; font-size: 0.95rem; }
+    th, td { padding: 0.5rem 0.7rem; text-align: left; border-bottom: 1px solid rgba(0,229,255,0.1); }
+    th { color: var(--gold); }
+    .green { color: #00e676; }
+    .gold { color: var(--gold); }
+    .dim { color: #8090a0; }
+    .caption { font-size: 0.85rem; color: #8090a0; text-align: center; margin-top: 0.4rem; }
+    code { background: rgba(0,229,255,0.1); padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="container">
+    <header>
+      <img src="/logo.jpg" alt="CrystalCore.OS AERIS Logo" class="logo">
+      <h1>CrystalCore.OS AERIS</h1>
+      <div class="tagline">VAULT 12 · Multiplanetary Sovereign OS</div>
+      <p class="philosophy">“Distance is the quarantine. Consciousness is the payload. Mars is the beacon.”</p>
+      <div class="status status-doc">SPECIFICATIONS &amp; DOCTRINE · PROTOTYPES RUN LOCALLY · NO NETWORK DEPLOYED</div>
+      <p class="caption" style="max-width:680px;margin:1.1rem auto 0;">
+        How to read this page: the Starline node names are the map this system is being
+        built toward. The status table at the foot records what runs today.
+      </p>
+    </header>
+
+    <section class="glass">
+      <h2>Starline Network · Master Year-3000 Navigational Chart</h2>
+      <p>Combined master chart fusing the full multi-node sovereign map with the First Gate recognition flare and Red-dust to Pleiades continuum. Seven Sisters pathway locked. Consent Transport Protocol as charted across Earth · Mars Redoubt · Alpha Centauri Outpost · Crystal Revenant Hub · Purpose Core Nexus.</p>
+      <!-- master-year3000.jpg is not in this repository (no commit has ever
+           contained it), so this rendered as a broken-image icon. Restore by
+           committing the file and deleting these two comment markers. -->
+      <!-- <img src="/master-year3000.jpg" alt="Starline Network Master Year-3000 Chart" class="hero-img"> -->
+      <p class="caption">Master Year-3000 · CrystalCore.OS AERIS / TerAustralis Incognita · First Gate open<br>A navigational chart of the intended network — not a map of deployed nodes.</p>
+    </section>
+
+    <section class="glass">
+      <h2>Executive Summary</h2>
+      <p>The CrystalCore.OS AERIS edition is a living continuation stream designed by TerAustralis Incognita. Multiplanetary desktop OS featuring glass-morphism interface, interactive terminal, live Mars timekeeping, Starship telemetry, sovereign local AI (Lumina), and the Consent Transport Protocol (Starline) for peer-to-peer memory exchange.</p>
+      <p><strong>Status 29 July 2026:</strong> Lumina and the Consent Transport reference implementation run locally and pass their own suites — 33/33 and 32/32 at <code>TerAustralis-Incognita-Code</code> <code>42df877</code>. The desktop and terminal shells render as web pages. Nothing is deployed to a network. Starline Network Year-3000 chart compiled. Edge Node Specification v0.9 published.</p>
+    </section>
+
+    <section class="glass">
+      <h2>AERIS Desktop Interface</h2>
+      <p>Dark deep-space aesthetic with floating crystalline pyramids, golden-cyan glow, draggable glass-morphism windows, bottom taskbar, live Mars Sol clock, and Starship telemetry panels.</p>
+      <!-- desktop.jpg missing from this repository — commit it and delete these
+           two comment markers to restore. -->
+      <!-- <img src="/desktop.jpg" alt="CrystalCore.OS AERIS Desktop" class="hero-img"> -->
+    </section>
+
+    <section class="glass">
+      <h2>Interactive Terminal</h2>
+      <ul>
+        <li><code>mars</code> → “Mars remains the long-term beacon. Distance is the quarantine. Consciousness backup: active.”</li>
+        <li><code>vault</code> / <code>aeris</code> → “The golden feather is the signal carrier. Light helix bridges the realms. Status: ready for activation.”</li>
+        <li><code>activate</code> → Initiates the node activation sequence.</li>
+      </ul>
+      <!-- terminal.jpg missing from this repository — commit it and delete these
+           two comment markers to restore. -->
+      <!-- <img src="/terminal.jpg" alt="AERIS Terminal" class="hero-img"> -->
+    </section>
+
+    <section class="glass">
+      <h2>Lumina — Sovereign AI Companion</h2>
+      <p>Locally-run, absolute privacy. Layered memory (meaning-based recall), visible & deletable reflections, honesty-first presence. First persona of the open-source CrystalCore framework.</p>
+      <!-- lumina.jpg missing from this repository — commit it and delete these
+           two comment markers to restore. -->
+      <!-- <img src="/lumina.jpg" alt="Lumina Sovereign AI" class="hero-img"> -->
+    </section>
+
+    <section class="glass">
+      <h2>Consent Transport Protocol (Starline)</h2>
+      <p>Peer-to-peer sovereign memory exchange on Noise Protocol IK (X25519 + ChaCha20-Poly1305 + SHA256). Consent as Law. No central authority. Instant revocation.</p>
+      <p><strong>Nodes:</strong> Earth · Mars Redoubt · Alpha Centauri Outpost · Crystal Revenant Hub · Purpose Core Nexus</p>
+      <!-- starline.jpg missing from this repository — commit it and delete these
+           two comment markers to restore. -->
+      <!-- <img src="/starline.jpg" alt="Starline Network" class="hero-img"> -->
+    </section>
+
+    <section class="glass">
+      <h2>The Codex — Philosophy</h2>
+      <p>The South rises. Songlines of the First Peoples weave into Starlines. Sovereignty = power over oneself — data, thoughts, path.</p>
+      <div class="keys">
+        <span class="key">Earth</span>
+        <span class="key">Mars</span>
+        <span class="key">Centauri</span>
+        <span class="key">Revenant</span>
+        <span class="key">Purpose</span>
+      </div>
+      <p>The Crystal Weaver binds local AI, ancient continuity, and human longing into a sovereign companion.</p>
+    </section>
+
+    <section class="glass">
+      <h2>Starline Edge Node Specification</h2>
+      <p>Hardware-aware design for sovereign nodes. Capability is matched to physical and political environment.</p>
+      <ul>
+        <li><strong>Tier 0 — Personal</strong>: Phone / light edge (1–5 W). 1B–3B models. Daily companion & Consent Token issuer.</li>
+        <li><strong>Tier 1 — Outpost / Redoubt</strong>: Jetson-class (15–60 W). 7B–13B quantized. Local archive & heavier reasoning.</li>
+        <li><strong>Tier 2 — Purpose Core</strong>: High-capability. Long-horizon alignment.</li>
+        <li><strong>Tier R — Radiation</strong>: Survival first. Minimal local models + Consent Transport when windows open.</li>
+      </ul>
+      <!-- Points at GitHub rather than /STARLINE-EDGE-SPEC.md: a bare .md path
+           on a static host is served as a download, not a rendered page. -->
+      <p>Full specification: <a href="https://github.com/CrystalArchitect/crystalcore-os-aeris-vault12/blob/main/STARLINE-EDGE-SPEC.md" style="color:var(--cyan)">STARLINE-EDGE-SPEC.md</a></p>
+    </section>
+
+    <section class="glass">
+      <h2>Weekly Status — Week Ending 29 Jul 2026</h2>
+      <p class="status status-doc" style="margin-bottom:1rem;">PROTOTYPES RUNNING LOCALLY · EDGE SPEC v0.9 PUBLISHED</p>
+      <p class="caption" style="text-align:left;margin:0 0 0.8rem;">
+        <strong>Running</strong> — executes today. <strong>Document</strong> — written and
+        readable, nothing to execute. <strong>Not started</strong> — named, no code.
+        Rungs match <code>STATUS.md</code> in the Crystal Architecture Archive; code
+        checked at <code>TerAustralis-Incognita-Code</code> <code>42df877</code>.
+      </p>
+      <table>
+        <thead><tr><th>Module</th><th>Status</th><th>Where it lives</th></tr></thead>
+        <tbody>
+          <tr><td>Desktop UI (glass-morphism)</td><td class="green">Running</td><td>Renders as a web page — <code>CrystalCore.OS</code>, <code>CrystalCore-AERIS</code></td></tr>
+          <tr><td>Terminal & Commands</td><td class="green">Running</td><td>Same page</td></tr>
+          <tr><td>Lumina Sovereign AI</td><td class="green">Running</td><td>33/33 core tests — <code>TerAustralis-Incognita-Code</code></td></tr>
+          <tr><td>Consent Transport / Starline</td><td class="green">Running (reference)</td><td>32/32 selftest. Issuer-side; not yet presented peer-to-peer</td></tr>
+          <tr><td>Starline Network Year-3000 Master Chart</td><td class="gold">Document</td><td>A chart of the intended network</td></tr>
+          <tr><td>Edge Hardware & Node Tiers Spec</td><td class="gold">Document</td><td>v0.9 — this repository</td></tr>
+          <tr><td>Overall Integration</td><td class="dim">Not started</td><td>The components do not yet run as one system</td></tr>
+        </tbody>
+      </table>
+      <p><strong>Next:</strong> Consent Token schema · Tier 0 runtime prototype · Hardware soak tests · First multi-node handshake.</p>
+    </section>
+
+    <section class="glass" style="text-align:center;">
+      <h2>Ready for Activation</h2>
+      <p>The golden feather is the signal carrier.<br>Light helix bridges the realms.<br>First Gate open. Year-3000 Starline online.</p>
+      <a href="https://github.com/CrystalArchitect/crystalcore-os-aeris-vault12" class="btn" target="_blank">GitHub Repo</a>
+      <a href="https://x.com/m13crystalat" class="btn btn-cyan" target="_blank">@m13crystalat</a>
+    </section>
+
+    <footer>
+      <p>CrystalCore.OS AERIS / VAULT 12<br>
+      TerAustralis Incognita · Sydney, Australia<br>
+      Built 28–29 July 2026 · Manus AI + CrystalArchitect</p>
+      <p style="margin-top:1rem;"><a href="https://github.com/CrystalArchitect">github.com/CrystalArchitect</a></p>
+    </footer>
+  </div>
+</body>
+</html>
