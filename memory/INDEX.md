@@ -5,6 +5,13 @@ Load CORE, then only the row you need.
 | Topic | Where | Status |
 | --- | --- | --- |
 | This repo | https://github.com/CrystalArchitect/The-Crystal-Vision-System | connective layer. Do not merge other repos |
+| This repo's memory protocol | [`memory/README.md`](README.md) | scope note: distinct from `archive/*/memory/` |
+| This repo's decisions | [`memory/DECISIONS.md`](DECISIONS.md) | consolidation + `/generate` endpoint |
+| This repo's milestones | [`memory/MILESTONES.md`](MILESTONES.md) | dated, newest first |
+| This repo's open gates | [`memory/OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md) | includes repo-deletion gate |
+| This repo's privacy floor | [`memory/PRIVACY.md`](PRIVACY.md) | never write secrets/keys here |
+| Monorepo inventory | [`MONOREPO-INDEX.md`](../MONOREPO-INDEX.md) | 20 repos imported, 5 excluded |
+| Three-tier `/generate` design | [`archive/CrystalCore-OS/docs/architecture/THREE-TIER-GENERATE.md`](../archive/CrystalCore-OS/docs/architecture/THREE-TIER-GENERATE.md) | local+cloud Built, webllm Vision |
 | CVSC locked root | https://drive.google.com/drive/folders/1mc0RvTCg3d94WcYIot2pLKoiHQb8nBnX | primary archive |
 | Duplicate Drive root | 1EAaX0gWuzDGOwVCOeWLDaUUu0ISQ1hII | do not merge, do not delete |
 | Paste card | docs/PASTE-THIS.md | what to put in the next AI |
