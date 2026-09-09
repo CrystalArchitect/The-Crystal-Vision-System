@@ -1,0 +1,9 @@
+{
+  "name": "crystalcore-starlines-and-dreamlines",
+  "private": true,
+  "type": "module",
+  "description": "Static demo shell. This file declares ES modules so node --test can read celestial/*.js; it adds no dependencies and no build step, and the site is still opened by pointing a browser at index.html.",
+  "scripts": {
+    "test": "node --test celestial/*.test.js"
+  }
+}
