@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>The Plate Archive, Volume III — CrystalVision</title>
+<style>
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/ibm-plex-mono.woff2) format('woff2');}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 600;font-display:swap;src:url(../fonts/ibm-plex-sans.woff2) format('woff2');}
+@font-face{font-family:'Newsreader';font-style:italic;font-weight:400;font-display:swap;src:url(../fonts/newsreader-italic.woff2) format('woff2');}
+@font-face{font-family:'Newsreader';font-style:normal;font-weight:400 600;font-display:swap;src:url(../fonts/newsreader.woff2) format('woff2');}
+:root{
+  --ink:#0b0a12; --surface:#14121f; --surface-2:#1b1827; --rule:#2a2640;
+  --fg:#e8e6f0; --muted:#9a96ad; --silver:#c5c9d6;
+  --gold:#d4b56a; --violet:#7b6cff; --ochre:#d1603a;
+  --shadow:0 18px 50px -22px rgba(0,0,0,.85);
+  --paper-edge:rgba(232,230,240,.14);
+  /* The stamp sits over an image of unknown colour, so it carries its own
+     backing. It has to flip with the theme: --silver goes dark in the light
+     theme, and on a fixed dark backing that put SURVEYED at 1.83:1. */
+  --stamp-bg:rgba(11,10,18,.72);
+  --serif:'Newsreader',Georgia,'Times New Roman',serif;
+  --sans:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  --s1:.5rem; --s2:1rem; --s3:1.75rem; --s4:3rem; --s5:5rem; --s6:8rem;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    --ink:#edebf3; --surface:#fff; --surface-2:#f6f4fa; --rule:#d6d1e4;
+    --fg:#17141f; --muted:#5b5670; --silver:#3d3a4d;
+    --gold:#7a5c15; --violet:#4a37d6; --ochre:#a8401c;
+    --shadow:0 16px 40px -24px rgba(23,20,31,.4);
+    --paper-edge:rgba(23,20,31,.16);
+    --stamp-bg:rgba(255,255,255,.86);
+  }
+}
+:root[data-theme="light"]{
+  --ink:#edebf3; --surface:#fff; --surface-2:#f6f4fa; --rule:#d6d1e4;
+  --fg:#17141f; --muted:#5b5670; --silver:#3d3a4d;
+  --gold:#7a5c15; --violet:#4a37d6; --ochre:#a8401c;
+  --shadow:0 16px 40px -24px rgba(23,20,31,.4);
+  --paper-edge:rgba(23,20,31,.16);
+  --stamp-bg:rgba(255,255,255,.86);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+body{
+  margin:0; background:var(--ink); color:var(--fg);
+  font-family:var(--sans); font-size:1rem; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+img,video{max-width:100%;display:block}
+a{color:var(--violet);text-underline-offset:.18em}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
+
+.page{max-width:1180px;margin:0 auto;padding:var(--s5) 1.25rem var(--s4)}
+.prose{max-width:68ch}
+.eyebrow{
+  font-family:var(--mono); font-size:.75rem; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--muted); margin:0 0 var(--s3);
+}
+
+/* ---------- masthead ---------- */
+.masthead{display:flex;flex-direction:column;gap:var(--s3);margin-bottom:var(--s5)}
+h1{
+  font-family:var(--serif); font-weight:600; font-size:clamp(2.5rem,7vw,4.6rem);
+  line-height:1.02; letter-spacing:-.02em; margin:0; text-wrap:balance; color:var(--fg);
+}
+h1 em{font-style:italic;color:var(--gold)}
+.deck{font-size:clamp(1.05rem,1.7vw,1.3rem);color:var(--silver);margin:0;max-width:60ch}
+.deck strong{color:var(--fg);font-weight:600}
+
+.law{
+  margin:0; padding:var(--s3) 0 var(--s3) var(--s3);
+  border-left:2px solid var(--ochre); max-width:62ch;
+}
+.law p{
+  font-family:var(--serif); font-style:italic; font-size:clamp(1.2rem,2.2vw,1.55rem);
+  line-height:1.4; margin:0 0 var(--s2); color:var(--fg); text-wrap:balance;
+}
+.law cite{
+  font-family:var(--mono); font-style:normal; font-size:.75rem;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--ochre);
+}
+
+/* ---------- not-this panel ---------- */
+.notice{
+  background:var(--surface); border:1px solid var(--rule); border-radius:6px;
+  padding:var(--s3); margin-bottom:var(--s6);
+}
+.notice h2{
+  font-family:var(--mono); font-size:.75rem; letter-spacing:.16em; text-transform:uppercase;
+  color:var(--ochre); margin:0 0 var(--s2); font-weight:500;
+}
+.notice ul{margin:0;padding-left:1.1rem;display:flex;flex-direction:column;gap:.4rem}
+.notice li{color:var(--silver);font-size:.95rem}
+.notice li strong{color:var(--fg);font-weight:600}
+
+/* ---------- sections ---------- */
+.sect{margin-bottom:var(--s6)}
+.sect-head{
+  display:flex;flex-direction:column;gap:var(--s2);
+  padding-top:var(--s3); border-top:1px solid var(--rule); margin-bottom:var(--s4);
+}
+.sect-num{
+  font-family:var(--mono); font-size:.75rem; letter-spacing:.2em;
+  color:var(--violet); text-transform:uppercase;
+}
+.sect-head h2{
+  font-family:var(--serif); font-weight:600; font-size:clamp(1.9rem,4vw,2.9rem);
+  line-height:1.08; margin:0; letter-spacing:-.015em; color:var(--gold); text-wrap:balance;
+}
+.sect-lede{margin:0;color:var(--silver);max-width:64ch;font-size:1.02rem}
+
+.plates{display:flex;flex-direction:column;gap:var(--s5)}
+
+/* ---------- plate ---------- */
+.plate{display:flex;flex-direction:column;gap:var(--s3)}
+.frame{
+  position:relative; background:var(--surface-2);
+  border:1px solid var(--paper-edge); border-radius:4px;
+  overflow:hidden; box-shadow:var(--shadow);
+}
+.frame img,.frame video{width:100%;height:auto}
+.stamp{
+  position:absolute; top:.75rem; left:.75rem; z-index:2;
+  font-family:var(--mono); font-size:.625rem; font-weight:500;
+  letter-spacing:.22em; text-transform:uppercase; color:var(--ochre);
+  border:1px solid var(--ochre); border-radius:2px;
+  padding:.3rem .55rem; background:var(--stamp-bg);
+  backdrop-filter:blur(6px);
+}
+.caption{display:grid;grid-template-columns:minmax(0,1fr);gap:var(--s3)}
+@media (min-width:820px){
+  .caption{grid-template-columns:minmax(0,20rem) minmax(0,1fr);gap:var(--s4)}
+}
+.plate-id{
+  font-family:var(--mono); font-size:.75rem; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--violet); margin:0 0 .4rem;
+}
+.plate h3{
+  font-family:var(--serif); font-weight:600; font-size:1.55rem; line-height:1.15;
+  margin:0 0 .3rem; letter-spacing:-.01em; color:var(--fg); text-wrap:balance;
+}
+.plate-sub{font-family:var(--serif);font-style:italic;color:var(--muted);margin:0 0 var(--s3);font-size:1.02rem}
+.rail{margin:0;font-family:var(--mono);font-size:.78rem;line-height:1.5}
+.rail div{
+  display:grid; grid-template-columns:4.6rem minmax(0,1fr); gap:.75rem;
+  padding:.45rem 0; border-top:1px solid var(--rule);
+}
+.rail dt{color:var(--muted);letter-spacing:.1em;text-transform:uppercase;font-size:.68rem;padding-top:.12em}
+.rail dd{margin:0;color:var(--silver);overflow-wrap:anywhere}
+.rail .belt{color:var(--gold)}
+.rail .marks{color:var(--ochre)}
+.reading{display:flex;flex-direction:column;gap:var(--s2)}
+.reading p{margin:0;color:var(--silver)}
+.reading p:first-child{color:var(--fg);font-size:1.06rem}
+.reading strong{color:var(--gold);font-weight:600}
+.reading em{font-family:var(--serif);font-style:italic;font-size:1.05em}
+
+/* ---------- footer ---------- */
+.foot{
+  border-top:1px solid var(--rule); padding-top:var(--s3);
+  display:flex; flex-direction:column; gap:var(--s2);
+  font-size:.88rem; color:var(--muted);
+}
+.foot p{margin:0;max-width:70ch}
+.foot .marks-note{font-family:var(--mono);font-size:.72rem;line-height:1.7;letter-spacing:.02em}
+.foot strong{color:var(--silver);font-weight:500}
+
+/* ---------- reveal ---------- */
+.rev{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}
+.rev.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  .rev{opacity:1;transform:none;transition:none}
+  *{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+
+.backlink{
+  font-family:var(--mono); font-size:.78rem; letter-spacing:.04em;
+  padding:.7rem 0; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+  color:var(--muted);
+}
+.backlink a{color:var(--gold)}
+.flag{
+  border:1px solid var(--ochre); border-left-width:3px; border-radius:4px;
+  background:var(--surface); padding:var(--s3); margin-top:var(--s2); max-width:68ch;
+}
+.flag h3{
+  font-family:var(--mono); font-size:.7rem; letter-spacing:.18em; text-transform:uppercase;
+  color:var(--ochre); margin:0 0 .6rem; font-weight:500;
+}
+.flag p{margin:0;color:var(--silver);font-size:.95rem}
+.heldout{
+  background:var(--surface); border:1px solid var(--ochre); border-radius:6px;
+  padding:var(--s3); margin:var(--s5) 0 0;
+}
+.heldout h2{
+  font-family:var(--serif); font-size:1.5rem; color:var(--gold); margin:0 0 var(--s2);
+  font-weight:600; letter-spacing:-.01em;
+}
+.heldout p{margin:0 0 var(--s2);color:var(--silver);max-width:68ch}
+.heldout ol{margin:var(--s2) 0 0;padding-left:1.2rem;display:flex;flex-direction:column;gap:.55rem}
+.heldout li{color:var(--muted);font-family:var(--mono);font-size:.78rem;line-height:1.55}
+.tally{
+  display:flex;flex-wrap:wrap;gap:var(--s3);margin:0;padding:0;list-style:none;
+  font-family:var(--mono);font-size:.75rem;
+}
+.tally div{display:flex;flex-direction:column;gap:.15rem}
+.tally dt{color:var(--muted);letter-spacing:.14em;text-transform:uppercase;font-size:.65rem}
+.tally dd{margin:0;color:var(--gold);font-size:1.5rem;font-variant-numeric:tabular-nums}
+.tally dd.ok{color:var(--silver)}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">CrystalVision · Vision-layer image archive · Volume III</p>
+    <h1>Two plates,<br><em>and they are one picture</em></h1>
+    <p class="deck">Volume I could say one thing about all fourteen of its plates: none were
+      evidence. Volume II found five that were. This volume is very small and makes one point:
+      <strong>an illustration, and the same illustration issued as a chart.</strong></p>
+    <p class="deck">Nothing in the picture changed between them. What was added was a compass
+      rose, a dashed route and four place names &mdash; conventions a reader has been trained
+      to take as a promise that someone went and looked. Nothing was measured before they were
+      added and nothing was measured after.</p>
+    <blockquote class="law">
+      <p>Always mark which lines are dreamed and which are surveyed, and never let a dreamed
+        line pretend it was measured.</p>
+      <cite>The Incognita Rule</cite>
+    </blockquote>
+    <dl class="tally">
+      <div><dt>Plates</dt><dd>2</dd></div>
+      <div><dt>Survive checking</dt><dd class="ok">0</dd></div>
+      <div><dt>Held out</dt><dd>0</dd></div>
+      <div><dt>Carry others&rsquo; marks</dt><dd>0</dd></div>
+    </dl>
+    <p class="backlink">Volume I &mdash; fourteen plates, none of them evidence &mdash;
+      <a href="../index.html">is here</a>. Volume II &mdash; sixty-six plates, five that hold up
+      &mdash; <a href="../volume-2/index.html">is here</a>.</p>
+  </header>
+
+  <section class="notice rev">
+    <h2>What these images are not</h2>
+    <ul>
+      <li><strong>Not evidence.</strong> Neither plate documents a built system, a measurement
+        or an event. Both sit on the Vision belt.</li>
+      <li><strong>Not a map.</strong> Plate&nbsp;02 carries a compass rose, a route and four
+        place names, and is not a map of anywhere. That is the reason it is catalogued.</li>
+      <li><strong>Not cultural material.</strong> No Aboriginal knowledge, sacred site or
+        restricted design is depicted, encoded or claimed anywhere in this volume.</li>
+    </ul>
+  </section>
+
+    <section class="sect" id="drawn-like-cartography">
+      <div class="sect-head rev">
+        <p class="sect-num">I</p>
+        <h2>Drawn like cartography</h2>
+        <p class="sect-lede">A picture, and then the same picture wearing a chart. Nothing was measured before the compass rose was added and nothing was measured after. Read them in order &mdash; the whole volume is the difference between the two.</p>
+        
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/enchanted-zombie-path.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="The Procession — Five figures in a purple wood. Five costumed figures walking a cobbled path out of a twilight forest, a spired castle on the ridge behind them, toadstools and violet blossom either side. Storybook illustration, "></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P01</p>
+            <h3>The Procession</h3>
+            <p class="plate-sub">Five figures in a purple wood</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P01</dd></div><div><dt>Origin</dt><dd>Not supplied</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>Five costumed figures walking a cobbled path out of a twilight forest, a spired castle on the ridge behind them, toadstools and violet blossom either side. Storybook illustration, competently done, making no claim whatsoever.</p><p>It is here as the control. Catalogued alone it would belong in the back of Volume II with the landscapes and portraits &mdash; the work that asserts nothing and needs to assert nothing. Its whole function is to be the before.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/enchanted-zombie-path-map.jpg" width="1000" height="673" loading="lazy" decoding="async" alt="Castle of Eternal Night — The same scene, issued as a chart. The identical procession, now mounted on aged parchment inside a ruled border, with a compass rose in the upper right and four place names lettered across it: Castle of Eternal"></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P02</p>
+            <h3>Castle of Eternal Night</h3>
+            <p class="plate-sub">The same scene, issued as a chart</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P02</dd></div><div><dt>Origin</dt><dd>Not supplied</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1712×1152</dd></div></dl>
+          </div>
+          <div class="reading"><p>The identical procession, now mounted on aged parchment inside a ruled border, with a compass rose in the upper right and four place names lettered across it: <em>Castle of Eternal Night</em>, <em>Twilight Woods</em>, <em>Mushroom Grove</em>, and along the cobbles, <em>Enchanted Zombie Path</em>. A dashed line runs the length of the route.</p><p>Every one of those additions is a cartographic signal, and not one of them carries cartographic content. The compass rose indexes no orientation &mdash; nothing in the picture is north of anything else. The dashed line is the road already visible in the painting, retraced. The place names label three things that are simply the illustration&rsquo;s background, foreground and middle distance. There is no scale, no projection, no coordinate, and nothing that would let a reader place any feature relative to any other.</p><p>This is the plate this project is named for. <em>Terra Australis Incognita</em> was drawn with the same equipment &mdash; a confident coastline, a compass rose, a convincing hand &mdash; over a continent nobody had surveyed, and it was believed for roughly three centuries because it looked exactly like the charts that were right. The difference between this parchment and a map is not draughtsmanship or sincerity. It is whether anything behind the line was measured.</p><p>Held against the plate above it, nothing in the picture changed. No figure moved, no light shifted, no line was redrawn. What was added was a set of conventions that a reader has been trained to take as a promise that someone went and looked. That is the entire distance between the two plates, and it is enough.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+  <section class="heldout rev">
+    <h2>Three plates came out of this volume</h2>
+    <p>This volume was drafted at five. Three were removed on 11&nbsp;August&nbsp;2026 once
+      their provenance was established: they were <strong>collected from elsewhere rather than
+      made for this project</strong> &mdash; among them a diagram of the diatonic system that
+      had been checked, found correct, and given the silver <em>Surveyed</em> stamp.</p>
+    <p>Being correct is not the same as being ours. A plate archive that catalogues other
+      people&rsquo;s work as its own vision layer has already misled its reader in the rail,
+      before a word of the reading is reached, and no amount of accuracy further down the page
+      repairs that. The images were not committed anywhere.</p>
+    <p>Origins for the two that remain were not supplied. Volumes&nbsp;I and&nbsp;II name a
+      generator for every plate; these rails read <strong>Origin: not supplied</strong> rather
+      than carrying a guess. It is one line per plate in <code>build/plates3.py</code> whenever
+      the maker records them.</p>
+  </section>
+
+  <footer class="foot">
+    <p class="marks-note">Snapshot taken 11 August 2026. Both plates are the author&rsquo;s own work;
+      three drafted plates that were not are recorded above rather than quietly dropped. The
+      source set was still growing when this was assembled.</p>
+    <p><strong>Belt-Three:</strong> Honour Country · Label layers · No coercion, no fake
+      hydrology. Both plates above sit on the Vision belt, as all fourteen of Volume&nbsp;I do.</p>
+    <p>CrystalVision / TerAustralis Incognita &mdash; homage, not ownership. Honour to Aboriginal
+      and Torres Strait Islander custodians of the lands these images borrow their light from,
+      and to their Elders past and present.</p>
+    <p><strong>All rights reserved.</strong> TerAustralis Incognita &mdash; ABN 70 741 068 059.</p>
+  </footer>
+</div>
+<script>
+(function(){
+  var els = document.querySelectorAll('.rev');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce || !('IntersectionObserver' in window)) {
+    els.forEach(function(e){ e.classList.add('in'); }); return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+    });
+  }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+  els.forEach(function(e){ io.observe(e); });
+})();
+</script>
+</body>
+</html>

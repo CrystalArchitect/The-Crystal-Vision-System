@@ -1,0 +1,298 @@
+{
+  "_about": {
+    "title": "Lattice · Starline map",
+    "generated": "2026-08-12",
+    "rule": "One source, many views. Every view in this interface renders this file. A badge without a source is an assertion; every node here carries the evidence for its own status, or carries no status claim at all.",
+    "caption": "Titles and codes are labels inside systems you author or operate. They are not proof of anything outside those systems.",
+    "note": "This directory publishes to a public site (see .github/workflows/static.yml). Personal identifiers are deliberately generalised."
+  },
+
+  "rings": [
+    { "id": "core",     "label": "Operator core",   "blurb": "Where you stand." },
+    { "id": "lattice",  "label": "Runtime lattice", "blurb": "Structure that holds under load — consent, memory, audit." },
+    { "id": "starline", "label": "Starlines",       "blurb": "Paths of work and meaning across time." },
+    { "id": "horizon",  "label": "Horizon",         "blurb": "Context that grounds the whole. Not gadgets." },
+    { "id": "external", "label": "Outside",         "blurb": "Not CrystalCore source. Named, not claimed." }
+  ],
+
+  "badges": {
+    "LIVE":      "True in the current session or on main.",
+    "MERGED":    "Shipped — on main, with tests.",
+    "CANON":     "Single agreed home for this idea.",
+    "HELD":      "Parked. No construction. Named here so the map does not imply it exists.",
+    "EXTERNAL":  "Not yours.",
+    "CORRECTED": "The record was wrong and has been fixed, with a date."
+  },
+
+  "nodes": [
+    {
+      "id": "OP",
+      "label": "Operator",
+      "ring": "core",
+      "blurb": "The person who operates this system. The credential is a label inside systems you author — it is not proof of anything outside them.",
+      "ownership": "yours",
+      "source": "designed"
+    },
+    {
+      "id": "CC",
+      "label": "CrystalCore.OS",
+      "ring": "core",
+      "blurb": "Sovereign runtime and OS frame. The house the doors belong to.",
+      "badge": "CANON",
+      "ownership": "yours",
+      "source": "CrystalCore.OS repository"
+    },
+    {
+      "id": "GATE",
+      "label": "Consent gate",
+      "ring": "lattice",
+      "blurb": "Five doors, fail-closed: revocation, approval, provenance, permission, scope. The ask is recorded before any of them is opened.",
+      "badge": "MERGED",
+      "ownership": "yours",
+      "source": "TerAustralis-Incognita-Code core/crystalcore/gate.py — PR #70, main 15f51ab, 24/24 selftest"
+    },
+    {
+      "id": "MEM",
+      "label": "Memory layers",
+      "ring": "lattice",
+      "blurb": "episodic · semantic · reflective. Working memory — the live conversation — is never guest-readable and deliberately not grantable. The structure is the taxonomy; there is no per-entry type field.",
+      "badge": "MERGED",
+      "ownership": "yours",
+      "source": "core/crystalcore/config.py — MEMORY_TYPES"
+    },
+    {
+      "id": "BRIDGE",
+      "label": "CrystalBridge",
+      "ring": "lattice",
+      "blurb": "Guest agency in tools — act, return. Today only the semantic layer is actually served, because it is the only layer with per-entry visibility consent.",
+      "badge": "MERGED",
+      "ownership": "yours",
+      "source": "core/crystalcore/bridge.py"
+    },
+    {
+      "id": "AUDIT",
+      "label": "Audit · pending · revoke",
+      "ring": "lattice",
+      "blurb": "Inspectable consent history. Every decision is appended; every ask is recorded before it is answered; revocation survives restart.",
+      "badge": "MERGED",
+      "ownership": "yours",
+      "source": "core/crystalcore/revocation.py — audit.jsonl, pending.jsonl, revocations.jsonl"
+    },
+    {
+      "id": "CARD",
+      "label": "Operator Card",
+      "ring": "lattice",
+      "blurb": "Baseline, phrases, stand-down. Preview source lives in operator-card/ in this repository. Not a Pages route — the allowlist still publishes only index.html + interface/.",
+      "badge": "HELD",
+      "ownership": "yours",
+      "source": "operator-card/ — preview source, 2026-08-13; unpublished by Pages allowlist"
+    },
+
+    {
+      "id": "TA",
+      "label": "TerAustralis Incognita",
+      "ring": "starline",
+      "blurb": "Multiplanetary Australia vector. The umbrella the rest hangs from.",
+      "badge": "CANON",
+      "ownership": "yours",
+      "source": "TerAustralis-Incognita umbrella repository"
+    },
+    {
+      "id": "SAT",
+      "label": "Synthetic Affect",
+      "ring": "starline",
+      "blurb": "Theory plus a runnable harness. Canonical home is Synthetic-Affect-Theory (split granted 2026-08-14, G2) — CrystalCore.OS/synthetic-affect is the retired origin copy, pointer only.",
+      "badge": "CANON",
+      "ownership": "yours",
+      "source": "Synthetic-Affect-Theory — PRs #1, #2, #3, #5, merged; reconciled bidirectionally with CrystalCore.OS/synthetic-affect before the grant"
+    },
+    {
+      "id": "STARLINE",
+      "label": "Starline weave",
+      "ring": "starline",
+      "blurb": "Docs and modules. The fragment kinds are running code, not vocabulary: identity, noise, fragment, protocol and transport all exist and pass their selftest. An earlier claim in this session that they did not exist was false, and was corrected on the record rather than quietly edited.",
+      "badge": "CORRECTED",
+      "ownership": "yours",
+      "source": "core/crystal-core/consent_transport/ — 49/49 selftest; correction dated 2026-08-12"
+    },
+    {
+      "id": "MYTHOS",
+      "label": "Mythos terminal",
+      "ring": "starline",
+      "blurb": "Story as Bridge — held open, not sealed as doctrine.",
+      "badge": "CANON",
+      "ownership": "yours",
+      "source": "umbrella repository mythos/"
+    },
+    {
+      "id": "LOGOS",
+      "label": "Logos export",
+      "ring": "starline",
+      "blurb": "Hand-off packages, specs, pull requests, ledgers. What leaves the terminal in a form someone else can check.",
+      "badge": "CANON",
+      "ownership": "yours",
+      "source": "teraustralis-proposal — fourteen documents"
+    },
+
+    {
+      "id": "COUNTRY",
+      "label": "Country · red dust",
+      "ring": "horizon",
+      "blurb": "Foundation under every technical claim above it. Honour to Aboriginal custodians.",
+      "ownership": "shared_context",
+      "source": "—"
+    },
+    {
+      "id": "LIFE",
+      "label": "Ordinary life",
+      "ring": "horizon",
+      "blurb": "Outranks every terminal node on this map, without exception. This is the one edge that never inverts.",
+      "ownership": "yours",
+      "source": "designed"
+    },
+    {
+      "id": "PUBLIC",
+      "label": "Public · outreach",
+      "ring": "horizon",
+      "blurb": "Optional voice. Not the core, and not a dependency of anything inside the lattice.",
+      "ownership": "yours",
+      "source": "designed"
+    },
+
+    {
+      "id": "EXT",
+      "label": "External unit papers",
+      "ring": "external",
+      "blurb": "Third-party material. Not CrystalCore source, and no claim edge runs from it into the house.",
+      "badge": "EXTERNAL",
+      "ownership": "not_yours",
+      "source": "not this project's work"
+    },
+    {
+      "id": "NET",
+      "label": "Open network",
+      "ring": "external",
+      "blurb": "Guests reach nothing except through the gate. There is no second entrance.",
+      "badge": "EXTERNAL",
+      "ownership": "not_yours",
+      "source": "not this project's work"
+    }
+  ],
+
+  "edges": [
+    { "from": "OP",       "to": "CC",     "kind": "runtime",        "label": "operates" },
+    { "from": "CC",       "to": "GATE",   "kind": "runtime",        "label": "enforces" },
+    { "from": "GATE",     "to": "BRIDGE", "kind": "runtime",        "label": "admits" },
+    { "from": "BRIDGE",   "to": "MEM",    "kind": "runtime",        "label": "reads — typed, scoped" },
+    { "from": "GATE",     "to": "AUDIT",  "kind": "runtime",        "label": "writes" },
+    { "from": "NET",      "to": "GATE",   "kind": "runtime",        "label": "only via" },
+
+    { "from": "OP",       "to": "CARD",   "kind": "authoring",      "label": "uses — preview source, unpublished" },
+    { "from": "CARD",     "to": "GATE",   "kind": "authoring",      "label": "reports — preview, not a Pages route" },
+    { "from": "CC",       "to": "SAT",    "kind": "authoring",      "label": "hosts" },
+    { "from": "CC",       "to": "STARLINE", "kind": "authoring",    "label": "hosts" },
+    { "from": "OP",       "to": "TA",     "kind": "authoring",      "label": "authors" },
+    { "from": "MYTHOS",   "to": "LOGOS",  "kind": "authoring",      "label": "bridges" },
+
+    { "from": "LOGOS",    "to": "CC",     "kind": "grounding",      "label": "grounds — specs the code must match" },
+    { "from": "LOGOS",    "to": "GATE",   "kind": "grounding",      "label": "grounds" },
+    { "from": "COUNTRY",  "to": "TA",     "kind": "grounding",      "label": "grounds" },
+    { "from": "LIFE",     "to": "CC",     "kind": "grounding",      "label": "outranks every terminal node" },
+
+    { "from": "EXT",      "to": "CC",     "kind": "boundary_break", "label": "no claim" }
+  ],
+
+  "doors": [
+    {
+      "n": 1,
+      "id": "revocation",
+      "label": "Revocation",
+      "asks": "Has the human withdrawn this guest's consent?",
+      "detail": "Read from the append-only ledger on every check, so a revocation bites without a restart and survives every restart. A ledger that cannot be read refuses everyone — a gate that cannot know who is revoked must not guess.",
+      "refuses": "guest '<name>' has been revoked by the human — reinstate with --reinstate before it can act again"
+    },
+    {
+      "n": 2,
+      "id": "approval",
+      "label": "Approval",
+      "asks": "Is this guest approved at all?",
+      "detail": "Nothing is granted by default. Absence of a grant is absence of consent, not legacy access.",
+      "refuses": "guest '<name>' is not approved"
+    },
+    {
+      "n": 3,
+      "id": "provenance",
+      "label": "Provenance",
+      "asks": "Does the presented token prove this is really the named guest?",
+      "detail": "Launcher authentication — possession of a per-guest minted secret — stated as exactly that, not cryptographic identity of a remote model. Origin that cannot be established is treated exactly like absent consent.",
+      "refuses": "provenance for guest '<name>' could not be established — token missing or wrong"
+    },
+    {
+      "n": 4,
+      "id": "permission",
+      "label": "Permission",
+      "asks": "May it call this specific tool?",
+      "detail": "Per-tool, not per-guest-in-general. Reaching the door is not the same as being let through it.",
+      "refuses": "guest '<name>' has no permission for tool '<tool>'"
+    },
+    {
+      "n": 5,
+      "id": "scope",
+      "label": "Scope",
+      "asks": "Which visibility classes, and which memory layers?",
+      "detail": "Two independent axes: visibility (private / shared) and memory type (episodic / semantic / reflective). A grant with no types refuses, and says what to add. Only the semantic layer is actually served today.",
+      "refuses": "tool '<tool>' serves the <layer> layer and guest '<name>' is granted only <types> — nothing behind this door for that grant"
+    }
+  ],
+
+  "doors_note": "Before any door is opened, the ask itself is written to pending.jsonl. An ask that cannot be recorded refuses rather than acting unobservably — that is the recorder failing, not consent deciding, which is why it is not a sixth door.",
+
+  "flow": [
+    {
+      "n": 1,
+      "label": "Baseline",
+      "status": "designed",
+      "detail": "Check the baseline before acting. No Operator Card exists to hold this language — the step is drawn as designed, not built.",
+      "source": "designed"
+    },
+    {
+      "n": 2,
+      "label": "One command",
+      "status": "real",
+      "detail": "The operator surface that actually exists today: revoke, reinstate, mint a token, review memories. Each takes a reason, and each is mirrored into the audit log.",
+      "commands": [
+        "python3 -m crystalcore --revoke <guest> --reason \"session ended\"",
+        "python3 -m crystalcore --reinstate <guest> --reason \"restored\"",
+        "python3 -m crystalcore --mint-token <guest>",
+        "python3 -m crystalcore --review-memories"
+      ],
+      "source": "core/crystalcore/bridge.py — argument parser"
+    },
+    {
+      "n": 3,
+      "label": "Stand down",
+      "status": "designed",
+      "detail": "Close the terminal and let ordinary life outrank it. No implementation holds this step either — it is a shape, honestly labelled.",
+      "source": "designed"
+    }
+  ],
+
+  "ownership_note": "Claimed marks are claimed where they are actually used, by use rather than by assertion. ™ denotes a claimed unregistered mark; none is registered with IP Australia, and no registered-mark claim (®) is made anywhere in this repository.",
+
+  "claimed": [
+    "TerAustralis Incognita™",
+    "CrystalCore™",
+    "CrystalCore.OS™",
+    "CrystalVision™",
+    "CrystalCode™",
+    "CrystalMind™",
+    "Synthetic Affect Theory™"
+  ],
+
+  "not_claimed": [
+    "SpaceX", "Starship", "Grok", "xAI", "Tesla", "Neuralink",
+    "Synchron", "Stentrode", "Lynas", "Varda", "Meta AI", "Claude"
+  ],
+
+  "not_claimed_note": "Third-party names and marks are the property of their respective owners and are used nominatively — to refer to those companies and their products in factual discussion. No ™ or ® is asserted over them by this project. No company named here has agreed to anything, and nothing in this project should be read as a partnership, endorsement, or commitment by any party other than the copyright holder."
+}
