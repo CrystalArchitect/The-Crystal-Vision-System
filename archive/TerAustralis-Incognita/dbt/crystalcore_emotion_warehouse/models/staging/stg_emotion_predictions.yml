@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: stg_emotion_predictions
+    description: Raw emotion predictions from CrystalCore.OS detection system
+    columns:
+      - name: prediction_id
+        description: Unique prediction identifier
+        tests:
+          - unique
+          - not_null
+
+      - name: prediction_timestamp
+        description: When prediction was made
+        tests:
+          - not_null
+
+      - name: emotion_detected
+        description: Predicted emotion label
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['admiration', 'amusement', 'anger', 'annoyance', 'approval', 'caring',
+                       'confusion', 'curiosity', 'desire', 'disappointment', 'disapproval', 'disgust',
+                       'embarrassment', 'excitement', 'fear', 'gratitude', 'grief', 'joy', 'love',
+                       'nervousness', 'optimism', 'pride', 'realization', 'relief', 'remorse',
+                       'sadness', 'surprise', 'neutral']
+
+      - name: emotion_idx
+        description: Numeric index of emotion (0-27)
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: "emotion_idx >= 0 and emotion_idx <= 27"
+
+      - name: confidence
+        description: Model confidence in prediction (0.0-1.0)
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "confidence >= 0.0 and confidence <= 1.0"
+
+      - name: entropy
+        description: Shannon entropy of prediction distribution
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "entropy >= 0.0"
+
+      - name: should_query_user
+        description: Whether active learning should query user for feedback
+        tests:
+          - not_null

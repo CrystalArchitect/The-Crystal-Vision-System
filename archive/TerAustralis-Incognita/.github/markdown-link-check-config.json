@@ -1,0 +1,52 @@
+{
+  "ignorePatterns": [
+    {
+      "comment": "External links only. markdown-link-check has a reproducible bug resolving parent-relative local links (e.g. '../adr/ADR-0005.md' from a nested file reports dead even when the target exists) - confirmed independent of any config, in complete isolation, across tool versions 3.11-3.14. Internal cross-references also include known-absent code paths (src/, scripts/, tests/, packages/, corpus/) already tracked as their own staged debt in docs/governance/Migration-Plan.md. Scoping to https?:// sidesteps the bug and avoids re-flagging already-catalogued debt. UPDATE 2026-07-28: the cost of that trade - internal cross-reference rot going uncaught - had reached 62 broken links by the portfolio review. Internal links are now checked by .github/scripts/check-internal-links.py, which resolves them against `git ls-files` instead of over HTTP and so does not hit this bug at all. This pattern therefore no longer leaves a gap: it divides the work, external here, internal there.",
+      "pattern": "^(?!https?://)"
+    },
+    {
+      "comment": "Social platforms that reliably 403 automated / non-browser clients regardless of User-Agent - not a signal about link health.",
+      "pattern": "^https://(www\\.)?(x\\.com|twitter\\.com|patreon\\.com|suno\\.com)"
+    },
+    {
+      "comment": "Local dev-server instructions in docs (e.g. dbt/crystalcore_emotion_warehouse/README.md's 'dbt docs serve' step) - never a real endpoint to check.",
+      "pattern": "^https?://localhost"
+    },
+    {
+      "comment": "crystalarchitect.dev genuinely fails DNS resolution (confirmed via getent, not a sandbox/proxy artifact) - but its only two references (COMMERCIAL_LICENSE.md, LICENSING.md) are already-superseded historical docs per ADR-0010, kept for provenance. Not this check's job to guess a replacement domain for frozen content.",
+      "pattern": "^https?://(www\\.)?crystalarchitect\\.dev"
+    },
+    {
+      "comment": "PyPI's account-tokens page, referenced only from the three superseded packages/-era publishing guides (docs/PUBLISHING.md, docs/FIRST_RELEASE.md, docs/RESTRUCTURING_COMPLETE.md) - moot until a real PyPI publish is attempted.",
+      "pattern": "^https://pypi\\.org/manage/account/tokens/"
+    },
+    {
+      "comment": "Links into the TerAustralis-Incognita-Code repository, which is private: GitHub returns 404 to the anonymous requests this checker makes, even for files that exist (verified 2026-07-24 - core/crystal-core/SECURITY.md is present on that repo's main via git, yet the blob URL 404s unauthenticated). Cross-repo targets are verified by git/PR review instead; re-enable if that repo ever goes public.",
+      "pattern": "^https://github\\.com/CrystalArchitect/TerAustralis-Incognita-Code"
+    },
+    {
+      "comment": "Links to the TheCrystalVision repository, which is also private (same failure mode as TerAustralis-Incognita-Code immediately above): GitHub returns 404 to this checker's anonymous requests regardless of whether the repo/file exists. First caught failing CI on main at commit 61381cb (PR #129 merge, 2026-08-29) via memory/projects/TheCrystalVision/README.md; independently re-caught the same day on this PR's branch (CI run 33250591338/job 99095466437) after merging that commit in. Confirmed private via API 2026-08-29. Re-enable if that repo ever goes public.",
+      "pattern": "^https://github\\.com/CrystalArchitect/TheCrystalVision"
+    },
+    {
+      "comment": "This repository's own root URL (mythos/content/CREDITS.md). Failed with Status: 0 - no response at all, not even a 4xx - on PR #113 CI run 31646247517/job 94280365499 (2026-08-12), while markdownlint (182 files) and the internal-links checker (784 links) both passed clean in the same run. A repo's own GitHub URL cannot be genuinely dead; this is the checker's unauthenticated-crawler-vs-github.com failure mode already documented twice below (the settings-page and TerAustralis-Incognita-Code patterns), just against a page this checker had not previously been asked to fetch.",
+      "pattern": "^https://github\\.com/CrystalArchitect/TerAustralis-Incognita$"
+    },
+    {
+      "comment": "GitHub repo settings pages (docs/guides/Access.md points admins at Settings > Access): served only to authenticated admins, so an anonymous checker gets 404 regardless of whether the URL is correct. Verified on CI run 30053981478 (2026-07-24). The admin who follows the guide is the verification.",
+      "pattern": "^https://github\\.com/[^/]+/[^/]+/settings/"
+    },
+    {
+      "comment": "Australia's State of the Environment portal times out for CI runners (ESOCKETTIMEDOUT at 20s, CI run 30054270459, 2026-07-24) - referenced from research/seven-sisters/WATER-BRIEF.md. Reachable in a browser; the timeout is checker-vs-portal behaviour, not link death.",
+      "pattern": "^https://soe\\.dcceew\\.gov\\.au"
+    },
+    {
+      "comment": "space.gov.au and industry.gov.au (Australian Space Agency / Dept of Industry) return Status: 0 - no response at all, not a real 4xx - to this checker specifically (CI run 33738677162, job 100595221917, 2026-09-03, all 4 links in mythos/teraustralis/publish/onshore-chain-one-pager.md). Same failure class as the SoE portal immediately above (unauthenticated/datacenter-IP automated request blocked or timed out, not link death): the exact same URLs were independently returned with correct page titles by a live web search the same session, and this repository's own sandboxed environment gets an explicit egress block (not a timeout or 404) trying to reach the same two domains - consistent with these being broadly restricted for non-browser traffic rather than actually dead.",
+      "pattern": "^https://(www\\.)?(space|industry)\\.gov\\.au"
+    }
+  ],
+  "retryOn429": true,
+  "retryCount": 3,
+  "timeout": "20s",
+  "aliveStatusCodes": [200, 202, 206, 301, 302, 403]
+}

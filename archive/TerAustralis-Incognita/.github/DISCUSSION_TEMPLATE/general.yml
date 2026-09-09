@@ -1,0 +1,16 @@
+title: ""
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        General discussion — questions, thoughts, anything that isn't yet
+        an issue. One ask: keep the truth labels straight (Science / Story /
+        Vision — see CONTRIBUTING.md), so nothing dreamed reads as measured.
+  - type: textarea
+    id: topic
+    attributes:
+      label: What's on your mind
+      description: Say it plainly; link files by path where relevant.
+    validations:
+      required: true

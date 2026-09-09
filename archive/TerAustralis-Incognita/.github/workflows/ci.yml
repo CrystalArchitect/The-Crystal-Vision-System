@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  docs-checks:
+    name: Markdown lint + link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Markdown lint
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: |
+            **/*.md
+            !node_modules
+            !archive
+
+      # Internal cross-references, resolved against `git ls-files` rather
+      # than over HTTP. The external checker below cannot do this -- it
+      # reports parent-relative local links as dead even when they exist,
+      # which is why its config scopes itself to ^https?:// -- so internal
+      # link rot went uncaught until the 2026-07-28 review counted 62 of
+      # them. Path arithmetic against the index has no such bug.
+      - name: Internal link check
+        run: python3 .github/scripts/check-internal-links.py
+
+      # Run the checker CLI directly (same invocation as local verification)
+      # instead of the folder-path action: archive/ must be excluded to
+      # match the lint step above - it is frozen provenance whose dead
+      # links are historical facts, not defects to fix.
+      - name: Link check
+        run: |
+          find . -name '*.md' \
+            -not -path './archive/*' \
+            -not -path './node_modules/*' \
+            -print0 | sort -z | xargs -0 -n1 npx --yes markdown-link-check -q \
+            -c .github/markdown-link-check-config.json
