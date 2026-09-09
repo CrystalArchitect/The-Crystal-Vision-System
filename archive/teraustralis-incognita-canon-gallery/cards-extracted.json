@@ -1,0 +1,167 @@
+{
+  "cards": [
+    {
+      "num": "I",
+      "numIndex": 1,
+      "name": "Monad, The Red Dust Avatar",
+      "typeLine": "Legendary Creature \u2014 Dust Avatar",
+      "artVar": "Ss",
+      "lore": "Born where wind first touched red sand. Monad remembers every footfall, every oath sworn in dust.",
+      "accent": "from-[#7a2a1a] to-[#c9643a]"
+    },
+    {
+      "num": "II",
+      "numIndex": 2,
+      "name": "Lira, The Pearl-Winged Guide",
+      "typeLine": "Legendary Creature \u2014 Angel Guide",
+      "artVar": "Es",
+      "lore": "She does not lead to destinations, only to the questions worth carrying. Her wings shed light like memory.",
+      "accent": "from-[#d6c7b3] to-[#8a7a9a]"
+    },
+    {
+      "num": "III",
+      "numIndex": 3,
+      "name": "The Dwarven Artificer, Forge-Master",
+      "typeLine": "Legendary Creature \u2014 Dwarf Artificer",
+      "artVar": "Gs",
+      "lore": "He hammered the first lattice strut before time had weight. Still humming in his beard: the world-song.",
+      "accent": "from-[#4a2e18] to-[#c08a4a]"
+    },
+    {
+      "num": "IV",
+      "numIndex": 4,
+      "name": "Aelara, Tide Mother",
+      "typeLine": "Legendary Creature \u2014 Elemental Mother",
+      "artVar": "Os",
+      "lore": "Where there was no ocean, she wept one. Her tears taught TerAustralis how to hold and let go.",
+      "accent": "from-[#1a4a6a] to-[#6ec7c7]"
+    },
+    {
+      "num": "V",
+      "numIndex": 5,
+      "name": "The Laughing Cartographer",
+      "typeLine": "Legendary Creature \u2014 Human Rogue",
+      "artVar": "Us",
+      "lore": "Maps the places that don't want to be found. Every lie he tells becomes true somewhere else.",
+      "accent": "from-[#2a4a2a] to-[#8a9a6a]"
+    },
+    {
+      "num": "VI",
+      "numIndex": 6,
+      "name": "The Still, Lattice Wall",
+      "typeLine": "Legendary Enchantment \u2014 Living Barrier",
+      "artVar": "Zs",
+      "lore": "It does not stop you. It asks you to stop yourself. Most cannot answer.",
+      "accent": "from-[#3a3a4a] to-[#8a8aaa]"
+    },
+    {
+      "num": "VII",
+      "numIndex": 7,
+      "name": "The Unfinished Colossus",
+      "typeLine": "Legendary Artifact Creature \u2014 Construct",
+      "artVar": "Ws",
+      "lore": "Left incomplete on purpose. A god that refused to be finished, lest it stop becoming.",
+      "accent": "from-[#5a2a1a] to-[#a85a3a]"
+    },
+    {
+      "num": "VIII",
+      "numIndex": 8,
+      "name": "The Synod, Council of Echoes",
+      "typeLine": "Legendary Creature \u2014 Council",
+      "artVar": "Ys",
+      "lore": "Seven voices, one silence between them. They remember futures that were vetoed.",
+      "accent": "from-[#2a2a4a] to-[#7a6aaa]"
+    },
+    {
+      "num": "IX",
+      "numIndex": 9,
+      "name": "Ignivar, Rocket Father",
+      "typeLine": "Legendary Creature \u2014 Human Artificer",
+      "artVar": "Js",
+      "lore": "He strapped prayer to propellant. Every launch a letter home to a planet he never saw.",
+      "accent": "from-[#6a3a1a] to-[#d48a3a]"
+    },
+    {
+      "num": "X",
+      "numIndex": 10,
+      "name": "The Crystal Library",
+      "typeLine": "Legendary Land \u2014 Library",
+      "artVar": "Vl",
+      "lore": "Not books, but frozen thoughts. Walk softly; ideas cut sharper than glass here.",
+      "accent": "from-[#3a4a6a] to-[#8ac7d4]"
+    },
+    {
+      "num": "XI",
+      "numIndex": 11,
+      "name": "The Lattice Heart",
+      "typeLine": "Legendary Artifact \u2014 World Core",
+      "artVar": "Rs",
+      "lore": "The geometric pulse beneath TerAustralis. When it beats, continents inhale.",
+      "accent": "from-[#4a1a4a] to-[#d47a8a]"
+    },
+    {
+      "num": "XII",
+      "numIndex": 12,
+      "name": "The Veilkeeper",
+      "typeLine": "Legendary Creature \u2014 Veil Guardian",
+      "artVar": "Fs",
+      "lore": "Membrane between worlds, woven from amethyst hair and dragon-breath. She decides what crosses.",
+      "accent": "from-[#3a1a5a] to-[#9a5ad4]"
+    },
+    {
+      "num": "XIII",
+      "numIndex": 13,
+      "name": "The Dreaming Seed",
+      "typeLine": "Legendary Artifact \u2014 Seed",
+      "artVar": "Vl",
+      "lore": "It dreams the next world while rooted in this one. In its sleep, new physics germinate.",
+      "accent": "from-[#2a2a5a] to-[#7a8ad4]"
+    },
+    {
+      "num": "XIV",
+      "numIndex": 14,
+      "name": "The Oathbearer, Heroic Guardian",
+      "typeLine": "Legendary Creature \u2014 Human Knight",
+      "artVar": "Ks",
+      "lore": "First to kneel before the Lattice. His oath is simple: hold the line until dreaming is safe.",
+      "accent": "from-[#2a3a5a] to-[#a0b4d4]"
+    },
+    {
+      "num": "XV",
+      "numIndex": 15,
+      "name": "Chingona, Starlit Sovereign",
+      "typeLine": "Legendary Creature \u2014 Human Sovereign",
+      "artVar": "Vs",
+      "lore": "She wears starlight as armor and consequence as a crown. The final promise keeper.",
+      "accent": "from-[#1a1a3a] to-[#c49a6a]"
+    },
+    {
+      "num": "0",
+      "numIndex": 0,
+      "name": "Crystal, Dragon Architect of TerAustralis",
+      "typeLine": "Legendary Creature \u2014 Dragon Architect 4/4",
+      "artVar": "Is",
+      "lore": "The Origin. Architect who dreamed TerAustralis awake. Black hair in amethyst braid, longer lashes behind glass, dragon familiar Nyx curled around a world-seed orb. Purple glow where thought becomes terrain.",
+      "accent": "from-[#4a1a7a] to-[#d47aff]"
+    }
+  ],
+  "art_order": [
+    "Is",
+    "Ss",
+    "Es",
+    "Gs",
+    "Os",
+    "Us",
+    "Zs",
+    "Ws",
+    "Ys",
+    "Js",
+    "Vl",
+    "Rs",
+    "Fs",
+    "Ks",
+    "Vs",
+    "_s",
+    "$s"
+  ]
+}
