@@ -1,0 +1,8 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# NOTE: examples/logs/ is deliberately NOT ignored — logs are committed
+# outputs of a real run; `git diff --stat examples/logs/` empty after a
+# re-run is part of the verification contract.
