@@ -1,8 +1,0 @@
-# High-interference visualization prompts
-**Captured:** 2026-09-05
-
-## Prompt 1: Automated Hardware-in-the-Loop Telemetry Handshake
-A highly detailed technical schematic and comic book panel cross-section visualizing automated telemetry handshakes between an advanced Liquid Instruments Moku:Pro FPGA digitizer platform and an Equatorial Launch Australia (ELA) ground tracking station. The foreground shows sharp digital interfaces projecting cascading blue and emerald data packet stream waves mutating across a stark interference field. Floating physical notation equations including the wave function symbol (Ψ) and transmission variables (T = 3.7381e-7) are integrated elegantly as glowing technical overlays. In the background, a tracking dish stands under a dark, highly atmospheric night storm sky split by subtle blue lighting vectors. The aesthetic features crisp ink outlines, hyper-precise blueprints, and cinematic high-tech lighting with clean text strings.
-
-## Prompt 2: High-Interference Quantum Wave Tunneling
-A clean geometric comic book splash page mapping a post-quantum data packet traversing a high-attenuation network barrier. The visual treats the telemetry handshake as a radiant, neon-cyan wave function particle string attempting to tunnel through a thick, jagged dark-crimson field representing a severe 7.50 eV network interference wall. The particle string visibly thins and decays down to an absolute fraction as it exits the barrier. Intricate mathematical notation grids, coordinate axes, and vector arrows (∇) define the spatial topology of the transmission pipeline. The design utilizes premium vector lines, rich midnight-blue background fills, and stark color contrasts to depict extreme isolation and technical complexity.
