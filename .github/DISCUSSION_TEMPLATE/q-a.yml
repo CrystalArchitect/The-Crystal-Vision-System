@@ -1,0 +1,17 @@
+title: ""
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Questions about running, building, or understanding the project.
+        Worth checking first: the root README's Quick start,
+        docs/architecture/Modules.md (per-component status + commands), and
+        docs/guides/.
+  - type: textarea
+    id: question
+    attributes:
+      label: The question
+      description: Include what you tried and what happened, if applicable.
+    validations:
+      required: true

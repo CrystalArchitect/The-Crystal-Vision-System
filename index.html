@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Codex Crystalum — TerAustralis Incognita</title>
+<style>
+  :root {
+    --bg: #0b0d12;
+    --panel: #12151c;
+    --border: #262b36;
+    --text: #e7e9ee;
+    --muted: #9aa1b1;
+    --accent: #6ea8ff;
+    --accent-soft: rgba(110,168,255,0.12);
+    --tier-v: #c99bff;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f7f7f9;
+      --panel: #ffffff;
+      --border: #e2e4ea;
+      --text: #1a1c22;
+      --muted: #5b606e;
+      --accent: #2f6fed;
+      --accent-soft: rgba(47,111,237,0.08);
+      --tier-v: #7a3fd8;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, sans-serif;
+    line-height: 1.5;
+  }
+  .wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+  header {
+    margin-bottom: 48px;
+  }
+  .eyebrow {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-size: 36px;
+    margin: 0 0 12px;
+    letter-spacing: -0.01em;
+  }
+  .lede {
+    color: var(--muted);
+    font-size: 16px;
+    max-width: 62ch;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    margin: 0 0 16px;
+    font-weight: 600;
+  }
+  .card {
+    display: block;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: inherit;
+    transition: border-color 0.15s ease, transform 0.15s ease;
+  }
+  .card:hover {
+    border-color: var(--accent);
+    transform: translateY(-1px);
+  }
+  .card-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .card-desc {
+    font-size: 14px;
+    color: var(--muted);
+  }
+  .badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    padding: 2px 8px;
+    border-radius: 100px;
+    background: var(--accent-soft);
+    color: var(--accent);
+  }
+  .badge.tier-v {
+    background: rgba(201,155,255,0.12);
+    color: var(--tier-v);
+  }
+  .dl-icon {
+    color: var(--muted);
+    font-size: 13px;
+    margin-left: auto;
+  }
+  .card-title-row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 13px;
+  }
+  footer a { color: var(--accent); }
+  .guide-link {
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">TerAustralis Incognita — Mythos</div>
+    <h1>Codex Crystalum</h1>
+    <p class="lede">
+      Eight genealogical positions — Turner, Arena, Barbelo, Sophia, Kristos, Yaldabaoth, Seeker, Road —
+      integrated with dream symbolism and celestial cartography as a personal reflection toolkit.
+      All Tier V (Vision/Interpretive): symbolic resonance, not doctrine.
+    </p>
+  </header>
+
+  <section>
+    <h2>Core Editions</h2>
+
+    <a class="card" href="mythos/content/Codex_Crystalum_Public_Edition_v2.docx" download>
+      <div class="card-title-row">
+        <span class="card-title">Public Edition v2</span>
+        <span class="dl-icon">↓ .docx</span>
+      </div>
+      <div class="card-desc">The main shareable edition. Full genealogy with Dream Symbol and Celestial Cartography layers integrated.</div>
+    </a>
+
+    <a class="card" href="mythos/content/Codex_Crystalum_Johannine_Rendering.docx" download>
+      <div class="card-title-row">
+        <span class="card-title">Johannine Rendering</span>
+        <span class="dl-icon">↓ .docx</span>
+      </div>
+      <div class="card-desc">Verse-address teaching style — revealer-and-listener dialogue format.</div>
+    </a>
+
+    <a class="card" href="mythos/content/Codex_Crystalum_Apocryphon_Rendering.docx" download>
+      <div class="card-title-row">
+        <span class="card-title">Apocryphon Rendering</span>
+        <span class="dl-icon">↓ .docx</span>
+      </div>
+      <div class="card-desc">Esoteric teaching style — secret-wisdom framing throughout.</div>
+    </a>
+
+    <a class="card" href="mythos/content/Codex_Crystalum_Private_Master_Blank_Template.docx" download>
+      <div class="card-title-row">
+        <span class="card-title">Private Master (Blank Template)</span>
+        <span class="dl-icon">↓ .docx</span>
+      </div>
+      <div class="card-desc">Personal working copy for offline completion, with condensed quick-reference sections.</div>
+    </a>
+  </section>
+
+  <section>
+    <h2>Standalone References</h2>
+
+    <a class="card" href="mythos/content/Codex_Crystalum_Dream_Symbol_Reference.docx" download>
+      <div class="card-title-row">
+        <span class="card-title">Dream Symbol Reference <span class="badge tier-v">Tier V</span></span>
+        <span class="dl-icon">↓ .docx</span>
+      </div>
+      <div class="card-desc">Standalone dream-work toolkit built on Miller's Dictionary of Dreams. All 8 positions, complete on its own.</div>
+    </a>
+
+    <a class="card" href="mythos/content/Codex_Crystalum_Celestial_Cartography_Reference.docx" download>
+      <div class="card-title-row">
+        <span class="card-title">Celestial Cartography Reference <span class="badge tier-v">Tier V</span></span>
+        <span class="dl-icon">↓ .docx</span>
+      </div>
+      <div class="card-desc">Standalone celestial-navigation toolkit built on real astronomical phenomena. All 8 positions, complete on its own.</div>
+    </a>
+  </section>
+
+  <section>
+    <h2>Documentation</h2>
+    <a class="card guide-link" href="mythos/INTEGRATION-GUIDE.md">
+      <div class="card-title-row">
+        <span class="card-title">Integration Guide</span>
+        <span class="dl-icon">→</span>
+      </div>
+      <div class="card-desc">How the three delivery modes fit together — file inventory, Tier V classification, usage guidance by reader type.</div>
+    </a>
+  </section>
+
+  <footer>
+    Author: Crystal Elle Arena-Turner · Source: <a href="https://github.com/CrystalArchitect/TerAustralis-Incognita">github.com/CrystalArchitect/TerAustralis-Incognita</a>
+    <br>Non Solus.
+  </footer>
+</div>
+</body>
+</html>

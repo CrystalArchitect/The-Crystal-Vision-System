@@ -1,0 +1,30 @@
+{
+  // Lenient by design: this repo's docs predate this lint check and don't
+  // follow a single consistent style. Only rules with zero pre-existing
+  // violations are left enabled, so CI catches genuinely new breakage
+  // (unclosed fences, hard tabs, missing final newline, stray multiple
+  // blank lines) without demanding a repo-wide rewrite just to turn CI on.
+  // Re-enable a disabled rule only alongside actually fixing its hits.
+  "default": true,
+  "MD001": false, // heading-increment
+  "MD007": false, // ul-indent
+  "MD009": false, // no-trailing-spaces
+  "MD013": false, // line-length (prose docs, not code)
+  "MD018": false, // no-missing-space-atx (false-positives on "#hashtag" prose)
+  "MD022": false, // blanks-around-headings
+  "MD024": false, // no-duplicate-heading (repeated section titles across a doc)
+  "MD025": false, // single-title (some docs use multiple top-level headings)
+  "MD026": false, // no-trailing-punctuation
+  "MD028": false, // no-blanks-blockquote (adjacent callout blockquotes separated by a blank line)
+  "MD029": false, // ol-prefix
+  "MD031": false, // blanks-around-fences
+  "MD032": false, // blanks-around-lists
+  "MD033": false, // no-inline-html
+  "MD034": false, // no-bare-urls
+  "MD036": false, // no-emphasis-as-heading
+  "MD040": false, // fenced-code-language
+  "MD049": false, // emphasis-style
+  "MD050": false, // strong-style
+  "MD058": false, // blanks-around-tables
+  "MD060": false  // table-column-style
+}

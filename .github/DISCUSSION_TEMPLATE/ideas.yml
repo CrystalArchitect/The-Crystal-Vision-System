@@ -1,0 +1,26 @@
+title: ""
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas welcome — this is the divergence end of the workflow
+        (docs/ai/AI-Workflow.md). Wild is fine; just label the layer.
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What it is, and what it would take to be real.
+    validations:
+      required: true
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Which layer
+      description: Where would this land if it happened?
+      options:
+        - Built — software, tests, tooling
+        - Vision — mythos, art, story
+        - Platform — repo structure, governance, workflow
+    validations:
+      required: true
