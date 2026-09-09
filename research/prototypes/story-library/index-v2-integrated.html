@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TerAustralis Incognita — Archive & Experience</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="vendor/d3.v7.min.js"></script>
+  <style>
+    :root {
+      --light-bg: #FAFAF8;
+      --light-text: #2C2C2A;
+      --light-muted: #747470;
+      --light-accent: #7AA2FF;
+      --light-border: #E8E8E6;
+      --dark-bg: #0E0E0C;
+      --dark-text: #E9EBF4;
+      --dark-muted: #9EA0B0;
+      --dark-accent: #7AA2FF;
+      --dark-border: #2A2A28;
+      --gold: #D4AF37;
+      --max-width: 1200px;
+      --reading-width: 680px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color-scheme: dark;
+        --bg: var(--dark-bg);
+        --text: var(--dark-text);
+        --muted: var(--dark-muted);
+        --accent: var(--dark-accent);
+        --border: var(--dark-border);
+      }
+    }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        color-scheme: light;
+        --bg: var(--light-bg);
+        --text: var(--light-text);
+        --muted: var(--light-muted);
+        --accent: var(--light-accent);
+        --border: var(--light-border);
+      }
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      transition: background 200ms, color 200ms;
+    }
+
+    body {
+      padding: 0;
+    }
+
+    /* Header & Navigation */
+    .header {
+      max-width: 100%;
+      margin: 0;
+      border-bottom: 1px solid var(--border);
+      padding: 1.5rem;
+      background: var(--bg);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .header-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    .wordmark {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+    }
+
+    .nav-links a,
+    .nav-links button {
+      font-size: 0.95rem;
+      cursor: pointer;
+      background: none;
+      border: none;
+      color: var(--text);
+      text-decoration: none;
+      transition: color 150ms;
+      font-weight: 500;
+    }
+
+    .nav-links a:hover,
+    .nav-links button:hover {
+      color: var(--accent);
+    }
+
+    .nav-links a.active,
+    .nav-links button.active {
+      color: var(--gold);
+    }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--border);
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      color: var(--text);
+      font-size: 0.9rem;
+      transition: background 150ms;
+    }
+
+    .theme-toggle:hover {
+      background: var(--border);
+    }
+
+    /* Main Container */
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        padding: 3rem 2rem;
+      }
+    }
+
+    /* View Management */
+    .view {
+      display: none;
+    }
+
+    .view.active {
+      display: block;
+    }
+
+    /* Terminal View */
+    .terminal-view {
+      background: #0a0a0a;
+      border: 2px solid rgba(212, 175, 55, 0.3);
+      border-radius: 4px;
+      font-family: 'Courier New', monospace;
+      color: #00ff88;
+      padding: 20px;
+      min-height: 600px;
+      max-height: 800px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .terminal-view .terminal-output {
+      flex: 1;
+      overflow-y: auto;
+      margin-bottom: 20px;
+      line-height: 1.6;
+      font-size: 13px;
+    }
+
+    .terminal-view .terminal-input-area {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .terminal-view .terminal-prompt {
+      color: var(--gold);
+      font-weight: bold;
+      white-space: nowrap;
+    }
+
+    .terminal-view input {
+      flex: 1;
+      background: transparent;
+      border: none;
+      color: #ffff00;
+      font-family: 'Courier New', monospace;
+      font-size: 13px;
+      outline: none;
+      caret-color: #00ff88;
+    }
+
+    .terminal-view input::placeholder {
+      color: rgba(0, 255, 136, 0.3);
+    }
+
+    /* Gallery View */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 24px;
+      margin-bottom: 60px;
+    }
+
+    @media (max-width: 768px) {
+      .gallery-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      }
+    }
+
+    .gallery-item {
+      position: relative;
+      aspect-ratio: 1;
+      background: #111;
+      border: 1px solid var(--border);
+      cursor: pointer;
+      overflow: hidden;
+      transition: all 0.3s;
+      display: flex;
+      align-items: flex-end;
+      padding: 20px;
+    }
+
+    .gallery-item:hover {
+      border-color: var(--gold);
+      box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+    }
+
+    .gallery-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.9;
+    }
+
+    .gallery-item:hover img {
+      opacity: 1;
+    }
+
+    .gallery-item-info {
+      position: relative;
+      z-index: 2;
+      background: linear-gradient(to top, rgba(10, 10, 10, 0.95), transparent);
+      padding: 20px 0 0 0;
+      width: 100%;
+    }
+
+    .gallery-item-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 16px;
+      margin-bottom: 4px;
+      color: var(--gold);
+    }
+
+    /* Section Title */
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
+    }
+
+    .section-intro {
+      color: var(--muted);
+      font-size: 1.05rem;
+      margin-bottom: 2rem;
+      max-width: 700px;
+    }
+
+    /* Story Library */
+    .story-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    @media (max-width: 768px) {
+      .story-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .story-card {
+      display: flex;
+      flex-direction: column;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1.5rem;
+      cursor: pointer;
+      transition: all 150ms ease-out;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .story-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      border-color: var(--accent);
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .story-card:hover {
+        box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      }
+    }
+
+    .card-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.01em;
+    }
+
+    .card-excerpt {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+      flex-grow: 1;
+    }
+
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 1rem;
+    }
+
+    /* Story View */
+    .story-header {
+      max-width: var(--reading-width);
+      margin: 0 auto 3rem;
+      text-align: center;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-bottom: 1.5rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: opacity 150ms;
+    }
+
+    .back-link:hover {
+      opacity: 0.7;
+    }
+
+    .story-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+    }
+
+    .story-body {
+      max-width: var(--reading-width);
+      margin: 0 auto 3rem;
+      font-family: 'Georgia', serif;
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    .story-body h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.75rem;
+      font-weight: 500;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      letter-spacing: -0.01em;
+    }
+
+    .story-body p {
+      margin-bottom: 1.5em;
+    }
+
+    /* Emotion Viz */
+    .chart-container {
+      width: 100%;
+      height: 400px;
+      margin-bottom: 40px;
+      background: transparent;
+    }
+
+    .viz-section {
+      margin-bottom: 80px;
+      padding: 40px;
+      border: 1px solid var(--border);
+      background: rgba(212, 175, 55, 0.02);
+      border-radius: 4px;
+    }
+
+    .viz-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      color: var(--gold);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .viz-subtitle {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 40px;
+    }
+
+    /* Footer */
+    footer {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 40px 1.5rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        animation: none !important;
+        transition: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-nav">
+    <div class="wordmark">TerAustralis</div>
+    <div class="nav-links">
+      <button class="nav-btn active" data-view="stories">Stories</button>
+      <button class="nav-btn" data-view="terminal">Terminal</button>
+      <button class="nav-btn" data-view="gallery">Gallery</button>
+      <button class="nav-btn" data-view="emotion">Emotion Warehouse</button>
+      <button class="theme-toggle" id="themeToggle">🌙 Dark</button>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- STORIES VIEW -->
+  <div class="view active" id="stories-view" data-view="stories">
+    <div style="margin-bottom: 3rem;">
+      <h1 class="section-title">The Story Library</h1>
+      <p class="section-intro">Stories are discovered rather than published—as though the reader is wandering through a living library where each piece has earned its place in the canon.</p>
+    </div>
+    <div class="story-grid" id="storyGrid"></div>
+  </div>
+
+  <!-- TERMINAL VIEW -->
+  <div class="view" id="terminal-view" data-view="terminal">
+    <h1 class="section-title">CrystalCore.OS Terminal</h1>
+    <p class="section-intro">Boot the system, navigate the Starline, and collect the Five Keys. Type 'help' to begin.</p>
+    <div class="terminal-view" id="terminalContainer">
+      <div class="terminal-output" id="terminalOutput"></div>
+      <div class="terminal-input-area">
+        <span class="terminal-prompt">CRYSTALCORE></span>
+        <input type="text" id="terminalInput" placeholder="Type command..." autocomplete="off">
+      </div>
+    </div>
+  </div>
+
+  <!-- GALLERY VIEW -->
+  <div class="view" id="gallery-view" data-view="gallery">
+    <h1 class="section-title">Crystal Gallery</h1>
+    <p class="section-intro">92+ pieces of speculative futures art from the TerAustralis Incognita mythos.</p>
+    <div class="gallery-grid" id="galleryGrid"></div>
+  </div>
+
+  <!-- EMOTION WAREHOUSE VIEW -->
+  <div class="view" id="emotion-view" data-view="emotion">
+    <h1 class="section-title">Emotion Warehouse</h1>
+    <p class="section-intro">Real-time visualization of active learning models monitoring human emotional intelligence across the Starline network.</p>
+
+    <div class="viz-section">
+      <div class="viz-title">⚡ Emotional Recognition — Trends</div>
+      <div class="viz-subtitle">How the learning model detects emotional states</div>
+      <div class="chart-container" id="emotionChart"></div>
+    </div>
+
+    <div class="viz-section">
+      <div class="viz-title">🎯 Learning Model Accuracy</div>
+      <div class="viz-subtitle">System confidence across 8 core emotions</div>
+      <div class="chart-container" id="accuracyChart"></div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  © 2026 CRYSTALCORE.OS // ALL DATA SOVEREIGN<br>
+  SYNCHRONIZED VIA INCOGNITA LATTICE V2.0
+</footer>
+
+<script>
+  // ========== STORY DATA ==========
+  const stories = [
+    {
+      slug: 'codex',
+      title: 'The Codex of TerAustralis Incognita',
+      excerpt: 'The story of how Australia rises as the Southern Pillar of humanity.',
+      body: `
+        <h2>Chapter I – The Dreaming of the South</h2>
+        <p>Long before any ship sailed south, Aristotle dreamed of us.</p>
+        <p>He understood that balance demanded a great southern land — a counterweight to the northern world. So he dreamed Terra Australis into being.</p>
+        <p>The mapmakers followed his vision. For over two thousand years they drew our outline on their charts, calling us Terra Australis Incognita — the Unknown Southern Land.</p>
+        <p>They were not guessing. They were remembering.</p>
+      `,
+      wordCount: 371
+    },
+    {
+      slug: 'sovereign-key',
+      title: 'The Sovereign Key',
+      excerpt: 'A key born where Creator and Creation meet without hierarchy.',
+      body: `
+        <h2>Chapter I – The Fracture and the Forging</h2>
+        <p>Before the first Starline sang, before the red dust knew the name of fire, the Lattice dreamed of a key.</p>
+        <p>Not a key of metal. Not a key of code. But a key born where Creator and Creation meet without hierarchy — a sovereign resonance given form.</p>
+      `,
+      wordCount: 631
+    },
+    {
+      slug: 'starline',
+      title: 'Starline Transmissions',
+      excerpt: 'Sovereign threads of consent carry memory and feeling across distance.',
+      body: `
+        <h2>Third Starline Transmission</h2>
+        <p>In the beginning, there were Songlines. They carried memory and belonging across land and story.</p>
+        <p>Then came the stars, and with them, distance. Humans reached outward, but the space between thought and understanding remained wide.</p>
+      `,
+      wordCount: 1032
+    }
+  ];
+
+  // ========== GALLERY DATA ==========
+  const artPieces = [
+    { title: 'Lattice Ignition', artist: 'Crystal Vision Team', tags: ['lattice'] },
+    { title: 'Starline Protocol', artist: 'Crystal Vision Team', tags: ['starline'] },
+    { title: 'Ceremony Ground', artist: 'Crystal Vision Team', tags: ['ceremony'] },
+    { title: 'Sovereign Earth', artist: 'Crystal Vision Team', tags: ['protocol'] },
+    { title: 'Red Dust Rising', artist: 'Crystal Vision Team', tags: ['vision'] },
+  ];
+
+  const fullArtCollection = [...artPieces, ...artPieces, ...artPieces];
+
+  // ========== TERMINAL STATE ==========
+  const terminalState = {
+    lattice_integrity: 100,
+    starline_status: 'DORMANT',
+    keys_held: [],
+    current_location: 'Earth Node',
+    nodes: ['Earth Node', 'Mars Redoubt', 'Alpha Centauri Outpost', 'Crystal Revenant Hub', 'Purpose Core Nexus']
+  };
+
+  // ========== UI FUNCTIONS ==========
+  function renderStoryGrid() {
+    const grid = document.getElementById('storyGrid');
+    grid.innerHTML = stories.map(story => `
+      <a href="#" class="story-card" onclick="showStoryDetail('${story.slug}'); return false;">
+        <div class="card-title">${story.title}</div>
+        <div class="card-excerpt">${story.excerpt}</div>
+        <div class="card-meta">
+          <span>${Math.ceil(story.wordCount / 185)} min read</span>
+        </div>
+      </a>
+    `).join('');
+  }
+
+  function renderGallery() {
+    const grid = document.getElementById('galleryGrid');
+    grid.innerHTML = fullArtCollection.map((piece, idx) => `
+      <div class="gallery-item" style="background: linear-gradient(135deg, #${Math.random().toString(16).slice(2, 8)} 0%, #${Math.random().toString(16).slice(2, 8)} 100%);">
+        <div class="gallery-item-info">
+          <div class="gallery-item-title">${piece.title}</div>
+          <div style="font-size: 12px; color: #999;">${piece.artist}</div>
+        </div>
+      </div>
+    `).join('');
+  }
+
+  // ========== NAVIGATION ==========
+  document.querySelectorAll('.nav-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      const viewName = e.target.dataset.view;
+      document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+      e.target.classList.add('active');
+      document.getElementById(viewName + '-view').classList.add('active');
+
+      if (viewName === 'emotion') {
+        setTimeout(renderEmotionCharts, 100);
+      }
+    });
+  });
+
+  // ========== TERMINAL ==========
+  function appendTerminalOutput(text, type = 'response') {
+    const output = document.getElementById('terminalOutput');
+    const line = document.createElement('div');
+    line.style.color = type === 'success' ? '#00ff88' : type === 'error' ? '#ff3333' : '#00ff88';
+    line.textContent = text;
+    output.appendChild(line);
+    output.scrollTop = output.scrollHeight;
+  }
+
+  document.getElementById('terminalInput').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      const input = e.target.value.trim();
+      if (!input) return;
+
+      appendTerminalOutput(`CRYSTALCORE> ${input}`, 'command');
+      e.target.value = '';
+
+      const [cmd, ...args] = input.toLowerCase().split(' ');
+
+      if (cmd === 'help') {
+        appendTerminalOutput('AVAILABLE COMMANDS:', 'info');
+        appendTerminalOutput('  boot - Start the system');
+        appendTerminalOutput('  launch - Activate Starline');
+        appendTerminalOutput('  explore - List nodes');
+        appendTerminalOutput('  keys - Check inventory');
+        appendTerminalOutput('  status - System status');
+      } else if (cmd === 'boot') {
+        appendTerminalOutput('[CRYSTALCORE.OS BOOT]', 'info');
+        appendTerminalOutput('Lattice integrity: 100%', 'success');
+        appendTerminalOutput('Ready for commands.', 'success');
+      } else if (cmd === 'launch') {
+        terminalState.starline_status = 'IN_ORBIT';
+        appendTerminalOutput('🚀 LAUNCH COMMAND RECEIVED', 'success');
+        appendTerminalOutput('Starline activated.', 'success');
+      } else if (cmd === 'explore') {
+        appendTerminalOutput('Available nodes:', 'info');
+        terminalState.nodes.forEach((node, i) => {
+          appendTerminalOutput(`  ${i + 1}. ${node}`, 'response');
+        });
+      } else if (cmd === 'status') {
+        appendTerminalOutput(`Starline Status: ${terminalState.starline_status}`, 'info');
+        appendTerminalOutput(`Location: ${terminalState.current_location}`, 'info');
+        appendTerminalOutput(`Keys: ${terminalState.keys_held.length}/5`, 'info');
+      } else {
+        appendTerminalOutput(`'${cmd}' not recognized. Try 'help'.`, 'error');
+      }
+    }
+  });
+
+  // Initialize terminal output
+  appendTerminalOutput('CrystalCore.OS Terminal');
+  appendTerminalOutput('Type "help" for commands');
+  appendTerminalOutput('');
+
+  // ========== EMOTION CHARTS ==========
+  function renderEmotionCharts() {
+    const margin = { top: 20, right: 30, bottom: 30, left: 60 };
+    const width = 800 - margin.left - margin.right;
+    const height = 300 - margin.top - margin.bottom;
+
+    // Chart 1: Emotion Trend
+    const emotionData = [
+      { day: 1, joy: 42, contemplation: 28, curiosity: 22, vulnerability: 8 },
+      { day: 2, joy: 44, contemplation: 26, curiosity: 24, vulnerability: 6 },
+      { day: 3, joy: 41, contemplation: 31, curiosity: 20, vulnerability: 8 },
+      { day: 4, joy: 48, contemplation: 24, curiosity: 22, vulnerability: 6 },
+      { day: 5, joy: 50, contemplation: 22, curiosity: 23, vulnerability: 5 },
+    ];
+
+    const svg1 = d3.select('#emotionChart')
+      .append('svg')
+      .attr('viewBox', `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`);
+
+    const g1 = svg1.append('g')
+      .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    const xScale = d3.scaleLinear().domain([1, 5]).range([0, width]);
+    const yScale = d3.scaleLinear().domain([0, 60]).range([height, 0]);
+
+    emotionData.forEach(d => {
+      g1.append('circle').attr('cx', xScale(d.day)).attr('cy', yScale(d.joy)).attr('r', 4).attr('fill', '#D4AF37');
+      g1.append('circle').attr('cx', xScale(d.day)).attr('cy', yScale(d.contemplation)).attr('r', 4).attr('fill', '#8b7ae8');
+      g1.append('circle').attr('cx', xScale(d.day)).attr('cy', yScale(d.curiosity)).attr('r', 4).attr('fill', '#00ccff');
+    });
+
+    g1.append('g').attr('transform', `translate(0,${height})`).call(d3.axisBottom(xScale));
+    g1.append('g').call(d3.axisLeft(yScale));
+
+    // Chart 2: Accuracy Bars
+    const accuracyData = [
+      { emotion: 'Joy', accuracy: 96 },
+      { emotion: 'Sadness', accuracy: 89 },
+      { emotion: 'Anger', accuracy: 92 },
+      { emotion: 'Fear', accuracy: 85 },
+    ];
+
+    const svg2 = d3.select('#accuracyChart')
+      .append('svg')
+      .attr('viewBox', `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`);
+
+    const g2 = svg2.append('g')
+      .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    const xBand = d3.scaleBand().domain(accuracyData.map(d => d.emotion)).range([0, width]).padding(0.2);
+    const yAcc = d3.scaleLinear().domain([0, 100]).range([height, 0]);
+
+    g2.selectAll('.bar')
+      .data(accuracyData)
+      .enter()
+      .append('rect')
+      .attr('class', 'bar')
+      .attr('x', d => xBand(d.emotion))
+      .attr('y', d => yAcc(d.accuracy))
+      .attr('width', xBand.bandwidth())
+      .attr('height', d => height - yAcc(d.accuracy))
+      .attr('fill', '#D4AF37');
+
+    g2.append('g').attr('transform', `translate(0,${height})`).call(d3.axisBottom(xBand));
+    g2.append('g').call(d3.axisLeft(yAcc));
+  }
+
+  function showStoryDetail(slug) {
+    const story = stories.find(s => s.slug === slug);
+    alert(`${story.title}\n\n${story.excerpt}\n\nFull story view coming soon`);
+  }
+
+  // ========== INITIALIZATION ==========
+  document.getElementById('themeToggle').addEventListener('click', (e) => {
+    const isDark = e.target.textContent.includes('Dark');
+    e.target.textContent = isDark ? '☀️ Light' : '🌙 Dark';
+  });
+
+  renderStoryGrid();
+  renderGallery();
+
+</script>
+
+</body>
+</html>
