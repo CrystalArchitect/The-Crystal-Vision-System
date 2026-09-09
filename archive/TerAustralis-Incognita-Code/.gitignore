@@ -1,0 +1,64 @@
+# Secrets — never commit
+.env
+.envrc
+*.pem
+*.key
+credentials*
+auth.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Local companion memory — personal conversations and profiles never go in
+# git. Every name these folders have ever had stays listed: a person's
+# history must not become git-visible because a default was renamed.
+crystalcore_memory.json
+crystalcore_memory/
+crystalcore_profiles/
+clementine_memory.json
+clementine_memory/
+clementine_profiles/
+lumina_memory.json
+lumina_memory/
+lumina_profiles/
+memory/config.json
+
+# CrystalCore.OS local state
+.crystalcore/
+
+# CrystalBridge audit trail and guest messages — real conversation content,
+# never in git (bridge_config.json itself is fine to commit)
+core/profiles/*/audit.jsonl
+core/profiles/*/messages.jsonl
+
+# Starline identity/peers/consent — this device's private key and address
+# book, never in git, wherever an agent happens to run from
+starline_identity.json
+starline_peers.json
+starline_consent.json
+**/starline_identity.json
+**/starline_peers.json
+**/starline_consent.json
+
+# Node / site build output
+node_modules/
+.svelte-kit/
+
+# H2 runner resume artefacts (item rows already live in results/*.json)
+results/**/checkpoints/
+results/**/_selftest/
+

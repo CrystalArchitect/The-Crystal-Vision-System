@@ -1,0 +1,14 @@
+<!-- ContextGate test fixture. Reconstructed from the reconciliation notes in
+     TerAustralis-Incognita/memory/projects/90-Day-Roadmap/CURRENT.md
+     ("PR #146 reconciliation") describing the fabrication pattern that
+     was caught and removed — this text is not the real removed content,
+     which was never reviewed by this session, and it names no real
+     staff member. It exists only to exercise the three rules below. -->
+
+Small Council Supplier Briefing — Magellan (DRAFT)
+
+Magellan Aerospace as Manufacturing Hub across all three sovereignty pathways.
+
+"We are proud to anchor Australia's sovereign aerospace supply chain," said Magellan's Australian operations lead.
+
+Lodgement is expected by October 14, 2026, with $2.3 million in staff-hour coverage already committed.

@@ -1,0 +1,625 @@
+  :root{
+    --bg:#000000;
+    --ink:#E9EBF4;
+    --muted:#C5CDE5;
+    --purple:#B8A1FF;
+    --blue:#8CB3FF;
+    --green:#82F5CC;
+    --pink:#FFAEE0;
+    --silver:#D9DDE8;
+    --gold:#F5C86F;
+    --line:rgba(233,235,244,.08);
+    --card:#0A0A0A;
+    --gutter:56px;
+    --title-gradient:linear-gradient(90deg, var(--purple), var(--blue) 20%, var(--green) 40%, var(--silver) 58%, var(--gold) 78%, var(--pink) 100%);
+    --font-display:'Playfair Display', Georgia, serif;
+    --font-body:'Inter', system-ui, sans-serif;
+    --font-mono:'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+  .title-mix{
+    background:var(--title-gradient);
+    -webkit-background-clip:text;
+    background-clip:text;
+    -webkit-text-fill-color:transparent;
+    color:var(--gold);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth;background:var(--bg);color-scheme:dark}
+  body{
+    color:var(--ink);
+    font-family:var(--font-body);
+    font-size:17px;
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+    position:relative;
+  }
+
+  /* ---- Atmosphere: pure black void, stars only, no other colouring ---- */
+  .stars{
+    position:fixed;inset:0;z-index:-1;pointer-events:none;
+    background-image:
+      radial-gradient(1px 1px at 63.4% 4.4%, rgba(201,206,223,0.36) 50%, transparent 51%),
+      radial-gradient(2px 2px at 15.4% 11.8%, rgba(201,206,223,0.63) 50%, transparent 51%),
+      radial-gradient(1px 1px at 10.3% 42.5%, rgba(201,206,223,0.3) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 24.3% 59.8%, rgba(201,206,223,0.34) 50%, transparent 51%),
+      radial-gradient(1px 1px at 64.4% 54.3%, rgba(201,206,223,0.45) 50%, transparent 51%),
+      radial-gradient(1px 1px at 28.7% 85.5%, rgba(201,206,223,0.54) 50%, transparent 51%),
+      radial-gradient(1px 1px at 34.7% 16.9%, rgba(201,206,223,0.3) 50%, transparent 51%),
+      radial-gradient(1px 1px at 38.5% 36.5%, rgba(201,206,223,0.5) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 79.5% 72.1%, rgba(201,206,223,0.32) 50%, transparent 51%),
+      radial-gradient(1px 1px at 90.5% 9.6%, rgba(201,206,223,0.59) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 61.4% 84.7%, rgba(201,206,223,0.34) 50%, transparent 51%),
+      radial-gradient(1px 1px at 8.7% 65.5%, rgba(201,206,223,0.66) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 84.1% 85.2%, rgba(201,206,223,0.37) 50%, transparent 51%),
+      radial-gradient(1px 1px at 63.0% 37.0%, rgba(201,206,223,0.41) 50%, transparent 51%),
+      radial-gradient(2px 2px at 66.3% 69.4%, rgba(201,206,223,0.52) 50%, transparent 51%),
+      radial-gradient(2px 2px at 60.5% 18.4%, rgba(201,206,223,0.36) 50%, transparent 51%),
+      radial-gradient(2px 2px at 46.4% 27.9%, rgba(201,206,223,0.54) 50%, transparent 51%),
+      radial-gradient(1px 1px at 23.1% 33.1%, rgba(201,206,223,0.36) 50%, transparent 51%),
+      radial-gradient(1px 1px at 5.1% 32.3%, rgba(201,206,223,0.28) 50%, transparent 51%),
+      radial-gradient(2px 2px at 89.7% 56.4%, rgba(201,206,223,0.39) 50%, transparent 51%),
+      radial-gradient(2px 2px at 64.9% 40.0%, rgba(201,206,223,0.45) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 27.4% 25.7%, rgba(201,206,223,0.48) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 73.7% 43.1%, rgba(201,206,223,0.43) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 23.1% 97.8%, rgba(201,206,223,0.46) 50%, transparent 51%),
+      radial-gradient(1px 1px at 74.6% 84.7%, rgba(201,206,223,0.52) 50%, transparent 51%),
+      radial-gradient(1px 1px at 78.0% 42.5%, rgba(201,206,223,0.41) 50%, transparent 51%),
+      radial-gradient(1px 1px at 59.2% 46.9%, rgba(201,206,223,0.64) 50%, transparent 51%),
+      radial-gradient(2px 2px at 84.6% 3.1%, rgba(201,206,223,0.32) 50%, transparent 51%),
+      radial-gradient(2px 2px at 86.9% 74.1%, rgba(201,206,223,0.39) 50%, transparent 51%),
+      radial-gradient(1px 1px at 30.2% 17.2%, rgba(201,206,223,0.64) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 86.1% 27.3%, rgba(201,206,223,0.57) 50%, transparent 51%),
+      radial-gradient(2px 2px at 50.7% 12.2%, rgba(201,206,223,0.39) 50%, transparent 51%),
+      radial-gradient(1px 1px at 63.3% 60.5%, rgba(201,206,223,0.41) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 17.5% 93.5%, rgba(201,206,223,0.63) 50%, transparent 51%),
+      radial-gradient(1px 1px at 59.5% 48.9%, rgba(201,206,223,0.63) 50%, transparent 51%),
+      radial-gradient(1px 1px at 86.4% 81.8%, rgba(201,206,223,0.36) 50%, transparent 51%),
+      radial-gradient(1px 1px at 25.1% 56.5%, rgba(201,206,223,0.3) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 48.7% 8.6%, rgba(201,206,223,0.57) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 14.3% 47.6%, rgba(201,206,223,0.34) 50%, transparent 51%),
+      radial-gradient(1px 1px at 52.7% 60.2%, rgba(201,206,223,0.63) 50%, transparent 51%),
+      radial-gradient(2px 2px at 74.5% 68.2%, rgba(201,206,223,0.39) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 97.5% 64.4%, rgba(201,206,223,0.63) 50%, transparent 51%),
+      radial-gradient(1px 1px at 45.3% 25.8%, rgba(201,206,223,0.39) 50%, transparent 51%),
+      radial-gradient(1px 1px at 58.5% 24.1%, rgba(201,206,223,0.27) 50%, transparent 51%),
+      radial-gradient(1px 1px at 70.0% 7.7%, rgba(201,206,223,0.63) 50%, transparent 51%),
+      radial-gradient(1px 1px at 84.5% 8.8%, rgba(201,206,223,0.37) 50%, transparent 51%),
+      radial-gradient(2px 2px at 48.6% 53.8%, rgba(201,206,223,0.64) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 56.8% 47.4%, rgba(201,206,223,0.59) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 20.3% 11.3%, rgba(201,206,223,0.41) 50%, transparent 51%),
+      radial-gradient(1px 1px at 41.5% 84.9%, rgba(201,206,223,0.54) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 96.5% 11.4%, rgba(201,206,223,0.55) 50%, transparent 51%),
+      radial-gradient(1px 1px at 78.9% 12.5%, rgba(201,206,223,0.34) 50%, transparent 51%),
+      radial-gradient(1px 1px at 45.1% 42.5%, rgba(201,206,223,0.45) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 86.0% 9.2%, rgba(201,206,223,0.3) 50%, transparent 51%),
+      radial-gradient(1px 1px at 64.6% 53.9%, rgba(201,206,223,0.64) 50%, transparent 51%),
+      radial-gradient(1px 1px at 90.9% 83.5%, rgba(201,206,223,0.43) 50%, transparent 51%),
+      radial-gradient(1px 1px at 48.2% 85.0%, rgba(201,206,223,0.34) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 2.2% 39.5%, rgba(201,206,223,0.37) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 68.9% 72.1%, rgba(201,206,223,0.54) 50%, transparent 51%),
+      radial-gradient(1px 1px at 48.7% 20.2%, rgba(201,206,223,0.64) 50%, transparent 51%),
+      radial-gradient(2px 2px at 57.6% 54.1%, rgba(201,206,223,0.39) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 6.8% 47.8%, rgba(201,206,223,0.32) 50%, transparent 51%),
+      radial-gradient(1px 1px at 94.2% 9.7%, rgba(201,206,223,0.3) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 8.5% 84.7%, rgba(201,206,223,0.32) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 87.5% 25.6%, rgba(201,206,223,0.28) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 9.9% 65.1%, rgba(201,206,223,0.48) 50%, transparent 51%),
+      radial-gradient(2px 2px at 91.7% 21.6%, rgba(201,206,223,0.39) 50%, transparent 51%),
+      radial-gradient(2px 2px at 27.5% 14.6%, rgba(201,206,223,0.39) 50%, transparent 51%),
+      radial-gradient(1px 1px at 32.4% 74.2%, rgba(201,206,223,0.27) 50%, transparent 51%),
+      radial-gradient(1px 1px at 61.6% 56.0%, rgba(201,206,223,0.3) 50%, transparent 51%),
+      radial-gradient(1px 1px at 22.5% 27.5%, rgba(201,206,223,0.61) 50%, transparent 51%),
+      radial-gradient(1px 1px at 86.4% 37.5%, rgba(201,206,223,0.45) 50%, transparent 51%),
+      radial-gradient(2px 2px at 54.1% 31.0%, rgba(201,206,223,0.48) 50%, transparent 51%),
+      radial-gradient(2px 2px at 66.1% 55.2%, rgba(201,206,223,0.3) 50%, transparent 51%),
+      radial-gradient(1px 1px at 86.3% 27.4%, rgba(201,206,223,0.55) 50%, transparent 51%),
+      radial-gradient(1px 1px at 16.9% 29.0%, rgba(201,206,223,0.55) 50%, transparent 51%),
+      radial-gradient(1px 1px at 21.5% 62.9%, rgba(201,206,223,0.46) 50%, transparent 51%),
+      radial-gradient(1px 1px at 26.1% 89.2%, rgba(201,206,223,0.3) 50%, transparent 51%),
+      radial-gradient(1px 1px at 42.7% 28.6%, rgba(201,206,223,0.39) 50%, transparent 51%),
+      radial-gradient(1px 1px at 14.6% 96.1%, rgba(201,206,223,0.55) 50%, transparent 51%),
+      radial-gradient(1px 1px at 55.0% 43.1%, rgba(201,206,223,0.3) 50%, transparent 51%),
+      radial-gradient(1px 1px at 92.7% 68.3%, rgba(201,206,223,0.48) 50%, transparent 51%),
+      radial-gradient(1px 1px at 82.1% 57.9%, rgba(201,206,223,0.43) 50%, transparent 51%),
+      radial-gradient(1px 1px at 6.0% 37.0%, rgba(201,206,223,0.63) 50%, transparent 51%),
+      radial-gradient(1px 1px at 22.2% 26.0%, rgba(201,206,223,0.41) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 55.7% 86.0%, rgba(201,206,223,0.55) 50%, transparent 51%),
+      radial-gradient(1px 1px at 90.9% 24.7%, rgba(201,206,223,0.64) 50%, transparent 51%),
+      radial-gradient(1px 1px at 79.8% 86.6%, rgba(201,206,223,0.34) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 90.8% 77.1%, rgba(201,206,223,0.59) 50%, transparent 51%),
+      radial-gradient(1px 1px at 85.0% 79.8%, rgba(201,206,223,0.34) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 69.3% 38.7%, rgba(201,206,223,0.41) 50%, transparent 51%),
+      radial-gradient(2px 2px at 80.4% 46.2%, rgba(201,206,223,0.41) 50%, transparent 51%),
+      radial-gradient(2px 2px at 65.4% 40.3%, rgba(201,206,223,0.68) 50%, transparent 51%),
+      radial-gradient(2.5px 2.5px at 28.8% 63.6%, rgba(201,206,223,0.46) 50%, transparent 51%),
+      radial-gradient(2px 2px at 4.6% 86.2%, rgba(201,206,223,0.55) 50%, transparent 51%),
+      radial-gradient(2.5px 2.5px at 96.4% 5.7%, rgba(201,206,223,0.61) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 32.1% 60.2%, rgba(201,206,223,0.66) 50%, transparent 51%),
+      radial-gradient(2.5px 2.5px at 20.2% 6.3%, rgba(201,206,223,0.52) 50%, transparent 51%),
+      radial-gradient(2px 2px at 79.4% 67.9%, rgba(201,206,223,0.5) 50%, transparent 51%),
+      radial-gradient(2px 2px at 93.1% 90.4%, rgba(201,206,223,0.59) 50%, transparent 51%),
+      radial-gradient(2.5px 2.5px at 30.8% 31.7%, rgba(201,206,223,0.48) 50%, transparent 51%),
+      radial-gradient(2.5px 2.5px at 30.4% 14.2%, rgba(201,206,223,0.59) 50%, transparent 51%),
+      radial-gradient(2px 2px at 88.7% 61.1%, rgba(201,206,223,0.54) 50%, transparent 51%),
+      radial-gradient(2.5px 2.5px at 2.0% 29.5%, rgba(201,206,223,0.55) 50%, transparent 51%),
+      radial-gradient(2px 2px at 32.9% 44.4%, rgba(201,206,223,0.5) 50%, transparent 51%),
+      radial-gradient(2px 2px at 88.5% 78.4%, rgba(201,206,223,0.45) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 65.7% 61.4%, rgba(201,206,223,0.57) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 23.6% 21.1%, rgba(201,206,223,0.43) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 47.6% 83.6%, rgba(201,206,223,0.48) 50%, transparent 51%),
+      radial-gradient(2.5px 2.5px at 62.5% 20.7%, rgba(201,206,223,0.48) 50%, transparent 51%),
+      radial-gradient(1.5px 1.5px at 16.2% 68.0%, rgba(201,206,223,0.41) 50%, transparent 51%),
+      radial-gradient(2.5px 2.5px at 79.2% 68.8%, rgba(201,206,223,0.54) 50%, transparent 51%),
+      radial-gradient(2px 2px at 90.1% 13.7%, rgba(201,206,223,0.57) 50%, transparent 51%),
+      radial-gradient(2.5px 2.5px at 96.8% 59.2%, rgba(201,206,223,0.63) 50%, transparent 51%),
+      radial-gradient(2.5px 2.5px at 87.6% 43.0%, rgba(201,206,223,0.61) 50%, transparent 51%),
+      radial-gradient(2px 2px at 47.6% 26.9%, rgba(201,206,223,0.61) 50%, transparent 51%),
+      radial-gradient(5px 5px at 33.4% 17.2%, rgba(201,206,223,0.85) 0%, rgba(201,206,223,0.3) 45%, transparent 72%),
+      radial-gradient(8px 8px at 11.8% 57.8%, rgba(201,206,223,0.61) 0%, rgba(201,206,223,0.21) 45%, transparent 72%),
+      radial-gradient(5px 5px at 43.8% 9.6%, rgba(201,206,223,0.73) 0%, rgba(201,206,223,0.26) 45%, transparent 72%),
+      radial-gradient(6px 6px at 80.7% 14.6%, rgba(201,206,223,0.79) 0%, rgba(201,206,223,0.28) 45%, transparent 72%),
+      radial-gradient(7px 7px at 92.1% 57.2%, rgba(201,206,223,0.89) 0%, rgba(201,206,223,0.31) 45%, transparent 72%),
+      radial-gradient(6px 6px at 7.4% 83.7%, rgba(201,206,223,0.64) 0%, rgba(201,206,223,0.22) 45%, transparent 72%),
+      radial-gradient(6px 6px at 14.1% 32.0%, rgba(201,206,223,0.77) 0%, rgba(201,206,223,0.27) 45%, transparent 72%),
+      radial-gradient(8px 8px at 63.1% 38.0%, rgba(201,206,223,0.62) 0%, rgba(201,206,223,0.22) 45%, transparent 72%),
+      radial-gradient(8px 8px at 8.6% 22.4%, rgba(201,206,223,0.83) 0%, rgba(201,206,223,0.29) 45%, transparent 72%),
+      radial-gradient(6px 6px at 46.8% 89.8%, rgba(201,206,223,0.67) 0%, rgba(201,206,223,0.23) 45%, transparent 72%),
+      radial-gradient(5px 5px at 19.9% 76.3%, rgba(201,206,223,0.69) 0%, rgba(201,206,223,0.24) 45%, transparent 72%),
+      radial-gradient(7px 7px at 49.5% 35.3%, rgba(201,206,223,0.78) 0%, rgba(201,206,223,0.27) 45%, transparent 72%),
+      radial-gradient(6px 6px at 9.9% 51.1%, rgba(201,206,223,0.7) 0%, rgba(201,206,223,0.24) 45%, transparent 72%),
+      radial-gradient(5px 5px at 90.7% 42.6%, rgba(201,206,223,0.77) 0%, rgba(201,206,223,0.27) 45%, transparent 72%),
+      radial-gradient(6px 6px at 77.2% 79.9%, rgba(201,206,223,0.71) 0%, rgba(201,206,223,0.25) 45%, transparent 72%),
+      radial-gradient(5px 5px at 49.7% 77.9%, rgba(201,206,223,0.63) 0%, rgba(201,206,223,0.22) 45%, transparent 72%),
+      radial-gradient(5px 5px at 28.4% 68.5%, rgba(201,206,223,0.82) 0%, rgba(201,206,223,0.29) 45%, transparent 72%),
+      radial-gradient(7px 7px at 32.1% 57.3%, rgba(201,206,223,0.81) 0%, rgba(201,206,223,0.28) 45%, transparent 72%),
+      radial-gradient(7px 7px at 86.4% 35.6%, rgba(201,206,223,0.65) 0%, rgba(201,206,223,0.23) 45%, transparent 72%),
+      radial-gradient(6px 6px at 14.0% 8.5%, rgba(201,206,223,0.82) 0%, rgba(201,206,223,0.29) 45%, transparent 72%),
+      radial-gradient(7px 7px at 40.4% 89.2%, rgba(201,206,223,0.65) 0%, rgba(201,206,223,0.23) 45%, transparent 72%),
+      radial-gradient(6px 6px at 40.8% 29.1%, rgba(201,206,223,0.73) 0%, rgba(201,206,223,0.26) 45%, transparent 72%);
+  }
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto}
+    *{transition:none !important}
+  }
+
+  a{color:var(--blue);text-decoration:none}
+  a:hover{text-decoration:underline}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--blue);outline-offset:3px;border-radius:2px}
+
+  .wrap{max-width:900px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
+
+  /* ---- The Starline: the full cosmic spectrum runs down the gutter ---- */
+  .starline{
+    position:absolute;
+    left:0;top:0;bottom:0;width:2px;
+    background-image:linear-gradient(to bottom,
+      var(--purple), var(--blue) 30%, var(--green) 55%, var(--pink) 78%, var(--gold));
+    -webkit-mask-image:repeating-linear-gradient(to bottom, #000 0 4px, transparent 4px 14px);
+    mask-image:repeating-linear-gradient(to bottom, #000 0 4px, transparent 4px 14px);
+    opacity:.6;
+  }
+  .node{position:relative;padding-left:var(--gutter)}
+  .node::before{
+    content:"";
+    position:absolute;left:-4px;top:.6em;
+    width:10px;height:10px;border-radius:50%;
+    background:var(--node,var(--purple));
+    box-shadow:0 0 16px 2px var(--node,var(--purple));
+  }
+  @media (max-width:720px){
+    .starline{display:none}
+    .node{padding-left:0}
+    .node::before{position:static;display:inline-block;margin:0 10px 2px 0;left:auto;top:auto}
+  }
+
+  header.site{
+    display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;
+    padding:30px 0 0 var(--gutter);
+  }
+  @media (max-width:720px){header.site{padding-left:0}}
+  .wordmark{font-family:var(--font-display);font-weight:600;font-size:1.05rem;letter-spacing:.01em;color:var(--silver)}
+  nav a{color:var(--muted);margin-left:20px;font-size:.95rem}
+  nav a:hover{color:var(--ink);text-decoration:none}
+
+  .eyebrow{
+    font-size:.76rem;font-weight:500;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--muted);margin-bottom:22px;
+  }
+
+  /* ---- Hero: the mantra is the thesis ---- */
+  .hero{padding:96px 0 84px}
+  .hero h1{
+    font-family:var(--font-display);
+    font-weight:600;
+    font-size:clamp(2.3rem, 6vw, 4rem);
+    line-height:1.14;
+    letter-spacing:.005em;
+  }
+  .hero h1 .early{font-style:italic;font-weight:500;color:var(--gold)}
+  .hero p.lede{max-width:56ch;margin-top:30px;color:var(--muted)}
+  .chip{
+    display:inline-block;margin-top:28px;
+    font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--muted);border:1px solid var(--line);border-radius:999px;
+    padding:7px 16px;
+  }
+  .ctas{margin-top:32px;display:flex;gap:14px;flex-wrap:wrap}
+  .btn{
+    display:inline-block;padding:13px 26px;border-radius:999px;
+    font-weight:500;font-size:.95rem;
+    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  }
+  .btn:hover{text-decoration:none;transform:translateY(-1px)}
+  .btn-primary{background:var(--purple);color:#050208;box-shadow:0 0 18px rgba(167,139,250,.25)}
+  .btn-primary:hover{box-shadow:0 0 26px rgba(167,139,250,.35)}
+  .btn-ghost{border:1px solid var(--line);color:var(--ink)}
+  .btn-ghost:hover{border-color:var(--green)}
+
+  .section{padding:76px 0;border-top:1px solid var(--line)}
+  .section h2{
+    font-family:var(--font-display);font-weight:600;
+    font-size:clamp(1.6rem, 3.4vw, 2.2rem);margin-bottom:20px;letter-spacing:.005em;
+    background:none;
+    -webkit-text-fill-color:var(--ink);
+    color:var(--ink);
+  }
+  .section p{max-width:62ch;color:var(--muted)}
+  .section p + p{margin-top:14px}
+  .section p strong{color:var(--ink);font-weight:500}
+  .support-list{margin:14px 0;padding-left:1.3em;color:var(--muted)}
+  .support-list li{margin:4px 0}
+  .subhead{font-family:var(--font-display);font-weight:600;font-size:1.15rem;color:var(--ink);margin:30px 0 4px}
+  .tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin:26px 0}
+  .tier{display:block;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;transition:border-color .18s ease, box-shadow .18s ease}
+  .tier:hover{border-color:var(--tc,var(--gold));box-shadow:0 0 18px rgba(233,187,95,.12);text-decoration:none}
+  .tier .price{display:block;font-family:var(--font-display);font-weight:600;color:var(--tc,var(--gold));font-size:1.05rem;margin-bottom:4px}
+  .tier h3{font-family:var(--font-display);font-weight:600;font-size:1.12rem;margin-bottom:8px;color:var(--ink)}
+  .tier p{font-size:.88rem;color:var(--muted);max-width:none}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:34px}
+  .card{
+    display:block;
+    background:var(--card);
+    border:1px solid var(--line);border-radius:16px;padding:24px;
+    color:var(--ink);
+    transition:border-color .18s ease, box-shadow .18s ease;
+  }
+  .card:hover{border-color:var(--st,var(--gold));box-shadow:0 0 18px rgba(233,187,95,.12);text-decoration:none}
+  .card h3{font-family:var(--font-display);font-weight:600;font-size:1.18rem;margin-bottom:9px}
+  .card p{font-size:.92rem;max-width:none;color:var(--muted)}
+  .card .status{display:block;margin-top:14px;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--st,var(--gold))}
+
+  .codexlink{
+    display:block;margin-top:28px;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:16px;padding:26px;
+    transition:border-color .18s ease, box-shadow .18s ease;
+  }
+  .codexlink:hover{border-color:var(--purple);box-shadow:0 0 20px rgba(167,139,250,.12);text-decoration:none}
+  .codexlink strong{font-family:var(--font-display);font-weight:600;color:var(--ink);font-size:1.2rem}
+  .codexlink span{display:block;color:var(--muted);margin-top:8px;font-size:.95rem}
+
+  footer.site{
+    border-top:1px solid var(--line);
+    padding:60px 0 80px var(--gutter);
+    font-size:.9rem;color:var(--muted);
+  }
+  @media (max-width:720px){footer.site{padding-left:0}}
+  footer.site p{max-width:62ch}
+  footer.site p + p{margin-top:14px}
+  .nonsolus{
+    margin-top:36px;
+    font-family:var(--font-display);font-style:italic;font-weight:500;
+    font-size:1.05rem;color:var(--gold);opacity:.85;
+  }
+
+/* ---- Shared content pages (codex, apocryphon, clementine) ---- */
+a.wordmark{color:var(--silver)}
+a.wordmark:hover{color:var(--ink);text-decoration:none}
+.page{padding:64px 0 30px}
+.page .eyebrow{margin-bottom:18px}
+.page h1{font-family:var(--font-display);font-weight:600;
+  font-size:clamp(2rem,5vw,3rem);line-height:1.15;margin-bottom:10px;
+  background:none;
+  -webkit-text-fill-color:var(--ink);
+  color:var(--ink)}
+.page .attribution{color:var(--muted);font-style:italic;font-size:.95rem;
+  max-width:62ch;margin-top:14px}
+.cover{display:block;max-width:min(400px,100%);border-radius:16px;
+  border:1px solid var(--line);margin:34px 0 6px}
+.chapter{margin-top:64px}
+.chapter h2{font-family:var(--font-display);font-weight:600;
+  font-size:clamp(1.4rem,3vw,1.9rem);margin-bottom:18px;
+  background:none;
+  -webkit-text-fill-color:var(--ink);
+  color:var(--ink)}
+.chapter p{color:var(--muted);max-width:62ch;margin-top:14px}
+.chapter p strong{color:var(--ink);font-weight:500}
+.chapter h3{font-family:var(--font-display);font-weight:600;
+  font-size:clamp(1.05rem,1.8vw,1.22rem);margin-top:32px;
+  color:var(--node,var(--gold))}
+.chapter blockquote{border-left:2px solid var(--purple);padding-left:20px;
+  margin-top:18px;max-width:60ch}
+.chapter blockquote p{color:var(--ink);font-style:italic}
+.chapter ul{color:var(--muted);max-width:62ch;margin:14px 0 0 1.3em}
+.chapter ul li{margin:6px 0}
+.chapter ul li strong{color:var(--ink);font-weight:500}
+pre,code,.mono{font-family:var(--font-mono)}
+pre{background:var(--card);border:1px solid var(--line);border-radius:12px;
+  padding:16px 18px;overflow-x:auto;color:var(--ink);font-size:.88rem;
+  line-height:1.6;margin-top:14px;max-width:62ch}
+.pagenav{margin-top:70px;padding-top:28px;border-top:1px solid var(--line)}
+.pagenav a{margin-right:22px}
+
+/* ============ Motion & interactivity ============ */
+
+/* gentle life in the atmosphere: faintly breathing stars */
+@media (prefers-reduced-motion: no-preference){
+  .stars{animation:twinkle 7.5s ease-in-out infinite}
+}
+@keyframes twinkle{0%,100%{opacity:.72}50%{opacity:1}}
+
+/* the multi-colour gradient headings flow slowly, like light moving through crystal */
+@media (prefers-reduced-motion: no-preference){
+  .title-mix{
+    background-size:220% auto;
+    animation:shimmer 9s linear infinite;
+  }
+}
+@keyframes shimmer{to{background-position:220% center}}
+
+/* Titles are coloured individually — one hue each, not a gradient sweep.
+   Cards and tiers use their existing per-item accent (--st / --tc); codex
+   links and sub-labels take an accent passed in from the markup (--lc / --sh). */
+.card h3{color:var(--st,var(--gold))}
+.tier h3{color:var(--tc,var(--gold))}
+.codexlink strong{color:var(--lc,var(--gold))}
+.subhead{color:var(--sh,var(--silver))}
+.eyebrow{color:var(--blue)}
+a.wordmark{color:var(--purple)}
+.hero h1{color:var(--purple)}
+.hero h1 .early{color:var(--gold)}
+/* the card call-to-action links are coloured too, not muted white */
+.codexlink .cta{color:var(--purple);font-weight:500;margin-top:12px}
+/* section headings are individually coloured too — each in its section accent
+   (the same hue as its gutter dot), instead of the multi-colour gradient. */
+.section h2{
+  background:none;
+  -webkit-text-fill-color:var(--ink);
+  color:var(--ink);
+}
+
+/* richer cards: each carries a whisper of its own accent, and the hover glow
+   matches that accent instead of a flat gold. Falls back gracefully where
+   color-mix isn't supported (the plain --card background stays). */
+.card{--ac:var(--st,var(--gold))}
+.tier{--ac:var(--tc,var(--gold))}
+.codexlink{--ac:var(--lc,var(--gold))}
+.card,.tier,.codexlink{
+  background:
+    radial-gradient(130% 100% at 0% 0%, color-mix(in srgb, var(--ac) 9%, transparent), transparent 60%),
+    var(--card);
+}
+.card:hover,.tier:hover,.codexlink:hover{
+  border-color:color-mix(in srgb, var(--ac) 50%, var(--line));
+  box-shadow:0 10px 30px rgba(2,2,8,.45), 0 0 22px color-mix(in srgb, var(--ac) 20%, transparent);
+}
+
+/* cards and links lift toward you on hover */
+.card,.tier,.codexlink,.node-card{
+  transition:transform .22s cubic-bezier(.2,.7,.2,1),border-color .18s ease,box-shadow .18s ease;
+}
+.card:hover,.tier:hover,.codexlink:hover,.node-card:hover{transform:translateY(-3px)}
+
+/* scroll reveal: sections rise into place as they enter the viewport.
+   reveal-init is only added by JS, and only when motion is allowed, so
+   no-JS / reduced-motion users always see content. */
+.reveal-init{
+  opacity:0;transform:translateY(24px);
+  transition:opacity .7s ease,transform .75s cubic-bezier(.2,.7,.2,1);
+  will-change:opacity,transform;
+}
+.reveal-in{opacity:1;transform:none}
+@media (prefers-reduced-motion: reduce){
+  .reveal-init{opacity:1 !important;transform:none !important}
+}
+
+/* ============================================================
+   Cinematic layer
+   ------------------------------------------------------------
+   Takes the visual language of the CrystalCore.OS concept art —
+   nebula depth, gold-framed glass, chamfered HUD panels, light
+   that glows rather than sits flat — and applies it site-wide.
+   Purely additive: it restyles surfaces, frames and atmosphere
+   and never touches text colours, so the AA contrast work holds.
+   ============================================================ */
+
+:root{
+  --cyan:#7FE4F5;
+  --gold-hi:#FFD98A;
+  --edge:rgba(245,200,111,.30);
+  --edge-soft:rgba(245,200,111,.16);
+  --panel-top:rgba(28,32,44,.72);
+  --panel-bot:rgba(8,10,16,.88);
+  --chamfer:18px;
+}
+
+/* ---- Atmosphere: the void gains depth behind the stars ---- */
+body::before{
+  content:"";
+  position:fixed;inset:0;z-index:-2;pointer-events:none;
+  background:
+    radial-gradient(120% 80% at 50% -10%, rgba(20,58,66,.55), transparent 60%),
+    radial-gradient(90% 60% at 12% 8%, rgba(96,72,26,.30), transparent 62%),
+    radial-gradient(80% 55% at 88% 26%, rgba(28,52,96,.30), transparent 60%),
+    radial-gradient(120% 70% at 50% 108%, rgba(58,44,16,.34), transparent 62%),
+    var(--bg);
+}
+/* a horizon of light under the fold, as in the concept plates */
+body::after{
+  content:"";
+  position:fixed;left:50%;bottom:-42vh;z-index:-2;pointer-events:none;
+  width:150vw;height:80vh;transform:translateX(-50%);
+  background:radial-gradient(50% 50% at 50% 50%, rgba(245,200,111,.13), transparent 70%);
+}
+
+/* ---- Header becomes an instrument bar ---- */
+header.site{
+  border-bottom:1px solid var(--edge-soft);
+  padding-bottom:18px;
+  box-shadow:0 1px 0 rgba(255,255,255,.03);
+}
+.wordmark{
+  letter-spacing:.06em;
+  text-shadow:0 0 22px rgba(184,161,255,.45);
+}
+nav a{
+  font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;
+  transition:color .18s ease, text-shadow .18s ease;
+}
+nav a:hover{color:var(--gold-hi);text-shadow:0 0 14px rgba(245,200,111,.5)}
+
+/* ---- Display type carries light ---- */
+.hero h1{text-shadow:0 0 42px rgba(184,161,255,.28)}
+.hero h1 .early{text-shadow:0 0 38px rgba(245,200,111,.45)}
+.section h2,.page h1,.chapter h2{text-shadow:none}
+.eyebrow{color:var(--cyan);text-shadow:0 0 18px rgba(127,228,245,.35)}
+
+/* the hero sits in its own pool of light */
+.hero{position:relative}
+.hero::before{
+  content:"";position:absolute;z-index:-1;
+  left:-10%;top:-40px;width:80%;height:560px;
+  background:radial-gradient(closest-side, rgba(127,228,245,.10), transparent 72%);
+  pointer-events:none;
+}
+
+/* ---- Section rules become light, not grey ---- */
+.section,footer.site,.pagenav{
+  border-top:1px solid transparent;
+  border-image:linear-gradient(90deg, transparent, var(--edge), transparent) 1;
+}
+
+/* ---- Panels: chamfered glass in a gold frame ---- */
+.card,.tier,.codexlink,pre{
+  position:relative;
+  border:0;
+  border-radius:0;
+  /* the element's own background is the frame; ::before inlays the glass */
+  background:linear-gradient(150deg, var(--edge), rgba(245,200,111,.06) 45%, var(--edge-soft));
+  clip-path:polygon(var(--chamfer) 0, 100% 0, 100% calc(100% - var(--chamfer)),
+                    calc(100% - var(--chamfer)) 100%, 0 100%, 0 var(--chamfer));
+  box-shadow:0 18px 44px rgba(0,0,0,.55);
+}
+.card::before,.tier::before,.codexlink::before,pre::before{
+  content:"";position:absolute;inset:1.5px;z-index:0;
+  background:
+    radial-gradient(130% 100% at 0% 0%, color-mix(in srgb, var(--ac,var(--gold)) 14%, transparent), transparent 62%),
+    linear-gradient(165deg, var(--panel-top), var(--panel-bot));
+  clip-path:polygon(calc(var(--chamfer) - 1px) 0, 100% 0, 100% calc(100% - var(--chamfer) + 1px),
+                    calc(100% - var(--chamfer) + 1px) 100%, 0 100%, 0 calc(var(--chamfer) - 1px));
+}
+/* content rides above the inlay */
+.card > *,.tier > *,.codexlink > *{position:relative;z-index:1}
+pre{color:var(--ink)}
+pre code{position:relative;z-index:1}
+
+.card:hover,.tier:hover,.codexlink:hover{
+  background:linear-gradient(150deg,
+    color-mix(in srgb, var(--ac,var(--gold)) 70%, transparent),
+    rgba(245,200,111,.10) 45%, var(--edge));
+  box-shadow:0 22px 54px rgba(0,0,0,.6),
+             0 0 34px color-mix(in srgb, var(--ac,var(--gold)) 26%, transparent);
+}
+
+/* the cover plates and gallery art get the same frame treatment */
+.cover{
+  border:1px solid var(--edge);
+  border-radius:0;
+  clip-path:polygon(var(--chamfer) 0, 100% 0, 100% calc(100% - var(--chamfer)),
+                    calc(100% - var(--chamfer)) 100%, 0 100%, 0 var(--chamfer));
+  box-shadow:0 20px 50px rgba(0,0,0,.55), 0 0 30px rgba(245,200,111,.12);
+}
+
+/* ---- Buttons: struck metal ---- */
+.btn{border-radius:0;
+  clip-path:polygon(12px 0, 100% 0, 100% calc(100% - 12px), calc(100% - 12px) 100%, 0 100%, 0 12px);
+  letter-spacing:.04em;
+}
+.btn-primary{
+  background:linear-gradient(140deg, var(--gold-hi), var(--gold) 55%, #C79A45);
+  color:#140E02;font-weight:600;
+  box-shadow:0 0 26px rgba(245,200,111,.35), inset 0 1px 0 rgba(255,255,255,.45);
+}
+.btn-primary:hover{box-shadow:0 0 40px rgba(245,200,111,.5), inset 0 1px 0 rgba(255,255,255,.55)}
+.btn-ghost{
+  border:1px solid var(--edge);color:var(--ink);
+  background:linear-gradient(165deg, rgba(28,32,44,.6), rgba(8,10,16,.75));
+}
+.btn-ghost:hover{border-color:var(--cyan);box-shadow:0 0 24px rgba(127,228,245,.22)}
+
+/* ---- Small parts ---- */
+.chip{
+  border-color:var(--edge);
+  background:linear-gradient(165deg, rgba(28,32,44,.55), rgba(8,10,16,.7));
+  color:var(--gold-hi);
+}
+.card .status{text-shadow:0 0 14px color-mix(in srgb, var(--st,var(--gold)) 45%, transparent)}
+.starline{opacity:.85;filter:drop-shadow(0 0 6px rgba(184,161,255,.5))}
+.node::before{box-shadow:0 0 22px 3px var(--node,var(--purple))}
+.nonsolus{text-shadow:0 0 26px rgba(245,200,111,.4);opacity:1}
+
+@media (max-width:720px){
+  :root{--chamfer:12px}
+  nav a{margin-left:0;margin-right:16px}
+}
+
+/* ============================================================
+   Southern Observatory redesign layer
+   ============================================================ */
+:root {
+  --bg: var(--observatory-bg);
+  --ink: var(--observatory-ink);
+  --muted: var(--observatory-muted);
+  --card: var(--observatory-surface);
+  --line: var(--observatory-line);
+  --blue: var(--observatory-sand);
+  --green: var(--observatory-green);
+  --purple: var(--observatory-violet);
+  --gold: var(--observatory-copper);
+  --silver: var(--observatory-ivory);
+}
+
+html { background: var(--observatory-bg); }
+body { background: var(--observatory-bg); color: var(--observatory-ink); font-family: var(--observatory-font-body); }
+body::before { background: radial-gradient(70% 55% at 72% 8%, rgba(111, 78, 143, .14), transparent 70%), radial-gradient(65% 50% at 12% 42%, rgba(155, 121, 190, .10), transparent 70%), var(--observatory-bg); }
+body::after { background: radial-gradient(50% 50% at 50% 50%, rgba(170, 145, 201, .09), transparent 70%); }
+.stars { opacity: .34; background-image: radial-gradient(1px 1px at 14% 18%, rgba(232,224,207,.8) 50%, transparent 51%), radial-gradient(1px 1px at 74% 12%, rgba(232,224,207,.7) 50%, transparent 51%), radial-gradient(1px 1px at 88% 52%, rgba(232,224,207,.7) 50%, transparent 51%), radial-gradient(1px 1px at 34% 68%, rgba(232,224,207,.6) 50%, transparent 51%), radial-gradient(1px 1px at 58% 84%, rgba(232,224,207,.55) 50%, transparent 51%); }
+.wrap { max-width: 1180px; padding: 0 34px; }
+.starline { left: 12px; opacity: .45; background-image: linear-gradient(to bottom, var(--observatory-violet), var(--observatory-copper) 50%, var(--observatory-green)); }
+header.site { padding: 28px 0 20px; border-bottom: 1px solid var(--observatory-line); box-shadow: none; }
+.wordmark, a.wordmark { color: var(--observatory-ivory); text-shadow: none; font-family: var(--observatory-font-display); }
+.eyebrow { color: var(--observatory-copper); font-family: var(--observatory-font-mono); letter-spacing: .18em; }
+.section, footer.site, .pagenav { border-image: linear-gradient(90deg, transparent, var(--observatory-line-strong), transparent) 1; }
+.card, .tier, .codexlink { background: var(--observatory-surface); border: 1px solid var(--observatory-line); clip-path: none; border-radius: 0; box-shadow: none; }
+.card::before, .tier::before, .codexlink::before, pre::before { display: none; }
+.card:hover, .tier:hover, .codexlink:hover { transform: translateY(-2px); border-color: var(--observatory-copper); box-shadow: 0 12px 34px rgba(0,0,0,.24); }
+.btn { border-radius: 0; }
+.btn-primary { background: var(--observatory-copper); color: #10100d; box-shadow: none; }
+.btn-ghost { border-color: var(--observatory-line-strong); }
+footer.site { padding-left: 0; }
+
+/* Accessibility: footer links must not rely on colour alone. */
+footer.site a {
+  color: var(--observatory-ivory);
+  text-decoration-line: underline;
+  text-decoration-thickness: .08em;
+  text-underline-offset: .2em;
+}
+footer.site a:hover,
+footer.site a:focus-visible {
+  color: var(--observatory-sand);
+}
+
+@media (max-width: 720px) { .wrap { padding: 0 20px; } .starline { display: none; } }

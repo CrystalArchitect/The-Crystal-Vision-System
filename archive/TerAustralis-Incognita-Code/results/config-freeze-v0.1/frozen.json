@@ -1,0 +1,45 @@
+{
+  "protocol": "H2-V0.1",
+  "phase": "configuration-freeze",
+  "configuration_frozen": true,
+  "one_m_dual_gate_evaluated": false,
+  "freeze_rule": [
+    "highest agreement with dense reference",
+    "then highest quality-ratio LCB",
+    "then lowest analytical BW/ref"
+  ],
+  "source_record": "results/validation-v0.1/",
+  "partition_used_for_selection": "validation",
+  "final_seed_family_used": false,
+  "candidate_a": {
+    "source_label": "validation.sweep_rank_1",
+    "cfg": {
+      "block_size": 512,
+      "local_window": 2,
+      "global_summaries": 1,
+      "cross_block_selections": 32,
+      "selection_frequency": "every_layer"
+    },
+    "validation": {
+      "agreement_with_reference": 0.9995,
+      "quality_ratio_lcb": 0.9985,
+      "bandwidth_ratio_vs_reference": 0.7145
+    }
+  },
+  "candidate_b": {
+    "source_label": "validation.sweep_rank_2",
+    "cfg": {
+      "leaf_block": 512,
+      "summary_levels": 2,
+      "retrieved_blocks": 32,
+      "refinement_stages": 2,
+      "group_size": 4
+    },
+    "validation": {
+      "agreement_with_reference": 0.9995,
+      "quality_ratio_lcb": 0.9985,
+      "bandwidth_ratio_vs_reference": 0.7041
+    }
+  },
+  "note": "BW/ref is not ≤ 0.40. That is not a 1M dual-gate fail; the gate was not run."
+}

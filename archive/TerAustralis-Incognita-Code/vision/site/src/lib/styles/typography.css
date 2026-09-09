@@ -1,0 +1,38 @@
+/* Copyright 2026 Crystal Arena-Turner (TerAustralis Incognita)
+   SPDX-License-Identifier: CC-BY-NC-ND-4.0
+
+   CrystalUI typography tokens — the Tier-2 semantic scale, aliasing
+   the type system already in app.css (Tier 1). Zero visual change by
+   construction: every token resolves to a value already on disk.
+   Playfair Display stays the display face — the CrystalUI draft's
+   Merriweather swap is a canon change and would need its own ADR.
+   Components consume these roles, never raw sizes. */
+
+:root {
+  /* Faces (aliases of the core faces in app.css) */
+  --font-ui: var(--font-body);
+
+  /* Scale — the sizes the site already sets, by role */
+  --text-display-xl: clamp(2.3rem, 6vw, 4rem);     /* hero h1 */
+  --text-display-lg: clamp(2rem, 5vw, 3rem);       /* page h1 */
+  --text-display-md: clamp(1.6rem, 3.4vw, 2.2rem); /* section h2 */
+  --text-heading: clamp(1.4rem, 3vw, 1.9rem);      /* chapter h2 */
+  --text-body: 1.0625rem;                          /* 17px base */
+  --text-body-sm: 0.92rem;                         /* card copy */
+  --text-caption: 0.76rem;                         /* eyebrows, badges */
+
+  /* Leading */
+  --leading-tight: 1.14;   /* display lines */
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.7;  /* reading text */
+
+  /* Weights in canon use — no 700 on disk; adding one is a design
+     decision, not a token edit */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+
+  /* Tracking */
+  --tracking-normal: 0;
+  --tracking-overline: 0.22em; /* the eyebrow register */
+}
