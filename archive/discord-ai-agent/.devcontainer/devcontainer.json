@@ -1,0 +1,13 @@
+{
+    "name": "Discord AI Agent",
+    "image": "mcr.microsoft.com/devcontainers/python:3.10",
+    "features": {
+        "ghcr.io/devcontainers/features/common-utils:1": {}
+    },
+    "postCreateCommand": "sudo apt-get update && sudo apt-get install -y ffmpeg && pip install \"discord.py[voice]\" openai anthropic python-dotenv edge-tts PyNaCl",
+    "customizations": {
+        "vscode": {
+            "extensions": ["ms-python.python"]
+        }
+    }
+}
