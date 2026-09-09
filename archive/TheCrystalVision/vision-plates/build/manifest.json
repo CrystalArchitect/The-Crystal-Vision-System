@@ -1,0 +1,106 @@
+{
+ "terra-australis-titlecard": {
+  "native": "5348\u00d72366",
+  "web": [
+   1320,
+   584
+  ],
+  "ratio": 2.2603
+ },
+ "the-doorway": {
+  "native": "1792\u00d71008",
+  "web": [
+   1320,
+   743
+  ],
+  "ratio": 1.7766
+ },
+ "outback-service-call": {
+  "native": "1792\u00d71008",
+  "web": [
+   1320,
+   743
+  ],
+  "ratio": 1.7766
+ },
+ "joint-diagnostic-phase-map": {
+  "native": "1080\u00d7815",
+  "web": [
+   1080,
+   815
+  ],
+  "ratio": 1.3252
+ },
+ "joint-diagnostic-mutual-scan": {
+  "native": "1080\u00d7825",
+  "web": [
+   1080,
+   825
+  ],
+  "ratio": 1.3091
+ },
+ "joint-diagnostic-coherence-report": {
+  "native": "1080\u00d7826",
+  "web": [
+   1080,
+   826
+  ],
+  "ratio": 1.3075
+ },
+ "sydney-starline-node": {
+  "native": "1071\u00d7719",
+  "web": [
+   1071,
+   719
+  ],
+  "ratio": 1.4896
+ },
+ "multiplanetary-lattice": {
+  "native": "1168\u00d7784",
+  "web": [
+   1168,
+   784
+  ],
+  "ratio": 1.4898
+ },
+ "dead-reckoning-chart": {
+  "native": "360\u00d7360",
+  "web": [
+   360,
+   360
+  ],
+  "ratio": 1.0
+ },
+ "optimus-in-grok-livery": {
+  "native": "1152\u00d71728",
+  "web": [
+   880,
+   1320
+  ],
+  "ratio": 0.6667
+ },
+ "implant-theatre": {
+  "native": "1152\u00d71728",
+  "web": [
+   880,
+   1320
+  ],
+  "ratio": 0.6667
+ },
+ "aussie-tech-powerhouses": {
+  "native": "784\u00d71168",
+  "web": [
+   784,
+   1168
+  ],
+  "ratio": 0.6712
+ },
+ "wave-rider-qec": {
+  "native": "755\u00d71124",
+  "web": [
+   755,
+   1124
+  ],
+  "ratio": 0.6717
+ }
+}

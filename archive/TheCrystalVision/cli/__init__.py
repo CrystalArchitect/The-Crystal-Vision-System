@@ -1,0 +1,1 @@
+"""CrystalCore CLI package."""

@@ -1,0 +1,87 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # This repository is private and the published site is public, so whatever
+      # is uploaded here becomes world-readable. It used to upload `path: '.'` —
+      # the entire repository, including spec/, services/, clementine/
+      # transcripts and .claude/settings.json, none of which the site links to.
+      #
+      # The site is four files. Every href and src was traced to confirm it:
+      # index.html reaches interface/ and four external URLs; interface/
+      # index.html reaches ../index.html, style.css, app.js and an inline data:
+      # favicon. Nothing else in the repository is reachable from the site.
+      #
+      # index.html sits at the root of _site exactly as it does in the repo, so
+      # interface/index.html's ../index.html still resolves.
+      - name: Assemble the published site
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp -r interface _site/interface
+          echo "Publishing:"
+          find _site -type f | sort
+
+      # enablement: true asks GitHub to create the Pages site if it does not
+      # exist, which is the remedy the "Get Pages site failed ... Not Found"
+      # error names. It may not be permitted with GITHUB_TOKEN here — see the
+      # step below — so this is allowed to fail and is diagnosed there rather
+      # than aborting with an error that says nothing actionable.
+      - name: Setup Pages
+        id: pages
+        continue-on-error: true
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Explain the failure if Pages is still not enabled
+        if: steps.pages.outcome == 'failure'
+        run: |
+          echo "::error::GitHub Pages is not enabled for this repository, so nothing can publish."
+          echo "::error::Fix it here: Settings -> Pages -> Source -> 'GitHub Actions'. One click."
+          echo "::error::No change to this workflow can substitute for it. A GITHUB_TOKEN with"
+          echo "::error::pages: write cannot enable Pages in this account — established in"
+          echo "::error::TerAustralis-Incognita-Code/.github/workflows/deploy.yml, which hit the"
+          echo "::error::same wall trying to change the Pages source."
+          echo "::error::This job fails on purpose rather than skipping quietly: the site genuinely"
+          echo "::error::is not publishing, and a green check would say otherwise."
+          exit 1
+
+      - name: Upload the assembled site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
