@@ -1,0 +1,200 @@
+{
+  "protocol": "H2-V0.1",
+  "phase": "validation",
+  "partition": "validation",
+  "configuration_frozen": false,
+  "one_m_dual_gate_evaluated": false,
+  "ranking_axis": "receiver_fidelity = agreement with dense reference",
+  "n_per_length": 1000,
+  "lengths": [
+    32768,
+    65536
+  ],
+  "reference_gold_accuracy": 1.0,
+  "compute_envelope": {
+    "reference_sec": 78.56766414642334,
+    "candidate_a_sec": 351.0115261077881,
+    "candidate_b_sec": 227.66498231887817,
+    "candidate_a_configs": 3,
+    "candidate_b_configs": 3,
+    "note": "Wall-clock on the experimental runner. Not a dollar BOM. Not hardware PMU."
+  },
+  "candidate_a": [
+    {
+      "config_id": 0,
+      "label": "sweep_rank_1",
+      "cfg": {
+        "block_size": 512,
+        "local_window": 2,
+        "global_summaries": 1,
+        "cross_block_selections": 32,
+        "selection_frequency": "every_layer"
+      },
+      "gold_accuracy": 0.9995,
+      "gold_accuracy_lcb": 0.9971730649772385,
+      "agreement_with_reference": 0.9995,
+      "quality_ratio_vs_reference": 0.9995,
+      "quality_ratio_lcb": 0.9985,
+      "bandwidth_ratio_vs_reference": 0.7144882863908513,
+      "by_class": {
+        "cross_context_composition": 1.0,
+        "distractor_discrimination": 1.0,
+        "position_balanced": 1.0,
+        "single_distant_fact": 1.0,
+        "two_source": 0.9975
+      },
+      "by_length": {
+        "32768": 1.0,
+        "65536": 0.999
+      },
+      "elapsed_sec": 122.97798323631287
+    },
+    {
+      "config_id": 1,
+      "label": "sweep_rank_2",
+      "cfg": {
+        "block_size": 2048,
+        "local_window": 2,
+        "global_summaries": 1,
+        "cross_block_selections": 8,
+        "selection_frequency": "every_layer"
+      },
+      "gold_accuracy": 0.9985,
+      "gold_accuracy_lcb": 0.9955988881009407,
+      "agreement_with_reference": 0.9985,
+      "quality_ratio_vs_reference": 0.9985,
+      "quality_ratio_lcb": 0.9965,
+      "bandwidth_ratio_vs_reference": 0.7371294747475781,
+      "by_class": {
+        "cross_context_composition": 1.0,
+        "distractor_discrimination": 1.0,
+        "position_balanced": 1.0,
+        "single_distant_fact": 1.0,
+        "two_source": 0.9925
+      },
+      "by_length": {
+        "32768": 1.0,
+        "65536": 0.997
+      },
+      "elapsed_sec": 115.14869427680969
+    },
+    {
+      "config_id": 2,
+      "label": "step1_dev_default",
+      "cfg": {
+        "block_size": 1024,
+        "local_window": 2,
+        "global_summaries": 1,
+        "cross_block_selections": 16,
+        "selection_frequency": "every_layer"
+      },
+      "gold_accuracy": 0.999,
+      "gold_accuracy_lcb": 0.9963609898107716,
+      "agreement_with_reference": 0.999,
+      "quality_ratio_vs_reference": 0.999,
+      "quality_ratio_lcb": 0.9975,
+      "bandwidth_ratio_vs_reference": 0.7219191996554596,
+      "by_class": {
+        "cross_context_composition": 1.0,
+        "distractor_discrimination": 1.0,
+        "position_balanced": 1.0,
+        "single_distant_fact": 1.0,
+        "two_source": 0.995
+      },
+      "by_length": {
+        "32768": 1.0,
+        "65536": 0.998
+      },
+      "elapsed_sec": 112.88379788398743
+    }
+  ],
+  "candidate_b": [
+    {
+      "config_id": 0,
+      "label": "sweep_rank_1",
+      "cfg": {
+        "leaf_block": 2048,
+        "summary_levels": 2,
+        "retrieved_blocks": 8,
+        "refinement_stages": 2,
+        "group_size": 4
+      },
+      "gold_accuracy": 0.998,
+      "gold_accuracy_lcb": 0.9948685655953601,
+      "agreement_with_reference": 0.998,
+      "quality_ratio_vs_reference": 0.998,
+      "quality_ratio_lcb": 0.9955,
+      "bandwidth_ratio_vs_reference": 0.7041137235471236,
+      "by_class": {
+        "cross_context_composition": 1.0,
+        "distractor_discrimination": 1.0,
+        "position_balanced": 1.0,
+        "single_distant_fact": 1.0,
+        "two_source": 0.99
+      },
+      "by_length": {
+        "32768": 1.0,
+        "65536": 0.996
+      },
+      "elapsed_sec": 79.58522248268127
+    },
+    {
+      "config_id": 1,
+      "label": "sweep_rank_2",
+      "cfg": {
+        "leaf_block": 512,
+        "summary_levels": 2,
+        "retrieved_blocks": 32,
+        "refinement_stages": 2,
+        "group_size": 4
+      },
+      "gold_accuracy": 0.9995,
+      "gold_accuracy_lcb": 0.9971730649772385,
+      "agreement_with_reference": 0.9995,
+      "quality_ratio_vs_reference": 0.9995,
+      "quality_ratio_lcb": 0.9985,
+      "bandwidth_ratio_vs_reference": 0.7041237186931791,
+      "by_class": {
+        "cross_context_composition": 1.0,
+        "distractor_discrimination": 1.0,
+        "position_balanced": 1.0,
+        "single_distant_fact": 1.0,
+        "two_source": 0.9975
+      },
+      "by_length": {
+        "32768": 1.0,
+        "65536": 0.999
+      },
+      "elapsed_sec": 73.65739464759827
+    },
+    {
+      "config_id": 2,
+      "label": "step1_dev_default",
+      "cfg": {
+        "leaf_block": 1024,
+        "summary_levels": 2,
+        "retrieved_blocks": 16,
+        "refinement_stages": 2,
+        "group_size": 4
+      },
+      "gold_accuracy": 0.999,
+      "gold_accuracy_lcb": 0.9963609898107716,
+      "agreement_with_reference": 0.999,
+      "quality_ratio_vs_reference": 0.999,
+      "quality_ratio_lcb": 0.9975,
+      "bandwidth_ratio_vs_reference": 0.7041177717704454,
+      "by_class": {
+        "cross_context_composition": 1.0,
+        "distractor_discrimination": 1.0,
+        "position_balanced": 1.0,
+        "single_distant_fact": 1.0,
+        "two_source": 0.995
+      },
+      "by_length": {
+        "32768": 1.0,
+        "65536": 0.998
+      },
+      "elapsed_sec": 74.42125630378723
+    }
+  ]
+}

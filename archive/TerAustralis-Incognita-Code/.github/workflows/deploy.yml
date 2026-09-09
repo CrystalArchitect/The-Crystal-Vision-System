@@ -1,0 +1,212 @@
+# Builds the SvelteKit site and publishes it to this repository's GitHub Pages
+# site, which serves www.teraustralis.com.au.
+#
+# This repository is private and the published site is public. That is a
+# supported combination: only a *private* Pages site requires an Enterprise
+# plan, and this one is public.
+#
+# Pages must serve the build output, not the repository root. Branch-based
+# publishing cannot express that — it offers only / or /docs, and neither is
+# vision/site/build — so the deployment is owned here instead. The first run of
+# this workflow switches the Pages source to "GitHub Actions"; the custom
+# domain setting is independent of the source and carries across unchanged.
+
+name: Publish site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build_and_publish:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: cd vision/site && npm install
+
+      - name: Build
+        run: cd vision/site && npm run build
+
+      - name: Add static demo shells to the published site
+        run: |
+          cp -r vision/apps/crystal-interface vision/site/build/crystal-interface
+          cp -r vision/apps/vision-web vision/site/build/vision-web
+          cp -r vision/apps/clementine-voice vision/site/build/clementine-voice
+
+      # GitHub Pages 404s `/footer-audit/` unless a directory index exists.
+      # SvelteKit emits footer-audit.html (trailingSlash false). Copy that
+      # file so the slash form serves the same page. Footer href stays
+      # `/footer-audit`. Not a second route and not a product claim.
+      - name: Add GitHub Pages directory index for footer-audit
+        run: |
+          test -f vision/site/build/footer-audit.html
+          mkdir -p vision/site/build/footer-audit
+          cp vision/site/build/footer-audit.html vision/site/build/footer-audit/index.html
+
+      # vision/site/static/CNAME is copied into the build by SvelteKit, so the
+      # custom domain travels with the artifact as well as living in settings.
+      - name: Confirm the custom domain travelled with the build
+        run: |
+          test -f vision/site/build/CNAME
+          echo "CNAME: $(cat vision/site/build/CNAME)"
+
+      # Guards against Pages "Source" being on "Deploy from a branch".
+      #
+      # In that mode GitHub runs its own builder on every push to main. It
+      # renders the repository root with Jekyll and finishes within a minute of
+      # this job, so which version of the site survives is decided by scheduling
+      # luck. On 2026-07-28 it won five pushes out of eight; twice the domain
+      # served a rendered README until this workflow noticed and repaired it.
+      #
+      # The Source has since been set to "GitHub Actions", which stops that
+      # builder being triggered at all. This step and the verification below are
+      # therefore a safety net now rather than load-bearing — but they stay,
+      # because the setting is a click that can be undone by accident and the
+      # failure it causes is silent. Cheap insurance against a repeat.
+      #
+      # Note the step cannot actually change the setting: GITHUB_TOKEN with
+      # pages: write is not sufficient, confirmed by the branch builder still
+      # firing on the two pushes after this was added. It reads the value and
+      # reports it, which is the useful half. Kept non-fatal for that reason.
+      - name: Ensure Pages is served by this workflow, not the branch builder
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          before=$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq '.build_type' 2>/dev/null || echo unknown)
+          echo "Pages build_type before: $before"
+
+          if [ "$before" = "workflow" ]; then
+            echo "Already served by this workflow — nothing to change."
+            exit 0
+          fi
+
+          if gh api -X PUT "repos/${GITHUB_REPOSITORY}/pages" -f build_type=workflow >/dev/null 2>&1; then
+            after=$(gh api "repos/${GITHUB_REPOSITORY}/pages" --jq '.build_type' 2>/dev/null || echo unknown)
+            echo "Pages build_type after: $after"
+            [ "$after" = "workflow" ] && echo "Race eliminated: the branch builder will no longer be triggered."
+          else
+            echo "::warning::Could not change the Pages source with this token."
+            echo "::warning::Set Settings -> Pages -> Source to 'GitHub Actions' by hand."
+            echo "::warning::Until then every push is a race, repaired by the retry below."
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload the built site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: vision/site/build
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      # A successful deploy does not mean the site is being served. If the Pages
+      # Source is set to "Deploy from a branch", GitHub also runs its own
+      # builder on every push; that one renders the repository root with Jekyll
+      # and finishes 20-45s after this job, overwriting the site with a rendered
+      # README. Both jobs report success and the environment URL stays correct,
+      # so the failure is completely silent.
+      #
+      # Wait past the other builder before checking, and assert a path that
+      # exists only in the built site. Never assert the bare domain: it returns
+      # 200 in the failure mode too, because the README renders at root.
+      # continue-on-error so a self-heal below can still finish green; only the
+      # final check decides the job's outcome.
+      - name: Verify the domain is serving this build
+        id: verify
+        continue-on-error: true
+        run: |
+          echo "Waiting 90s for any competing Pages build to finish..."
+          sleep 90
+          "${GITHUB_WORKSPACE}/.github/scripts/probe-site.sh"
+
+      # One bounded self-heal: re-deploy so our output lands after the other
+      # builder. Bounded deliberately, so the two cannot fight indefinitely.
+      #
+      # The artifact must be uploaded again first. actions/deploy-pages consumes
+      # the github-pages artifact when it deploys, so a second deploy in the
+      # same job finds "Found 0 artifact(s)" and fails. The build output is
+      # still on disk, so re-uploading it is cheap and makes the retry real —
+      # without this the self-heal could never have worked.
+      - name: Re-upload the built site for the retry
+        if: steps.verify.outcome == 'failure'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: vision/site/build
+
+      - name: Re-deploy over a competing build
+        if: steps.verify.outcome == 'failure'
+        uses: actions/deploy-pages@v5
+
+      - name: Confirm the re-deploy took
+        if: steps.verify.outcome == 'failure'
+        run: |
+          if "${GITHUB_WORKSPACE}/.github/scripts/probe-site.sh"; then
+            echo "Serving this build after one re-deploy."
+            exit 0
+          fi
+          echo "::error::The domain is not serving this build."
+          echo "::error::Set Settings -> Pages -> Source to 'GitHub Actions'."
+          echo "::error::While Source is 'Deploy from a branch', GitHub's own"
+          echo "::error::builder publishes the repo README over this site."
+          exit 1
+
+      # IndexNow: tell the participating engines (Bing and the surfaces it
+      # feeds, including ChatGPT Search and Copilot) that the site changed.
+      # Deploys only happen when content actually changed — a merge to main —
+      # so notifying on every successful deploy is exactly the protocol's
+      # intended cadence, not spam. The URL list is extracted from the built
+      # sitemap so the two can never disagree. The key file lives in
+      # vision/site/static/ and travels with the build to the site root,
+      # which is how the endpoint verifies ownership. Non-fatal by design:
+      # a notification hiccup must never mark a good deploy red.
+      - name: Notify IndexNow
+        if: success()
+        continue-on-error: true
+        run: |
+          KEY_FILE=$(ls vision/site/static/*.txt | head -1)
+          KEY=$(basename "$KEY_FILE" .txt)
+          URLS=$(grep -o '<loc>[^<]*</loc>' vision/site/build/sitemap.xml \
+                 | sed -e 's/<loc>//' -e 's,</loc>,,' \
+                 | python3 -c 'import json,sys; print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))')
+          python3 - "$KEY" "$URLS" <<'PY'
+          import json, sys, urllib.request
+          key, urls = sys.argv[1], json.loads(sys.argv[2])
+          body = json.dumps({
+              "host": "www.teraustralis.com.au",
+              "key": key,
+              "keyLocation": f"https://www.teraustralis.com.au/{key}.txt",
+              "urlList": urls,
+          }).encode()
+          req = urllib.request.Request(
+              "https://api.indexnow.org/indexnow",
+              data=body,
+              headers={"Content-Type": "application/json; charset=utf-8"},
+          )
+          with urllib.request.urlopen(req, timeout=30) as resp:
+              print(f"IndexNow: HTTP {resp.status} for {len(urls)} URLs")
+          PY

@@ -1,0 +1,34 @@
+{
+  "ci": {
+    "collect": {
+      "numberOfRuns": 1,
+      "startServerCommand": "python3 .github/scripts/serve-static-clean.py vision/site/build 4173",
+      "startServerReadyPattern": "serving static build",
+      "url": [
+        "http://127.0.0.1:4173/",
+        "http://127.0.0.1:4173/atlas",
+        "http://127.0.0.1:4173/atlas-ten",
+        "http://127.0.0.1:4173/crystalcore-os",
+        "http://127.0.0.1:4173/codex",
+        "http://127.0.0.1:4173/apocryphon",
+        "http://127.0.0.1:4173/footer-audit"
+      ],
+      "settings": {
+        "onlyCategories": ["accessibility"],
+        "chromeFlags": "--no-sandbox --headless=new"
+      }
+    },
+    "assert": {
+      "assertions": {
+        "label-content-name-mismatch": "error",
+        "heading-order": "error",
+        "link-in-text-block": "error",
+        "categories:accessibility": ["warn", { "minScore": 0.9 }]
+      }
+    },
+    "upload": {
+      "target": "filesystem",
+      "outputDir": ".lighthouseci"
+    }
+  }
+}

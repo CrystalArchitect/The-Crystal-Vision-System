@@ -1,0 +1,313 @@
+{
+  "protocol": "H2-V0.1",
+  "phase": "reference-fidelity-32k-64k",
+  "partition": "development",
+  "disclaimer": "Measurements only. The 1M dual gate is not evaluated. Candidate configs are development defaults, not frozen. No performance claims. CrystalCore advantage remains unproven.",
+  "bandwidth_model": "analytical fp32 element counts over index/routing/kv/attention/output",
+  "systems": {
+    "reference": {
+      "primitive": "reference_dense",
+      "n": 2000,
+      "gold_accuracy": 1.0,
+      "gold_accuracy_lcb": 0.9980828823994872,
+      "bandwidth_bytes": 228366848000,
+      "elapsed_sec": 76.39733219146729,
+      "slices": {
+        "L32768/cross_context_composition/local": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/cross_context_composition/near": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/distractor_discrimination/local": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/distractor_discrimination/near": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/position_balanced/near": {
+          "acc": 1.0,
+          "n": 200
+        },
+        "L32768/single_distant_fact/local": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/single_distant_fact/near": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/two_source/local": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/two_source/near": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L65536/cross_context_composition/local": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/cross_context_composition/medium": {
+          "acc": 1.0,
+          "n": 66
+        },
+        "L65536/cross_context_composition/near": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/distractor_discrimination/local": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/distractor_discrimination/medium": {
+          "acc": 1.0,
+          "n": 66
+        },
+        "L65536/distractor_discrimination/near": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/position_balanced/medium": {
+          "acc": 1.0,
+          "n": 200
+        },
+        "L65536/single_distant_fact/local": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/single_distant_fact/medium": {
+          "acc": 1.0,
+          "n": 66
+        },
+        "L65536/single_distant_fact/near": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/two_source/local": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/two_source/medium": {
+          "acc": 1.0,
+          "n": 66
+        },
+        "L65536/two_source/near": {
+          "acc": 1.0,
+          "n": 67
+        }
+      }
+    },
+    "candidate_a": {
+      "primitive": "candidate_a_hbs",
+      "n": 2000,
+      "gold_accuracy": 0.997,
+      "gold_accuracy_lcb": 0.9934699962513177,
+      "bandwidth_bytes": 164734936952,
+      "elapsed_sec": 80.19987392425537,
+      "slices": {
+        "L32768/cross_context_composition/local": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/cross_context_composition/near": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/distractor_discrimination/local": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/distractor_discrimination/near": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/position_balanced/near": {
+          "acc": 1.0,
+          "n": 200
+        },
+        "L32768/single_distant_fact/local": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/single_distant_fact/near": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/two_source/local": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/two_source/near": {
+          "acc": 0.99,
+          "n": 100
+        },
+        "L65536/cross_context_composition/local": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/cross_context_composition/medium": {
+          "acc": 1.0,
+          "n": 66
+        },
+        "L65536/cross_context_composition/near": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/distractor_discrimination/local": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/distractor_discrimination/medium": {
+          "acc": 1.0,
+          "n": 66
+        },
+        "L65536/distractor_discrimination/near": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/position_balanced/medium": {
+          "acc": 1.0,
+          "n": 200
+        },
+        "L65536/single_distant_fact/local": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/single_distant_fact/medium": {
+          "acc": 1.0,
+          "n": 66
+        },
+        "L65536/single_distant_fact/near": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/two_source/local": {
+          "acc": 0.9850746268656716,
+          "n": 67
+        },
+        "L65536/two_source/medium": {
+          "acc": 0.9848484848484849,
+          "n": 66
+        },
+        "L65536/two_source/near": {
+          "acc": 0.9552238805970149,
+          "n": 67
+        }
+      },
+      "agreement_with_reference": 0.997,
+      "quality_ratio_vs_reference": 0.997,
+      "quality_ratio_lcb": 0.9945,
+      "bandwidth_ratio_vs_reference": 0.7213609961109592,
+      "one_m_dual_gate_evaluated": false
+    },
+    "candidate_b": {
+      "primitive": "candidate_b_car",
+      "n": 2000,
+      "gold_accuracy": 0.993,
+      "gold_accuracy_lcb": 0.9882840292676032,
+      "bandwidth_bytes": 160796560832,
+      "elapsed_sec": 76.56732654571533,
+      "slices": {
+        "L32768/cross_context_composition/local": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/cross_context_composition/near": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/distractor_discrimination/local": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/distractor_discrimination/near": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/position_balanced/near": {
+          "acc": 1.0,
+          "n": 200
+        },
+        "L32768/single_distant_fact/local": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/single_distant_fact/near": {
+          "acc": 1.0,
+          "n": 100
+        },
+        "L32768/two_source/local": {
+          "acc": 0.98,
+          "n": 100
+        },
+        "L32768/two_source/near": {
+          "acc": 0.97,
+          "n": 100
+        },
+        "L65536/cross_context_composition/local": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/cross_context_composition/medium": {
+          "acc": 1.0,
+          "n": 66
+        },
+        "L65536/cross_context_composition/near": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/distractor_discrimination/local": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/distractor_discrimination/medium": {
+          "acc": 1.0,
+          "n": 66
+        },
+        "L65536/distractor_discrimination/near": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/position_balanced/medium": {
+          "acc": 1.0,
+          "n": 200
+        },
+        "L65536/single_distant_fact/local": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/single_distant_fact/medium": {
+          "acc": 1.0,
+          "n": 66
+        },
+        "L65536/single_distant_fact/near": {
+          "acc": 1.0,
+          "n": 67
+        },
+        "L65536/two_source/local": {
+          "acc": 0.9402985074626866,
+          "n": 67
+        },
+        "L65536/two_source/medium": {
+          "acc": 0.9848484848484849,
+          "n": 66
+        },
+        "L65536/two_source/near": {
+          "acc": 0.9402985074626866,
+          "n": 67
+        }
+      },
+      "agreement_with_reference": 0.993,
+      "quality_ratio_vs_reference": 0.993,
+      "quality_ratio_lcb": 0.989,
+      "bandwidth_ratio_vs_reference": 0.7041151648771716,
+      "one_m_dual_gate_evaluated": false
+    }
+  }
+}

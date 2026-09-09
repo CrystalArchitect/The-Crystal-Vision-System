@@ -1,0 +1,95 @@
+{
+  "profile": "default",
+  "human_name": "crystal",
+  "interactive_approval": false,
+  "guests": {
+    "claude": {
+      "approved": true,
+      "tools": [
+        "status",
+        "recall",
+        "teach",
+        "message"
+      ],
+      "read_scope": [
+        "shared"
+      ],
+      "write_scope": [
+        "shared"
+      ],
+      "read_types": [
+        "episodic",
+        "semantic",
+        "reflective"
+      ],
+      "write_types": [
+        "semantic"
+      ],
+      "token_hash": "892444a2145fb23711b82b1ea2151b53cb5e9e89d0cae3fedf87c68d8728ff53"
+    },
+    "grok": {
+      "approved": true,
+      "tools": [
+        "status",
+        "recall",
+        "teach",
+        "message"
+      ],
+      "read_scope": [
+        "shared"
+      ],
+      "write_scope": [
+        "shared"
+      ],
+      "read_types": [
+        "episodic",
+        "semantic",
+        "reflective"
+      ],
+      "write_types": [
+        "semantic"
+      ],
+      "token_hash": "c30a7d9699d7de152a6f5d8ebe4fa9301800b3ca97a872248700dc1c90a4aba4"
+    },
+    "cursor": {
+      "approved": true,
+      "tools": [
+        "status",
+        "recall",
+        "teach",
+        "message"
+      ],
+      "read_scope": [
+        "shared"
+      ],
+      "write_scope": [
+        "shared"
+      ],
+      "read_types": [
+        "episodic",
+        "semantic",
+        "reflective"
+      ],
+      "write_types": [
+        "semantic"
+      ],
+      "token_hash": "4a7fd3227a02a92ba98012148cc83bbe7ceabd37e7aa117c4ad1db717f835f75"
+    },
+    "restricted": {
+      "approved": true,
+      "tools": [
+        "status",
+        "recall"
+      ],
+      "read_scope": [
+        "shared"
+      ],
+      "write_scope": [],
+      "read_types": [
+        "semantic"
+      ],
+      "write_types": [],
+      "token_hash": "5e3252f9484b0ef31cbd91e731eef174f7ac1d82ead3322395b77e0a17055c4d"
+    }
+  }
+}

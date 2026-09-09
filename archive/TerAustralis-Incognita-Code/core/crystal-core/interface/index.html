@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Crystal Core — Interactive Interface</title>
+  <meta name="description" content="Interactive demo of the Crystal Core stack: twin, pipeline, econ sim, mesh, receipts. Simulated data, vision layer." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpolygon points='8,1 15,8 8,15 1,8' fill='%2322d3ee'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="demo-banner">
+    <strong>Interactive demo — simulated data.</strong>
+    Vision layer: not live metering, not real economics. The runnable pipeline lives in
+    <code>services/</code>; the grounded map in <code>spec/ARCHITECTURE.md</code>.
+  </div>
+
+  <header class="topbar">
+    <div class="brand">
+      <h1>Crystal&nbsp;Core</h1>
+      <span class="sub">Decode · Ingest · Upgrade</span>
+    </div>
+    <nav class="nav">
+      <button class="nav-btn" data-panel="overview">Overview</button>
+      <button class="nav-btn" data-panel="twin">Twin</button>
+      <button class="nav-btn" data-panel="pipeline">Pipeline</button>
+      <button class="nav-btn" data-panel="econ">Econ</button>
+      <button class="nav-btn" data-panel="mesh">Mesh</button>
+      <button class="nav-btn" data-panel="receipts">Receipts</button>
+    </nav>
+    <div class="topbar-right">
+      <select id="epochSelect" title="Epoch (vision codename)">
+        <option value="sister-1-spring-gate">sister-1-spring-gate</option>
+        <option value="sister-2-danube-gate" selected>sister-2-danube-gate</option>
+        <option value="sister-3-mark-gate">sister-3-mark-gate</option>
+      </select>
+      <button class="btn gold" id="btnWallet">Wallet</button>
+    </div>
+  </header>
+
+  <main class="content">
+
+    <section class="panel" id="panel-overview">
+      <div class="grid two">
+        <div class="card">
+          <h3>Network</h3>
+          <div class="stat-row">
+            <div class="stat"><span class="stat-num" id="stat-nodes">0</span><span class="stat-label">nodes (simulated)</span></div>
+            <div class="stat"><span class="stat-num">3</span><span class="stat-label">corridors</span></div>
+            <div class="stat"><span class="stat-num">1</span><span class="stat-label">region · budapest-starline</span></div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Starline routes</h3>
+          <ul class="routes" id="routeList"></ul>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Four layers</h3>
+        <div class="layer-stack">
+          <div class="layer-bar mythic"><span>Mythic</span><div class="layer-detail">Epoch narrative · Seven Sisters codenames (council-gated) · story labeled as story</div></div>
+          <div class="layer-bar physical"><span>Physical</span><div class="layer-detail">Digital twin · meters and sensors · hubs and corridors · crystal.twin.event/1</div></div>
+          <div class="layer-bar economic"><span>Economic</span><div class="layer-detail">Credits · burn-and-mint · receipts (simulated here; sim + counsel before anything real)</div></div>
+          <div class="layer-bar governance"><span>Governance</span><div class="layer-detail">GitHub RFCs · Belt-Three law · timelock and audit (vision)</div></div>
+        </div>
+        <p class="muted small">Click a layer to expand.</p>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-twin">
+      <div class="card">
+        <h3>Digital twin — Danube region</h3>
+        <div class="toggles">
+          <button class="toggle on" data-layer="water">water</button>
+          <button class="toggle on" data-layer="energy">energy</button>
+          <button class="toggle" data-layer="data">data</button>
+          <button class="toggle on" data-layer="mobility">mobility</button>
+        </div>
+        <canvas id="twinCanvas"></canvas>
+        <p class="muted small">Rendered flows are illustrative — the real twin store is <code>services/twin.py</code>.</p>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-pipeline">
+      <div class="card">
+        <h3>Decode → Ingest → Twin → Receipt → Econ → Upgrade</h3>
+        <button class="btn gold" id="btnRunPipe">Run pipeline</button>
+        <div class="pipe-row" id="pipelineSteps"></div>
+        <pre class="json" id="pipelineJson"></pre>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-econ">
+      <div class="grid two">
+        <div class="card">
+          <h3>Burn CORE → credits <span class="tag">simulation</span></h3>
+          <label>Burn amount (CORE) <input type="number" id="inputBurnCore" value="1" min="0" step="0.1" /></label>
+          <label>Burn rate R(t) <span class="muted" id="burnRateLabel"></span>
+            <input type="range" id="sliderBurn" min="50" max="200" value="100" /></label>
+          <div class="sim-out">→ <span class="stat-num" id="simCredits">0</span> credits</div>
+          <button class="btn" id="btnBurn">Burn (demo)</button>
+        </div>
+        <div class="card">
+          <h3>Mint preview <span class="tag">simulation</span></h3>
+          <label>Service value (credits) <input type="number" id="inputService" value="100" min="0" /></label>
+          <label>Mint α <input type="range" id="sliderAlpha" min="0.01" max="0.5" step="0.01" value="0.1" /></label>
+          <div class="sim-out">→ <span class="stat-num" id="simMint">0</span> CORE minted</div>
+          <p class="muted small">Hard rule from the blueprint: no real economic parameters without a published sim report.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-mesh">
+      <div class="grid two">
+        <div class="card">
+          <h3>Sovereign mesh</h3>
+          <svg id="meshSvg"></svg>
+          <p class="muted small">Click a node.</p>
+        </div>
+        <div class="card">
+          <h3>Node detail</h3>
+          <pre class="json" id="nodeDetail">select a node…</pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="panel-receipts">
+      <div class="card">
+        <h3>Service receipts <span class="tag">RFC-001 shape · demo</span></h3>
+        <div class="form-row">
+          <select id="rcptClass">
+            <option>energy.kwh</option>
+            <option>mobility.checkin</option>
+            <option>water.kl</option>
+          </select>
+          <input type="number" id="rcptQty" value="10" min="1" />
+          <button class="btn gold" id="btnAddReceipt">Create receipt</button>
+        </div>
+        <table class="table">
+          <thead><tr><th>id</th><th>class</th><th>qty</th><th>status</th><th></th></tr></thead>
+          <tbody id="receiptTable"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <div class="card log-card">
+      <h3>Event log</h3>
+      <div class="log" id="eventLog"></div>
+    </div>
+  </main>
+
+  <div class="modal-backdrop" id="modalWallet">
+    <div class="modal">
+      <h3>Wallet <span class="tag">simulation</span></h3>
+      <div class="wallet-row"><span>CORE</span><span class="stat-num" id="walletCore">42.80</span></div>
+      <div class="wallet-row"><span>Credits</span><span class="stat-num" id="walletCredits">1240.50</span></div>
+      <div class="wallet-row"><span>Staked</span><span class="stat-num">1000</span></div>
+      <p class="muted small">Fictional balances for the demo. No token exists.</p>
+      <button class="btn" id="btnCloseModal">Close</button>
+    </div>
+  </div>
+
+  <div id="toast"></div>
+
+  <footer>
+    Crystal Core / TerAustralis Incognita · <a href="../index.html">back to CrystalCore</a> ·
+    homage, not ownership · Honour to Aboriginal custodians of the Seven Sisters
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

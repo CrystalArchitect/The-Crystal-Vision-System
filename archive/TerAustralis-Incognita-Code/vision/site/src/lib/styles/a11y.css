@@ -1,0 +1,69 @@
+/* Copyright 2026 Crystal Arena-Turner (TerAustralis Incognita)
+   SPDX-License-Identifier: CC-BY-NC-ND-4.0
+
+   WCAG 2.2 AA patches for the published site: skip link, visually
+   hidden names, 24px (implemented as 44px) targets, unclipped focus. */
+
+.skip {
+  position: absolute;
+  left: 12px;
+  top: 8px;
+  z-index: 40;
+  padding: 10px 16px;
+  background: var(--ink);
+  color: var(--bg);
+  font-size: 1rem;
+  letter-spacing: 0;
+  text-transform: none;
+  transform: translateY(-160%);
+}
+.skip:focus,
+.skip:focus-visible {
+  transform: none;
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+  text-decoration: none;
+}
+
+.vh {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+main#main {
+  outline: none;
+}
+
+header.site .wordmark,
+header.site nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 8px;
+}
+header.site nav a {
+  min-width: 44px;
+  margin-left: 4px;
+}
+
+.card:focus-visible,
+.btn:focus-visible {
+  clip-path: none;
+  outline: 2px solid var(--blue);
+  outline-offset: 3px;
+}
+
+.card .card-title {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.18rem;
+  margin-bottom: 9px;
+  color: var(--st, var(--gold));
+}
