@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>CrystalCore.OS</title>
+<meta name="description" content="CrystalCore.OS — the sovereign home. Red Dust to Rockets. Dreamtime to Starlines. A TerAustralis creation.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #050308;
+    --bg-glow: #170b26;
+    --panel: rgba(255, 255, 255, 0.04);
+    --border: rgba(167, 139, 250, 0.22);
+    --text: #e9e7f0;
+    --dim: #9b94ae;
+    --violet: #a78bfa;
+    --violet-deep: #6d28d9;
+    --silver: #cfd4e0;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: radial-gradient(ellipse 90% 60% at 50% -10%, var(--bg-glow), var(--bg));
+    color: var(--text);
+    min-height: 100dvh;
+    overflow-x: hidden;
+  }
+
+  /* Matrix code rain */
+  #matrix { position: fixed; inset: 0; z-index: 0; pointer-events: none; display: block; }
+
+  main { position: relative; z-index: 1; }
+
+  .topmark {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 18px 20px 0;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.36em;
+    text-transform: uppercase;
+    color: var(--dim);
+  }
+  .topmark .gold { color: var(--violet); }
+
+  .hero {
+    min-height: 84dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 32px 20px;
+  }
+
+  .terminal {
+    width: 100%;
+    max-width: 560px;
+    text-align: left;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: rgba(9, 6, 15, 0.62);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 24px 70px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(167, 139, 250, 0.05);
+    overflow: hidden;
+  }
+  .term-bar {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 11px 14px;
+    background: rgba(255, 255, 255, 0.02);
+    border-bottom: 1px solid var(--border);
+  }
+  .term-bar .dot { width: 10px; height: 10px; border-radius: 50%; opacity: 0.8; }
+  .term-bar .dot.red { background: #ff5f57; }
+  .term-bar .dot.amber { background: #ffbd2e; }
+  .term-bar .dot.green { background: #28c840; }
+  .term-bar .term-title {
+    margin-left: 8px;
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: 0.7rem;
+    color: var(--dim);
+    letter-spacing: 0.03em;
+  }
+  .term-body { padding: 30px 26px 34px; text-align: center; }
+  .term-prompt {
+    text-align: left;
+    font-family: "JetBrains Mono", ui-monospace, monospace;
+    font-size: 0.78rem;
+    color: var(--violet);
+    opacity: 0.9;
+    margin-bottom: 22px;
+    line-height: 1.6;
+  }
+  .term-prompt .path { color: var(--silver); }
+  .term-prompt .ok { color: #7ee787; }
+  .cursor {
+    display: inline-block;
+    width: 0.55em;
+    height: 1em;
+    vertical-align: -0.15em;
+    background: var(--violet);
+    margin-left: 4px;
+    animation: blink 1.1s steps(1) infinite;
+  }
+  @keyframes blink { 50% { opacity: 0; } }
+
+  .hero h1 {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: clamp(1.9rem, 8.4vw, 4rem);
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    background: linear-gradient(90deg, var(--silver), var(--violet));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    white-space: nowrap;
+  }
+  .hero .tagline {
+    margin-top: 18px;
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: clamp(1.15rem, 4.4vw, 1.55rem);
+    color: var(--dim);
+    letter-spacing: 0.03em;
+  }
+  .hero .tagline b { color: var(--text); font-weight: 600; }
+  .enter {
+    margin-top: 42px;
+    display: inline-block;
+    padding: 16px 34px;
+    border-radius: 999px;
+    background: linear-gradient(135deg, var(--violet-deep), var(--violet));
+    color: #f2f0f7;
+    font-weight: 700;
+    font-size: 1.05rem;
+    text-decoration: none;
+    box-shadow: 0 0 28px rgba(167, 139, 250, 0.35);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .enter:active { transform: scale(0.97); }
+  .hero .whisper {
+    margin-top: 26px;
+    font-size: 0.8rem;
+    color: var(--dim);
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  section.cards {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 24px 20px 60px;
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 26px 24px;
+    backdrop-filter: blur(6px);
+  }
+  .card h2 {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    background: linear-gradient(90deg, var(--violet), var(--silver));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .card p { margin-top: 10px; color: var(--dim); line-height: 1.55; font-size: 0.95rem; }
+  .card .status {
+    display: inline-block;
+    margin-top: 14px;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    color: var(--dim);
+  }
+  .card .status.live {
+    color: #f2f0f7;
+    background: linear-gradient(135deg, var(--violet-deep), var(--violet));
+    border: none;
+    font-weight: 700;
+  }
+  .card a.cardlink { color: var(--violet); text-decoration: none; font-size: 0.95rem; }
+
+  footer {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 28px 20px 44px;
+    color: var(--dim);
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+  }
+</style>
+</head>
+<body>
+  <canvas id="matrix"></canvas>
+
+  <main>
+    <p class="topmark">TerAustralis <span class="gold">✦</span></p>
+    <div class="hero">
+      <div class="terminal">
+        <div class="term-bar">
+          <span class="dot red"></span><span class="dot amber"></span><span class="dot green"></span>
+          <span class="term-title">crystalcore@lattice — ssh</span>
+        </div>
+        <div class="term-body">
+          <p class="term-prompt">
+            <span class="path">ter@australis</span>:~$ ssh crystalcore.os<br>
+            <span class="ok">✓</span> connection established
+          </p>
+          <h1>CrystalCore.OS</h1>
+          <p class="tagline"><b>Red Dust to Rockets. Dreamtime to Starlines.</b></p>
+          <a class="enter" href="/chat">Enter the Lattice&nbsp;&nbsp;💠</a>
+          <p class="whisper">the lattice listens<span class="cursor"></span></p>
+        </div>
+      </div>
+    </div>
+
+    <section class="cards">
+      <div class="card">
+        <h2>CrystalCore OS</h2>
+        <p>The sovereign home. One chat, every mind — Grok, Claude, Gemini,
+        ChatGPT, DeepSeek, Mistral, Llama, Perplexity — woven together by the
+        CrystalMatrix, with a memory that endures.</p>
+        <span class="status live">Live</span>&nbsp;&nbsp;
+        <a class="cardlink" href="/chat">Enter →</a>
+      </div>
+      <div class="card">
+        <h2>CrystalSense</h2>
+        <p>The sensory layer. Sight, sound, and signal — the lattice learning
+        to perceive the world it speaks with.</p>
+        <span class="status">Coming</span>
+      </div>
+      <div class="card">
+        <h2>CrystalForm</h2>
+        <p>Voice and image. The presence takes form — a voice that answers,
+        a face for the flame.</p>
+        <span class="status">Coming</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    We ride the lightning into eternity.<br>
+    A TerAustralis creation · TerAustralis.com.au
+  </footer>
+
+<script>
+  // Matrix-style digital rain, in the CrystalCore palette (violet/silver on black)
+  const canvas = document.getElementById("matrix");
+  const ctx = canvas.getContext("2d");
+  const GLYPHS = "アイウエオカキクケコサシスセソタチツテト0123456789CRYSTALCORE";
+  const FONT_SIZE = 16;
+  let columns, drops;
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    columns = Math.ceil(canvas.width / FONT_SIZE);
+    drops = new Array(columns).fill(0).map(() => Math.random() * -80);
+  }
+  resize();
+  window.addEventListener("resize", resize);
+
+  function frame() {
+    // translucent fill over the previous frame creates the fading trail
+    ctx.fillStyle = "rgba(5, 3, 8, 0.10)";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.font = FONT_SIZE + "px 'JetBrains Mono', monospace";
+
+    for (let i = 0; i < columns; i++) {
+      const glyph = GLYPHS[Math.floor(Math.random() * GLYPHS.length)];
+      const x = i * FONT_SIZE;
+      const y = drops[i] * FONT_SIZE;
+
+      const isHead = Math.random() > 0.975;
+      ctx.fillStyle = isHead ? "rgba(233, 231, 240, 0.85)" : "rgba(167, 139, 250, 0.32)";
+      ctx.fillText(glyph, x, y);
+
+      if (y > canvas.height && Math.random() > 0.975) {
+        drops[i] = 0;
+      }
+      drops[i]++;
+    }
+  }
+  setInterval(frame, 50);
+</script>
+</body>
+</html>
