@@ -1,0 +1,20 @@
+{
+  "name": "@crystal-core/sdk",
+  "version": "0.5.0",
+  "description": "Crystal Core TypeScript client (demo / Phase 1)",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "check": "tsc --noEmit -p tsconfig.json",
+    "build": "tsc -p tsconfig.json"
+  },
+  "files": ["src", "dist", "README.md"],
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
+}

@@ -1,0 +1,76 @@
+/* Copyright 2026 Crystal Arena-Turner (TerAustralis Incognita)
+   SPDX-License-Identifier: CC-BY-NC-ND-4.0
+
+   CrystalUI semantic tokens — the structure from the CrystalUI
+   Foundation plan (2026-07-27), the colours from the canon identity
+   already in app.css. Zero visual change by construction: every token
+   maps to an existing canon value. New and touched components should
+   prefer these role names over raw hues, so that any future palette
+   decision (its own ADR) becomes one file's edit.
+
+   Two-tier law (the CrystalUI Token Constitution's rules, adopted
+   under ADR-0012 — its rules, not its palette): Tier 1 is the raw
+   canon values in app.css; Tier 2 is these semantic roles. Components
+   consume Tier 2 only — no raw hues, no hard-coded colours. Changing
+   Tier 1 changes the brand: that is an ADR, not an edit. */
+
+:root {
+  /* Surfaces */
+  --background: var(--bg);
+  --surface: var(--card);
+  --surface-elevated: rgba(255, 255, 255, 0.03);
+
+  /* Text */
+  --text-primary: var(--ink);
+  --text-secondary: var(--muted);
+  --text-muted-accessible: #C5CDE5;
+  --text-inverse: #050208;
+
+  /* Borders & dividers */
+  --border: var(--line);
+  --border-strong: rgba(233, 235, 244, 0.18);
+
+  /* Links & focus */
+  --link: var(--blue);
+  --link-hover: var(--ink);
+  --focus-ring: 2px solid var(--blue);
+
+  /* Domains — the Starline spectrum, addressed by role */
+  --domain-codex: var(--gold);
+  --domain-crystalcore: var(--purple);
+  --domain-clementine: var(--green);
+  --domain-starline: var(--blue);
+  --domain-archive: var(--silver);
+  --domain-gallery: var(--pink);
+
+  /* Glow — consumed by the motion utilities */
+  --glow-color: var(--silver);
+}
+
+/* Southern Observatory layer: restrained mineral, archival, and night-sky roles. */
+:root {
+  --observatory-ink: #f0eadb;
+  --observatory-ivory: #e8e0cf;
+  --observatory-muted: #a8aaa0;
+  --observatory-bg: #080b0b;
+  --observatory-surface: #111817;
+  --observatory-surface-deep: #0b1010;
+  --observatory-line: rgba(232, 224, 207, .16);
+  --observatory-line-strong: rgba(232, 224, 207, .34);
+  --observatory-copper: #aa91c9;
+  --observatory-sand: #d0c2e8;
+  --observatory-green: #88b6a6;
+  --observatory-violet: #a89bc5;
+  --observatory-warning: #b5a5d2;
+  --observatory-contested: #c1a8c0;
+  --observatory-built: var(--observatory-green);
+  --observatory-vision: var(--observatory-violet);
+  --observatory-proposed: var(--observatory-copper);
+  --observatory-experiment: var(--observatory-sand);
+  --observatory-font-display: 'Cormorant Garamond', 'Iowan Old Style', 'Baskerville', Georgia, serif;
+  --observatory-font-body: 'DM Sans', Inter, system-ui, sans-serif;
+  --observatory-font-mono: 'IBM Plex Mono', 'JetBrains Mono', ui-monospace, monospace;
+  --font-display: var(--observatory-font-display);
+  --font-body: var(--observatory-font-body);
+  --font-mono: var(--observatory-font-mono);
+}

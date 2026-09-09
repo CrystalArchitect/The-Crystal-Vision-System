@@ -1,0 +1,90 @@
+{
+  "profile": "RDP-JCS Profile v1",
+  "description": "Authoritative conformance vectors for the RDP canonical form. A conforming implementation must reproduce every canonical string and sha256 exactly. input_json is raw JSON; parse it (numbers as exact decimals) and canonicalize. Numbers render fixed 6-dp, unquoted.",
+  "vectors": [
+    {
+      "note": "integer",
+      "input_json": "1",
+      "canonical": "1.000000",
+      "sha256": "b42a73dadec1c669cf9f985d24d8be5e91e302c8b1941a91d30d5f278aa72fcf"
+    },
+    {
+      "note": "one_decimal",
+      "input_json": "0.5",
+      "canonical": "0.500000",
+      "sha256": "5cbf8ccc50391baccdf522619ba13cc13de9d492c9d2dfb0ebc940039f86ab80"
+    },
+    {
+      "note": "negative_decimal",
+      "input_json": "-2.25",
+      "canonical": "-2.250000",
+      "sha256": "882e670856a04cc224ee50a0d258dc83f43f247427b15bf83d46bfe97ce4c362"
+    },
+    {
+      "note": "half_away_up",
+      "input_json": "0.0000005",
+      "canonical": "0.000001",
+      "sha256": "159fb29a827ad04b260aa6c8ab6d8637f8f2b38af5c4f3cb49d6a21205e040f8"
+    },
+    {
+      "note": "half_away_down",
+      "input_json": "-0.0000005",
+      "canonical": "-0.000001",
+      "sha256": "49ff0983cc219e6ecc913f851c68a92a585ed553098b80c7f7e8e35b726a5960"
+    },
+    {
+      "note": "negative_zero",
+      "input_json": "-0.0",
+      "canonical": "0.000000",
+      "sha256": "272b954865e891d02360e54cc9fc1a8149d8ba85224561317dbd2f8aee055c77"
+    },
+    {
+      "note": "max_magnitude",
+      "input_json": "9007199254740991",
+      "canonical": "9007199254740991.000000",
+      "sha256": "68f5de49d13374ece894c7955b349a74043c337079411460cf1e2d0e06a49832"
+    },
+    {
+      "note": "bool_true",
+      "input_json": "true",
+      "canonical": "true",
+      "sha256": "b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b"
+    },
+    {
+      "note": "null",
+      "input_json": "null",
+      "canonical": "null",
+      "sha256": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+    },
+    {
+      "note": "string_escape",
+      "input_json": "\"a\\\"b\\\\c\\n\"",
+      "canonical": "\"a\\\"b\\\\c\\n\"",
+      "sha256": "bc66ad49348b837dbb56a89b331dfa7f2bb8e89af2cbe0983d0e72846b2dbff3"
+    },
+    {
+      "note": "array_order",
+      "input_json": "[3,1,2]",
+      "canonical": "[3.000000,1.000000,2.000000]",
+      "sha256": "881c6e134e2f6a257947c5e2019d5a4f6610de79de4cdf0a52b2de025c37cd68"
+    },
+    {
+      "note": "key_sort",
+      "input_json": "{\"b\":1,\"a\":2,\"c\":3}",
+      "canonical": "{\"a\":2.000000,\"b\":1.000000,\"c\":3.000000}",
+      "sha256": "7deaf84f13c2cb268ee0c620f575bca3f874fc6c4243df0d7162584e151aade0"
+    },
+    {
+      "note": "nested",
+      "input_json": "{\"z\":[3,1,2],\"a\":{\"n\":null,\"m\":\"hi\"}}",
+      "canonical": "{\"a\":{\"m\":\"hi\",\"n\":null},\"z\":[3.000000,1.000000,2.000000]}",
+      "sha256": "c34929db36cdb07387619f9cdc2ddcb838d699d463092383da408fd93e0d2efd"
+    },
+    {
+      "note": "event_sample",
+      "input_json": "{\"kind\":\"grant\",\"subject\":\"did:crystal:a\",\"amount\":12.5}",
+      "canonical": "{\"amount\":12.500000,\"kind\":\"grant\",\"subject\":\"did:crystal:a\"}",
+      "sha256": "96aef8c5dffb747c8d447165805df66c85cce8de0281788500e92c9faa54291b"
+    }
+  ]
+}

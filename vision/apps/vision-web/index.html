@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#000000" />
+  <title>Crystal Vision · Citizen Shell</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <header class="top">
+    <div class="brand">
+      <div class="mark" aria-hidden="true"></div>
+      <div>
+        <h1>Crystal Vision</h1>
+        <p class="sub">Citizen twin · credits · capability</p>
+      </div>
+    </div>
+    <div class="meta">
+      <span class="pill gold" id="pillRegion">budapest-starline</span>
+      <span class="pill muted">mainnet: HOLD</span>
+      <button class="btn" id="btnWallet" type="button">Credits</button>
+    </div>
+  </header>
+
+  <nav class="nav" role="tablist">
+    <button class="nav-btn active" data-panel="home" type="button">Home</button>
+    <button class="nav-btn" data-panel="twin" type="button">My twin</button>
+    <button class="nav-btn" data-panel="consume" type="button">Consume</button>
+    <button class="nav-btn" data-panel="receipts" type="button">Receipts</button>
+    <button class="nav-btn" data-panel="privacy" type="button">Privacy</button>
+  </nav>
+
+  <main>
+    <section id="panel-home" class="panel active">
+      <div class="card hero">
+        <h2>See the city as a living twin</h2>
+        <p>
+          Crystal Vision is the <strong>user-facing</strong> surface.
+          Operators use Crystal Core; investors hear TerAustralis + Starline pilot.
+          Seven Sisters / Songline appear only as <em>collaborative metaphor</em> — not ownership.
+        </p>
+        <div class="stats">
+          <div><span class="n" id="statCredits">1,240</span><span class="l">credits (demo)</span></div>
+          <div><span class="n" id="statCap">15m</span><span class="l">capability window</span></div>
+          <div><span class="n">Z0</span><span class="l">device trust</span></div>
+          <div><span class="n">HOLD</span><span class="l">authority</span></div>
+        </div>
+        <div class="row">
+          <button class="btn primary" data-go="twin" type="button">Open twin</button>
+          <button class="btn" data-go="consume" type="button">Spend credits</button>
+          <a class="btn" href="../crystal-interface/index.html">Operator shell →</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Citizen journey (v0.5 — intended flow, simulated here)</h3>
+        <ol class="journey">
+          <li>Install / open Vision (this shell)</li>
+          <li>Hold credits (demo balance — single number; dual-currency is illustrative)</li>
+          <li>Request short-lived capability</li>
+          <li>Consume service → receipt (demo — marked confirmed, not actually attested)</li>
+          <li>Export or erase personal twin slice (GDPR path)</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="panel-twin" class="panel">
+      <div class="panel-head">
+        <h2>Personal twin slice</h2>
+        <div class="row">
+          <label class="chk"><input type="checkbox" data-layer="water" checked /> Water</label>
+          <label class="chk"><input type="checkbox" data-layer="energy" checked /> Energy</label>
+          <label class="chk"><input type="checkbox" data-layer="mobility" checked /> Mobility</label>
+        </div>
+      </div>
+      <canvas id="twinCanvas" width="960" height="360" aria-label="Personal twin layers"></canvas>
+      <p class="muted">Demo canvas only — not live sensor feed. Region hub: Starline Budapest.</p>
+    </section>
+
+    <section id="panel-consume" class="panel">
+      <div class="card">
+        <h2>Consume service</h2>
+        <p class="muted">Burns no CORE here — citizen spends credits against a capability grant.</p>
+        <label>Service class
+          <select id="svcClass">
+            <option value="mobility.ride">mobility.ride</option>
+            <option value="energy.kwh">energy.kwh</option>
+            <option value="water.m3">water.m3</option>
+            <option value="data.mb">data.mb</option>
+          </select>
+        </label>
+        <label>Qty <input id="svcQty" type="number" min="0.1" step="0.1" value="1" /></label>
+        <label>Cost (credits) <input id="svcCost" type="number" min="1" step="0.5" value="12.5" /></label>
+        <div class="row">
+          <button class="btn primary" id="btnGrant" type="button">Grant capability (15m)</button>
+          <button class="btn" id="btnSpend" type="button">Spend + mint receipt</button>
+        </div>
+        <pre id="capState" class="code">capability: none</pre>
+      </div>
+    </section>
+
+    <section id="panel-receipts" class="panel">
+      <div class="panel-head">
+        <h2>My receipts</h2>
+        <button class="btn" id="btnRefreshRx" type="button">Refresh</button>
+      </div>
+      <table class="table">
+        <thead>
+          <tr><th>ID</th><th>Class</th><th>Qty</th><th>Credits</th><th>Status</th></tr>
+        </thead>
+        <tbody id="rxBody">
+          <tr><td colspan="5">No receipts yet</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="panel-privacy" class="panel">
+      <div class="card">
+        <h2>Privacy &amp; export</h2>
+        <p>Device zone <strong>Z0</strong> holds keys. Region twin is policy-gated. You may export or request erase of your personal slice.</p>
+        <div class="row">
+          <button class="btn" id="btnExport" type="button">Export JSON (demo)</button>
+          <button class="btn danger" id="btnErase" type="button">Request erase (demo)</button>
+        </div>
+        <pre id="privacyOut" class="code"></pre>
+        <p class="muted">See compliance/GDPR_ROPA.md — not a live controller.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    Crystal Vision · user surface · authority HOLD ·
+    <a href="../crystal-interface/index.html">Crystal Core interface</a>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

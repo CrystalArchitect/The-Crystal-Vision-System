@@ -1,0 +1,23 @@
+# What this app needs, now that it is one.
+#
+#     pip install -r requirements-discord.txt
+#
+# This file used to list only discord.py, because the app lived inside the
+# companion's directory and the companion's own requirements.txt — sitting
+# next to it, installed alongside it — supplied the rest. That was never
+# stated, only true by adjacency, and it stopped being true when the app
+# moved out. CI found it immediately: collection failed on `import
+# requests` with nothing else installed.
+#
+# So the list is complete now rather than incremental.
+
+# The HTTP client every call to the companion goes through
+# (clementine_api.py). Not optional: without it the module will not import,
+# so neither the bot nor its tests can load.
+requests>=2.28
+
+# The gateway library, still genuinely optional. discord_bot.py imports it
+# lazily so the pure logic and its tests run whether or not it is present —
+# someone who never wants a bot should not be made to install it to get the
+# companion.
+discord.py>=2.3

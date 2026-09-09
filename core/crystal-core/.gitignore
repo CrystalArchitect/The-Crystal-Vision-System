@@ -1,0 +1,41 @@
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Secrets — never commit
+.env
+*.pem
+auth.json
+credentials*
+
+# local push temp
+_*.json
+
+# Python
+__pycache__/
+*.pyc
+
+# twin store is local state
+services/*.db
+
+# Starline identity, peer list, and consent history are this device's
+# private state — the identity file IS a private key. Never commit any
+# of this, anywhere in the repo (agents may run from any directory).
+starline_identity.json
+starline_peers.json
+starline_consent.json
+**/starline_identity.json
+**/starline_peers.json
+**/starline_consent.json
+
+# bus transcripts stay local, except the committed demo
+clementine/transcripts/*
+!clementine/transcripts/demo-first-contact.md
+!clementine/transcripts/demo-networked.md
+
