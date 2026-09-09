@@ -1,0 +1,464 @@
+{
+ "fiction-mythos-card": {
+  "native": "784\u00d71168",
+  "web": [
+   671,
+   1000
+  ]
+ },
+ "eulers-identity": {
+  "native": "903\u00d7805",
+  "web": [
+   903,
+   805
+  ]
+ },
+ "gimbardidoo-lsk170-schematic": {
+  "native": "360\u00d7242",
+  "web": [
+   360,
+   242
+  ]
+ },
+ "gimbardidoo-active-model-2": {
+  "native": "242\u00d7360",
+  "web": [
+   242,
+   360
+  ]
+ },
+ "gimbardidoo-electronic-section": {
+  "native": "360\u00d7242",
+  "web": [
+   360,
+   242
+  ]
+ },
+ "gimbardidoo-lavictoire-integration": {
+  "native": "360\u00d7242",
+  "web": [
+   360,
+   242
+  ]
+ },
+ "mad-yukawa-machine": {
+  "native": "456\u00d7679",
+  "web": [
+   456,
+   679
+  ]
+ },
+ "mad-proto-agi": {
+  "native": "755\u00d71124",
+  "web": [
+   672,
+   1000
+  ]
+ },
+ "starline-open": {
+  "native": "1408\u00d71408",
+  "web": [
+   1000,
+   1000
+  ]
+ },
+ "starline-walking": {
+  "native": "1408\u00d71408",
+  "web": [
+   1000,
+   1000
+  ]
+ },
+ "starline-empty-plain": {
+  "native": "1408\u00d71408",
+  "web": [
+   1000,
+   1000
+  ]
+ },
+ "starline-active": {
+  "native": "1408\u00d71408",
+  "web": [
+   1000,
+   1000
+  ]
+ },
+ "starline-radiant": {
+  "native": "1408\u00d71408",
+  "web": [
+   1000,
+   1000
+  ]
+ },
+ "bootprint": {
+  "native": "1408\u00d71408",
+  "web": [
+   1000,
+   1000
+  ]
+ },
+ "crystal-boot-close": {
+  "native": "1408\u00d71408",
+  "web": [
+   1000,
+   1000
+  ]
+ },
+ "crystal-boot-standing": {
+  "native": "784\u00d71168",
+  "web": [
+   671,
+   1000
+  ]
+ },
+ "glyph-sheet": {
+  "native": "1080\u00d71540",
+  "web": [
+   701,
+   1000
+  ]
+ },
+ "vault-map-codex-print": {
+  "native": "1080\u00d71523",
+  "web": [
+   709,
+   1000
+  ]
+ },
+ "vault-index-entry-print": {
+  "native": "1026\u00d71568",
+  "web": [
+   654,
+   1000
+  ]
+ },
+ "vault-index-entry-neon": {
+  "native": "784\u00d71168",
+  "web": [
+   671,
+   1000
+  ]
+ },
+ "vault-map-codex-neon": {
+  "native": "784\u00d71168",
+  "web": [
+   671,
+   1000
+  ]
+ },
+ "mother-vault": {
+  "native": "360\u00d7288",
+  "web": [
+   360,
+   288
+  ]
+ },
+ "prime-trista-boot": {
+  "native": "1152\u00d71728",
+  "web": [
+   667,
+   1000
+  ]
+ },
+ "w1-dg3-specs": {
+  "native": "453\u00d7680",
+  "web": [
+   453,
+   680
+  ]
+ },
+ "os-the-promise": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "os-quantum-v8": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "os-private-universe": {
+  "native": "784\u00d71168",
+  "web": [
+   671,
+   1000
+  ]
+ },
+ "os-quantum-core": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "crystal-spires-dragons": {
+  "native": "1792\u00d71008",
+  "web": [
+   1000,
+   563
+  ]
+ },
+ "roadmap-a": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "roadmap-b": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "roadmap-c": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "roadmap-d": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "roadmap-e": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "roadmap-songline": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "mind-not-only-genetic": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "non-genetic-operators": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "thor-engine-v51": {
+  "native": "755\u00d71124",
+  "web": [
+   672,
+   1000
+  ]
+ },
+ "thor-woven-core": {
+  "native": "360\u00d7242",
+  "web": [
+   360,
+   242
+  ]
+ },
+ "resonance-cylinder": {
+  "native": "360\u00d7242",
+  "web": [
+   360,
+   242
+  ]
+ },
+ "time-crystal-stabilizer": {
+  "native": "360\u00d7242",
+  "web": [
+   360,
+   242
+  ]
+ },
+ "alcubierre-drive": {
+  "native": "360\u00d7242",
+  "web": [
+   360,
+   242
+  ]
+ },
+ "dragon-phone": {
+  "native": "755\u00d71126",
+  "web": [
+   671,
+   1000
+  ]
+ },
+ "choose-cards": {
+  "native": "1184\u00d71680",
+  "web": [
+   705,
+   1000
+  ]
+ },
+ "cich-profile": {
+  "native": "1024\u00d71536",
+  "web": [
+   667,
+   1000
+  ]
+ },
+ "sydney-lotus": {
+  "native": "679\u00d7456",
+  "web": [
+   679,
+   456
+  ]
+ },
+ "lake-view": {
+  "native": "680\u00d7453",
+  "web": [
+   680,
+   453
+  ]
+ },
+ "ring-gate": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "forest-door": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "walk-to-rockets": {
+  "native": "1792\u00d71008",
+  "web": [
+   1000,
+   563
+  ]
+ },
+ "mars-redoubt": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "crystal-heart-constellation": {
+  "native": "360\u00d7242",
+  "web": [
+   360,
+   242
+  ]
+ },
+ "rocket-red-plain": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "dna-helix": {
+  "native": "784\u00d71168",
+  "web": [
+   671,
+   1000
+  ]
+ },
+ "rocket-crystal-heart": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "rocket-red-heart": {
+  "native": "360\u00d7242",
+  "web": [
+   360,
+   242
+  ]
+ },
+ "optimus-tesla": {
+  "native": "784\u00d71168",
+  "web": [
+   671,
+   1000
+  ]
+ },
+ "red-archway": {
+  "native": "1792\u00d71008",
+  "web": [
+   1000,
+   563
+  ]
+ },
+ "island-chart": {
+  "native": "360\u00d7360",
+  "web": [
+   360,
+   360
+  ]
+ },
+ "anime-fleet": {
+  "native": "784\u00d71168",
+  "web": [
+   671,
+   1000
+  ]
+ },
+ "starship-port": {
+  "native": "1168\u00d7784",
+  "web": [
+   1000,
+   671
+  ]
+ },
+ "crystal-spires-troopers": {
+  "native": "680\u00d7680",
+  "web": [
+   680,
+   680
+  ]
+ },
+ "blue-runner": {
+  "native": "360\u00d7242",
+  "web": [
+   360,
+   242
+  ]
+ },
+ "the-continuation": {
+  "native": "941\u00d71672",
+  "web": [
+   563,
+   1000
+  ]
+ },
+ "galaxy-over-rocks": {
+  "native": "903\u00d7903",
+  "web": [
+   903,
+   903
+  ]
+ },
+ "porch-galaxy": {
+  "native": "1071\u00d71071",
+  "web": [
+   1000,
+   1000
+  ]
+ }
+}
