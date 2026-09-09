@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "crystal-vision",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Crystal-Authority", "value": "HOLD" },
+        { "key": "Cache-Control", "value": "public, max-age=60" }
+      ]
+    }
+  ]
+}
