@@ -1,0 +1,37 @@
+{
+  "rules_version": "0.1.0",
+  "window_tokens": 128000,
+  "budget_ratio": 0.7,
+  "max_draft_tokens": 800,
+  "approx_chars_per_token": 4,
+  "filler_openers": [
+    "certainly",
+    "of course",
+    "i'd be happy to",
+    "i would be happy to",
+    "great question",
+    "absolutely"
+  ],
+  "hard_claim_patterns": [
+    "\\bABN\\b",
+    "\\$\\d",
+    "\\bwe verified\\b",
+    "\\bverified that\\b",
+    "\\blocated in\\b",
+    "\\bheadquartered in\\b",
+    "\\bmulti-facility\\b",
+    "\\bStatement of Engagement\\b",
+    "\\bwill publicly verify\\b",
+    "\\bas of\\b.{0,40}\\d{4}"
+  ],
+  "source_markers": [
+    "source:",
+    "http://",
+    "https://",
+    "file://",
+    "`/",
+    "tool-id:",
+    "gh:",
+    "on disk:"
+  ]
+}
