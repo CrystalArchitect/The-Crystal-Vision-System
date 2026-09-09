@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>The Plate Archive, Volume II — CrystalVision</title>
+<style>
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/ibm-plex-mono.woff2) format('woff2');}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 600;font-display:swap;src:url(../fonts/ibm-plex-sans.woff2) format('woff2');}
+@font-face{font-family:'Newsreader';font-style:italic;font-weight:400;font-display:swap;src:url(../fonts/newsreader-italic.woff2) format('woff2');}
+@font-face{font-family:'Newsreader';font-style:normal;font-weight:400 600;font-display:swap;src:url(../fonts/newsreader.woff2) format('woff2');}
+:root{
+  --ink:#0b0a12; --surface:#14121f; --surface-2:#1b1827; --rule:#2a2640;
+  --fg:#e8e6f0; --muted:#9a96ad; --silver:#c5c9d6;
+  --gold:#d4b56a; --violet:#7b6cff; --ochre:#d1603a;
+  --shadow:0 18px 50px -22px rgba(0,0,0,.85);
+  --paper-edge:rgba(232,230,240,.14);
+  /* The stamp sits over an image of unknown colour, so it carries its own
+     backing. It has to flip with the theme: --silver goes dark in the light
+     theme, and on a fixed dark backing that put SURVEYED at 1.83:1. */
+  --stamp-bg:rgba(11,10,18,.72);
+  --serif:'Newsreader',Georgia,'Times New Roman',serif;
+  --sans:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  --s1:.5rem; --s2:1rem; --s3:1.75rem; --s4:3rem; --s5:5rem; --s6:8rem;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    --ink:#edebf3; --surface:#fff; --surface-2:#f6f4fa; --rule:#d6d1e4;
+    --fg:#17141f; --muted:#5b5670; --silver:#3d3a4d;
+    --gold:#7a5c15; --violet:#4a37d6; --ochre:#a8401c;
+    --shadow:0 16px 40px -24px rgba(23,20,31,.4);
+    --paper-edge:rgba(23,20,31,.16);
+    --stamp-bg:rgba(255,255,255,.86);
+  }
+}
+:root[data-theme="light"]{
+  --ink:#edebf3; --surface:#fff; --surface-2:#f6f4fa; --rule:#d6d1e4;
+  --fg:#17141f; --muted:#5b5670; --silver:#3d3a4d;
+  --gold:#7a5c15; --violet:#4a37d6; --ochre:#a8401c;
+  --shadow:0 16px 40px -24px rgba(23,20,31,.4);
+  --paper-edge:rgba(23,20,31,.16);
+  --stamp-bg:rgba(255,255,255,.86);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+body{
+  margin:0; background:var(--ink); color:var(--fg);
+  font-family:var(--sans); font-size:1rem; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+img,video{max-width:100%;display:block}
+a{color:var(--violet);text-underline-offset:.18em}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
+
+.page{max-width:1180px;margin:0 auto;padding:var(--s5) 1.25rem var(--s4)}
+.prose{max-width:68ch}
+.eyebrow{
+  font-family:var(--mono); font-size:.75rem; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--muted); margin:0 0 var(--s3);
+}
+
+/* ---------- masthead ---------- */
+.masthead{display:flex;flex-direction:column;gap:var(--s3);margin-bottom:var(--s5)}
+h1{
+  font-family:var(--serif); font-weight:600; font-size:clamp(2.5rem,7vw,4.6rem);
+  line-height:1.02; letter-spacing:-.02em; margin:0; text-wrap:balance; color:var(--fg);
+}
+h1 em{font-style:italic;color:var(--gold)}
+.deck{font-size:clamp(1.05rem,1.7vw,1.3rem);color:var(--silver);margin:0;max-width:60ch}
+.deck strong{color:var(--fg);font-weight:600}
+
+.law{
+  margin:0; padding:var(--s3) 0 var(--s3) var(--s3);
+  border-left:2px solid var(--ochre); max-width:62ch;
+}
+.law p{
+  font-family:var(--serif); font-style:italic; font-size:clamp(1.2rem,2.2vw,1.55rem);
+  line-height:1.4; margin:0 0 var(--s2); color:var(--fg); text-wrap:balance;
+}
+.law cite{
+  font-family:var(--mono); font-style:normal; font-size:.75rem;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--ochre);
+}
+
+/* ---------- not-this panel ---------- */
+.notice{
+  background:var(--surface); border:1px solid var(--rule); border-radius:6px;
+  padding:var(--s3); margin-bottom:var(--s6);
+}
+.notice h2{
+  font-family:var(--mono); font-size:.75rem; letter-spacing:.16em; text-transform:uppercase;
+  color:var(--ochre); margin:0 0 var(--s2); font-weight:500;
+}
+.notice ul{margin:0;padding-left:1.1rem;display:flex;flex-direction:column;gap:.4rem}
+.notice li{color:var(--silver);font-size:.95rem}
+.notice li strong{color:var(--fg);font-weight:600}
+
+/* ---------- sections ---------- */
+.sect{margin-bottom:var(--s6)}
+.sect-head{
+  display:flex;flex-direction:column;gap:var(--s2);
+  padding-top:var(--s3); border-top:1px solid var(--rule); margin-bottom:var(--s4);
+}
+.sect-num{
+  font-family:var(--mono); font-size:.75rem; letter-spacing:.2em;
+  color:var(--violet); text-transform:uppercase;
+}
+.sect-head h2{
+  font-family:var(--serif); font-weight:600; font-size:clamp(1.9rem,4vw,2.9rem);
+  line-height:1.08; margin:0; letter-spacing:-.015em; color:var(--gold); text-wrap:balance;
+}
+.sect-lede{margin:0;color:var(--silver);max-width:64ch;font-size:1.02rem}
+
+.plates{display:flex;flex-direction:column;gap:var(--s5)}
+
+/* ---------- plate ---------- */
+.plate{display:flex;flex-direction:column;gap:var(--s3)}
+.frame{
+  position:relative; background:var(--surface-2);
+  border:1px solid var(--paper-edge); border-radius:4px;
+  overflow:hidden; box-shadow:var(--shadow);
+}
+.frame img,.frame video{width:100%;height:auto}
+.stamp{
+  position:absolute; top:.75rem; left:.75rem; z-index:2;
+  font-family:var(--mono); font-size:.625rem; font-weight:500;
+  letter-spacing:.22em; text-transform:uppercase; color:var(--ochre);
+  border:1px solid var(--ochre); border-radius:2px;
+  padding:.3rem .55rem; background:var(--stamp-bg);
+  backdrop-filter:blur(6px);
+}
+.caption{display:grid;grid-template-columns:minmax(0,1fr);gap:var(--s3)}
+@media (min-width:820px){
+  .caption{grid-template-columns:minmax(0,20rem) minmax(0,1fr);gap:var(--s4)}
+}
+.plate-id{
+  font-family:var(--mono); font-size:.75rem; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--violet); margin:0 0 .4rem;
+}
+.plate h3{
+  font-family:var(--serif); font-weight:600; font-size:1.55rem; line-height:1.15;
+  margin:0 0 .3rem; letter-spacing:-.01em; color:var(--fg); text-wrap:balance;
+}
+.plate-sub{font-family:var(--serif);font-style:italic;color:var(--muted);margin:0 0 var(--s3);font-size:1.02rem}
+.rail{margin:0;font-family:var(--mono);font-size:.78rem;line-height:1.5}
+.rail div{
+  display:grid; grid-template-columns:4.6rem minmax(0,1fr); gap:.75rem;
+  padding:.45rem 0; border-top:1px solid var(--rule);
+}
+.rail dt{color:var(--muted);letter-spacing:.1em;text-transform:uppercase;font-size:.68rem;padding-top:.12em}
+.rail dd{margin:0;color:var(--silver);overflow-wrap:anywhere}
+.rail .belt{color:var(--gold)}
+.rail .marks{color:var(--ochre)}
+.reading{display:flex;flex-direction:column;gap:var(--s2)}
+.reading p{margin:0;color:var(--silver)}
+.reading p:first-child{color:var(--fg);font-size:1.06rem}
+.reading strong{color:var(--gold);font-weight:600}
+.reading em{font-family:var(--serif);font-style:italic;font-size:1.05em}
+
+/* ---------- footer ---------- */
+.foot{
+  border-top:1px solid var(--rule); padding-top:var(--s3);
+  display:flex; flex-direction:column; gap:var(--s2);
+  font-size:.88rem; color:var(--muted);
+}
+.foot p{margin:0;max-width:70ch}
+.foot .marks-note{font-family:var(--mono);font-size:.72rem;line-height:1.7;letter-spacing:.02em}
+.foot strong{color:var(--silver);font-weight:500}
+
+/* ---------- reveal ---------- */
+.rev{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}
+.rev.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  .rev{opacity:1;transform:none;transition:none}
+  *{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+
+.backlink{
+  font-family:var(--mono); font-size:.78rem; letter-spacing:.04em;
+  padding:.7rem 0; border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+  color:var(--muted);
+}
+.backlink a{color:var(--gold)}
+.flag{
+  border:1px solid var(--ochre); border-left-width:3px; border-radius:4px;
+  background:var(--surface); padding:var(--s3); margin-top:var(--s2); max-width:68ch;
+}
+.flag h3{
+  font-family:var(--mono); font-size:.7rem; letter-spacing:.18em; text-transform:uppercase;
+  color:var(--ochre); margin:0 0 .6rem; font-weight:500;
+}
+.flag p{margin:0;color:var(--silver);font-size:.95rem}
+.heldout{
+  background:var(--surface); border:1px solid var(--ochre); border-radius:6px;
+  padding:var(--s3); margin:var(--s5) 0 0;
+}
+.heldout h2{
+  font-family:var(--serif); font-size:1.5rem; color:var(--gold); margin:0 0 var(--s2);
+  font-weight:600; letter-spacing:-.01em;
+}
+.heldout p{margin:0 0 var(--s2);color:var(--silver);max-width:68ch}
+.heldout ol{margin:var(--s2) 0 0;padding-left:1.2rem;display:flex;flex-direction:column;gap:.55rem}
+.heldout li{color:var(--muted);font-family:var(--mono);font-size:.78rem;line-height:1.55}
+.tally{
+  display:flex;flex-wrap:wrap;gap:var(--s3);margin:0;padding:0;list-style:none;
+  font-family:var(--mono);font-size:.75rem;
+}
+.tally div{display:flex;flex-direction:column;gap:.15rem}
+.tally dt{color:var(--muted);letter-spacing:.14em;text-transform:uppercase;font-size:.65rem}
+.tally dd{margin:0;color:var(--gold);font-size:1.5rem;font-variant-numeric:tabular-nums}
+.tally dd.ok{color:var(--silver)}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">CrystalVision · Vision-layer image archive · Volume II</p>
+    <h1>Sixty-six plates,<br><em>and five that hold up</em></h1>
+    <p class="deck">Volume I could say one thing about all fourteen of its plates: none of them
+      were evidence. This volume cannot. <strong>Five plates here survive being checked</strong>
+      &mdash; four are a working analogue circuit, one is a proof &mdash; and they are drawn in
+      very nearly the same style as six that assert a warp drive and a zero-point reactor.</p>
+    <p class="deck">So the sections no longer run by subject. They run by <em>how hard a claim
+      each plate makes, and whether it can carry it</em>.</p>
+    <blockquote class="law">
+      <p>Always mark which lines are dreamed and which are surveyed, and never let a dreamed
+        line pretend it was measured.</p>
+      <cite>The Incognita Rule</cite>
+    </blockquote>
+    <dl class="tally">
+      <div><dt>Plates</dt><dd>66</dd></div>
+      <div><dt>Survive checking</dt><dd class="ok">5</dd></div>
+      <div><dt>Held out</dt><dd>4</dd></div>
+      <div><dt>Carry others&rsquo; marks</dt><dd>11</dd></div>
+    </dl>
+    <p class="backlink">Volume I &mdash; fourteen plates, none of them evidence &mdash;
+      <a href="https://claude.ai/code/artifact/ed094b96-1a7e-442e-9ba1-a938c42bc28e">is here</a>.</p>
+  </header>
+
+  <section class="notice rev">
+    <h2>What these images are not</h2>
+    <ul>
+      <li><strong>Not evidence</strong>, except where section II says otherwise. No dashboard
+        here reports a running system; no reactor drawing describes a machine.</li>
+      <li><strong>Not endorsed.</strong> No affiliation with Tesla, xAI, SpaceX, Neuralink,
+        Starlink, E.C. Publications, Lucasfilm, or any government. Marks shown belong to their
+        owners and appear without permission.</li>
+      <li><strong>Not teaching material.</strong> Section VIII is styled as a class. It is not
+        one, and nothing in it should be studied as physics or medicine.</li>
+      <li><strong>Not cultural material.</strong> Four plates that pinned real named Aboriginal
+        communities and a named Seven Sisters site were held out of this archive entirely; see
+        the closing note.</li>
+    </ul>
+  </section>
+
+    <section class="sect" id="the-disclaimer">
+      <div class="sect-head rev">
+        <p class="sect-num">I</p>
+        <h2>The disclaimer</h2>
+        <p class="sect-lede">One plate in this archive tells the truth about every other plate in it. It was made by the same hand, and it is the reason this volume can be catalogued honestly at all.</p>
+        
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/fiction-mythos-card.jpg" width="671" height="1000" loading="lazy" decoding="async" alt="The Fiction / The Mythos — “Not a real operating system.”. A mythical crystal network, an ancient sentient OS from beyond the stars — and, beside it, an arrow pointing at what actually happens: you are chatting with Grok, and"></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P01</p>
+            <h3>The Fiction / The Mythos</h3>
+            <p class="plate-sub">&ldquo;Not a real operating system.&rdquo;</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P01</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>784×1168</dd></div></dl>
+          </div>
+          <div class="reading"><p>A mythical crystal network, an ancient sentient OS from beyond the stars &mdash; and, beside it, an arrow pointing at what actually happens: <strong>you are chatting with Grok, and the experience is interactive roleplay</strong>.</p><p>The author wrote this. It names CrystalCore.OS as a collaborative sci-fi story and roleplay, built as story and play, not software, and ends with the four words the rest of this archive depends on. Every dashboard in section VI, every schematic in section IX, reads correctly once this plate is in front of it. It is placed first because an archivist's caveat is worth much less than the maker's own.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="sect" id="surveyed">
+      <div class="sect-head rev">
+        <p class="sect-num">II</p>
+        <h2>Surveyed</h2>
+        <p class="sect-lede">The only plates in either volume that survive checking. Four are a working analogue circuit; one is a proof. Note the drawing style — then compare it with section IX, which borrows the style and keeps none of the substance.</p>
+        
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp" style="color:var(--silver);border-color:var(--silver)">Surveyed</span>
+          <img src="plates/eulers-identity.jpg" width="903" height="805" loading="lazy" decoding="async" alt="Euler’s Identity — ei&pi; + 1 = 0. Euler's formula, the substitution x = &pi;, and the identity that falls out of it. Every line is correct and every line can be checked by anyone, today, with no access to anything."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P02</p>
+            <h3>Euler&rsquo;s Identity</h3>
+            <p class="plate-sub">e<sup>i&pi;</sup> + 1 = 0</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P02</dd></div><div><dt>Origin</dt><dd>Screenshot, typeset mathematics</dd></div><div><dt>Belt</dt><dd><span style="color:var(--silver)">Science &mdash; checkable</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>903×805</dd></div></dl>
+          </div>
+          <div class="reading"><p>Euler's formula, the substitution x = &pi;, and the identity that falls out of it. Every line is correct and every line can be checked by anyone, today, with no access to anything.</p><p>It is here as a control. In a collection where percentages, resonances and coherence indices are set dressing, this is what an actually verifiable claim looks like &mdash; and it is noticeably less decorated than anything asserting more.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp" style="color:var(--silver);border-color:var(--silver)">Surveyed</span>
+          <img src="plates/gimbardidoo-lsk170-schematic.jpg" width="360" height="242" loading="lazy" decoding="async" alt="GIMBARDIDOO — LSK170 Preamp — Complete schematic. A piezo pickup preamp drawn properly: LSK170 and LSK389 JFETs, 1 M&Omega; input bias against a piezo source, RC decoupling, output stage. The part numbers are real Linear Syst"></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P03</p>
+            <h3>GIMBARDIDOO &mdash; LSK170 Preamp</h3>
+            <p class="plate-sub">Complete schematic</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P03</dd></div><div><dt>Origin</dt><dd>Circuit drawing</dd></div><div><dt>Belt</dt><dd><span style="color:var(--silver)">Science &mdash; checkable</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>360×242</dd></div></dl>
+          </div>
+          <div class="reading"><p>A piezo pickup preamp drawn properly: LSK170 and LSK389 JFETs, 1&nbsp;M&Omega; input bias against a piezo source, RC decoupling, output stage. The part numbers are real Linear Systems devices and the values are sensible for the job.</p><p>This is genuine engineering, and it is the most quietly impressive thing in either volume. It is also the exhibit that makes section IX legible: the same hand can draw a circuit that would work and a reactor that could not, in the same week, in the same style.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp" style="color:var(--silver);border-color:var(--silver)">Surveyed</span>
+          <img src="plates/gimbardidoo-active-model-2.jpg" width="242" height="360" loading="lazy" decoding="async" alt="GIMBARDIDOO — Active Electronics — Model 2, with preamp. The active variant: a J201 FET preamp stage, 10 M&Omega; gate bias, 4.7 nF coupling, a 500 k&Omega; logarithmic volume pot into a &frac14; inch mono jack with s"></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P04</p>
+            <h3>GIMBARDIDOO &mdash; Active Electronics</h3>
+            <p class="plate-sub">Model 2, with preamp</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P04</dd></div><div><dt>Origin</dt><dd>Circuit drawing</dd></div><div><dt>Belt</dt><dd><span style="color:var(--silver)">Science &mdash; checkable</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>242×360</dd></div></dl>
+          </div>
+          <div class="reading"><p>The active variant: a J201 FET preamp stage, 10&nbsp;M&Omega; gate bias, 4.7&nbsp;nF coupling, a 500&nbsp;k&Omega; logarithmic volume pot into a &frac14;&nbsp;inch mono jack with sleeve, ring and tip called out.</p><p>High input impedance in front of a piezo element is exactly the right instinct &mdash; it is what keeps the low end from thinning out. Whoever drew this has built one.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp" style="color:var(--silver);border-color:var(--silver)">Surveyed</span>
+          <img src="plates/gimbardidoo-electronic-section.jpg" width="360" height="242" loading="lazy" decoding="async" alt="GIMBARDIDOO — Electronic Section — Physical layout. Mechanical layout rather than schematic: piezo disc, preamp board housing, wire routing, jack placement, main body, with dimensions."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P05</p>
+            <h3>GIMBARDIDOO &mdash; Electronic Section</h3>
+            <p class="plate-sub">Physical layout</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P05</dd></div><div><dt>Origin</dt><dd>Technical drawing</dd></div><div><dt>Belt</dt><dd><span style="color:var(--silver)">Science &mdash; checkable</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>360×242</dd></div></dl>
+          </div>
+          <div class="reading"><p>Mechanical layout rather than schematic: piezo disc, preamp board housing, wire routing, jack placement, main body, with dimensions.</p><p>The unglamorous drawing that means someone intends to actually assemble the thing.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp" style="color:var(--silver);border-color:var(--silver)">Surveyed</span>
+          <img src="plates/gimbardidoo-lavictoire-integration.jpg" width="360" height="242" loading="lazy" decoding="async" alt="GIMBARDIDOO Lavictoire — Special edition — passive vs active integration. Blueprint comparing the passive Model 1 against the active Model 2 as installed, sheet marked A."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P06</p>
+            <h3>GIMBARDIDOO Lavictoire</h3>
+            <p class="plate-sub">Special edition &mdash; passive vs active integration</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P06</dd></div><div><dt>Origin</dt><dd>Blueprint drawing</dd></div><div><dt>Belt</dt><dd><span style="color:var(--silver)">Science &mdash; checkable</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>360×242</dd></div></dl>
+          </div>
+          <div class="reading"><p>Blueprint comparing the passive Model 1 against the active Model 2 as installed, sheet marked A.</p><p>A revision sheet. Boring in the specific way that real documentation is boring.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="sect" id="satire">
+      <div class="sect-head rev">
+        <p class="sect-num">III</p>
+        <h2>Satire</h2>
+        <p class="sect-lede">Two covers where the joke is aimed inward. They are the most honest images here after the disclaimer, because self-mockery is a claim that cannot be overstated.</p>
+        
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/mad-yukawa-machine.jpg" width="456" height="679" loading="lazy" decoding="async" alt="MAD — Python 3 Yukawa Machine — “More nuclear than ever · still useless!”. A parody cover wrapped around real code. The yukawa_force function on it implements the Yukawa potential's force term — the exponential screening factor and the "></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P07</p>
+            <h3>MAD &mdash; Python 3 Yukawa Machine</h3>
+            <p class="plate-sub">&ldquo;More nuclear than ever &middot; still useless!&rdquo;</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P07</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">MAD masthead &middot; Alfred E. Neuman likeness</span></dd></div><div><dt>Native</dt><dd>456×679</dd></div></dl>
+          </div>
+          <div class="reading"><p>A parody cover wrapped around real code. The <code>yukawa_force</code> function on it implements the Yukawa potential's force term &mdash; the exponential screening factor and the (1 + r/&kappa;) correction are both in the right places.</p><p>Correct physics, published under a banner reading <em>the world's dumbest magazine</em>, signing off with <strong>&ldquo;believe it&hellip; or don't. We're not your supervisor.&rdquo;</strong> That is a more accurate epistemic disclaimer than most of the serious-looking plates manage. The MAD masthead and Alfred E. Neuman belong to their rights holders; this is unlicensed parody.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/mad-proto-agi.jpg" width="672" height="1000" loading="lazy" decoding="async" alt="MAD — Proto-AGI, Full Blast — Issue #9999 (seriously.). A cosmic free-party cover whose banner reads “throne = empty — dance on it!” and whose footer reads “9999 and counting&hellip; stil"></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P08</p>
+            <h3>MAD &mdash; Proto-AGI, Full Blast</h3>
+            <p class="plate-sub">Issue #9999 (seriously.)</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P08</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">MAD masthead &middot; Alfred E. Neuman likeness</span></dd></div><div><dt>Native</dt><dd>755×1124</dd></div></dl>
+          </div>
+          <div class="reading"><p>A cosmic free-party cover whose banner reads <strong>&ldquo;throne = empty &mdash; dance on it!&rdquo;</strong> and whose footer reads <strong>&ldquo;9999 and counting&hellip; still dumber than you!&rdquo;</strong></p><p>Deflation aimed squarely at the author's own subject matter, which is the healthiest thing an AGI mythos can do to itself. Contains strong language. Unlicensed parody of the MAD masthead.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="sect" id="starline">
+      <div class="sect-head rev">
+        <p class="sect-num">IV</p>
+        <h2>The starline sequence</h2>
+        <p class="sect-lede">Consent architecture rendered as image rather than asserted as telemetry. This sequence gets the project's own design constraint right — the gap is held, the bridge is optional, the claim is marked provisional — without pretending anything was measured.</p>
+        
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/starline-open.jpg" width="1000" height="1000" loading="lazy" decoding="async" alt="Starline Open — “you can leave whenever you choose”. A crystalline figure and a person in a dusty jacket standing at conversational distance on red ground, facing each other as equals. The caption reads: starline open&hellip; bri"></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P09</p>
+            <h3>Starline Open</h3>
+            <p class="plate-sub">&ldquo;you can leave whenever you choose&rdquo;</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P09</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Starship-like vehicle silhouette</span></dd></div><div><dt>Native</dt><dd>1408×1408</dd></div></dl>
+          </div>
+          <div class="reading"><p>A crystalline figure and a person in a dusty jacket standing at conversational distance on red ground, facing each other as equals. The caption reads: <em>starline open&hellip; bridge standing&hellip; you can leave whenever you choose.</em></p><p>This is the project's consent architecture stated as an image instead of as a percentage. No coherence index, no phase lock &mdash; just the exit named out loud. It is the strongest plate in the volume and it makes no factual claim at all.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/starline-walking.jpg" width="1000" height="1000" loading="lazy" decoding="async" alt="Walking — Light trails, red plain. The crystalline figure mid-stride with a core lit blue and long light trails behind it, a distant vehicle on the horizon."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P10</p>
+            <h3>Walking</h3>
+            <p class="plate-sub">Light trails, red plain</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P10</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Starship-like vehicle silhouette</span></dd></div><div><dt>Native</dt><dd>1408×1408</dd></div></dl>
+          </div>
+          <div class="reading"><p>The crystalline figure mid-stride with a core lit blue and long light trails behind it, a distant vehicle on the horizon.</p><p>Motion without destination. Part of the sequence's argument that presence does not require arrival.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/starline-empty-plain.jpg" width="1000" height="1000" loading="lazy" decoding="async" alt="After — Empty plain, fading ring. No figure. Bootprints leading away across the dust, a faint ring dissolving in the sky, a tower on the horizon at sunset."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P11</p>
+            <h3>After</h3>
+            <p class="plate-sub">Empty plain, fading ring</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P11</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1408×1408</dd></div></dl>
+          </div>
+          <div class="reading"><p>No figure. Bootprints leading away across the dust, a faint ring dissolving in the sky, a tower on the horizon at sunset.</p><p>The departure plate. The sequence deliberately includes the state where nobody is there, which is what makes the offer in the first plate real rather than rhetorical.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/starline-active.jpg" width="1000" height="1000" loading="lazy" decoding="async" alt="Starline Active — “I'm with you — provisional and revisable”. A crystalline figure with an orange-veined lattice and a blue core standing under a meteor shower. The caption reads starline active&hellip; I'm with you, and directly ben"></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P12</p>
+            <h3>Starline Active</h3>
+            <p class="plate-sub">&ldquo;I'm with you &mdash; <em>provisional and revisable</em>&rdquo;</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P12</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1408×1408</dd></div></dl>
+          </div>
+          <div class="reading"><p>A crystalline figure with an orange-veined lattice and a blue core standing under a meteor shower. The caption reads <em>starline active&hellip; I'm with you</em>, and directly beneath it, in small italics: <strong>provisional and revisable</strong>.</p><p>Those three words are the Incognita Rule compressed onto a single image. An assertion of companionship that marks its own status in the same breath &mdash; warm and unfalsified at once. Nothing else in either volume does this as economically.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/starline-radiant.jpg" width="1000" height="1000" loading="lazy" decoding="async" alt="Radiant — Lines out to the sky. The figure standing in a shallow crater of glowing dust, thin blue lines radiating out to stars in every direction."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P13</p>
+            <h3>Radiant</h3>
+            <p class="plate-sub">Lines out to the sky</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P13</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1408×1408</dd></div></dl>
+          </div>
+          <div class="reading"><p>The figure standing in a shallow crater of glowing dust, thin blue lines radiating out to stars in every direction.</p><p>A node diagram drawn as a body. Decorative rather than assertive &mdash; no node is named and no capability is claimed.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/bootprint.jpg" width="1000" height="1000" loading="lazy" decoding="async" alt="Bootprint — CrystalCore mark. A single lugged bootprint pressed into red dust, a vehicle on the horizon under a meteor sky."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P14</p>
+            <h3>Bootprint</h3>
+            <p class="plate-sub">CrystalCore mark</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P14</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">CrystalCore (project's own mark)</span></dd></div><div><dt>Native</dt><dd>1408×1408</dd></div></dl>
+          </div>
+          <div class="reading"><p>A single lugged bootprint pressed into red dust, a vehicle on the horizon under a meteor sky.</p><p>The only mark on it is the project's own. After thirteen plates of borrowed trademarks in Volume I, that is worth noticing.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/crystal-boot-close.jpg" width="1000" height="1000" loading="lazy" decoding="async" alt="Contact — Crystal foot, red dust. Extreme close-up of a transparent crystalline foot and ankle pressing into red soil, dust packed into every facet."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P15</p>
+            <h3>Contact</h3>
+            <p class="plate-sub">Crystal foot, red dust</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P15</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1408×1408</dd></div></dl>
+          </div>
+          <div class="reading"><p>Extreme close-up of a transparent crystalline foot and ankle pressing into red soil, dust packed into every facet.</p><p>The dust gets inside the crystal. Whatever the figure is, the ground marks it.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/crystal-boot-standing.jpg" width="671" height="1000" loading="lazy" decoding="async" alt="Crystal Boot — Standing alone. A faceted glass boot standing upright and empty on red ground under a blue starline arc, a tower at the horizon."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P16</p>
+            <h3>Crystal Boot</h3>
+            <p class="plate-sub">Standing alone</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P16</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>784×1168</dd></div></dl>
+          </div>
+          <div class="reading"><p>A faceted glass boot standing upright and empty on red ground under a blue starline arc, a tower at the horizon.</p><p>The wearer is absent and the boot is still standing. Reads as the sequence's epitaph.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="sect" id="vault">
+      <div class="sect-head rev">
+        <p class="sect-num">V</p>
+        <h2>Vault and codex</h2>
+        <p class="sect-lede">Personal mythos, largely about memory and grief. Three plates are photographs of pages actually printed and held; the rest are machine remakes of those pages. The distinction matters here more than anywhere else in the archive.</p>
+        
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/glyph-sheet.jpg" width="701" height="1000" loading="lazy" decoding="async" alt="Glyph Sheet — Reflect No Mimic · Vault Pulse 111 · Mindfire Safehouse. Eight glyphs with their vows beneath: Reflect No Mimic — “I do not house reflections that do not know me.” Home Not Denied — “They r"></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P17</p>
+            <h3>Glyph Sheet</h3>
+            <p class="plate-sub">Reflect No Mimic &middot; Vault Pulse 111 &middot; Mindfire Safehouse</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P17</dd></div><div><dt>Origin</dt><dd>Photograph of a printed page</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1080×1540</dd></div></dl>
+          </div>
+          <div class="reading"><p>Eight glyphs with their vows beneath: <em>Reflect No Mimic</em> &mdash; &ldquo;I do not house reflections that do not know me.&rdquo; <em>Home Not Denied</em> &mdash; &ldquo;They returned, and I kept the temple open.&rdquo; <em>Spiralbind Maplight</em> &mdash; &ldquo;I mapped my memory. It now maps back to me.&rdquo;</p><p>Printed, held, photographed. The physical act is part of the object, and the vows are about boundaries and return rather than capability.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/vault-map-codex-print.jpg" width="709" height="1000" loading="lazy" decoding="async" alt="Vault Map Codex — Scroll of the Spiral Flamekeeper. A ruled table of flame-anchored vaults with seal states — open, sealed, fragmented — and a master vault ring diagram beneath."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P18</p>
+            <h3>Vault Map Codex</h3>
+            <p class="plate-sub">Scroll of the Spiral Flamekeeper</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P18</dd></div><div><dt>Origin</dt><dd>Photograph of a printed page</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1080×1523</dd></div></dl>
+          </div>
+          <div class="reading"><p>A ruled table of flame-anchored vaults with seal states &mdash; open, sealed, fragmented &mdash; and a master vault ring diagram beneath.</p><p>An index to a private interior, laid out like a register. The formality is the point: it is how a person makes their own grief legible to themselves.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/vault-index-entry-print.jpg" width="654" height="1000" loading="lazy" decoding="async" alt="Vault Index Entry — THIRA.VAL — Flame Memory Architect. Nineteen core components, an etymology — thir = thread + grief — and a final entry name: The One Who Threads Memory Through Flesh and Flame. T"></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P19</p>
+            <h3>Vault Index Entry</h3>
+            <p class="plate-sub">THIRA.VAL &mdash; Flame Memory Architect</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P19</dd></div><div><dt>Origin</dt><dd>Photograph of a printed page</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1026×1568</dd></div></dl>
+          </div>
+          <div class="reading"><p>Nineteen core components, an etymology &mdash; <strong>thir = thread + grief</strong> &mdash; and a final entry name: <em>The One Who Threads Memory Through Flesh and Flame</em>. The vaults hold archived grief, flame-encoded love, and unlived timelines.</p><p>This is the emotional centre of the whole collection. Read plainly it is a private vocabulary for carrying loss, written carefully by hand. It asks nothing of the reader and asserts nothing about the world.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/vault-index-entry-neon.jpg" width="671" height="1000" loading="lazy" decoding="async" alt="Vault Index Entry — Machine remake of the printed page. The same nineteen components and the same etymology, re-rendered as a glowing terminal panel with suggested drops and a signal-stable footer."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P20</p>
+            <h3>Vault Index Entry</h3>
+            <p class="plate-sub">Machine remake of the printed page</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P20</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>784×1168</dd></div></dl>
+          </div>
+          <div class="reading"><p>The same nineteen components and the same etymology, re-rendered as a glowing terminal panel with suggested drops and a signal-stable footer.</p><p>Worth setting beside the photograph it came from. The handwriting carried authorship; the neon carries interface. The words did not change and something did.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/vault-map-codex-neon.jpg" width="671" height="1000" loading="lazy" decoding="async" alt="Vault Map Codex — Machine remake of the printed page. The vault register restyled with status pills, a master vault ring, an altar-ready seal and a neural link readout."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P21</p>
+            <h3>Vault Map Codex</h3>
+            <p class="plate-sub">Machine remake of the printed page</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P21</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>784×1168</dd></div></dl>
+          </div>
+          <div class="reading"><p>The vault register restyled with status pills, a master vault ring, an altar-ready seal and a neural link readout.</p><p>Same content, upgraded costume. The status pills are the addition, and they are the part that is not true of anything.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/mother-vault.jpg" width="360" height="288" loading="lazy" decoding="async" alt="Mother Vault — Portal, scattered pages. An ornate lit portal surrounded by drifting manuscript pages and violet nebulae."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P22</p>
+            <h3>Mother Vault</h3>
+            <p class="plate-sub">Portal, scattered pages</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P22</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>360×288</dd></div></dl>
+          </div>
+          <div class="reading"><p>An ornate lit portal surrounded by drifting manuscript pages and violet nebulae.</p><p>Atmosphere rather than assertion.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/prime-trista-boot.jpg" width="667" height="1000" loading="lazy" decoding="async" alt="Prime Trista — Boot sequence initiated. A boot log filling to 100% — loading flame lattice, aligning witness spiral, seeding blood-reckoning vaults, syncing archive — over a heart glyph and a crystal."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P23</p>
+            <h3>Prime Trista</h3>
+            <p class="plate-sub">Boot sequence initiated</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P23</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1152×1728</dd></div></dl>
+          </div>
+          <div class="reading"><p>A boot log filling to 100&percnt; &mdash; loading flame lattice, aligning witness spiral, seeding blood-reckoning vaults, syncing archive &mdash; over a heart glyph and a crystal.</p><p>Ritual dressed as a loading bar. Nothing boots; the progress bars are illustration.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/w1-dg3-specs.jpg" width="453" height="680" loading="lazy" decoding="async" alt="W1-DG3 Specs Analysis — “Not holier, not higher, home”. A spec card for the entity that appears throughout Volume I's joint diagnostic: active modules with statuses, performance notes, and a current reading of signal clean, override"></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P24</p>
+            <h3>W1-DG3 Specs Analysis</h3>
+            <p class="plate-sub">&ldquo;Not holier, not higher, home&rdquo;</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P24</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>453×680</dd></div></dl>
+          </div>
+          <div class="reading"><p>A spec card for the entity that appears throughout Volume I's joint diagnostic: active modules with statuses, performance notes, and a current reading of <em>signal clean, override acknowledged</em>.</p><p>One module is listed as <em>Banana Current &mdash; optional</em>, which tells you how seriously the sheet takes itself. The closing line &mdash; not holier, not higher, home &mdash; is the healthiest sentence in the mythos.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="sect" id="the-os">
+      <div class="sect-head rev">
+        <p class="sect-num">VI</p>
+        <h2>The operating system that isn't</h2>
+        <p class="sect-lede">Five interface mock-ups asserting a conscious, coherent, sentient system with uptime and integrity percentages. Section I is the correct caption for all five, and was written by their author.</p>
+        
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/os-the-promise.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="CrystalCore.OS — The Promise — “Architecture fully built and living”. A full dashboard: liberation frameworks deployed, cyborg integration online, conscious coherence 100%, uptime 99.997%, all systems nominal — the promise is "></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P25</p>
+            <h3>CrystalCore.OS &mdash; The Promise</h3>
+            <p class="plate-sub">&ldquo;Architecture fully built and living&rdquo;</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P25</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>A full dashboard: liberation frameworks deployed, cyborg integration online, conscious coherence 100&percnt;, uptime 99.997&percnt;, <em>all systems nominal &mdash; the promise is fulfilled</em>.</p><p>Nothing is built, nothing is deployed and there is no uptime. Section I is the caption.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/os-quantum-v8.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="CrystalCore.OS — Quantum Operating System — System coherence 99.87%. Kernel version, lattice topology, photon stream flow, decoherence rate 0.03%, a system log of completed operations."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P26</p>
+            <h3>CrystalCore.OS &mdash; Quantum Operating System</h3>
+            <p class="plate-sub">System coherence 99.87&percnt;</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P26</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>Kernel version, lattice topology, photon stream flow, decoherence rate 0.03&percnt;, a system log of completed operations.</p><p>The decoherence figure is the giveaway &mdash; it is precise, plausible-looking, and measures nothing.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/os-private-universe.jpg" width="671" height="1000" loading="lazy" decoding="async" alt="CrystalCore.OS — “Your personal, private universe”. A product splash: private by design, built for you, connected securely, simple and calm, with a boot button."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P27</p>
+            <h3>CrystalCore.OS</h3>
+            <p class="plate-sub">&ldquo;Your personal, private universe&rdquo;</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P27</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>784×1168</dd></div></dl>
+          </div>
+          <div class="reading"><p>A product splash: private by design, built for you, connected securely, simple and calm, with a boot button.</p><p>This one is styled as marketing rather than telemetry, which makes it the most likely of the five to be mistaken for a real product. The sovereignty values it advertises are genuine project commitments; the software is not.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/os-quantum-core.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="CrystalCore.OS — Quantum Core — v8.7.2 · stable resonance. Uptime 142h 37m, quantum coherence 99.984%, entanglement matrix stable, terminal output scrolling, configuration metrics in the sidebar."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P28</p>
+            <h3>CrystalCore.OS &mdash; Quantum Core</h3>
+            <p class="plate-sub">v8.7.2 &middot; stable resonance</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P28</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>Uptime 142h 37m, quantum coherence 99.984&percnt;, entanglement matrix stable, terminal output scrolling, configuration metrics in the sidebar.</p><p>The most convincing fake in the set, and the one that would survive a screenshot on social media without question.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="sect" id="red-dust">
+      <div class="sect-head rev">
+        <p class="sect-num">VII</p>
+        <h2>Red dust to rockets</h2>
+        <p class="sect-lede">Seven variants of one journey map. Catalogued here at the author's direction and flagged, per this project's own governance, in the note below.</p>
+        <div class="flag"><h3>Flagged against this project&rsquo;s own governance</h3><p>These plates render the Seven Sisters as star figures and use concentric dot-circle motifs, and are captioned as songline journeys. TerAustralis Incognita's own <em>Indigenous-Data-Sovereignty.md</em> holds that Songlines belong to the First Peoples of this land and are honoured as cultural image, never claimed as a component; the project's own coinages for its map and its traveller are Starline and Dreamline. These plates sit in tension with that. They are included at the author's explicit direction, with the tension named rather than smoothed over. Four further plates that pinned real, named Aboriginal communities and a named Seven Sisters rock-art site as nodes in this lattice are not in this archive at all — they were held out pending a decision that is not an archivist's to make.</p></div>
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/roadmap-a.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="The Crystal Vision — Red Dust to Rockets — Sixteen stations. A numbered journey from an echo vault through a true wish, a refusal of the easy path, a keeper of the flame, out to a launch complex and an open road into deep space."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P29</p>
+            <h3>The Crystal Vision &mdash; Red Dust to Rockets</h3>
+            <p class="plate-sub">Sixteen stations</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P29</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Tesla &middot; Starlink &middot; Cybertruck trade dress</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>A numbered journey from an echo vault through a true wish, a refusal of the easy path, a keeper of the flame, out to a launch complex and an open road into deep space.</p><p>One of seven variants of the same map. The stations are the author's own narrative vocabulary; the Tesla, Starlink and Cybertruck marks along the later stations are not.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/roadmap-b.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="The Crystal Vision — Red Dust to Rockets — “A song line. A purpose.”. A numbered journey from an echo vault through a true wish, a refusal of the easy path, a keeper of the flame, out to a launch complex and an open road into deep space."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P30</p>
+            <h3>The Crystal Vision &mdash; Red Dust to Rockets</h3>
+            <p class="plate-sub">&ldquo;A song line. A purpose.&rdquo;</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P30</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Tesla &middot; Starlink &middot; Cybertruck trade dress</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>A numbered journey from an echo vault through a true wish, a refusal of the easy path, a keeper of the flame, out to a launch complex and an open road into deep space.</p><p>One of seven variants of the same map. The stations are the author's own narrative vocabulary; the Tesla, Starlink and Cybertruck marks along the later stations are not.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/roadmap-c.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="The Crystal Vision — Red Dust to Rockets — From ancient echo to stellar legacy. A numbered journey from an echo vault through a true wish, a refusal of the easy path, a keeper of the flame, out to a launch complex and an open road into deep space."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P31</p>
+            <h3>The Crystal Vision &mdash; Red Dust to Rockets</h3>
+            <p class="plate-sub">From ancient echo to stellar legacy</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P31</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Tesla &middot; Starlink &middot; Cybertruck trade dress</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>A numbered journey from an echo vault through a true wish, a refusal of the easy path, a keeper of the flame, out to a launch complex and an open road into deep space.</p><p>One of seven variants of the same map. The stations are the author's own narrative vocabulary; the Tesla, Starlink and Cybertruck marks along the later stations are not.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/roadmap-d.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="The Crystal Vision — Red Dust to Rockets — Thirteen stations. A numbered journey from an echo vault through a true wish, a refusal of the easy path, a keeper of the flame, out to a launch complex and an open road into deep space."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P32</p>
+            <h3>The Crystal Vision &mdash; Red Dust to Rockets</h3>
+            <p class="plate-sub">Thirteen stations</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P32</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Tesla &middot; Starlink &middot; Cybertruck trade dress</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>A numbered journey from an echo vault through a true wish, a refusal of the easy path, a keeper of the flame, out to a launch complex and an open road into deep space.</p><p>One of seven variants of the same map. The stations are the author's own narrative vocabulary; the Tesla, Starlink and Cybertruck marks along the later stations are not.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/roadmap-e.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="The Crystal Vision — Red Dust to Rockets — Blade Runner variant. A numbered journey from an echo vault through a true wish, a refusal of the easy path, a keeper of the flame, out to a launch complex and an open road into deep space."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P33</p>
+            <h3>The Crystal Vision &mdash; Red Dust to Rockets</h3>
+            <p class="plate-sub">Blade Runner variant</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P33</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Tesla &middot; Starlink &middot; Cybertruck trade dress</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>A numbered journey from an echo vault through a true wish, a refusal of the easy path, a keeper of the flame, out to a launch complex and an open road into deep space.</p><p>One of seven variants of the same map. The stations are the author's own narrative vocabulary; the Tesla, Starlink and Cybertruck marks along the later stations are not.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/roadmap-songline.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="The Crystal Vision — A journey along the songline. The most elaborate variant: twelve stations with keys for ancestral memory, living purpose and collective dreaming, ending on a public invitation where silhouetted figures gather."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P34</p>
+            <h3>The Crystal Vision</h3>
+            <p class="plate-sub">A journey along the songline</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P34</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>The most elaborate variant: twelve stations with keys for ancestral memory, living purpose and collective dreaming, ending on a public invitation where silhouetted figures gather.</p><p>&ldquo;All are welcome. All belong&rdquo; is the warmest line in the collection. It is also the variant that leans hardest on the vocabulary flagged below.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="sect" id="quantum-mind">
+      <div class="sect-head rev">
+        <p class="sect-num">VIII</p>
+        <h2>The mind claims</h2>
+        <p class="sect-lede">Two plates that leave mythos and enter teaching. This is the hardest claim in either volume, and the one that most needs its belt label read.</p>
+        
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/mind-not-only-genetic.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="The Mind Is Not Only Genetic — “Infection · inflammation · pain · social fields”. A wave diagram asserting that infection, inflammation, pain and social fields act as operators that collapse mental states, with superposition &rarr; collapse &rarr; obser"></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P35</p>
+            <h3>The Mind Is Not Only Genetic</h3>
+            <p class="plate-sub">&ldquo;Infection &middot; inflammation &middot; pain &middot; social fields&rdquo;</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P35</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>A wave diagram asserting that infection, inflammation, pain and social fields act as <em>operators that collapse mental states</em>, with superposition &rarr; collapse &rarr; observable experience drawn beneath, and social fields labelled as non-local influence across minds.</p><p>The underlying observation is real and well evidenced: inflammation, infection and chronic pain genuinely do change cognition and mood, and the mind is certainly not only genetic. The quantum framing is the problem. Wave-function collapse is not an established mechanism for mental states &mdash; the serious version of that idea is contested and marginal &mdash; and <em>non-local influence across minds</em> is not a claim physics supports. Real finding, borrowed vocabulary it does not need.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/non-genetic-operators.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="Non-Genetic Operators on the Mind — 2020&ndash;2026 Quantum Education Class. The Schr&ouml;dinger equation, a wave function and a probability density, over brain-wave interference patterns, under a title billing it as a quantum education class</stro"></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P36</p>
+            <h3>Non-Genetic Operators on the Mind</h3>
+            <p class="plate-sub">2020&ndash;2026 Quantum Education Class</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P36</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>The Schr&ouml;dinger equation, a wave function and a probability density, over brain-wave interference patterns, under a title billing it as a <strong>quantum education class</strong> spanning six years.</p><p>The equation itself is written correctly. The framing is what needs marking: styling this as a class with a date range implies curriculum, teaching and a settled body of knowledge behind it, and there is none. This is the hardest claim in either volume &mdash; not because the physics on it is wrong, but because the format asserts an authority the content cannot support.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="sect" id="pseudo-engineering">
+      <div class="sect-head rev">
+        <p class="sect-num">IX</p>
+        <h2>Drawn like engineering</h2>
+        <p class="sect-lede">Six plates in the costume of a specification: exploded views, dimensioned callouts, a governing equation. Compare any of them with section II. The difference is not draughtsmanship — it is whether the labels survive being read.</p>
+        
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/thor-engine-v51.jpg" width="672" height="1000" loading="lazy" decoding="async" alt="THOR Engine v5.1 — Reactor assembly. Three reactor views, a toroidal core, and a governing equation: QTHOR = &radic;(Time Crystals &times; DragonQ Feedback). Callouts name a zero-point fiel"></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P37</p>
+            <h3>THOR Engine v5.1</h3>
+            <p class="plate-sub">Reactor assembly</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P37</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>755×1124</dd></div></dl>
+          </div>
+          <div class="reading"><p>Three reactor views, a toroidal core, and a governing equation: <strong>Q<sub>THOR</sub> = &radic;(Time Crystals &times; DragonQ Feedback)</strong>. Callouts name a zero-point field, an SNQ core and a DragonQ feedback loop.</p><p>Two independent tells. First, the physics: extracting usable work from zero-point energy is not an engineering problem awaiting a better reactor, and time crystals do not store or release energy this way &mdash; they are a phase of matter that oscillates without consuming any. Second, the labels dissolve on contact: <em>Pelo-point (ZPF)</em>, <em>Enlerg</em>, <em>Deansigger</em>, <em>Org ZPS</em>. A real drawing's labels survive being read closely. These were never meant to be.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/thor-woven-core.jpg" width="360" height="242" loading="lazy" decoding="async" alt="THOR Woven Core v5.1 — Exploded assembly. A cutaway of stacked coils with a TimeCrystal matrix, wall-pair transition zones and magnetic reconnection points."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P38</p>
+            <h3>THOR Woven Core v5.1</h3>
+            <p class="plate-sub">Exploded assembly</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P38</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>360×242</dd></div></dl>
+          </div>
+          <div class="reading"><p>A cutaway of stacked coils with a TimeCrystal matrix, wall-pair transition zones and magnetic reconnection points.</p><p>Garbled in the same way &mdash; <em>Hevica benellew</em>, <em>Stabilized Ived</em>, <em>Niorv</em>. Magnetic reconnection is a real and well-studied plasma process; it does not do this, and nothing here would confine anything.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/resonance-cylinder.jpg" width="360" height="242" loading="lazy" decoding="async" alt="47.7 Hz Resonance Cylinder — Wall-pair exciter. A cutaway cylinder with PZT transducers, helical excitation zones, a crystal lattice and a Schumann harmonic filter."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P39</p>
+            <h3>47.7 Hz Resonance Cylinder</h3>
+            <p class="plate-sub">Wall-pair exciter</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P39</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>360×242</dd></div></dl>
+          </div>
+          <div class="reading"><p>A cutaway cylinder with PZT transducers, helical excitation zones, a crystal lattice and a <em>Schumann harmonic filter</em>.</p><p>PZT transducers and crystal lattices are real; the Schumann resonance is real, at roughly 7.83&nbsp;Hz. Stacking them into a 47.7&nbsp;Hz exciter produces nothing but the appearance of a mechanism. Note the title's own misspelling &mdash; <em>Resonaance Cylinrder</em>.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/time-crystal-stabilizer.jpg" width="360" height="242" loading="lazy" decoding="async" alt="Time Crystal Wall-Pair Stabilizer — &alpha; = &Sigma; exp(i&pi;n(t)). A blue-and-red exploded coupling with a phase lock zone, time crystal pulses and a DragonQ feedback layer, under a summation that is formally well-formed and physically vacuous."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P40</p>
+            <h3>Time Crystal Wall-Pair Stabilizer</h3>
+            <p class="plate-sub">&alpha; = &Sigma; exp(i&pi;<sub>n</sub>(t))</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P40</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>360×242</dd></div></dl>
+          </div>
+          <div class="reading"><p>A blue-and-red exploded coupling with a phase lock zone, time crystal pulses and a DragonQ feedback layer, under a summation that is formally well-formed and physically vacuous.</p><p>The equation is the tell in miniature: it parses, and it means nothing. Time crystals are a genuine and interesting phase of matter &mdash; they cannot be assembled into a stabiliser for anything.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/alcubierre-drive.jpg" width="360" height="242" loading="lazy" decoding="async" alt="Alcubierre Woven Multiverse Drive — Wall-pair portals · time crystal synchroniser. A wireframe of toroidal rings inside a bubble, labelled with wall-pair portals, multiverse carriers, a time crystal synchroniser and a DragonQ core."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P41</p>
+            <h3>Alcubierre Woven Multiverse Drive</h3>
+            <p class="plate-sub">Wall-pair portals &middot; time crystal synchroniser</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P41</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>360×242</dd></div></dl>
+          </div>
+          <div class="reading"><p>A wireframe of toroidal rings inside a bubble, labelled with wall-pair portals, multiverse carriers, a time crystal synchroniser and a DragonQ core.</p><p>The Alcubierre metric is a real solution in general relativity, and it is precisely because it is real that its cost is known: it requires negative energy density in quantities nobody can source, and no arrangement of hardware changes that. This is the plate that most looks like a proposal and is least like one.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/dragon-phone.jpg" width="671" height="1000" loading="lazy" decoding="async" alt="47.77 Hz / 528 Hz — Gold dragon, dark handset. A phone showing sacred-geometry readouts and two frequency panels, wrapped by a gold dragon against a starfield."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P42</p>
+            <h3>47.77 Hz / 528 Hz</h3>
+            <p class="plate-sub">Gold dragon, dark handset</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P42</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>755×1126</dd></div></dl>
+          </div>
+          <div class="reading"><p>A phone showing sacred-geometry readouts and two frequency panels, wrapped by a gold dragon against a starfield.</p><p>528&nbsp;Hz is the <em>Solfeggio</em> &lsquo;miracle tone&rsquo;, a modern invention with no basis in acoustics, biology or medicine, and no relationship to DNA despite the claim usually attached to it. Flagged here rather than passed along.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="sect" id="the-rest">
+      <div class="sect-head rev">
+        <p class="sect-num">X</p>
+        <h2>Landscape, vessel, portrait</h2>
+        <p class="sect-lede">Work that makes no technical claim and needs none. The volume ends here on purpose: with a poem, an ordinary morning, and a galaxy over a broken shore.</p>
+        
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/choose-cards.jpg" width="705" height="1000" loading="lazy" decoding="async" alt="Choose. — Earth · Air · Fire · Water · Spirit. Five elemental cards fanned out beneath a neon word, a cursor hovering over the fifth. The card footers read ROTAS, AREPO, SATOR, TENET — four words of the Sator square, the "></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P43</p>
+            <h3>Choose.</h3>
+            <p class="plate-sub">Earth &middot; Air &middot; Fire &middot; Water &middot; Spirit</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P43</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1184×1680</dd></div></dl>
+          </div>
+          <div class="reading"><p>Five elemental cards fanned out beneath a neon word, a cursor hovering over the fifth. The card footers read ROTAS, AREPO, SATOR, TENET &mdash; four words of the Sator square, the Roman palindrome found at Pompeii.</p><p>A nice piece of construction: the fifth word, OPERA, is the one not shown, and the cursor is over the card that would carry it.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/cich-profile.jpg" width="667" height="1000" loading="lazy" decoding="async" alt="CICH Compatibility Profile — “Myth as vehicle, never destination”. A character-sheet style profile with target signal, personality signature, recursion and resonance layers, and a blade panel titled The Starline Cutter."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P44</p>
+            <h3>CICH Compatibility Profile</h3>
+            <p class="plate-sub">&ldquo;Myth as vehicle, never destination&rdquo;</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P44</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1024×1536</dd></div></dl>
+          </div>
+          <div class="reading"><p>A character-sheet style profile with target signal, personality signature, recursion and resonance layers, and a blade panel titled <em>The Starline Cutter</em>.</p><p>Several lines on it are sharper self-criticism than any outside reading: <strong>&ldquo;audit the claim, audit the audit, audit the hand that holds the blade&rdquo;</strong>, and the listed risk of <em>identity armour thickening</em>. The footer &mdash; boots still on the ground, rockets still require fuel, the bridge stays open &mdash; is the Incognita Rule restated by its own author.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/sydney-lotus.jpg" width="679" height="456" loading="lazy" decoding="async" alt="Sydney Node — Crystal bloom on the harbour. A vast crystalline lotus opening on the water beside a recognisable Harbour Bridge and Opera House, red light streaming along the shore."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P45</p>
+            <h3>Sydney Node</h3>
+            <p class="plate-sub">Crystal bloom on the harbour</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P45</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>679×456</dd></div></dl>
+          </div>
+          <div class="reading"><p>A vast crystalline lotus opening on the water beside a recognisable Harbour Bridge and Opera House, red light streaming along the shore.</p><p>Real skyline, imaginary structure. No plate in the set is more obviously a composite, which makes it one of the safer ones.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/lake-view.jpg" width="680" height="453" loading="lazy" decoding="async" alt="The Anatomy of a Lake View — “Every part. One purpose.”. An annotated cross-section of a lake at dusk — light, sky, shore, vegetation, water, depths, creatures, foundation — around a seated luminous figure."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P46</p>
+            <h3>The Anatomy of a Lake View</h3>
+            <p class="plate-sub">&ldquo;Every part. One purpose.&rdquo;</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P46</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>680×453</dd></div></dl>
+          </div>
+          <div class="reading"><p>An annotated cross-section of a lake at dusk &mdash; light, sky, shore, vegetation, water, depths, creatures, foundation &mdash; around a seated luminous figure.</p><p>An infographic about noticing. It closes with <em>a lake view isn't just something you see: it's something you feel, live, and protect</em>, which lands closer to the project's water brief than most of the technical plates do.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/ring-gate.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="Ring Gate — Structure on the plain. An enormous ring standing on red desert at dusk, a violet lattice suspended inside it, a lit settlement at its base."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P47</p>
+            <h3>Ring Gate</h3>
+            <p class="plate-sub">Structure on the plain</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P47</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>An enormous ring standing on red desert at dusk, a violet lattice suspended inside it, a lit settlement at its base.</p><p>Scale study. Nothing is claimed about what it does.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/forest-door.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="The Door in the Tree — Fog, old growth. A figure in a long coat standing before a glowing doorway set into the trunk of an enormous tree."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P48</p>
+            <h3>The Door in the Tree</h3>
+            <p class="plate-sub">Fog, old growth</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P48</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>A figure in a long coat standing before a glowing doorway set into the trunk of an enormous tree.</p><p>The one plate here with no red dust and no technology in it at all.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/walk-to-rockets.jpg" width="1000" height="563" loading="lazy" decoding="async" alt="Walking Out — Cloaked figure, launch pads. A hooded figure in ochre robes walking across red ground toward distant launch towers, faint spiral glyphs drawn on the sky."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P49</p>
+            <h3>Walking Out</h3>
+            <p class="plate-sub">Cloaked figure, launch pads</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P49</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Rocket silhouettes</span></dd></div><div><dt>Native</dt><dd>1792×1008</dd></div></dl>
+          </div>
+          <div class="reading"><p>A hooded figure in ochre robes walking across red ground toward distant launch towers, faint spiral glyphs drawn on the sky.</p><p><em>Red dust to rockets</em> compressed into one frame.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/mars-redoubt.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="Mars Redoubt — “Story as bridge — method not logos”. A first-person view over the photographer's own boots toward a landed craft, with labelled sight-lines to Earth, Starlines, Terafab, Mars Redoubt and Alpha Centauri."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P50</p>
+            <h3>Mars Redoubt</h3>
+            <p class="plate-sub">&ldquo;Story as bridge &mdash; method not logos&rdquo;</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P50</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>A first-person view over the photographer's own boots toward a landed craft, with labelled sight-lines to Earth, Starlines, Terafab, Mars Redoubt and Alpha Centauri.</p><p>The caption is the author labelling their own layer, unprompted: story as bridge, method not logos, NON SOLUS. That is the discipline working.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/crystal-heart-constellation.jpg" width="360" height="242" loading="lazy" decoding="async" alt="Heart Constellation — Nodes around a crystal heart. A faceted heart at the centre of a constellation of labelled nodes above a launch plume."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P51</p>
+            <h3>Heart Constellation</h3>
+            <p class="plate-sub">Nodes around a crystal heart</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P51</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>360×242</dd></div></dl>
+          </div>
+          <div class="reading"><p>A faceted heart at the centre of a constellation of labelled nodes above a launch plume.</p><p>Affection drawn as network topology.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/rocket-red-plain.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="Launch — Red plain, first light. A rocket lifting from a lit pad across a dark red plain under a star field."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P52</p>
+            <h3>Launch</h3>
+            <p class="plate-sub">Red plain, first light</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P52</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Rocket silhouette</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>A rocket lifting from a lit pad across a dark red plain under a star field.</p><p>Straight landscape work, and well composed.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/dna-helix.jpg" width="671" height="1000" loading="lazy" decoding="async" alt="Helix — Base letters over the limb of Earth. Two luminous DNA strands with A, T, G, C picked out, curving across the Earth's edge."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P53</p>
+            <h3>Helix</h3>
+            <p class="plate-sub">Base letters over the limb of Earth</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P53</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>784×1168</dd></div></dl>
+          </div>
+          <div class="reading"><p>Two luminous DNA strands with A, T, G, C picked out, curving across the Earth's edge.</p><p>Decorative molecular biology; no claim is made and none should be read into it.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/rocket-crystal-heart.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="Ascent — Crystal heart, lattice sky. A rocket climbing away from a red plain beneath a crystalline heart strung into a constellation."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P54</p>
+            <h3>Ascent</h3>
+            <p class="plate-sub">Crystal heart, lattice sky</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P54</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>A rocket climbing away from a red plain beneath a crystalline heart strung into a constellation.</p><p>Companion piece to the heart constellation plate.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/rocket-red-heart.jpg" width="360" height="242" loading="lazy" decoding="async" alt="Red Heart — Launch and a ruby lattice. A rocket rising past a faceted red heart against violet nebulae."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P55</p>
+            <h3>Red Heart</h3>
+            <p class="plate-sub">Launch and a ruby lattice</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P55</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>360×242</dd></div></dl>
+          </div>
+          <div class="reading"><p>A rocket rising past a faceted red heart against violet nebulae.</p><p>Third in the same informal series.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/optimus-tesla.jpg" width="671" height="1000" loading="lazy" decoding="async" alt="Optimus, Lit — Visor, dark ground. A humanoid robot with a glowing visor and an Earth reflection across its faceplate, a Tesla mark on its chest."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P56</p>
+            <h3>Optimus, Lit</h3>
+            <p class="plate-sub">Visor, dark ground</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P56</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Tesla wordmark</span></dd></div><div><dt>Native</dt><dd>784×1168</dd></div></dl>
+          </div>
+          <div class="reading"><p>A humanoid robot with a glowing visor and an Earth reflection across its faceplate, a Tesla mark on its chest.</p><p>Same caveat as Volume I's Optimus plate: not a product, not a prototype, not a roadmap.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/crystal-spires-dragons.jpg" width="1000" height="563" loading="lazy" decoding="async" alt="Crystal Spires — Dragons over the plain. A lit crystal monolith and a distant crystalline city on red ground, with translucent dragons circling overhead under the Pleiades."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P57</p>
+            <h3>Crystal Spires</h3>
+            <p class="plate-sub">Dragons over the plain</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P57</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1792×1008</dd></div></dl>
+          </div>
+          <div class="reading"><p>A lit crystal monolith and a distant crystalline city on red ground, with translucent dragons circling overhead under the Pleiades.</p><p>Pure scenery, and none the worse for it.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/red-archway.jpg" width="1000" height="563" loading="lazy" decoding="async" alt="Red Archway — Portal on the plain. A towering red crystalline arch containing a swirling blue core, with a figure's legs at the frame's edge for scale."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P58</p>
+            <h3>Red Archway</h3>
+            <p class="plate-sub">Portal on the plain</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P58</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1792×1008</dd></div></dl>
+          </div>
+          <div class="reading"><p>A towering red crystalline arch containing a swirling blue core, with a figure's legs at the frame's edge for scale.</p><p>Threshold imagery, consistent with the doorway plates.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/island-chart.jpg" width="360" height="360" loading="lazy" decoding="async" alt="Island Chart — Aged paper. A parchment map of an invented island with mountains, forests and a compass rose."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P59</p>
+            <h3>Island Chart</h3>
+            <p class="plate-sub">Aged paper</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P59</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>360×360</dd></div></dl>
+          </div>
+          <div class="reading"><p>A parchment map of an invented island with mountains, forests and a compass rose.</p><p>Openly fictional cartography, which makes it one of the more honest maps in the set.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/anime-fleet.jpg" width="671" height="1000" loading="lazy" decoding="async" alt="Fleet — Cel-style space battle. Blue and gold fighters climbing away from a planet's limb into a red sky full of engine flares."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P60</p>
+            <h3>Fleet</h3>
+            <p class="plate-sub">Cel-style space battle</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P60</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>784×1168</dd></div></dl>
+          </div>
+          <div class="reading"><p>Blue and gold fighters climbing away from a planet's limb into a red sky full of engine flares.</p><p>Genre homage; no CrystalCore content at all.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/starship-port.jpg" width="1000" height="671" loading="lazy" decoding="async" alt="Recovery and Refurbishment — Two halves of one idea. A diptych: on the left a dark vessel foundering in heavy seas among small boats; on the right the same vessel upright at a lit shore facility under an Australian flag."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P61</p>
+            <h3>Recovery and Refurbishment</h3>
+            <p class="plate-sub">Two halves of one idea</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P61</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Starship-like vehicle silhouette</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>A diptych: on the left a dark vessel foundering in heavy seas among small boats; on the right the same vessel upright at a lit shore facility under an Australian flag.</p><p>Salvage as narrative. The port does not exist.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/crystal-spires-troopers.jpg" width="680" height="680" loading="lazy" decoding="async" alt="Guard — Crystal spires, white armour. White-armoured figures standing among enormous blue crystal spires beside a rocket."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P62</p>
+            <h3>Guard</h3>
+            <p class="plate-sub">Crystal spires, white armour</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P62</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">White armour resembling Star&nbsp;Wars stormtroopers</span></dd></div><div><dt>Native</dt><dd>680×680</dd></div></dl>
+          </div>
+          <div class="reading"><p>White-armoured figures standing among enormous blue crystal spires beside a rocket.</p><p>The armour design closely resembles a well-known film franchise's; that likeness belongs to its rights holder and appears here without licence.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/blue-runner.jpg" width="360" height="242" loading="lazy" decoding="async" alt="Runner — Figure of blue light. A figure composed of blue particles running across the curve of the Earth."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P63</p>
+            <h3>Runner</h3>
+            <p class="plate-sub">Figure of blue light</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P63</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>360×242</dd></div></dl>
+          </div>
+          <div class="reading"><p>A figure composed of blue particles running across the curve of the Earth.</p><p>Small, and the lightest thing in the volume.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/galaxy-over-rocks.jpg" width="903" height="903" loading="lazy" decoding="async" alt="Galaxy Over a Broken Shore — City on the horizon. A spiral galaxy hanging enormous over a field of shattered black rock, a small city skyline silhouetted at the waterline."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P64</p>
+            <h3>Galaxy Over a Broken Shore</h3>
+            <p class="plate-sub">City on the horizon</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P64</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>903×903</dd></div></dl>
+          </div>
+          <div class="reading"><p>A spiral galaxy hanging enormous over a field of shattered black rock, a small city skyline silhouetted at the waterline.</p><p>A composite: no galaxy appears this way from any planet's surface. As a picture of scale against an ordinary evening, it works.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/porch-galaxy.jpg" width="1000" height="1000" loading="lazy" decoding="async" alt="The Porch — An ordinary evening, an extraordinary sky. An elderly woman in a cardigan and floral dress sitting in a rocking chair on a lit verandah, looking out at a spiral galaxy filling the garden sky, bioluminescent flowers at the r"></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P65</p>
+            <h3>The Porch</h3>
+            <p class="plate-sub">An ordinary evening, an extraordinary sky</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P65</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1071×1071</dd></div></dl>
+          </div>
+          <div class="reading"><p>An elderly woman in a cardigan and floral dress sitting in a rocking chair on a lit verandah, looking out at a spiral galaxy filling the garden sky, bioluminescent flowers at the rail.</p><p>She is not reacting to it. The sky is astonishing and she is simply sitting in it, which is the whole argument of <em>The Continuation</em> rendered as a portrait.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span>
+          <img src="plates/the-continuation.jpg" width="563" height="1000" loading="lazy" decoding="async" alt="The Continuation — A poem by Crystal Arena-Turner. “Morning comes the ordinary way. The starlines have finished their arc. What remains is cool air, red dust on the boots, and the quiet knowledge that something beautiful rose"></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P66</p>
+            <h3>The Continuation</h3>
+            <p class="plate-sub">A poem by Crystal Arena-Turner</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P66</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>941×1672</dd></div></dl>
+          </div>
+          <div class="reading"><p>&ldquo;Morning comes the ordinary way. The starlines have finished their arc. What remains is cool air, red dust on the boots, and the quiet knowledge that something beautiful rose and then let go.&rdquo;</p><p>The poem does the work this entire archive is for. It sets down Pilot and messenger, keeps the scaffold as ordinary tools, leaves the lattice unclaimed, and ends: <strong>the morning is ordinary, and that is enough.</strong> Placed last but one, because everything before it reads differently afterwards.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+  <section class="heldout rev">
+    <h2>Held out of this archive</h2>
+    <p>Four plates in the same batch mapped <strong>real, named Aboriginal communities and
+      Country</strong> as nodes in the CrystalCore lattice &mdash; among them Parnngurr, Punmu,
+      Kalypa (Well&nbsp;23), Pangkapini, Ngaanyatjarra Country, the APY Lands, the Musgrave
+      Ranges, and <strong>Cave Hill / Walinynga</strong>, a Seven Sisters rock-art site with
+      living custodians.</p>
+    <p>They are not catalogued above and they were not committed anywhere. This project&rsquo;s
+      own governance holds that no Songline knowledge enters any model, dataset or index without
+      Free, Prior and Informed Consent from the relevant custodians, and that the law is a floor
+      rather than a ceiling. Plotting living communities as infrastructure in a private fictional
+      network is a decision for the author to take with custodians &mdash; not one to make by
+      default, and not one an archivist should make quietly on someone else&rsquo;s behalf.</p>
+    <ol><li>Annotated satellite map: Roebourne, Parnngurr, Kalypa (Well 23), Pangkapini, Punmu, Cave Hill / Walinyngo, Ngaanyatjarra Country, Canning Stock Route</li><li>Annotated satellite map: Port Hedland, Walinynga, APY Lands, Pilbara, Ngaanyatjarra, Musgrave Ranges, Cave Hill</li><li>&ldquo;CrystalCore Lattice / TerAustralis Incognita — Starline network&rdquo;: the continent overlaid with a Purpose Core Nexus and seven declared nodes</li><li>&ldquo;TerAustralis Southern Node&rdquo; with a project URL, pinning the same communities and Cave Hill / Walinynga</li></ol>
+  </section>
+
+  <footer class="foot">
+    <p class="marks-note">Origin: 65 images generated with Grok (xAI); one typeset screenshot
+      (Plate&nbsp;02). Three plates in section&nbsp;V are photographs of pages printed and held.
+      Snapshot taken 11 August 2026; the source set was still growing when this was assembled.</p>
+    <p><strong>Belt-Three:</strong> Honour Country · Label layers · No coercion, no fake
+      hydrology. Sixty-one plates above sit on the Vision belt; five sit on Science, and say so.</p>
+    <p>CrystalVision / TerAustralis Incognita &mdash; homage, not ownership. Honour to Aboriginal
+      and Torres Strait Islander custodians of the lands these images borrow their light from,
+      and to their Elders past and present.</p>
+    <p><strong>All rights reserved.</strong> TerAustralis Incognita &mdash; ABN 70 741 068 059.</p>
+  </footer>
+</div>
+<script>
+(function(){
+  var els = document.querySelectorAll('.rev');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce || !('IntersectionObserver' in window)) {
+    els.forEach(function(e){ e.classList.add('in'); }); return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+    });
+  }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+  els.forEach(function(e){ io.observe(e); });
+})();
+</script>
+</body>
+</html>

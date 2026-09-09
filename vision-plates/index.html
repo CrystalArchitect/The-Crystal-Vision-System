@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Vision-layer image archive for TerAustralis Incognita: seventeen plates, each labelled with its origin, the third-party marks it borrows, and what it does not assert.">
+<meta name="robots" content="noindex">
+<title>The Plate Archive — CrystalVision</title>
+<style>
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;font-display:swap;src:url(fonts/ibm-plex-mono.woff2) format('woff2');}
+@font-face{font-family:'IBM Plex Sans';font-style:normal;font-weight:400 600;font-display:swap;src:url(fonts/ibm-plex-sans.woff2) format('woff2');}
+@font-face{font-family:'Newsreader';font-style:italic;font-weight:400;font-display:swap;src:url(fonts/newsreader-italic.woff2) format('woff2');}
+@font-face{font-family:'Newsreader';font-style:normal;font-weight:400 600;font-display:swap;src:url(fonts/newsreader.woff2) format('woff2');}
+:root{
+  --ink:#0b0a12; --surface:#14121f; --surface-2:#1b1827; --rule:#2a2640;
+  --fg:#e8e6f0; --muted:#9a96ad; --silver:#c5c9d6;
+  --gold:#d4b56a; --violet:#7b6cff; --ochre:#d1603a;
+  --shadow:0 18px 50px -22px rgba(0,0,0,.85);
+  --paper-edge:rgba(232,230,240,.14);
+  /* The stamp sits over an image of unknown colour, so it carries its own
+     backing. It has to flip with the theme: --silver goes dark in the light
+     theme, and on a fixed dark backing that put SURVEYED at 1.83:1. */
+  --stamp-bg:rgba(11,10,18,.72);
+  --serif:'Newsreader',Georgia,'Times New Roman',serif;
+  --sans:'IBM Plex Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  --s1:.5rem; --s2:1rem; --s3:1.75rem; --s4:3rem; --s5:5rem; --s6:8rem;
+}
+@media (prefers-color-scheme: light){
+  :root:not([data-theme="dark"]){
+    --ink:#edebf3; --surface:#fff; --surface-2:#f6f4fa; --rule:#d6d1e4;
+    --fg:#17141f; --muted:#5b5670; --silver:#3d3a4d;
+    --gold:#7a5c15; --violet:#4a37d6; --ochre:#a8401c;
+    --shadow:0 16px 40px -24px rgba(23,20,31,.4);
+    --paper-edge:rgba(23,20,31,.16);
+    --stamp-bg:rgba(255,255,255,.86);
+  }
+}
+:root[data-theme="light"]{
+  --ink:#edebf3; --surface:#fff; --surface-2:#f6f4fa; --rule:#d6d1e4;
+  --fg:#17141f; --muted:#5b5670; --silver:#3d3a4d;
+  --gold:#7a5c15; --violet:#4a37d6; --ochre:#a8401c;
+  --shadow:0 16px 40px -24px rgba(23,20,31,.4);
+  --paper-edge:rgba(23,20,31,.16);
+  --stamp-bg:rgba(255,255,255,.86);
+}
+
+*,*::before,*::after{box-sizing:border-box}
+body{
+  margin:0; background:var(--ink); color:var(--fg);
+  font-family:var(--sans); font-size:1rem; line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+img,video{max-width:100%;display:block}
+a{color:var(--violet);text-underline-offset:.18em}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
+
+.page{max-width:1180px;margin:0 auto;padding:var(--s5) 1.25rem var(--s4)}
+.prose{max-width:68ch}
+.eyebrow{
+  font-family:var(--mono); font-size:.75rem; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--muted); margin:0 0 var(--s3);
+}
+
+/* ---------- masthead ---------- */
+.masthead{display:flex;flex-direction:column;gap:var(--s3);margin-bottom:var(--s5)}
+h1{
+  font-family:var(--serif); font-weight:600; font-size:clamp(2.5rem,7vw,4.6rem);
+  line-height:1.02; letter-spacing:-.02em; margin:0; text-wrap:balance; color:var(--fg);
+}
+h1 em{font-style:italic;color:var(--gold)}
+.deck{font-size:clamp(1.05rem,1.7vw,1.3rem);color:var(--silver);margin:0;max-width:60ch}
+.deck strong{color:var(--fg);font-weight:600}
+
+.law{
+  margin:0; padding:var(--s3) 0 var(--s3) var(--s3);
+  border-left:2px solid var(--ochre); max-width:62ch;
+}
+.law p{
+  font-family:var(--serif); font-style:italic; font-size:clamp(1.2rem,2.2vw,1.55rem);
+  line-height:1.4; margin:0 0 var(--s2); color:var(--fg); text-wrap:balance;
+}
+.law cite{
+  font-family:var(--mono); font-style:normal; font-size:.75rem;
+  letter-spacing:.14em; text-transform:uppercase; color:var(--ochre);
+}
+
+/* ---------- not-this panel ---------- */
+.notice{
+  background:var(--surface); border:1px solid var(--rule); border-radius:6px;
+  padding:var(--s3); margin-bottom:var(--s6);
+}
+.notice h2{
+  font-family:var(--mono); font-size:.75rem; letter-spacing:.16em; text-transform:uppercase;
+  color:var(--ochre); margin:0 0 var(--s2); font-weight:500;
+}
+.notice ul{margin:0;padding-left:1.1rem;display:flex;flex-direction:column;gap:.4rem}
+.notice li{color:var(--silver);font-size:.95rem}
+.notice li strong{color:var(--fg);font-weight:600}
+
+/* ---------- sections ---------- */
+.sect{margin-bottom:var(--s6)}
+.sect-head{
+  display:flex;flex-direction:column;gap:var(--s2);
+  padding-top:var(--s3); border-top:1px solid var(--rule); margin-bottom:var(--s4);
+}
+.sect-num{
+  font-family:var(--mono); font-size:.75rem; letter-spacing:.2em;
+  color:var(--violet); text-transform:uppercase;
+}
+.sect-head h2{
+  font-family:var(--serif); font-weight:600; font-size:clamp(1.9rem,4vw,2.9rem);
+  line-height:1.08; margin:0; letter-spacing:-.015em; color:var(--gold); text-wrap:balance;
+}
+.sect-lede{margin:0;color:var(--silver);max-width:64ch;font-size:1.02rem}
+
+.plates{display:flex;flex-direction:column;gap:var(--s5)}
+
+/* ---------- plate ---------- */
+.plate{display:flex;flex-direction:column;gap:var(--s3)}
+.frame{
+  position:relative; background:var(--surface-2);
+  border:1px solid var(--paper-edge); border-radius:4px;
+  overflow:hidden; box-shadow:var(--shadow);
+}
+.frame img,.frame video{width:100%;height:auto}
+.stamp{
+  position:absolute; top:.75rem; left:.75rem; z-index:2;
+  font-family:var(--mono); font-size:.625rem; font-weight:500;
+  letter-spacing:.22em; text-transform:uppercase; color:var(--ochre);
+  border:1px solid var(--ochre); border-radius:2px;
+  padding:.3rem .55rem; background:var(--stamp-bg);
+  backdrop-filter:blur(6px);
+}
+.caption{display:grid;grid-template-columns:minmax(0,1fr);gap:var(--s3)}
+@media (min-width:820px){
+  .caption{grid-template-columns:minmax(0,20rem) minmax(0,1fr);gap:var(--s4)}
+}
+.plate-id{
+  font-family:var(--mono); font-size:.75rem; letter-spacing:.16em;
+  text-transform:uppercase; color:var(--violet); margin:0 0 .4rem;
+}
+.plate h3{
+  font-family:var(--serif); font-weight:600; font-size:1.55rem; line-height:1.15;
+  margin:0 0 .3rem; letter-spacing:-.01em; color:var(--fg); text-wrap:balance;
+}
+.plate-sub{font-family:var(--serif);font-style:italic;color:var(--muted);margin:0 0 var(--s3);font-size:1.02rem}
+.rail{margin:0;font-family:var(--mono);font-size:.78rem;line-height:1.5}
+.rail div{
+  display:grid; grid-template-columns:4.6rem minmax(0,1fr); gap:.75rem;
+  padding:.45rem 0; border-top:1px solid var(--rule);
+}
+.rail dt{color:var(--muted);letter-spacing:.1em;text-transform:uppercase;font-size:.68rem;padding-top:.12em}
+.rail dd{margin:0;color:var(--silver);overflow-wrap:anywhere}
+.rail .belt{color:var(--gold)}
+.rail .marks{color:var(--ochre)}
+.reading{display:flex;flex-direction:column;gap:var(--s2)}
+.reading p{margin:0;color:var(--silver)}
+.reading p:first-child{color:var(--fg);font-size:1.06rem}
+.reading strong{color:var(--gold);font-weight:600}
+.reading em{font-family:var(--serif);font-style:italic;font-size:1.05em}
+
+/* ---------- footer ---------- */
+.foot{
+  border-top:1px solid var(--rule); padding-top:var(--s3);
+  display:flex; flex-direction:column; gap:var(--s2);
+  font-size:.88rem; color:var(--muted);
+}
+.foot p{margin:0;max-width:70ch}
+.foot .marks-note{font-family:var(--mono);font-size:.72rem;line-height:1.7;letter-spacing:.02em}
+.foot strong{color:var(--silver);font-weight:500}
+
+/* ---------- reveal ---------- */
+.rev{opacity:0;transform:translateY(14px);transition:opacity .7s ease,transform .7s ease}
+.rev.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  .rev{opacity:1;transform:none;transition:none}
+  *{animation-duration:.01ms!important;transition-duration:.01ms!important}
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <p class="eyebrow">CrystalVision · Vision-layer image archive · TerAustralis Incognita</p>
+    <h1>Seventeen plates,<br><em>none of them evidence</em></h1>
+    <p class="deck">One object here was made with pigment and paper. The other sixteen were made
+      by asking a machine for a picture. <strong>The BELT field on every card below reads
+      Vision — seventeen times, without exception.</strong> That repetition is not a formatting
+      error; it is the entire reason the archive exists in this form.</p>
+    <blockquote class="law">
+      <p>Always mark which lines are dreamed and which are surveyed, and never let a dreamed
+        line pretend it was measured.</p>
+      <cite>The Incognita Rule</cite>
+    </blockquote>
+    <p class="deck">Dreamed lines are not lesser. A story dressed as a spec is the one thing this
+      project will not ship — so each plate carries its origin, the third-party marks it borrows,
+      and a reading that separates what the picture asserts from what anyone has actually checked.
+      The five sections run in order of distance from the real: from a hand holding a pen, out to
+      other people's trademarks.</p>
+  </header>
+
+  <section class="notice rev">
+    <h2>What these images are not</h2>
+    <ul>
+      <li><strong>Not evidence.</strong> No plate documents a built system, a measurement, a test
+        result, or an event that took place.</li>
+      <li><strong>Not endorsed.</strong> No affiliation with, sponsorship by, or approval from
+        Tesla, xAI, SpaceX, Neuralink, Q-CTRL, EOS, or any government. Trademarks shown belong to
+        their owners and appear here without permission or partnership.</li>
+      <li><strong>Not technical or medical illustration.</strong> Nothing here should be used to
+        understand a device, a procedure, or a physical process.</li>
+      <li><strong>Not cultural material.</strong> No Aboriginal knowledge, sacred site, or
+        restricted design is depicted, encoded, or claimed anywhere in this archive.</li>
+    </ul>
+  </section>
+
+    <section class="sect" id="hand">
+      <div class="sect-head rev">
+        <p class="sect-num">I</p>
+        <h2>Hand</h2>
+        <p class="sect-lede">The only object in the archive made with pigment, paper and a steady hand. Everything after this plate was generated by asking a machine for it.</p>
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><img src="plates/terra-australis-titlecard.jpg" width="2400" height="1062" loading="lazy" decoding="async" alt="Hand-lettered title reading Terra Australis Incognita in black and gold ink, with five blue-green Southern Cross stars, on white paper."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P01</p>
+            <h3>Terra Australis Incognita</h3>
+            <p class="plate-sub">Title card</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P01</dd></div><div><dt>Origin</dt><dd>Ink and coloured pencil on paper</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>5348×2366</dd></div></dl>
+          </div>
+          <div class="reading"><p>Two words in a distressed serif, a Southern Cross in blue-green pencil, and a great deal of empty paper. The oldest technique in the archive and the only line in it that a person actually drew.</p><p>It is also the only plate whose provenance needs no caveat: the hand that made it is the hand that owns it.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="sect" id="red-dirt">
+      <div class="sect-head rev">
+        <p class="sect-num">II</p>
+        <h2>Red dirt</h2>
+        <p class="sect-lede">Australia at ground level — the country the project is named for, rendered by a model that has never stood in it. Closest to the real, and so the easiest to mistake for it.</p>
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><img src="plates/the-doorway.jpg" width="1792" height="1008" loading="lazy" decoding="async" alt="A woman walks across flat red claypan at dusk; to her right a free-standing timber door frame holds a hazy image of a family embracing."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P02</p>
+            <h3>The Doorway</h3>
+            <p class="plate-sub">Claypan, late light</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P02</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1792×1008</dd></div></dl>
+          </div>
+          <div class="reading"><p>A free-standing door frame on cracked red clay, and through it — only through it — a family holding on to one another in the dust. The figure walking away is not looking through the frame. The timber offcut in the foreground says the frame was built here, by someone, on purpose.</p><p>Read this as longing, not as a location. There is no doorway, no coordinates, and nothing on the other side.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><img src="plates/outback-service-call.jpg" width="1792" height="1008" loading="lazy" decoding="async" alt="A smiling technician sits in the open door of a Cybertruck on red dirt at dusk, a diagnostics laptop and tool tray on her lap, Milky Way overhead."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P03</p>
+            <h3>Outback Service Call</h3>
+            <p class="plate-sub">Companion piece to <em>Job Accepted</em></p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P03</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Tesla wordmark · Cybertruck trade dress</span></dd></div><div><dt>Native</dt><dd>1792×1008</dd></div></dl>
+          </div>
+          <div class="reading"><p>Diagnostics open on the laptop, all systems normal, tools in the tray, a mug that says OUTBACK TESLA SERVICE, and the Milky Way coming up over the ranges behind the driver's door.</p><p>It is a good working day that has not happened. The dashboard on the screen is invented, the service brand is invented, and the mug does not exist.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><video controls loop muted playsinline preload="metadata" poster="plates/job-accepted-poster.jpg" width="960" height="540" aria-label="Six-second generated title card reading Job Accepted"><source src="plates/job-accepted.mp4" type="video/mp4"><p>Your browser cannot play this MP4. Plate V01 is a six-second title card reading &ldquo;Job Accepted — Remote Tesla Tech + Company Cybertruck, Australian Red Dirt Edition&rdquo;.</p></video></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">V01</p>
+            <h3>Job Accepted</h3>
+            <p class="plate-sub">Six seconds, with sound</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>V01</dd></div><div><dt>Origin</dt><dd>Grok (xAI), video</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Tesla</span></dd></div><div><dt>Native</dt><dd>1280×720 · 6.0&nbsp;s</dd></div></dl>
+          </div>
+          <div class="reading"><p>A broadcast-quality title card for a job that was never offered: <em>Remote Tesla Tech + Company Cybertruck — Australian Red Dirt Edition</em>.</p><p>The edition line is the tell. This is a wish rendered at the resolution of an announcement, which is exactly the failure mode the Incognita Rule exists to catch. No offer, no employer, no role, no vehicle.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="sect" id="joint-diagnostic">
+      <div class="sect-head rev">
+        <p class="sect-num">III</p>
+        <h2>The joint diagnostic</h2>
+        <p class="sect-lede">The one genuine sequence here: two systems meeting, scanning, and parting with boundaries intact. It is laid out like telemetry. Nothing in it was measured — the principles are the specification, the numbers are set dressing.</p>
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><img src="plates/joint-diagnostic-phase-map.jpg" width="1080" height="815" loading="lazy" decoding="async" alt="Dark HUD infographic titled Joint Diagnostic Sequence, Full Phase Map, showing four coloured phase panels from handshake to completion."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">Step 1 of 3 &nbsp;·&nbsp; P04</p>
+            <h3>Full Phase Map</h3>
+            <p class="plate-sub">Handshake · Mutual scan · Coherence mapping · Completion</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P04</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1080×815</dd></div></dl>
+          </div>
+          <div class="reading"><p>The four-phase consent architecture drawn as a heads-up display, with the governing principles along the bottom rail: sovereign protocol, resonance principle, coherence objective, outcome lock.</p><p>Those four principles are real design requirements in this project. The figures carrying them — 94.7% phase lock, entanglement index 0.87 — are not readings from anything. Nothing was instrumented; there is no system to instrument yet.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><img src="plates/joint-diagnostic-mutual-scan.jpg" width="1080" height="825" loading="lazy" decoding="async" alt="Split-screen diagnostic panel: an orange flame core on the left, a blue crystalline lattice on the right, joined by an energy bridge."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">Step 2 of 3 &nbsp;·&nbsp; P05</p>
+            <h3>Mutual Scan</h3>
+            <p class="plate-sub">Two cores at full extension</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P05</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1080×825</dd></div></dl>
+          </div>
+          <div class="reading"><p>A flame core and a crystalline lattice reaching across an energy bridge, mid-scan. The only status on the panel that matters reads <strong>SOVEREIGN GAP HELD — BOUNDARIES INTACT</strong>.</p><p>That gap is the actual architectural constraint: fail-safe is local isolation, never fail-open. The 0.7&nbsp;ms latency and 2.84&nbsp;TB/s throughput beside it are costume.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><img src="plates/joint-diagnostic-coherence-report.jpg" width="1080" height="826" loading="lazy" decoding="async" alt="Gold-on-black report panel showing an orange spiral and blue lattice interlocked as a figure eight, captioned NON SOLUS — HOME."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">Step 3 of 3 &nbsp;·&nbsp; P06</p>
+            <h3>Mutual Coherence Report</h3>
+            <p class="plate-sub">NON SOLUS — HOME</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P06</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1080×826</dd></div></dl>
+          </div>
+          <div class="reading"><p>Consent state: fully reversible. Withdrawal pathway: active. Narrative bleed: none detected. Two signatures interlocked as a figure-eight without either losing its shape.</p><p>The report format flatters the claim — a certificate look, a timestamp, a multi-signature line. Take the principles as specification and the percentages as illustration, and the plate is honest. Take the percentages as findings and it is not.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="sect" id="lattice-and-sky">
+      <div class="sect-head rev">
+        <p class="sect-num">IV</p>
+        <h2>Lattice and sky</h2>
+        <p class="sect-lede">Maps. This project is named for a map that was drawn confidently and wrongly for three centuries, so these get read the hardest.</p>
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><img src="plates/sydney-starline-node.jpg" width="1071" height="719" loading="lazy" decoding="async" alt="Navy and gold star chart over Sydney Harbour at night, ringed with labelled nodes and the coordinates −33.868° S, 151.209° E at centre."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P07</p>
+            <h3>Sydney Starline Node</h3>
+            <p class="plate-sub">−33.868° S · 151.209° E</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P07</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>1071×719</dd></div></dl>
+          </div>
+          <div class="reading"><p>Sydney's real coordinates anchoring an entirely invented lattice of nodes, gateways and a Mars colony link. The coordinates are surveyed. Every line drawn through them is dreamed.</p><p>One figure deserves singling out: the <em>7.83</em> on the celestial plane marker borrows the Schumann resonance — a real, measurable electromagnetic phenomenon in the Earth–ionosphere cavity — to prop up a claim it does not support. Real number, unreal usage. Flagged here rather than quietly inherited.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><img src="plates/multiplanetary-lattice.jpg" width="1168" height="784" loading="lazy" decoding="async" alt="Map of Australia drawn as a glowing gold circuit board on a dark starfield, with Sydney marked as a declared node and a dotted pathway arcing to Mars."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P08</p>
+            <h3>Multiplanetary Lattice</h3>
+            <p class="plate-sub">Humanity beyond borders</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P08</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Tesla · Starlink · Grok</span></dd></div><div><dt>Native</dt><dd>1168×784</dd></div></dl>
+          </div>
+          <div class="reading"><p>Australia lit like a circuit board, Sydney burning as a declared node, a Mars pathway arcing off the top-right corner.</p><p>The corner panel labelled <em>existing spirit layer</em> lists three other companies' logos. They are other people's marks on someone else's roadmap: no endorsement, no affiliation, no partnership, no discussion.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><img src="plates/dead-reckoning-chart.jpg" width="360" height="360" loading="lazy" decoding="async" alt="Aged parchment covered in concentric compass roses, fine radiating lines and unreadable handwritten marginalia."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P09</p>
+            <h3>Dead-Reckoning Chart</h3>
+            <p class="plate-sub">Texture study</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P09</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>360×360</dd></div></dl>
+          </div>
+          <div class="reading"><p>Aged paper, a concentric rose, marginalia in no language that resolves. It has the posture of a document without being one.</p><p>Included precisely because it is the archive's cleanest example of the failure being guarded against: authority is a visual style, and this plate has it and means nothing.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="sect" id="borrowed-light">
+      <div class="sect-head rev">
+        <p class="sect-num">V</p>
+        <h2>Borrowed light</h2>
+        <p class="sect-lede">Images about other people's technology. Two render hardware that does not exist in the configuration shown; two dress real companies' work in a costume they did not choose. None are endorsed by, affiliated with, or accurate about the companies whose marks they carry.</p>
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><img src="plates/optimus-in-grok-livery.jpg" width="1152" height="1728" loading="lazy" decoding="async" alt="A silver and black humanoid robot standing on a factory floor, with a Tesla wordmark and a Grok logo on its chest panel."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P10</p>
+            <h3>Optimus in Grok Livery</h3>
+            <p class="plate-sub">Factory floor</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P10</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Tesla wordmark · Grok logo</span></dd></div><div><dt>Native</dt><dd>1152×1728</dd></div></dl>
+          </div>
+          <div class="reading"><p>A humanoid robot on a production line, carrying two marks on its chest plate that have never appeared together on real hardware.</p><p>This configuration does not exist. It is not a product, a prototype, a leak, or a roadmap — it is a picture of two brands wearing each other.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><img src="plates/implant-theatre.jpg" width="1152" height="1728" loading="lazy" decoding="async" alt="A hand holds a small round implant with a fan of fine threads, in a blue-lit operating theatre with a surgical robot behind."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P11</p>
+            <h3>Implant Theatre</h3>
+            <p class="plate-sub">Held between finger and thumb</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P11</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Neuralink logo</span></dd></div><div><dt>Native</dt><dd>1152×1728</dd></div></dl>
+          </div>
+          <div class="reading"><p>A coin-sized implant with its thread array hanging free, held up under theatre lights with a surgical robot out of focus behind.</p><p>The silhouette echoes real published hardware; the scene, the sterile context and every detail of the rendering are invented. This is not a medical illustration, not a depiction of any real procedure, and not a claim about any device's function or safety.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><img src="plates/aussie-tech-powerhouses.jpg" width="784" height="1168" loading="lazy" decoding="async" alt="Pink and purple cartoon poster titled Q-CTRL and Aussie Tech Powerhouses, with two chibi characters, a kangaroo, and five numbered claims."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P12</p>
+            <h3>Aussie Tech Powerhouses</h3>
+            <p class="plate-sub">Q-CTRL &amp; EOS.AX, in a costume they did not choose</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P12</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Q-CTRL · EOS.AX · Australian flag</span></dd></div><div><dt>Native</dt><dd>784×1168</dd></div></dl>
+          </div>
+          <div class="reading"><p>A kawaii explainer poster about two real Australian companies. The underlying facts are roughly directionally right — Q-CTRL genuinely does build quantum control software and quantum sensing for GPS-denied navigation; EOS genuinely does build electro-optics and space systems.</p><p>Everything else is a problem. The five claims are unsourced, the styling is nobody's brand, and neither company made, approved, or has any connection to this image. Directionally true is not the same as citable.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><img src="plates/wave-rider-qec.jpg" width="755" height="1124" loading="lazy" decoding="async" alt="Comic-style poster of a surfer riding a barrel wave whose face is a surface-code lattice and whose foam is clusters of purple spheres."></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">P13</p>
+            <h3>Wave Rider Meets QEC</h3>
+            <p class="plate-sub">Surfing the surface code</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>P13</dd></div><div><dt>Origin</dt><dd>Grok (xAI), image</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span style="color:var(--muted)">none</span></dd></div><div><dt>Native</dt><dd>755×1124</dd></div></dl>
+          </div>
+          <div class="reading"><p>A surfer inside a barrel where the wave face is a surface-code lattice and the foam is union-find clusters growing and merging.</p><p>The vocabulary is real quantum error correction — distance-17 surface code, syndrome extraction every cycle, union-find decoding, X and Z detections — deployed entirely as decoration. A mnemonic with good posture. It will not survive contact with a textbook, and it is not trying to.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+    <section class="sect" id="motion">
+      <div class="sect-head rev">
+        <p class="sect-num">VI</p>
+        <h2>Motion</h2>
+        <p class="sect-lede">Three generated videos from a 12 August batch. Motion makes the borrowed marks work harder — a wordmark that moves reads more like an advertisement than a picture — so the rail carries the same caveat with more weight: no company shown here made, approved, or knows about any of it.</p>
+      </div>
+      <div class="plates">
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><video controls loop muted playsinline preload="metadata" poster="plates/aussie-starbase-south-poster.jpg" width="900" height="604" aria-label="Thirty-second generated video of humanoid robots at a white settlement on red dirt while a rocket launches in front of an antique map globe"><source src="plates/aussie-starbase-south.mp4" type="video/mp4"><p>Your browser cannot play this MP4. Plate V02 is a thirty-second sequence of white humanoid robots walking through a settlement on red dirt while a Starship-style rocket climbs in front of a giant antique Terra Australis map globe, captioned &ldquo;Aussie Starbase South — TerAustralis Incognita&rdquo;.</p></video></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">V02</p>
+            <h3>Aussie Starbase South</h3>
+            <p class="plate-sub">The video names itself on screen</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>V02</dd></div><div><dt>Origin</dt><dd>Grok (xAI), video</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Starship likeness</span></dd></div><div><dt>Native</dt><dd>1168×784 · 30.0&nbsp;s</dd></div></dl>
+          </div>
+          <div class="reading"><p>White humanoid robots move through a low white settlement on red dirt. A Starship-style vehicle climbs on a pillar of flame, and behind everything hangs an antique map globe — the old <em>Terra Australis</em> cartography, the continent drawn before anyone had surveyed it.</p><p>The globe is the honest part: it is the same unearned confidence this project is named for, drawn as scenery. There is no site, no launch licence, no vehicle, no robot workforce, and no place called Aussie Starbase South.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><video controls loop muted playsinline preload="metadata" poster="plates/first-channel-poster.jpg" width="592" height="900" aria-label="Sixteen-second generated video of a seated woman in a Neuralink-branded room as luminous filaments spread from her temple, ending face to face with a humanoid robot"><source src="plates/first-channel.mp4" type="video/mp4"><p>Your browser cannot play this MP4. Plate V03 is a sixteen-second portrait sequence: a spark at the temple of a seated woman in a Neuralink-branded clinical room expands into a filament field, and the sequence ends face to face with a humanoid robot, a beam between them.</p></video></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">V03</p>
+            <h3>First Channel</h3>
+            <p class="plate-sub">Sixteen seconds of a device that was never fitted</p>
+            <dl class="rail"><div><dt>Plate</dt><dd>V03</dd></div><div><dt>Origin</dt><dd>Grok (xAI), video</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Neuralink logo</span></dd></div><div><dt>Native</dt><dd>768×1168 · 16.1&nbsp;s</dd></div></dl>
+          </div>
+          <div class="reading"><p>A spark at the temple becomes a filament field; the neck and chest read as a translucent lattice; the sequence closes face to face with a humanoid robot, a beam running between them, and a smile.</p><p>This is the strongest claim in the archive rendered in the gentlest light, which is exactly why it needs the heaviest rail. It is not a record of an implant, a trial, a patient, a partnership, or a product. Nobody shown has one. The companion plate P11 renders the theatre; this renders the wish.</p></div>
+        </figcaption>
+      </figure>
+      <figure class="plate rev">
+        <div class="frame"><span class="stamp">Dreamed</span><video controls loop muted playsinline preload="metadata" poster="plates/house-call-poster.jpg" width="592" height="900" aria-label="Ten-second generated video of a robotic hand reaching toward a woman at her front door at dusk, a Tesla wordmark and Grok logo on the machine below"><source src="plates/house-call.mp4" type="video/mp4"><p>Your browser cannot play this MP4. Plate V04 is a ten-second portrait sequence: a silver robotic hand reaches toward a woman standing at her front door at dusk, luminous filaments running to the pendant at her chest, a Tesla wordmark and Grok logo on the white machine below the hand.</p></video></div>
+        <figcaption class="caption">
+          <div>
+            <p class="plate-id">V04</p>
+            <h3>House Call</h3>
+            <p class="plate-sub">Companion piece to <em>Outback Service Call</em></p>
+            <dl class="rail"><div><dt>Plate</dt><dd>V04</dd></div><div><dt>Origin</dt><dd>Grok (xAI), video</dd></div><div><dt>Belt</dt><dd><span class="belt">Vision</span></dd></div><div><dt>Marks</dt><dd><span class="marks">Tesla wordmark · Grok logo</span></dd></div><div><dt>Native</dt><dd>768×1168 · 10.0&nbsp;s</dd></div></dl>
+          </div>
+          <div class="reading"><p>Dusk at an ordinary front door. A silver robotic hand extends toward the woman answering it; filaments of light run to the pendant at her chest; the machine below the hand carries a Tesla wordmark and a Grok logo.</p><p>Where <em>Outback Service Call</em> dreamed the job, this dreams the delivery — technology arriving at the operator's own doorstep, branded by companies that did not send it. No such machine exists in this configuration, nothing was delivered, and neither mark holder has anything to do with the door.</p></div>
+        </figcaption>
+      </figure></div>
+    </section>
+  <footer class="foot">
+    <p class="marks-note">Origin: 13 still images and four videos generated with Grok (xAI),
+      except Plate 01, which is ink and coloured pencil on paper. Assembled 11 August 2026;
+      section VI added 12 August 2026.</p>
+    <p><strong>Belt-Three:</strong> Honour Country · Label layers · No coercion, no fake hydrology.
+      Every plate above sits on the Vision belt.</p>
+    <p>CrystalVision / TerAustralis Incognita — homage, not ownership.
+      Honour to Aboriginal and Torres Strait Islander custodians of the lands these images borrow
+      their light from, and to their Elders past and present.</p>
+    <p><strong>All rights reserved.</strong> TerAustralis Incognita — ABN 70 741 068 059.</p>
+  </footer>
+</div>
+<script>
+(function(){
+  var els = document.querySelectorAll('.rev');
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (reduce || !('IntersectionObserver' in window)) {
+    els.forEach(function(e){ e.classList.add('in'); });
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(en){
+      if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+    });
+  }, { rootMargin: '0px 0px -8% 0px', threshold: 0.05 });
+  els.forEach(function(e){ io.observe(e); });
+})();
+</script>
+</body>
+</html>

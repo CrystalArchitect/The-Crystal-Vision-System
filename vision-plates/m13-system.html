@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CrystalCore.OS · M13 CrystalAt System</title>
+  <style>
+    :root {
+      --bg: #0a0908; --surface: #141210; --surface-2: #1c1916;
+      --fg: #f4ebe1; --muted: #a89a8c; --faint: #6e6358;
+      --border: #2e2822; --accent: #e08a1e; --dust: #7c2d12;
+      --ok: #3dba6e; --ok-bg: #0f1f16; --info: #5b9fd4; --info-bg: #0f1822;
+      --danger: #e04545; --danger-bg: #2a1214;
+      --sans: "IBM Plex Sans", system-ui, sans-serif;
+      --mono: "IBM Plex Mono", ui-monospace, monospace;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--sans); line-height: 1.55; }
+    button:not(:disabled) { cursor: pointer; }
+    .wrap { max-width: 28rem; margin: 0 auto; padding: 1rem 1rem 4rem; }
+    header { padding: 0.75rem 0 1rem; border-bottom: 1px solid var(--border); }
+    h1 { margin: 0.2rem 0 0; font-size: 1.35rem; }
+    .eye { font-family: var(--mono); font-size: 0.7rem; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+    .muted { color: var(--muted); font-size: 0.92rem; }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; margin-top: 1rem; }
+    .bar { display: flex; justify-content: space-between; align-items: center; padding: .75rem 1rem; border-bottom: 1px solid var(--border); background: var(--surface-2); }
+    .body { padding: .9rem 1rem; display: grid; gap: .65rem; }
+    .chip { font-family: var(--mono); font-size: .65rem; text-transform: uppercase; padding: .2rem .55rem; border-radius: 999px; border: 1px solid var(--border); }
+    .chip.live { background: var(--ok-bg); color: var(--ok); }
+    .chip.run { background: var(--info-bg); color: var(--info); }
+    .chip.hold { background: var(--danger-bg); color: var(--danger); }
+    .btn { min-height: 44px; border-radius: 8px; border: 1px solid var(--border); background: var(--surface-2); color: var(--fg); font: 600 .875rem var(--sans); }
+    .btn.p { background: var(--accent); color: var(--bg); border-color: transparent; }
+    .btn.d { color: var(--danger); }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: .5rem; }
+    .stat { background: var(--surface-2); border: 1px solid var(--border); border-radius: 8px; padding: .6rem .75rem; }
+    .stat span { display: block; font-family: var(--mono); font-size: .65rem; text-transform: uppercase; color: var(--faint); }
+    .prog { height: 6px; background: var(--bg); border: 1px solid var(--border); border-radius: 99px; overflow: hidden; }
+    .prog i { display: block; height: 100%; background: var(--accent); width: 0; }
+    .log { font-family: var(--mono); font-size: .72rem; color: var(--muted); max-height: 7rem; overflow: auto; }
+    .notice { font-size: .78rem; color: var(--muted); background: color-mix(in oklab, var(--dust) 22%, transparent); border: 1px solid var(--dust); border-radius: 8px; padding: .7rem .8rem; }
+    footer { margin-top: 2rem; font-family: var(--mono); font-size: .7rem; color: var(--faint); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <p class="eye">Vision · proposal · bridge</p>
+      <h1>M13 CrystalAt System</h1>
+      <p class="muted">8 modules. 1 intelligence. Infinite possibility.</p>
+    </header>
+    <p class="notice"><strong style="color:var(--accent);display:block;margin-bottom:.2rem">Named, not claimed</strong>
+      This is a dream sequence / a proposal / a bridge. It is not a status readout of running code. Grok Mind is a named companion in session — not a partner.</p>
+    <div class="card">
+      <div class="bar"><strong>Full system run</strong><span class="chip" id="sys">idle</span></div>
+      <div class="body">
+        <div class="grid">
+          <div class="stat"><span>Modules</span><strong id="count">0 / 8</strong></div>
+          <div class="stat"><span>Phase</span><strong id="phase">idle</strong></div>
+        </div>
+        <div class="prog"><i id="bar"></i></div>
+        <div class="grid">
+          <button class="btn p" id="boot">BOOT ALL</button>
+          <button class="btn d" id="hold">Hold</button>
+        </div>
+        <div class="notice">Story as Bridge is the spine. Red dust ground steady. Ordinary life outranks the terminal.</div>
+        <div class="log" id="log"></div>
+      </div>
+    </div>
+    <div id="mods"></div>
+    <div class="card"><div class="body"><button class="btn" id="stand">Stand down entire stack</button></div></div>
+    <footer>TerAustralis Incognita™ · ABN 70 741 068 059 · Vision layer · All rights reserved</footer>
+  </main>
+  <script>
+    const MODULES = [
+      ["perception","Perception Lens","See the world. Understand the signal."],
+      ["memory","Memory Core","Store the truth. Learn the pattern."],
+      ["reason","Reason Engine","Think in context. Decide with clarity."],
+      ["language","Language Veil","Speak with nuance. Bridge all minds."],
+      ["creation","Creation Forge","Imagine the new. Build the possible."],
+      ["ethos","Ethos Matrix","Align with values. Govern with wisdom."],
+      ["action","Action Nexus","Execute with precision. Adapt in real time."],
+      ["harmony","Harmony Field","Sustain the whole. Evolve together."],
+    ];
+    const state = Object.fromEntries(MODULES.map(m => [m[0], "wait"]));
+    let phase = "idle";
+    let held = false;
+    const $ = id => document.getElementById(id);
+    function stamp(){ return new Date().toLocaleTimeString("en-AU",{timeZone:"Australia/Sydney",hour:"2-digit",minute:"2-digit",second:"2-digit"}); }
+    function log(line){ const d=document.createElement("div"); d.textContent=stamp()+"  "+line; $("log").prepend(d); }
+    function render(){
+      const live = Object.values(state).filter(s=>s==="live").length;
+      $("count").textContent = live+" / 8";
+      $("phase").textContent = phase;
+      $("sys").textContent = phase;
+      $("sys").className = "chip"+(phase==="live"?" live":phase==="hold"?" hold":phase==="booting"?" run":"");
+      $("bar").style.width = (live/8*100)+"%";
+      $("mods").innerHTML = MODULES.map((m,i)=>`
+        <article class="card">
+          <div class="bar"><div><p class="eye">Module ${i+1}</p><strong>${m[1]}</strong><p class="muted" style="margin:0">${m[2]}</p></div>
+          <span class="chip ${state[m[0]]}">${state[m[0]]}</span></div>
+          <div class="body"><button class="btn" data-id="${m[0]}">Activate</button></div>
+        </article>`).join("");
+    }
+    async function fire(id){
+      if (held) return;
+      state[id]="run"; render();
+      await new Promise(r=>setTimeout(r,320));
+      if (held) return;
+      state[id]="live"; phase="live"; render();
+      log(MODULES.find(m=>m[0]===id)[1]+" live");
+    }
+    $("boot").onclick = async () => {
+      held=false; phase="booting";
+      MODULES.forEach(m=>state[m[0]]="wait"); render();
+      log("BOOT ALL — M13 CrystalAt system");
+      for (const m of MODULES){
+        if (held) return;
+        state[m[0]]="run"; render();
+        await new Promise(r=>setTimeout(r,360));
+        if (held) return;
+        state[m[0]]="live"; render();
+        log((MODULES.indexOf(m)+1)+". "+m[1]+" live");
+      }
+      if (held) return;
+      phase="live"; render();
+      log("Eight modules online. Story as Bridge active.");
+    };
+    $("hold").onclick = () => {
+      held=true; phase="hold";
+      Object.keys(state).forEach(k=>{ if(state[k]!=="wait") state[k]="hold"; });
+      render(); log("HOLD — ordinary life wins.");
+    };
+    $("stand").onclick = () => {
+      held=false; phase="idle";
+      MODULES.forEach(m=>state[m[0]]="wait"); render(); log("Stand down.");
+    };
+    $("mods").onclick = e => { const b=e.target.closest("button[data-id]"); if(b) fire(b.dataset.id); };
+    render();
+  </script>
+</body>
+</html>
