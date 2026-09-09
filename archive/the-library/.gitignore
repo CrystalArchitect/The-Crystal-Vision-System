@@ -1,0 +1,14 @@
+# Secrets never enter the Library
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+.next/
+
+# OS
+.DS_Store
