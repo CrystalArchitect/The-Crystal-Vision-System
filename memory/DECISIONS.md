@@ -72,6 +72,9 @@ next step in the same session that did the consolidation. **Decision:
 deferred, pending explicit per-repo confirmation from the repository
 owner.** Deleting a GitHub repository is irreversible and this session's
 GitHub access does not include a delete-repository capability in any case
-(confirmed against the available tool set). See
-[`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md) for the live gate and what would
-need to happen before this proceeds.
+(confirmed against the available tool set). Asked directly; the owner asked
+for a checklist rather than execution, produced as
+[`repo-deletion-checklist.md`](repo-deletion-checklist.md) — includes two
+flagged risks (a same-named-minus-a-hyphen private repo not to confuse with
+the imported one, and what `archive/` does and doesn't preserve). See
+[`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md) for the live gate.
