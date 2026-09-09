@@ -1,0 +1,125 @@
+name: CI
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+permissions:
+  contents: read
+
+jobs:
+  python-syntax:
+    name: Python syntax check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # archive/ is deliberately excluded. Superseded trees should not be able
+      # to fail the build for the tree that ships.
+      - name: Syntax-check Python sources
+        run: python -m compileall -q clementine
+
+  python-tests:
+    name: Consent + audit checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # The checks are offline — they make no network calls — but the package
+      # imports requests at module scope (crystalcore/companion.py), so the
+      # dependencies must be present for the import to succeed at all.
+      - name: Install dependencies
+        working-directory: clementine
+        run: python -m pip install -r requirements.txt
+      # Until 2026-08-10 this job ran `unittest discover` inside
+      # crystalcore-app/ — the pre-consent-gate tree, now under archive/. The
+      # consent gate is the piece the project's honesty claim rests on, and
+      # nothing in CI exercised it. These are the checks for the tree that
+      # actually ships.
+      - name: Consent gate
+        working-directory: clementine
+        run: python verify_consent.py
+      - name: Audit log integrity
+        working-directory: clementine
+        run: python verify_audit.py
+
+  unit-tests:
+    name: Unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        working-directory: clementine
+        run: python -m pip install -r requirements.txt -r requirements-dev.txt
+      # Deliberately its own job rather than a step on the consent job. If the
+      # consent gate breaks, that is a different kind of emergency from a unit
+      # test breaking, and the two should never be reported as one red X.
+      - name: pytest
+        working-directory: clementine
+        run: python -m pytest tests/ -q
+
+  # This one builds the marketing site at the repository root
+  # (package name: the-crystal-vision). It does NOT touch the companion's
+  # own interface — see companion-webapp below.
+  web-checks:
+    name: SvelteKit check + build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Install
+        run: npm ci
+      - name: svelte-check
+        run: npm run check
+      - name: Build
+        run: npm run build
+
+  # The companion's own browser interface: a separate Vite + Svelte 5 app
+  # (package name: clementine-webapp) under clementine/webapp.
+  #
+  # Until now nothing built it. The job above runs at the repository root
+  # against a different package, so the face the human actually talks to had
+  # no automated coverage at all — a broken component, a renamed CSS class, a
+  # bad import would all have merged green. Found while renaming a state value
+  # in Chat.svelte and looking for the job that would have caught a mistake.
+  #
+  # There is no `check` script here (no svelte-check in this app's devDeps),
+  # so the build is the gate: Vite fails on unresolved imports and on Svelte
+  # compile errors, which covers the failure modes that matter.
+  companion-webapp:
+    name: Companion webapp build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: clementine/webapp/package-lock.json
+      - name: Install
+        working-directory: clementine/webapp
+        run: npm ci
+      - name: Build
+        working-directory: clementine/webapp
+        run: npm run build
+      # The server serves webapp/dist and shows a "not built yet" page when it
+      # is missing, so an empty build would look like a working deployment.
+      # Assert the bundle actually exists rather than trusting the exit code.
+      - name: Assert a bundle was produced
+        working-directory: clementine/webapp
+        run: |
+          test -f dist/index.html
+          ls dist/assets/*.js >/dev/null
+          ls dist/assets/*.css >/dev/null

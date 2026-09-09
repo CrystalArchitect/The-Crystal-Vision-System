@@ -1,0 +1,8 @@
+# Only needed to run the test suite. Nothing here is imported by the
+# companion at runtime — someone installing Clementine to live alongside
+# should not also have to install a test framework.
+#
+#     pip install -r requirements.txt -r requirements-dev.txt
+#     python -m pytest tests/
+
+pytest>=8.0
