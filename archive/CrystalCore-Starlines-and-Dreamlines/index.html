@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Crystal Core · Interactive Interface</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="toast" class="toast"></div>
+
+  <div id="modalWallet" class="modal-backdrop">
+    <div class="modal">
+      <h3>Wallet (demo)</h3>
+      <p>CORE: <b id="modalCore">42.80</b></p>
+      <p>Credits: <b id="modalCredits">1240.50</b></p>
+      <p>Staked: <b id="modalStaked">1000</b></p>
+      <p class="muted">Demo balances only. Mainnet HOLD.</p>
+      <button class="btn primary" id="btnCloseModal">Close</button>
+    </div>
+  </div>
+
+  <header class="top">
+    <div class="brand">
+      <div class="crystal-mark" aria-hidden="true"></div>
+      <div>
+        <h1>Crystal Core</h1>
+        <p class="sub">Vision · Twin · Mesh · Economics</p>
+      </div>
+    </div>
+    <div class="meta">
+      <label class="epoch-label">
+        Epoch
+        <select id="epochSelect">
+          <option value="sister-1">sister-1</option>
+          <option value="sister-2-danube-gate" selected>sister-2-danube-gate</option>
+          <option value="sister-3">sister-3</option>
+        </select>
+      </label>
+      <span class="pill gold" id="pill-region">budapest-starline</span>
+      <span class="pill muted">mainnet: HOLD</span>
+      <button class="btn" id="btnWallet">Wallet</button>
+    </div>
+  </header>
+
+  <nav class="nav">
+    <button class="nav-btn active" data-panel="home">Home</button>
+    <button class="nav-btn" data-panel="twin">Twin</button>
+    <button class="nav-btn" data-panel="mesh">Mesh</button>
+    <button class="nav-btn" data-panel="pipeline">Pipeline</button>
+    <button class="nav-btn" data-panel="receipts">Receipts</button>
+    <button class="nav-btn" data-panel="econ">Economics</button>
+    <button class="nav-btn" data-panel="starline">Starline</button>
+    <button class="nav-btn" data-panel="layers">4 Layers</button>
+    <button class="nav-btn" data-panel="wallet">Journey</button>
+    <button class="nav-btn" data-panel="log">Event log</button>
+  </nav>
+
+  <main>
+    <section id="panel-home" class="panel active">
+      <div class="hero-grid">
+        <div class="card hero">
+          <h2>Sovereign mesh · living twin · hybrid credits</h2>
+          <p>
+            User-facing = <strong>Crystal Vision</strong>.
+            Operator-facing = <strong>Crystal Core</strong>.
+            Investor story = <strong>TerAustralis</strong> + <strong>Starline Budapest</strong> pilot.
+          </p>
+          <div class="stats">
+            <div><span class="n" id="stat-nodes">0</span><span class="l">nodes (demo)</span></div>
+            <div><span class="n" id="stat-credits">1,240</span><span class="l">credits</span></div>
+            <div><span class="n" id="stat-core">42.8</span><span class="l">CORE</span></div>
+            <div><span class="n">HOLD</span><span class="l">authority</span></div>
+          </div>
+          <div class="row">
+            <button class="btn primary" id="btnRunPipeHome">Run pipeline</button>
+            <button class="btn" data-go="twin">Open twin</button>
+            <button class="btn" data-go="econ">Burn simulator</button>
+            <button class="btn" data-go="receipts">Receipts</button>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Decode table</h3>
+          <ul class="decode-list">
+            <li><b>CrystalCore</b> — reactor / protocol</li>
+            <li><b>Crystal Vision</b> — shared sight / UX</li>
+            <li><b>TerAustralis Incognita</b> — frontier brand</li>
+            <li><b>Starline Budapest</b> — pilot hub</li>
+            <li><b>Clementine / Bridge</b> — local mind + consent door</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="panel-twin" class="panel">
+      <div class="panel-head">
+        <h2>Digital twin · layered control</h2>
+        <div class="layer-toggles">
+          <button class="chip on" data-layer="water">Water</button>
+          <button class="chip on" data-layer="energy">Energy</button>
+          <button class="chip" data-layer="data">Data</button>
+          <button class="chip on" data-layer="mobility">Mobility</button>
+        </div>
+      </div>
+      <canvas id="twinCanvas" class="canvas"></canvas>
+      <p class="hint">Not a flat map — flow ribbons, hub glow, control layers. Starline Budapest hub highlighted.</p>
+    </section>
+
+    <section id="panel-mesh" class="panel">
+      <div class="panel-head">
+        <h2>Sovereign mesh</h2>
+        <button class="btn" id="btnMeshRefresh">Refresh</button>
+      </div>
+      <div class="mesh-wrap">
+        <svg id="meshSvg" class="mesh-svg"></svg>
+        <aside class="card side">
+          <h3>Node detail</h3>
+          <pre id="nodeDetail" class="code small">Select a node</pre>
+        </aside>
+      </div>
+    </section>
+
+    <section id="panel-pipeline" class="panel">
+      <div class="panel-head">
+        <h2>DECODE → INGEST → TWIN → RECEIPT → ECON → UPGRADE</h2>
+        <button class="btn primary" id="btnRunPipe">Auto-run</button>
+      </div>
+      <div id="pipelineSteps" class="pipeline"></div>
+      <pre id="pipelineJson" class="code"></pre>
+    </section>
+
+    <section id="panel-receipts" class="panel">
+      <div class="panel-head">
+        <h2>Service receipts (demo)</h2>
+      </div>
+      <div class="card">
+        <div class="row wrap-form">
+          <label>Class
+            <select id="rcptClass">
+              <option value="energy.kwh">energy.kwh</option>
+              <option value="water.kl">water.kl</option>
+              <option value="mobility.checkin">mobility.checkin</option>
+              <option value="data.egress.gb">data.egress.gb</option>
+            </select>
+          </label>
+          <label>Qty
+            <input type="number" id="rcptQty" value="10" min="0.1" step="0.1" />
+          </label>
+          <button class="btn primary" id="btnAddReceipt">Create pending</button>
+        </div>
+        <table class="table" id="receiptTableWrap">
+          <thead>
+            <tr><th>ID</th><th>Class</th><th>Qty</th><th>Status</th><th></th></tr>
+          </thead>
+          <tbody id="receiptTable"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="panel-econ" class="panel">
+      <div class="panel-head">
+        <h2>Burn-and-mint + hybrid credits</h2>
+      </div>
+      <div class="econ-grid">
+        <div class="card">
+          <label>Burn rate R (credits / CORE) <span id="lblBurn">100</span></label>
+          <input type="range" id="sliderBurn" min="50" max="200" value="100" />
+          <label>Mint α <span id="lblAlpha">0.10</span></label>
+          <input type="range" id="sliderAlpha" min="0.05" max="0.3" step="0.01" value="0.1" />
+          <label>Burn amount (CORE)</label>
+          <input type="number" id="inputBurnCore" value="1" min="0.1" step="0.1" />
+          <label>Service value (AUD-C / EUR-C)</label>
+          <input type="number" id="inputService" value="100" min="1" />
+          <div class="row">
+            <button class="btn primary" id="btnBurn">Burn CORE</button>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Sim output</h3>
+          <p>Credits from burn: <b id="simCredits">98.00</b></p>
+          <p>Mint preview (α·service·q): <b id="simMint">11.000</b></p>
+          <p class="muted">Illustrative only — the real burn/mint pipeline and its parameters are not in this repository. Mainnet HOLD.</p>
+          <h3>Wallet</h3>
+          <p>CORE: <b id="walletCore">42.80</b></p>
+          <p>Credits: <b id="walletCredits">1240.50</b></p>
+          <p>Staked: <b id="walletStaked">1000</b></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="panel-starline" class="panel">
+      <div class="panel-head">
+        <h2>Starline Budapest · pilot pack</h2>
+      </div>
+      <ul class="route-list" id="routeList"></ul>
+      <p class="hint">Corridors VIE · BTS · BER · Belgrade. First receipt class: energy.kwh at hub. Council mythic flag: off until approved.</p>
+    </section>
+
+    <section id="panel-layers" class="panel">
+      <div class="panel-head"><h2>Four architecture layers</h2></div>
+      <div class="layer-bar" data-layer-bar="mythic">
+        <h4>1 · Mythic foundation</h4>
+        <div class="layer-body">Seven Sisters spine · epochs · cultural council flag · civic narrative only.</div>
+      </div>
+      <div class="layer-bar" data-layer-bar="physical">
+        <h4>2 · Physical twin</h4>
+        <div class="layer-body">Water · energy · data · mobility flows · Starline hub · H3 / PostGIS (target).</div>
+      </div>
+      <div class="layer-bar" data-layer-bar="economic">
+        <h4>3 · Economic</h4>
+        <div class="layer-body">Burn CORE → credits · stake/slash · external revenue 60/25/15 · sim/</div>
+      </div>
+      <div class="layer-bar" data-layer-bar="gov">
+        <h4>4 · Governance</h4>
+        <div class="layer-body">GitHub RFCs · timelock · upgrade HOLD · auditor guild · cultural veto.</div>
+      </div>
+    </section>
+
+    <section id="panel-wallet" class="panel">
+      <div class="card">
+        <h2>Citizen journey (demo)</h2>
+        <ol class="journey">
+          <li>Install Vision → create/link wallet (optional OIDC)</li>
+          <li>Buy credits (fiat) or burn CORE → credits</li>
+          <li>Grant capability to hub operator (time-boxed)</li>
+          <li>Consume service → auto debit → optional receipt review</li>
+          <li>Export data / revoke / request erasure</li>
+        </ol>
+        <div class="row">
+          <button class="btn primary" id="btnGrantCap">Grant hub capability</button>
+          <button class="btn" id="btnWallet2">Open wallet modal</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="panel-log" class="panel">
+      <div class="panel-head">
+        <h2>Event log</h2>
+        <button class="btn" id="btnClearLog">Clear</button>
+      </div>
+      <div id="eventLog" class="log-box"></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    Crystal Core interactive shell · not production · authority HOLD ·
+    docs are not part of this repository
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

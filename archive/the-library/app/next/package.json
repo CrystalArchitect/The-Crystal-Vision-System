@@ -1,0 +1,24 @@
+{
+  "name": "the-library",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check-key": "node scripts/check-key.js",
+    "dev": "npm run check-key && next dev",
+    "build": "next build",
+    "start": "npm run check-key && next start"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "highlight.js": "^11.9.0",
+    "marked": "^13.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.3"
+  }
+}

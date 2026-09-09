@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; }
+      .slide-container {
+        width: 1280px;
+        min-height: 720px;
+        box-sizing: border-box;
+        background: oklch(0.12 0.01 260);
+        color: oklch(0.95 0.01 260);
+        font-family: "Inter", sans-serif;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+      }
+      .header-section {
+        padding-top: 60px;
+        padding-left: 80px;
+        margin-bottom: 40px;
+      }
+      h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 48px;
+        font-weight: 700;
+        color: oklch(0.8 0.15 85);
+      }
+      .content-grid {
+        display: flex;
+        padding-left: 80px;
+        padding-right: 80px;
+        gap: 60px;
+      }
+      .info-panel {
+        flex: 1;
+      }
+      .code-panel {
+        flex: 1.2;
+        background: oklch(0.15 0.015 260);
+        border: 1px solid oklch(1 0 0 / 10%);
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-family: "Space Grotesk", monospace;
+        font-size: 16px;
+        color: oklch(0.95 0.01 260 / 0.8);
+      }
+      .feature-item {
+        margin-bottom: 35px;
+      }
+      .feature-title {
+        font-family: "Space Grotesk", monospace;
+        font-size: 22px;
+        color: oklch(0.65 0.15 285);
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .feature-desc {
+        font-size: 18px;
+        line-height: 1.6;
+        color: oklch(0.8 0.01 260);
+      }
+      .code-keyword { color: oklch(0.65 0.15 285); }
+      .code-component { color: oklch(0.8 0.15 85); }
+      .code-comment { color: oklch(0.5 0.01 260); }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header-section">
+            <h2>Application Structure: App.tsx & Routing</h2>
+        </div>
+        
+        <div class="content-grid">
+            <div class="info-panel">
+                <div class="feature-item">
+                    <div class="feature-title"><i class="fas fa-network-wired"></i> Central Router</div>
+                    <p class="feature-desc">Utilizes <strong>Wouter</strong> for lightweight, client-side routing, mapping the Incognita Lattice across Home, Codex, and Starline paths.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-title"><i class="fas fa-layer-group"></i> Global Contexts</div>
+                    <p class="feature-desc">Orchestrates the <strong>ThemeProvider</strong> (OKLCH), Tooltip, and Toast notifications to ensure a unified 'Deep-Time' experience.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-title"><i class="fas fa-life-ring"></i> Resilience Layer</div>
+                    <p class="feature-desc">Wraps the entire application in an <strong>ErrorBoundary</strong> to maintain sovereign stability even during transmission failures.</p>
+                </div>
+            </div>
+
+            <div class="code-panel">
+                <div style="margin-bottom: 15px;"><span class="code-keyword">function</span> <span class="code-component">App</span>() {</div>
+                <div style="padding-left: 20px;">
+                    <span class="code-keyword">return</span> (<br>
+                    &nbsp;&nbsp;&lt;<span class="code-component">ErrorBoundary</span>&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="code-component">ThemeProvider</span>&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="code-component">TooltipProvider</span>&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="code-component">Router</span> /&gt; <span class="code-comment">// Wouter Switch</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span class="code-component">TooltipProvider</span>&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/<span class="code-component">ThemeProvider</span>&gt;<br>
+                    &nbsp;&nbsp;&lt;/<span class="code-component">ErrorBoundary</span>&gt;<br>
+                    );
+                </div>
+                <div>}</div>
+                <div style="margin-top: 40px; border-top: 1px solid oklch(1 0 0 / 10%); padding-top: 20px;">
+                    <span class="code-comment">// Routes: /, /codex, /codex/:id</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

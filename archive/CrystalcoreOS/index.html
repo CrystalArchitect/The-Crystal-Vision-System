@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CrystalCore — Sovereign Edge AGI Framework</title>
+<style>
+  /* ---------------------------------------------------------------
+     CrystalCore — design tokens
+     Direction: "field instrument readout", not glossy marketing.
+     The subject is auditability, so the page reads like an honest
+     engineering logbook: monospace structural voice, a signal-amber
+     accent reserved for VERIFIED states, muted teal for navigation.
+     Deliberately avoids cream/terracotta, black/acid-green, broadsheet.
+  --------------------------------------------------------------- */
+  :root{
+    --slate:#10161d;          /* ground */
+    --slate-2:#161f29;        /* raised panel */
+    --slate-3:#1e2a36;        /* hairlines / chips */
+    --ink:#e8e2d4;            /* parchment text */
+    --ink-dim:#9aa6ad;        /* secondary text */
+    --ink-faint:#5d6b74;      /* captions */
+    --amber:#e8a13a;          /* VERIFIED / live signal — used sparingly */
+    --teal:#5fb5a6;           /* structure / links */
+    --rule:#27343f;           /* dividers */
+    --warn:#c97a5a;           /* aspirational / not-yet markers */
+    --mono:"SFMono-Regular",ui-monospace,"JetBrains Mono","Roboto Mono",Menlo,Consolas,monospace;
+    --sans:"Inter","Helvetica Neue",system-ui,-apple-system,sans-serif;
+    --maxw:1080px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  body{
+    background:var(--slate);color:var(--ink);
+    font-family:var(--sans);line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    background-image:
+      linear-gradient(var(--slate-2) 1px,transparent 1px),
+      linear-gradient(90deg,var(--slate-2) 1px,transparent 1px);
+    background-size:64px 64px;
+    background-position:center;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+
+  /* ---- structural voice ---- */
+  .mono{font-family:var(--mono)}
+  .eyebrow{
+    font-family:var(--mono);font-size:.72rem;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--teal);
+  }
+  h1,h2,h3{line-height:1.15;font-weight:650;letter-spacing:-.01em}
+
+  /* ---- top bar ---- */
+  header.bar{
+    position:sticky;top:0;z-index:50;
+    background:rgba(16,22,29,.86);backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--rule);
+  }
+  .bar .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+  .brand{font-family:var(--mono);font-weight:600;letter-spacing:.02em;font-size:1.02rem}
+  .brand .lozenge{color:var(--amber)}
+  nav.links{display:flex;gap:26px}
+  nav.links a{
+    color:var(--ink-dim);text-decoration:none;font-size:.86rem;
+    font-family:var(--mono);transition:color .15s;
+  }
+  nav.links a:hover{color:var(--ink)}
+  @media(max-width:680px){nav.links{display:none}}
+
+  /* ---- hero ---- */
+  .hero{padding:104px 0 72px;border-bottom:1px solid var(--rule)}
+  .hero h1{font-size:clamp(2.3rem,6vw,4rem);max-width:14ch}
+  .hero h1 .em{color:var(--teal)}
+  .hero .lede{
+    margin-top:22px;max-width:54ch;font-size:1.12rem;color:var(--ink-dim);
+  }
+  .hero .lede strong{color:var(--ink);font-weight:600}
+
+  /* ---- the signature: verification ledger ---- */
+  .ledger{
+    margin-top:40px;border:1px solid var(--rule);border-radius:8px;
+    background:var(--slate-2);overflow:hidden;
+  }
+  .ledger .ledger-head{
+    display:flex;align-items:center;gap:10px;
+    padding:12px 18px;border-bottom:1px solid var(--rule);
+    font-family:var(--mono);font-size:.78rem;color:var(--ink-faint);
+    letter-spacing:.04em;
+  }
+  .dot{width:9px;height:9px;border-radius:50%;background:var(--amber);
+    box-shadow:0 0 0 0 rgba(232,161,58,.5);animation:pulse 2.6s infinite}
+  @media(prefers-reduced-motion:reduce){.dot{animation:none}}
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(232,161,58,.45)}
+    70%{box-shadow:0 0 0 7px rgba(232,161,58,0)}
+    100%{box-shadow:0 0 0 0 rgba(232,161,58,0)}
+  }
+  .ledger-rows{font-family:var(--mono);font-size:.86rem}
+  .lrow{
+    display:grid;grid-template-columns:1fr auto;gap:16px;
+    padding:11px 18px;border-bottom:1px solid var(--slate-3);
+  }
+  .lrow:last-child{border-bottom:none}
+  .lrow .k{color:var(--ink-dim)}
+  .lrow .v{color:var(--ink)}
+  .lrow .v.ok{color:var(--amber)}
+  .lrow .v.plan{color:var(--warn)}
+
+  /* ---- generic section ---- */
+  section{padding:72px 0;border-bottom:1px solid var(--rule)}
+  .sec-head{margin-bottom:36px}
+  .sec-head h2{font-size:clamp(1.6rem,3.4vw,2.3rem);margin-top:10px}
+  .sec-head p{color:var(--ink-dim);max-width:60ch;margin-top:12px}
+
+  /* ---- layer stack ---- */
+  .stack{display:flex;flex-direction:column;gap:14px}
+  .layer{
+    border:1px solid var(--rule);border-radius:8px;background:var(--slate-2);
+    padding:22px 24px;position:relative;
+  }
+  .layer .layer-no{
+    position:absolute;top:20px;right:22px;font-family:var(--mono);
+    font-size:.74rem;color:var(--ink-faint);letter-spacing:.1em;
+  }
+  .layer h3{font-size:1.18rem;display:flex;align-items:baseline;gap:12px}
+  .layer h3 .role{font-family:var(--mono);font-size:.72rem;color:var(--teal);
+    letter-spacing:.12em;text-transform:uppercase}
+  .layer ul{margin-top:14px;list-style:none;display:grid;gap:8px}
+  .layer li{padding-left:20px;position:relative;color:var(--ink-dim);font-size:.94rem}
+  .layer li::before{
+    content:"";position:absolute;left:2px;top:.62em;width:7px;height:1px;
+    background:var(--teal);
+  }
+  .flow-arrow{text-align:center;color:var(--ink-faint);font-family:var(--mono);
+    font-size:.8rem;padding:2px 0}
+
+  /* ---- guarantees grid ---- */
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  @media(max-width:760px){.grid3{grid-template-columns:1fr}}
+  .card{
+    border:1px solid var(--rule);border-radius:8px;background:var(--slate-2);
+    padding:20px 22px;
+  }
+  .card .tag{font-family:var(--mono);font-size:.72rem;color:var(--amber);
+    letter-spacing:.1em}
+  .card h3{font-size:1.05rem;margin:10px 0 8px}
+  .card p{color:var(--ink-dim);font-size:.9rem}
+
+  /* ---- agents ---- */
+  .agents{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  @media(max-width:680px){.agents{grid-template-columns:1fr}}
+  .agent{border:1px solid var(--rule);border-radius:8px;background:var(--slate-2);padding:20px 22px}
+  .agent .name{font-family:var(--mono);font-weight:600;font-size:1rem;color:var(--ink)}
+  .agent .stance{font-size:.9rem;color:var(--ink-dim);margin-top:8px}
+  .agent.guardian{border-color:#3a4b3f}
+  .agent.guardian .name::after{
+    content:"VETO";margin-left:10px;font-size:.66rem;color:var(--amber);
+    border:1px solid var(--amber);border-radius:3px;padding:1px 5px;letter-spacing:.08em;
+  }
+
+  /* ---- code block ---- */
+  pre{
+    background:#0c1116;border:1px solid var(--rule);border-radius:8px;
+    padding:20px 22px;overflow-x:auto;font-family:var(--mono);font-size:.82rem;
+    line-height:1.65;color:var(--ink);
+  }
+  pre .c{color:var(--ink-faint)}
+  pre .k{color:var(--teal)}
+  pre .s{color:var(--amber)}
+
+  /* ---- vision panel (clearly partitioned) ---- */
+  .vision{
+    border:1px dashed var(--warn);border-radius:8px;background:rgba(201,122,90,.05);
+    padding:26px 28px;
+  }
+  .vision .badge{
+    display:inline-block;font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;
+    color:var(--warn);border:1px solid var(--warn);border-radius:3px;
+    padding:3px 9px;text-transform:uppercase;margin-bottom:16px;
+  }
+  .vision h2{font-size:1.5rem;margin-bottom:12px}
+  .vision p{color:var(--ink-dim);max-width:64ch;margin-bottom:12px}
+  .vision .demarc{
+    margin-top:18px;padding-top:18px;border-top:1px solid var(--rule);
+    font-family:var(--mono);font-size:.82rem;color:var(--ink-faint);
+  }
+
+  /* ---- footer ---- */
+  footer{padding:48px 0 64px}
+  footer .wrap{display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between;align-items:flex-start}
+  footer .mono{color:var(--ink-faint);font-size:.82rem;line-height:1.9}
+  footer a{color:var(--teal);text-decoration:none}
+  footer a:hover{text-decoration:underline}
+  .status-line{font-family:var(--mono);font-size:.8rem;color:var(--ink-faint);margin-top:8px}
+  .status-line b{color:var(--amber);font-weight:500}
+</style>
+</head>
+<body>
+
+<header class="bar">
+  <div class="wrap">
+    <div class="brand">Crystal<span class="lozenge">◆</span>Core</div>
+    <nav class="links">
+      <a href="#what">What it is</a>
+      <a href="#layers">Layers</a>
+      <a href="#guarantees">Guarantees</a>
+      <a href="#agents">Agents</a>
+      <a href="#verify">Verification</a>
+      <a href="#vision">Vision</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO ----------------------------------------------------------- -->
+<div class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Sovereign edge AGI framework · runs offline on a Raspberry Pi</p>
+    <h1>Local-first intelligence you can <span class="em">audit line by line</span>.</h1>
+    <p class="lede">
+      CrystalCore is a small, inspectable reasoning framework for constrained,
+      offline hardware. Every conclusion it produces carries its
+      <strong>provenance</strong>, its <strong>consent</strong> scope, and a
+      <strong>coherence</strong> score — so you can always see what was decided,
+      from which evidence, under whose permission. No cloud. No black boxes.
+      No required dependencies.
+    </p>
+
+    <!-- SIGNATURE: verification ledger -->
+    <div class="ledger" aria-label="Build status">
+      <div class="ledger-head"><span class="dot" aria-hidden="true"></span>build status — measured, not claimed</div>
+      <div class="ledger-rows">
+        <div class="lrow"><span class="k">test suite (stdlib runner, zero deps)</span><span class="v ok">118 passing</span></div>
+        <div class="lrow"><span class="k">layers complete &amp; integrated</span><span class="v">Memory · Flow · Evolve · Mind</span></div>
+        <div class="lrow"><span class="k">property-based invariant trials</span><span class="v">7 properties · ~1.2k cases</span></div>
+        <div class="lrow"><span class="k">required runtime dependencies</span><span class="v ok">0</span></div>
+        <div class="lrow"><span class="k">self-replicating space probes</span><span class="v plan">vision — not built</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WHAT IT IS ----------------------------------------------------- -->
+<section id="what">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">01 — Premise</p>
+      <h2>Built for truth, consent, and real deployment.</h2>
+      <p>
+        Not a cloud service and not a research toy. CrystalCore is engineered to
+        run reliably on low-power devices — Raspberry Pi 4/5, older laptops,
+        embedded systems — in low-connectivity or sovereign environments, for
+        personal, family, and advocacy use.
+      </p>
+    </div>
+    <div class="grid3">
+      <div class="card">
+        <div class="tag">SOVEREIGNTY</div>
+        <h3>Everything stays local</h3>
+        <p>Full functionality with zero network. You hold the data, the reasoning, and the audit trail.</p>
+      </div>
+      <div class="card">
+        <div class="tag">AUDITABILITY</div>
+        <h3>No black boxes</h3>
+        <p>Plain-JSON storage, inspectable rules, and a provenance link on every derived conclusion.</p>
+      </div>
+      <div class="card">
+        <div class="tag">EDGE REALISM</div>
+        <h3>&lt;300&nbsp;MB, ARM, microSD</h3>
+        <p>A hard RAM budget with priority-weighted pruning, and atomic, checksummed persistence for flaky storage.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LAYERS --------------------------------------------------------- -->
+<section id="layers">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">02 — Architecture</p>
+      <h2>Four composable layers.</h2>
+      <p>
+        Each layer is independently useful. Together they form an auditable
+        reason → remember → improve loop. Data and trust flow downward to the
+        substrate; conclusions flow back up with provenance.
+      </p>
+    </div>
+    <div class="stack">
+      <div class="layer">
+        <span class="layer-no">LAYER 04</span>
+        <h3>CrystalMind <span class="role">agents</span></h3>
+        <ul>
+          <li>Four named reasoning policies: TruthSeeker, Guardian, Visionary, Creator.</li>
+          <li>Guardian holds a veto over conclusions built on weak ground.</li>
+          <li>Non-autonomous by design — agents act only when you invoke them.</li>
+        </ul>
+      </div>
+      <div class="flow-arrow">▲ conclusions (with provenance)&nbsp;&nbsp;│&nbsp;&nbsp;invocations ▼</div>
+      <div class="layer">
+        <span class="layer-no">LAYER 03</span>
+        <h3>CrystalEvolve <span class="role">learning</span></h3>
+        <ul>
+          <li>Population-based training of hybrid genomes (numeric params + symbolic rule chains).</li>
+          <li>Closed rule registry — mutation recombines vetted rules, never invents logic.</li>
+          <li>Gated fitness; deterministic, seeded runs; survivors protected from pruning.</li>
+        </ul>
+      </div>
+      <div class="flow-arrow">▲ scored genomes&nbsp;&nbsp;│&nbsp;&nbsp;evaluation ▼</div>
+      <div class="layer">
+        <span class="layer-no">LAYER 02</span>
+        <h3>CrystalFlow <span class="role">reasoning</span></h3>
+        <ul>
+          <li>Minimal scalar autograd (Value nodes with a full backward pass).</li>
+          <li>Inspectable symbolic reasoning chains; consent enforced fail-closed.</li>
+          <li>Coherence propagates conservatively: <span class="mono">min(inputs) × rule_strength</span>.</li>
+        </ul>
+      </div>
+      <div class="flow-arrow">▲ facts (consent + coherence)&nbsp;&nbsp;│&nbsp;&nbsp;derived nodes ▼</div>
+      <div class="layer">
+        <span class="layer-no">LAYER 01</span>
+        <h3>CrystalMemory <span class="role">substrate</span></h3>
+        <ul>
+          <li>Sparse, 8-bit-quantized tensors with coherence, consent, and priority metadata.</li>
+          <li>Durable payloads for text/structured conclusions that survive reloads.</li>
+          <li>Atomic + SHA-256-checksummed JSON persistence with best-effort recovery.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GUARANTEES ----------------------------------------------------- -->
+<section id="guarantees">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">03 — Properties that hold across the stack</p>
+      <h2>Three guarantees, verified by test.</h2>
+      <p>
+        These aren't aspirations — they're checked by the suite, including
+        property-based tests that run each invariant across many randomized
+        inputs.
+      </p>
+    </div>
+    <div class="grid3">
+      <div class="card">
+        <div class="tag">[ CONSENT ]</div>
+        <h3>Fail-closed</h3>
+        <p>A consumer sees only what its permissions allow. A reasoning step that needs a forbidden input refuses outright — nothing is written, and the denial is logged.</p>
+      </div>
+      <div class="card">
+        <div class="tag">[ COHERENCE ]</div>
+        <h3>Confidence can't be faked</h3>
+        <p>A conclusion is never more confident than its weakest input, and decays over time. Verified: output never exceeds <span class="mono">min(inputs)</span>.</p>
+      </div>
+      <div class="card">
+        <div class="tag">[ PROVENANCE ]</div>
+        <h3>Always traceable</h3>
+        <p>Every derived item links back to the exact inputs and the rule that produced it. Guardian can veto and physically remove a conclusion that lacks sound provenance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AGENTS --------------------------------------------------------- -->
+<section id="agents">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">04 — CrystalMind</p>
+      <h2>Four stances, one council.</h2>
+      <p>
+        Each agent is a reasoning policy with a concrete stance — an evidence
+        bar and a confidence factor, not a personality label. You invoke one
+        agent, or convene a council; Guardian then reviews and may veto.
+        No agent ever triggers another.
+      </p>
+    </div>
+    <div class="agents">
+      <div class="agent">
+        <div class="name">TruthSeeker</div>
+        <div class="stance">Demands high-coherence inputs. Refuses to conclude from weak evidence.</div>
+      </div>
+      <div class="agent guardian">
+        <div class="name">Guardian</div>
+        <div class="stance">The safety reviewer. Inspects a conclusion's real coherence and provenance, and vetoes — removing it from memory — when it stands on insufficient ground.</div>
+      </div>
+      <div class="agent">
+        <div class="name">Visionary</div>
+        <div class="stance">Explores. Tolerates lower coherence to surface possibilities, but its conclusions are mathematically marked speculative.</div>
+      </div>
+      <div class="agent">
+        <div class="name">Creator</div>
+        <div class="stance">Synthesises durable artifacts — position statements, drafts — from the available evidence.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- QUICK LOOK ----------------------------------------------------- -->
+<section id="verify">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">05 — Quick look</p>
+      <h2>Store evidence. Reason. Keep the trail.</h2>
+      <p>
+        Encoding data tags it with consent and priority; retrieval enforces
+        both. Reasoning writes conclusions back with provenance. Here's the
+        substrate in a few lines.
+      </p>
+    </div>
+    <pre><span class="c"># Standard library only — NumPy optional, not required.</span>
+<span class="k">from</span> src.crystal_memory <span class="k">import</span> CrystalMemory
+
+memory = CrystalMemory(max_ram_mb=<span class="s">256</span>)
+
+<span class="c"># Encode with consent flags (bit 0 = user, bit 1 = family) and priority.</span>
+nid = memory.encode(
+    data=[<span class="s">1.5</span>, <span class="s">2.3</span>, <span class="s">0.0</span>, <span class="s">4.8</span>],
+    coherence_boost=<span class="s">0.9</span>,
+    consent_flags=<span class="s">3</span>,
+    family_priority=<span class="s">1.2</span>,
+)
+
+result = memory.retrieve(nid)   <span class="c"># consent + coherence enforced</span>
+print(result)</pre>
+    <p class="status-line">
+      Run the full suite with <b>python3 run_tests.py</b> — no pytest required.
+      Two end-to-end demos ship in <span class="mono">examples/</span>:
+      a family decision pipeline and a policy-drafting council.
+    </p>
+  </div>
+</section>
+
+<!-- VISION (clearly partitioned) ----------------------------------- -->
+<section id="vision">
+  <div class="wrap">
+    <div class="vision">
+      <span class="badge">Vision · aspirational · not current capability</span>
+      <h2>Where this is meant to go</h2>
+      <p>
+        CrystalCore is the sovereign-edge foundation for a longer-horizon vision
+        — <em>TerAustralis Incognita</em> — that imagines consent- and
+        provenance-respecting intelligence extending responsibly outward, guided
+        by relational, Songlines-inspired protocols and a sovereign-futures
+        ethic: truth as anchor, individual and family agency, and resistance to
+        structural distortion.
+      </p>
+      <p>
+        That vision includes ambitions well beyond today's code — among them
+        long-duration autonomous systems and self-replicating probes. Formal
+        methods (TLA+ / Apalache model checking, mission-time LTL runtime
+        monitors) are the right tools for systems at that level of criticality,
+        and are part of the intended roadmap.
+      </p>
+      <div class="demarc">
+        line of demarcation — what exists today: four Python layers, 118 passing
+        tests, two demos, running offline on commodity hardware. Everything in
+        this panel is direction, not a description of the current system.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER --------------------------------------------------------- -->
+<footer>
+  <div class="wrap">
+    <div class="mono">
+      Crystal<span style="color:var(--amber)">◆</span>Core<br>
+      Sovereign edge AGI framework.<br>
+      AGPL-3.0 licensed · built for truth, consent, and real-world sovereignty.
+      <div class="status-line">status: <b>Memory · Flow · Evolve · Mind complete</b> · next: packaging for Raspberry Pi</div>
+    </div>
+    <div class="mono">
+      repository &nbsp;<a href="https://github.com/teraustralisincognita-svg/CrystalcoreOS">github.com/teraustralisincognita-svg/CrystalcoreOS</a><br>
+      related &nbsp;TerAustralis Incognita <span style="color:var(--ink-faint)">(maintained separately)</span><br>
+      foundation &nbsp;Sovereign Futures Manifesto <span style="color:var(--ink-faint)">(maintained separately)</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
