@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; }
+      .slide-container {
+        width: 1280px;
+        min-height: 720px;
+        box-sizing: border-box;
+        background: oklch(0.12 0.01 260);
+        color: oklch(0.95 0.01 260);
+        font-family: "Inter", sans-serif;
+        display: flex;
+        position: relative;
+        overflow: hidden;
+      }
+      .content-area {
+        flex: 1;
+        padding-top: 80px;
+        padding-left: 80px;
+        display: flex;
+        flex-direction: column;
+      }
+      .visual-area {
+        width: 520px;
+        background: oklch(0.15 0.015 260);
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-left: 1px solid oklch(1 0 0 / 10%);
+      }
+      h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 48px;
+        font-weight: 700;
+        color: oklch(0.8 0.15 85);
+        margin-bottom: 40px;
+      }
+      .feature-item {
+        margin-bottom: 35px;
+        max-width: 600px;
+      }
+      .feature-title {
+        font-family: "Space Grotesk", monospace;
+        font-size: 22px;
+        color: oklch(0.65 0.15 285);
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      .feature-desc {
+        font-size: 18px;
+        line-height: 1.6;
+        color: oklch(0.8 0.01 260);
+      }
+      .manifest-title {
+        font-family: "Space Grotesk", monospace;
+        font-size: 14px;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: oklch(0.8 0.15 85);
+        margin-bottom: 30px;
+      }
+      .manifest-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: "Space Grotesk", monospace;
+        font-size: 14px;
+      }
+      .manifest-table td {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid oklch(1 0 0 / 0.1);
+      }
+      .key { color: oklch(0.65 0.15 285); }
+      .value { color: oklch(0.95 0.01 260); text-align: right; }
+      .status-bar {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid oklch(0.8 0.15 85 / 0.2);
+        font-size: 12px;
+        color: oklch(0.5 0.01 260);
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="content-area">
+            <h2>Immersive Reader: CodexReader.tsx</h2>
+            
+            <div class="feature-item">
+                <div class="feature-title"><i class="fas fa-sync-alt"></i> Dynamic State Management</div>
+                <p class="feature-desc">Utilizes <code>useEffect</code> hooks to synchronize local state with URL parameters, fetching specific collection and chapter data from the <strong>mythos.ts</strong> store.</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-title"><i class="fas fa-file-alt"></i> Markdown Processing</div>
+                <p class="feature-desc">Integrates the <strong>Streamdown</strong> engine to render complex narrative content, supporting rich text, headers, and thematic formatting within a sovereign container.</p>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-title"><i class="fas fa-exchange-alt"></i> Contextual Navigation</div>
+                <p class="feature-desc">Calculates relative indices within collections to provide seamless "Previous" and "Next" transitions, maintaining narrative flow across the lattice.</p>
+            </div>
+        </div>
+
+        <div class="visual-area">
+            <div class="manifest-title">Reader_State_Manifest</div>
+            <table class="manifest-table">
+                <tr>
+                    <td class="key">active_collection</td>
+                    <td class="value">"codex"</td>
+                </tr>
+                <tr>
+                    <td class="key">current_chapter</td>
+                    <td class="value">"the-weaving"</td>
+                </tr>
+                <tr>
+                    <td class="key">render_engine</td>
+                    <td class="value">"streamdown"</td>
+                </tr>
+                <tr>
+                    <td class="key">read_time_est</td>
+                    <td class="value">"7 MIN"</td>
+                </tr>
+                <tr>
+                    <td class="key">sovereign_lock</td>
+                    <td class="value">TRUE</td>
+                </tr>
+            </table>
+            <div class="status-bar">
+                // COMPONENT: client/src/pages/CodexReader.tsx<br>
+                // STATUS: READY_FOR_INGESTION
+            </div>
+        </div>
+    </div>
+</body>
+</html>

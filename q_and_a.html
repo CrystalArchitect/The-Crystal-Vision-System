@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; }
+      .slide-container {
+        width: 1280px;
+        min-height: 720px;
+        box-sizing: border-box;
+        background: oklch(0.12 0.01 260);
+        color: oklch(0.95 0.01 260);
+        font-family: "Inter", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .logo-final {
+        width: 120px;
+        height: 120px;
+        object-fit: contain;
+        margin-bottom: 40px;
+      }
+      h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 72px;
+        font-weight: 900;
+        color: oklch(0.8 0.15 85);
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      .contact-info {
+        font-family: "Space Grotesk", monospace;
+        font-size: 20px;
+        color: oklch(0.95 0.01 260 / 0.6);
+        text-align: center;
+        margin-bottom: 60px;
+        letter-spacing: 0.1em;
+      }
+      .mantra {
+        font-family: "Playfair Display", serif;
+        font-size: 36px;
+        font-style: italic;
+        color: oklch(0.65 0.15 285);
+        text-align: center;
+      }
+      .accent-line {
+        width: 200px;
+        height: 2px;
+        background: linear-gradient(90deg, transparent, oklch(0.8 0.15 85), transparent);
+        margin-bottom: 30px;
+      }
+      .decorative-corner {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border: 1px solid oklch(0.8 0.15 85 / 0.1);
+        transform: rotate(45deg);
+      }
+      .top-left { top: -150px; left: -150px; }
+      .bottom-right { bottom: -150px; right: -150px; }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="decorative-corner top-left"></div>
+        <div class="decorative-corner bottom-right"></div>
+        
+        <img src="/manus-storage/logo_d35dd45c.png" alt="TerAustralis Logo" class="logo-final" />
+        
+        <h2>Questions & Discussion</h2>
+        
+        <div class="accent-line"></div>
+        
+        <div class="contact-info">
+            <p>REPOSITORY: CrystalArchitect/The-Crystal-Vision</p>
+            <p style="margin-top: 10px;">LATTICE_SYNC: v2.0.0-STABLE</p>
+        </div>
+        
+        <div class="mantra">
+            Non Solus — Not Alone.
+        </div>
+    </div>
+</body>
+</html>

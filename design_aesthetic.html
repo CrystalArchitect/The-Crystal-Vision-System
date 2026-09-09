@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; }
+      .slide-container {
+        width: 1280px;
+        min-height: 720px;
+        box-sizing: border-box;
+        background: oklch(0.12 0.01 260);
+        color: oklch(0.95 0.01 260);
+        font-family: "Inter", sans-serif;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+      }
+      .header-section {
+        padding-top: 60px;
+        padding-left: 80px;
+        margin-bottom: 40px;
+      }
+      h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 48px;
+        font-weight: 700;
+        color: oklch(0.8 0.15 85);
+      }
+      .content-grid {
+        display: flex;
+        padding-left: 80px;
+        padding-right: 80px;
+        gap: 80px;
+      }
+      .section-panel {
+        flex: 1;
+      }
+      .section-title {
+        font-family: "Space Grotesk", monospace;
+        font-size: 14px;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: oklch(0.65 0.15 285);
+        margin-bottom: 30px;
+        border-bottom: 1px solid oklch(1 0 0 / 0.1);
+        padding-top: 10px;
+      }
+      .palette-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+      .color-swatch {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      .swatch-box {
+        width: 80px;
+        height: 80px;
+        border: 1px solid oklch(1 0 0 / 0.1);
+      }
+      .swatch-info h4 {
+        font-family: "Space Grotesk", monospace;
+        font-size: 18px;
+        margin-bottom: 4px;
+      }
+      .swatch-info p {
+        font-size: 12px;
+        color: oklch(0.7 0.02 260);
+      }
+      .typo-item {
+        margin-bottom: 40px;
+      }
+      .typo-label {
+        font-size: 12px;
+        color: oklch(0.7 0.02 260);
+        margin-bottom: 10px;
+      }
+      .typo-preview-serif {
+        font-family: "Playfair Display", serif;
+        font-size: 42px;
+        font-weight: 700;
+        color: oklch(0.8 0.15 85);
+      }
+      .typo-preview-mono {
+        font-family: "Space Grotesk", monospace;
+        font-size: 32px;
+        color: oklch(0.65 0.15 285);
+      }
+      .typo-preview-sans {
+        font-family: "Inter", sans-serif;
+        font-size: 24px;
+        line-height: 1.5;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header-section">
+            <h2>Design & Aesthetic: Deep-Time Dreaming</h2>
+        </div>
+
+        <div class="content-grid">
+            <!-- Colour Philosophy -->
+            <div class="section-panel">
+                <div class="section-title">Colour Philosophy (OKLCH)</div>
+                <div class="palette-grid">
+                    <div class="color-swatch">
+                        <div class="swatch-box" style="background: oklch(0.8 0.15 85);"></div>
+                        <div class="swatch-info">
+                            <h4>Southern Gold</h4>
+                            <p>oklch(0.8 0.15 85) — The Ochre of the Red Earth</p>
+                        </div>
+                    </div>
+                    <div class="color-swatch">
+                        <div class="swatch-box" style="background: oklch(0.65 0.15 285);"></div>
+                        <div class="swatch-info">
+                            <h4>Starline Violet</h4>
+                            <p>oklch(0.65 0.15 285) — The Resonance of the Deep Black</p>
+                        </div>
+                    </div>
+                    <div class="color-swatch">
+                        <div class="swatch-box" style="background: oklch(0.12 0.01 260);"></div>
+                        <div class="swatch-info">
+                            <h4>Deep Space</h4>
+                            <p>oklch(0.12 0.01 260) — The Sovereign Foundation</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Typography System -->
+            <div class="section-panel">
+                <div class="section-title">Typography System</div>
+                <div class="typo-item">
+                    <div class="typo-label">HEADINGS / ANCIENT WISDOM</div>
+                    <div class="typo-preview-serif">Playfair Display</div>
+                </div>
+                <div class="typo-item">
+                    <div class="typo-label">TECHNICAL / STARLINE DATA</div>
+                    <div class="typo-preview-mono">Space Grotesk</div>
+                </div>
+                <div class="typo-item">
+                    <div class="typo-label">BODY / HUMAN CONNECTION</div>
+                    <div class="typo-preview-sans">Inter (Variable Sans)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

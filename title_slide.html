@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; }
+      .slide-container {
+        width: 1280px;
+        min-height: 720px;
+        box-sizing: border-box;
+        background: oklch(0.12 0.01 260);
+        color: oklch(0.95 0.01 260);
+        font-family: "Inter", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .title {
+        font-family: "Playfair Display", serif;
+        font-size: 80px;
+        font-weight: 900;
+        text-align: center;
+        line-height: 1.1;
+        color: oklch(0.8 0.15 85); /* Southern Gold */
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 1;
+      }
+      .subtitle {
+        font-family: "Space Grotesk", monospace;
+        font-size: 32px;
+        text-align: center;
+        color: oklch(0.65 0.15 285); /* Starline Violet */
+        max-width: 900px;
+        line-height: 1.4;
+        position: relative;
+        z-index: 1;
+      }
+      .logo {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+        z-index: 1;
+      }
+      .geometric-shape-1 {
+        position: absolute;
+        bottom: -100px;
+        right: -100px;
+        width: 300px;
+        height: 300px;
+        background: oklch(0.8 0.15 85 / 0.1);
+        transform: rotate(45deg);
+        z-index: 0;
+      }
+      .geometric-shape-2 {
+        position: absolute;
+        top: -100px;
+        left: -100px;
+        width: 200px;
+        height: 200px;
+        border: 2px solid oklch(0.65 0.15 285 / 0.2);
+        transform: rotate(-30deg);
+        z-index: 0;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <img src="/manus-storage/logo_d35dd45c.png" alt="TerAustralis Incognita Logo" class="logo" />
+        <div class="geometric-shape-1"></div>
+        <div class="geometric-shape-2"></div>
+        <h1 class="title">TerAustralis Incognita v2:<br>Source Code Deep Dive</h1>
+        <p class="subtitle">Bridging Ancient Wisdom with Sovereign Space-Age Vision</p>
+    </div>
+</body>
+</html>

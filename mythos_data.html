@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; }
+      .slide-container {
+        width: 1280px;
+        min-height: 720px;
+        box-sizing: border-box;
+        background: oklch(0.12 0.01 260);
+        color: oklch(0.95 0.01 260);
+        font-family: "Inter", sans-serif;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+      }
+      .header-section {
+        padding-top: 60px;
+        padding-left: 80px;
+        margin-bottom: 40px;
+      }
+      h2 {
+        font-family: "Playfair Display", serif;
+        font-size: 48px;
+        font-weight: 700;
+        color: oklch(0.8 0.15 85); /* Southern Gold */
+      }
+      .content-grid {
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+        gap: 60px;
+        padding-left: 80px;
+        padding-right: 80px;
+      }
+      .info-box {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+      }
+      .label {
+        font-family: "Space Grotesk", monospace;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        color: oklch(0.65 0.15 285); /* Starline Violet */
+        margin-bottom: 10px;
+      }
+      .description {
+        font-size: 20px;
+        line-height: 1.6;
+        color: oklch(0.95 0.01 260 / 0.8);
+      }
+      .schema-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: "Space Grotesk", monospace;
+        font-size: 16px;
+      }
+      .schema-table th {
+        text-align: left;
+        padding: 15px;
+        border-bottom: 1px solid oklch(0.8 0.15 85 / 0.3);
+        color: oklch(0.8 0.15 85);
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 0.1em;
+      }
+      .schema-table td {
+        padding: 15px;
+        border-bottom: 1px solid oklch(1 0 0 / 0.1);
+      }
+      .type-tag {
+        color: oklch(0.65 0.15 285);
+      }
+      .field-name {
+        color: oklch(0.95 0.01 260);
+        font-weight: 700;
+      }
+      .footer-note {
+        position: absolute;
+        bottom: 40px;
+        left: 80px;
+        font-family: "Space Grotesk", monospace;
+        font-size: 12px;
+        color: oklch(0.65 0.15 285 / 0.5);
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header-section">
+            <h2>Mythos Data Structure: mythos.ts</h2>
+        </div>
+        
+        <div class="content-grid">
+            <div class="info-box">
+                <div>
+                    <div class="label">Centralized Store</div>
+                    <p class="description">
+                        The <strong>mythos.ts</strong> file acts as the single source of truth for the entire Incognita Lattice. It houses all narrative assets, from deep knowledge chapters to starline transmissions.
+                    </p>
+                </div>
+                <div>
+                    <div class="label">Collections</div>
+                    <p class="description">
+                        Data is organized into high-level collections:
+                        <br />• <strong>Codex:</strong> The core philosophical pillars.
+                        <br />• <strong>Transmissions:</strong> Real-time starline updates.
+                        <br />• <strong>Stories:</strong> Intimate "Stories of Presence".
+                    </p>
+                </div>
+            </div>
+
+            <div class="schema-box">
+                <div class="label">MythosChapter Schema</div>
+                <table class="schema-table">
+                    <thead>
+                        <tr>
+                            <th>Field</th>
+                            <th>Type</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="field-name">id</td>
+                            <td class="type-tag">string</td>
+                            <td>Unique identifier for routing</td>
+                        </tr>
+                        <tr>
+                            <td class="field-name">title</td>
+                            <td class="type-tag">string</td>
+                            <td>Main chapter heading</td>
+                        </tr>
+                        <tr>
+                            <td class="field-name">content</td>
+                            <td class="type-tag">string</td>
+                            <td>Markdown-formatted narrative</td>
+                        </tr>
+                        <tr>
+                            <td class="field-name">tags</td>
+                            <td class="type-tag">string[]</td>
+                            <td>Thematic categorization</td>
+                        </tr>
+                        <tr>
+                            <td class="field-name">readTime</td>
+                            <td class="type-tag">number</td>
+                            <td>Estimated engagement duration</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="footer-note">
+            // LOCATION: client/src/data/mythos.ts
+        </div>
+    </div>
+</body>
+</html>
