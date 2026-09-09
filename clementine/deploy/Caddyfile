@@ -1,0 +1,53 @@
+# Clementine — Caddy reverse proxy.
+#
+# deploy/bootstrap.sh fills in the hostname and password hash and writes the
+# result to /etc/caddy/Caddyfile. By hand instead: substitute the host on the
+# site line, put a `caddy hash-password` bcrypt hash where the placeholder is,
+# copy to /etc/caddy/Caddyfile, reload caddy.
+#
+# Requires Caddy 2.8 or newer, where the directive is `basic_auth`. On older
+# versions it is spelled `basicauth` and this file fails validation naming
+# that line.
+#
+# Two things this provides that Clementine cannot provide for herself:
+#
+#  1. HTTPS. Safari refuses microphone access on a non-secure origin, and
+#     Add to Home Screen produces a bookmark rather than an app. Voice and
+#     installability both depend on a real certificate.
+#
+#  2. Authentication. The consent gate governs what leaves *them*; it does
+#     nothing about who reaches *them*. Without a password, anyone who finds
+#     this address can talk to them and read their memory and their audit log.
+
+clementine.example.com {
+	encode zstd gzip
+
+	basic_auth {
+		# caddy hash-password    (paste the $2a$... string here)
+		clementine REPLACE_WITH_HASH
+	}
+
+	reverse_proxy 127.0.0.1:5000 {
+		# An 8B model on CPU thinks for a while before the first token, and
+		# their replies stream, so these are generous on purpose.
+		transport http {
+			response_header_timeout 300s
+			read_timeout 300s
+		}
+		flush_interval -1
+	}
+
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		X-Content-Type-Options "nosniff"
+		Referrer-Policy "no-referrer"
+		# Everything is same-origin and self-contained; nothing loads from a CDN.
+		Content-Security-Policy "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'"
+		-Server
+	}
+
+	log {
+		output file /var/log/caddy/clementine.log
+		format console
+	}
+}
