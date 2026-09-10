@@ -85,7 +85,7 @@ These repositories require authentication credentials not available in non-inter
 ## Monorepo Structure
 
 ```
-The-Crystal-Vision-System/
+AUS-Monorepo/
 ├── 00_MASTER_INDEX/          [Pre-existing CVSC structure]
 ├── 07_CELESTIAL_PORTAL/
 ├── 10_ORIGINAL_CREATIVE/
@@ -199,7 +199,7 @@ All original repositories remain **untouched** on GitHub:
 
 **User Email**: MC_MUSK@icloud.com  
 **Project**: CrystalArchitect multi-repo consolidation  
-**Decision**: Use existing "The-Crystal-Vision-System" repo as monorepo base  
+**Decision**: Use existing "AUS-Monorepo" repo as monorepo base  
 **Rationale**: Preserve original repos, consolidate discovery in single location  
 
 ---

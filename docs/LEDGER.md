@@ -4,7 +4,7 @@ Epistemic: FACT = bytes or listings in hand. UNKNOWN stays UNKNOWN.
 
 | Name | Type | Status | Notes |
 | --- | --- | --- | --- |
-| The-Crystal-Vision-System | this repo | live (GitHub) | Was README-only until this commit |
+| AUS-Monorepo | this repo | live (GitHub) | Was README-only until this commit |
 | Celestial Portal zip A | AI Studio React app | partial | package.json name react-example; Gemini API; mic |
 | Gemini overlay B | later crystalcore/ on another machine | elsewhere | Not CrystalArchitect CrystalCore |
 | CrystalCore / Clementine | existing stack | elsewhere | Ollama health lives there |

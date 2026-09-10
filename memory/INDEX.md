@@ -4,7 +4,7 @@ Load CORE, then only the row you need.
 
 | Topic | Where | Status |
 | --- | --- | --- |
-| This repo | https://github.com/CrystalArchitect/The-Crystal-Vision-System | connective layer. Do not merge other repos |
+| This repo | https://github.com/CrystalArchitect/AUS-Monorepo | connective layer. Do not merge other repos |
 | CVSC locked root | https://drive.google.com/drive/folders/1mc0RvTCg3d94WcYIot2pLKoiHQb8nBnX | primary archive |
 | Duplicate Drive root | 1EAaX0gWuzDGOwVCOeWLDaUUu0ISQ1hII | do not merge, do not delete |
 | Paste card | docs/PASTE-THIS.md | what to put in the next AI |
