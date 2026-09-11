@@ -63,6 +63,19 @@ This monorepo consolidates 20 of the 28 total CrystalArchitect repositories usin
 
 ---
 
+### New Projects (authored directly here, not subtree-imported)
+
+| Project | Location | Type | Status |
+|---------|----------|------|--------|
+| ukf-tracklist | `archive/ukf-tracklist/` | Data pipeline (Node/tsx) | Pipeline verified; awaiting real `data/tracklist.csv` |
+
+Unlike the 20 repos below, this one has no separate upstream GitHub repo —
+it was written directly into this monorepo. See its own
+[`README.md`](archive/ukf-tracklist/README.md) for what it does and what
+was fixed in it before commit.
+
+---
+
 ## Failed Imports & Exclusions
 
 ### Private Repos (Auth Unavailable) — 4 repos
