@@ -1,0 +1,91 @@
+{
+  "artists": [
+    "Apex Predator",
+    "Bad Company UK",
+    "Caliber",
+    "Calibre",
+    "Chase & Status",
+    "Fniable",
+    "High Contrast",
+    "Logistics",
+    "London Elektricity",
+    "Shimon & Andy C",
+    "Sigma",
+    "Sub Focus"
+  ],
+  "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "categories": [
+    "atmospheric",
+    "drum-and-bass",
+    "hard-drum-and-bass",
+    "jump-up",
+    "liquid-funk",
+    "neurofunk"
+  ],
+  "genres": [
+    "Atmospheric",
+    "DnB",
+    "Hard Drum and Bass",
+    "Jump Up",
+    "Jungle",
+    "Liquid",
+    "Neurofunk",
+    "Tech Step"
+  ],
+  "tags": [],
+  "remixers": [
+    "Andy C",
+    "Apex Predator",
+    "Calibre",
+    "DJ Marky",
+    "High Contrast",
+    "Logistics",
+    "London Elektricity",
+    "Sub Focus"
+  ],
+  "labels": [
+    "Bad Company UK",
+    "Calibre Records",
+    "Hospital Records",
+    "Logistics Recordings",
+    "Metalheadz",
+    "RAM Records",
+    "Reinforced Records",
+    "V Recordings"
+  ],
+  "keySignatures": [
+    "A",
+    "Ab",
+    "B",
+    "Bb",
+    "C",
+    "C#",
+    "D",
+    "E",
+    "Eb",
+    "F",
+    "F#",
+    "G"
+  ],
+  "bpmRanges": {
+    "min": 160,
+    "max": 189,
+    "count": 2404
+  }
+}

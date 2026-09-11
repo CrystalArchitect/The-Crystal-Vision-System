@@ -1,0 +1,94 @@
+---
+// SPDX-License-Identifier: MIT
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout>
+  <div class="max-w-2xl mx-auto space-y-8">
+    <div>
+      <h1 class="text-4xl font-bold text-white mb-4">About</h1>
+      <p class="text-neutral-400">
+        This is a drum & bass track library browser built with Astro, React, and TypeScript.
+      </p>
+    </div>
+
+    <div class="space-y-4">
+      <div>
+        <h2 class="text-2xl font-bold text-white mb-2">Features</h2>
+        <ul class="space-y-2 text-neutral-400">
+          <li>🔍 Full-text search with Fuse.js</li>
+          <li>🎵 Browse over 2,400 drum & bass tracks</li>
+          <li>⭐ Rate and tag your favorite tracks</li>
+          <li>📋 Create and manage playlists</li>
+          <li>🎚️ Smart playlists with rule-based filtering</li>
+          <li>⌨️ Keyboard shortcuts for power users</li>
+          <li>💾 All data stored locally in your browser</li>
+          <li>📊 Library statistics and analytics</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-bold text-white mb-2">Keyboard Shortcuts</h2>
+        <div class="space-y-2 text-sm">
+          <div class="flex justify-between">
+            <span class="text-neutral-500">Open command palette</span>
+            <span class="font-mono text-accent">⌘K / Ctrl+K</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-neutral-500">Focus search</span>
+            <span class="font-mono text-accent">/</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-neutral-500">Navigate tracks</span>
+            <span class="font-mono text-accent">j / k</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-neutral-500">Open track</span>
+            <span class="font-mono text-accent">Enter</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-neutral-500">Add to playlist</span>
+            <span class="font-mono text-accent">p</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-neutral-500">Quick navigate (home/tracks/playlists/stats)</span>
+            <span class="font-mono text-accent">g then h/t/p/s</span>
+          </div>
+          <div class="flex justify-between">
+            <span class="text-neutral-500">Show help</span>
+            <span class="font-mono text-accent">?</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-bold text-white mb-2">Built With</h2>
+        <ul class="space-y-1 text-neutral-400 text-sm">
+          <li>Astro - Static site generation</li>
+          <li>React 18 - Interactive components</li>
+          <li>TypeScript - Type safety</li>
+          <li>Tailwind CSS - Styling</li>
+          <li>Fuse.js - Full-text search</li>
+          <li>localStorage - Data persistence</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-bold text-white mb-2">Privacy</h2>
+        <p class="text-neutral-400 text-sm">
+          All your data (ratings, tags, playlists) is stored locally in your browser using localStorage.
+          Nothing is sent to any server. You have complete control over your data.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-bold text-white mb-2">Note</h2>
+        <p class="text-neutral-400 text-sm">
+          This library does not host any audio files. It's designed to help you organize and discover tracks,
+          with links to their original sources for playback.
+        </p>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

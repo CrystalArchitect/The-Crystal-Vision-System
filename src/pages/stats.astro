@@ -2,16 +2,13 @@
 // SPDX-License-Identifier: MIT
 
 import BaseLayout from '../layouts/BaseLayout.astro';
-import type { Track } from '../types';
+import type { Track } from "../types";
 
 let tracks: Track[] = [];
 try {
-  const response = await fetch(
-    'file://' + new URL('../../../public/data/tracks.json', import.meta.url).pathname
-  );
-  tracks = await response.json();
-} catch (e) {
-  console.warn('Could not load tracks.json');
+  tracks = await import("../data/tracks.json").then((m) => m.default);
+} catch {
+  console.warn("Could not load tracks.json - run \"npm run data\" first");
 }
 
 // Calculate statistics

@@ -1,97 +1,75 @@
 ---
 // SPDX-License-Identifier: MIT
 
-import BaseLayout from '../layouts/BaseLayout.astro';
-import type { Track } from '../types';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import type { Track } from "../types";
+import { formatCount } from "../lib/format";
 
-// Load tracks data at build time
 let tracks: Track[] = [];
 try {
-  const response = await fetch(
-    'file://' + new URL('../../../public/data/tracks.json', import.meta.url).pathname
-  );
-  tracks = await response.json();
-} catch (e) {
-  console.warn('Could not load tracks.json - run "npm run data" to generate it');
+  tracks = await import("../data/tracks.json").then((m) => m.default);
+} catch {
+  console.warn("Could not load tracks.json - run \"npm run data\" first");
 }
-
-const totalTracks = tracks.length;
-const totalArtists = new Set(tracks.map(t => t.artist)).size;
-const totalDuration = tracks.reduce((sum, t) => sum + t.duration, 0);
-const avgBPM = Math.round(tracks.reduce((sum, t) => sum + t.bpm, 0) / tracks.length);
 ---
 
-<BaseLayout title="Drum & Bass Library">
-  <div class="space-y-8">
-    <!-- Hero Section -->
-    <div class="rounded-lg bg-gradient-to-r from-accent-600 to-accent-700 p-8 text-ink-900">
-      <h1 class="mb-2 text-4xl font-bold">Drum & Bass Library</h1>
-      <p class="text-lg opacity-90">Browse, search, and organize your drum and bass collection</p>
+<BaseLayout>
+  <div class="max-w-4xl mx-auto space-y-12">
+    <div class="space-y-4">
+      <h1 class="text-5xl font-bold text-white">Drum & Bass Library</h1>
+      <p class="text-lg text-neutral-400 max-w-2xl">
+        Explore a curated collection of {formatCount(tracks.length)} drum & bass tracks. Search, filter, rate, and organize your favorites.
+      </p>
     </div>
 
-    <!-- Stats Grid -->
-    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-      <div class="rounded-lg bg-ink-800 p-6">
-        <div class="text-sm text-ink-400">Total Tracks</div>
-        <div class="mt-2 text-3xl font-bold text-accent-400">{totalTracks}</div>
-      </div>
-      <div class="rounded-lg bg-ink-800 p-6">
-        <div class="text-sm text-ink-400">Artists</div>
-        <div class="mt-2 text-3xl font-bold text-accent-400">{totalArtists}</div>
-      </div>
-      <div class="rounded-lg bg-ink-800 p-6">
-        <div class="text-sm text-ink-400">Total Duration</div>
-        <div class="mt-2 text-3xl font-bold text-accent-400">
-          {Math.round(totalDuration / 3600)}h
-        </div>
-      </div>
-      <div class="rounded-lg bg-ink-800 p-6">
-        <div class="text-sm text-ink-400">Avg BPM</div>
-        <div class="mt-2 text-3xl font-bold text-accent-400">{avgBPM}</div>
-      </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <a
+        href="/tracks"
+        class="p-6 rounded-lg bg-gradient-to-br from-accent-400/20 to-accent-300/10 border border-accent-400/30 hover:border-accent-400 transition-colors group"
+      >
+        <div class="text-3xl mb-2">🎵</div>
+        <h2 class="font-semibold text-white mb-2 group-hover:text-accent">Browse Tracks</h2>
+        <p class="text-sm text-neutral-400">
+          Search and filter {formatCount(tracks.length)} tracks with full-text search, filters, and sorting.
+        </p>
+      </a>
+
+      <a
+        href="/playlists"
+        class="p-6 rounded-lg bg-gradient-to-br from-accent-400/20 to-accent-300/10 border border-accent-400/30 hover:border-accent-400 transition-colors group"
+      >
+        <div class="text-3xl mb-2">📋</div>
+        <h2 class="font-semibold text-white mb-2 group-hover:text-accent">Playlists</h2>
+        <p class="text-sm text-neutral-400">Create playlists, tag tracks, rate your favorites, and build smart playlists with rules.</p>
+      </a>
+
+      <a
+        href="/stats"
+        class="p-6 rounded-lg bg-gradient-to-br from-accent-400/20 to-accent-300/10 border border-accent-400/30 hover:border-accent-400 transition-colors group"
+      >
+        <div class="text-3xl mb-2">📊</div>
+        <h2 class="font-semibold text-white mb-2 group-hover:text-accent">Statistics</h2>
+        <p class="text-sm text-neutral-400">Visualize your library with stats on artists, years, genres, and playback history.</p>
+      </a>
     </div>
 
-    <!-- Recent Tracks -->
-    <div>
-      <h2 class="mb-4 text-2xl font-bold">Recently Added Tracks</h2>
-      <div class="overflow-x-auto rounded-lg bg-ink-800">
-        <table class="w-full text-left text-sm">
-          <thead class="border-b border-ink-700 bg-ink-700">
-            <tr>
-              <th class="px-6 py-3">Title</th>
-              <th class="px-6 py-3">Artist</th>
-              <th class="px-6 py-3">Year</th>
-              <th class="px-6 py-3">BPM</th>
-              <th class="px-6 py-3">Duration</th>
-            </tr>
-          </thead>
-          <tbody class="divide-y divide-ink-700">
-            {
-              tracks.slice(0, 10).map(track => (
-                <tr class="hover:bg-ink-700">
-                  <td class="px-6 py-3 font-medium">{track.title}</td>
-                  <td class="px-6 py-3">{track.artist}</td>
-                  <td class="px-6 py-3">{track.year}</td>
-                  <td class="px-6 py-3">{track.bpm}</td>
-                  <td class="px-6 py-3">{Math.floor(track.duration / 60)}:{String(track.duration % 60).padStart(2, '0')}</td>
-                </tr>
-              ))
-            }
-          </tbody>
-        </table>
-      </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <a href="/artists" class="p-4 rounded-lg bg-ink-900 border border-ink-800 hover:border-ink-700 transition-colors">
+        <span class="font-medium text-white">🎤 Browse by Artist</span>
+      </a>
+      <a href="/timeline" class="p-4 rounded-lg bg-ink-900 border border-ink-800 hover:border-ink-700 transition-colors">
+        <span class="font-medium text-white">📅 Timeline by Year</span>
+      </a>
+      <a href="/rediscover" class="p-4 rounded-lg bg-ink-900 border border-ink-800 hover:border-ink-700 transition-colors">
+        <span class="font-medium text-white">✨ Rediscover Gems</span>
+      </a>
+      <a href="/about" class="p-4 rounded-lg bg-ink-900 border border-ink-800 hover:border-ink-700 transition-colors">
+        <span class="font-medium text-white">ℹ️ About</span>
+      </a>
     </div>
 
-    <!-- Next Steps -->
-    <div class="rounded-lg border border-ink-700 bg-ink-800 p-6">
-      <h3 class="mb-4 text-lg font-bold">Next Steps</h3>
-      <ul class="space-y-2 text-sm">
-        <li>✓ Generated {totalTracks} sample tracks</li>
-        <li>✓ Installed all dependencies</li>
-        <li>→ Create React components for advanced search and filtering</li>
-        <li>→ Build playlist management UI</li>
-        <li>→ Add keyboard shortcuts and navigation</li>
-      </ul>
+    <div class="text-center text-sm text-neutral-500 py-8">
+      <p>Keyboard shortcuts: <span class="font-mono">⌘K</span> for command palette, <span class="font-mono">?</span> for help</p>
     </div>
   </div>
 </BaseLayout>
