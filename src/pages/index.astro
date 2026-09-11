@@ -1,0 +1,97 @@
+---
+// SPDX-License-Identifier: MIT
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+import type { Track } from '../types';
+
+// Load tracks data at build time
+let tracks: Track[] = [];
+try {
+  const response = await fetch(
+    'file://' + new URL('../../../public/data/tracks.json', import.meta.url).pathname
+  );
+  tracks = await response.json();
+} catch (e) {
+  console.warn('Could not load tracks.json - run "npm run data" to generate it');
+}
+
+const totalTracks = tracks.length;
+const totalArtists = new Set(tracks.map(t => t.artist)).size;
+const totalDuration = tracks.reduce((sum, t) => sum + t.duration, 0);
+const avgBPM = Math.round(tracks.reduce((sum, t) => sum + t.bpm, 0) / tracks.length);
+---
+
+<BaseLayout title="Drum & Bass Library">
+  <div class="space-y-8">
+    <!-- Hero Section -->
+    <div class="rounded-lg bg-gradient-to-r from-accent-600 to-accent-700 p-8 text-ink-900">
+      <h1 class="mb-2 text-4xl font-bold">Drum & Bass Library</h1>
+      <p class="text-lg opacity-90">Browse, search, and organize your drum and bass collection</p>
+    </div>
+
+    <!-- Stats Grid -->
+    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="rounded-lg bg-ink-800 p-6">
+        <div class="text-sm text-ink-400">Total Tracks</div>
+        <div class="mt-2 text-3xl font-bold text-accent-400">{totalTracks}</div>
+      </div>
+      <div class="rounded-lg bg-ink-800 p-6">
+        <div class="text-sm text-ink-400">Artists</div>
+        <div class="mt-2 text-3xl font-bold text-accent-400">{totalArtists}</div>
+      </div>
+      <div class="rounded-lg bg-ink-800 p-6">
+        <div class="text-sm text-ink-400">Total Duration</div>
+        <div class="mt-2 text-3xl font-bold text-accent-400">
+          {Math.round(totalDuration / 3600)}h
+        </div>
+      </div>
+      <div class="rounded-lg bg-ink-800 p-6">
+        <div class="text-sm text-ink-400">Avg BPM</div>
+        <div class="mt-2 text-3xl font-bold text-accent-400">{avgBPM}</div>
+      </div>
+    </div>
+
+    <!-- Recent Tracks -->
+    <div>
+      <h2 class="mb-4 text-2xl font-bold">Recently Added Tracks</h2>
+      <div class="overflow-x-auto rounded-lg bg-ink-800">
+        <table class="w-full text-left text-sm">
+          <thead class="border-b border-ink-700 bg-ink-700">
+            <tr>
+              <th class="px-6 py-3">Title</th>
+              <th class="px-6 py-3">Artist</th>
+              <th class="px-6 py-3">Year</th>
+              <th class="px-6 py-3">BPM</th>
+              <th class="px-6 py-3">Duration</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-ink-700">
+            {
+              tracks.slice(0, 10).map(track => (
+                <tr class="hover:bg-ink-700">
+                  <td class="px-6 py-3 font-medium">{track.title}</td>
+                  <td class="px-6 py-3">{track.artist}</td>
+                  <td class="px-6 py-3">{track.year}</td>
+                  <td class="px-6 py-3">{track.bpm}</td>
+                  <td class="px-6 py-3">{Math.floor(track.duration / 60)}:{String(track.duration % 60).padStart(2, '0')}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Next Steps -->
+    <div class="rounded-lg border border-ink-700 bg-ink-800 p-6">
+      <h3 class="mb-4 text-lg font-bold">Next Steps</h3>
+      <ul class="space-y-2 text-sm">
+        <li>✓ Generated {totalTracks} sample tracks</li>
+        <li>✓ Installed all dependencies</li>
+        <li>→ Create React components for advanced search and filtering</li>
+        <li>→ Build playlist management UI</li>
+        <li>→ Add keyboard shortcuts and navigation</li>
+      </ul>
+    </div>
+  </div>
+</BaseLayout>
