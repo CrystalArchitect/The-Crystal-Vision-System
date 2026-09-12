@@ -1,0 +1,81 @@
+---
+// SPDX-License-Identifier: MIT
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import type { Track } from "../types";
+
+let tracks: Track[] = [];
+try {
+  tracks = await import("../data/tracks.json").then((m) => m.default);
+} catch {
+  console.warn("Could not load tracks.json");
+}
+
+const australianTracks = tracks.filter(t => t.isAustralian);
+const australianArtists = [...new Set(australianTracks.map(t => t.artist))].sort();
+
+const artistStats = australianArtists.map(artist => {
+  const artistTracks = australianTracks.filter(t => t.artist === artist);
+  const genres = [...new Set(artistTracks.flatMap(t => t.genres))];
+  return {
+    artist,
+    trackCount: artistTracks.length,
+    genres: genres,
+    years: [...new Set(artistTracks.map(t => t.year))].sort((a, b) => a - b)
+  };
+}).sort((a, b) => b.trackCount - a.trackCount);
+---
+
+<BaseLayout>
+  <div class="max-w-6xl mx-auto">
+    <div class="mb-8">
+      <h1 class="text-4xl font-bold text-white mb-2">Australian Artists</h1>
+      <p class="text-neutral-400">
+        Discover {australianArtists.length} talented Australian artists across all genres. {australianTracks.length} tracks from the land down under.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {artistStats.map(({ artist, trackCount, genres, years }) => (
+        <a
+          href={`/artists/${artist.toLowerCase().replace(/\s+/g, '-')}`}
+          class="p-6 rounded-lg bg-gradient-to-br from-ink-800 to-ink-900 border border-accent-500 border-opacity-30 hover:border-opacity-100 transition-all hover:shadow-lg hover:shadow-accent-500/20 group block"
+        >
+          <div>
+            <h2 class="text-xl font-bold text-white group-hover:text-accent-400 mb-2 line-clamp-2">
+              {artist}
+            </h2>
+            <div class="space-y-2 text-sm">
+              <div class="flex items-center gap-2">
+                <span class="text-accent-400">🎵</span>
+                <span class="text-neutral-300">{trackCount} tracks</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-accent-400">🎛️</span>
+                <span class="text-neutral-300">{genres.length} genres</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-accent-400">📅</span>
+                <span class="text-neutral-300">{years[0]} - {years[years.length - 1]}</span>
+              </div>
+              {genres.length > 0 && (
+                <div class="flex flex-wrap gap-1 mt-3">
+                  {genres.slice(0, 3).map(genre => (
+                    <span key={genre} class="px-2 py-1 rounded text-xs bg-accent-500/20 text-accent-300">
+                      {genre}
+                    </span>
+                  ))}
+                  {genres.length > 3 && (
+                    <span class="px-2 py-1 rounded text-xs bg-accent-500/20 text-accent-300">
+                      +{genres.length - 3}
+                    </span>
+                  )}
+                </div>
+              )}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</BaseLayout>

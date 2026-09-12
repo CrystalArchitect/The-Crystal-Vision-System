@@ -22,6 +22,7 @@ export interface Track {
   isRemix: boolean;
   remixChainId?: string; // tracks with same chain ID are remixes
   featured?: string[]; // featured artists
+  isAustralian?: boolean; // Australian artist flag
 }
 
 export interface SearchResult {
@@ -86,12 +87,13 @@ export interface SearchIndex {
   tags: string[];
   remixers: string[];
   labels: string[];
-  keySignatures: string[];
-  bpmRanges: {
+  keys: string[];
+  australianArtists: string[];
+  bpmRanges: Array<{
     min: number;
     max: number;
-    count: number;
-  };
+    label: string;
+  }>;
 }
 
 export interface ExportOptions {
