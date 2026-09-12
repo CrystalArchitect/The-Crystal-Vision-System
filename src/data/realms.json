@@ -1,0 +1,79 @@
+[
+  {
+    "id": "new-south-wales",
+    "name": "New South Wales",
+    "description": "Sydney and Newcastle: Australia's electronic heartland. Birthplace of breakthrough sounds and global exports.",
+    "color": "blue",
+    "iconEmoji": "🏙️",
+    "genres": ["Drum & Bass", "House", "Techno", "Trance"],
+    "mood": "urban, pioneering, cosmopolitan",
+    "bpmRange": { "min": 120, "max": 180 },
+    "region": "East Coast"
+  },
+  {
+    "id": "victoria",
+    "name": "Victoria",
+    "description": "Melbourne: The electronic music capital. Deep house, techno, and indie innovation.",
+    "color": "purple",
+    "iconEmoji": "🎵",
+    "genres": ["Deep House", "Techno", "Indie", "Downtempo"],
+    "mood": "underground, experimental, sophisticated",
+    "bpmRange": { "min": 90, "max": 140 },
+    "region": "South-East"
+  },
+  {
+    "id": "queensland",
+    "name": "Queensland",
+    "description": "Brisbane and Gold Coast: Sunny vibes and tropical electronic rhythms. House and ambient innovations.",
+    "color": "gold",
+    "iconEmoji": "☀️",
+    "genres": ["House", "Ambient", "Trance", "Hip-Hop"],
+    "mood": "uplifting, tropical, energetic",
+    "bpmRange": { "min": 100, "max": 140 },
+    "region": "North-East"
+  },
+  {
+    "id": "western-australia",
+    "name": "Western Australia",
+    "description": "Perth: Isolated, innovative. A unique sound emerging from the west. Rock and alternative edge.",
+    "color": "orange",
+    "iconEmoji": "🌅",
+    "genres": ["Rock", "Indie", "Drum & Bass"],
+    "mood": "independent, bold, frontier",
+    "bpmRange": { "min": 85, "max": 160 },
+    "region": "West Coast"
+  },
+  {
+    "id": "south-australia",
+    "name": "South Australia",
+    "description": "Adelaide: Jazz traditions meet electronic futures. A diverse cultural crossroads.",
+    "color": "red",
+    "iconEmoji": "🎷",
+    "genres": ["Jazz", "Hip-Hop", "Electronic", "Downtempo"],
+    "mood": "soulful, diverse, grounded",
+    "bpmRange": { "min": 80, "max": 120 },
+    "region": "South"
+  },
+  {
+    "id": "tasmania",
+    "name": "Tasmania",
+    "description": "Hobart: Remote, atmospheric. Ambient and experimental sounds shaped by isolation.",
+    "color": "teal",
+    "iconEmoji": "🌲",
+    "genres": ["Ambient", "Experimental", "Downtempo", "Electronic"],
+    "mood": "atmospheric, introspective, pristine",
+    "bpmRange": { "min": 60, "max": 110 },
+    "region": "South"
+  },
+  {
+    "id": "northern-territory",
+    "name": "Northern Territory",
+    "description": "Darwin and beyond: The frontier realm. Indigenous influences meet contemporary sound.",
+    "color": "green",
+    "iconEmoji": "🦘",
+    "genres": ["Hip-Hop", "Indie", "Electronic", "Ambient"],
+    "mood": "authentic, pioneering, connected",
+    "bpmRange": { "min": 85, "max": 140 },
+    "region": "North"
+  }
+]

@@ -22,6 +22,19 @@ export interface Track {
   isRemix: boolean;
   remixChainId?: string; // tracks with same chain ID are remixes
   featured?: string[]; // featured artists
+  isAustralian?: boolean; // Australian artist flag
+  realm?: string; // 7 Realms categorization
+}
+
+export interface Realm {
+  id: string;
+  name: string;
+  description: string;
+  color: string;
+  iconEmoji: string;
+  genres: string[];
+  mood: string;
+  bpmRange: { min: number; max: number };
 }
 
 export interface SearchResult {
@@ -86,12 +99,14 @@ export interface SearchIndex {
   tags: string[];
   remixers: string[];
   labels: string[];
-  keySignatures: string[];
-  bpmRanges: {
+  keys: string[];
+  australianArtists: string[];
+  realms: string[];
+  bpmRanges: Array<{
     min: number;
     max: number;
-    count: number;
-  };
+    label: string;
+  }>;
 }
 
 export interface ExportOptions {
