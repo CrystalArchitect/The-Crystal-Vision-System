@@ -29,28 +29,107 @@ const AUSTRALIAN_ARTISTS = [
   'Canberra Collective', 'Hobart Depth', 'Darwin Dynamics'
 ];
 
-const ARTIST_STATE_MAPPING = {
-  'Pendulum': 'new-south-wales',
-  'The Presets': 'new-south-wales',
-  'Cut Copy': 'victoria',
-  'Tones and I': 'victoria',
-  'Rüfüs DU SOL': 'new-south-wales',
-  'Bag Raiders': 'new-south-wales',
-  'What So Not': 'queensland',
-  'Flume': 'new-south-wales',
-  'Ta-ku': 'new-south-wales',
-  'George Maple': 'victoria',
-  'Peking Duk': 'new-south-wales',
-  'Baker Boy': 'northern-territory',
-  'Chet Faker': 'victoria',
-  'Flight Facilities': 'new-south-wales',
-  'Sydney Sound': 'new-south-wales',
-  'Melbourne Deep': 'victoria',
-  'Brisbane Bass': 'queensland',
-  'Perth Electronic': 'western-australia',
-  'Adelaide Wave': 'south-australia',
-  'Hobart Depth': 'tasmania',
-  'Darwin Dynamics': 'northern-territory'
+const ARTIST_COUNTRY_MAPPING = {
+  // Australia
+  'Pendulum': 'australia',
+  'The Presets': 'australia',
+  'Cut Copy': 'australia',
+  'Tones and I': 'australia',
+  'Rüfüs DU SOL': 'australia',
+  'Bag Raiders': 'australia',
+  'What So Not': 'australia',
+  'Flume': 'australia',
+  'Ta-ku': 'australia',
+  'George Maple': 'australia',
+  'Peking Duk': 'australia',
+  'Baker Boy': 'australia',
+  'Chet Faker': 'australia',
+  'Flight Facilities': 'australia',
+  // UK
+  'Calibre': 'uk',
+  'High Contrast': 'uk',
+  'Logistics': 'uk',
+  'Total Science': 'uk',
+  'London Elektricity': 'uk',
+  'Apex Predator': 'uk',
+  'Chase & Status': 'uk',
+  'Andy C': 'uk',
+  'Hospital Records': 'uk',
+  'Daft Punk': 'france',
+  'The Chemical Brothers': 'uk',
+  'Fatboy Slim': 'uk',
+  'Underworld': 'uk',
+  'Leftfield': 'uk',
+  'Massive Attack': 'uk',
+  'Portishead': 'uk',
+  // USA
+  'Deadmau5': 'usa',
+  'Calvin Harris': 'uk',
+  'David Guetta': 'france',
+  'Avicii': 'sweden',
+  'Tiësto': 'iberia',
+  'Armin van Buuren': 'iberia',
+  'Trance Fusion': 'usa',
+  'Paul Oakenfold': 'uk',
+  'Ferry Corsten': 'iberia',
+  'Above & Beyond': 'australia',
+  'Anjunadeep': 'usa',
+  'Lane 8': 'usa',
+  'Eric Prydz': 'sweden',
+  'Carl Cox': 'uk',
+  'Adam Beyer': 'sweden',
+  'Charlotte de Witte': 'iberia',
+  'Amelie Lens': 'iberia',
+  'ANNA': 'germany',
+  'Pan-Pot': 'germany',
+  'Ellen Allien': 'germany',
+  'Ben Klock': 'germany',
+  'Marcel Dettmann': 'germany',
+  // Rock/Classic
+  'The Beatles': 'uk',
+  'Led Zeppelin': 'uk',
+  'Pink Floyd': 'uk',
+  'The Rolling Stones': 'uk',
+  'Queen': 'uk',
+  'David Bowie': 'uk',
+  'The Who': 'uk',
+  'Jimi Hendrix': 'usa',
+  'Metallica': 'usa',
+  'Black Sabbath': 'uk',
+  // Jazz
+  'Miles Davis': 'usa',
+  'John Coltrane': 'usa',
+  'Thelonius Monk': 'usa',
+  'Dizzy Gillespie': 'usa',
+  'Bill Evans': 'usa',
+  // Hip-Hop
+  'Kanye West': 'usa',
+  'Jay-Z': 'usa',
+  'Nas': 'usa',
+  'Rakim': 'usa',
+  'KRS-One': 'usa',
+  'Tupac': 'usa',
+  'Biggie': 'usa',
+  // Indie/Alternative
+  'Radiohead': 'uk',
+  'Arcade Fire': 'canada',
+  'Arctic Monkeys': 'uk',
+  'The Strokes': 'usa',
+  'Interpol': 'usa',
+  'Bon Iver': 'usa',
+  'Grimes': 'canada',
+  'CHVRCHES': 'uk',
+  'M83': 'france',
+  'Moderat': 'germany',
+  'Björk': 'new-zealand',
+  'Thom Yorke': 'uk',
+  'Aphex Twin': 'uk',
+  'Boards of Canada': 'canada',
+  'Autechre': 'uk',
+  'Squarepusher': 'uk',
+  'Amon Tobin': 'canada',
+  'Tycho': 'usa',
+  'Jon Hopkins': 'uk'
 };
 
 const GLOBAL_ARTISTS = [
@@ -78,25 +157,25 @@ const CATEGORIES = [
 const YEARS = Array.from({ length: 30 }, (_, i) => 1995 + i);
 
 const DEFAULT_REALM_MAPPING = {
-  'Drum & Bass': 'new-south-wales',
-  'Dubstep': 'victoria',
-  'Techno': 'victoria',
-  'House': 'queensland',
-  'Deep House': 'victoria',
-  'Trance': 'queensland',
-  'Ambient': 'tasmania',
-  'Downtempo': 'tasmania',
-  'Hip-Hop': 'south-australia',
-  'Indie': 'western-australia',
-  'Rock': 'western-australia',
-  'Jazz': 'south-australia'
+  'Drum & Bass': 'uk',
+  'Dubstep': 'uk',
+  'Techno': 'germany',
+  'House': 'usa',
+  'Deep House': 'france',
+  'Trance': 'sweden',
+  'Ambient': 'canada',
+  'Downtempo': 'japan',
+  'Hip-Hop': 'usa',
+  'Indie': 'usa',
+  'Rock': 'uk',
+  'Jazz': 'usa'
 };
 
 function generateTrack(id, genre, artistList, genre_config) {
-  const isAustralian = Math.random() < 0.25;
-  const artists = isAustralian ? AUSTRALIAN_ARTISTS : GLOBAL_ARTISTS;
-  const artist = artists[Math.floor(Math.random() * artists.length)];
-  const remixer = Math.random() < 0.3 ? artists[Math.floor(Math.random() * artists.length)] : null;
+  // Combine all artists into one pool for better distribution
+  const allArtists = [...AUSTRALIAN_ARTISTS, ...GLOBAL_ARTISTS];
+  const artist = allArtists[Math.floor(Math.random() * allArtists.length)];
+  const remixer = Math.random() < 0.3 ? allArtists[Math.floor(Math.random() * allArtists.length)] : null;
 
   const year = YEARS[Math.floor(Math.random() * YEARS.length)];
   const [bpmMin, bpmMax] = genre_config.bpmRange;
@@ -115,7 +194,8 @@ function generateTrack(id, genre, artistList, genre_config) {
     genreArray.push(otherGenres[Math.floor(Math.random() * otherGenres.length)]);
   }
 
-  const realm = ARTIST_STATE_MAPPING[artist] || DEFAULT_REALM_MAPPING[genre];
+  const realm = ARTIST_COUNTRY_MAPPING[artist] || DEFAULT_REALM_MAPPING[genre] || 'world';
+  const isAustralian = realm === 'australia';
 
   return {
     id: `track_${String(id).padStart(5, '0')}`,
@@ -130,7 +210,7 @@ function generateTrack(id, genre, artistList, genre_config) {
     genres: genreArray,
     sourceUrl: `https://example.com/track/${id}`,
     releaseDate: `${year}-${String(Math.floor(Math.random() * 12) + 1).padStart(2, '0')}-${String(Math.floor(Math.random() * 28) + 1).padStart(2, '0')}`,
-    label: isAustralian ? 'Australian Records' : `${genre} Label`,
+    label: isAustralian ? 'Australian Records' : `${realm} Records`,
     isRemix: !!remixer,
     remixChainId: remixer ? `remix_chain_${id}` : null,
     featured: Math.random() < 0.1,

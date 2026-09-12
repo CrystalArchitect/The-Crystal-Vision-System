@@ -280,19 +280,16 @@
     "What So Not"
   ],
   "labels": [
-    "Ambient Label",
     "Australian Records",
-    "Deep House Label",
-    "Downtempo Label",
-    "Drum & Bass Label",
-    "Dubstep Label",
-    "Hip-Hop Label",
-    "House Label",
-    "Indie Label",
-    "Jazz Label",
-    "Rock Label",
-    "Techno Label",
-    "Trance Label"
+    "canada Records",
+    "france Records",
+    "germany Records",
+    "iberia Records",
+    "japan Records",
+    "new-zealand Records",
+    "sweden Records",
+    "uk Records",
+    "usa Records"
   ],
   "keys": [
     "A",
@@ -321,13 +318,16 @@
     "Gm"
   ],
   "realms": [
-    "new-south-wales",
-    "northern-territory",
-    "queensland",
-    "south-australia",
-    "tasmania",
-    "victoria",
-    "western-australia"
+    "australia",
+    "canada",
+    "france",
+    "germany",
+    "iberia",
+    "japan",
+    "new-zealand",
+    "sweden",
+    "uk",
+    "usa"
   ],
   "bpmRanges": [
     {
@@ -362,44 +362,20 @@
     }
   ],
   "australianArtists": [
-    "Adelaide Wave",
-    "Andy C",
-    "Apex Predator",
-    "Australian Broadcasting",
-    "BBC Recording",
+    "Above & Beyond",
     "Bag Raiders",
     "Baker Boy",
-    "Brisbane Bass",
-    "Calibre",
-    "Canberra Collective",
-    "Chase & Status",
     "Chet Faker",
     "Cut Copy",
-    "Darwin Dynamics",
     "Flight Facilities",
     "Flume",
     "George Maple",
-    "High Contrast",
-    "Hobart Depth",
-    "Hospital Records",
-    "Logistics",
-    "London Elektricity",
-    "Marcus Intalex",
-    "Marky",
-    "Melbourne Deep",
     "Peking Duk",
     "Pendulum",
-    "Perth Electronic",
-    "Purity Ring (feat.)",
     "Rüfüs DU SOL",
-    "S.P.Y",
-    "Stakez",
-    "Strategy",
-    "Sydney Sound",
     "Ta-ku",
     "The Presets",
     "Tones and I",
-    "Total Science",
     "What So Not"
   ]
 }
