@@ -1,0 +1,75 @@
+---
+// SPDX-License-Identifier: MIT
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import type { Track } from "../types";
+import { formatCount } from "../lib/format";
+
+let tracks: Track[] = [];
+try {
+  tracks = await import("../data/tracks.json").then((m) => m.default);
+} catch {
+  console.warn("Could not load tracks.json - run \"npm run data\" first");
+}
+---
+
+<BaseLayout>
+  <div class="max-w-4xl mx-auto space-y-12">
+    <div class="space-y-4">
+      <h1 class="text-5xl font-bold text-white">Drum & Bass Library</h1>
+      <p class="text-lg text-neutral-400 max-w-2xl">
+        Explore a curated collection of {formatCount(tracks.length)} drum & bass tracks. Search, filter, rate, and organize your favorites.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <a
+        href="/tracks"
+        class="p-6 rounded-lg bg-gradient-to-br from-accent-400/20 to-accent-300/10 border border-accent-400/30 hover:border-accent-400 transition-colors group"
+      >
+        <div class="text-3xl mb-2">🎵</div>
+        <h2 class="font-semibold text-white mb-2 group-hover:text-accent">Browse Tracks</h2>
+        <p class="text-sm text-neutral-400">
+          Search and filter {formatCount(tracks.length)} tracks with full-text search, filters, and sorting.
+        </p>
+      </a>
+
+      <a
+        href="/playlists"
+        class="p-6 rounded-lg bg-gradient-to-br from-accent-400/20 to-accent-300/10 border border-accent-400/30 hover:border-accent-400 transition-colors group"
+      >
+        <div class="text-3xl mb-2">📋</div>
+        <h2 class="font-semibold text-white mb-2 group-hover:text-accent">Playlists</h2>
+        <p class="text-sm text-neutral-400">Create playlists, tag tracks, rate your favorites, and build smart playlists with rules.</p>
+      </a>
+
+      <a
+        href="/stats"
+        class="p-6 rounded-lg bg-gradient-to-br from-accent-400/20 to-accent-300/10 border border-accent-400/30 hover:border-accent-400 transition-colors group"
+      >
+        <div class="text-3xl mb-2">📊</div>
+        <h2 class="font-semibold text-white mb-2 group-hover:text-accent">Statistics</h2>
+        <p class="text-sm text-neutral-400">Visualize your library with stats on artists, years, genres, and playback history.</p>
+      </a>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <a href="/artists" class="p-4 rounded-lg bg-ink-900 border border-ink-800 hover:border-ink-700 transition-colors">
+        <span class="font-medium text-white">🎤 Browse by Artist</span>
+      </a>
+      <a href="/timeline" class="p-4 rounded-lg bg-ink-900 border border-ink-800 hover:border-ink-700 transition-colors">
+        <span class="font-medium text-white">📅 Timeline by Year</span>
+      </a>
+      <a href="/rediscover" class="p-4 rounded-lg bg-ink-900 border border-ink-800 hover:border-ink-700 transition-colors">
+        <span class="font-medium text-white">✨ Rediscover Gems</span>
+      </a>
+      <a href="/about" class="p-4 rounded-lg bg-ink-900 border border-ink-800 hover:border-ink-700 transition-colors">
+        <span class="font-medium text-white">ℹ️ About</span>
+      </a>
+    </div>
+
+    <div class="text-center text-sm text-neutral-500 py-8">
+      <p>Keyboard shortcuts: <span class="font-mono">⌘K</span> for command palette, <span class="font-mono">?</span> for help</p>
+    </div>
+  </div>
+</BaseLayout>

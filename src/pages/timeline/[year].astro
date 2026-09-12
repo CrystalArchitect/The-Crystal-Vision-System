@@ -1,0 +1,58 @@
+---
+// SPDX-License-Identifier: MIT
+
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import type { Track } from "../../types";
+
+let tracks: Track[] = [];
+let years: number[] = [];
+
+try {
+  tracks = await import("../../data/tracks.json").then((m) => m.default);
+  const yearSet = new Set(tracks.map((t) => t.year));
+  years = Array.from(yearSet);
+} catch {
+  console.warn("Could not load tracks.json");
+}
+
+export function getStaticPaths() {
+  return years.map((year) => ({
+    params: { year: String(year) },
+    props: { year },
+  }));
+}
+
+const { year } = Astro.props;
+const yearTracks = tracks.filter((t) => t.year === year);
+---
+
+<BaseLayout>
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-4xl font-bold text-white mb-2">{year}</h1>
+    <p class="text-neutral-400 mb-8">{yearTracks.length} tracks</p>
+
+    {
+      yearTracks.length === 0 ? (
+        <div class="text-center py-12 text-neutral-500">
+          <p>No tracks found for this year</p>
+        </div>
+      ) : (
+        <div class="space-y-2">
+          {yearTracks.map((track) => (
+            <a
+              href={track.sourceUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="p-4 rounded-lg bg-ink-900 border border-ink-800 hover:border-accent hover:bg-ink-800 transition-colors group block"
+            >
+              <div class="font-semibold text-white group-hover:text-accent">{track.title}</div>
+              <div class="text-xs text-neutral-500 mt-1">
+                {track.artist} • {track.bpm} BPM
+              </div>
+            </a>
+          ))}
+        </div>
+      )
+    }
+  </div>
+</BaseLayout>

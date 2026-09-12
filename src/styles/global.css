@@ -1,0 +1,85 @@
+/* SPDX-License-Identifier: MIT */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply transition-colors duration-200;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink-900 text-ink-50;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-ink-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply rounded bg-ink-700;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-ink-600;
+}
+
+/* Selection */
+::selection {
+  @apply bg-accent-500 text-ink-900;
+}
+
+/* Links */
+a {
+  @apply text-accent-400 hover:text-accent-300;
+}
+
+a:focus-visible {
+  @apply outline-2 outline-offset-2 outline-accent-400;
+}
+
+/* Buttons */
+button {
+  @apply focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-400;
+}
+
+/* Input */
+input,
+textarea {
+  @apply rounded border border-ink-700 bg-ink-800 px-3 py-2 text-ink-50 placeholder-ink-500 transition-colors focus:border-accent-500 focus:outline-none;
+}
+
+input:disabled,
+textarea:disabled {
+  @apply cursor-not-allowed opacity-50;
+}
+
+/* Tables */
+table {
+  @apply w-full border-collapse;
+}
+
+thead {
+  @apply bg-ink-800;
+}
+
+tbody tr {
+  @apply border-b border-ink-700 hover:bg-ink-800;
+}
+
+th {
+  @apply px-4 py-2 text-left font-semibold;
+}
+
+td {
+  @apply px-4 py-2;
+}

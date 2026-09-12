@@ -1,0 +1,87 @@
+---
+// SPDX-License-Identifier: MIT
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+import type { Track } from "../types";
+
+let tracks: Track[] = [];
+try {
+  tracks = await import("../data/tracks.json").then((m) => m.default);
+} catch {
+  console.warn("Could not load tracks.json - run \"npm run data\" first");
+}
+
+// Calculate statistics
+const categories = new Map<string, number>();
+const years = new Map<number, number>();
+const artists = new Map<string, number>();
+
+tracks.forEach(track => {
+  categories.set(track.category, (categories.get(track.category) || 0) + 1);
+  years.set(track.year, (years.get(track.year) || 0) + 1);
+  artists.set(track.artist, (artists.get(track.artist) || 0) + 1);
+});
+
+const topArtists = Array.from(artists.entries())
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 10);
+---
+
+<BaseLayout title="Statistics">
+  <div class="space-y-8">
+    <h1 class="text-4xl font-bold">Library Statistics</h1>
+
+    <!-- Top Artists -->
+    <div class="rounded-lg bg-ink-800 p-6">
+      <h2 class="mb-4 text-2xl font-bold">Top Artists</h2>
+      <div class="space-y-2">
+        {
+          topArtists.map(([artist, count]) => (
+            <div class="flex items-center justify-between rounded bg-ink-700 px-4 py-2">
+              <span>{artist}</span>
+              <span class="text-accent-400">{count} tracks</span>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="rounded-lg bg-ink-800 p-6">
+      <h2 class="mb-4 text-2xl font-bold">Categories</h2>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          Array.from(categories.entries())
+            .sort((a, b) => b[1] - a[1])
+            .map(([category, count]) => (
+              <div class="rounded bg-ink-700 p-4 text-center">
+                <div class="text-accent-400">{category}</div>
+                <div class="mt-2 text-2xl font-bold">{count}</div>
+              </div>
+            ))
+        }
+      </div>
+    </div>
+
+    <!-- Years Distribution -->
+    <div class="rounded-lg bg-ink-800 p-6">
+      <h2 class="mb-4 text-2xl font-bold">Tracks by Year</h2>
+      <div class="space-y-2">
+        {
+          Array.from(years.entries())
+            .sort((a, b) => b[0] - a[0])
+            .slice(0, 10)
+            .map(([year, count]) => (
+              <div class="flex items-center justify-between rounded bg-ink-700 px-4 py-2">
+                <span>{year}</span>
+                <div class="flex items-center gap-2">
+                  <div class="h-2 rounded bg-accent-500" style={`width: ${(count / tracks.length) * 200}px`} />
+                  <span class="text-accent-400 min-w-12 text-right">{count}</span>
+                </div>
+              </div>
+            ))
+        }
+      </div>
+    </div>
+  </div>
+</BaseLayout>

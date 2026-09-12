@@ -1,0 +1,22 @@
+---
+// SPDX-License-Identifier: MIT
+
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import SmartPlaylistView from "../../../components/react/SmartPlaylistView";
+import type { Track } from "../../../types";
+
+const { id } = Astro.params;
+
+let tracks: Track[] = [];
+try {
+  tracks = await import("../../../data/tracks.json").then((m) => m.default);
+} catch {
+  console.warn("Could not load tracks.json");
+}
+---
+
+<BaseLayout>
+  <div class="max-w-4xl mx-auto">
+    <SmartPlaylistView client:load smartPlaylistId={id || ""} allTracks={tracks} />
+  </div>
+</BaseLayout>

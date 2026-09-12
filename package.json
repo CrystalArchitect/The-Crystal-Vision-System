@@ -1,0 +1,49 @@
+{
+  "name": "astro-dnb-library",
+  "version": "1.0.0",
+  "description": "A personal drum & bass music library browser built with Astro",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run data && astro build",
+    "preview": "astro preview",
+    "data": "node scripts/generate-tracks.mjs && node scripts/generate-indexes.mjs",
+    "lint": "eslint src --ext .ts,.tsx",
+    "format": "prettier --write 'src/**/*.{ts,tsx,astro,css}'"
+  },
+  "keywords": [
+    "astro",
+    "music",
+    "library",
+    "drum-and-bass",
+    "dnb"
+  ],
+  "author": "MC_MUSK@icloud.com",
+  "license": "MIT",
+  "dependencies": {
+    "astro": "^4.0.0",
+    "@astrojs/react": "^3.0.0",
+    "@astrojs/tailwind": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.31",
+    "autoprefixer": "^10.4.16",
+    "fuse.js": "^7.0.0",
+    "@dnd-kit/sortable": "^8.0.0",
+    "@dnd-kit/utilities": "^3.2.0",
+    "@dnd-kit/core": "^6.1.0",
+    "lucide-react": "^0.294.0",
+    "clsx": "^2.0.0",
+    "zustand": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.3.0",
+    "prettier": "^3.1.0",
+    "eslint": "^8.54.0",
+    "eslint-plugin-astro": "^0.31.0",
+    "@typescript-eslint/parser": "^6.13.0"
+  }
+}

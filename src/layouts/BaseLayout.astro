@@ -1,0 +1,66 @@
+---
+// SPDX-License-Identifier: MIT
+
+interface Props {
+  title?: string;
+}
+
+const { title = 'Drum & Bass Library' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+  </head>
+  <body class="bg-ink-900 text-ink-50">
+    <header class="border-b border-ink-700 bg-ink-800">
+      <nav class="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between">
+          <a href="/" class="text-2xl font-bold text-accent-400">
+            🎵 D&B Library
+          </a>
+          <div class="flex gap-6">
+            <a href="/" class="hover:text-accent-400">Tracks</a>
+            <a href="/playlists" class="hover:text-accent-400">Playlists</a>
+            <a href="/stats" class="hover:text-accent-400">Stats</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <slot />
+    </main>
+
+    <footer class="border-t border-ink-700 bg-ink-800 py-4 text-center text-sm text-ink-400">
+      <p>Drum &amp; Bass Music Library • Built with Astro</p>
+    </footer>
+  </body>
+</html>
+
+<style is:global>
+  * {
+    @apply transition-colors duration-200;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgb(13, 10, 8);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgb(107, 93, 82);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(139, 127, 116);
+  }
+</style>

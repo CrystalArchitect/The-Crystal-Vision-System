@@ -1,0 +1,46 @@
+---
+// SPDX-License-Identifier: MIT
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import type { Track } from "../types";
+
+let tracks: Track[] = [];
+let years: number[] = [];
+
+try {
+  tracks = await import("../data/tracks.json").then((m) => m.default);
+  const yearSet = new Set(tracks.map((t) => t.year));
+  years = Array.from(yearSet).sort((a, b) => b - a);
+} catch {
+  console.warn("Could not load tracks.json");
+}
+---
+
+<BaseLayout>
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-4xl font-bold text-white mb-8">Timeline</h1>
+
+    {
+      years.length === 0 ? (
+        <div class="text-center py-12 text-neutral-500">
+          <p>No years found. Run "npm run data" to generate tracks.</p>
+        </div>
+      ) : (
+        <div class="space-y-3">
+          {years.map((year) => {
+            const count = tracks.filter((t) => t.year === year).length;
+            return (
+              <a
+                href={`/timeline/${year}`}
+                class="p-4 rounded-lg bg-ink-900 border border-ink-800 hover:border-accent hover:bg-ink-800 transition-colors flex items-center justify-between group"
+              >
+                <div class="font-semibold text-white group-hover:text-accent">{year}</div>
+                <div class="text-xs text-neutral-500">{count} tracks</div>
+              </a>
+            );
+          })}
+        </div>
+      )
+    }
+  </div>
+</BaseLayout>

@@ -1,0 +1,13 @@
+---
+// SPDX-License-Identifier: MIT
+
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PlaylistIndex from "../components/react/PlaylistIndex";
+---
+
+<BaseLayout>
+  <div class="max-w-4xl mx-auto">
+    <h1 class="text-4xl font-bold text-white mb-8">Playlists</h1>
+    <PlaylistIndex client:load onMetaChange={() => window.location.reload()} />
+  </div>
+</BaseLayout>
