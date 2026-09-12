@@ -29,6 +29,30 @@ const AUSTRALIAN_ARTISTS = [
   'Canberra Collective', 'Hobart Depth', 'Darwin Dynamics'
 ];
 
+const ARTIST_STATE_MAPPING = {
+  'Pendulum': 'new-south-wales',
+  'The Presets': 'new-south-wales',
+  'Cut Copy': 'victoria',
+  'Tones and I': 'victoria',
+  'Rüfüs DU SOL': 'new-south-wales',
+  'Bag Raiders': 'new-south-wales',
+  'What So Not': 'queensland',
+  'Flume': 'new-south-wales',
+  'Ta-ku': 'new-south-wales',
+  'George Maple': 'victoria',
+  'Peking Duk': 'new-south-wales',
+  'Baker Boy': 'northern-territory',
+  'Chet Faker': 'victoria',
+  'Flight Facilities': 'new-south-wales',
+  'Sydney Sound': 'new-south-wales',
+  'Melbourne Deep': 'victoria',
+  'Brisbane Bass': 'queensland',
+  'Perth Electronic': 'western-australia',
+  'Adelaide Wave': 'south-australia',
+  'Hobart Depth': 'tasmania',
+  'Darwin Dynamics': 'northern-territory'
+};
+
 const GLOBAL_ARTISTS = [
   'Daft Punk', 'The Chemical Brothers', 'Fatboy Slim', 'Underworld', 'Leftfield',
   'Massive Attack', 'Portishead', 'Björk', 'Thom Yorke', 'Aphex Twin',
@@ -53,19 +77,19 @@ const CATEGORIES = [
 
 const YEARS = Array.from({ length: 30 }, (_, i) => 1995 + i);
 
-const REALM_MAPPING = {
-  'Drum & Bass': 'velocity',
-  'Dubstep': 'velocity',
-  'Techno': 'velocity',
-  'House': 'flow',
-  'Deep House': 'flow',
-  'Trance': 'flow',
-  'Ambient': 'serenity',
-  'Downtempo': 'serenity',
-  'Hip-Hop': 'expression',
-  'Indie': 'expression',
-  'Rock': 'foundation',
-  'Jazz': 'dialogue'
+const DEFAULT_REALM_MAPPING = {
+  'Drum & Bass': 'new-south-wales',
+  'Dubstep': 'victoria',
+  'Techno': 'victoria',
+  'House': 'queensland',
+  'Deep House': 'victoria',
+  'Trance': 'queensland',
+  'Ambient': 'tasmania',
+  'Downtempo': 'tasmania',
+  'Hip-Hop': 'south-australia',
+  'Indie': 'western-australia',
+  'Rock': 'western-australia',
+  'Jazz': 'south-australia'
 };
 
 function generateTrack(id, genre, artistList, genre_config) {
@@ -91,7 +115,7 @@ function generateTrack(id, genre, artistList, genre_config) {
     genreArray.push(otherGenres[Math.floor(Math.random() * otherGenres.length)]);
   }
 
-  const realm = isAustralian ? 'horizon' : REALM_MAPPING[genre];
+  const realm = ARTIST_STATE_MAPPING[artist] || DEFAULT_REALM_MAPPING[genre];
 
   return {
     id: `track_${String(id).padStart(5, '0')}`,

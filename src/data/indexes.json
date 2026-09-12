@@ -321,13 +321,13 @@
     "Gm"
   ],
   "realms": [
-    "dialogue",
-    "expression",
-    "flow",
-    "foundation",
-    "horizon",
-    "serenity",
-    "velocity"
+    "new-south-wales",
+    "northern-territory",
+    "queensland",
+    "south-australia",
+    "tasmania",
+    "victoria",
+    "western-australia"
   ],
   "bpmRanges": [
     {

@@ -1,72 +1,79 @@
 [
   {
-    "id": "velocity",
-    "name": "Velocity",
-    "description": "Breakneck pace and intricate rhythms. Where beats collide and patterns emerge from chaos. The realm of pure kinetic energy.",
-    "color": "purple",
-    "iconEmoji": "⚡",
-    "genres": ["Drum & Bass", "Dubstep", "Techno"],
-    "mood": "intense, energetic, driving",
-    "bpmRange": { "min": 140, "max": 180 }
-  },
-  {
-    "id": "flow",
-    "name": "Flow",
-    "description": "Hypnotic grooves and rhythmic motion. The sweet spot between melody and beat. Designed to move you.",
+    "id": "new-south-wales",
+    "name": "New South Wales",
+    "description": "Sydney and Newcastle: Australia's electronic heartland. Birthplace of breakthrough sounds and global exports.",
     "color": "blue",
-    "iconEmoji": "🌊",
-    "genres": ["House", "Deep House", "Trance"],
-    "mood": "groovy, uplifting, euphoric",
-    "bpmRange": { "min": 110, "max": 140 }
+    "iconEmoji": "🏙️",
+    "genres": ["Drum & Bass", "House", "Techno", "Trance"],
+    "mood": "urban, pioneering, cosmopolitan",
+    "bpmRange": { "min": 120, "max": 180 },
+    "region": "East Coast"
   },
   {
-    "id": "serenity",
-    "name": "Serenity",
-    "description": "Ethereal soundscapes and meditative atmospheres. Space to breathe. Time to reflect.",
-    "color": "teal",
-    "iconEmoji": "🌙",
-    "genres": ["Ambient", "Downtempo"],
-    "mood": "calm, peaceful, introspective",
-    "bpmRange": { "min": 60, "max": 110 }
+    "id": "victoria",
+    "name": "Victoria",
+    "description": "Melbourne: The electronic music capital. Deep house, techno, and indie innovation.",
+    "color": "purple",
+    "iconEmoji": "🎵",
+    "genres": ["Deep House", "Techno", "Indie", "Downtempo"],
+    "mood": "underground, experimental, sophisticated",
+    "bpmRange": { "min": 90, "max": 140 },
+    "region": "South-East"
   },
   {
-    "id": "expression",
-    "name": "Expression",
-    "description": "Human voices and raw emotion. Stories told through sound. The triumph and struggle of being alive.",
-    "color": "orange",
-    "iconEmoji": "🔥",
-    "genres": ["Hip-Hop", "Indie"],
-    "mood": "expressive, authentic, rebellious",
-    "bpmRange": { "min": 85, "max": 120 }
-  },
-  {
-    "id": "foundation",
-    "name": "Foundation",
-    "description": "The bedrock of modern music. Raw power and timeless structure. Built to last.",
-    "color": "red",
-    "iconEmoji": "🪨",
-    "genres": ["Rock"],
-    "mood": "powerful, timeless, commanding",
-    "bpmRange": { "min": 100, "max": 140 }
-  },
-  {
-    "id": "dialogue",
-    "name": "Dialogue",
-    "description": "Conversation between instruments. Complex conversations in real time. Improvisation as art form.",
+    "id": "queensland",
+    "name": "Queensland",
+    "description": "Brisbane and Gold Coast: Sunny vibes and tropical electronic rhythms. House and ambient innovations.",
     "color": "gold",
-    "iconEmoji": "🎺",
-    "genres": ["Jazz"],
-    "mood": "sophisticated, improvisational, conversational",
-    "bpmRange": { "min": 80, "max": 120 }
+    "iconEmoji": "☀️",
+    "genres": ["House", "Ambient", "Trance", "Hip-Hop"],
+    "mood": "uplifting, tropical, energetic",
+    "bpmRange": { "min": 100, "max": 140 },
+    "region": "North-East"
   },
   {
-    "id": "horizon",
-    "name": "Horizon",
-    "description": "Australian artists bridging realms. Fresh perspectives from the land down under. The new frontier of sound.",
+    "id": "western-australia",
+    "name": "Western Australia",
+    "description": "Perth: Isolated, innovative. A unique sound emerging from the west. Rock and alternative edge.",
+    "color": "orange",
+    "iconEmoji": "🌅",
+    "genres": ["Rock", "Indie", "Drum & Bass"],
+    "mood": "independent, bold, frontier",
+    "bpmRange": { "min": 85, "max": 160 },
+    "region": "West Coast"
+  },
+  {
+    "id": "south-australia",
+    "name": "South Australia",
+    "description": "Adelaide: Jazz traditions meet electronic futures. A diverse cultural crossroads.",
+    "color": "red",
+    "iconEmoji": "🎷",
+    "genres": ["Jazz", "Hip-Hop", "Electronic", "Downtempo"],
+    "mood": "soulful, diverse, grounded",
+    "bpmRange": { "min": 80, "max": 120 },
+    "region": "South"
+  },
+  {
+    "id": "tasmania",
+    "name": "Tasmania",
+    "description": "Hobart: Remote, atmospheric. Ambient and experimental sounds shaped by isolation.",
+    "color": "teal",
+    "iconEmoji": "🌲",
+    "genres": ["Ambient", "Experimental", "Downtempo", "Electronic"],
+    "mood": "atmospheric, introspective, pristine",
+    "bpmRange": { "min": 60, "max": 110 },
+    "region": "South"
+  },
+  {
+    "id": "northern-territory",
+    "name": "Northern Territory",
+    "description": "Darwin and beyond: The frontier realm. Indigenous influences meet contemporary sound.",
     "color": "green",
-    "iconEmoji": "🌏",
-    "genres": ["Drum & Bass", "House", "Indie", "Electronic"],
-    "mood": "innovative, diverse, pioneering",
-    "bpmRange": { "min": 85, "max": 160 }
+    "iconEmoji": "🦘",
+    "genres": ["Hip-Hop", "Indie", "Electronic", "Ambient"],
+    "mood": "authentic, pioneering, connected",
+    "bpmRange": { "min": 85, "max": 140 },
+    "region": "North"
   }
 ]
