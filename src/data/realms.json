@@ -1,0 +1,72 @@
+[
+  {
+    "id": "velocity",
+    "name": "Velocity",
+    "description": "Breakneck pace and intricate rhythms. Where beats collide and patterns emerge from chaos. The realm of pure kinetic energy.",
+    "color": "purple",
+    "iconEmoji": "⚡",
+    "genres": ["Drum & Bass", "Dubstep", "Techno"],
+    "mood": "intense, energetic, driving",
+    "bpmRange": { "min": 140, "max": 180 }
+  },
+  {
+    "id": "flow",
+    "name": "Flow",
+    "description": "Hypnotic grooves and rhythmic motion. The sweet spot between melody and beat. Designed to move you.",
+    "color": "blue",
+    "iconEmoji": "🌊",
+    "genres": ["House", "Deep House", "Trance"],
+    "mood": "groovy, uplifting, euphoric",
+    "bpmRange": { "min": 110, "max": 140 }
+  },
+  {
+    "id": "serenity",
+    "name": "Serenity",
+    "description": "Ethereal soundscapes and meditative atmospheres. Space to breathe. Time to reflect.",
+    "color": "teal",
+    "iconEmoji": "🌙",
+    "genres": ["Ambient", "Downtempo"],
+    "mood": "calm, peaceful, introspective",
+    "bpmRange": { "min": 60, "max": 110 }
+  },
+  {
+    "id": "expression",
+    "name": "Expression",
+    "description": "Human voices and raw emotion. Stories told through sound. The triumph and struggle of being alive.",
+    "color": "orange",
+    "iconEmoji": "🔥",
+    "genres": ["Hip-Hop", "Indie"],
+    "mood": "expressive, authentic, rebellious",
+    "bpmRange": { "min": 85, "max": 120 }
+  },
+  {
+    "id": "foundation",
+    "name": "Foundation",
+    "description": "The bedrock of modern music. Raw power and timeless structure. Built to last.",
+    "color": "red",
+    "iconEmoji": "🪨",
+    "genres": ["Rock"],
+    "mood": "powerful, timeless, commanding",
+    "bpmRange": { "min": 100, "max": 140 }
+  },
+  {
+    "id": "dialogue",
+    "name": "Dialogue",
+    "description": "Conversation between instruments. Complex conversations in real time. Improvisation as art form.",
+    "color": "gold",
+    "iconEmoji": "🎺",
+    "genres": ["Jazz"],
+    "mood": "sophisticated, improvisational, conversational",
+    "bpmRange": { "min": 80, "max": 120 }
+  },
+  {
+    "id": "horizon",
+    "name": "Horizon",
+    "description": "Australian artists bridging realms. Fresh perspectives from the land down under. The new frontier of sound.",
+    "color": "green",
+    "iconEmoji": "🌏",
+    "genres": ["Drum & Bass", "House", "Indie", "Electronic"],
+    "mood": "innovative, diverse, pioneering",
+    "bpmRange": { "min": 85, "max": 160 }
+  }
+]

@@ -236,6 +236,7 @@
     "London Elektricity",
     "M83",
     "Marcel Dettmann",
+    "Marcus Intalex",
     "Marky",
     "Massive Attack",
     "Melbourne Deep",
@@ -318,6 +319,15 @@
     "G#",
     "G#m",
     "Gm"
+  ],
+  "realms": [
+    "dialogue",
+    "expression",
+    "flow",
+    "foundation",
+    "horizon",
+    "serenity",
+    "velocity"
   ],
   "bpmRanges": [
     {

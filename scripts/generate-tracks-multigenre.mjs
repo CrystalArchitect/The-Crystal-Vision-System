@@ -53,6 +53,21 @@ const CATEGORIES = [
 
 const YEARS = Array.from({ length: 30 }, (_, i) => 1995 + i);
 
+const REALM_MAPPING = {
+  'Drum & Bass': 'velocity',
+  'Dubstep': 'velocity',
+  'Techno': 'velocity',
+  'House': 'flow',
+  'Deep House': 'flow',
+  'Trance': 'flow',
+  'Ambient': 'serenity',
+  'Downtempo': 'serenity',
+  'Hip-Hop': 'expression',
+  'Indie': 'expression',
+  'Rock': 'foundation',
+  'Jazz': 'dialogue'
+};
+
 function generateTrack(id, genre, artistList, genre_config) {
   const isAustralian = Math.random() < 0.25;
   const artists = isAustralian ? AUSTRALIAN_ARTISTS : GLOBAL_ARTISTS;
@@ -76,6 +91,8 @@ function generateTrack(id, genre, artistList, genre_config) {
     genreArray.push(otherGenres[Math.floor(Math.random() * otherGenres.length)]);
   }
 
+  const realm = isAustralian ? 'horizon' : REALM_MAPPING[genre];
+
   return {
     id: `track_${String(id).padStart(5, '0')}`,
     title: `${artist} - ${genre} Track ${id}`,
@@ -93,7 +110,8 @@ function generateTrack(id, genre, artistList, genre_config) {
     isRemix: !!remixer,
     remixChainId: remixer ? `remix_chain_${id}` : null,
     featured: Math.random() < 0.1,
-    isAustralian: isAustralian
+    isAustralian: isAustralian,
+    realm: realm
   };
 }
 
@@ -122,6 +140,7 @@ const indexes = {
   remixers: [...new Set(tracks.filter(t => t.remixer).map(t => t.remixer))].sort(),
   labels: [...new Set(tracks.map(t => t.label))].sort(),
   keys: [...new Set(tracks.map(t => t.key))].sort(),
+  realms: [...new Set(tracks.map(t => t.realm))].sort(),
   bpmRanges: [
     { min: 60, max: 90, label: 'Slow' },
     { min: 90, max: 120, label: 'Medium' },
@@ -136,6 +155,7 @@ const indexes = {
 console.log(`Artists: ${indexes.artists.length}`);
 console.log(`Years: ${indexes.years.length}`);
 console.log(`Genres: ${indexes.genres.length}`);
+console.log(`Realms: ${indexes.realms.length}`);
 console.log(`Australian Artists: ${indexes.australianArtists.length}`);
 
 // Write to files
