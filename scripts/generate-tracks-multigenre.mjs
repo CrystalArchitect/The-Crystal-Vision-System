@@ -154,7 +154,7 @@ const CATEGORIES = [
   'Dark', 'Bright', 'Atmospheric', 'Melodic', 'Percussive'
 ];
 
-const YEARS = Array.from({ length: 30 }, (_, i) => 1995 + i);
+const YEARS = Array.from({ length: 50 }, (_, i) => 1975 + i);
 
 const DEFAULT_REALM_MAPPING = {
   'Drum & Bass': 'uk',
@@ -219,13 +219,13 @@ function generateTrack(id, genre, artistList, genre_config) {
   };
 }
 
-console.log('Generating 10,000 tracks across 12 genres...');
+console.log('Generating 15,000 tracks across 12 genres (1975-2024)...');
 
 const tracks = [];
 let trackId = 1;
 
 for (const [genre, config] of Object.entries(GENRES)) {
-  const tracksPerGenre = Math.floor(10000 / Object.keys(GENRES).length);
+  const tracksPerGenre = Math.floor(15000 / Object.keys(GENRES).length);
   console.log(`  ${genre}: ${tracksPerGenre} tracks`);
 
   for (let i = 0; i < tracksPerGenre; i++) {
