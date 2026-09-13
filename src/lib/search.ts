@@ -14,6 +14,7 @@ export interface FilterState {
   hasRemix: boolean | null;
   isVIP: boolean | null;
   duplicatesOnly: boolean;
+  realm: string | null;
 }
 
 export const EMPTY_FILTERS: FilterState = {
@@ -27,6 +28,7 @@ export const EMPTY_FILTERS: FilterState = {
   hasRemix: null,
   isVIP: null,
   duplicatesOnly: false,
+  realm: null,
 };
 
 export type SortKey = "title" | "artist" | "year" | "mb" | "playCount" | "rating";
@@ -78,6 +80,7 @@ export function applyFilters(
     if (filters.category !== null && t.category !== filters.category) return false;
     if (filters.artist !== null && t.artist !== filters.artist) return false;
     if (filters.remixer !== null && t.remixer !== filters.remixer) return false;
+    if (filters.realm !== null && t.realm !== filters.realm) return false;
     if (filters.hasRemix !== null && t.isRemix !== filters.hasRemix) return false;
     if (filters.minRating > 0) {
       const meta = metaLookup(t.id);
@@ -141,6 +144,7 @@ export function filtersToQuery(f: FilterState): string {
   if (f.category) p.set("cat", f.category);
   if (f.artist) p.set("artist", f.artist);
   if (f.remixer) p.set("remixer", f.remixer);
+  if (f.realm) p.set("realm", f.realm);
   if (f.tag) p.set("tag", f.tag);
   if (f.minRating) p.set("rating", String(f.minRating));
   if (f.hasRemix !== null) p.set("remix", f.hasRemix ? "1" : "0");
@@ -160,6 +164,8 @@ export function queryToFilters(params: URLSearchParams): FilterState {
   if (artist) f.artist = artist;
   const remixer = params.get("remixer");
   if (remixer) f.remixer = remixer;
+  const realm = params.get("realm");
+  if (realm) f.realm = realm;
   const tag = params.get("tag");
   if (tag) f.tag = tag;
   const rating = params.get("rating");

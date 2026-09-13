@@ -9,6 +9,7 @@ interface Props {
   sort: SortState;
   setSort: (s: SortState) => void;
   yearOptions: number[];
+  realms: any[];
   resultCount: number;
   totalCount: number;
 }
@@ -19,6 +20,7 @@ export default function FilterBar({
   sort,
   setSort,
   yearOptions,
+  realms,
   resultCount,
   totalCount,
 }: Props) {
@@ -64,6 +66,17 @@ export default function FilterBar({
         </select>
 
         <select
+          value={filters.realm ?? ""}
+          onChange={(e) => update("realm", e.target.value || null)}
+          className="rounded border border-ink-700 bg-ink-900 px-2 py-1.5 text-sm"
+        >
+          <option value="">Any realm</option>
+          {realms.map((r) => (
+            <option key={r.id} value={r.id}>{r.iconEmoji} {r.name}</option>
+          ))}
+        </select>
+
+        <select
           value={filters.minRating}
           onChange={(e) => update("minRating", parseInt(e.target.value, 10))}
           className="rounded border border-ink-700 bg-ink-900 px-2 py-1.5 text-sm"
@@ -76,7 +89,7 @@ export default function FilterBar({
 
         <button
           type="button"
-          onClick={() => setFilters({ q: "", year: null, category: null, artist: null, remixer: null, tag: null, minRating: 0, hasRemix: null, isVIP: null, duplicatesOnly: false })}
+          onClick={() => setFilters({ q: "", year: null, category: null, artist: null, remixer: null, tag: null, minRating: 0, hasRemix: null, isVIP: null, duplicatesOnly: false, realm: null })}
           className="rounded border border-ink-700 px-2 py-1.5 text-xs text-neutral-400 hover:text-white"
         >
           Reset
