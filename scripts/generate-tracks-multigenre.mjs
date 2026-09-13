@@ -219,13 +219,13 @@ function generateTrack(id, genre, artistList, genre_config) {
   };
 }
 
-console.log('Generating 35,000 tracks across 12 genres (1975-2024)...');
+console.log('Generating 40,000 tracks across 12 genres (1975-2024)...');
 
 const tracks = [];
 let trackId = 1;
 
 for (const [genre, config] of Object.entries(GENRES)) {
-  const tracksPerGenre = Math.floor(35000 / Object.keys(GENRES).length);
+  const tracksPerGenre = Math.floor(40000 / Object.keys(GENRES).length);
   console.log(`  ${genre}: ${tracksPerGenre} tracks`);
 
   for (let i = 0; i < tracksPerGenre; i++) {
