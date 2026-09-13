@@ -2,6 +2,7 @@
 // SPDX-License-Identifier: MIT
 
 import BaseLayout from '../layouts/BaseLayout.astro';
+import TrendAnalysis from '../components/react/TrendAnalysis';
 import type { Track } from "../types";
 
 let tracks: Track[] = [];
@@ -98,6 +99,9 @@ const avgTracksPerArtist = (tracks.length / uniqueArtists).toFixed(1);
         }
       </div>
     </div>
+
+    <!-- Trend Analysis -->
+    <TrendAnalysis client:load {tracks} />
 
     <!-- Genre Distribution -->
     <div class="rounded-lg bg-ink-800 p-6 border border-accent-500/20">
