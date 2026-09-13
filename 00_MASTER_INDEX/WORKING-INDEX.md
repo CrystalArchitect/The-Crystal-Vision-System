@@ -18,5 +18,10 @@
 | CVS-MATH-18 | 18 | Mathematical Foundations Drawer | coordination | no | `/18_MATHEMATICAL_FOUNDATIONS/INDEX.md` |
 | CVS-PHILO-19 | 19 | Philosophical Foundations Drawer | coordination | no | `/19_PHILOSOPHICAL_FOUNDATIONS/INDEX.md` |
 | CVS-ECON-20 | 20 | Economic Models Drawer | coordination | no | `/20_ECONOMIC_MODELS/INDEX.md` |
+| CVS-RES-STATUS | 00 | Cross-Domain Research Status (baseline 2026-09-13) | research | no | `/00_MEMORY/RESEARCH-STATUS.md` |
 
 Canon stays **no** until Crystal stamps it.
+
+## Latest Updates
+
+- **2026-09-13:** Established cross-domain research baseline. 5 active science domains (AI Safety/Physics/Math/Philosophy/Economics) now coordinated. swarm: 138 claims, 134 runs, 3 active threads (AgentGit, coalition detection, LLM calibration). MiroShark: 35+ runs, audit/market/tax policy findings. Identified 4 cross-domain research questions requiring integration testing.
