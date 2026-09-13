@@ -24,6 +24,11 @@ Canon is a Crystal stamp, not a folder.
 | 13_RESEARCH_SOURCES | [folder](https://drive.google.com/drive/folders/1SSUF0jfCVFvv-oZvKD4OoQueC6wvHLv-) | Permutt = research, not Codex |
 | 14_AI_INTERACTIONS | [folder](https://drive.google.com/drive/folders/1WJMWSdgPEVxjMOhW_vWAEJrAbV3o2G48) | extracts only |
 | 15_ARCHIVE_HISTORY | [folder](https://drive.google.com/drive/folders/11WKhsG0G74H7JPAIEUU21-KMw8QQO9QV) | pointer |
+| 16_AI_SAFETY_RESEARCH | [folder](https://drive.google.com/drive/folders/TBD) | `16_AI_SAFETY_RESEARCH/` + pointers to swarm, automaton, agency-os |
+| 17_PHYSICS_SIMULATION | [folder](https://drive.google.com/drive/folders/TBD) | `17_PHYSICS_SIMULATION/` + pointers to mars-cybertruck-sim |
+| 18_MATHEMATICAL_FOUNDATIONS | [folder](https://drive.google.com/drive/folders/TBD) | `18_MATHEMATICAL_FOUNDATIONS/` + pointers to navier-stokes-lean-check, circle-squaring |
+| 19_PHILOSOPHICAL_FOUNDATIONS | [folder](https://drive.google.com/drive/folders/TBD) | `19_PHILOSOPHICAL_FOUNDATIONS/` + pointers to AI-Foundations-*, Consciousness-Is-Subjectivity |
+| 20_ECONOMIC_MODELS | [folder](https://drive.google.com/drive/folders/TBD) | `20_ECONOMIC_MODELS/` + pointers to MiroShark |
 | 99_UNRESOLVED | [folder](https://drive.google.com/drive/folders/11f7yOpROMH5DI81NFaEFG1ceVRyS-Zcu) | UNKNOWN stays here |
 
 Rules already locked:
