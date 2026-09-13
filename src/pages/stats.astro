@@ -3,13 +3,22 @@
 
 import BaseLayout from '../layouts/BaseLayout.astro';
 import TrendAnalysis from '../components/react/TrendAnalysis';
-import type { Track } from "../types";
+import RealmComparison from '../components/react/RealmComparison';
+import type { Track, Realm } from "../types";
 
 let tracks: Track[] = [];
+let realms: Realm[] = [];
+
 try {
   tracks = await import("../data/tracks.json").then((m) => m.default);
 } catch {
   console.warn("Could not load tracks.json - run \"npm run data\" first");
+}
+
+try {
+  realms = await import("../data/realms.json").then((m) => m.default);
+} catch {
+  console.warn("Could not load realms.json");
 }
 
 // Calculate statistics
@@ -102,6 +111,9 @@ const avgTracksPerArtist = (tracks.length / uniqueArtists).toFixed(1);
 
     <!-- Trend Analysis -->
     <TrendAnalysis client:load {tracks} />
+
+    <!-- Realm Comparison -->
+    <RealmComparison client:load {tracks} {realms} />
 
     <!-- Genre Distribution -->
     <div class="rounded-lg bg-ink-800 p-6 border border-accent-500/20">
