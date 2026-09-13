@@ -7,6 +7,7 @@ import type { Track } from "../types";
 
 let tracks: Track[] = [];
 let yearOptions: number[] = [];
+let realms: any[] = [];
 
 try {
   tracks = await import("../data/tracks.json").then((m) => m.default);
@@ -16,12 +17,18 @@ try {
   console.warn("Could not load tracks.json - run \"npm run data\" first");
 }
 
+try {
+  realms = await import("../data/realms.json").then((m) => m.default);
+} catch {
+  console.warn("Could not load realms.json");
+}
+
 const query = Astro.url.search;
 ---
 
 <BaseLayout>
   <div class="max-w-7xl mx-auto">
     <h1 class="text-4xl font-bold text-white mb-8">Browse Tracks</h1>
-    <TrackExplorer client:load {tracks} {yearOptions} initialQuery={query} />
+    <TrackExplorer client:load {tracks} {yearOptions} {realms} initialQuery={query} />
   </div>
 </BaseLayout>

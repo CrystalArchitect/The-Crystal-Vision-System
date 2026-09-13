@@ -1,0 +1,239 @@
+---
+// SPDX-License-Identifier: MIT
+
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import type { Realm } from "../../types";
+
+interface Props {
+  params: { id: string };
+}
+
+let realms: Realm[] = [];
+let tracks: any[] = [];
+let indexes: any = {};
+
+try {
+  const realmsJson = await import("../../data/realms.json");
+  realms = realmsJson.default;
+} catch {
+  console.warn("Could not load realms.json");
+}
+
+try {
+  tracks = await import("../../data/tracks.json").then((m) => m.default);
+} catch {
+  console.warn("Could not load tracks.json");
+}
+
+try {
+  indexes = await import("../../data/indexes.json").then((m) => m.default);
+} catch {
+  console.warn("Could not load indexes.json");
+}
+
+export function getStaticPaths() {
+  return realms.map((realm) => ({
+    params: { id: realm.id },
+  }));
+}
+
+const { id } = Astro.props.params as Props["params"];
+const realm = realms.find((r) => r.id === id);
+
+if (!realm) {
+  return Astro.redirect("/realms");
+}
+
+const realmTracks = tracks.filter((t) => t.realm === realm.id);
+const artists = [...new Set(realmTracks.map((t) => t.artist))];
+const years = [...new Set(realmTracks.map(t => t.year))].sort((a, b) => a - b);
+const genres = [...new Set(realmTracks.map(t => t.genres[0]))];
+
+const genreBreakdown = genres.map(genre => ({
+  genre,
+  count: realmTracks.filter(t => t.genres[0] === genre).length
+})).sort((a, b) => b.count - a.count);
+
+const topArtists = [...new Set(realmTracks.map(t => t.artist))]
+  .map(artist => ({
+    artist,
+    count: realmTracks.filter(t => t.artist === artist).length
+  }))
+  .sort((a, b) => b.count - a.count)
+  .slice(0, 10);
+
+const yearDistribution = years.map(year => ({
+  year,
+  count: realmTracks.filter(t => t.year === year).length
+}));
+---
+
+<BaseLayout>
+  <div class="max-w-6xl mx-auto">
+    {/* Realm Header */}
+    <div class="mb-12">
+      <a href="/realms" class="text-accent-400 hover:text-accent-300 mb-4 inline-block text-sm">← Back to Realms</a>
+
+      <div class="bg-gradient-to-br from-accent-500/20 to-accent-500/5 border border-accent-500/30 rounded-lg p-8 mb-8">
+        <div class="flex items-start gap-8">
+          <div class="text-8xl">{realm.iconEmoji}</div>
+          <div class="flex-1">
+            <h1 class="text-5xl font-bold text-white mb-4">{realm.name}</h1>
+            <p class="text-neutral-300 text-lg mb-6">{realm.description}</p>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+              <div class="bg-ink-800/50 rounded p-4 border border-accent-500/20">
+                <div class="text-2xl font-bold text-accent-400">{realmTracks.length}</div>
+                <div class="text-xs text-neutral-400">Tracks</div>
+              </div>
+              <div class="bg-ink-800/50 rounded p-4 border border-accent-500/20">
+                <div class="text-2xl font-bold text-accent-400">{artists.length}</div>
+                <div class="text-xs text-neutral-400">Artists</div>
+              </div>
+              <div class="bg-ink-800/50 rounded p-4 border border-accent-500/20">
+                <div class="text-2xl font-bold text-accent-400">{genres.length}</div>
+                <div class="text-xs text-neutral-400">Genres</div>
+              </div>
+              <div class="bg-ink-800/50 rounded p-4 border border-accent-500/20">
+                <div class="text-2xl font-bold text-accent-400">{years.length}</div>
+                <div class="text-xs text-neutral-400">Years</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Mood & BPM */}
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+        <div class="bg-gradient-to-br from-ink-800 to-ink-900 border border-accent-500/30 rounded-lg p-6">
+          <div class="text-sm text-neutral-400 mb-2">Mood</div>
+          <div class="text-2xl font-bold text-accent-400">{realm.mood}</div>
+        </div>
+        <div class="bg-gradient-to-br from-ink-800 to-ink-900 border border-accent-500/30 rounded-lg p-6">
+          <div class="text-sm text-neutral-400 mb-2">BPM Range</div>
+          <div class="text-2xl font-bold text-accent-400">{realm.bpmRange.min}–{realm.bpmRange.max}</div>
+        </div>
+        <div class="bg-gradient-to-br from-ink-800 to-ink-900 border border-accent-500/30 rounded-lg p-6">
+          <div class="text-sm text-neutral-400 mb-2">Primary Genres</div>
+          <div class="text-sm text-accent-400 font-bold">{realm.genres.slice(0, 2).join(", ")}</div>
+        </div>
+      </div>
+    </div>
+
+    {/* Content Grid */}
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-12">
+      {/* Genre Breakdown */}
+      <div class="bg-gradient-to-br from-ink-800 to-ink-900 border border-accent-500/20 rounded-lg p-6">
+        <h2 class="text-xl font-bold text-white mb-4">Genre Distribution</h2>
+        <div class="space-y-3">
+          {genreBreakdown.map(item => (
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span class="text-neutral-300">{item.genre}</span>
+                <span class="text-accent-400 font-bold">{item.count}</span>
+              </div>
+              <div class="bg-ink-700 rounded h-2 overflow-hidden">
+                <div
+                  class="bg-gradient-to-r from-accent-500 to-accent-400 h-full"
+                  style={{width: `${(item.count / realmTracks.length) * 100}%`}}
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Top Artists */}
+      <div class="bg-gradient-to-br from-ink-800 to-ink-900 border border-accent-500/20 rounded-lg p-6">
+        <h2 class="text-xl font-bold text-white mb-4">Top Artists</h2>
+        <div class="space-y-2">
+          {topArtists.map((item, idx) => (
+            <div class="flex items-center gap-3 py-2 border-b border-accent-500/10 last:border-b-0">
+              <div class="text-accent-400 font-bold text-sm w-6">{idx + 1}</div>
+              <div class="flex-1">
+                <div class="text-sm text-white truncate">{item.artist}</div>
+                <div class="text-xs text-neutral-400">{item.count} track{item.count !== 1 ? 's' : ''}</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Year Coverage */}
+      <div class="bg-gradient-to-br from-ink-800 to-ink-900 border border-accent-500/20 rounded-lg p-6">
+        <h2 class="text-xl font-bold text-white mb-4">Year Coverage</h2>
+        <div class="space-y-2">
+          <div class="text-sm">
+            <span class="text-accent-400">Earliest:</span>
+            <span class="text-neutral-300 ml-2">{years[0]}</span>
+          </div>
+          <div class="text-sm">
+            <span class="text-accent-400">Latest:</span>
+            <span class="text-neutral-300 ml-2">{years[years.length - 1]}</span>
+          </div>
+          <div class="text-sm">
+            <span class="text-accent-400">Span:</span>
+            <span class="text-neutral-300 ml-2">{years[years.length - 1] - years[0]} years</span>
+          </div>
+          <div class="pt-3 border-t border-accent-500/20 mt-3">
+            <div class="text-xs text-neutral-400">Distribution across decades</div>
+            <div class="flex gap-1 mt-2 flex-wrap">
+              {yearDistribution.filter((_, idx) => idx % 5 === 0).map(item => (
+                <div
+                  class="h-8 rounded-sm bg-gradient-to-t from-accent-500 to-accent-400 cursor-help"
+                  title={`${item.year}: ${item.count} tracks`}
+                  style={{width: `${Math.max(4, (item.count / Math.max(...yearDistribution.map(y => y.count))) * 20)}px`}}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* Sample Tracks */}
+    <div class="mb-12">
+      <h2 class="text-2xl font-bold text-white mb-6">Sample Tracks from {realm.name}</h2>
+      <div class="bg-gradient-to-br from-ink-800 to-ink-900 border border-accent-500/20 rounded-lg overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="border-b border-accent-500/20 bg-ink-900/50">
+                <th class="text-left px-6 py-3 text-neutral-400 font-semibold">Title</th>
+                <th class="text-left px-6 py-3 text-neutral-400 font-semibold">Artist</th>
+                <th class="text-left px-6 py-3 text-neutral-400 font-semibold">Genre</th>
+                <th class="text-left px-6 py-3 text-neutral-400 font-semibold">Year</th>
+                <th class="text-left px-6 py-3 text-neutral-400 font-semibold">BPM</th>
+              </tr>
+            </thead>
+            <tbody>
+              {realmTracks.slice(0, 10).map((track) => (
+                <tr class="border-b border-accent-500/10 hover:bg-ink-800/50 transition">
+                  <td class="px-6 py-4 text-white truncate">{track.title}</td>
+                  <td class="px-6 py-4 text-neutral-300">{track.artist}</td>
+                  <td class="px-6 py-4 text-accent-400 text-xs">{track.genres[0]}</td>
+                  <td class="px-6 py-4 text-neutral-400">{track.year}</td>
+                  <td class="px-6 py-4 text-neutral-400">{track.bpm}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+      {realmTracks.length > 10 && (
+        <div class="text-center mt-6">
+          <p class="text-neutral-400 text-sm">... and {realmTracks.length - 10} more tracks</p>
+        </div>
+      )}
+    </div>
+
+    {/* Navigation */}
+    <div class="flex justify-between items-center py-8">
+      <a href="/realms" class="text-accent-400 hover:text-accent-300 flex items-center gap-2">
+        ← Back to All Realms
+      </a>
+      <div class="text-neutral-400 text-sm">
+        Realm {realms.findIndex(r => r.id === realm.id) + 1} of {realms.length}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

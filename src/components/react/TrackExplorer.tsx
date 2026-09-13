@@ -11,10 +11,11 @@ import TrackDetailDrawer from "./TrackDetailDrawer";
 interface Props {
   tracks: Track[];
   yearOptions: number[];
+  realms: any[];
   initialQuery?: string;
 }
 
-export default function TrackExplorer({ tracks, yearOptions, initialQuery = "" }: Props) {
+export default function TrackExplorer({ tracks, yearOptions, realms, initialQuery = "" }: Props) {
   const [filters, setFilters] = useState<FilterState>(() => {
     if (initialQuery) {
       return queryToFilters(new URLSearchParams(initialQuery));
@@ -30,6 +31,7 @@ export default function TrackExplorer({ tracks, yearOptions, initialQuery = "" }
       hasRemix: null,
       isVIP: null,
       duplicatesOnly: false,
+      realm: null,
     };
   });
 
@@ -59,6 +61,7 @@ export default function TrackExplorer({ tracks, yearOptions, initialQuery = "" }
         sort={sort}
         setSort={setSort}
         yearOptions={yearOptions}
+        realms={realms}
         resultCount={sortedTracks.length}
         totalCount={tracks.length}
       />
