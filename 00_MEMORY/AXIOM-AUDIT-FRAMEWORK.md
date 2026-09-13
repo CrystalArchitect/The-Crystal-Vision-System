@@ -82,8 +82,12 @@ This document maps the five philosophical axioms (Drawer 19) to specific governa
 ### Action Items
 
 - [ ] Verify SWARM reputation ∈ [0, 1] is enforced in `ProxyComputer.sigmoid()` and `payoff.py` 
-- [ ] Run GTB experiment: measure whether agents caught for evasion, frozen for 2 epochs, then released, attempt evasion again at same rate as before. If yes, freeze is not an irreversible consequence — it's a temporary penalty.
-- [ ] **If GTB freeze is temporary:** Document whether this violates the irreversibility axiom, or whether temporary freezes are acceptable as long as a *record* of the catch is permanent.
+- [x] **IMPLEMENTED:** Run GTB experiment: measure whether agents caught for evasion, frozen for 2 epochs, then released, attempt evasion again at same rate as before. 
+  - Implementation: `MiroShark/backend/scripts/freeze_evasion_experiment.py` (PR #2)
+  - Compares pre-freeze vs post-freeze evasion rates across N=50+ seeds
+  - Usage: `python -m scripts.freeze_evasion_experiment --n-seeds 50 --epochs 40`
+  - Outputs: `runs/freeze_evasion_audit/FINDINGS.md` with verdict on irreversibility axiom
+- [ ] **Once results available:** Document whether freeze violation confirms irreversibility axiom violation, and recommend fixes (increase freeze_duration_epochs, add permanent reputation penalty, modify LLM prompts)
 
 ---
 
@@ -164,10 +168,12 @@ This document maps the five philosophical axioms (Drawer 19) to specific governa
 
 ## Next Steps
 
-1. **High priority:** Run Axiom 3 audit on GTB freeze mechanism. If agents can repeat evasion after freeze expires, file issue against irreversibility.
+1. **High priority:** Execute Axiom 3 audit on GTB freeze mechanism using `freeze_evasion_experiment.py` (N=50+ seeds). Results will determine if irreversibility axiom is violated.
+   - Requires: `cd backend && python -m scripts.freeze_evasion_experiment --n-seeds 50 --epochs 40`
+   - Deliverable: `runs/freeze_evasion_audit/FINDINGS.md`
 2. **High priority:** Add `agent_reputation_visible=true` option to SWARM and measure behavior change (Axiom 2).
-3. **Medium priority:** Document all governance parameter rationales (Axiom 1).
-4. **Medium priority:** Run cross-composition governance test (Axiom 4).
+3. **Medium priority:** Document all governance parameter rationales in code (Axiom 1).
+4. **Medium priority:** Run cross-composition governance test (Axiom 4) — test governance across diverse agent-composition profiles.
 5. **Medium priority:** Verify worker access to audit_probability in LLM prompts (Axiom 5).
 
 ---
