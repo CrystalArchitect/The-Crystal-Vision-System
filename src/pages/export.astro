@@ -1,0 +1,129 @@
+---
+// SPDX-License-Identifier: MIT
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PlaylistExporter from '../components/react/PlaylistExporter';
+import type { Track } from "../types";
+
+let tracks: Track[] = [];
+
+try {
+  tracks = await import("../data/tracks.json").then((m) => m.default);
+} catch {
+  console.warn("Could not load tracks.json - run \"npm run data\" first");
+}
+---
+
+<BaseLayout title="Export & Share">
+  <div class="space-y-8">
+    <div>
+      <h1 class="text-4xl font-bold text-white mb-2">Export & Share Playlists</h1>
+      <p class="text-neutral-400">Export your playlists to Spotify, Apple Music, or download in multiple formats</p>
+    </div>
+
+    <div class="rounded-lg bg-ink-800 p-6 border border-accent-500/20">
+      <h2 class="text-2xl font-bold text-white mb-6">Export Options</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+        {/* Streaming Platforms */}
+        <div class="p-4 rounded-lg bg-gradient-to-br from-accent-500/10 to-accent-400/5 border border-accent-500/20">
+          <h3 class="font-semibold text-white mb-3">🎵 Stream Everywhere</h3>
+          <ul class="space-y-2 text-sm text-neutral-400">
+            <li>✓ Export to Spotify</li>
+            <li>✓ Share to Apple Music</li>
+            <li>✓ Generate shareable links</li>
+            <li>✓ Cross-platform compatibility</li>
+          </ul>
+        </div>
+
+        {/* File Formats */}
+        <div class="p-4 rounded-lg bg-gradient-to-br from-accent-500/10 to-accent-400/5 border border-accent-500/20">
+          <h3 class="font-semibold text-white mb-3">💾 Multiple Formats</h3>
+          <ul class="space-y-2 text-sm text-neutral-400">
+            <li>✓ JSON (Complete backup)</li>
+            <li>✓ M3U (Media players)</li>
+            <li>✓ CSV (Spreadsheets)</li>
+            <li>✓ Direct download</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Feature Callout */}
+      <div class="p-4 rounded-lg bg-ink-700/50 border border-accent-500/10">
+        <p class="text-sm text-neutral-300">
+          <span class="font-semibold text-accent-400">Pro Tip:</span> Export your curated playlists and recreate them in your favorite streaming service. All {tracks.length.toLocaleString()} tracks in our library are ready to share!
+        </p>
+      </div>
+    </div>
+
+    {/* Export Guide */}
+    <div class="rounded-lg bg-ink-800 p-6 border border-accent-500/20">
+      <h2 class="text-2xl font-bold text-white mb-6">How to Export</h2>
+
+      <div class="space-y-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {/* Spotify */}
+          <div class="p-4 rounded-lg bg-ink-700/50 border border-ink-600">
+            <h3 class="font-semibold text-white mb-3">1️⃣ Export to Spotify</h3>
+            <ol class="text-xs text-neutral-400 space-y-2 list-decimal list-inside">
+              <li>Open playlist</li>
+              <li>Click "Export" button</li>
+              <li>Select "Open in Spotify"</li>
+              <li>Recreate or save playlist</li>
+            </ol>
+          </div>
+
+          {/* Apple Music */}
+          <div class="p-4 rounded-lg bg-ink-700/50 border border-ink-600">
+            <h3 class="font-semibold text-white mb-3">2️⃣ Share to Apple Music</h3>
+            <ol class="text-xs text-neutral-400 space-y-2 list-decimal list-inside">
+              <li>Open playlist</li>
+              <li>Click "Export" button</li>
+              <li>Select "Open in Apple Music"</li>
+              <li>Add to your library</li>
+            </ol>
+          </div>
+
+          {/* Download */}
+          <div class="p-4 rounded-lg bg-ink-700/50 border border-ink-600">
+            <h3 class="font-semibold text-white mb-3">3️⃣ Download Format</h3>
+            <ol class="text-xs text-neutral-400 space-y-2 list-decimal list-inside">
+              <li>Open playlist</li>
+              <li>Click "Export" button</li>
+              <li>Choose format (JSON/CSV/M3U)</li>
+              <li>Save to computer</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* Format Details */}
+    <div class="rounded-lg bg-ink-800 p-6 border border-accent-500/20">
+      <h2 class="text-2xl font-bold text-white mb-6">Export Formats</h2>
+
+      <div class="space-y-4">
+        <div class="p-4 rounded-lg bg-ink-700/50 border border-ink-600">
+          <h3 class="font-semibold text-white mb-2">JSON Format</h3>
+          <p class="text-sm text-neutral-400">Complete backup of your playlist with all metadata. Preserves track information, ratings, and custom data. Best for importing back into the library or sharing structured data.</p>
+        </div>
+
+        <div class="p-4 rounded-lg bg-ink-700/50 border border-ink-600">
+          <h3 class="font-semibold text-white mb-2">M3U Format</h3>
+          <p class="text-sm text-neutral-400">Standard playlist format supported by virtually all media players (Winamp, VLC, foobar2000, etc.). Includes track metadata for reference.</p>
+        </div>
+
+        <div class="p-4 rounded-lg bg-ink-700/50 border border-ink-600">
+          <h3 class="font-semibold text-white mb-2">CSV Format</h3>
+          <p class="text-sm text-neutral-400">Spreadsheet-compatible format with columns for title, artist, year, BPM, key, genres, and more. Perfect for analysis in Excel or Google Sheets.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="rounded-lg bg-accent-500/10 border border-accent-500/30 p-6">
+      <p class="text-center text-neutral-300">
+        💡 Visit your <a href="/playlists" class="text-accent-400 hover:text-accent-300 underline">playlists page</a> to start exporting now!
+      </p>
+    </div>
+  </div>
+</BaseLayout>
