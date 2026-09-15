@@ -1,0 +1,140 @@
+---
+// SPDX-License-Identifier: MIT
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+import RecommendedTracks from '../components/react/RecommendedTracks';
+import type { Track } from "../types";
+
+let tracks: Track[] = [];
+
+try {
+  tracks = await import("../data/tracks.json").then((m) => m.default);
+} catch {
+  console.warn("Could not load tracks.json - run \"npm run data\" first");
+}
+
+// Get a sample track for recommendations
+const sampleTrack = tracks[Math.floor(Math.random() * Math.min(100, tracks.length))];
+const allGenres = [...new Set(tracks.flatMap(t => t.genres))];
+---
+
+<BaseLayout title="Recommendations">
+  <div class="space-y-8">
+    <div>
+      <h1 class="text-4xl font-bold text-white mb-2">Personalized Recommendations</h1>
+      <p class="text-neutral-400">Discover new tracks based on your listening habits, playlists, and preferences</p>
+    </div>
+
+    <div class="rounded-lg bg-ink-800 p-6 border border-accent-500/20">
+      <h2 class="text-2xl font-bold text-white mb-6">How Recommendations Work</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+        <div class="p-4 rounded-lg bg-gradient-to-br from-accent-500/10 to-accent-400/5 border border-accent-500/20">
+          <h3 class="font-semibold text-white mb-3">🎵 Smart Matching</h3>
+          <p class="text-sm text-neutral-400">
+            Our algorithm analyzes multiple factors: genre compatibility, BPM similarity, harmonic key compatibility, and release timeline to find perfect matches.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-lg bg-gradient-to-br from-accent-500/10 to-accent-400/5 border border-accent-500/20">
+          <h3 class="font-semibold text-white mb-3">📊 Data-Driven</h3>
+          <p class="text-sm text-neutral-400">
+            Based on music theory principles and listening patterns, not just random suggestions. Each recommendation has a reason.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-lg bg-gradient-to-br from-accent-500/10 to-accent-400/5 border border-accent-500/20">
+          <h3 class="font-semibold text-white mb-3">🔄 Personalized</h3>
+          <p class="text-sm text-neutral-400">
+            Tailored to your unique taste, whether you're looking for similar vibes, playlist additions, or exploring new genres.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-lg bg-gradient-to-br from-accent-500/10 to-accent-400/5 border border-accent-500/20">
+          <h3 class="font-semibold text-white mb-3">🎯 Discovery-Focused</h3>
+          <p class="text-sm text-neutral-400">
+            Built to help you find hidden gems and expand your musical horizons while staying within your preferred style.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {/* Sample Recommendations */}
+    {sampleTrack && (
+      <RecommendedTracks
+        client:load
+        {tracks}
+        referenceTrack={sampleTrack}
+      />
+    )}
+
+    {/* Feature Details */}
+    <div class="rounded-lg bg-ink-800 p-6 border border-accent-500/20">
+      <h2 class="text-2xl font-bold text-white mb-6">Recommendation Types</h2>
+
+      <div class="space-y-4">
+        <div class="p-4 rounded-lg bg-ink-700/50 border border-ink-600">
+          <h3 class="font-semibold text-white mb-2">Similar Tracks</h3>
+          <p class="text-sm text-neutral-400">
+            Select any track to find others with matching genre, BPM range, musical key, and era. Perfect for building connected playlists.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-lg bg-ink-700/50 border border-ink-600">
+          <h3 class="font-semibold text-white mb-2">Playlist Recommendations</h3>
+          <p class="text-sm text-neutral-400">
+            Add to your existing playlists intelligently. The system analyzes your playlist's vibe, tempo, and genre mix to suggest complementary tracks.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-lg bg-ink-700/50 border border-ink-600">
+          <h3 class="font-semibold text-white mb-2">Trending by Genre</h3>
+          <p class="text-sm text-neutral-400">
+            Stay current with recent releases in your favorite genres. Browse trending tracks from the last 5 years, sorted by momentum.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-lg bg-ink-700/50 border border-ink-600">
+          <h3 class="font-semibold text-white mb-2">Genre-Based Discovery</h3>
+          <p class="text-sm text-neutral-400">
+            Explore curated collections by genre. Mix and match multiple genres to discover tracks in the intersection of your musical interests.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {/* Algorithm Details */}
+    <div class="rounded-lg bg-ink-800 p-6 border border-accent-500/20">
+      <h2 class="text-2xl font-bold text-white mb-6">Technical Approach</h2>
+
+      <div class="space-y-3 text-sm text-neutral-400">
+        <div class="flex gap-3">
+          <span class="text-accent-400 font-semibold">Genre Match:</span>
+          <span>Highest weight (40%) - Shared genres are the strongest indicator of compatibility</span>
+        </div>
+        <div class="flex gap-3">
+          <span class="text-accent-400 font-semibold">Artist Diversity:</span>
+          <span>30% - Same artist gets high score, but diverse artists are encouraged</span>
+        </div>
+        <div class="flex gap-3">
+          <span class="text-accent-400 font-semibold">BPM Compatibility:</span>
+          <span>15% - Tracks within 20 BPM are considered compatible</span>
+        </div>
+        <div class="flex gap-3">
+          <span class="text-accent-400 font-semibold">Harmonic Compatibility:</span>
+          <span>10% - Same musical key gets bonus score</span>
+        </div>
+        <div class="flex gap-3">
+          <span class="text-accent-400 font-semibold">Era Proximity:</span>
+          <span>5% - Tracks from similar years maintain temporal cohesion</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="rounded-lg bg-accent-500/10 border border-accent-500/30 p-6">
+      <p class="text-center text-neutral-300">
+        💡 Use recommendations on any track detail page, or in your playlists to discover what's next!
+      </p>
+    </div>
+  </div>
+</BaseLayout>
