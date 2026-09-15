@@ -15,6 +15,10 @@ export interface FilterState {
   isVIP: boolean | null;
   duplicatesOnly: boolean;
   realm: string | null;
+  bpmMin: number | null;
+  bpmMax: number | null;
+  key: string | null;
+  genres: string[];
 }
 
 export const EMPTY_FILTERS: FilterState = {
@@ -29,6 +33,10 @@ export const EMPTY_FILTERS: FilterState = {
   isVIP: null,
   duplicatesOnly: false,
   realm: null,
+  bpmMin: null,
+  bpmMax: null,
+  key: null,
+  genres: [],
 };
 
 export type SortKey = "title" | "artist" | "year" | "mb" | "playCount" | "rating";
@@ -90,6 +98,12 @@ export function applyFilters(
       const meta = metaLookup(t.id);
       if (!(meta?.tags ?? []).includes(filters.tag)) return false;
     }
+    if (filters.bpmMin !== null && t.bpm < filters.bpmMin) return false;
+    if (filters.bpmMax !== null && t.bpm > filters.bpmMax) return false;
+    if (filters.key !== null && t.key !== filters.key) return false;
+    if (filters.genres.length > 0) {
+      if (!filters.genres.some((g) => t.genres.includes(g))) return false;
+    }
     return true;
   });
 }
@@ -149,6 +163,10 @@ export function filtersToQuery(f: FilterState): string {
   if (f.minRating) p.set("rating", String(f.minRating));
   if (f.hasRemix !== null) p.set("remix", f.hasRemix ? "1" : "0");
   if (f.duplicatesOnly) p.set("dupes", "1");
+  if (f.bpmMin !== null) p.set("bpmMin", String(f.bpmMin));
+  if (f.bpmMax !== null) p.set("bpmMax", String(f.bpmMax));
+  if (f.key) p.set("key", f.key);
+  if (f.genres.length > 0) p.set("genres", f.genres.join(","));
   return p.toString();
 }
 
@@ -174,5 +192,13 @@ export function queryToFilters(params: URLSearchParams): FilterState {
   if (remix === "1") f.hasRemix = true;
   if (remix === "0") f.hasRemix = false;
   if (params.get("dupes") === "1") f.duplicatesOnly = true;
+  const bpmMin = params.get("bpmMin");
+  if (bpmMin) f.bpmMin = parseInt(bpmMin, 10);
+  const bpmMax = params.get("bpmMax");
+  if (bpmMax) f.bpmMax = parseInt(bpmMax, 10);
+  const key = params.get("key");
+  if (key) f.key = key;
+  const genres = params.get("genres");
+  if (genres) f.genres = genres.split(",").filter((g) => g.trim() !== "");
   return f;
 }
