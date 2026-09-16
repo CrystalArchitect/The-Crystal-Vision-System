@@ -2,20 +2,25 @@
 
 Decentralized, trustworthy infrastructure requires rigorous attention to security. This policy describes how we handle security issues and what we expect from contributors.
 
+**Steward:** Crystal Arena-Turner / CrystalArchitect  
+**Repo:** [The-Crystal-Vision-System](https://github.com/CrystalArchitect/The-Crystal-Vision-System)
+
 ## Reporting Security Issues
 
 **If you discover a security vulnerability:**
 
-1. **Do not** open a public GitHub issue
-2. **Email** [security-email@domain.dev] with details:
+1. **Do not** open a public GitHub issue for vulnerabilities.
+2. **Preferred:** Report via **[GitHub Security Advisories](https://github.com/CrystalArchitect/The-Crystal-Vision-System/security/advisories/new)** on this repository (private vulnerability report).
+3. Include:
    - Description of the vulnerability
    - Affected components or versions
    - Steps to reproduce (if applicable)
-   - Your contact information
-3. **Wait** for acknowledgment before discussing publicly
+   - Your preferred contact for follow-up
+4. **Wait** for acknowledgment before discussing publicly.
 
 We will:
-- Acknowledge your report within 48 hours
+
+- Acknowledge your report within 48 hours when possible
 - Work to understand and reproduce the issue
 - Develop a fix and plan a responsible disclosure
 - Credit you in the security advisory (unless you prefer anonymity)
@@ -28,7 +33,7 @@ We will:
 For any component dealing with cryptography:
 
 - Use established algorithms and implementations (NIST, IETF standards)
-- Include formal security proofs or threat model analysis
+- Include formal security proofs or threat model analysis where appropriate
 - Document assumptions about the threat model
 - Provide test vectors for verification
 - Never invent new cryptographic schemes without expert review
@@ -37,7 +42,7 @@ For any component dealing with cryptography:
 
 For sensitive components:
 
-- Define the threat model explicitly (what adversary are we defending against?)
+- Define the threat model explicitly
 - Document failure modes and their consequences
 - Consider Byzantine adversaries for consensus-critical systems
 - Account for known attacks and countermeasures
@@ -48,7 +53,7 @@ Security-critical changes require:
 
 - Technical review by at least one steward
 - Clear documentation of security reasoning
-- Test cases covering attack scenarios
+- Test cases covering attack scenarios where feasible
 - Independent verification where possible
 
 ### Dependencies
@@ -77,17 +82,18 @@ We will not:
 - **Never** include real credentials in examples or tests
 - Use environment variables or secure vaults in production
 - Document where credentials come from in setup guides
+- Drawer `09_PRIVATE_PROTECTED` is for secrets staging — **do not commit** secrets into this hub
 
 ### Input Validation
 
 - Validate all external input (user input, network messages, file data)
-- Use parsing libraries, don't write your own
+- Use parsing libraries; don't write your own parsers for untrusted input
 - Define constraints explicitly (length, format, values)
 - Log validation failures for security auditing
 
 ### Dependencies & Supply Chain
 
-- Pin exact versions of dependencies
+- Pin exact versions of dependencies where practical
 - Regularly review and update dependencies
 - Understand what each dependency does
 - Watch for typosquatting in package names
@@ -96,9 +102,8 @@ We will not:
 ### Cryptographic Secrets
 
 - Use strong key generation (cryptographically secure random sources)
-- Secure key storage (HSM, secure enclaves, at minimum encrypted at rest)
+- Secure key storage (HSM, secure enclaves, or at minimum encrypted at rest)
 - Implement key rotation policies
-- Log and monitor key usage
 - Never log or expose key material
 
 ### Testing & Validation
@@ -106,7 +111,6 @@ We will not:
 - Include tests for security-critical paths
 - Test both happy paths and attack scenarios
 - Use fuzzing and property-based testing where applicable
-- Validate that security claims actually hold under test
 - Document test coverage for security features
 
 ## Security Advisories
@@ -121,9 +125,9 @@ When we release a security fix:
 
 ## Questions?
 
-- **For security concerns**: [security-email@domain.dev]
-- **For security guidance on contributions**: Ask in an issue or during design review
-- **For broader security discussions**: Bring it to a community call
+- **For security vulnerabilities:** GitHub Security Advisories on this repo (preferred) — do **not** open public issues
+- **For security guidance on contributions:** Ask in an issue or during design review (non-vuln topics only)
+- **Steward contact context:** Crystal Arena-Turner / CrystalArchitect
 
 ---
 
