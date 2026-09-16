@@ -1,32 +1,37 @@
 # Drawer 19: Philosophical Foundations
 
+**Canon:** **no**  
+**Updated:** 2026-09-16 AEST  
+**Rule:** Connection ≠ merge — `AI-Foundations-*` and Consciousness repos are **fork-mirrors** of alyssadata. The CVS hub itself is original coordination, not a philosophy claim tree.
+
 ## Overview
+
 Foundational philosophy underlying AI safety, consciousness, and emergence in multi-agent systems.
 
-## Repositories
+## Repositories (CrystalArchitect URLs)
 
-### Core Foundations
-- **The-Crystal-Vision-System** — This coordination hub
-  - Filing system (drawers 00-20)
-  - Master index and working memory
-  - Cross-domain integration
+### Coordination hub (this system)
 
-### AI Foundations
-- **AI-Foundations-Axiom-Evaluation-Harness** — Testing framework for foundational axioms
-- **AI-Foundations-Claim-001-Origin** — Origin and emergence of AI systems
-- **AI-Foundations-Claim-002-Belonging-does-not-equal-Sameness** — Identity and distribution
-- **AI-Foundations-Claim-003-Irreversibility-of-Being** — Irreversibility in multi-agent systems
-- **AI-Foundations-Introduction** — Foundational concepts and definitions
-- **AI-Foundations-Claims-Map** — Interconnected claims and dependencies
-- **AI-Foundations-Ontology** — Formal ontology of AI safety concepts
-- **AI-Foundations-Emergence-Continuity** — Emergent properties and continuity
-- **AI-Foundations-Source-Trace-Irreversibility** — Provenance and causality
+- **The-Crystal-Vision-System** — [https://github.com/CrystalArchitect/The-Crystal-Vision-System](https://github.com/CrystalArchitect/The-Crystal-Vision-System)  
+  Original hub: filing drawers, master index, working memory. **Not** a substitute for Canon stamp.
+
+### AI Foundations (fork-mirrors of alyssadata)
+
+- **AI-Foundations-Axiom-Evaluation-Harness** — [https://github.com/CrystalArchitect/AI-Foundations-Axiom-Evaluation-Harness](https://github.com/CrystalArchitect/AI-Foundations-Axiom-Evaluation-Harness) — **fork-mirror**
+- **AI-Foundations-Claim-001-Origin** — [https://github.com/CrystalArchitect/AI-Foundations-Claim-001-Origin](https://github.com/CrystalArchitect/AI-Foundations-Claim-001-Origin) — **fork-mirror**
+- **AI-Foundations-Claim-002-Belonging-does-not-equal-Sameness** — [https://github.com/CrystalArchitect/AI-Foundations-Claim-002-Belonging-does-not-equal-Sameness](https://github.com/CrystalArchitect/AI-Foundations-Claim-002-Belonging-does-not-equal-Sameness) — **fork-mirror**
+- **AI-Foundations-Claim-003-Irreversibility-of-Being** — [https://github.com/CrystalArchitect/AI-Foundations-Claim-003-Irreversibility-of-Being](https://github.com/CrystalArchitect/AI-Foundations-Claim-003-Irreversibility-of-Being) — **fork-mirror**
+- **AI-Foundations-Introduction** — [https://github.com/CrystalArchitect/AI-Foundations-Introduction](https://github.com/CrystalArchitect/AI-Foundations-Introduction) — **fork-mirror**
+- **AI-Foundations-Claims-Map** — [https://github.com/CrystalArchitect/AI-Foundations-Claims-Map](https://github.com/CrystalArchitect/AI-Foundations-Claims-Map) — **fork-mirror**
+- **AI-Foundations-Ontology** — [https://github.com/CrystalArchitect/AI-Foundations-Ontology](https://github.com/CrystalArchitect/AI-Foundations-Ontology) — **fork-mirror**
+- **AI-Foundations-Emergence-Continuity** — [https://github.com/CrystalArchitect/AI-Foundations-Emergence-Continuity](https://github.com/CrystalArchitect/AI-Foundations-Emergence-Continuity) — **fork-mirror**
+- **AI-Foundations-Source-Trace-Irreversibility** — [https://github.com/CrystalArchitect/AI-Foundations-Source-Trace-Irreversibility](https://github.com/CrystalArchitect/AI-Foundations-Source-Trace-Irreversibility) — **fork-mirror**
+- **AI-Foundations-ai-artwork-provenance** — [https://github.com/CrystalArchitect/AI-Foundations-ai-artwork-provenance](https://github.com/CrystalArchitect/AI-Foundations-ai-artwork-provenance) — **fork-mirror**
 
 ### Consciousness & Subjectivity
-- **Consciousness-Is-Subjectivity** — Philosophical examination of consciousness in AI systems
-  - Subjectivity as core property
-  - Experience and agent perspective
-  - Implications for multi-agent coordination
+
+- **Consciousness-Is-Subjectivity** — [https://github.com/CrystalArchitect/Consciousness-Is-Subjectivity](https://github.com/CrystalArchitect/Consciousness-Is-Subjectivity)  
+  **fork-mirror** of `alyssadata/Consciousness-Is-Subjectivity`. Subjectivity as core property; implications for multi-agent coordination.
 
 ## Research Focus
 
@@ -47,9 +52,9 @@ Foundational philosophy underlying AI safety, consciousness, and emergence in mu
 ## Methodology
 
 - Claim-based research with explicit evidence chains
-- Bonferroni-corrected statistical validation
-- Cross-domain verification against other research
-- Vault-based knowledge management
+- Bonferroni-corrected statistical validation where applicable
+- Cross-domain verification against other research drawers
+- Vault-based knowledge management (via linked safety tooling)
 
 ## Cross-Links
 
