@@ -5,6 +5,7 @@
 | CVS-STRUCT | 00 | STRUCTURE.md | fact | no | `/STRUCTURE.md` |
 | CVS-CODEX-1 | 10 | Codex Crystalum gathering | vision | no | `/codex/CODEX-CRYSTALUM.md` |
 | CVS-PLACE | 10 | This Place (Star Song / umbra) | vision | **no** | `/10_ORIGINAL_CREATIVE/THIS-PLACE.md` |
+| CVS-OMEGA | 10 | Protocol Omega (boundaries practice) | vision | no | `/10_ORIGINAL_CREATIVE/protocol-omega/` |
 | CVS-LEWIS | 13 | Lewis, Dream Encyclopedia 2e | research | no | `/13_RESEARCH_SOURCES/` |
 | CVS-PERMUTT | 13 | Permutt, Ancient Power of Crystals | research | no | `/13_RESEARCH_SOURCES/` |
 | CVS-MILD | 13 | Night drill / MILD | research | no | `/13_RESEARCH_SOURCES/MILD.md` |
@@ -24,6 +25,8 @@
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-16:** Added Protocol Omega under `10_ORIGINAL_CREATIVE/protocol-omega/` (standalone HTML + localStorage ledger). Adapted from Claude artifact; Canon remains no.
 
 - **2026-09-13:** Established cross-domain research baseline. 5 active science domains (AI Safety/Physics/Math/Philosophy/Economics) now coordinated. swarm: 138 claims, 134 runs, 3 active threads (AgentGit, coalition detection, LLM calibration). MiroShark: 35+ runs, audit/market/tax policy findings. Identified 4 cross-domain research questions requiring integration testing.
 - **2026-09-13:** Mapped 5 active cross-domain research threads: (1) Governance under scarcity, (2) Coalition detection with formal proof, (3) Axiom grounding in economics, (4) LLM calibration in markets, (5) Soft-label mathematical certification. Created integration checklist with validation approaches and owner assignments.
