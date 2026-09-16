@@ -2,6 +2,9 @@
 
 This repository operates on a **stewardship model** rather than hierarchical authority. Stewards are recognized experts who guide their domains through consensus-building, design review, and community engagement.
 
+**Hub / Canon coordination:** Crystal Arena-Turner (CrystalArchitect).  
+**Canon remains Crystal stamp** — stewardship here is coordination service, not automatic Canon.
+
 ## What is Stewardship?
 
 Stewardship in decentralized systems is:
@@ -15,11 +18,17 @@ Stewardship in decentralized systems is:
 ## Stewards by Domain
 
 | Domain | Steward(s) | Focus |
-|--------|-----------|-------|
-| [Domain 1] | [Name] | [Area] |
-| [Domain 2] | [Name] | [Area] |
+| --- | --- | --- |
+| Hub / Canon coordination | **Crystal Arena-Turner** (CrystalArchitect) | Filing rules, working index, drawer map, connection ≠ merge, Canon stamp authority |
+| AI Safety (drawer 16) | TBD | Multi-agent safety pointers / extracts |
+| Physics simulation (drawer 17) | TBD | Embodied / env sim pointers |
+| Mathematical foundations (drawer 18) | TBD | Formal / Lean pointers |
+| Philosophical foundations (drawer 19) | TBD | Axioms / claims pointers |
+| Economic models (drawer 20) | TBD | Agent-based econ / GTB pointers |
+| Product (CrystalCore / Continuum / portals) | TBD | Product originals & vision-only drawers |
+| Security policy | Crystal Arena-Turner | Advisories process on this hub |
 
-**Note**: This table should be populated with actual stewards and their domains. Stewards should be contributors with deep expertise and demonstrated commitment to the project.
+**Note:** Domain rows marked TBD await Crystal’s appointments. Hub / Canon coordination is populated now.
 
 ## Steward Responsibilities
 
@@ -77,42 +86,22 @@ When stewards disagree, decisions are made through:
 
 ### No Merging Without Review
 
-Changes in your domain should only be merged with your (or another steward's) approval. This is a lightweight but clear gate on quality.
+Changes in your domain should only be merged with steward approval. For this hub, **connection ≠ merge** still applies to satellite repos.
 
 ## Becoming a Steward
 
-Stewardship is open to anyone who demonstrates:
-
-- **Deep expertise** in a domain
-- **Consistent, quality contributions** over time
-- **Good judgment** in technical decisions
-- **Community respect** and collaborative spirit
-- **Clear availability** to engage in review and discussion
-
-To propose yourself or someone else as steward:
-
-1. Open an issue nominating the candidate and domain
-2. Describe relevant contributions and expertise
-3. The community discusses and reaches consensus
-4. Existing stewards ratify the decision
+Stewardship is open to anyone who demonstrates deep expertise, consistent quality contributions, good judgment, community respect, and clear availability. Nominate via issue; Crystal ratifies Hub / Canon appointments.
 
 ## Removing Stewardship
 
-If a steward is unavailable or no longer engaged:
-
-1. **Take a step back** if you can't commit to review cycles
-2. **Hand off** to another expert willing to take the role
-3. **Clear communication** helps the community transition smoothly
-
-The community can also propose removing stewardship if someone is consistently unavailable or their judgment is questioned. This would happen through discussion and consensus.
+If a steward is unavailable: step back, hand off, communicate clearly. Community may propose removal through discussion and consensus.
 
 ## Communication
 
-- **Community calls** — regular (weekly/biweekly) open discussions of proposals and issues
 - **Async-first** — most decisions happen on GitHub in issues and PRs
 - **Recorded decisions** — design decisions and rationale documented in the repo
-- **Open channels** — stewards stay accessible to the community
+- **Canon** — only Crystal stamp elevates material to Canon
 
 ---
 
-Stewardship is about service, not status. We value expertise, judgment, and commitment to building excellent decentralized infrastructure together.
+Stewardship is about service, not status.
