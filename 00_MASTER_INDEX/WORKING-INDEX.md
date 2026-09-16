@@ -6,6 +6,7 @@
 | CVS-CODEX-1 | 10 | Codex Crystalum gathering | vision | no | `/codex/CODEX-CRYSTALUM.md` |
 | CVS-PLACE | 10 | This Place (Star Song / umbra) | vision | **no** | `/10_ORIGINAL_CREATIVE/THIS-PLACE.md` |
 | CVS-OMEGA | 10 | Protocol Omega (boundaries practice) | vision | no | `/10_ORIGINAL_CREATIVE/protocol-omega/` |
+| CVS-CONNECTED | 00 | Connected System Map (CVS ↔ portfolio ↔ Protocol Omega) | coordination | no | `/00_MASTER_INDEX/CONNECTED-SYSTEM.md` |
 | CVS-LEWIS | 13 | Lewis, Dream Encyclopedia 2e | research | no | `/13_RESEARCH_SOURCES/` |
 | CVS-PERMUTT | 13 | Permutt, Ancient Power of Crystals | research | no | `/13_RESEARCH_SOURCES/` |
 | CVS-MILD | 13 | Night drill / MILD | research | no | `/13_RESEARCH_SOURCES/MILD.md` |
@@ -25,6 +26,8 @@
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-16:** Added Connected System Map (`00_MASTER_INDEX/CONNECTED-SYSTEM.md`) linking Crystal Vision drawers to the live CrystalArchitect inventory (58 repos) and Protocol Omega. Notes: CVS public+MIT; api-gateway design-only; Continuum-sync-loop empty; UK-MonoRepo private; science threads 1–5 still at 2026-09-13 baseline. Canon: no.
 
 - **2026-09-16:** Added Protocol Omega under `10_ORIGINAL_CREATIVE/protocol-omega/` (standalone HTML + localStorage ledger). Adapted from Claude artifact; Canon remains no.
 
