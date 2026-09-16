@@ -4,7 +4,8 @@
 **Doc role:** Coordination map only  
 **Canon:** **no** (Canon remains Crystal stamp; this file is not Canon)  
 **Built:** 2026-09-16 (AEST / Australia/Sydney)  
-**Sources:** `The-Crystal-Vision-System` main (gh api), live `gh repo list CrystalArchitect` (58 repos), `/workspace/crystal-github-review.md` (same-day portfolio review)
+**Updated:** 2026-09-16 (AEST) — gaps refresh (REPOS / Continuum vision-only / SECURITY / CVS-CONNECTED)  
+**Sources:** `The-Crystal-Vision-System` main (gh api), live `gh repo list CrystalArchitect` (58 repos), portfolio review + cvs-fixes pass
 
 ---
 
@@ -23,7 +24,7 @@
 
 **Protocol Omega** lives under drawer **10_ORIGINAL_CREATIVE** as a **personal boundaries practice tool** (HTML + localStorage ledger). It is **not** a research claim, not a science-domain deliverable, and has **no** standalone CrystalArchitect GitHub repo. Working-index id: `CVS-OMEGA`. Canon: no.
 
-**Visibility change (important vs morning portfolio review):** Earlier same-day review recorded CVS as **404 / not public**. Live inventory now shows **`The-Crystal-Vision-System` public + MIT**, last push **2026-09-16 ~15:30 AEST**. Treat the portfolio review’s CVS blocker as **superseded**.
+**Visibility:** `The-Crystal-Vision-System` is **public + MIT** (live inventory 2026-09-16).
 
 ---
 
@@ -68,7 +69,7 @@ flowchart TB
   D20 --> ECON["MiroShark\n(fork-mirror)"]
 
   D01 -.-> CCOS["crystalcore-os\n(original, public)"]
-  D06 -.-> CONT["Continuum-sync-loop\nEMPTY"]
+  D06 -.-> CONT["Continuum-sync-loop\nEMPTY / vision-only"]
 ```
 
 ---
@@ -91,26 +92,26 @@ flowchart TB
 
 ## 4. Drawer → purpose → GitHub / pointers → status
 
-Status legend: **original** = CrystalArchitect non-fork · **fork-mirror** = portfolio fork · **design-only** = docs, no app code · **empty** · **pointer-only** = CVS points out, no living code in drawer · **subtree-archive** = under CVS `archive/` · **private**
+Status legend: **original** = CrystalArchitect non-fork · **fork-mirror** = portfolio fork · **design-only** = docs, no app code · **empty** · **vision-only** · **pointer-only** = CVS points out, no living code in drawer · **subtree-archive** = under CVS `archive/` · **private**
 
 | Drawer | Purpose | GitHub repos / pointers | Status |
 | --- | --- | --- | --- |
-| 00_MASTER_INDEX | One working index | in-repo `WORKING-INDEX.md` | original (hub) |
+| 00_MASTER_INDEX | One working index | in-repo `WORKING-INDEX.md`; `CONNECTED-SYSTEM.md`; tooling notes | original (hub) |
 | 00_MEMORY / `memory/` | Cross-domain memory, decisions, open questions | in-repo; naming mismatch logged (`00_MEMORY/` vs `memory/`) | original (hub); naming open |
-| 01_CRYSTALCORE | OS / LLM stack | `crystalcore-os` (public original); also `archive/CrystalCore-*` subtrees; some older CrystalCore* still private/auth-blocked historically | original + subtree-archive |
+| 01_CRYSTALCORE | OS / LLM stack | `crystalcore-os` (public original); also `archive/CrystalCore-*` subtrees | original + subtree-archive |
 | 02_TERAUSTRALIS | World / Canon Map | pointers + `archive/TerAustralis-*` | pointer + subtree-archive; Canon stays in TerAustralis git |
 | 03_SAT | Synthetic Affect Theory | `docs/SAT-STACK.md` until moved; `archive/Synthetic-Affect-Theory/` | pointer / docs |
 | 04_STARLINES / 05_DREAMLINES | Starlines / Dreamlines | pointers (+ archive pack where imported) | pointer-only |
-| 06_CMX_CONTINUUM | Continuum | `Continuum-sync-loop` | **empty** |
+| 06_CMX_CONTINUUM | Continuum | intent in drawer; `Continuum-sync-loop` empty | **vision-only** (+ empty satellite) |
 | 07_CELESTIAL_PORTAL | Portal handoff | in-repo `07_…` + `handoff/celestial-portal/` | partial export in hub |
 | 08_SHARED_CROSS_PROJECT | Provenance linking | `docs/PROVENANCE-LINKING.md` | docs |
 | 09_PRIVATE_PROTECTED | Secrets | **do not commit** | N/A |
 | 10_ORIGINAL_CREATIVE | Creative / vision / practice | Codex Crystalum; **Protocol Omega**; This Place | original (in-hub); Omega = practice tool |
 | 11–15 | Correspondence / pubs / research sources / AI extracts / archive | pointers + `13_RESEARCH_SOURCES/` extracts | mixed pointer |
-| 16_AI_SAFETY_RESEARCH | Multi-agent safety | `swarm`, `swarm-artifacts`, `swarm-safety-gate`, `swarmgym`, `agency-os`, `automaton` (+ `aeon` / `aeon-atlas` related) | **fork-mirrors** (strong CI on swarm/agency-os) |
+| 16_AI_SAFETY_RESEARCH | Multi-agent safety | `swarm`, `swarm-artifacts`, `swarm-safety-gate`, `swarmgym`, `agency-os`, `automaton` (+ `aeon` / `aeon-atlas` related) | **fork-mirrors** (URL pointers refreshed) |
 | 17_PHYSICS_SIMULATION | Embodied / env sim | `mars-cybertruck-sim` | fork-mirror (demo/sim) |
 | 18_MATHEMATICAL_FOUNDATIONS | Formal / constructive math | `navier-stokes-lean-check`, `circle-squaring` | fork-mirrors |
-| 19_PHILOSOPHICAL_FOUNDATIONS | Axioms / claims / consciousness | `AI-Foundations-*` (9), `Consciousness-Is-Subjectivity` | fork-mirrors of alyssadata |
+| 19_PHILOSOPHICAL_FOUNDATIONS | Axioms / claims / consciousness | `AI-Foundations-*` (10), `Consciousness-Is-Subjectivity` | fork-mirrors of alyssadata |
 | 20_ECONOMIC_MODELS | Agent-based econ / GTB | `MiroShark` | fork-mirror |
 | 99_UNRESOLVED | Speculative / UNKNOWN | in-repo | hub |
 | *(portfolio outside drawers)* | Design / stubs / private | `api-gateway` **design-only**; `UK-MonoRepo` **private**; stubs `jolly-bolt-flora-lotus`, `pilot-horizon-acre-spring` **private** | see gaps |
@@ -139,41 +140,45 @@ From `00_MEMORY/CROSS-DOMAIN-THREADS.md` + `00_MEMORY/RESEARCH-STATUS.md` (basel
 - **19:** Five axioms (Origin, Belonging, Irreversibility, Emergence, Subjectivity) — foundation-first  
 - **17:** mars-cybertruck as physical constraint testbed — integration with GTB still pending  
 
-Pending infra from research status: drawer→repo pointer files, Drive mirrors for 16–20, cross-domain bead links, multi-domain validation sweep.
+Pending infra from research status: Drive mirrors for 16–20, cross-domain bead links, multi-domain validation sweep. (Drawer→repo URL pointers: addressed in cvs-fixes INDEX refresh.)
 
 ---
 
 ## 6. Gaps & contradictions found
 
-| Issue | Evidence | Implication |
-| --- | --- | --- |
-| **CVS visibility flip** | Portfolio review: 404; live: **public + MIT** (push ~15:30 AEST 2026-09-16) | Update any docs still calling CVS private |
-| **`api-gateway` docs-only** | Tree = README + governance templates; no `src/` / package manifest | Design-only; not a shipped gateway |
-| **`Continuum-sync-loop` empty** | GitHub: empty repo (size 0) | Drawer 06 pointer has no code trail yet |
-| **`UK-MonoRepo` still private** | Live list: private, non-fork | Not in public portfolio; coordinate separately |
-| **Placeholder security contacts** | Shared `SECURITY.md` template `security-email@domain.dev` across many forks | Non-actionable vulnerability reporting |
-| **Hub vs archive dual story** | README: do not merge CrystalCore/TerAustralis/…; `MONOREPO-INDEX`: 20 subtrees under `archive/` | Subtree = file custody, not canon merge — already decided, but easy to misread |
-| **`REPOS.md` narrow/stale** | Lists 4 repos (CVS, aeon-atlas, 2 stubs) dated 2026-09-12 | Does not reflect 58-repo account or science portfolio |
-| **`memory/` vs `00_MEMORY/`** | OPEN-QUESTIONS gate; STRUCTURE maps 00_MEMORY | Naming decision still Crystal’s |
-| **Science drawers Drive TBD** | STRUCTURE.md folders 16–20 = TBD | Staging path incomplete |
-| **Fork-heavy portfolio** | 51 forks / 7 originals | Drawers 16–19 mostly point at **mirrors**, not Crystal-origin research trees |
-| **Protocol Omega only in CVS** | No `protocol-omega` repo on account | Correct for practice tool; don’t invent a research repo |
-| **Stub private templates** | `jolly-bolt-flora-lotus`, `pilot-horizon-acre-spring` | Delete or adopt (REPOS.md already recommends) |
+| Issue | Evidence | Status | Implication |
+| --- | --- | --- | --- |
+| **CVS visibility flip** | Portfolio review: 404; live: **public + MIT** | **FIXED** (documented) | Docs should not call CVS private |
+| **`api-gateway` docs-only** | Tree = README + governance templates; no `src/` / package manifest | **FIXED** (documented in TOOLING-NOTES + REPOS) | Design-only; not a shipped gateway |
+| **`Continuum-sync-loop` empty** | GitHub: empty repo (size 0) | **FIXED** (vision-only marker + optional seed README) | Drawer 06 = vision-only until first commit; no merge |
+| **`UK-MonoRepo` still private** | Live list: private, non-fork | **OPEN** | Not in public portfolio; coordinate separately; do not publish |
+| **Placeholder security contacts** | Hub had `security-email@domain.dev` | **FIXED** (hub SECURITY.md → GitHub Security Advisories) | Portfolio-wide fork templates may still have placeholders — out of scope for hub-only fix |
+| **Hub vs archive dual story** | README: do not merge; `MONOREPO-INDEX`: 20 subtrees under `archive/` | Documented | Subtree = file custody, not canon merge |
+| **`REPOS.md` narrow/stale** | Was 4 repos dated 2026-09-12 | **FIXED** (full refresh 2026-09-16) | Hub + originals + drawer satellites + fork counts |
+| **`memory/` vs `00_MEMORY/`** | OPEN-QUESTIONS gate; STRUCTURE maps 00_MEMORY | **OPEN** | Naming decision still Crystal’s |
+| **Science drawers Drive TBD** | STRUCTURE.md folders 16–20 = TBD | **OPEN** | Staging path incomplete — Crystal + Drive |
+| **Fork-heavy portfolio** | 51 forks / 7 originals | Documented | Drawers 16–19 mostly **mirrors** |
+| **Protocol Omega only in CVS** | No `protocol-omega` repo on account | Correct | Don’t invent a research repo |
+| **Stub private templates** | `jolly-bolt-flora-lotus`, `pilot-horizon-acre-spring` | **OPEN** | Delete or adopt — **Crystal decision**; do not delete in this pass |
+| **CVS-CONNECTED indexed** | WORKING-INDEX row + Latest Updates | **FIXED** | Canon: no |
+| **Science INDEX URL pointers** | Indexes named repos without full CrystalArchitect URLs | **FIXED** (cvs-fixes INDEX refresh) | Still Canon: no |
+| **Cross-domain thread extracts** | Threads 1–5 still at 2026-09-13 baseline | **OPEN** | Research extracts / bead links need Crystal-directed work |
 
 ---
 
 ## 7. Recommended next connections (prioritized, no drive-by rewrites)
 
-1. **Index this map** — Add `CVS-CONNECTED` row + Latest Updates bullet (see `WORKING-INDEX-ROW.md`); keep Canon: no.  
-2. **Refresh `REPOS.md`** — Replace 4-repo stub list with hub + drawer-linked satellites + explicit fork-mirror labels (edit only that file when Crystal asks).  
-3. **Drawer pointer files** — In each of `16_…/INDEX.md` … `20_…/INDEX.md`, add stable CrystalArchitect URLs + “fork-mirror / upstream” one-liners (indexes already name repos; make links concrete).  
-4. **Continuum decision** — Either seed `Continuum-sync-loop` with a README that points at drawer 06 intent, or mark drawer 06 as vision-only until a first commit.  
-5. **`api-gateway` honesty** — Badge/README already “early design”; optionally add one sentence in CVS science or tooling notes: “portfolio design narrative, not integrated.” Do not rewrite the fork.  
-6. **Security contact** — When touching governance templates, replace placeholder email / enable GitHub Security Advisories (portfolio-wide; not a CVS content merge).  
-7. **UK-MonoRepo** — Private; document existence in private notes only; do not pull into public CVS until Crystal opens it.  
-8. **Drive 16–20** — Create Drive folders and replace TBD links in STRUCTURE (Crystal + Drive access).  
-9. **Cross-domain Thread 3 or 4** — Highest leverage research connection without rewriting forks: axiom→governance checklist (3) or apply calibration results into MiroShark market notes (4) as **extracts** in `00_MEMORY/`.  
-10. **Leave Protocol Omega in drawer 10** — No promotion into 16–19; optional UX polish only inside its folder.
+1. ~~**Index this map**~~ — **Done:** `CVS-CONNECTED` in WORKING-INDEX; Canon: no.  
+2. ~~**Refresh `REPOS.md`**~~ — **Done** in cvs-fixes (parent commit).  
+3. ~~**Drawer pointer files**~~ — **Done** in cvs-fixes for `16`–`20` INDEX.md.  
+4. ~~**Continuum decision (vision-only path)**~~ — **Done** marker + optional Continuum-sync-loop seed README; Crystal still chooses when to first-commit.  
+5. ~~**`api-gateway` honesty**~~ — **Done** via `TOOLING-NOTES.md`.  
+6. ~~**Security contact (hub)**~~ — **Done** in hub SECURITY.md; fork-template sweep optional later.  
+7. **UK-MonoRepo** — **OPEN** — Private; do not pull into public CVS until Crystal opens it.  
+8. **Drive 16–20** — **OPEN** — Create Drive folders and replace TBD links in STRUCTURE.  
+9. **Cross-domain Thread 3 or 4** — **OPEN** — Highest leverage research connection without rewriting forks.  
+10. **Leave Protocol Omega in drawer 10** — Still correct; no promotion into 16–19.  
+11. **Stub delete/adopt** — **OPEN** — Crystal decision only.
 
 ---
 
