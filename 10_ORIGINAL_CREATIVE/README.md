@@ -5,3 +5,5 @@ Canonical file in this repo: `/codex/CODEX-CRYSTALUM.md` (first gathering, not C
 
 Library Before Maps, Compass story: Drive 10. Commit here when extracted.
 Permutt stays in 13_RESEARCH_SOURCES.
+
+Protocol Omega (boundaries practice tool): [`protocol-omega/`](./protocol-omega/) — standalone HTML, localStorage ledger. Canon: no.
