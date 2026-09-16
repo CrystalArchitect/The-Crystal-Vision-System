@@ -27,6 +27,8 @@ Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
+- **2026-09-16:** Hub hygiene pass — refreshed `REPOS.md` (58-repo live inventory), Continuum vision-only (`06_CMX_CONTINUUM` + seeded `Continuum-sync-loop` README), SECURITY Advisories (placeholder email removed), MAINTAINERS steward named, science drawer indexes 16–20 with concrete GitHub URLs, TOOLING-NOTES for api-gateway design-only. Still open: Drive 16–20 TBD, stub delete/adopt, UK-MonoRepo private, research thread extracts, memory/ naming.
+
 - **2026-09-16:** Added Connected System Map (`00_MASTER_INDEX/CONNECTED-SYSTEM.md`) linking Crystal Vision drawers to the live CrystalArchitect inventory (58 repos) and Protocol Omega. Notes: CVS public+MIT; api-gateway design-only; Continuum-sync-loop empty; UK-MonoRepo private; science threads 1–5 still at 2026-09-13 baseline. Canon: no.
 
 - **2026-09-16:** Added Protocol Omega under `10_ORIGINAL_CREATIVE/protocol-omega/` (standalone HTML + localStorage ledger). Adapted from Claude artifact; Canon remains no.
