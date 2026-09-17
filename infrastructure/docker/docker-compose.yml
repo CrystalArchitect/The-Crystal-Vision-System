@@ -1,0 +1,149 @@
+version: '3.9'
+
+services:
+  # ========================================================================
+  # MemoryCore Vault: PostgreSQL canonical authority
+  # ========================================================================
+  vault_db:
+    image: postgres:16-alpine
+    container_name: crystal_vault_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: crystal_vision
+      POSTGRES_INITDB_ARGS: "-c log_statement=all"
+    ports:
+      - "5432:5432"
+    volumes:
+      - vault_data:/var/lib/postgresql/data
+      - ../vault/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d crystal_vision"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - crystal_network
+
+  # ========================================================================
+  # Celestial Portal: FastAPI governance service
+  # ========================================================================
+  portal:
+    build:
+      context: ../..
+      dockerfile: infrastructure/docker/Dockerfile.portal
+    container_name: crystal_portal
+    environment:
+      DATABASE_URL: "postgresql://postgres:postgres@vault_db:5432/crystal_vision"
+      PORTAL_HOST: "0.0.0.0"
+      PORTAL_PORT: "8000"
+      LOG_LEVEL: "INFO"
+    ports:
+      - "8000:8000"
+    depends_on:
+      vault_db:
+        condition: service_healthy
+    volumes:
+      - ../../backend/portal:/app/portal
+    networks:
+      - crystal_network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # ========================================================================
+  # Ollama: Local LLM inference (Llama 3 8B)
+  # ========================================================================
+  llm:
+    image: ollama/ollama:latest
+    container_name: crystal_llm
+    environment:
+      OLLAMA_HOST: "0.0.0.0:11434"
+    ports:
+      - "11434:11434"
+    volumes:
+      - llm_models:/root/.ollama
+    networks:
+      - crystal_network
+    command: serve
+    # Note: Pull Llama 3 8B model:
+    #   docker exec crystal_llm ollama pull llama2:7b
+    #   (Change to llama2 for now; 8B variant coming in Ollama 0.2.x)
+
+  # ========================================================================
+  # Whisper: Speech-to-text (optional backend fallback if device offline)
+  # ========================================================================
+  whisper:
+    image: onerahmet/openai-whisper-api:latest
+    container_name: crystal_whisper
+    environment:
+      WHISPER_MODELS: "base"
+    ports:
+      - "8001:9000"
+    volumes:
+      - whisper_models:/root/.cache/whisper
+    networks:
+      - crystal_network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  # ========================================================================
+  # Redis: Session cache and pubsub for voice streams
+  # ========================================================================
+  cache:
+    image: redis:7-alpine
+    container_name: crystal_cache
+    ports:
+      - "6379:6379"
+    volumes:
+      - cache_data:/data
+    networks:
+      - crystal_network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+
+  # ========================================================================
+  # NGINX: Reverse proxy for local device access
+  # ========================================================================
+  proxy:
+    image: nginx:alpine
+    container_name: crystal_proxy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ../../infrastructure/docker/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ../../infrastructure/docker/certs:/etc/nginx/certs:ro
+    depends_on:
+      - portal
+      - llm
+      - whisper
+    networks:
+      - crystal_network
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:80/health"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+
+volumes:
+  vault_data:
+    driver: local
+  llm_models:
+    driver: local
+  whisper_models:
+    driver: local
+  cache_data:
+    driver: local
+
+networks:
+  crystal_network:
+    driver: bridge

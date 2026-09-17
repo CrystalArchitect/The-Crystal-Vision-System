@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+  x:Class="CelestialPortal.Views.MainWindow"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="using:CelestialPortal.Views"
+  Title="Celestial Portal"
+  ExtendsContentIntoTitleBar="True">
+
+    <Grid x:Name="RootGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="AuthenticationStates">
+                <VisualState x:Name="Authenticated"/>
+                <VisualState x:Name="Unauthenticated"/>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+        <!-- Authentication View -->
+        <Grid x:Name="AuthenticationGrid" Padding="40">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" MaxWidth="400" Spacing="24">
+                <!-- Header -->
+                <StackPanel Spacing="8">
+                    <FontIcon Glyph="&#xE72E;" FontSize="60" Foreground="{ThemeResource PrimaryBrush}"/>
+                    <TextBlock Text="Celestial Portal" FontSize="32" FontWeight="Bold"/>
+                    <TextBlock Text="Administrative Governance System" Foreground="{ThemeResource SystemControlDisabledChromeDisabledLowBrush}"/>
+                </StackPanel>
+
+                <!-- Windows Hello Button -->
+                <Button
+                  x:Name="WindowsHelloButton"
+                  Content="Sign in with Windows Hello"
+                  Background="{ThemeResource PrimaryBrush}"
+                  Foreground="White"
+                  Click="WindowsHelloButton_Click"
+                  Padding="12,8"
+                  IsEnabled="True"/>
+
+                <!-- Password Fallback -->
+                <TextBlock Text="Or sign in with password" Foreground="{ThemeResource SystemControlDisabledChromeDisabledLowBrush}" FontSize="12" HorizontalTextAlignment="Center"/>
+                <PasswordBox x:Name="PasswordBox" PlaceholderText="Password"/>
+                <Button
+                  Content="Sign In"
+                  Background="{ThemeResource SystemControlHighlightAccentBrush}"
+                  Foreground="White"
+                  Click="PasswordButton_Click"
+                  Padding="12,8"/>
+
+                <!-- Error Message -->
+                <TextBlock
+                  x:Name="ErrorText"
+                  Text=""
+                  Foreground="{ThemeResource SystemControlHighlightAccentBrush}"
+                  TextWrapping="Wrap"
+                  Visibility="Collapsed"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Main Dashboard -->
+        <Grid x:Name="DashboardGrid" Visibility="Collapsed" Padding="24">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Header with User Info -->
+            <Grid Grid.Row="0" Padding="0,0,0,24">
+                <TextBlock
+                  Text="Welcome, Steward"
+                  FontSize="24"
+                  FontWeight="Bold"/>
+                <Button
+                  x:Name="LogoutButton"
+                  Content="Sign Out"
+                  HorizontalAlignment="Right"
+                  Click="LogoutButton_Click"/>
+            </Grid>
+
+            <!-- Decision Selector and Display -->
+            <ScrollViewer Grid.Row="1">
+                <StackPanel Spacing="20">
+                    <!-- Decision Selector -->
+                    <StackPanel Spacing="8">
+                        <TextBlock Text="Select Decision" FontSize="14" FontWeight="SemiBold"/>
+                        <ComboBox
+                          x:Name="DecisionComboBox"
+                          SelectionChanged="DecisionComboBox_SelectionChanged">
+                            <ComboBoxItem Content="ADM-001: Linting Standards" Tag="ADM-001"/>
+                            <ComboBoxItem Content="ADM-002: Deprecation Status" Tag="ADM-002"/>
+                        </ComboBox>
+                    </StackPanel>
+
+                    <!-- Decision Display -->
+                    <Border
+                      x:Name="DecisionCard"
+                      BorderBrush="{ThemeResource SystemControlHighlightAccentBrush}"
+                      BorderThickness="1"
+                      CornerRadius="8"
+                      Padding="16"
+                      Visibility="Collapsed">
+                        <StackPanel Spacing="12">
+                            <TextBlock
+                              x:Name="DecisionTitle"
+                              FontSize="18"
+                              FontWeight="Bold"/>
+                            <Grid ColumnSpacing="16">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Spacing="8">
+                                    <Grid ColumnSpacing="8">
+                                        <TextBlock Text="Code:" FontWeight="SemiBold" Width="50"/>
+                                        <TextBlock x:Name="DecisionCode" Grid.Column="1"/>
+                                    </Grid>
+                                    <Grid ColumnSpacing="8">
+                                        <TextBlock Text="Status:" FontWeight="SemiBold" Width="50"/>
+                                        <TextBlock x:Name="DecisionStatus" Grid.Column="1"/>
+                                    </Grid>
+                                </StackPanel>
+                                <TextBlock
+                                  x:Name="DecisionHash"
+                                  Grid.Column="1"
+                                  FontFamily="Courier New"
+                                  FontSize="10"
+                                  Foreground="{ThemeResource SystemControlDisabledChromeDisabledLowBrush}"/>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Voice Approval Section -->
+                    <StackPanel Spacing="12" x:Name="VoiceApprovalPanel" Visibility="Collapsed">
+                        <TextBlock Text="Voice Approval" FontSize="14" FontWeight="SemiBold"/>
+                        <Button
+                          x:Name="RecordButton"
+                          Content="Start Recording"
+                          Background="{ThemeResource PrimaryBrush}"
+                          Foreground="White"
+                          Click="RecordButton_Click"
+                          Padding="12,8"/>
+                        <TextBlock
+                          x:Name="TranscriptText"
+                          Text=""
+                          TextWrapping="Wrap"
+                          Visibility="Collapsed"
+                          Padding="12"
+                          Background="{ThemeResource SystemControlHighlightAccentLowBrush}"
+                          CornerRadius="4"/>
+                    </StackPanel>
+
+                    <!-- Loading Indicator -->
+                    <ProgressRing
+                      x:Name="LoadingRing"
+                      IsActive="False"
+                      Visibility="Collapsed"/>
+
+                    <!-- Status Message -->
+                    <TextBlock
+                      x:Name="StatusText"
+                      Text=""
+                      Foreground="{ThemeResource SystemControlDisabledChromeDisabledLowBrush}"
+                      TextWrapping="Wrap"/>
+                </StackPanel>
+            </ScrollViewer>
+
+            <!-- Approval Button -->
+            <Grid Grid.Row="2" Padding="0,24,0,0">
+                <Button
+                  x:Name="ApproveButton"
+                  Content="Approve Decision"
+                  Background="{ThemeResource SystemControlHighlightAccentBrush}"
+                  Foreground="White"
+                  Click="ApproveButton_Click"
+                  Padding="12,8"
+                  IsEnabled="False"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

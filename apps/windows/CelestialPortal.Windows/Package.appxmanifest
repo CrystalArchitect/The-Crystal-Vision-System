@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  IgnorableNamespaces="mp uap">
+
+  <Identity Name="CelestialPortal" Publisher="CN=Crystal Vision" Version="0.1.0.0" />
+
+  <Properties>
+    <DisplayName>Celestial Portal</DisplayName>
+    <PublisherDisplayName>Crystal Vision Team</PublisherDisplayName>
+    <Logo>Images\StoreLogo.png</Logo>
+  </Properties>
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.22621.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+
+  <Applications>
+    <Application Id="CelestialPortal" StartPage="ms-appx:///App.xaml">
+      <uap:VisualElements DisplayName="Celestial Portal" Square150x150Logo="Images\Square150x150Logo.png" Square44x44Logo="Images\Square44x44Logo.png" Description="Voice-first governance system" BackgroundColor="transparent">
+        <uap:DefaultTile />
+        <uap:SplashScreen Image="Images\SplashScreen.png" />
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <Capability Name="internetClientServer" />
+    <DeviceCapability Name="microphone" />
+    <DeviceCapability Name="webcam" />
+  </Capabilities>
+
+</Package>
