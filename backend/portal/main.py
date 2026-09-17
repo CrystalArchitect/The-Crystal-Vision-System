@@ -13,22 +13,28 @@ from uuid import UUID, uuid4
 from fastapi import FastAPI, HTTPException, Depends, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
-from sqlalchemy import create_engine, text
-from sqlalchemy.orm import Session, sessionmaker
+from sqlalchemy import text
+from sqlalchemy.orm import Session
+
+# Import centralized database configuration
+from backend.database import engine, SessionLocal, get_db as database_get_db
+
+# Import authentication components
+from backend.auth.routes import router as auth_router
+from backend.auth.middleware import AuthenticationMiddleware
+from backend.auth.dependencies import get_current_steward, get_current_steward_strict
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
-# Database connection
-DATABASE_URL = "postgresql://postgres:postgres@localhost:5432/crystal_vision"
-engine = create_engine(DATABASE_URL, pool_pre_ping=True)
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 app = FastAPI(
     title="Celestial Portal",
     description="Voice-first governance system with immutable audit trails",
     version="0.1.0"
 )
+
+# Authentication middleware for Bearer token validation
+app.add_middleware(AuthenticationMiddleware)
 
 # CORS for device communication (iPhone, Windows, etc.)
 app.add_middleware(
@@ -42,6 +48,9 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Include authentication routes
+app.include_router(auth_router)
 
 
 # ============================================================================
@@ -89,13 +98,8 @@ class VaultDecision(BaseModel):
 # Database Utilities
 # ============================================================================
 
-def get_db():
-    """Dependency for database session"""
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+# Use centralized get_db from database module
+get_db = database_get_db
 
 
 def compute_event_hash(payload: dict) -> str:
@@ -138,15 +142,24 @@ async def health_check():
 @app.post("/v1/admin/stamp")
 async def stamp_decision(
     payload: DecisionPayload,
-    steward: StewardInfo,
+    background_tasks: BackgroundTasks,
     db: Session = Depends(get_db),
-    background_tasks: BackgroundTasks = None
+    steward_context: dict = Depends(get_current_steward_strict)
 ) -> VaultDecision:
     """
     Canonicalize an administrative decision into MemoryCore Vault.
     Steward approves via voice or biometric; decision receives immutable SHA-256 receipt.
+    Requires authentication and POLICY_APPROVER or ADMIN role.
     """
-    if not steward.can_approve_decisions:
+    # Verify steward has decision approval permissions
+    steward_id = steward_context["steward_id"]
+    steward_name = steward_context["name"]
+    steward_email = steward_context["email"]
+
+    # Check if steward has admin or policy_approver role
+    allowed_roles = ["policy_approver", "admin"]
+    steward_role = steward_context.get("role", "").lower()
+    if steward_role not in allowed_roles:
         raise HTTPException(status_code=403, detail="Steward not authorized to approve decisions")
 
     workspace_id = UUID("00000000-0000-0000-0000-000000000000")  # Default workspace
@@ -166,7 +179,7 @@ async def stamp_decision(
         "payload": payload.payload,
         "previous_hash": previous_hash,
         "created_at": now.isoformat(),
-        "created_by": str(steward.steward_id)
+        "created_by": str(steward_id)
     }
 
     # Compute immutable receipt hash
@@ -195,8 +208,8 @@ async def stamp_decision(
                 "decision_type": payload.decision_type,
                 "payload": json.dumps(payload.payload),
                 "enforcement_scope": payload.enforcement_scope,
-                "created_by": str(steward.steward_id),
-                "approved_by": str(steward.steward_id),
+                "created_by": str(steward_id),
+                "approved_by": str(steward_id),
                 "status": "active",
                 "previous_hash": previous_hash,
                 "event_hash": event_hash,
@@ -211,7 +224,7 @@ async def stamp_decision(
             "workspace_id": str(workspace_id),
             "decision_id": str(decision_id),
             "event_category": "decision_approved",
-            "actor_steward_id": str(steward.steward_id),
+            "actor_steward_id": str(steward_id),
             "outcome": "success"
         }
         audit_hash = compute_event_hash(audit_dict)
@@ -230,8 +243,8 @@ async def stamp_decision(
                 "workspace_id": str(workspace_id),
                 "decision_id": str(decision_id),
                 "event_category": "decision_approved",
-                "event_action": f"Decision {payload.decision_code} approved by {steward.name}",
-                "actor_steward_id": str(steward.steward_id),
+                "event_action": f"Decision {payload.decision_code} approved by {steward_name}",
+                "actor_steward_id": str(steward_id),
                 "outcome": "success",
                 "event_hash": audit_hash,
                 "previous_event_hash": None
@@ -249,7 +262,7 @@ async def stamp_decision(
             status="active",
             event_hash=event_hash,
             created_at=now,
-            approved_by=steward.steward_id
+            approved_by=steward_id
         )
 
     except Exception as e:
@@ -330,14 +343,21 @@ async def get_audit_chain(
 @app.post("/v1/decisions/{decision_id}/revoke")
 async def revoke_decision(
     decision_id: UUID,
-    steward: StewardInfo,
-    db: Session = Depends(get_db)
+    db: Session = Depends(get_db),
+    steward_context: dict = Depends(get_current_steward_strict)
 ) -> dict:
     """
     Revoke an active decision (immutable: creates new superseded record).
     Only authorized stewards can revoke decisions.
+    Requires authentication and POLICY_APPROVER or ADMIN role.
     """
-    if not steward.can_approve_decisions:
+    steward_id = steward_context["steward_id"]
+    steward_name = steward_context["name"]
+
+    # Check if steward has admin or policy_approver role
+    allowed_roles = ["policy_approver", "admin"]
+    steward_role = steward_context.get("role", "").lower()
+    if steward_role not in allowed_roles:
         raise HTTPException(status_code=403, detail="Not authorized to revoke decisions")
 
     try:
@@ -360,7 +380,7 @@ async def revoke_decision(
             "event_id": str(audit_event_id),
             "decision_id": str(decision_id),
             "event_category": "decision_revoked",
-            "actor_steward_id": str(steward.steward_id),
+            "actor_steward_id": str(steward_id),
             "outcome": "success"
         }
         audit_hash = compute_event_hash(audit_dict)
@@ -379,8 +399,8 @@ async def revoke_decision(
                 "workspace_id": "00000000-0000-0000-0000-000000000000",
                 "decision_id": str(decision_id),
                 "event_category": "decision_revoked",
-                "event_action": f"Decision revoked by {steward.name}",
-                "actor_steward_id": str(steward.steward_id),
+                "event_action": f"Decision revoked by {steward_name}",
+                "actor_steward_id": str(steward_id),
                 "outcome": "success",
                 "event_hash": audit_hash
             }
