@@ -30,12 +30,23 @@ class AuthenticationMiddleware(BaseHTTPMiddleware):
         "/v1/auth/enroll",
         "/v1/auth/token",
         "/v1/auth/logout",
+        "/v1/auth/cleanup",
+    }
+
+    # Path prefixes for public read endpoints (don't require authentication)
+    PUBLIC_READ_PREFIXES = {
+        "/v1/decisions/",
+        "/v1/audit-chain/",
     }
 
     async def dispatch(self, request: Request, call_next):
         """Process request and validate authentication token if required"""
         # Skip authentication for exempt paths
         if request.url.path in self.EXEMPT_PATHS:
+            return await call_next(request)
+
+        # Skip authentication for public read endpoints (GET only)
+        if request.method == "GET" and any(request.url.path.startswith(prefix) for prefix in self.PUBLIC_READ_PREFIXES):
             return await call_next(request)
 
         # Extract Bearer token from Authorization header

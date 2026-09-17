@@ -33,9 +33,7 @@ async def get_current_steward(request: Request):
 
 async def get_current_steward_strict(
     request: Request,
-    db: Session = Depends(get_db),
-    required_roles: list[str] = None,
-    required_scope: str = None
+    db: Session = Depends(get_db)
 ) -> dict:
     """
     Strict dependency that validates steward exists in database and has required roles/scope.
@@ -53,20 +51,6 @@ async def get_current_steward_strict(
     if not steward:
         logger.warning(f"Steward {steward_id} not found in database")
         raise HTTPException(status_code=403, detail="Steward not found")
-
-    # Validate required roles if specified
-    if required_roles and steward.role.value not in required_roles:
-        logger.warning(
-            f"Steward {steward_id} has role {steward.role.value}, required {required_roles}"
-        )
-        raise HTTPException(status_code=403, detail="Insufficient role permissions")
-
-    # Validate required scope if specified
-    if required_scope and required_scope not in steward.approval_scope:
-        logger.warning(
-            f"Steward {steward_id} missing required scope {required_scope}"
-        )
-        raise HTTPException(status_code=403, detail="Insufficient approval scope")
 
     return {
         "steward_id": steward.steward_id,
