@@ -8,7 +8,7 @@ Canon is a Crystal stamp, not a folder.
 | Drawer | Drive | This repo |
 | --- | --- | --- |
 | 00_MASTER_INDEX | [folder](https://drive.google.com/drive/folders/1Ka97rkmyTLICLCNskTOzEJCFyDBN2t55) | `00_MASTER_INDEX/` |
-| 00_MEMORY | [folder](https://drive.google.com/drive/folders/198aF86HlpiXyuX70sHcPdY6bBSn0TLmf) | `00_MEMORY/` |
+| 00_MEMORY | [folder](https://drive.google.com/drive/folders/198aF86HlpiXyuX70sHcPdY6bBSn0TLmf) | `00_MEMORY/` (research); protocol also at `memory/` — see note below |
 | 01_CRYSTALCORE | [folder](https://drive.google.com/drive/folders/1tsk47DWrkTxGt8pqrZj_Hsaw5Ar32uLl) | pointers only — code stays in its own repo |
 | 02_TERAUSTRALIS_INCOGNITA | [folder](https://drive.google.com/drive/folders/1zh9v_cdbpTUcrg8RGvVr82OXmYscTZmT) | pointers only — Canon Map stays in TerAustralis git |
 | 03_SYNTHETIC_AFFECT_THEORY | [folder](https://drive.google.com/drive/folders/1xLr8YAGNJp6LgN8TKbAZ15P5_A1aGn0X) | `docs/SAT-STACK.md` until moved |
@@ -30,6 +30,13 @@ Canon is a Crystal stamp, not a folder.
 | 19_PHILOSOPHICAL_FOUNDATIONS | [folder](https://drive.google.com/drive/folders/TBD) | `19_PHILOSOPHICAL_FOUNDATIONS/` + pointers to AI-Foundations-*, Consciousness-Is-Subjectivity |
 | 20_ECONOMIC_MODELS | [folder](https://drive.google.com/drive/folders/TBD) | `20_ECONOMIC_MODELS/` + pointers to MiroShark |
 | 99_UNRESOLVED | [folder](https://drive.google.com/drive/folders/11f7yOpROMH5DI81NFaEFG1ceVRyS-Zcu) | UNKNOWN stays here |
+
+**`memory/` vs `00_MEMORY/` (interim, Canon: no):**  
+- `00_MEMORY/` = drawer for cross-domain research extracts (matches Drive drawer name).  
+- `memory/` = monorepo protocol (DECISIONS / OPEN-QUESTIONS / …), not a second science drawer.  
+Crystal may stamp packet B in [`00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md`](00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md) to rename or merge later. Do not invent a third memory tree.
+
+**Drive 16–20:** folder links still `TBD` — create per packet A in the same decisions file. Google Drive MCP was unauthenticated in agent sessions that tried; Crystal creates folders and pastes URLs here.
 
 Rules already locked:
 

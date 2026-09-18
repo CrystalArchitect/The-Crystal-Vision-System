@@ -102,4 +102,11 @@ Live `gh repo list` shows **65** public / **0** private; former stubs and
 `UK-MonoRepo` are absent. Documented as GONE pending Crystal confirm — agents
 do not recreate or delete further. Canon: **no**.
 
+## 2026-09-18 — Naming interim + auth-blocked privates gone + Portal drawer
+
+Documented dual `memory/` (protocol) vs `00_MEMORY/` (research) without
+renaming (packet B option 1). Former auth-blocked private import targets also
+absent from live list. Expanded `07_CELESTIAL_PORTAL/README.md`. Drive MCP
+auth timed out — packet A unchanged. Canon: **no**.
+
 

@@ -32,44 +32,48 @@ Under Drive root `1mc0RvTCg3d94WcYIot2pLKoiHQb8nBnX` (same as other CVSC drawers
 
 ### Agent note
 
-Google Drive MCP for this session is **unauthenticated**. No agent pass can complete A without Crystal (or Drive auth + explicit yes).
+Google Drive MCP auth **timed out** in the 2026-09-18 agent session that tried. No agent pass can complete A without Crystal (or successful Drive auth + explicit yes to create).
 
 ---
 
-## B. `memory/` vs `00_MEMORY/` naming (OPEN)
+## B. `memory/` vs `00_MEMORY/` naming (INTERIM DOCUMENTED)
 
 | Path | What it holds today |
 | --- | --- |
 | [`00_MEMORY/`](../00_MEMORY/) | Cross-domain research: status, threads, axiom audit, Thread 1–5 extracts |
-| [`memory/`](../memory/) | Monorepo protocol: CORE, DECISIONS, MILESTONES, OPEN-QUESTIONS, PRIVACY, deletion checklist |
+| [`memory/`](../memory/) | Monorepo protocol: CORE, DECISIONS, MILESTONES, OPEN-QUESTIONS, PRIVACY |
 
-[`STRUCTURE.md`](../STRUCTURE.md) maps drawer **00_MEMORY** → `` `00_MEMORY/` ``. Protocol files under `memory/` predate that mapping (logged in [`../memory/OPEN-QUESTIONS.md`](../memory/OPEN-QUESTIONS.md)).
+[`STRUCTURE.md`](../STRUCTURE.md) now notes both. READMEs in each path cross-link.
 
-### Options for Crystal (pick one)
+### Options for Crystal (pick one to stamp)
 
-1. **Keep both (recommended default until stamp)** — Document dual role: `00_MEMORY` = science coordination; `memory/` = hub protocol. No rename. Update STRUCTURE note to say both are intentional.  
+1. **Keep both (current interim)** — Dual role documented; no rename.  
 2. **Move protocol into `00_MEMORY/protocol/`** — Single drawer root; update all links.  
-3. **Rename `memory/` → something outside drawers** — e.g. keep as repo meta only; STRUCTURE stays `00_MEMORY` for research.
+3. **Rename `memory/` → something outside drawers** — e.g. keep as repo meta only.
 
-Silence is not permission — do not rename until Crystal picks.
+Silence is not permission for options 2–3 — do not rename until Crystal picks. Option 1 is live as documentation only (Canon: no).
 
 ---
 
-## C. Stub repos + UK-MonoRepo (CLOSED on live inventory — confirm)
+## C. Stub repos + UK-MonoRepo + former auth-blocked privates (GONE on live — confirm)
 
 Live `gh repo list CrystalArchitect` (2026-09-18): **65** repos, **0** private.
 
-| Name (2026-09-16 inventory) | Live status 2026-09-18 |
+| Name (earlier inventory / open questions) | Live status 2026-09-18 |
 | --- | --- |
-| `jolly-bolt-flora-lotus` | **Not found** (absent from list + API 404) |
+| `jolly-bolt-flora-lotus` | **Not found** |
 | `pilot-horizon-acre-spring` | **Not found** |
 | `UK-MonoRepo` | **Not found** |
+| `CrystalCore.OS-Aeris-Vault12` | **Not found** |
+| `CrystalCore-AERIS` | **Not found** |
+| `CrystalCore` | **Not found** |
+| `TerAustralis-Incognita-` (trailing hyphen) | **Not found** |
 
-**Implication:** Prior “delete or adopt” / “keep private” gates appear **already resolved outside this hub** (deleted or never visible to current token).  
+**Implication:** Stub/UK “delete or adopt” and “import auth-blocked privates” gates are **not actionable** on live inventory.  
 
-**Crystal confirm:** Reply yes if deletion was intentional. If any of these should still exist, restore from backup / GitHub support — hub cannot recover them.
+**Crystal confirm:** Reply yes if absence was intentional. Hub cannot restore deleted repos.
 
-Until confirmed, hub docs mark these rows **GONE (live)** rather than OPEN for agent action. Still **do not** invent recreated stub repos.
+Until confirmed, hub docs mark these **GONE (live)**. Do not invent recreated stubs or private imports.
 
 ---
 

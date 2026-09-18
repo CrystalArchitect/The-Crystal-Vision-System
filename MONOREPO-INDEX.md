@@ -89,6 +89,8 @@ These repositories require authentication credentials not available in non-inter
 
 **Recovery Path**: Re-run consolidation in interactive session with `gh auth` or SSH keys configured.
 
+**2026-09-18 live check:** all four names are **absent** from `gh repo list CrystalArchitect` (0 private on account). Import gate is not actionable unless Crystal restores them — see [`00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md`](00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md) §C.
+
 ### Excluded Repos — 1 repo
 
 1. **the-algorithm** — Fork of external recommendation system code (licensing, not included per user request)
