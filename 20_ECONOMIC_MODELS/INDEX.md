@@ -1,7 +1,7 @@
 # Drawer 20: Economic Models
 
 **Canon:** **no**  
-**Updated:** 2026-09-16 AEST  
+**Updated:** 2026-09-18 AEST  
 **Rule:** Connection ≠ merge — satellite is a **fork-mirror**.
 
 ## Overview
@@ -50,8 +50,16 @@ Agent-based economic simulation and policy modeling in stylized worlds. Drawer p
 - Faithful reporting: reverse results reported honestly
 - Minimal runs indicate "underpowered" status; never omit
 
+## Cross-domain beads
+
+- **Thread 1** (scarcity / mars port): [`../00_MEMORY/THREAD-1-GOVERNANCE-SCARCITY-EXTRACT.md`](../00_MEMORY/THREAD-1-GOVERNANCE-SCARCITY-EXTRACT.md)
+- **Thread 3** (axiom grounding): [`../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md`](../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md)
+- **Thread 4** (LLM calibration → `yes_probability`): [`../00_MEMORY/THREAD-4-LLM-CALIBRATION-EXTRACT.md`](../00_MEMORY/THREAD-4-LLM-CALIBRATION-EXTRACT.md)
+
 ## Cross-Links
 
 - [[16_AI_SAFETY_RESEARCH]] — Safety under economic pressure
 - [[19_PHILOSOPHICAL_FOUNDATIONS]] — Foundational axioms for economics
+- [[17_PHYSICS_SIMULATION]] — Embodied scarcity (Thread 1)
 - [[00_MASTER_INDEX]] — Coordination hub
+- [[00_MEMORY]] — Thread 1 / 3 / 4 beads (Canon: no)

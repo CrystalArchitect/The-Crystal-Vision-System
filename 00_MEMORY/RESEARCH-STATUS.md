@@ -173,7 +173,8 @@ Does the welfare-cost paradox (governance saves safety but costs welfare) hold a
 - MiroShark: Audit has Laffer-shaped optimum, not monotone (100 seeds, 2026-06-15)
 
 ### Q3: Axiom Grounding (Philosophy → AI Safety)
-Which foundational axioms are violated by current governance designs? Irreversibility audit in progress; subjectivity requirement review pending.
+
+Which foundational axioms are violated by current governance designs? Hub mapping + desk audit: [`AXIOM-AUDIT-FRAMEWORK.md`](AXIOM-AUDIT-FRAMEWORK.md) + extract [`THREAD-3-AXIOM-GROUNDING-EXTRACT.md`](THREAD-3-AXIOM-GROUNDING-EXTRACT.md) (2026-09-18). Irreversibility experimental check and subjectivity visibility tests still pending in satellites.
 
 ### Q4: Agent Behavior Under Scarcity (Physics ↔ Economics)
 Do GTB agents maintain economic efficiency and safety properties when moved into high-constraint environments (Mars)? Pending integration between mars-cybertruck-sim and MiroShark/GTB orchestration.
@@ -192,10 +193,10 @@ Do GTB agents maintain economic efficiency and safety properties when moved into
 ### Immediate Next Steps
 
 1. ✅ Establish baseline (this document)
-2. ⏳ **[PENDING]** Create pointers in each drawer linking to corresponding GitHub repos
+2. ✅ Create pointers in each drawer linking to corresponding GitHub repos (2026-09-16 INDEX refresh)
 3. ⏳ **[PENDING]** Set up Google Drive mirrors for Drawers 16–20
-4. ⏳ **[PENDING]** Cross-link all active beads across domains
-5. ⏳ **[PENDING]** Run multi-domain validation sweep (AI Safety principles vs Economics vs Physics)
+4. ✅ Cross-link Threads 1–5 beads (2026-09-18 hub extracts; T2 stub only)
+5. ⏳ **[PENDING]** Run multi-domain validation sweep (AI Safety principles vs Economics vs Physics) — satellite work
 
 ### Coordination Rules
 

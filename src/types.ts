@@ -4,6 +4,20 @@
  * Core types for the drum & bass music library
  */
 
+export interface User {
+  id: string;
+  email: string;
+  createdAt: number;
+  updatedAt: number;
+  profile: UserProfile;
+}
+
+export interface UserProfile {
+  displayName?: string;
+  avatarUrl?: string;
+  bio?: string;
+}
+
 export interface Track {
   id: string;
   title: string;
@@ -65,6 +79,7 @@ export interface UserMeta {
 
 export interface Playlist {
   id: string;
+  userId?: string;
   name: string;
   description?: string;
   trackIds: string[];
@@ -76,6 +91,7 @@ export interface Playlist {
 
 export interface SmartPlaylist {
   id: string;
+  userId?: string;
   name: string;
   description?: string;
   rules: PlaylistRule[];

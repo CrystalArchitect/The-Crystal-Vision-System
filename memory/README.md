@@ -6,6 +6,8 @@ The-Crystal-Vision-System monorepo, the connective layer (see root
 
 ## Scope — read this before writing here
 
+**Not the same as [`00_MEMORY/`](../00_MEMORY/).** That drawer holds cross-domain research extracts (threads, axiom audit). This folder is monorepo **protocol** only. Dual path is intentional until Crystal stamps [`../00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md`](../00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md) §B.
+
 This repo now physically contains other projects' full history, imported as
 isolated `archive/<name>/` subtrees (see [`MONOREPO-INDEX.md`](../MONOREPO-INDEX.md)).
 Several of those subtrees carry their **own** `memory/` directory and their

@@ -23,6 +23,15 @@
 | CVS-ECON-20 | 20 | Economic Models Drawer | coordination | no | `/20_ECONOMIC_MODELS/INDEX.md` |
 | CVS-RES-STATUS | 00 | Cross-Domain Research Status (baseline 2026-09-13) | research | no | `/00_MEMORY/RESEARCH-STATUS.md` |
 | CVS-X-THREADS | 00 | Cross-Domain Research Threads (integration map) | research | no | `/00_MEMORY/CROSS-DOMAIN-THREADS.md` |
+| CVS-T3-AXIOM | 00 | Thread 3 axiom-grounding extract (19→16↔20) | research | no | `/00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md` |
+| CVS-T4-CALIB | 00 | Thread 4 LLM-calibration extract (16→20) | research | no | `/00_MEMORY/THREAD-4-LLM-CALIBRATION-EXTRACT.md` |
+| CVS-T5-SOFT | 00 | Thread 5 soft-label cert extract (18↔16) | research | no | `/00_MEMORY/THREAD-5-SOFT-LABEL-CERT-EXTRACT.md` |
+| CVS-T1-SCARCITY | 00 | Thread 1 governance-scarcity extract (16↔20↔17) | research | no | `/00_MEMORY/THREAD-1-GOVERNANCE-SCARCITY-EXTRACT.md` |
+| CVS-T2-COALITION | 00 | Thread 2 coalition-detect stub extract (16↔18↔19) | research | no | `/00_MEMORY/THREAD-2-COALITION-DETECT-EXTRACT.md` |
+| CVS-BACKLOG | 00 | Open backlog (hub hygiene + gates + threads) | coordination | no | `/00_MASTER_INDEX/OPEN-BACKLOG.md` |
+| CVS-CRYSTAL-DEC | 00 | Crystal decisions pending (Drive / naming / stubs) | coordination | no | `/00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md` |
+| CVS-AXIOM-AUDIT | 00 | Axiom Audit Framework (Thread 3 map) | research | no | `/00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md` |
+| CVS-BOTS | 08 | Bot structure (pools + roster + Gate + registry) | coordination | no | `/docs/BOT-STRUCTURE.md` |
 
 Canon stays **no** until Crystal stamps it.
 
@@ -30,7 +39,19 @@ Canon stays **no** until Crystal stamps it.
 
 - **2026-09-18:** Alive Weave — hub coordination for multi-AI islands without merge. Map: `00_MASTER_INDEX/ALIVE-WEAVE.md`. Runners: `scripts/alive/pulse.py` (island pulse + selftests), `scripts/alive/weave.py` (TCV bridge bus + Starline Weaver → twin `signal.bus_message`, Architecture S4). Optional `--sat` gates hub turn via SAT `wrap_turn`. Law unchanged: connection ≠ merge; out-of-bounds titles stay out of bounds. Canon: no.
 
-- **2026-09-16:** Hub hygiene pass — refreshed `REPOS.md` (58-repo live inventory), Continuum vision-only (`06_CMX_CONTINUUM` + seeded `Continuum-sync-loop` README), SECURITY Advisories (placeholder email removed), MAINTAINERS steward named, science drawer indexes 16–20 with concrete GitHub URLs, TOOLING-NOTES for api-gateway design-only. Still open: Drive 16–20 TBD, stub delete/adopt, UK-MonoRepo private, research thread extracts, memory/ naming.
+- **2026-09-18 (bots):** Expanded bot structure — [`docs/bots/registry.yaml`](../docs/bots/registry.yaml), BOT-GROK [`prompt.md`](../docs/bots/grok/prompt.md) + [`stages.md`](../docs/bots/grok/stages.md) I/O contracts. Canon: no.
+
+- **2026-09-18 (bots):** Filed [`docs/BOT-STRUCTURE.md`](../docs/BOT-STRUCTURE.md) — pools not headcount, Crystal protocol gate, BOT-GROK/DISCORD/COLLECT/RESEARCH/PORTAL roster. Canon: no.
+
+- **2026-09-18 (gates):** Documented `memory/` vs `00_MEMORY/` dual path in STRUCTURE + READMEs (packet B option 1 interim). Former auth-blocked CrystalCore* privates also GONE on live list. Celestial Portal drawer README expanded. Drive 16–20 still OPEN (Drive MCP auth timed out). Canon: no.
+
+- **2026-09-18 (decisions):** Live inventory shows stubs + `UK-MonoRepo` **gone** (0 private). Filed [`CRYSTAL-DECISIONS-PENDING.md`](CRYSTAL-DECISIONS-PENDING.md) packets A–C (Drive, naming, confirm-gone). Canon: no.
+
+- **2026-09-18 (cont.):** Hub extracts for Threads 1, 2 (stub), 4, 5 — clears remaining cross-domain bead gaps without rewriting forks. Drive/naming still Crystal-gated. Canon: no.
+
+- **2026-09-18:** Backlog pick = Thread 3 (Drive 16–20 / stubs still Crystal-blocked). Filed [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), Thread 3 extract, cross-links on drawers 16/19/20, refreshed Thread 3 status in `CROSS-DOMAIN-THREADS.md`. Canon: no.
+
+- **2026-09-16:** Hub hygiene pass — refreshed `REPOS.md` (58-repo live inventory), Continuum vision-only (`06_CMX_CONTINUUM` + seeded `Continuum-sync-loop` README), SECURITY Advisories (placeholder email removed), MAINTAINERS steward named, science drawer indexes 16–20 with concrete GitHub URLs, TOOLING-NOTES for api-gateway design-only. Still open: Drive 16–20 TBD, stub delete/adopt, UK-MonoRepo private, research thread extracts (1–2/4–5), memory/ naming.
 
 - **2026-09-16:** Added Connected System Map (`00_MASTER_INDEX/CONNECTED-SYSTEM.md`) linking Crystal Vision drawers to the live CrystalArchitect inventory (58 repos) and Protocol Omega. Notes: CVS public+MIT; api-gateway design-only; Continuum-sync-loop empty; UK-MonoRepo private; science threads 1–5 still at 2026-09-13 baseline. Canon: no.
 

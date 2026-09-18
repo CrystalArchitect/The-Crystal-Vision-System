@@ -97,3 +97,35 @@ for a checklist rather than execution, produced as
 flagged risks (a same-named-minus-a-hyphen private repo not to confuse with
 the imported one, and what `archive/` does and doesn't preserve). See
 [`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md) for the live gate.
+
+## 2026-09-18 — Backlog pick: Thread 3 axiom-grounding extract (hub only)
+
+From [`00_MASTER_INDEX/OPEN-BACKLOG.md`](../00_MASTER_INDEX/OPEN-BACKLOG.md)
+suggested order: Drive 16–20 and stub delete/adopt remain Crystal-gated.
+Default agent connection work without rewriting forks: file Thread 3 extract
+and bead links (drawers 16/19/20 + `00_MEMORY`), refresh Thread 3 status in
+[`CROSS-DOMAIN-THREADS.md`](../00_MEMORY/CROSS-DOMAIN-THREADS.md). Canon: **no**.
+Satellite audit experiments stay outside this decision.
+
+## 2026-09-18 — Hub extracts for Threads 1, 2 (stub), 4, 5
+
+Continues the Thread 3 connection pass: file remaining cross-domain beads in
+`00_MEMORY/` and link drawers 16–20 without rewriting fork-mirrors. Thread 2
+remains a stub until a combined-detector architecture is chosen. Drive 16–20
+and naming still Crystal-gated. Canon: **no**.
+
+## 2026-09-18 — Decision packets; stubs/UK gone on live inventory
+
+Filed [`00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md`](../00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md).
+Live `gh repo list` shows **65** public / **0** private; former stubs and
+`UK-MonoRepo` are absent. Documented as GONE pending Crystal confirm — agents
+do not recreate or delete further. Canon: **no**.
+
+## 2026-09-18 — Naming interim + auth-blocked privates gone + Portal drawer
+
+Documented dual `memory/` (protocol) vs `00_MEMORY/` (research) without
+renaming (packet B option 1). Former auth-blocked private import targets also
+absent from live list. Expanded `07_CELESTIAL_PORTAL/README.md`. Drive MCP
+auth timed out — packet A unchanged. Canon: **no**.
+
+
