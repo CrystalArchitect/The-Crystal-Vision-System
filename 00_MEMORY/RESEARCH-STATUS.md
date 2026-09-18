@@ -195,7 +195,7 @@ Do GTB agents maintain economic efficiency and safety properties when moved into
 1. ✅ Establish baseline (this document)
 2. ✅ Create pointers in each drawer linking to corresponding GitHub repos (2026-09-16 INDEX refresh)
 3. ⏳ **[PENDING]** Set up Google Drive mirrors for Drawers 16–20
-4. ✅ Cross-link Thread 3 bead (2026-09-18 extract + drawers 16/19/20); Threads 1–2/4–5 still pending
+4. ✅ Cross-link Threads 1–5 beads (2026-09-18 hub extracts; T2 stub only)
 5. ⏳ **[PENDING]** Run multi-domain validation sweep (AI Safety principles vs Economics vs Physics) — satellite work
 
 ### Coordination Rules

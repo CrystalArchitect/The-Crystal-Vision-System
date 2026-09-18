@@ -23,7 +23,7 @@ This document maps active research threads across the five science domains and i
 3. Compare welfare, Gini, catch rates across both environments
 4. Verify whether irreversibility axiom (Drawer 19) holds under resource scarcity
 
-**Pending issues:** None; framework in place. Awaiting implementation.
+**Pending issues:** None; framework in place. Awaiting implementation. Hub extract: [`THREAD-1-GOVERNANCE-SCARCITY-EXTRACT.md`](THREAD-1-GOVERNANCE-SCARCITY-EXTRACT.md) (2026-09-18).
 
 ---
 
@@ -46,7 +46,7 @@ This document maps active research threads across the five science domains and i
 3. Write Lean proof that: (a) overlapping coalitions recover to p10 ≥ 0.97, (b) ROC ranking ≤ 5% degradation
 4. Verify the proof against Drawer 19 irreversibility constraint (detection must not mask irreversible harms)
 
-**Pending issues:** ISS-detected (to be filed); requires mathematician + AI safety collaboration.
+**Pending issues:** ISS-detected (to be filed); requires mathematician + AI safety collaboration. Hub stub extract (no invented algorithm): [`THREAD-2-COALITION-DETECT-EXTRACT.md`](THREAD-2-COALITION-DETECT-EXTRACT.md) (2026-09-18).
 
 ---
 
@@ -92,7 +92,7 @@ This document maps active research threads across the five science domains and i
 4. Run GTB prediction-market sweeps with both raw and corrected estimates
 5. Compare market efficiency, bid-ask spreads, prediction accuracy
 
-**Pending issues:** None; on critical path.
+**Pending issues:** None; on critical path. Hub extract (does not claim arms complete): [`THREAD-4-LLM-CALIBRATION-EXTRACT.md`](THREAD-4-LLM-CALIBRATION-EXTRACT.md) (2026-09-18).
 
 ---
 
@@ -114,7 +114,7 @@ This document maps active research threads across the five science domains and i
 3. Prove: SoftPayoffEngine's payoff formulas preserve probability interpretation
 4. Verify all SWARM signal aggregation respects the invariant
 
-**Pending issues:** None; can start whenever Math domain has capacity.
+**Pending issues:** None; can start whenever Math domain has capacity. Hub extract: [`THREAD-5-SOFT-LABEL-CERT-EXTRACT.md`](THREAD-5-SOFT-LABEL-CERT-EXTRACT.md) (2026-09-18).
 
 ---
 
@@ -122,11 +122,11 @@ This document maps active research threads across the five science domains and i
 
 | Thread | Status | Next Step | Owner | Timeline |
 |--------|--------|-----------|-------|----------|
-| 1: Governance Under Scarcity | Design ready | Port GTB params to mars-cybertruck | Physics (17) + Economics (20) | Q4 2026 |
-| 2: Coalition Detection Proof | Awaiting formal spec | Propose combined algorithm, start Lean proof | Math (18) + AI Safety (16) | Q4 2026 |
+| 1: Governance Under Scarcity | Design ready + hub extract (2026-09-18) | Port GTB params to mars-cybertruck | Physics (17) + Economics (20) | Q4 2026 |
+| 2: Coalition Detection Proof | Awaiting formal spec + hub stub extract | Propose combined algorithm, start Lean proof | Math (18) + AI Safety (16) | Q4 2026 |
 | 3: Axiom Audit | Mapping + hub extract done (2026-09-18) | Run satellite audit actions (freeze-evasion, reputation visibility) | Philosophy (19) + AI Safety (16) + Economics (20) | Q3–Q4 2026 |
-| 4: LLM Calibration in Markets | In flight | Await experiment completion, apply results | AI Safety (16) + Economics (20) | Q4 2026 |
-| 5: Soft-Label Certification | Design ready | Formalize in Lean, prove | Math (18) + AI Safety (16) | Q4 2026 |
+| 4: LLM Calibration in Markets | In flight + hub extract (2026-09-18) | Await experiment completion, apply results | AI Safety (16) + Economics (20) | Q4 2026 |
+| 5: Soft-Label Certification | Design ready + hub extract (2026-09-18) | Formalize in Lean, prove | Math (18) + AI Safety (16) | Q4 2026 |
 
 ---
 

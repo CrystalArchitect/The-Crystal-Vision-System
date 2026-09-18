@@ -126,11 +126,11 @@ From `00_MEMORY/CROSS-DOMAIN-THREADS.md` + `00_MEMORY/RESEARCH-STATUS.md` (basel
 
 | # | Thread | Domains | Status | Next step |
 | --- | --- | --- | --- | --- |
-| 1 | Governance under scarcity | 16 ↔ 20 ↔ 17 | Design ready | Port GTB audit/tax params onto mars-cybertruck agents; compare welfare/Gini |
-| 2 | Coalition detection + formal proof | 16 ↔ 18 ↔ 19 | Awaiting formal spec | Combined detector + Lean proof; respect irreversibility |
+| 1 | Governance under scarcity | 16 ↔ 20 ↔ 17 | Design ready + hub extract (2026-09-18) | Port GTB audit/tax params onto mars-cybertruck agents; compare welfare/Gini |
+| 2 | Coalition detection + formal proof | 16 ↔ 18 ↔ 19 | Awaiting formal spec + hub stub | Combined detector + Lean proof; respect irreversibility |
 | 3 | Axiom grounding in governance | 19 → 16 ↔ 20 | Hub mapping + extract **done** (2026-09-18) | Satellite audit actions (freeze-evasion, reputation visibility) |
-| 4 | LLM calibration in markets | 16 → 20 | In flight | Finish rubric_v1 calibration; correct market `yes_probability` |
-| 5 | Soft-label mathematical certification | 18 ↔ 16 | Design ready | Lean: compositions keep `p ∈ [0,1]` |
+| 4 | LLM calibration in markets | 16 → 20 | In flight + hub extract (2026-09-18) | Finish rubric_v1 calibration; correct market `yes_probability` |
+| 5 | Soft-label mathematical certification | 18 ↔ 16 | Design ready + hub extract (2026-09-18) | Lean: compositions keep `p ∈ [0,1]` |
 
 **Domain snapshot (research status baseline):**
 
@@ -140,7 +140,7 @@ From `00_MEMORY/CROSS-DOMAIN-THREADS.md` + `00_MEMORY/RESEARCH-STATUS.md` (basel
 - **19:** Five axioms (Origin, Belonging, Irreversibility, Emergence, Subjectivity) — foundation-first  
 - **17:** mars-cybertruck as physical constraint testbed — integration with GTB still pending  
 
-Pending infra from research status: Drive mirrors for 16–20, cross-domain bead links, multi-domain validation sweep. (Drawer→repo URL pointers: addressed in cvs-fixes INDEX refresh.)
+Pending infra from research status: Drive mirrors for 16–20, multi-domain validation sweep. (Drawer→repo URL pointers: addressed in cvs-fixes INDEX refresh. Thread beads 1–5: hub extracts filed 2026-09-18.)
 
 ---
 
@@ -162,7 +162,7 @@ Pending infra from research status: Drive mirrors for 16–20, cross-domain bead
 | **Stub private templates** | `jolly-bolt-flora-lotus`, `pilot-horizon-acre-spring` | **OPEN** | Delete or adopt — **Crystal decision**; do not delete in this pass |
 | **CVS-CONNECTED indexed** | WORKING-INDEX row + Latest Updates | **FIXED** | Canon: no |
 | **Science INDEX URL pointers** | Indexes named repos without full CrystalArchitect URLs | **FIXED** (cvs-fixes INDEX refresh) | Still Canon: no |
-| **Cross-domain thread extracts** | Threads 1–2, 4–5 still at 2026-09-13 baseline; **Thread 3 extract filed 2026-09-18** | **PARTIAL** | Remaining extracts need Crystal-directed work |
+| **Cross-domain thread extracts** | Threads 1–5 hub extracts filed 2026-09-18 (T2 = stub awaiting formal spec) | **DONE (hub)** | Satellite execution remains |
 
 ---
 
@@ -176,7 +176,7 @@ Pending infra from research status: Drive mirrors for 16–20, cross-domain bead
 6. ~~**Security contact (hub)**~~ — **Done** in hub SECURITY.md; fork-template sweep optional later.  
 7. **UK-MonoRepo** — **OPEN** — Private; do not pull into public CVS until Crystal opens it.  
 8. **Drive 16–20** — **OPEN** — Create Drive folders and replace TBD links in STRUCTURE.  
-9. **Cross-domain Thread 3** — **DONE (hub)** 2026-09-18 — extract + drawer bead links; satellite audit actions remain OPEN. Next connection pick: Thread 4 when calibration completes, or Thread 1/2/5.  
+9. **Cross-domain Threads 1–5** — **DONE (hub extracts)** 2026-09-18 — satellite execution remains OPEN.  
 10. **Leave Protocol Omega in drawer 10** — Still correct; no promotion into 16–19.  
 11. **Stub delete/adopt** — **OPEN** — Crystal decision only.  
 12. **Open backlog filed** — **DONE** — [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md).

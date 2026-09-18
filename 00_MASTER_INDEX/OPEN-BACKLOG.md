@@ -1,10 +1,10 @@
 # Open backlog (hub coordination)
 
 **Canon:** **no**  
-**Updated:** 2026-09-18  
+**Updated:** 2026-09-18 (threads 1–5 hub extracts)  
 **Role:** Single list of what remains open after the 2026-09-16 hygiene pass. Not a parallel task tracker — one working index still owns IDs ([`WORKING-INDEX.md`](WORKING-INDEX.md)).
 
-**Pick rule (2026-09-18):** Drive 16–20 and stub delete/adopt need Crystal. Default agent pick for connection work without rewriting forks: **Thread 3 axiom-grounding extract** (see [`../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md`](../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md)).
+**Pick rule:** Drive 16–20 and stub delete/adopt need Crystal. Agent connection work without rewriting forks: file cross-domain thread extracts (Threads **1–5 hub extracts filed** 2026-09-18).
 
 ---
 
@@ -16,9 +16,9 @@
 | `memory/` vs `00_MEMORY/` naming | OPEN | Crystal naming call ([`../memory/OPEN-QUESTIONS.md`](../memory/OPEN-QUESTIONS.md)) |
 | Stub repos `jolly-bolt-flora-lotus`, `pilot-horizon-acre-spring` delete/adopt | OPEN | Crystal only |
 | `UK-MonoRepo` into public CVS | OPEN | Still private; do not pull |
-| Cross-domain thread extracts | **Thread 3 done this pass**; Threads 1–2, 4–5 still at 2026-09-13 baseline | Crystal-directed for remaining |
+| Cross-domain thread extracts | **Threads 1–5 hub extracts filed** | Satellite execution remains |
 
-Done (do not redo): REPOS refresh, Continuum vision-only, SECURITY Advisories, science INDEX URL pointers, Connected System map indexed.
+Done (do not redo): REPOS refresh, Continuum vision-only, SECURITY Advisories, science INDEX URL pointers, Connected System map indexed, Thread 3–5 + 1–2 extracts.
 
 ---
 
@@ -38,13 +38,13 @@ Work lives in satellite repos. Hub holds extracts and pointers only.
 
 | # | Thread | Hub status | Next (outside hub) |
 | --- | --- | --- | --- |
-| 1 | Governance under scarcity | Design ready | Port GTB params to mars-cybertruck |
-| 2 | Coalition detection + Lean | Awaiting formal spec | Combined detector + proof |
-| 3 | Axiom grounding | **Mapping + extract filed** | Run open SWARM/GTB audit action items in satellites |
-| 4 | LLM calibration in markets | In flight | Finish rubric_v1; correct `yes_probability` |
-| 5 | Soft-label math certification | Design ready | Lean: compositions keep `p ∈ [0,1]` |
+| 1 | Governance under scarcity | **Extract filed** | Port GTB params to mars-cybertruck |
+| 2 | Coalition detection + Lean | **Stub extract** (awaits formal spec) | Combined detector + proof |
+| 3 | Axiom grounding | **Mapping + extract filed** | Run open SWARM/GTB audit action items |
+| 4 | LLM calibration in markets | **Extract filed** (arms still in flight) | Finish rubric_v1; correct `yes_probability` |
+| 5 | Soft-label math certification | **Extract filed** | Lean: compositions keep `p ∈ [0,1]` |
 
-Infra still pending: Drive mirrors 16–20, Threads 1–2/4–5 extracts, multi-domain validation sweep.
+Infra still pending: Drive mirrors 16–20, multi-domain validation sweep (satellites).
 
 ---
 
@@ -60,5 +60,6 @@ Infra still pending: Drive mirrors 16–20, Threads 1–2/4–5 extracts, multi-
 ## Suggested remaining pick order
 
 1. Drive 16–20 (Crystal + Drive)
-2. Thread 4 extract when calibration arms complete (or Thread 1/2/5 when capacity)
-3. Stub delete/adopt (Crystal only)
+2. Stub delete/adopt (Crystal only)
+3. Satellite execution of Threads 1–5 (outside this hub)
+4. `memory/` vs `00_MEMORY/` naming (Crystal)
