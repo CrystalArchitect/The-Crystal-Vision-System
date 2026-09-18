@@ -1,0 +1,94 @@
+# Bot registry — hub design skeleton (Canon: no)
+# Living runtimes live in satellite repos. Secrets never go in this file.
+# publish_mode: human_only is the default for every row until Crystal stamps otherwise.
+
+version: 1
+updated: "2026-09-18"
+canon: false
+protocol:
+  core: memory/CORE.md
+  paste: docs/PASTE-THIS.md
+  map: docs/BOT-STRUCTURE.md
+  pipeline: archive/discord-ai-agent/GROK-BOT-ARCHITECTURE.md
+
+defaults:
+  publish_mode: human_only
+  layer_tag_required: true  # science | story | vision on public-facing drafts
+  auto_post: false
+
+bots:
+  - id: BOT-GROK
+    role: draft_reason
+    status: design  # design | dormant | active
+    home: cursor-agent
+    config:
+      prompt: docs/bots/grok/prompt.md
+      stages: docs/bots/grok/stages.md
+    secrets:
+      - XAI_API_KEY
+    allowed:
+      - drafts
+      - audits
+      - briefs
+      - stage_2_pattern
+      - stage_3_draft
+      - stage_5_score
+    forbidden:
+      - auto_post
+      - elon_bond_claims
+      - claim_canon
+    publish_mode: human_only
+    shortlist_target: 14_AI_INTERACTIONS
+
+  - id: BOT-DISCORD
+    role: companion_reply
+    status: dormant
+    home: archive/discord-ai-agent/
+    secrets:
+      - DISCORD_BOT_TOKEN
+    allowed:
+      - replies_in_allowed_guilds
+    forbidden:
+      - scrape
+      - claim_canon
+      - auto_post_cross_platform
+    publish_mode: human_only
+
+  - id: BOT-COLLECT
+    role: collection_ingest
+    status: design
+    home: docs/COLLECTOR.md
+    secrets: []
+    allowed:
+      - file_extracts_to_drawers
+      - update_working_index_rows
+    forbidden:
+      - chat_dumps_into_canon
+      - invent_missing_source
+    publish_mode: human_only
+
+  - id: BOT-RESEARCH
+    role: science_drawer_agent
+    status: design
+    home: drawers 16-20 satellites
+    secrets: []
+    allowed:
+      - experiments_in_own_repos
+      - hub_extracts_only
+    forbidden:
+      - merge_forks_into_cvs
+      - treat_vision_as_built
+    publish_mode: human_only
+
+  - id: BOT-PORTAL
+    role: celestial_portal_voice_ui
+    status: dormant
+    home: 07_CELESTIAL_PORTAL/ + handoff/celestial-portal/
+    secrets:
+      - PORTAL_ENV  # name only; never commit values
+    allowed:
+      - local_staged_ui
+    forbidden:
+      - commit_dotenv
+      - claim_canon
+    publish_mode: human_only

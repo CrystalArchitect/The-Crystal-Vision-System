@@ -30,10 +30,15 @@
 | CVS-BACKLOG | 00 | Open backlog (hub hygiene + gates + threads) | coordination | no | `/00_MASTER_INDEX/OPEN-BACKLOG.md` |
 | CVS-CRYSTAL-DEC | 00 | Crystal decisions pending (Drive / naming / stubs) | coordination | no | `/00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md` |
 | CVS-AXIOM-AUDIT | 00 | Axiom Audit Framework (Thread 3 map) | research | no | `/00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md` |
+| CVS-BOTS | 08 | Bot structure (pools + roster + Gate + registry) | coordination | no | `/docs/BOT-STRUCTURE.md` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-18 (bots):** Expanded bot structure — [`docs/bots/registry.yaml`](../docs/bots/registry.yaml), BOT-GROK [`prompt.md`](../docs/bots/grok/prompt.md) + [`stages.md`](../docs/bots/grok/stages.md) I/O contracts. Canon: no.
+
+- **2026-09-18 (bots):** Filed [`docs/BOT-STRUCTURE.md`](../docs/BOT-STRUCTURE.md) — pools not headcount, Crystal protocol gate, BOT-GROK/DISCORD/COLLECT/RESEARCH/PORTAL roster. Canon: no.
 
 - **2026-09-18 (gates):** Documented `memory/` vs `00_MEMORY/` dual path in STRUCTURE + READMEs (packet B option 1 interim). Former auth-blocked CrystalCore* privates also GONE on live list. Celestial Portal drawer README expanded. Drive 16–20 still OPEN (Drive MCP auth timed out). Canon: no.
 
