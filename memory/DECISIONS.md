@@ -93,6 +93,13 @@ Satellite audit experiments stay outside this decision.
 Continues the Thread 3 connection pass: file remaining cross-domain beads in
 `00_MEMORY/` and link drawers 16–20 without rewriting fork-mirrors. Thread 2
 remains a stub until a combined-detector architecture is chosen. Drive 16–20
-and stub-repo delete/adopt still Crystal-gated. Canon: **no**.
+and naming still Crystal-gated. Canon: **no**.
+
+## 2026-09-18 — Decision packets; stubs/UK gone on live inventory
+
+Filed [`00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md`](../00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md).
+Live `gh repo list` shows **65** public / **0** private; former stubs and
+`UK-MonoRepo` are absent. Documented as GONE pending Crystal confirm — agents
+do not recreate or delete further. Canon: **no**.
 
 

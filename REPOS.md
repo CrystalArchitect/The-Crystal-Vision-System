@@ -1,12 +1,12 @@
 # Repository Inventory — CrystalArchitect ↔ Crystal Vision System
 
-**Date:** 2026-09-16 AEST (Australia/Sydney)  
+**Date:** 2026-09-16 AEST (baseline); **live stub/UK refresh 2026-09-18**  
 **Owner:** Crystal Arena-Turner (CrystalArchitect)  
 **Scope:** Live account inventory + drawer mapping for [The-Crystal-Vision-System](https://github.com/CrystalArchitect/The-Crystal-Vision-System)  
 **Canon:** **no** — coordination only. **Canon = Crystal stamp.**  
 **Rule:** **Connection ≠ merge.** Drawers point at satellites; satellites are not living code inside CVS.
 
-Sources: `gh repo list CrystalArchitect --limit 100` (58 repos); `00_MASTER_INDEX/CONNECTED-SYSTEM.md`.
+Sources: `gh repo list CrystalArchitect` (58 on 2026-09-16; **65** on 2026-09-18); `00_MASTER_INDEX/CONNECTED-SYSTEM.md`.
 
 ---
 
@@ -26,9 +26,9 @@ Sources: `gh repo list CrystalArchitect --limit 100` (58 repos); `00_MASTER_INDE
 | [crystalcore-os](https://github.com/CrystalArchitect/crystalcore-os) | public | **original** | Product / OS stack → drawer **01_CRYSTALCORE** |
 | [Continuum-sync-loop](https://github.com/CrystalArchitect/Continuum-sync-loop) | public | **empty** (size 0) | Satellite for drawer **06**; vision-only until first commit |
 | [Antimemetics-division](https://github.com/CrystalArchitect/Antimemetics-division) | public | original | Outside science drawers; portfolio original |
-| [UK-MonoRepo](https://github.com/CrystalArchitect/UK-MonoRepo) | **private** | private original | Do **not** open / merge into public CVS |
-| [jolly-bolt-flora-lotus](https://github.com/CrystalArchitect/jolly-bolt-flora-lotus) | **private** | **stub** | Grok template; **Crystal decision:** delete or adopt — **do not delete in this pass** |
-| [pilot-horizon-acre-spring](https://github.com/CrystalArchitect/pilot-horizon-acre-spring) | **private** | **stub** | Grok template; **Crystal decision:** delete or adopt — **do not delete in this pass** |
+| [UK-MonoRepo](https://github.com/CrystalArchitect/UK-MonoRepo) | was **private** | **GONE (live 2026-09-18)** | Confirm — decision packet C |
+| [jolly-bolt-flora-lotus](https://github.com/CrystalArchitect/jolly-bolt-flora-lotus) | was **private stub** | **GONE (live 2026-09-18)** | Confirm — packet C |
+| [pilot-horizon-acre-spring](https://github.com/CrystalArchitect/pilot-horizon-acre-spring) | was **private stub** | **GONE (live 2026-09-18)** | Confirm — packet C |
 
 ---
 
@@ -108,24 +108,26 @@ Labels: **fork-mirror** = CrystalArchitect fork of upstream (pointer only).
 
 ---
 
-## Private (flag only — no delete in this doc)
+## Private / stubs (2026-09-18 live refresh)
 
-| Repo | Status | Crystal decision needed |
+| Repo (2026-09-16 name) | Status 2026-09-18 | Crystal |
 | --- | --- | --- |
-| UK-MonoRepo | private original | Keep private; do not publish / pull into public CVS until opened |
-| jolly-bolt-flora-lotus | private stub | Delete **or** adopt — **do not delete here**; flag only |
-| pilot-horizon-acre-spring | private stub | Delete **or** adopt — **do not delete here**; flag only |
+| UK-MonoRepo | **GONE** — not in live list | Confirm intentional — [`00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md`](00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md) §C |
+| jolly-bolt-flora-lotus | **GONE** | Confirm — packet C |
+| pilot-horizon-acre-spring | **GONE** | Confirm — packet C |
+
+Do **not** recreate stubs from this hub. Do **not** treat absence as license to invent replacements.
 
 ---
 
 ## Fork inventory summary
 
-| Metric | Count |
-| --- | --- |
-| Total repos | **58** |
-| Public / private | **55** / **3** |
-| Forks / originals | **51** / **7** |
-| Archived | **0** |
+| Metric | 2026-09-16 | 2026-09-18 live |
+| --- | --- | --- |
+| Total repos | **58** | **65** |
+| Public / private | **55** / **3** | **65** / **0** |
+| Forks / originals | **51** / **7** | **61** / **4** |
+| Archived | **0** | **0** |
 
 Most of drawers **16–19** point at **fork-mirrors**, not Crystal-origin research trees.
 
@@ -148,6 +150,6 @@ Most of drawers **16–19** point at **fork-mirrors**, not Crystal-origin resear
 2. **Canon = Crystal stamp** — presence in git ≠ Canon.  
 3. `archive/` subtrees under CVS = file custody of older trees, not living authority.  
 4. Do not invent a Protocol Omega research repo.  
-5. Do not make UK-MonoRepo public from this inventory refresh.
+5. UK-MonoRepo / stubs: **gone on live list** — confirm via decision packet C; do not republish from CVS.
 
 *Non Solus.*
