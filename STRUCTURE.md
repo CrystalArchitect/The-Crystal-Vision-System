@@ -16,7 +16,7 @@ Canon is a Crystal stamp, not a folder.
 | 05_DREAMLINES | [folder](https://drive.google.com/drive/folders/1uJqI75n1ZjnfXErzRirmCqEt18Sbd_hN) | pointer |
 | 06_CMX_CONTINUUM | [folder](https://drive.google.com/drive/folders/1JfBcQM7PFBvB_1gr-vJC8FBnprbn-ACR) | pointer |
 | 07_CELESTIAL_PORTAL | [folder](https://drive.google.com/drive/folders/11iytHl9SQtFW6ECQMAeaanJhM0nO7_n6) | `07_CELESTIAL_PORTAL/` + `handoff/celestial-portal/` |
-| 08_SHARED_CROSS_PROJECT | [folder](https://drive.google.com/drive/folders/1RJx5sAJ805CP3zvC7O84TW_h0j-lxHBh) | `docs/PROVENANCE-LINKING.md` |
+| 08_SHARED_CROSS_PROJECT | [folder](https://drive.google.com/drive/folders/1RJx5sAJ805CP3zvC7O84TW_h0j-lxHBh) | `docs/PROVENANCE-LINKING.md` + `docs/BOT-STRUCTURE.md` |
 | 09_PRIVATE_PROTECTED | [folder](https://drive.google.com/drive/folders/1KWkX1GLQRTuApso6N8R5Uy1XcRVNqKn8) | do not commit secrets |
 | 10_ORIGINAL_CREATIVE | [folder](https://drive.google.com/drive/folders/1VLJdk0zE5X1W4xETiR-N1RmIxIDuXEIB) | `10_ORIGINAL_CREATIVE/` + `codex/` (Codex Crystalum) |
 | 11_CORRESPONDENCE | [folder](https://drive.google.com/drive/folders/1_l5CMzzmcKBfjArh0PPraN6l8WnkBeep) | pointer |
