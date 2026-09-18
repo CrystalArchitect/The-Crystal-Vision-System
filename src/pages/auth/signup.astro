@@ -1,0 +1,22 @@
+---
+// SPDX-License-Identifier: MIT
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import SignupForm from '../../components/react/SignupForm';
+---
+
+<BaseLayout title="Sign Up - Crystal Vision">
+  <div class="min-h-[calc(100vh-200px)] flex items-center justify-center px-4">
+    <div class="w-full max-w-md">
+      <div class="text-center mb-8">
+        <h1 class="text-3xl font-bold mb-2">Create Account</h1>
+        <p class="text-gray-600 dark:text-gray-400">Join Crystal Vision and start curating your music</p>
+      </div>
+      <SignupForm client:load />
+      <p class="text-center text-gray-600 dark:text-gray-400 mt-6">
+        Already have an account?
+        <a href="/auth/login" class="text-accent font-medium hover:underline">Log in</a>
+      </p>
+    </div>
+  </div>
+</BaseLayout>
