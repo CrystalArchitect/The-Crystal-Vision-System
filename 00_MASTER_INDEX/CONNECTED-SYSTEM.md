@@ -4,7 +4,7 @@
 **Doc role:** Coordination map only  
 **Canon:** **no** (Canon remains Crystal stamp; this file is not Canon)  
 **Built:** 2026-09-16 (AEST / Australia/Sydney)  
-**Updated:** 2026-09-18 (AEST) — Thread 3 extract + OPEN-BACKLOG; gaps refresh retained for Drive/stubs  
+**Updated:** 2026-09-18 (AEST) — decision packets; stubs/UK GONE on live list; Thread extracts retained  
 **Sources:** `The-Crystal-Vision-System` main (gh api), live `gh repo list CrystalArchitect` (58 repos), portfolio review + cvs-fixes pass
 
 ---
@@ -151,15 +151,15 @@ Pending infra from research status: Drive mirrors for 16–20, multi-domain vali
 | **CVS visibility flip** | Portfolio review: 404; live: **public + MIT** | **FIXED** (documented) | Docs should not call CVS private |
 | **`api-gateway` docs-only** | Tree = README + governance templates; no `src/` / package manifest | **FIXED** (documented in TOOLING-NOTES + REPOS) | Design-only; not a shipped gateway |
 | **`Continuum-sync-loop` empty** | GitHub: empty repo (size 0) | **FIXED** (vision-only marker + optional seed README) | Drawer 06 = vision-only until first commit; no merge |
-| **`UK-MonoRepo` still private** | Live list: private, non-fork | **OPEN** | Not in public portfolio; coordinate separately; do not publish |
+| **`UK-MonoRepo` still private** | Was private on 2026-09-16 inventory | **GONE (live 2026-09-18)** | Not in `gh repo list` (0 private). Crystal confirm — [`CRYSTAL-DECISIONS-PENDING.md`](CRYSTAL-DECISIONS-PENDING.md) §C |
 | **Placeholder security contacts** | Hub had `security-email@domain.dev` | **FIXED** (hub SECURITY.md → GitHub Security Advisories) | Portfolio-wide fork templates may still have placeholders — out of scope for hub-only fix |
 | **Hub vs archive dual story** | README: do not merge; `MONOREPO-INDEX`: 20 subtrees under `archive/` | Documented | Subtree = file custody, not canon merge |
-| **`REPOS.md` narrow/stale** | Was 4 repos dated 2026-09-12 | **FIXED** (full refresh 2026-09-16) | Hub + originals + drawer satellites + fork counts |
-| **`memory/` vs `00_MEMORY/`** | OPEN-QUESTIONS gate; STRUCTURE maps 00_MEMORY | **OPEN** | Naming decision still Crystal’s |
-| **Science drawers Drive TBD** | STRUCTURE.md folders 16–20 = TBD | **OPEN** | Staging path incomplete — Crystal + Drive |
-| **Fork-heavy portfolio** | 51 forks / 7 originals | Documented | Drawers 16–19 mostly **mirrors** |
+| **`REPOS.md` narrow/stale** | Was 4 repos dated 2026-09-12 | **FIXED** (full refresh 2026-09-16); **stubs/UK refresh 2026-09-18** | See inventory footer |
+| **`memory/` vs `00_MEMORY/`** | OPEN-QUESTIONS gate; STRUCTURE maps 00_MEMORY | **OPEN** | Packet B — Crystal naming call |
+| **Science drawers Drive TBD** | STRUCTURE.md folders 16–20 = TBD | **OPEN** | Packet A — Crystal + Drive |
+| **Fork-heavy portfolio** | Live 2026-09-18: 65 repos, 61 forks, 4 non-forks | Documented | Drawers 16–19 mostly **mirrors** |
 | **Protocol Omega only in CVS** | No `protocol-omega` repo on account | Correct | Don’t invent a research repo |
-| **Stub private templates** | `jolly-bolt-flora-lotus`, `pilot-horizon-acre-spring` | **OPEN** | Delete or adopt — **Crystal decision**; do not delete in this pass |
+| **Stub private templates** | `jolly-bolt-flora-lotus`, `pilot-horizon-acre-spring` | **GONE (live 2026-09-18)** | Absent from list + API 404; Crystal confirm — packet C |
 | **CVS-CONNECTED indexed** | WORKING-INDEX row + Latest Updates | **FIXED** | Canon: no |
 | **Science INDEX URL pointers** | Indexes named repos without full CrystalArchitect URLs | **FIXED** (cvs-fixes INDEX refresh) | Still Canon: no |
 | **Cross-domain thread extracts** | Threads 1–5 hub extracts filed 2026-09-18 (T2 = stub awaiting formal spec) | **DONE (hub)** | Satellite execution remains |
@@ -174,12 +174,12 @@ Pending infra from research status: Drive mirrors for 16–20, multi-domain vali
 4. ~~**Continuum decision (vision-only path)**~~ — **Done** marker + optional Continuum-sync-loop seed README; Crystal still chooses when to first-commit.  
 5. ~~**`api-gateway` honesty**~~ — **Done** via `TOOLING-NOTES.md`.  
 6. ~~**Security contact (hub)**~~ — **Done** in hub SECURITY.md; fork-template sweep optional later.  
-7. **UK-MonoRepo** — **OPEN** — Private; do not pull into public CVS until Crystal opens it.  
-8. **Drive 16–20** — **OPEN** — Create Drive folders and replace TBD links in STRUCTURE.  
+7. **UK-MonoRepo** — **GONE (live)** — confirm via [`CRYSTAL-DECISIONS-PENDING.md`](CRYSTAL-DECISIONS-PENDING.md) §C.  
+8. **Drive 16–20** — **OPEN** — Packet A.  
 9. **Cross-domain Threads 1–5** — **DONE (hub extracts)** 2026-09-18 — satellite execution remains OPEN.  
 10. **Leave Protocol Omega in drawer 10** — Still correct; no promotion into 16–19.  
-11. **Stub delete/adopt** — **OPEN** — Crystal decision only.  
-12. **Open backlog filed** — **DONE** — [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md).
+11. **Stub delete/adopt** — **GONE (live)** — confirm packet C; do not recreate.  
+12. **Open backlog + decision packets** — **DONE** — [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), [`CRYSTAL-DECISIONS-PENDING.md`](CRYSTAL-DECISIONS-PENDING.md).
 
 ---
 
@@ -192,11 +192,18 @@ Pending infra from research status: Drive mirrors for 16–20, multi-domain vali
 
 ---
 
-## 9. Live inventory snapshot (2026-09-16 AEST)
+## 9. Live inventory snapshot
 
-- **58** repos total via `gh repo list CrystalArchitect --limit 100`  
-- **55** public · **3** private (`UK-MonoRepo`, `jolly-bolt-flora-lotus`, `pilot-horizon-acre-spring`)  
-- **51** forks · **7** non-forks (`The-Crystal-Vision-System`, `crystalcore-os`, `Continuum-sync-loop`, `Antimemetics-division`, `UK-MonoRepo`, + 2 stubs)  
+### 2026-09-16 AEST (baseline)
+
+- **58** repos · **55** public · **3** private (`UK-MonoRepo`, two stubs) · **51** forks · **7** non-forks  
+
+### 2026-09-18 refresh
+
+- **65** repos via `gh repo list CrystalArchitect --limit 200`  
+- **65** public · **0** private  
+- **61** forks · **4** non-forks (`The-Crystal-Vision-System`, `crystalcore-os`, `Continuum-sync-loop`, `Antimemetics-division`)  
+- `UK-MonoRepo`, `jolly-bolt-flora-lotus`, `pilot-horizon-acre-spring`: **absent** (GONE on live list) — Crystal confirm [`CRYSTAL-DECISIONS-PENDING.md`](CRYSTAL-DECISIONS-PENDING.md) §C  
 - Protocol Omega: **in-hub only** under drawer 10  
 
 *Non Solus.*

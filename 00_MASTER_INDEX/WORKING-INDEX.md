@@ -28,13 +28,16 @@
 | CVS-T1-SCARCITY | 00 | Thread 1 governance-scarcity extract (16↔20↔17) | research | no | `/00_MEMORY/THREAD-1-GOVERNANCE-SCARCITY-EXTRACT.md` |
 | CVS-T2-COALITION | 00 | Thread 2 coalition-detect stub extract (16↔18↔19) | research | no | `/00_MEMORY/THREAD-2-COALITION-DETECT-EXTRACT.md` |
 | CVS-BACKLOG | 00 | Open backlog (hub hygiene + gates + threads) | coordination | no | `/00_MASTER_INDEX/OPEN-BACKLOG.md` |
+| CVS-CRYSTAL-DEC | 00 | Crystal decisions pending (Drive / naming / stubs) | coordination | no | `/00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md` |
 | CVS-AXIOM-AUDIT | 00 | Axiom Audit Framework (Thread 3 map) | research | no | `/00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
-- **2026-09-18 (cont.):** Hub extracts for Threads 1, 2 (stub), 4, 5 — clears remaining cross-domain bead gaps without rewriting forks. Drive/stubs still Crystal-gated. Canon: no.
+- **2026-09-18 (decisions):** Live inventory shows stubs + `UK-MonoRepo` **gone** (0 private). Filed [`CRYSTAL-DECISIONS-PENDING.md`](CRYSTAL-DECISIONS-PENDING.md) packets A–C (Drive, naming, confirm-gone). Canon: no.
+
+- **2026-09-18 (cont.):** Hub extracts for Threads 1, 2 (stub), 4, 5 — clears remaining cross-domain bead gaps without rewriting forks. Drive/naming still Crystal-gated. Canon: no.
 
 - **2026-09-18:** Backlog pick = Thread 3 (Drive 16–20 / stubs still Crystal-blocked). Filed [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), Thread 3 extract, cross-links on drawers 16/19/20, refreshed Thread 3 status in `CROSS-DOMAIN-THREADS.md`. Canon: no.
 
