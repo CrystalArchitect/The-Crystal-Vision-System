@@ -5,7 +5,11 @@
 **Updated:** 2026-09-18  
 **Rule:** Connection ≠ merge. Design map only until Crystal stamps and a real build lands in its own repo.
 
-This is the **one** hub map for bots. Do not invent a second tree. Living code stays in satellite repos (Discord / Clementine / CrystalCore / swarm). Secrets stay in Cursor Secrets / drawer 09 — never in git.
+This is the **one** hub map for bots. Do not invent a second tree. Living code stays in satellite repos. Secrets stay in Cursor Secrets / drawer 09 — never in git.
+
+**Headcount rule:** Named **seats** and **homes**, not 4,200 clones. Pipeline Stages 1–6 are **pools** (parallelism of one config), not separate roster IDs. Research fork-mirrors are listed under BOT-RESEARCH so they are not invisible — they are not five more publish bots.
+
+Machine-readable twin: [`bots/registry.yaml`](bots/registry.yaml).
 
 ---
 
@@ -24,11 +28,11 @@ This is the **one** hub map for bots. Do not invent a second tree. Living code s
 
 Paste card for any model: [`PASTE-THIS.md`](PASTE-THIS.md) + [`../memory/CORE.md`](../memory/CORE.md).
 
+Status legend: `design` = map/prompts only · `dormant` = code elsewhere, not wired here · `active` = Crystal-approved runtime · `historical` = retained record, not live · `alias` = rename / same lineage · `proposed` = named, not built.
+
 ---
 
-## 1. Layers (not 4,200 bots)
-
-Use **pools**, not a headcount.
+## 1. Content-studio pools (not roster headcount)
 
 ```mermaid
 flowchart LR
@@ -47,71 +51,113 @@ flowchart LR
   S1 --> S2 --> S3 --> S5 --> S6 --> Human
 ```
 
-| Pool | Role | Model example | Parallelism |
+| Pool | Role | Parallelism |
+| --- | --- | --- |
+| **Intake** | Official API → normalized records | 1 scheduler |
+| **Pattern** | Formats/hooks over a window | 1 LLM call / window |
+| **Draft** | Variants from patterns | N small (3–10) |
+| **Score** | Rubric + evidence | 1 pass |
+| **Gate** | Hard kill Risk/Factual | automatic |
+| **Human** | Edit / approve / publish | Crystal |
+
+Spec: `archive/*/GROK-BOT-ARCHITECTURE.md`. Studio worker card: **BOT-STUDIO** (below). Do **not** mint one BOT-* per draft variant.
+
+---
+
+## 2. Roster A — Hub ops & content studio
+
+| ID | Status | Role | Home |
 | --- | --- | --- | --- |
-| **Intake** | Official API pulls → normalized records | none / light script | 1 scheduler |
-| **Pattern** | Formats/hooks over a window | 1× grok / LLM batch | 1 call per window |
-| **Draft** | Variants from patterns | grok-4.6 (`XAI_API_KEY`) | N small (3–10) |
-| **Score** | Rubric scores + evidence | 1× LLM or rules | 1 pass |
-| **Gate** | Hard kill Risk/Factual fails | rules + Crystal protocol | automatic |
-| **Human** | Edit / approve / publish | you | 1 |
+| **BOT-STUDIO** | design | Content studio worker (Pattern / Draft / Score) | Cursor + `XAI_API_KEY`; [`bots/grok/`](bots/grok/) |
+| **BOT-COLLECT** | design | Collection Mode ingest → drawer extracts | [`COLLECTOR.md`](COLLECTOR.md), Drive staging |
+| **BOT-PORTAL** | dormant | Celestial Portal voice / UI | `07_CELESTIAL_PORTAL/` + `handoff/celestial-portal/` |
 
-Detail design (already in archive): `archive/*/GROK-BOT-ARCHITECTURE.md` — Stages 1–6 + Studio Lead. **This file is the hub index;** that doc is the pipeline spec.
+> **Rename note:** Earlier hub drafts called the studio worker `BOT-GROK`. That ID now points at the **weave Creative Exploration** seat (roster B) so Grok’s two jobs are not collapsed. Studio work uses **BOT-STUDIO**.
 
 ---
 
-## 2. Bot roster (named roles)
+## 3. Roster B — Weave seats (TerAustralis multi-AI)
 
-Each role = one config (prompt + tools + secrets + home repo). Not a swarm of clones.  
-Machine-readable twin: [`bots/registry.yaml`](bots/registry.yaml).
+Practiced roles from `archive/TerAustralis-Incognita/docs/ai/AI-Architecture.md` + `docs/agents/`. Working agreement, not auto-router (Orchestrator = proposed).
 
-| ID | Status | Role | Home (pointer) | Allowed to | Forbidden |
-| --- | --- | --- | --- | --- | --- |
-| **BOT-GROK** | design | Draft / reason via xAI | Cursor agent + `XAI_API_KEY` | Drafts, audits, briefs | Auto-post; false Elon claims |
-| **BOT-DISCORD** | dormant | Companion / channel reply | `archive/discord-ai-agent/`, Clementine | Replies in allowed guilds | Scrape; claim Canon |
-| **BOT-COLLECT** | design | Collection Mode ingest | Drive staging + hub extracts | File extracts to drawers | Chat dumps into Canon |
-| **BOT-RESEARCH** | design | Science drawer agents | drawers 16–20 satellites | Experiments in own repos | Merge forks into CVS |
-| **BOT-PORTAL** | dormant | Celestial Portal voice / UI | drawer 07 + handoff | Local / staged UI | Commit `.env` |
+| ID | Status | Seat | One line | Agent card (archive) |
+| --- | --- | --- | --- | --- |
+| **BOT-WEAVE-CHATGPT** | dormant | Chief Systems Architect | Intent → specs | `docs/agents/ChatGPT-Agent.md` |
+| **BOT-WEAVE-GROK** | dormant | Creative Exploration | Diverge / Vision brainstorm | `docs/agents/Grok-Agent.md` §A |
+| **BOT-WEAVE-GROK-BUILD** | dormant | Repository Engineer | Implements via PRs (from 2026-08-20) | `Grok-Agent.md` §B |
+| **BOT-WEAVE-DEEPSEEK** | dormant | Research & Engineering | Math / algorithms / rigor | `DeepSeek-Agent.md` |
+| **BOT-WEAVE-GEMINI** | dormant | Knowledge & Multimodal | Wide docs / images / consistency | `Gemini-Agent.md` |
+| **BOT-WEAVE-CLAUDE** | historical | Repository Engineer (former) | Midstream until ADR-0014 | `Claude-Agent.md` |
+| **BOT-ORCHESTRATOR** | proposed | AI Orchestrator | Route tasks to seats | Decision-Matrix docs only — no runtime |
 
-Status: `design` = map + prompts only · `dormant` = code exists elsewhere, not wired · `active` = Crystal-approved runtime.  
-Add a row here **and** in `registry.yaml` when Crystal names a new bot. Do not invent IDs in chat only.
+Flow (practice): DeepSeek / Gemini / Grok → ChatGPT → Grok Build → GitHub. Mixing **BOT-WEAVE-GROK** and **BOT-WEAVE-GROK-BUILD** in one session invents instead of implementing.
 
-### BOT-GROK cards (ready to paste)
+---
 
-| File | Purpose |
+## 4. Roster C — Companions & channels
+
+| ID | Status | Role | Home |
+| --- | --- | --- | --- |
+| **BOT-CLEMENTINE** | dormant | Sovereign local-first companion | `archive/Clementine-ai-companion/`, TheCrystalVision `clementine/` |
+| **BOT-DISCORD** | dormant | Guild reply gateway (Grok/Claude dual-engine + Clementine Discord) | `archive/discord-ai-agent/`, `clementine-discord` |
+| **BOT-LUMINA** | alias | Historical companion rename of Clementine (contested) | Glossary / AERIS reviews — **do not treat as second product** |
+| **BOT-REX** | alias | Session voice name in Grok mythos export | `GROK-REX-MYTHOS-EXPORT` — not a product bot |
+
+---
+
+## 5. Roster D — Weave infra (Built in Code archives; not publish bots)
+
+| ID | Status | Role | Home |
+| --- | --- | --- | --- |
+| **BOT-STARLINE** | dormant | Starline Weaver bus hub — Belt-Three labels + red button | `archive/*/bus/agents.py`, AI-Weave.md |
+| **BOT-CRYSTALBRIDGE** | dormant | Guest-AI consent gate → Clementine (fail-closed) | `src/crystalcore/` (Code archive) |
+| **BOT-VOICEBOX** | dormant | Local TTS MCP utility | `vision/apps/voicebox/` |
+| **BOT-LIBRARIAN** | design | MemoryCore “living interface” alias (plan) | The-Library master plan §7 → Clementine |
+| **BOT-SYNTHESIZER** | design | Cross-ref proposals labelled `model` (plan role) | The-Library master plan §5 |
+
+Truthline / Dreamline Narrator = faces of the same hub as **BOT-STARLINE**, not extra IDs. Bus fixtures (`echo`, `sisters`, `drifter`, `redbutton`) = tests only.
+
+---
+
+## 6. Roster E — Research satellites (under BOT-RESEARCH)
+
+**BOT-RESEARCH** is the hub umbrella. Children are **fork-mirrors** — experiments in own repos; hub gets extracts only. Connection ≠ merge.
+
+| Child ID | Drawer | Repo pointer |
+| --- | --- | --- |
+| **BOT-RES-SWARM** | 16 | `CrystalArchitect/swarm` |
+| **BOT-RES-SWARM-ARTIFACTS** | 16 | `swarm-artifacts` |
+| **BOT-RES-SWARM-GATE** | 16 | `swarm-safety-gate` |
+| **BOT-RES-SWARMGYM** | 16 | `swarmgym` |
+| **BOT-RES-AUTOMATON** | 16 | `automaton` |
+| **BOT-RES-AGENCY-OS** | 16 | `agency-os` |
+| **BOT-RES-AEON** | 16 | `aeon` + `aeon-atlas` |
+| **BOT-RES-MIROSHARK** | 20 | `MiroShark` |
+
+Physics / math / philosophy satellites stay drawer pointers (17–19); add a `BOT-RES-*` row here only when Crystal names an agent face for them.
+
+| ID | Status | Role |
+| --- | --- | --- |
+| **BOT-RESEARCH** | design | Umbrella: route science work to child homes; file hub extracts |
+
+---
+
+## 7. Forbidden / not bots
+
+| Name | Why not a roster bot |
 | --- | --- |
-| [`bots/grok/prompt.md`](bots/grok/prompt.md) | System prompt + hard rules + output shape |
-| [`bots/grok/stages.md`](bots/grok/stages.md) | Stage 1–6 bindings + JSON I/O contracts |
+| Stage 1–6 workers as IDs | Pools — see §1 |
+| “4,200 bots” | Marketing hyperbole in source post |
+| Manus | External design tool assignment — not a CVS bot |
+| Meta AI | Contributor credit / panel subject |
+| Crystal Weaver (mythos) | Story role, not software ID |
+| Studio Lead / Crystal | Human authority |
+| Songline | Out of bounds — never a component |
+| Seven Sisters paths | Mythos / demo lines on the bus |
 
 ---
 
-## 3. Folder / config layout
-
-**In this hub (design skeletons only):**
-
-```
-docs/
-  BOT-STRUCTURE.md     # this map
-  bots/
-    registry.yaml      # id, status, secrets_names, publish_mode: human_only
-    grok/
-      prompt.md
-      stages.md
-```
-
-Living runtimes stay in a **dedicated bot repo** (or CrystalCore / Discord / Clementine). Copy or symlink `_protocol/` there from `memory/CORE.md` + `docs/PASTE-THIS.md` + this map. Do not grow executable bot code inside CVS unless Crystal stamps otherwise.
-
-Secrets (Cursor Secrets / env — never commit):
-
-| Name | Used by |
-| --- | --- |
-| `XAI_API_KEY` | BOT-GROK |
-| Discord token(s) | BOT-DISCORD |
-| Platform API keys | Intake only |
-
----
-
-## 4. Gate rubric (Stage 5–6 minimum)
+## 8. Gate rubric (Stage 5–6 minimum)
 
 | Criterion | Fail → |
 | --- | --- |
@@ -126,32 +172,58 @@ Output of Gate = shortlist for **Crystal**, not a post.
 
 ---
 
-## 5. v0 slice (buildable)
+## 9. v0 slice (buildable — content studio only)
 
 1. One Intake source (official API) **or** manual paste inbox  
-2. One Pattern call (Grok)  
-3. Three Draft variants (Grok)  
+2. One Pattern call (**BOT-STUDIO** / Grok)  
+3. Three Draft variants  
 4. Skip images  
 5. Score + Gate in one pass  
-6. Write shortlist to drawer **14_AI_INTERACTIONS** as an extract (or email Crystal)
+6. Write shortlist to drawer **14_AI_INTERACTIONS** as an extract  
 
-No auto-post. Confirm this is what you want before scaling pools.
+No auto-post. Weave seats and companions stay separate from this slice.
 
 ---
 
-## 6. Index links
+## 10. Folder layout
+
+```
+docs/
+  BOT-STRUCTURE.md
+  bots/
+    registry.yaml
+    grok/                 # BOT-STUDIO cards (prompt + stages)
+      prompt.md
+      stages.md
+```
+
+Add weave/companion prompt cards under `docs/bots/<id>/` when Crystal asks — pointers to archive `docs/agents/` are enough until then.
+
+Secrets (never commit):
+
+| Name | Used by |
+| --- | --- |
+| `XAI_API_KEY` | BOT-STUDIO, BOT-WEAVE-GROK*, BOT-DISCORD (if Grok path) |
+| Discord token(s) | BOT-DISCORD |
+| Platform API keys | Intake only |
+| Portal env | BOT-PORTAL |
+
+---
+
+## 11. Index links
 
 | Doc | Path |
 | --- | --- |
 | This map | `docs/BOT-STRUCTURE.md` |
 | Registry | `docs/bots/registry.yaml` |
-| BOT-GROK prompt | `docs/bots/grok/prompt.md` |
-| BOT-GROK stages | `docs/bots/grok/stages.md` |
-| Pipeline design | `archive/discord-ai-agent/GROK-BOT-ARCHITECTURE.md` (and copies under other archives) |
+| Studio prompt / stages | `docs/bots/grok/prompt.md`, `stages.md` |
+| Pipeline design | `archive/discord-ai-agent/GROK-BOT-ARCHITECTURE.md` |
+| Weave architecture | `archive/TerAustralis-Incognita/docs/ai/AI-Architecture.md` |
+| Weave seats | `archive/TerAustralis-Incognita/docs/agents/` |
+| AI Weave (Built) | `archive/TerAustralis-Incognita/docs/architecture/AI-Weave.md` |
 | Protocol CORE | `memory/CORE.md` |
 | Paste card | `docs/PASTE-THIS.md` |
-| Secrets | Cursor dashboard Secrets — not this repo |
 
 ---
 
-<!-- topics: bots, grok, protocol, structure, human-gate -->
+<!-- topics: bots, grok, weave, clementine, research, protocol, human-gate -->
