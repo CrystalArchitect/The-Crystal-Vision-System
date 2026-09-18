@@ -7,6 +7,7 @@
 | CVS-PLACE | 10 | This Place (Star Song / umbra) | vision | **no** | `/10_ORIGINAL_CREATIVE/THIS-PLACE.md` |
 | CVS-OMEGA | 10 | Protocol Omega (boundaries practice) | vision | no | `/10_ORIGINAL_CREATIVE/protocol-omega/` |
 | CVS-CONNECTED | 00 | Connected System Map (CVS ↔ portfolio ↔ Protocol Omega) | coordination | no | `/00_MASTER_INDEX/CONNECTED-SYSTEM.md` |
+| CVS-ALIVE | 00 | Alive Weave (multi-AI pulse + S4 bus→twin) | coordination | no | `/00_MASTER_INDEX/ALIVE-WEAVE.md` · `/scripts/alive/` |
 | CVS-LEWIS | 13 | Lewis, Dream Encyclopedia 2e | research | no | `/13_RESEARCH_SOURCES/` |
 | CVS-PERMUTT | 13 | Permutt, Ancient Power of Crystals | research | no | `/13_RESEARCH_SOURCES/` |
 | CVS-MILD | 13 | Night drill / MILD | research | no | `/13_RESEARCH_SOURCES/MILD.md` |
@@ -35,6 +36,8 @@
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-18:** Alive Weave — hub coordination for multi-AI islands without merge. Map: `00_MASTER_INDEX/ALIVE-WEAVE.md`. Runners: `scripts/alive/pulse.py` (island pulse + selftests), `scripts/alive/weave.py` (TCV bridge bus + Starline Weaver → twin `signal.bus_message`, Architecture S4). Optional `--sat` gates hub turn via SAT `wrap_turn`. Law unchanged: connection ≠ merge; out-of-bounds titles stay out of bounds. Canon: no.
 
 - **2026-09-18 (bots):** Expanded bot structure — [`docs/bots/registry.yaml`](../docs/bots/registry.yaml), BOT-GROK [`prompt.md`](../docs/bots/grok/prompt.md) + [`stages.md`](../docs/bots/grok/stages.md) I/O contracts. Canon: no.
 
