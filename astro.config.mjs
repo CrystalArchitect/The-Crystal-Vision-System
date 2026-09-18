@@ -9,4 +9,10 @@ export default defineConfig({
       external: ['fuse.js'],
     },
   },
+  env: {
+    schema: {
+      PUBLIC_SUPABASE_URL: 'string',
+      PUBLIC_SUPABASE_ANON_KEY: 'string',
+    },
+  },
 });

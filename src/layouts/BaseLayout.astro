@@ -1,6 +1,8 @@
 ---
 // SPDX-License-Identifier: MIT
 
+import AuthMenu from '../components/react/AuthMenu';
+
 interface Props {
   title?: string;
 }
@@ -22,10 +24,11 @@ const { title = 'Drum & Bass Library' } = Astro.props;
           <a href="/" class="text-2xl font-bold text-accent-400">
             🎵 D&B Library
           </a>
-          <div class="flex gap-6">
+          <div class="flex items-center gap-6">
             <a href="/" class="hover:text-accent-400">Tracks</a>
             <a href="/playlists" class="hover:text-accent-400">Playlists</a>
             <a href="/stats" class="hover:text-accent-400">Stats</a>
+            <AuthMenu client:load />
           </div>
         </div>
       </nav>
