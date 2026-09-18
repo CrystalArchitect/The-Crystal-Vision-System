@@ -7,6 +7,21 @@ tracks that project; this file tracks this repo).
 **Write-back:** when monorepo-level work lands, add a dated entry here and,
 if it changes "now," update the relevant row in [`INDEX.md`](INDEX.md).
 
+## 2026-09-18 — Alive Weave: multi-AI islands pulsed and woven (S4)
+
+- Hub map: [`00_MASTER_INDEX/ALIVE-WEAVE.md`](../00_MASTER_INDEX/ALIVE-WEAVE.md)
+  (`CVS-ALIVE` in WORKING-INDEX). Canon: no.
+- `scripts/alive/pulse.py` — inventories Built/custody/compose/docs islands;
+  runs Songline, Starline, Decode→Ingest→Twin selftests; imports CrystalBridge
+  ConsentGate and SAT `wrap_turn` without requiring the MCP package.
+- `scripts/alive/weave.py` — runs Songline + Starline demo turns, meters
+  delivered speech into twin as `signal.bus_message` (Architecture S4).
+  Optional `--sat` gates the hub turn through SAT.
+- Twin decode domain `signal` added in
+  `archive/TheCrystalVision/services/decode.py` + selftest.
+- **Law held:** connection ≠ merge; Songline never a CVS component;
+  ADR-0005 / LEAF human gate not auto-replaced.
+
 ## 2026-09-09 — Three-tier `/generate` designed and implemented (local + cloud)
 
 - `archive/CrystalCore-OS/backend/app/core/llm.py`: added `generate_cloud()`

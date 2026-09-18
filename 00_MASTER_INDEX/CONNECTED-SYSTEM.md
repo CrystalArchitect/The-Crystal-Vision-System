@@ -161,6 +161,7 @@ Pending infra from research status: Drive mirrors for 16–20, cross-domain bead
 | **Protocol Omega only in CVS** | No `protocol-omega` repo on account | Correct | Don’t invent a research repo |
 | **Stub private templates** | `jolly-bolt-flora-lotus`, `pilot-horizon-acre-spring` | **OPEN** | Delete or adopt — **Crystal decision**; do not delete in this pass |
 | **CVS-CONNECTED indexed** | WORKING-INDEX row + Latest Updates | **FIXED** | Canon: no |
+| **Alive Weave (multi-AI)** | Islands pulsed separately; no shared bus→twin path | **FIXED** (2026-09-18) | `CVS-ALIVE`; S4 `signal.bus_message`; connection ≠ merge |
 | **Science INDEX URL pointers** | Indexes named repos without full CrystalArchitect URLs | **FIXED** (cvs-fixes INDEX refresh) | Still Canon: no |
 | **Cross-domain thread extracts** | Threads 1–5 still at 2026-09-13 baseline | **OPEN** | Research extracts / bead links need Crystal-directed work |
 
@@ -178,7 +179,8 @@ Pending infra from research status: Drive mirrors for 16–20, cross-domain bead
 8. **Drive 16–20** — **OPEN** — Create Drive folders and replace TBD links in STRUCTURE.  
 9. **Cross-domain Thread 3 or 4** — **OPEN** — Highest leverage research connection without rewriting forks.  
 10. **Leave Protocol Omega in drawer 10** — Still correct; no promotion into 16–19.  
-11. **Stub delete/adopt** — **OPEN** — Crystal decision only.
+11. **Stub delete/adopt** — **OPEN** — Crystal decision only.  
+12. ~~**Alive Weave (multi-AI pulse + S4)**~~ — **Done** 2026-09-18: `ALIVE-WEAVE.md` + `scripts/alive/`.
 
 ---
 
