@@ -35,6 +35,8 @@ Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
+- **2026-09-18 (gates):** Documented `memory/` vs `00_MEMORY/` dual path in STRUCTURE + READMEs (packet B option 1 interim). Former auth-blocked CrystalCore* privates also GONE on live list. Celestial Portal drawer README expanded. Drive 16–20 still OPEN (Drive MCP auth timed out). Canon: no.
+
 - **2026-09-18 (decisions):** Live inventory shows stubs + `UK-MonoRepo` **gone** (0 private). Filed [`CRYSTAL-DECISIONS-PENDING.md`](CRYSTAL-DECISIONS-PENDING.md) packets A–C (Drive, naming, confirm-gone). Canon: no.
 
 - **2026-09-18 (cont.):** Hub extracts for Threads 1, 2 (stub), 4, 5 — clears remaining cross-domain bead gaps without rewriting forks. Drive/naming still Crystal-gated. Canon: no.

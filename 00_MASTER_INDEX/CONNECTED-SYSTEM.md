@@ -155,7 +155,7 @@ Pending infra from research status: Drive mirrors for 16–20, multi-domain vali
 | **Placeholder security contacts** | Hub had `security-email@domain.dev` | **FIXED** (hub SECURITY.md → GitHub Security Advisories) | Portfolio-wide fork templates may still have placeholders — out of scope for hub-only fix |
 | **Hub vs archive dual story** | README: do not merge; `MONOREPO-INDEX`: 20 subtrees under `archive/` | Documented | Subtree = file custody, not canon merge |
 | **`REPOS.md` narrow/stale** | Was 4 repos dated 2026-09-12 | **FIXED** (full refresh 2026-09-16); **stubs/UK refresh 2026-09-18** | See inventory footer |
-| **`memory/` vs `00_MEMORY/`** | OPEN-QUESTIONS gate; STRUCTURE maps 00_MEMORY | **OPEN** | Packet B — Crystal naming call |
+| **`memory/` vs `00_MEMORY/`** | Dual path documented in STRUCTURE + READMEs 2026-09-18 | **INTERIM** | Packet B — Crystal may stamp rename later |
 | **Science drawers Drive TBD** | STRUCTURE.md folders 16–20 = TBD | **OPEN** | Packet A — Crystal + Drive |
 | **Fork-heavy portfolio** | Live 2026-09-18: 65 repos, 61 forks, 4 non-forks | Documented | Drawers 16–19 mostly **mirrors** |
 | **Protocol Omega only in CVS** | No `protocol-omega` repo on account | Correct | Don’t invent a research repo |
