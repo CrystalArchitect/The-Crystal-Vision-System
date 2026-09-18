@@ -1,7 +1,7 @@
 # Drawer 19: Philosophical Foundations
 
 **Canon:** **no**  
-**Updated:** 2026-09-16 AEST  
+**Updated:** 2026-09-18 AEST  
 **Rule:** Connection ≠ merge — `AI-Foundations-*` and Consciousness repos are **fork-mirrors** of alyssadata. The CVS hub itself is original coordination, not a philosophy claim tree.
 
 ## Overview
@@ -56,6 +56,15 @@ Foundational philosophy underlying AI safety, consciousness, and emergence in mu
 - Cross-domain verification against other research drawers
 - Vault-based knowledge management (via linked safety tooling)
 
+## Cross-domain bead (Thread 3)
+
+Axiom → governance mapping lives in the hub (not in fork-mirrors):
+
+- Extract: [`../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md`](../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md)
+- Framework: [`../00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md`](../00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md)
+
+Canon: **no**. Satellite experiments remain outside this drawer.
+
 ## Cross-Links
 
 - [[16_AI_SAFETY_RESEARCH]] — Practical implementation of foundations
@@ -63,3 +72,4 @@ Foundational philosophy underlying AI safety, consciousness, and emergence in mu
 - [[17_PHYSICS_SIMULATION]] — Physical instantiation of agents
 - [[18_MATHEMATICAL_FOUNDATIONS]] — Formal proofs of foundational claims
 - [[00_MASTER_INDEX]] — Coordination hub
+- [[00_MEMORY/THREAD-3]] — Axiom grounding extract (Canon: no)

@@ -1,7 +1,7 @@
 # Drawer 20: Economic Models
 
 **Canon:** **no**  
-**Updated:** 2026-09-16 AEST  
+**Updated:** 2026-09-18 AEST  
 **Rule:** Connection ≠ merge — satellite is a **fork-mirror**.
 
 ## Overview
@@ -50,8 +50,16 @@ Agent-based economic simulation and policy modeling in stylized worlds. Drawer p
 - Faithful reporting: reverse results reported honestly
 - Minimal runs indicate "underpowered" status; never omit
 
+## Cross-domain bead (Thread 3)
+
+GTB/MiroShark side of axiom grounding:
+
+- Extract: [`../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md`](../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md)
+- Framework open actions include freeze-evasion irreversibility check and tax-bracket rationales (run in MiroShark, not here)
+
 ## Cross-Links
 
 - [[16_AI_SAFETY_RESEARCH]] — Safety under economic pressure
 - [[19_PHILOSOPHICAL_FOUNDATIONS]] — Foundational axioms for economics
 - [[00_MASTER_INDEX]] — Coordination hub
+- [[00_MEMORY/THREAD-3]] — Axiom grounding extract (Canon: no)

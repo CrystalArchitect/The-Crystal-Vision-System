@@ -78,3 +78,13 @@ for a checklist rather than execution, produced as
 flagged risks (a same-named-minus-a-hyphen private repo not to confuse with
 the imported one, and what `archive/` does and doesn't preserve). See
 [`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md) for the live gate.
+
+## 2026-09-18 — Backlog pick: Thread 3 axiom-grounding extract (hub only)
+
+From [`00_MASTER_INDEX/OPEN-BACKLOG.md`](../00_MASTER_INDEX/OPEN-BACKLOG.md)
+suggested order: Drive 16–20 and stub delete/adopt remain Crystal-gated.
+Default agent connection work without rewriting forks: file Thread 3 extract
+and bead links (drawers 16/19/20 + `00_MEMORY`), refresh Thread 3 status in
+[`CROSS-DOMAIN-THREADS.md`](../00_MEMORY/CROSS-DOMAIN-THREADS.md). Canon: **no**.
+Satellite audit experiments stay outside this decision.
+
