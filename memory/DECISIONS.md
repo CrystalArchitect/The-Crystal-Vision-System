@@ -11,18 +11,18 @@ decision gets a new entry that says so.
 
 ## 2026-09-18 — Alive Weave: connect AI islands; do not merge them
 
-Decision: stand up hub-level **Alive Weave** coordination so Songline Bus,
-Starline Weaver, CrystalBridge (ConsentGate), Decode→Ingest→Twin, and SAT
-`wrap_turn` can be pulsed and woven from this repo **without** collapsing
-named systems into one product.
+Decision: stand up hub-level **Alive Weave** coordination so the TCV labeled
+bridge bus, Starline Weaver, CrystalBridge (ConsentGate), Decode→Ingest→Twin,
+and SAT `wrap_turn` can be pulsed and woven from this repo **without**
+collapsing named systems into one product.
 
 - Map: [`00_MASTER_INDEX/ALIVE-WEAVE.md`](../00_MASTER_INDEX/ALIVE-WEAVE.md)
 - Runners: [`scripts/alive/`](../scripts/alive/) (`pulse.py`, `weave.py`)
 - Architecture S4 (bus as event source into decode): **Built** via
   `signal.bus_message` domain in
   [`archive/TheCrystalVision/services/decode.py`](../archive/TheCrystalVision/services/decode.py)
-  and hub `weave.py` — not by making Songline a CVS component
-  (`CVS-SONGLINE` remains out of bounds).
+  and hub `weave.py` — hub titles stay Starline / labeled-bus only;
+  `CVS-SONGLINE` remains out of bounds.
 
 Does **not** repeal connection ≠ merge, ADR-0005 (human recommend-then-approve
 orchestrator stays docs-first), or LEAF human veto. Celestial Portal docker

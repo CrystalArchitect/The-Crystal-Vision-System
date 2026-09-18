@@ -18,7 +18,7 @@ UNIT_RULES = {
     "energy": {"canonical": "kWh", "convert": {"Wh": 0.001, "kWh": 1.0, "MWh": 1000.0}},
     "water": {"canonical": "kL", "convert": {"L": 0.001, "kL": 1.0, "ML": 1000.0}},
     "mobility": {"canonical": "count", "convert": {"count": 1.0}},
-    # S4 — Songline/Starline bus speech as metered signal (Architecture upgrade)
+    # S4 — labeled bus speech as metered signal (Architecture upgrade)
     "signal": {"canonical": "count", "convert": {"count": 1.0}},
 }
 

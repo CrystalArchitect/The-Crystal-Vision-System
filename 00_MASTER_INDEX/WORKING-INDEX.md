@@ -28,7 +28,7 @@ Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
-- **2026-09-18:** Alive Weave — hub coordination for multi-AI islands without merge. Map: `00_MASTER_INDEX/ALIVE-WEAVE.md`. Runners: `scripts/alive/pulse.py` (island pulse + selftests), `scripts/alive/weave.py` (Songline + Starline → twin `signal.bus_message`, Architecture S4). Optional `--sat` gates hub turn via SAT `wrap_turn`. Law unchanged: connection ≠ merge; Songline never a CVS component. Canon: no.
+- **2026-09-18:** Alive Weave — hub coordination for multi-AI islands without merge. Map: `00_MASTER_INDEX/ALIVE-WEAVE.md`. Runners: `scripts/alive/pulse.py` (island pulse + selftests), `scripts/alive/weave.py` (TCV bridge bus + Starline Weaver → twin `signal.bus_message`, Architecture S4). Optional `--sat` gates hub turn via SAT `wrap_turn`. Law unchanged: connection ≠ merge; out-of-bounds titles stay out of bounds. Canon: no.
 
 - **2026-09-16:** Hub hygiene pass — refreshed `REPOS.md` (58-repo live inventory), Continuum vision-only (`06_CMX_CONTINUUM` + seeded `Continuum-sync-loop` README), SECURITY Advisories (placeholder email removed), MAINTAINERS steward named, science drawer indexes 16–20 with concrete GitHub URLs, TOOLING-NOTES for api-gateway design-only. Still open: Drive 16–20 TBD, stub delete/adopt, UK-MonoRepo private, research thread extracts, memory/ naming.
 

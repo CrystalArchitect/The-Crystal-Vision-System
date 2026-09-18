@@ -1,4 +1,4 @@
-# Alive weave runners (hub coordination — not a Songline component)
+# Alive weave runners (hub coordination)
 
 See [`00_MASTER_INDEX/ALIVE-WEAVE.md`](../00_MASTER_INDEX/ALIVE-WEAVE.md).
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Alive weave — run labeled buses and meter speech into the twin (Architecture S4).
 
-Does not merge Songline into CVS. Does not auto-orchestrate without human gate.
+Hub coordination only. Does not auto-orchestrate without human gate.
 Optional ``--sat`` wraps the hub opening intent through SAT wrap_turn (veto grammar).
 
     python3 scripts/alive/weave.py
@@ -76,11 +76,12 @@ def _sat_allow(intent: str = "reply") -> tuple[bool, dict]:
             sys.path.remove(str(SAT_ROOT))
 
 
-def _run_songline(topic: str, turns: int) -> list[dict]:
+def _run_tcv_bridge_bus(topic: str, turns: int) -> list[dict]:
+    """Run the TheCrystalVision clementine/bridge labeled bus (archive class name unchanged)."""
     sys.path.insert(0, str(TCV))
     try:
         from clementine.bridge.agents import ClementineHub, EchoAgent, SevenSistersAgent
-        from clementine.bridge.bus import SonglineBus
+        from clementine.bridge.bus import SonglineBus  # archive symbol; never a hub title
         bus = SonglineBus(ClementineHub(), [EchoAgent(), SevenSistersAgent()])
         return bus.run(topic, turns)
     finally:
@@ -131,7 +132,7 @@ def main() -> int:
     parser.add_argument("--db", type=Path, default=None, help="Twin SQLite path (default: temp)")
     args = parser.parse_args()
 
-    print("Alive weave — Songline + Starline → twin")
+    print("Alive weave — labeled buses → twin")
     print(f"Topic: {args.topic!r} · turns={args.turns}")
     print("")
 
@@ -142,12 +143,12 @@ def main() -> int:
             print("HALT — SAT vetoed the weave turn (human/authority gate).")
             return 2
 
-    song = _run_songline(args.topic, args.turns)
+    tcv = _run_tcv_bridge_bus(args.topic, args.turns)
     star = _run_starline(args.topic, args.turns)
-    print(f"Songline delivered: {sum(1 for e in song if e.get('delivered'))}/{len(song)}")
-    print(f"Starline delivered: {sum(1 for e in star if e.get('delivered'))}/{len(star)}")
+    print(f"TCV bridge bus delivered: {sum(1 for e in tcv if e.get('delivered'))}/{len(tcv)}")
+    print(f"Starline Weaver delivered: {sum(1 for e in star if e.get('delivered'))}/{len(star)}")
 
-    events = transcript_to_events("songline", song) + transcript_to_events("starline", star)
+    events = transcript_to_events("tcv_bridge", tcv) + transcript_to_events("starline", star)
     db = args.db or Path(tempfile.mkdtemp(prefix="alive-weave-")) / "twin.db"
     db.parent.mkdir(parents=True, exist_ok=True)
     meter = _meter(events, db)

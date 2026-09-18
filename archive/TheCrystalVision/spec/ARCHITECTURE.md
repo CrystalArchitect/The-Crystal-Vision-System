@@ -93,7 +93,7 @@ python3 -m services.api --port 8899                              # serve it
 | S1 | Decode/Ingest/Twin scaffold + sample data + tests | ● this commit |
 | S2 | `openapi.yaml` for the §6 API surface | ○ next |
 | S3 | Receipt engine v0 (RFC-001 envelope, dual-sig stub) | ○ |
-| S4 | Wire Songline Bus + CrystalBridge as event sources into decode | ● hub `scripts/alive/weave.py` → `signal.bus_message` |
+| S4 | Wire labeled bus + CrystalBridge as event sources into decode | ● hub `scripts/alive/weave.py` → `signal.bus_message` |
 | S5 | Crystal Vision UI reads `/v1/twin/flows` (SvelteKit route) | ○ |
 | S6 | Economics: parameters.yaml + sim before any token talk | ○ Vision |
 

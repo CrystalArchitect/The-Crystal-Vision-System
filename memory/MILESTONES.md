@@ -12,14 +12,14 @@ if it changes "now," update the relevant row in [`INDEX.md`](INDEX.md).
 - Hub map: [`00_MASTER_INDEX/ALIVE-WEAVE.md`](../00_MASTER_INDEX/ALIVE-WEAVE.md)
   (`CVS-ALIVE` in WORKING-INDEX). Canon: no.
 - `scripts/alive/pulse.py` — inventories Built/custody/compose/docs islands;
-  runs Songline, Starline, Decode→Ingest→Twin selftests; imports CrystalBridge
-  ConsentGate and SAT `wrap_turn` without requiring the MCP package.
-- `scripts/alive/weave.py` — runs Songline + Starline demo turns, meters
-  delivered speech into twin as `signal.bus_message` (Architecture S4).
+  runs TCV bridge bus, Starline Weaver, Decode→Ingest→Twin selftests; imports
+  CrystalBridge ConsentGate and SAT `wrap_turn` without requiring the MCP package.
+- `scripts/alive/weave.py` — runs labeled-bus demo turns, meters delivered
+  speech into twin as `signal.bus_message` (Architecture S4).
   Optional `--sat` gates the hub turn through SAT.
 - Twin decode domain `signal` added in
   `archive/TheCrystalVision/services/decode.py` + selftest.
-- **Law held:** connection ≠ merge; Songline never a CVS component;
+- **Law held:** connection ≠ merge; out-of-bounds titles stay out of bounds;
   ADR-0005 / LEAF human gate not auto-replaced.
 
 ## 2026-09-09 — Three-tier `/generate` designed and implemented (local + cloud)

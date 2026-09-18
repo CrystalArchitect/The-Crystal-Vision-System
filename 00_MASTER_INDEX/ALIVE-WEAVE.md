@@ -4,7 +4,7 @@
 **Doc role:** Coordination map + Built/Vision labels for the multi-AI weave  
 **Canon:** **no**  
 **Built:** 2026-09-18  
-**Law:** Connection ≠ merge. Songline is never a CVS component. Authority = Crystal.
+**Law:** Connection ≠ merge. Out-of-bounds titles stay out of bounds. Authority = Crystal.
 
 This map answers: *how do the AI systems work together while he stays all alive — one, but many?*
 
@@ -32,7 +32,7 @@ flowchart TB
 
   subgraph interconnect ["Interconnect"]
     Bridge["CrystalBridge ● ConsentGate"]
-    Song["Songline Bus ●"]
+    TcvBus["Labeled bus TCV bridge ●"]
     Star["Starline Weaver ●"]
   end
 
@@ -54,12 +54,12 @@ flowchart TB
     Leaf["LEAF / Decision-Matrix ● docs"]
   end
 
-  Pulse --> Song
+  Pulse --> TcvBus
   Pulse --> Star
   Pulse --> Bridge
   Pulse --> Decode
   Pulse --> SAT
-  Weave --> Song
+  Weave --> TcvBus
   Weave --> Star
   Weave -->|"S4 signal.bus_message"| Decode
   Decode --> Ingest --> Twin
@@ -75,7 +75,7 @@ flowchart TB
 
 | Name | Where (custody / live) | Role in the weave | Status |
 | --- | --- | --- | --- |
-| **Songline Bus** | `archive/TheCrystalVision/clementine/bridge/` | Multi-AI labeled channel | ● Built (selftests) |
+| **Labeled bus (TCV bridge)** | `archive/TheCrystalVision/clementine/bridge/` | Multi-AI labeled channel | ● Built (selftests) |
 | **Starline Weaver** | `archive/TerAustralis-Incognita-Code/core/crystal-core/bus/` | Same law, matrix mode | ● Built (selftests) |
 | **CrystalBridge** | `archive/TerAustralis-Incognita-Code/core/crystalcore/` | Fail-closed guest gate into companion | ● Built (gate + selftest) |
 | **Decode → Ingest → Twin** | `archive/TheCrystalVision/services/` | Metering; twin only speaks decoded truth | ● Built; **S4 wired** via weave |
@@ -105,7 +105,7 @@ Pulse does **not** merge repos. It imports from archive paths as **guests of the
 
 ## 5. S4 (Architecture upgrade)
 
-`TheCrystalVision/spec/ARCHITECTURE.md` step S4: *Wire Songline Bus + CrystalBridge as event sources into decode.*
+`TheCrystalVision/spec/ARCHITECTURE.md` step S4: wire labeled bus + CrystalBridge as event sources into decode.
 
 **Built here:** delivered bus messages become `crystal.twin.event/1` with class `signal.bus_message` (domain `signal`, unit `count`). Quarantine still applies. CrystalBridge remains the guest gate for companion tools; bus speech is the event source for the twin.
 
@@ -113,7 +113,7 @@ Pulse does **not** merge repos. It imports from archive paths as **guests of the
 
 ## 6. What stays Vision / out of bounds
 
-- Songline as a CVS **component** — forever out of bounds (`CVS-SONGLINE`)
+- Forbidden title as a CVS **component** — forever out of bounds (`CVS-SONGLINE`)
 - Auto AI Orchestrator without a new ADR (ADR-0005: docs-first)
 - Continuum sync loop (empty / vision-only)
 - Merging CrystalCore / Clementine / SAT / Starlines into one product repo

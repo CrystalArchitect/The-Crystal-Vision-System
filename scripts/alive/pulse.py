@@ -2,7 +2,7 @@
 """Alive pulse — inventory + selftests for every named AI island.
 
 Connection ≠ merge. This script only *checks* archive islands; it does not
-absorb Songline, Clementine, SAT, or CrystalCore into the CVS hub product.
+absorb Clementine, SAT, CrystalCore, or other named islands into the CVS hub product.
 
     python3 scripts/alive/pulse.py
 """
@@ -27,7 +27,7 @@ class Island:
 
 
 ISLANDS = [
-    Island("Songline Bus", ROOT / "archive/TheCrystalVision/clementine/bridge", "built", "module:clementine.bridge.selftest"),
+    Island("Labeled bus (TCV bridge)", ROOT / "archive/TheCrystalVision/clementine/bridge", "built", "module:clementine.bridge.selftest"),
     Island("Starline Weaver", ROOT / "archive/TerAustralis-Incognita-Code/core/crystal-core/bus", "built", "module:bus.selftest"),
     Island("CrystalBridge", ROOT / "archive/TerAustralis-Incognita-Code/core/crystalcore", "built", "bridge_gate"),
     Island("Decode/Ingest/Twin", ROOT / "archive/TheCrystalVision/services", "built", "module:services.selftest"),
@@ -96,7 +96,7 @@ def _check(island: Island) -> tuple[str, str]:
 
     if island.pulse.startswith("module:"):
         module = island.pulse.split(":", 1)[1]
-        if island.name == "Songline Bus":
+        if island.name == "Labeled bus (TCV bridge)":
             cwd = ROOT / "archive/TheCrystalVision"
             ok, out = _run_module(cwd, module)
         elif island.name == "Starline Weaver":
@@ -118,7 +118,7 @@ def _check(island: Island) -> tuple[str, str]:
 
 def main() -> int:
     print("Alive pulse — Crystal Vision weave")
-    print("Law: connection ≠ merge · Songline never a CVS component")
+    print("Law: connection ≠ merge · out-of-bounds titles stay out of bounds")
     print("")
     alive = down = missing = 0
     for island in ISLANDS:
