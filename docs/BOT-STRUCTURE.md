@@ -62,36 +62,44 @@ Detail design (already in archive): `archive/*/GROK-BOT-ARCHITECTURE.md` — Sta
 
 ## 2. Bot roster (named roles)
 
-Each role = one config (prompt + tools + secrets + home repo). Not a swarm of clones.
+Each role = one config (prompt + tools + secrets + home repo). Not a swarm of clones.  
+Machine-readable twin: [`bots/registry.yaml`](bots/registry.yaml).
 
-| ID | Role | Home (pointer) | Allowed to | Forbidden |
-| --- | --- | --- | --- | --- |
-| **BOT-GROK** | Draft / reason via xAI | Cursor agent + `XAI_API_KEY` | Drafts, audits, briefs | Auto-post; false Elon claims |
-| **BOT-DISCORD** | Companion / channel reply | `archive/discord-ai-agent/`, Clementine | Replies in allowed guilds | Scrape; claim Canon |
-| **BOT-COLLECT** | Collection Mode ingest | Drive staging + hub extracts | File extracts to drawers | Chat dumps into Canon |
-| **BOT-RESEARCH** | Science drawer agents | drawers 16–20 satellites | Experiments in own repos | Merge forks into CVS |
-| **BOT-PORTAL** | Celestial Portal voice / UI | drawer 07 + handoff | Local / staged UI | Commit `.env` |
+| ID | Status | Role | Home (pointer) | Allowed to | Forbidden |
+| --- | --- | --- | --- | --- | --- |
+| **BOT-GROK** | design | Draft / reason via xAI | Cursor agent + `XAI_API_KEY` | Drafts, audits, briefs | Auto-post; false Elon claims |
+| **BOT-DISCORD** | dormant | Companion / channel reply | `archive/discord-ai-agent/`, Clementine | Replies in allowed guilds | Scrape; claim Canon |
+| **BOT-COLLECT** | design | Collection Mode ingest | Drive staging + hub extracts | File extracts to drawers | Chat dumps into Canon |
+| **BOT-RESEARCH** | design | Science drawer agents | drawers 16–20 satellites | Experiments in own repos | Merge forks into CVS |
+| **BOT-PORTAL** | dormant | Celestial Portal voice / UI | drawer 07 + handoff | Local / staged UI | Commit `.env` |
 
-Add a row here when Crystal names a new bot. Do not invent IDs in chat only.
+Status: `design` = map + prompts only · `dormant` = code exists elsewhere, not wired · `active` = Crystal-approved runtime.  
+Add a row here **and** in `registry.yaml` when Crystal names a new bot. Do not invent IDs in chat only.
+
+### BOT-GROK cards (ready to paste)
+
+| File | Purpose |
+| --- | --- |
+| [`bots/grok/prompt.md`](bots/grok/prompt.md) | System prompt + hard rules + output shape |
+| [`bots/grok/stages.md`](bots/grok/stages.md) | Stage 1–6 bindings + JSON I/O contracts |
 
 ---
 
-## 3. Folder / config layout (when you build)
+## 3. Folder / config layout
 
-Keep implementation **out of** this hub unless Crystal stamps otherwise. Suggested layout in a **dedicated bot repo** (or CrystalCore):
+**In this hub (design skeletons only):**
 
 ```
-bots/
-  _protocol/           # copy of CORE + PASTE-THIS + this map (pointer)
-  grok/
-    prompt.md          # system prompt with protocol
-    stages.md          # Stage 1–6 bindings
-  discord/
-    ...
-  collect/
-    ...
-  registry.yaml        # id, home, secrets_names, publish_mode: human_only
+docs/
+  BOT-STRUCTURE.md     # this map
+  bots/
+    registry.yaml      # id, status, secrets_names, publish_mode: human_only
+    grok/
+      prompt.md
+      stages.md
 ```
+
+Living runtimes stay in a **dedicated bot repo** (or CrystalCore / Discord / Clementine). Copy or symlink `_protocol/` there from `memory/CORE.md` + `docs/PASTE-THIS.md` + this map. Do not grow executable bot code inside CVS unless Crystal stamps otherwise.
 
 Secrets (Cursor Secrets / env — never commit):
 
@@ -136,6 +144,9 @@ No auto-post. Confirm this is what you want before scaling pools.
 | Doc | Path |
 | --- | --- |
 | This map | `docs/BOT-STRUCTURE.md` |
+| Registry | `docs/bots/registry.yaml` |
+| BOT-GROK prompt | `docs/bots/grok/prompt.md` |
+| BOT-GROK stages | `docs/bots/grok/stages.md` |
 | Pipeline design | `archive/discord-ai-agent/GROK-BOT-ARCHITECTURE.md` (and copies under other archives) |
 | Protocol CORE | `memory/CORE.md` |
 | Paste card | `docs/PASTE-THIS.md` |
