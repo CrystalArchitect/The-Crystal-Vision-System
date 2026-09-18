@@ -59,11 +59,17 @@ Distributed AI safety research examining emergent failures in multi-agent system
 - Governance mechanism design
 - Market efficiency under soft-label evaluation
 - Agent learning and strategy evolution
-- **Thread 3 (axiom grounding)** — hub extract: [`../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md`](../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md); full audit: [`../00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md`](../00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md)
+- **Thread 1** — [`../00_MEMORY/THREAD-1-GOVERNANCE-SCARCITY-EXTRACT.md`](../00_MEMORY/THREAD-1-GOVERNANCE-SCARCITY-EXTRACT.md)
+- **Thread 2** (stub) — [`../00_MEMORY/THREAD-2-COALITION-DETECT-EXTRACT.md`](../00_MEMORY/THREAD-2-COALITION-DETECT-EXTRACT.md)
+- **Thread 3** — [`../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md`](../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md); audit: [`../00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md`](../00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md)
+- **Thread 4** — [`../00_MEMORY/THREAD-4-LLM-CALIBRATION-EXTRACT.md`](../00_MEMORY/THREAD-4-LLM-CALIBRATION-EXTRACT.md)
+- **Thread 5** — [`../00_MEMORY/THREAD-5-SOFT-LABEL-CERT-EXTRACT.md`](../00_MEMORY/THREAD-5-SOFT-LABEL-CERT-EXTRACT.md)
 
 ## Cross-Links
 
 - [[19_PHILOSOPHICAL_FOUNDATIONS]] — AI foundation principles
 - [[20_ECONOMIC_MODELS]] — GTB world model
+- [[17_PHYSICS_SIMULATION]] — Embodied scarcity tests (Thread 1)
+- [[18_MATHEMATICAL_FOUNDATIONS]] — Soft-label / coalition proofs (Threads 2, 5)
 - [[00_MASTER_INDEX]] — Coordination hub
-- [[00_MEMORY/THREAD-3]] — Axiom → SWARM/GTB bead (Canon: no)
+- [[00_MEMORY]] — Thread beads 1–5 (Canon: no)

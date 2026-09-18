@@ -56,12 +56,10 @@ Foundational philosophy underlying AI safety, consciousness, and emergence in mu
 - Cross-domain verification against other research drawers
 - Vault-based knowledge management (via linked safety tooling)
 
-## Cross-domain bead (Thread 3)
+## Cross-domain beads
 
-Axiom → governance mapping lives in the hub (not in fork-mirrors):
-
-- Extract: [`../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md`](../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md)
-- Framework: [`../00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md`](../00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md)
+- **Thread 2** (coalition + irreversibility constraint; stub): [`../00_MEMORY/THREAD-2-COALITION-DETECT-EXTRACT.md`](../00_MEMORY/THREAD-2-COALITION-DETECT-EXTRACT.md)
+- **Thread 3** (axiom → governance): [`../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md`](../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md); [`../00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md`](../00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md)
 
 Canon: **no**. Satellite experiments remain outside this drawer.
 
@@ -72,4 +70,4 @@ Canon: **no**. Satellite experiments remain outside this drawer.
 - [[17_PHYSICS_SIMULATION]] — Physical instantiation of agents
 - [[18_MATHEMATICAL_FOUNDATIONS]] — Formal proofs of foundational claims
 - [[00_MASTER_INDEX]] — Coordination hub
-- [[00_MEMORY/THREAD-3]] — Axiom grounding extract (Canon: no)
+- [[00_MEMORY]] — Thread 2 / 3 beads (Canon: no)

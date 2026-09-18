@@ -88,3 +88,11 @@ and bead links (drawers 16/19/20 + `00_MEMORY`), refresh Thread 3 status in
 [`CROSS-DOMAIN-THREADS.md`](../00_MEMORY/CROSS-DOMAIN-THREADS.md). Canon: **no**.
 Satellite audit experiments stay outside this decision.
 
+## 2026-09-18 — Hub extracts for Threads 1, 2 (stub), 4, 5
+
+Continues the Thread 3 connection pass: file remaining cross-domain beads in
+`00_MEMORY/` and link drawers 16–20 without rewriting fork-mirrors. Thread 2
+remains a stub until a combined-detector architecture is chosen. Drive 16–20
+and stub-repo delete/adopt still Crystal-gated. Canon: **no**.
+
+
