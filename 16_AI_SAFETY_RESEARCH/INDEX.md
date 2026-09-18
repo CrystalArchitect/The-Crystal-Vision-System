@@ -1,7 +1,7 @@
 # Drawer 16: AI Safety Research
 
 **Canon:** **no**  
-**Updated:** 2026-09-16 AEST  
+**Updated:** 2026-09-18 AEST  
 **Rule:** Connection ≠ merge — satellites are **fork-mirrors** unless noted.
 
 ## Overview
@@ -59,9 +59,11 @@ Distributed AI safety research examining emergent failures in multi-agent system
 - Governance mechanism design
 - Market efficiency under soft-label evaluation
 - Agent learning and strategy evolution
+- **Thread 3 (axiom grounding)** — hub extract: [`../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md`](../00_MEMORY/THREAD-3-AXIOM-GROUNDING-EXTRACT.md); full audit: [`../00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md`](../00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md)
 
 ## Cross-Links
 
 - [[19_PHILOSOPHICAL_FOUNDATIONS]] — AI foundation principles
 - [[20_ECONOMIC_MODELS]] — GTB world model
 - [[00_MASTER_INDEX]] — Coordination hub
+- [[00_MEMORY/THREAD-3]] — Axiom → SWARM/GTB bead (Canon: no)
