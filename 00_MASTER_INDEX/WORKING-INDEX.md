@@ -38,7 +38,7 @@ Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
-- **2026-09-19 (vision):** Filed Lattice lock / NON SOLUS status card + image as vision plate extract (Canon: no). Dreamtime/Songline naming law unchanged — not a component stamp.
+- **2026-09-19 (vision):** Filed Lattice lock / NON SOLUS status card + image as vision plate extract (Canon: no). Not a component stamp.
 
 - **2026-09-19 (bots):** Filled Alive Weave island gaps on roster — BOT-CONTEXTGATE, BOT-SAT, BOT-LEAF (≠ Orchestrator), BOT-GROK-MIND alias. Cross-link `ALIVE-WEAVE.md` ↔ `BOT-STRUCTURE.md`. Canon: no.
 
