@@ -1,0 +1,151 @@
+---
+// SPDX-License-Identifier: MIT
+
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import DataImportForm from '../../components/react/DataImportForm';
+---
+
+<BaseLayout title="Migrate Your Data">
+  <div class="max-w-4xl mx-auto px-4 py-8">
+    {/* Header */}
+    <div class="mb-12">
+      <h1 class="text-4xl font-bold text-white mb-4">Migrate Your Data</h1>
+      <p class="text-lg text-neutral-400">
+        Restore your music library, playlists, and personalization from a backup or previous installation.
+      </p>
+    </div>
+
+    <div class="space-y-8">
+      {/* Import Section */}
+      <div>
+        <div class="mb-6">
+          <h2 class="text-2xl font-semibold text-white mb-2">📥 Import Your Data</h2>
+          <p class="text-neutral-400">
+            Have a backup from a previous export? Paste it below to restore your library.
+          </p>
+        </div>
+
+        <DataImportForm
+          client:load
+          onSuccess={() => {
+            window.location.href = '/';
+          }}
+        />
+      </div>
+
+      {/* Export Section */}
+      <div class="bg-ink-900 border border-ink-800 rounded-lg p-6">
+        <h2 class="text-2xl font-semibold text-white mb-2">📤 Export Your Data</h2>
+        <p class="text-neutral-400 mb-6">
+          Create a backup of your current library, playlists, and preferences. Use this to restore your data later.
+        </p>
+
+        <button
+          id="export-btn"
+          class="px-6 py-2 rounded bg-accent-400 text-ink-950 font-medium hover:bg-accent-300 transition-colors"
+        >
+          Download Backup
+        </button>
+
+        <div id="export-status" class="mt-4 hidden"></div>
+      </div>
+
+      {/* Info Section */}
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="bg-ink-900 border border-ink-800 rounded-lg p-6">
+          <h3 class="text-lg font-semibold text-white mb-3">✨ What's Included</h3>
+          <ul class="text-neutral-400 space-y-2">
+            <li class="flex items-center gap-2">
+              <span class="text-accent-400">✓</span> Playlists and track collections
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-accent-400">✓</span> Track ratings and reviews
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-accent-400">✓</span> Custom tags and personal notes
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-accent-400">✓</span> Favorite tracks
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-accent-400">✓</span> Search preferences and theme
+            </li>
+          </ul>
+        </div>
+
+        <div class="bg-ink-900 border border-ink-800 rounded-lg p-6">
+          <h3 class="text-lg font-semibold text-white mb-3">🔄 How Migration Works</h3>
+          <ol class="text-neutral-400 space-y-2">
+            <li class="flex items-start gap-3">
+              <span class="text-accent-400 font-semibold mt-0.5">1.</span>
+              <span>Export your current data or upload a previous backup</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-accent-400 font-semibold mt-0.5">2.</span>
+              <span>Data loads to local storage immediately</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-accent-400 font-semibold mt-0.5">3.</span>
+              <span>If logged in, everything syncs to cloud</span>
+            </li>
+            <li class="flex items-start gap-3">
+              <span class="text-accent-400 font-semibold mt-0.5">4.</span>
+              <span>Access your library on any device</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      {/* Safety Info */}
+      <div class="bg-green-900/20 border border-green-700/50 rounded-lg p-6">
+        <h3 class="text-lg font-semibold text-green-300 mb-2">🛡️ Data Safety</h3>
+        <ul class="text-green-200 space-y-1 text-sm">
+          <li>• Your exported data is a standard JSON file - inspect it anytime</li>
+          <li>• Migration is non-destructive - your local data is always preserved</li>
+          <li>• Cloud sync requires authentication for security</li>
+          <li>• You can export and backup anytime from your settings</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  const exportBtn = document.getElementById('export-btn');
+  const exportStatus = document.getElementById('export-status');
+
+  if (exportBtn) {
+    exportBtn.addEventListener('click', async () => {
+      exportBtn.disabled = true;
+      exportStatus.textContent = 'Preparing backup...';
+      exportStatus.classList.remove('hidden');
+
+      try {
+        // Dynamically import storage functions
+        const { exportUserData } = await import('../../lib/storage');
+        const data = exportUserData();
+
+        // Create blob and download
+        const blob = new Blob([data], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `dnb-library-backup-${new Date().toISOString().split('T')[0]}.json`;
+        document.body.appendChild(a);
+        a.click();
+        URL.revokeObjectURL(url);
+        document.body.removeChild(a);
+
+        exportStatus.textContent = '✓ Backup downloaded successfully';
+        exportStatus.classList.add('text-green-300', 'bg-green-900/20', 'border', 'border-green-700/50', 'rounded', 'p-3');
+        exportStatus.classList.remove('hidden');
+      } catch (error) {
+        exportStatus.textContent = `✗ Error: ${error instanceof Error ? error.message : 'Failed to export'}`;
+        exportStatus.classList.add('text-red-300', 'bg-red-900/20', 'border', 'border-red-700/50', 'rounded', 'p-3');
+        exportStatus.classList.remove('hidden');
+      } finally {
+        exportBtn.disabled = false;
+      }
+    });
+  }
+</script>
