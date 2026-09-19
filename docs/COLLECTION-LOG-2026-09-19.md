@@ -14,7 +14,8 @@ Documents and artifacts dropped into the agent session without an explicit build
 | Drawer | Path |
 | --- | --- |
 | 03 SAT | [`03_SYNTHETIC_AFFECT_THEORY/sitting-2026-09-19/`](../03_SYNTHETIC_AFFECT_THEORY/sitting-2026-09-19/) |
-| 07 Portal | [`07_CELESTIAL_PORTAL/sitting-2026-09-19/`](../07_CELESTIAL_PORTAL/sitting-2026-09-19/) — includes AI-SYSTEM-BRIEF |
+| 07 Portal | [`07_CELESTIAL_PORTAL/sitting-2026-09-19/`](../07_CELESTIAL_PORTAL/sitting-2026-09-19/) — AI-SYSTEM-BRIEF, CrystalCore HTML shells, Social Orbit API stubs |
+| handoff | [`handoff/crystalcore-os-freeze-2026-09-11/`](../handoff/crystalcore-os-freeze-2026-09-11/) — **full** freeze pack (00–06 + LICENSE-CODE/MYTHOS); replaced prior stubs |
 | 10 Creative | [`10_ORIGINAL_CREATIVE/sitting-2026-09-19/`](../10_ORIGINAL_CREATIVE/sitting-2026-09-19/) — Krystallos, Codex renders, SyncMe, **music-theory-tree** plate |
 | 11 Correspondence | [`11_CORRESPONDENCE/sitting-2026-09-19/`](../11_CORRESPONDENCE/sitting-2026-09-19/) |
 | 12 Publications | [`12_PUBLICATIONS/sitting-2026-09-19/`](../12_PUBLICATIONS/sitting-2026-09-19/) |
@@ -28,10 +29,11 @@ Documents and artifacts dropped into the agent session without an explicit build
 
 Listed in [`15_ARCHIVE_HISTORY/sitting-2026-09-19-held/HELD-BINARIES.txt`](../15_ARCHIVE_HISTORY/sitting-2026-09-19-held/HELD-BINARIES.txt):
 
-- Whole-repo / build **zips** (The-Crystal-Vision-System, memorycore-build, continuum-sync-loop, crystalcore-os-freeze, three-bills, remix-remix-death) — custody already covered by `archive/` or would duplicate this repo
+- Whole-repo / build **zips** (The-Crystal-Vision-System, memorycore-build, continuum-sync-loop, crystalcore-os-freeze zip, three-bills, remix-remix-death) — custody already covered by `archive/` or would duplicate this repo; **freeze markdown pack filed** under `handoff/` (zip still held)
 - **Torrents** + UK DnB **sqlite** — media archives; not GitHub trail material
 - Node **_stream_*.js** polyfills — noise, not project source
-- Duplicate App.tsx / React artifact HTML piles — one App extract filed under Portal sitting; extras not triplicated
+- Duplicate App.tsx / React artifact HTML piles — one App extract + selected CrystalCore HTML shells filed under Portal sitting; React_Artifact_* / Artifact_* extras not triplicated
+- Tooling scraps (`cli.js`, `cli-helper.js`, `create_light_essay.js`, `create_w1dg3_manual.js`, `webpack.config`, `youtube.html`, `index.html`) — not drawer material this pass
 
 ## Honesty (Incognita Rule)
 

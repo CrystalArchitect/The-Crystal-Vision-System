@@ -32,7 +32,8 @@
 | CVS-CRYSTAL-DEC | 00 | Crystal decisions pending (Drive / naming / stubs) | coordination | no | `/00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md` |
 | CVS-AXIOM-AUDIT | 00 | Axiom Audit Framework (Thread 3 map) | research | no | `/00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md` |
 | CVS-BOTS | 08 | Bot structure (ops + weave + companion + infra + research) | coordination | no | `/docs/BOT-STRUCTURE.md` |
-| CVS-COLLECT-0919 | 00 | Collection sitting 2026-09-19 (SAT/Portal/Codex/AI dumps filed) | fact | no | `/docs/COLLECTION-LOG-2026-09-19.md` |
+| CVS-COLLECT-0919 | 00 | Collection sitting 2026-09-19 (SAT/Portal/Codex/AI dumps + freeze pack) | fact | no | `/docs/COLLECTION-LOG-2026-09-19.md` |
+| CVS-CC-FREEZE | handoff | CrystalCore.OS freeze pack 2026-09-11 (full paper freeze) | fact | no | `/handoff/crystalcore-os-freeze-2026-09-11/` |
 | CVS-SAT-03 | 03 | SAT drawer + sitting-2026-09-19 extracts | research | no | `/03_SYNTHETIC_AFFECT_THEORY/` |
 | CVS-MUSIC-TREE | 10 | Music Theory Tree plate (C major modes) | research | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/music-theory-tree-C-major-modes.jpg` |
 
@@ -40,7 +41,7 @@ Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
-- **2026-09-19 (collection):** Filed agent upload dump into drawers 03/07/10/11/12/13/14/16/19/99. Log: `docs/COLLECTION-LOG-2026-09-19.md`. Held zips/torrents/stream polyfills. Music Theory Tree plate under creative sitting. Canon: no.
+- **2026-09-19 (collection):** Filed agent upload dump into drawers 03/07/10/11/12/13/14/16/19/99. **Follow-up:** replaced stub `handoff/crystalcore-os-freeze-2026-09-11/` with full pack (00–06 + licenses); Portal sitting gained CrystalCore HTML shells + Social Orbit API stub `.py`. Log: `docs/COLLECTION-LOG-2026-09-19.md`. Held zips/torrents/stream polyfills. Music Theory Tree plate under creative sitting. Canon: no.
 
 - **2026-09-19:** Alive Weave — CrystalBridge ConsentGate wired into pulse + weave (allow/refuse proven; `signal.gate_check` into twin). Gate on by default; `--no-gate` to skip. Canon: no.
 

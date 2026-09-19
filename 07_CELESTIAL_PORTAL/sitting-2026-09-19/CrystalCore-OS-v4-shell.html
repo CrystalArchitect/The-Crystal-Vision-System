@@ -1,0 +1,2044 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CrystalCore.OS v4.0</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Three.js for 3D Visuals & Shaders -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            crystal: {
+              50: '#f0fdfa',
+              100: '#ccfbf1',
+              400: '#2dd4bf',
+              500: '#14b8a6',
+              600: '#0d9488',
+              800: '#115e59',
+              900: '#134e4a',
+              accent: '#38bdf8',
+              violet: '#a855f7',
+              pink: '#ec4899',
+            }
+          },
+          fontFamily: {
+            mono: ['Fira Code', 'JetBrains Mono', 'monospace'],
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+          animation: {
+            'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            'float': 'float 6s ease-in-out infinite',
+            'glow': 'glow 2s ease-in-out infinite alternate',
+          },
+          keyframes: {
+            float: {
+              '0%, 100%': { transform: 'translateY(0px)' },
+              '50%': { transform: 'translateY(-10px)' },
+            },
+            glow: {
+              '0%': { filter: 'drop-shadow(0 0 5px rgba(56, 189, 248, 0.4))' },
+              '100%': { filter: 'drop-shadow(0 0 15px rgba(168, 85, 247, 0.8))' },
+            }
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    ::-webkit-scrollbar-track {
+      background: rgba(15, 23, 42, 0.6);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: rgba(56, 189, 248, 0.3);
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgba(56, 189, 248, 0.6);
+    }
+
+    /* Glassmorphism Classes */
+    .glass-panel {
+      background: rgba(15, 23, 42, 0.65);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+
+    .glass-panel-interactive {
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .glass-panel-interactive:hover {
+      background: rgba(30, 41, 59, 0.75);
+      border-color: rgba(56, 189, 248, 0.4);
+      box-shadow: 0 10px 35px 0 rgba(56, 189, 248, 0.25);
+    }
+
+    .glass-dock {
+      background: rgba(15, 23, 42, 0.45);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    }
+
+    .glass-window {
+      background: rgba(15, 23, 42, 0.82);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Window Active State Glow */
+    .window-active {
+      border-color: rgba(56, 189, 248, 0.5) !important;
+      box-shadow: 0 0 25px rgba(56, 189, 248, 0.25), 0 20px 40px rgba(0,0,0,0.8) !important;
+    }
+
+    /* Selection & Scanlines */
+    ::selection {
+      background: rgba(56, 189, 248, 0.3);
+      color: #38bdf8;
+    }
+
+    .crt-overlay::before {
+      content: " ";
+      display: block;
+      position: absolute;
+      top: 0; left: 0; bottom: 0; right: 0;
+      background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%);
+      background-size: 100% 4px;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0.15;
+    }
+
+    /* Canvas full screen bg */
+    #bg-canvas {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    /* Mobile & Touch Optimizations */
+    canvas {
+      touch-action: none;
+    }
+    
+    .touch-friendly {
+      touch-action: manipulation;
+    }
+
+    @media (max-width: 640px) {
+      .glass-window {
+        max-width: calc(100vw - 12px) !important;
+        max-height: calc(100vh - 110px) !important;
+      }
+    }
+  </style>
+</head>
+<body class="h-full w-full bg-slate-950 text-slate-100 font-sans overflow-hidden select-none touch-friendly">
+
+  <!-- Background WebGL Shader Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- CRT Overlay Effect (Toggleable in settings) -->
+  <div id="crt-layer" class="crt-overlay pointer-events-none fixed inset-0 z-50"></div>
+
+  <!-- BOOT SCREEN OVERLAY -->
+  <div id="boot-screen" class="fixed inset-0 z-[99999] bg-slate-950 flex flex-col items-center justify-center font-mono text-cyan-400 p-6 transition-opacity duration-700">
+    <div class="max-w-md w-full flex flex-col items-center space-y-6">
+      <div class="relative flex items-center justify-center">
+        <div class="w-20 h-20 rounded-2xl bg-cyan-500/10 border border-cyan-400/40 flex items-center justify-center animate-pulse">
+          <i data-lucide="gem" class="w-10 h-10 text-cyan-400 animate-spin" style="animation-duration: 8s;"></i>
+        </div>
+        <div class="absolute inset-0 blur-xl bg-cyan-500/20 rounded-full"></div>
+      </div>
+
+      <div class="text-center space-y-1">
+        <h1 class="text-2xl font-bold tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-200 to-indigo-400">
+          CRYSTALCORE OS
+        </h1>
+        <p class="text-xs text-slate-500 tracking-widest uppercase">Quantum Kernel v4.0.8</p>
+      </div>
+
+      <!-- Boot Logs -->
+      <div class="w-full h-32 bg-slate-900/90 border border-slate-800 rounded-lg p-3 text-xs overflow-hidden flex flex-col justify-end space-y-1 text-slate-400 shadow-inner" id="boot-log">
+        <div>[0.0001] Initializing Quantum Core Registers...</div>
+        <div>[0.0034] Calibrating Photonic Crystal Oscillators...</div>
+      </div>
+
+      <!-- Progress Bar -->
+      <div class="w-full space-y-2">
+        <div class="w-full bg-slate-900 rounded-full h-1.5 overflow-hidden border border-slate-800">
+          <div id="boot-progress" class="bg-gradient-to-r from-cyan-500 to-indigo-500 h-full w-0 transition-all duration-200"></div>
+        </div>
+        <div class="flex justify-between text-[10px] text-slate-500">
+          <span id="boot-status">Loading Crystal Matrix...</span>
+          <span id="boot-percent">0%</span>
+        </div>
+      </div>
+
+      <button id="fast-boot-btn" onclick="finishBoot()" class="px-4 py-1.5 rounded bg-cyan-500/10 hover:bg-cyan-500/20 border border-cyan-500/30 text-xs text-cyan-300 transition-colors">
+        Skip Bios Post [Space]
+      </button>
+    </div>
+  </div>
+
+  <!-- MAIN DESKTOP CONTAINER -->
+  <div id="desktop-env" class="relative z-10 w-full h-full flex flex-col justify-between hidden">
+    
+    <!-- TOP SYSTEM STATUS BAR -->
+    <header class="h-9 w-full glass-panel border-b border-white/10 px-4 flex items-center justify-between text-xs text-slate-300 z-40 select-none">
+      <!-- Left: Logo & Launcher -->
+      <div class="flex items-center space-x-3">
+        <button id="start-menu-btn" onclick="toggleStartMenu()" class="flex items-center space-x-2 px-2 py-1 rounded-md hover:bg-white/10 transition text-cyan-400 font-semibold focus:outline-none">
+          <i data-lucide="gem" class="w-4 h-4 text-cyan-400"></i>
+          <span>CrystalCore</span>
+        </button>
+        <span class="text-slate-600">|</span>
+        <span id="active-app-name" class="text-slate-400 font-mono text-[11px]">Desktop</span>
+      </div>
+
+      <!-- Center: Status Widget -->
+      <div class="hidden md:flex items-center space-x-6 text-[11px] font-mono">
+        <div class="flex items-center space-x-1.5 text-cyan-300">
+          <i data-lucide="cpu" class="w-3.5 h-3.5"></i>
+          <span>CPU: <span id="top-bar-cpu">12%</span></span>
+        </div>
+        <div class="flex items-center space-x-1.5 text-purple-300">
+          <i data-lucide="activity" class="w-3.5 h-3.5"></i>
+          <span>RAM: <span id="top-bar-ram">4.2/16 GB</span></span>
+        </div>
+        <div class="flex items-center space-x-1.5 text-emerald-300">
+          <i data-lucide="zap" class="w-3.5 h-3.5"></i>
+          <span>FREQ: <span id="top-bar-freq">4.8 GHz</span></span>
+        </div>
+      </div>
+
+      <!-- Right: Tray Controls & Clock -->
+      <div class="flex items-center space-x-3 text-slate-300">
+        <button onclick="toggleAudioSynthMaster()" class="hover:text-cyan-400 transition" title="Audio Output">
+          <i id="volume-icon" data-lucide="volume-2" class="w-4 h-4"></i>
+        </button>
+        <button onclick="openWindow('settings')" class="hover:text-cyan-400 transition" title="Settings">
+          <i data-lucide="sliders" class="w-4 h-4"></i>
+        </button>
+        <div class="flex items-center space-x-1 text-emerald-400">
+          <i data-lucide="wifi" class="w-3.5 h-3.5"></i>
+        </div>
+        <span class="text-slate-600">|</span>
+        <div id="clock-display" class="font-mono font-medium text-slate-200">12:00:00 AM</div>
+      </div>
+    </header>
+
+    <!-- WORKSPACE / DESKTOP GRID -->
+    <main id="desktop-grid" class="flex-1 relative overflow-y-auto p-4 grid grid-cols-4 sm:grid-cols-6 md:grid-flow-col md:grid-rows-6 gap-3 auto-cols-max pointer-events-auto">
+      <!-- Desktop Icons will be rendered here dynamically or statically -->
+      <div onclick="openWindow('terminal')" class="group flex flex-col items-center justify-center w-20 h-20 rounded-xl hover:bg-cyan-500/15 border border-transparent hover:border-cyan-500/30 cursor-pointer transition p-1">
+        <div class="w-10 h-10 rounded-lg bg-slate-900/80 border border-slate-700 flex items-center justify-center text-cyan-400 group-hover:scale-110 transition shadow-lg">
+          <i data-lucide="terminal" class="w-5 h-5"></i>
+        </div>
+        <span class="mt-1 text-[11px] font-medium text-slate-200 group-hover:text-cyan-300 text-center truncate w-full drop-shadow">Terminal</span>
+      </div>
+
+      <div onclick="openWindow('refractor')" class="group flex flex-col items-center justify-center w-20 h-20 rounded-xl hover:bg-cyan-500/15 border border-transparent hover:border-cyan-500/30 cursor-pointer transition p-1">
+        <div class="w-10 h-10 rounded-lg bg-slate-900/80 border border-slate-700 flex items-center justify-center text-purple-400 group-hover:scale-110 transition shadow-lg">
+          <i data-lucide="box" class="w-5 h-5"></i>
+        </div>
+        <span class="mt-1 text-[11px] font-medium text-slate-200 group-hover:text-purple-300 text-center truncate w-full drop-shadow">Crystal 3D</span>
+      </div>
+
+      <div onclick="openWindow('metrics')" class="group flex flex-col items-center justify-center w-20 h-20 rounded-xl hover:bg-cyan-500/15 border border-transparent hover:border-cyan-500/30 cursor-pointer transition p-1">
+        <div class="w-10 h-10 rounded-lg bg-slate-900/80 border border-slate-700 flex items-center justify-center text-emerald-400 group-hover:scale-110 transition shadow-lg">
+          <i data-lucide="activity" class="w-5 h-5"></i>
+        </div>
+        <span class="mt-1 text-[11px] font-medium text-slate-200 group-hover:text-emerald-300 text-center truncate w-full drop-shadow">Metrics</span>
+      </div>
+
+      <div onclick="openWindow('synth')" class="group flex flex-col items-center justify-center w-20 h-20 rounded-xl hover:bg-cyan-500/15 border border-transparent hover:border-cyan-500/30 cursor-pointer transition p-1">
+        <div class="w-10 h-10 rounded-lg bg-slate-900/80 border border-slate-700 flex items-center justify-center text-pink-400 group-hover:scale-110 transition shadow-lg">
+          <i data-lucide="music" class="w-5 h-5"></i>
+        </div>
+        <span class="mt-1 text-[11px] font-medium text-slate-200 group-hover:text-pink-300 text-center truncate w-full drop-shadow">AetherBeats</span>
+      </div>
+
+      <div onclick="openWindow('defender')" class="group flex flex-col items-center justify-center w-20 h-20 rounded-xl hover:bg-cyan-500/15 border border-transparent hover:border-cyan-500/30 cursor-pointer transition p-1">
+        <div class="w-10 h-10 rounded-lg bg-slate-900/80 border border-slate-700 flex items-center justify-center text-amber-400 group-hover:scale-110 transition shadow-lg">
+          <i data-lucide="gamepad-2" class="w-5 h-5"></i>
+        </div>
+        <span class="mt-1 text-[11px] font-medium text-slate-200 group-hover:text-amber-300 text-center truncate w-full drop-shadow">Shard Defender</span>
+      </div>
+
+      <div onclick="openWindow('explorer')" class="group flex flex-col items-center justify-center w-20 h-20 rounded-xl hover:bg-cyan-500/15 border border-transparent hover:border-cyan-500/30 cursor-pointer transition p-1">
+        <div class="w-10 h-10 rounded-lg bg-slate-900/80 border border-slate-700 flex items-center justify-center text-sky-400 group-hover:scale-110 transition shadow-lg">
+          <i data-lucide="folder-git-2" class="w-5 h-5"></i>
+        </div>
+        <span class="mt-1 text-[11px] font-medium text-slate-200 group-hover:text-sky-300 text-center truncate w-full drop-shadow">AetherDrive</span>
+      </div>
+
+      <div onclick="openWindow('notes')" class="group flex flex-col items-center justify-center w-20 h-20 rounded-xl hover:bg-cyan-500/15 border border-transparent hover:border-cyan-500/30 cursor-pointer transition p-1">
+        <div class="w-10 h-10 rounded-lg bg-slate-900/80 border border-slate-700 flex items-center justify-center text-indigo-400 group-hover:scale-110 transition shadow-lg">
+          <i data-lucide="file-text" class="w-5 h-5"></i>
+        </div>
+        <span class="mt-1 text-[11px] font-medium text-slate-200 group-hover:text-indigo-300 text-center truncate w-full drop-shadow">Notes</span>
+      </div>
+
+      <div onclick="openWindow('sources')" class="group flex flex-col items-center justify-center w-20 h-20 rounded-xl hover:bg-cyan-500/15 border border-transparent hover:border-cyan-500/30 cursor-pointer transition p-1">
+        <div class="w-10 h-10 rounded-lg bg-slate-900/80 border border-slate-700 flex items-center justify-center text-cyan-300 group-hover:scale-110 transition shadow-lg">
+          <i data-lucide="globe" class="w-5 h-5"></i>
+        </div>
+        <span class="mt-1 text-[11px] font-medium text-slate-200 group-hover:text-cyan-300 text-center truncate w-full drop-shadow">Sources Hub</span>
+      </div>
+
+      <div onclick="openWindow('settings')" class="group flex flex-col items-center justify-center w-20 h-20 rounded-xl hover:bg-cyan-500/15 border border-transparent hover:border-cyan-500/30 cursor-pointer transition p-1">
+        <div class="w-10 h-10 rounded-lg bg-slate-900/80 border border-slate-700 flex items-center justify-center text-slate-300 group-hover:scale-110 transition shadow-lg">
+          <i data-lucide="settings" class="w-5 h-5"></i>
+        </div>
+        <span class="mt-1 text-[11px] font-medium text-slate-200 group-hover:text-cyan-300 text-center truncate w-full drop-shadow">Settings</span>
+      </div>
+    </main>
+
+    <!-- WINDOW CONTAINERS AREA -->
+    <div id="window-layer" class="absolute inset-x-0 top-9 bottom-16 pointer-events-none z-20">
+      <!-- Dynamic Windows generated via JS -->
+    </div>
+
+    <!-- START MENU FLYOUT -->
+    <div id="start-menu" class="hidden absolute bottom-16 left-2 sm:left-4 w-[calc(100vw-1rem)] sm:w-80 glass-window rounded-2xl p-4 z-50 flex flex-col space-y-4 shadow-2xl border border-white/20 animate-in fade-in slide-in-from-bottom-4">
+      <div class="flex items-center space-x-3 pb-3 border-b border-white/10">
+        <div class="w-10 h-10 rounded-full bg-cyan-500/20 border border-cyan-400 flex items-center justify-center text-cyan-300 font-bold">
+          CQ
+        </div>
+        <div>
+          <h3 class="text-sm font-bold text-white">Quantum User</h3>
+          <p class="text-[11px] text-cyan-400">Security Clearance Level 5</p>
+        </div>
+      </div>
+
+      <!-- Quick Search -->
+      <div class="relative">
+        <i data-lucide="search" class="w-3.5 h-3.5 absolute left-3 top-2.5 text-slate-400"></i>
+        <input type="text" id="start-search" placeholder="Search systems or apps..." onkeyup="filterStartMenu(this.value)" class="w-full bg-slate-900/80 border border-slate-700/80 rounded-lg pl-8 pr-3 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-400">
+      </div>
+
+      <!-- App Grid -->
+      <div class="grid grid-cols-2 gap-2 max-h-64 overflow-y-auto pr-1" id="start-app-list">
+        <button onclick="openWindow('terminal'); toggleStartMenu();" class="flex items-center space-x-2.5 p-2 rounded-lg hover:bg-white/10 transition text-left">
+          <i data-lucide="terminal" class="w-4 h-4 text-cyan-400"></i>
+          <span class="text-xs text-slate-200">Terminal Shell</span>
+        </button>
+        <button onclick="openWindow('refractor'); toggleStartMenu();" class="flex items-center space-x-2.5 p-2 rounded-lg hover:bg-white/10 transition text-left">
+          <i data-lucide="box" class="w-4 h-4 text-purple-400"></i>
+          <span class="text-xs text-slate-200">Crystal 3D Lab</span>
+        </button>
+        <button onclick="openWindow('metrics'); toggleStartMenu();" class="flex items-center space-x-2.5 p-2 rounded-lg hover:bg-white/10 transition text-left">
+          <i data-lucide="activity" class="w-4 h-4 text-emerald-400"></i>
+          <span class="text-xs text-slate-200">System Metrics</span>
+        </button>
+        <button onclick="openWindow('synth'); toggleStartMenu();" class="flex items-center space-x-2.5 p-2 rounded-lg hover:bg-white/10 transition text-left">
+          <i data-lucide="music" class="w-4 h-4 text-pink-400"></i>
+          <span class="text-xs text-slate-200">AetherBeats Synth</span>
+        </button>
+        <button onclick="openWindow('defender'); toggleStartMenu();" class="flex items-center space-x-2.5 p-2 rounded-lg hover:bg-white/10 transition text-left">
+          <i data-lucide="gamepad-2" class="w-4 h-4 text-amber-400"></i>
+          <span class="text-xs text-slate-200">Shard Defender</span>
+        </button>
+        <button onclick="openWindow('explorer'); toggleStartMenu();" class="flex items-center space-x-2.5 p-2 rounded-lg hover:bg-white/10 transition text-left">
+          <i data-lucide="folder-git-2" class="w-4 h-4 text-sky-400"></i>
+          <span class="text-xs text-slate-200">AetherDrive</span>
+        </button>
+        <button onclick="openWindow('notes'); toggleStartMenu();" class="flex items-center space-x-2.5 p-2 rounded-lg hover:bg-white/10 transition text-left">
+          <i data-lucide="file-text" class="w-4 h-4 text-indigo-400"></i>
+          <span class="text-xs text-slate-200">AetherNotes</span>
+        </button>
+        <button onclick="openWindow('sources'); toggleStartMenu();" class="flex items-center space-x-2.5 p-2 rounded-lg hover:bg-white/10 transition text-left">
+          <i data-lucide="globe" class="w-4 h-4 text-cyan-300"></i>
+          <span class="text-xs text-slate-200">Sources & Feeds</span>
+        </button>
+        <button onclick="openWindow('settings'); toggleStartMenu();" class="flex items-center space-x-2.5 p-2 rounded-lg hover:bg-white/10 transition text-left">
+          <i data-lucide="settings" class="w-4 h-4 text-slate-300"></i>
+          <span class="text-xs text-slate-200">OS Settings</span>
+        </button>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="pt-2 border-t border-white/10 flex items-center justify-between text-xs text-slate-400">
+        <button onclick="rebootSystem()" class="hover:text-cyan-400 flex items-center space-x-1.5 transition">
+          <i data-lucide="rotate-cw" class="w-3.5 h-3.5"></i>
+          <span>Reboot</span>
+        </button>
+        <button onclick="playChime(600, 'sine')" class="hover:text-pink-400 flex items-center space-x-1.5 transition">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+          <span>Resonate</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- BOTTOM FLOATING DOCK -->
+    <footer class="h-16 w-full flex items-center justify-center p-2 z-40 select-none px-2">
+      <div class="glass-dock rounded-2xl px-3 py-1.5 flex items-center space-x-1.5 sm:space-x-3 border border-white/20 shadow-2xl max-w-full overflow-x-auto">
+        
+        <button onclick="openWindow('terminal')" class="dock-btn shrink-0 relative group p-2 rounded-xl hover:bg-white/15 transition transform active:scale-95">
+          <i data-lucide="terminal" class="w-6 h-6 text-cyan-400"></i>
+          <span class="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-slate-900 border border-slate-700 text-slate-200 text-[10px] px-2 py-0.5 rounded opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap hidden sm:block">
+            Terminal
+          </span>
+          <div id="dock-dot-terminal" class="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 rounded-full bg-cyan-400 hidden"></div>
+        </button>
+
+        <button onclick="openWindow('refractor')" class="dock-btn shrink-0 relative group p-2 rounded-xl hover:bg-white/15 transition transform active:scale-95">
+          <i data-lucide="box" class="w-6 h-6 text-purple-400"></i>
+          <span class="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-slate-900 border border-slate-700 text-slate-200 text-[10px] px-2 py-0.5 rounded opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap hidden sm:block">
+            3D Refractor
+          </span>
+          <div id="dock-dot-refractor" class="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 rounded-full bg-purple-400 hidden"></div>
+        </button>
+
+        <button onclick="openWindow('metrics')" class="dock-btn shrink-0 relative group p-2 rounded-xl hover:bg-white/15 transition transform active:scale-95">
+          <i data-lucide="activity" class="w-6 h-6 text-emerald-400"></i>
+          <span class="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-slate-900 border border-slate-700 text-slate-200 text-[10px] px-2 py-0.5 rounded opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap hidden sm:block">
+            Core Metrics
+          </span>
+          <div id="dock-dot-metrics" class="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 rounded-full bg-emerald-400 hidden"></div>
+        </button>
+
+        <button onclick="openWindow('synth')" class="dock-btn shrink-0 relative group p-2 rounded-xl hover:bg-white/15 transition transform active:scale-95">
+          <i data-lucide="music" class="w-6 h-6 text-pink-400"></i>
+          <span class="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-slate-900 border border-slate-700 text-slate-200 text-[10px] px-2 py-0.5 rounded opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap hidden sm:block">
+            AetherBeats Synth
+          </span>
+          <div id="dock-dot-synth" class="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 rounded-full bg-pink-400 hidden"></div>
+        </button>
+
+        <button onclick="openWindow('defender')" class="dock-btn shrink-0 relative group p-2 rounded-xl hover:bg-white/15 transition transform active:scale-95">
+          <i data-lucide="gamepad-2" class="w-6 h-6 text-amber-400"></i>
+          <span class="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-slate-900 border border-slate-700 text-slate-200 text-[10px] px-2 py-0.5 rounded opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap hidden sm:block">
+            Shard Defender
+          </span>
+          <div id="dock-dot-defender" class="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 rounded-full bg-amber-400 hidden"></div>
+        </button>
+
+        <button onclick="openWindow('explorer')" class="dock-btn shrink-0 relative group p-2 rounded-xl hover:bg-white/15 transition transform active:scale-95">
+          <i data-lucide="folder-git-2" class="w-6 h-6 text-sky-400"></i>
+          <span class="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-slate-900 border border-slate-700 text-slate-200 text-[10px] px-2 py-0.5 rounded opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap hidden sm:block">
+            AetherDrive
+          </span>
+          <div id="dock-dot-explorer" class="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 rounded-full bg-sky-400 hidden"></div>
+        </button>
+
+        <button onclick="openWindow('notes')" class="dock-btn shrink-0 relative group p-2 rounded-xl hover:bg-white/15 transition transform active:scale-95">
+          <i data-lucide="file-text" class="w-6 h-6 text-indigo-400"></i>
+          <span class="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-slate-900 border border-slate-700 text-slate-200 text-[10px] px-2 py-0.5 rounded opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap hidden sm:block">
+            Notes
+          </span>
+          <div id="dock-dot-notes" class="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 rounded-full bg-indigo-400 hidden"></div>
+        </button>
+
+        <button onclick="openWindow('sources')" class="dock-btn shrink-0 relative group p-2 rounded-xl hover:bg-white/15 transition transform active:scale-95">
+          <i data-lucide="globe" class="w-6 h-6 text-cyan-300"></i>
+          <span class="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-slate-900 border border-slate-700 text-slate-200 text-[10px] px-2 py-0.5 rounded opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap hidden sm:block">
+            Sources & Feeds
+          </span>
+          <div id="dock-dot-sources" class="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 rounded-full bg-cyan-300 hidden"></div>
+        </button>
+
+        <span class="w-px h-6 bg-white/20 my-auto shrink-0"></span>
+
+        <button onclick="openWindow('settings')" class="dock-btn shrink-0 relative group p-2 rounded-xl hover:bg-white/15 transition transform active:scale-95">
+          <i data-lucide="settings" class="w-6 h-6 text-slate-300"></i>
+          <span class="absolute -top-8 left-1/2 transform -translate-x-1/2 bg-slate-900 border border-slate-700 text-slate-200 text-[10px] px-2 py-0.5 rounded opacity-0 group-hover:opacity-100 transition pointer-events-none whitespace-nowrap hidden sm:block">
+            Settings
+          </span>
+          <div id="dock-dot-settings" class="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 rounded-full bg-slate-300 hidden"></div>
+        </button>
+
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    /* Web Audio Sound Engine */
+    let audioCtx = null;
+    let audioMuted = false;
+
+    function getAudioContext() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+      }
+      return audioCtx;
+    }
+
+    function playTone(freq, type = 'sine', duration = 0.1, gainVal = 0.05) {
+      if (audioMuted) return;
+      try {
+        const ctx = getAudioContext();
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = type;
+        osc.frequency.setValueAtTime(freq, ctx.currentTime);
+        gain.gain.setValueAtTime(gainVal, ctx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + duration);
+        osc.connect(gain);
+        gain.connect(ctx.destination);
+        osc.start();
+        osc.stop(ctx.currentTime + duration);
+      } catch(e) { console.warn('Audio play error', e); }
+    }
+
+    function playChime(startFreq = 440, type = 'sine') {
+      if (audioMuted) return;
+      playTone(startFreq, type, 0.12, 0.08);
+      setTimeout(() => playTone(startFreq * 1.25, type, 0.15, 0.08), 80);
+      setTimeout(() => playTone(startFreq * 1.5, type, 0.25, 0.08), 160);
+    }
+
+    function toggleAudioSynthMaster() {
+      audioMuted = !audioMuted;
+      const icon = document.getElementById('volume-icon');
+      if (audioMuted) {
+        icon.setAttribute('data-lucide', 'volume-x');
+        icon.classList.add('text-red-400');
+      } else {
+        icon.setAttribute('data-lucide', 'volume-2');
+        icon.classList.remove('text-red-400');
+        playChime(520, 'triangle');
+      }
+      lucide.createIcons();
+    }
+  </script>
+
+  <script>
+    /* 3D Crystal & Dynamic Shader Canvas Background */
+    let bgScene, bgCamera, bgRenderer, bgParticles, bgMesh;
+    let currentThemeMode = 'crystal'; // 'crystal', 'nebula', 'grid'
+
+    function initBgCanvas() {
+      const canvas = document.getElementById('bg-canvas');
+      bgRenderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true, alpha: true });
+      bgRenderer.setSize(window.innerWidth, window.innerHeight);
+      bgRenderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+      bgScene = new THREE.Scene();
+      bgCamera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
+      bgCamera.position.z = 30;
+
+      // Create Dynamic Dynamic Particles Field
+      const particleCount = 700;
+      const geometry = new THREE.BufferGeometry();
+      const positions = new Float32Array(particleCount * 3);
+      const colors = new Float32Array(particleCount * 3);
+
+      const colorOptions = [
+        new THREE.Color('#38bdf8'),
+        new THREE.Color('#a855f7'),
+        new THREE.Color('#14b8a6'),
+        new THREE.Color('#818cf8')
+      ];
+
+      for (let i = 0; i < particleCount * 3; i += 3) {
+        positions[i] = (Math.random() - 0.5) * 80;
+        positions[i + 1] = (Math.random() - 0.5) * 80;
+        positions[i + 2] = (Math.random() - 0.5) * 80;
+
+        const c = colorOptions[Math.floor(Math.random() * colorOptions.length)];
+        colors[i] = c.r;
+        colors[i + 1] = c.g;
+        colors[i + 2] = c.b;
+      }
+
+      geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+      geometry.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+
+      const particleMaterial = new THREE.PointsMaterial({
+        size: 0.45,
+        vertexColors: true,
+        transparent: true,
+        opacity: 0.75,
+        blending: THREE.AdditiveBlending
+      });
+
+      bgParticles = new THREE.Points(geometry, particleMaterial);
+      bgScene.add(bgParticles);
+
+      // Create Central Low-Poly Floating Icosahedron
+      const icoGeom = new THREE.IcosahedronGeometry(8, 1);
+      const icoMat = new THREE.MeshBasicMaterial({
+        color: 0x38bdf8,
+        wireframe: true,
+        transparent: true,
+        opacity: 0.18
+      });
+      bgMesh = new THREE.Mesh(icoGeom, icoMat);
+      bgScene.add(bgMesh);
+
+      window.addEventListener('resize', onWindowResize);
+      animateBg();
+    }
+
+    function animateBg() {
+      requestAnimationFrame(animateBg);
+
+      if (bgParticles) {
+        bgParticles.rotation.y += 0.0008;
+        bgParticles.rotation.x += 0.0004;
+      }
+      if (bgMesh) {
+        bgMesh.rotation.y += 0.002;
+        bgMesh.rotation.z += 0.001;
+      }
+
+      bgRenderer.render(bgScene, bgCamera);
+    }
+
+    function onWindowResize() {
+      if (!bgCamera || !bgRenderer) return;
+      bgCamera.aspect = window.innerWidth / window.innerHeight;
+      bgCamera.updateProjectionMatrix();
+      bgRenderer.setSize(window.innerWidth, window.innerHeight);
+    }
+  </script>
+
+  <script>
+    /* System Boot Sequence Logic */
+    const bootLogs = [
+      "[0.0102] Loading CrystalCore Microkernel...",
+      "[0.0450] Mounting Photonic FS (/dev/aether0)...",
+      "[0.1200] Calibrating Tone.js Synthesizer Array...",
+      "[0.2410] Synchronizing Quantum Neural Nodes...",
+      "[0.3890] Rendering Crystal Glassmorphism UI...",
+      "[0.5120] Establishing Encrypted Aether Mesh...",
+      "[0.7800] Launching System Security Daemon...",
+      "[0.9999] CrystalCore Ready. Initializing Workspace..."
+    ];
+
+    let bootIndex = 0;
+    let bootInterval = null;
+
+    function startBootSequence() {
+      const logContainer = document.getElementById('boot-log');
+      const progressBar = document.getElementById('boot-progress');
+      const percentText = document.getElementById('boot-percent');
+      const statusText = document.getElementById('boot-status');
+
+      bootInterval = setInterval(() => {
+        if (bootIndex < bootLogs.length) {
+          const div = document.createElement('div');
+          div.textContent = bootLogs[bootIndex];
+          logContainer.appendChild(div);
+          logContainer.scrollTop = logContainer.scrollHeight;
+
+          const pct = Math.round(((bootIndex + 1) / bootLogs.length) * 100);
+          progressBar.style.width = pct + '%';
+          percentText.textContent = pct + '%';
+          statusText.textContent = bootLogs[bootIndex].replace(/\[.*?\]\s*/, '');
+
+          playTone(300 + (bootIndex * 80), 'sine', 0.05, 0.03);
+          bootIndex++;
+        } else {
+          clearInterval(bootInterval);
+          setTimeout(finishBoot, 400);
+        }
+      }, 300);
+    }
+
+    function finishBoot() {
+      if (bootInterval) clearInterval(bootInterval);
+      const bootScreen = document.getElementById('boot-screen');
+      const desktopEnv = document.getElementById('desktop-env');
+
+      bootScreen.style.opacity = '0';
+      playChime(440, 'sine');
+
+      setTimeout(() => {
+        bootScreen.classList.add('hidden');
+        desktopEnv.classList.remove('hidden');
+        lucide.createIcons();
+        startClock();
+        initSystemMonitoring();
+      }, 700);
+    }
+
+    function rebootSystem() {
+      const bootScreen = document.getElementById('boot-screen');
+      const desktopEnv = document.getElementById('desktop-env');
+      bootScreen.classList.remove('hidden');
+      bootScreen.style.opacity = '1';
+      desktopEnv.classList.add('hidden');
+      document.getElementById('boot-log').innerHTML = '';
+      bootIndex = 0;
+      startBootSequence();
+    }
+
+    // Key shortcut to skip boot
+    window.addEventListener('keydown', (e) => {
+      if (e.code === 'Space' && !document.getElementById('boot-screen').classList.contains('hidden')) {
+        finishBoot();
+      }
+    });
+  </script>
+
+  <script>
+    /* Window Manager State & Behaviors */
+    let zIndexCounter = 100;
+    const openWindowsMap = new Map();
+
+    const WINDOW_SPECS = {
+      terminal: { title: 'Terminal Shell', icon: 'terminal', width: 620, height: 420, color: 'text-cyan-400' },
+      refractor: { title: 'Crystal 3D Lab', icon: 'box', width: 680, height: 480, color: 'text-purple-400' },
+      metrics: { title: 'Core Metrics', icon: 'activity', width: 580, height: 420, color: 'text-emerald-400' },
+      synth: { title: 'AetherBeats Synth', icon: 'music', width: 650, height: 440, color: 'text-pink-400' },
+      defender: { title: 'Shard Defender', icon: 'gamepad-2', width: 660, height: 500, color: 'text-amber-400' },
+      explorer: { title: 'AetherDrive', icon: 'folder-git-2', width: 640, height: 420, color: 'text-sky-400' },
+      notes: { title: 'AetherNotes', icon: 'file-text', width: 520, height: 400, color: 'text-indigo-400' },
+      sources: { title: 'Sources & Live Feeds', icon: 'globe', width: 680, height: 480, color: 'text-cyan-300' },
+      settings: { title: 'System Settings', icon: 'settings', width: 500, height: 420, color: 'text-slate-300' }
+    };
+
+    function openWindow(appId) {
+      getAudioContext(); // Enable Audio context on user action
+      playTone(600, 'sine', 0.08, 0.04);
+
+      if (openWindowsMap.has(appId)) {
+        focusWindow(appId);
+        const winEl = document.getElementById(`window-${appId}`);
+        if (winEl && winEl.style.display === 'none') {
+          winEl.style.display = 'flex';
+        }
+        return;
+      }
+
+      const spec = WINDOW_SPECS[appId];
+      if (!spec) return;
+
+      const windowLayer = document.getElementById('window-layer');
+      const winEl = document.createElement('div');
+      winEl.id = `window-${appId}`;
+      winEl.className = 'glass-window rounded-xl absolute flex flex-col pointer-events-auto overflow-hidden transition-all duration-150 border border-white/20 shadow-2xl';
+      
+      const isMobile = window.innerWidth < 640;
+      let targetWidth = isMobile ? window.innerWidth - 12 : spec.width;
+      let targetHeight = isMobile ? window.innerHeight - 110 : spec.height;
+      let leftPos = isMobile ? 6 : Math.max(20, Math.min(window.innerWidth - spec.width - 40, 80 + (openWindowsMap.size * 30)));
+      let topPos = isMobile ? 44 : Math.max(20, Math.min(window.innerHeight - spec.height - 80, 40 + (openWindowsMap.size * 25)));
+
+      winEl.style.width = `${targetWidth}px`;
+      winEl.style.height = `${targetHeight}px`;
+      winEl.style.left = `${leftPos}px`;
+      winEl.style.top = `${topPos}px`;
+      winEl.style.zIndex = ++zIndexCounter;
+
+      winEl.onclick = () => focusWindow(appId);
+
+      // Window Header Bar with larger touch hit areas for mobile
+      winEl.innerHTML = `
+        <div class="window-header h-10 sm:h-9 bg-slate-900/80 border-b border-white/10 px-3 flex items-center justify-between cursor-move select-none touch-none">
+          <div class="flex items-center space-x-2 truncate">
+            <i data-lucide="${spec.icon}" class="w-4 h-4 ${spec.color}"></i>
+            <span class="text-xs font-semibold text-slate-200 truncate">${spec.title}</span>
+          </div>
+          <div class="flex items-center space-x-2 sm:space-x-1.5">
+            <button onclick="minimizeWindow('${appId}', event)" class="w-6 h-6 sm:w-3 sm:h-3 rounded-full bg-amber-500/80 hover:bg-amber-400 flex items-center justify-center text-xs sm:text-[8px] text-slate-900 font-bold focus:outline-none active:scale-90">
+              -
+            </button>
+            <button onclick="maximizeWindow('${appId}', event)" class="w-6 h-6 sm:w-3 sm:h-3 rounded-full bg-emerald-500/80 hover:bg-emerald-400 flex items-center justify-center text-xs sm:text-[8px] text-slate-900 font-bold focus:outline-none active:scale-90">
+              +
+            </button>
+            <button onclick="closeWindow('${appId}', event)" class="w-6 h-6 sm:w-3 sm:h-3 rounded-full bg-rose-500/80 hover:bg-rose-400 flex items-center justify-center text-xs sm:text-[8px] text-slate-900 font-bold focus:outline-none active:scale-90">
+              ×
+            </button>
+          </div>
+        </div>
+        <div id="window-body-${appId}" class="flex-1 overflow-hidden relative p-3 bg-slate-950/40">
+          <!-- Dynamic Content Loaded Below -->
+        </div>
+      `;
+
+      windowLayer.appendChild(winEl);
+      openWindowsMap.set(appId, { isMaximized: isMobile });
+
+      makeDraggable(winEl);
+      lucide.createIcons();
+      focusWindow(appId);
+
+      // Update Dock Indicator
+      const dockDot = document.getElementById(`dock-dot-${appId}`);
+      if (dockDot) dockDot.classList.remove('hidden');
+
+      // Mount App Content
+      mountAppContent(appId);
+    }
+
+    function focusWindow(appId) {
+      document.querySelectorAll('.glass-window').forEach(w => w.classList.remove('window-active'));
+      const winEl = document.getElementById(`window-${appId}`);
+      if (winEl) {
+        winEl.style.zIndex = ++zIndexCounter;
+        winEl.classList.add('window-active');
+        document.getElementById('active-app-name').textContent = WINDOW_SPECS[appId].title;
+      }
+    }
+
+    function closeWindow(appId, e) {
+      if (e) e.stopPropagation();
+      playTone(350, 'sine', 0.06, 0.03);
+      const winEl = document.getElementById(`window-${appId}`);
+      if (winEl) {
+        winEl.remove();
+        openWindowsMap.delete(appId);
+      }
+      const dockDot = document.getElementById(`dock-dot-${appId}`);
+      if (dockDot) dockDot.classList.add('hidden');
+      document.getElementById('active-app-name').textContent = 'Desktop';
+    }
+
+    function minimizeWindow(appId, e) {
+      if (e) e.stopPropagation();
+      playTone(400, 'sine', 0.05, 0.03);
+      const winEl = document.getElementById(`window-${appId}`);
+      if (winEl) {
+        winEl.style.display = 'none';
+      }
+    }
+
+    function maximizeWindow(appId, e) {
+      if (e) e.stopPropagation();
+      const winEl = document.getElementById(`window-${appId}`);
+      const data = openWindowsMap.get(appId);
+      if (!winEl || !data) return;
+
+      if (!data.isMaximized) {
+        data.prevBounds = {
+          width: winEl.style.width,
+          height: winEl.style.height,
+          left: winEl.style.left,
+          top: winEl.style.top
+        };
+        winEl.style.left = '8px';
+        winEl.style.top = '44px';
+        winEl.style.width = 'calc(100vw - 16px)';
+        winEl.style.height = 'calc(100vh - 120px)';
+        data.isMaximized = true;
+      } else {
+        winEl.style.width = data.prevBounds.width;
+        winEl.style.height = data.prevBounds.height;
+        winEl.style.left = data.prevBounds.left;
+        winEl.style.top = data.prevBounds.top;
+        data.isMaximized = false;
+      }
+    }
+
+    function makeDraggable(winEl) {
+      const header = winEl.querySelector('.window-header');
+      let isDragging = false;
+      let startX, startY, initialLeft, initialTop;
+
+      const startDrag = (clientX, clientY) => {
+        isDragging = true;
+        startX = clientX;
+        startY = clientY;
+        initialLeft = winEl.offsetLeft;
+        initialTop = winEl.offsetTop;
+      };
+
+      const doDrag = (clientX, clientY) => {
+        if (!isDragging) return;
+        const dx = clientX - startX;
+        const dy = clientY - startY;
+        winEl.style.left = `${initialLeft + dx}px`;
+        winEl.style.top = `${initialTop + dy}px`;
+      };
+
+      const endDrag = () => {
+        isDragging = false;
+      };
+
+      header.addEventListener('mousedown', (e) => {
+        if (e.target.tagName === 'BUTTON') return;
+        startDrag(e.clientX, e.clientY);
+        
+        const onMouseMove = (e) => doDrag(e.clientX, e.clientY);
+        const onMouseUp = () => {
+          endDrag();
+          document.removeEventListener('mousemove', onMouseMove);
+          document.removeEventListener('mouseup', onMouseUp);
+        };
+        document.addEventListener('mousemove', onMouseMove);
+        document.addEventListener('mouseup', onMouseUp);
+      });
+
+      // Touch Dragging Support
+      header.addEventListener('touchstart', (e) => {
+        if (e.target.tagName === 'BUTTON' || e.touches.length === 0) return;
+        startDrag(e.touches[0].clientX, e.touches[0].clientY);
+
+        const onTouchMove = (e) => {
+          if (e.touches.length > 0) {
+            doDrag(e.touches[0].clientX, e.touches[0].clientY);
+          }
+        };
+        const onTouchEnd = () => {
+          endDrag();
+          document.removeEventListener('touchmove', onTouchMove);
+          document.removeEventListener('touchend', onTouchEnd);
+        };
+        document.addEventListener('touchmove', onTouchMove, { passive: true });
+        document.addEventListener('touchend', onTouchEnd);
+      }, { passive: true });
+    }
+
+    function toggleStartMenu() {
+      const menu = document.getElementById('start-menu');
+      menu.classList.toggle('hidden');
+      if (!menu.classList.contains('hidden')) {
+        playTone(550, 'triangle', 0.08, 0.04);
+      }
+    }
+
+    function filterStartMenu(query) {
+      const q = query.toLowerCase();
+      const buttons = document.querySelectorAll('#start-app-list button');
+      buttons.forEach(btn => {
+        const text = btn.textContent.toLowerCase();
+        btn.style.display = text.includes(q) ? 'flex' : 'none';
+      });
+    }
+  </script>
+
+  <script>
+    /* Mount App Modules */
+    function mountAppContent(appId) {
+      const container = document.getElementById(`window-body-${appId}`);
+      if (!container) return;
+
+      switch(appId) {
+        case 'terminal':
+          renderTerminalApp(container);
+          break;
+        case 'refractor':
+          renderRefractorApp(container);
+          break;
+        case 'metrics':
+          renderMetricsApp(container);
+          break;
+        case 'synth':
+          renderSynthApp(container);
+          break;
+        case 'defender':
+          renderDefenderGameApp(container);
+          break;
+        case 'explorer':
+          renderExplorerApp(container);
+          break;
+        case 'notes':
+          renderNotesApp(container);
+          break;
+        case 'sources':
+          renderSourcesApp(container);
+          break;
+        case 'settings':
+          renderSettingsApp(container);
+          break;
+      }
+    }
+
+    /* ----------------------------------------------------
+       1. TERMINAL SHELL APP
+    ---------------------------------------------------- */
+    function renderTerminalApp(container) {
+      container.innerHTML = `
+        <div class="h-full flex flex-col font-mono text-xs bg-slate-950/90 text-cyan-300 p-3 rounded-lg border border-slate-800">
+          <div id="term-output" class="flex-1 overflow-y-auto space-y-1 pr-1 font-mono">
+            <div class="text-slate-400">CrystalCore Shell [v4.0.8-quant]</div>
+            <div class="text-slate-500">Type <span class="text-cyan-400 font-bold">help</span> to list available quantum commands.</div>
+          </div>
+          <div class="mt-2 flex items-center space-x-2 border-t border-slate-800 pt-2">
+            <span class="text-emerald-400 font-bold">core@crystal:~$</span>
+            <input type="text" id="term-input" autofocus class="flex-1 bg-transparent text-slate-100 focus:outline-none font-mono" placeholder="command...">
+          </div>
+        </div>
+      `;
+
+      const input = container.querySelector('#term-input');
+      const output = container.querySelector('#term-output');
+
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          const cmd = input.value.trim();
+          if (!cmd) return;
+          
+          // Print Prompt
+          const pDiv = document.createElement('div');
+          pDiv.className = 'text-emerald-400 mt-1';
+          pDiv.textContent = `core@crystal:~$ ${cmd}`;
+          output.appendChild(pDiv);
+
+          // Process Cmd
+          processTermCmd(cmd, output);
+          input.value = '';
+          output.scrollTop = output.scrollHeight;
+        }
+      });
+    }
+
+    function processTermCmd(cmd, output) {
+      const args = cmd.split(' ');
+      const main = args[0].toLowerCase();
+      const res = document.createElement('div');
+      res.className = 'text-slate-300 ml-2';
+
+      switch(main) {
+        case 'help':
+          res.innerHTML = `
+            <div class="text-cyan-400">Available System Commands:</div>
+            <div>- <span class="text-amber-300">neofetch</span>: System info overview</div>
+            <div>- <span class="text-amber-300">ls</span>: List photonic directories</div>
+            <div>- <span class="text-amber-300">clear</span>: Clear terminal buffer</div>
+            <div>- <span class="text-amber-300">ping</span>: Test quantum link latency</div>
+            <div>- <span class="text-amber-300">matrix</span>: Initiate digital rain pulse</div>
+            <div>- <span class="text-amber-300">theme [color]</span>: Switch primary accent color</div>
+            <div>- <span class="text-amber-300">reboot</span>: Cold reboot CrystalCore</div>
+          `;
+          break;
+        case 'neofetch':
+          res.innerHTML = `
+            <pre class="text-cyan-400 font-mono text-[10px] leading-tight">
+  /\______/\   OS: CrystalCore OS v4.0 Quantum
+ /  /\  /\  \  Kernel: 6.12.0-photonic-x86_64
+|  /  \/  \  | Uptime: 42 mins
+ \/___/\___\/  CPU: Photonic Octa-Core @ 5.2 GHz
+  \        /   GPU: Prism RTX-Quantum 128GB
+   \______/    RAM: 16.0 GB Photonic Super-RAM
+            </pre>
+          `;
+          break;
+        case 'ls':
+          res.innerHTML = `<span class="text-sky-400">/System</span>  <span class="text-sky-400">/Documents</span>  <span class="text-purple-400">/Crystals</span>  <span class="text-pink-400">/Audio</span>  <span class="text-emerald-400">kernel.bin</span>`;
+          break;
+        case 'clear':
+          output.innerHTML = '';
+          return;
+        case 'ping':
+          res.textContent = `Pinging quantum node [0x88F]... 0.002ms latency. Spectrum clean.`;
+          break;
+        case 'matrix':
+          res.className = 'text-emerald-400 font-bold animate-pulse';
+          res.textContent = `01000011 01010010 01011001 01010011 01010100 01000001 01001100`;
+          break;
+        case 'theme':
+          if (args[1]) {
+            res.textContent = `Accent color shift applied to: ${args[1]}`;
+          } else {
+            res.textContent = `Usage: theme [cyan|violet|emerald|amber]`;
+          }
+          break;
+        case 'reboot':
+          rebootSystem();
+          return;
+        default:
+          res.className = 'text-rose-400';
+          res.textContent = `Command not recognized: '${main}'. Type 'help' for available commands.`;
+      }
+      output.appendChild(res);
+    }
+
+    /* ----------------------------------------------------
+       2. CRYSTAL 3D REFRACTOR APP
+    ---------------------------------------------------- */
+    function renderRefractorApp(container) {
+      container.innerHTML = `
+        <div class="h-full flex flex-col space-y-2">
+          <div class="flex-1 relative bg-slate-900 rounded-lg overflow-hidden border border-slate-800">
+            <canvas id="refractor-canvas" class="w-full h-full"></canvas>
+            <div class="absolute top-2 left-2 bg-slate-950/70 p-2 rounded text-[10px] font-mono text-purple-300 backdrop-blur">
+              Interactive 3D Prism Shard
+            </div>
+          </div>
+          <div class="h-12 bg-slate-900/80 rounded-lg border border-slate-800 px-3 flex items-center justify-between text-xs">
+            <div class="flex items-center space-x-3">
+              <label class="text-slate-400 font-mono text-[11px]">Shape:</label>
+              <select id="crystal-shape-sel" class="bg-slate-950 text-purple-300 border border-slate-700 rounded px-2 py-1 text-xs focus:outline-none">
+                <option value="octahedron">Octahedron</option>
+                <option value="dodecahedron">Dodecahedron</option>
+                <option value="torus">Torus Crystal</option>
+                <option value="icosahedron">Icosahedron</option>
+              </select>
+            </div>
+
+            <div class="flex items-center space-x-2">
+              <label class="text-slate-400 font-mono text-[11px]">Color:</label>
+              <input type="color" id="crystal-color-picker" value="#38bdf8" class="bg-transparent border-0 w-6 h-6 cursor-pointer">
+            </div>
+
+            <div class="flex items-center space-x-2">
+              <label class="text-slate-400 font-mono text-[11px]">Wireframe:</label>
+              <input type="checkbox" id="crystal-wireframe" class="rounded bg-slate-950 border-slate-700 text-purple-500 focus:ring-0">
+            </div>
+          </div>
+        </div>
+      `;
+
+      // Initialize Three.js viewport in canvas
+      setTimeout(() => {
+        const canvas = container.querySelector('#refractor-canvas');
+        if (!canvas) return;
+
+        const rRenderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true });
+        rRenderer.setSize(canvas.clientWidth, canvas.clientHeight);
+        rRenderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+        const rScene = new THREE.Scene();
+        const rCamera = new THREE.PerspectiveCamera(45, canvas.clientWidth / canvas.clientHeight, 0.1, 100);
+        rCamera.position.z = 5;
+
+        // Lights
+        const light1 = new THREE.DirectionalLight(0xffffff, 1);
+        light1.position.set(5, 5, 5);
+        rScene.add(light1);
+
+        const light2 = new THREE.PointLight(0xa855f7, 2, 10);
+        light2.position.set(-3, -3, 2);
+        rScene.add(light2);
+
+        let shapeGeom = new THREE.OctahedronGeometry(1.6, 0);
+        let shapeMat = new THREE.MeshPhongMaterial({
+          color: 0x38bdf8,
+          shininess: 90,
+          flatShading: true,
+          transparent: true,
+          opacity: 0.85
+        });
+
+        let mesh = new THREE.Mesh(shapeGeom, shapeMat);
+        rScene.add(mesh);
+
+        // Control events
+        const shapeSel = container.querySelector('#crystal-shape-sel');
+        const colorPicker = container.querySelector('#crystal-color-picker');
+        const wireframeChk = container.querySelector('#crystal-wireframe');
+
+        shapeSel.onchange = (e) => {
+          rScene.remove(mesh);
+          switch(e.target.value) {
+            case 'octahedron': shapeGeom = new THREE.OctahedronGeometry(1.6, 0); break;
+            case 'dodecahedron': shapeGeom = new THREE.DodecahedronGeometry(1.4, 0); break;
+            case 'torus': shapeGeom = new THREE.TorusGeometry(1.2, 0.4, 16, 32); break;
+            case 'icosahedron': shapeGeom = new THREE.IcosahedronGeometry(1.5, 0); break;
+          }
+          mesh = new THREE.Mesh(shapeGeom, shapeMat);
+          rScene.add(mesh);
+        };
+
+        colorPicker.oninput = (e) => {
+          shapeMat.color.set(e.target.value);
+        };
+
+        wireframeChk.onchange = (e) => {
+          shapeMat.wireframe = e.target.checked;
+        };
+
+        let isMouseDown = false;
+        let prevMouseX = 0, prevMouseY = 0;
+
+        const handleStart = (x, y) => { isMouseDown = true; prevMouseX = x; prevMouseY = y; };
+        const handleMove = (x, y) => {
+          if (isMouseDown) {
+            const dx = x - prevMouseX;
+            const dy = y - prevMouseY;
+            mesh.rotation.y += dx * 0.01;
+            mesh.rotation.x += dy * 0.01;
+            prevMouseX = x;
+            prevMouseY = y;
+          }
+        };
+
+        canvas.onmousedown = (e) => handleStart(e.clientX, e.clientY);
+        window.addEventListener('mouseup', () => isMouseDown = false);
+        canvas.onmousemove = (e) => handleMove(e.clientX, e.clientY);
+
+        canvas.ontouchstart = (e) => {
+          if (e.touches.length > 0) handleStart(e.touches[0].clientX, e.touches[0].clientY);
+        };
+        window.addEventListener('touchend', () => isMouseDown = false);
+        canvas.ontouchmove = (e) => {
+          if (e.touches.length > 0) handleMove(e.touches[0].clientX, e.touches[0].clientY);
+        };
+
+        function rAnimate() {
+          if (!document.getElementById('refractor-canvas')) return;
+          requestAnimationFrame(rAnimate);
+          if (!isMouseDown) {
+            mesh.rotation.y += 0.005;
+            mesh.rotation.x += 0.002;
+          }
+          rRenderer.render(rScene, rCamera);
+        }
+        rAnimate();
+      }, 50);
+    }
+
+    /* ----------------------------------------------------
+       3. CORE METRICS / SYSTEM MONITOR APP
+    ---------------------------------------------------- */
+    let metricsInterval = null;
+
+    function renderMetricsApp(container) {
+      container.innerHTML = `
+        <div class="h-full flex flex-col space-y-3 font-mono text-xs">
+          <!-- Graphs -->
+          <div class="grid grid-cols-2 gap-3 flex-1">
+            <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-lg flex flex-col">
+              <div class="flex justify-between items-center text-emerald-400 mb-2">
+                <span class="font-bold">CPU Core Load</span>
+                <span id="m-cpu-text">14%</span>
+              </div>
+              <div class="flex-1 relative overflow-hidden bg-slate-950 rounded border border-slate-800/80">
+                <canvas id="cpu-graph-canvas" class="w-full h-full"></canvas>
+              </div>
+            </div>
+
+            <div class="bg-slate-900/90 border border-slate-800 p-3 rounded-lg flex flex-col">
+              <div class="flex justify-between items-center text-purple-400 mb-2">
+                <span class="font-bold">Quantum RAM Memory</span>
+                <span id="m-ram-text">4.2 GB</span>
+              </div>
+              <div class="flex-1 relative overflow-hidden bg-slate-950 rounded border border-slate-800/80">
+                <canvas id="ram-graph-canvas" class="w-full h-full"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- Process List Table -->
+          <div class="h-32 bg-slate-900/90 border border-slate-800 rounded-lg p-2 overflow-y-auto">
+            <div class="text-[10px] text-slate-400 font-bold border-b border-slate-800 pb-1 mb-1 flex justify-between">
+              <span>PROCESS NAME</span>
+              <span>PID</span>
+              <span>CPU</span>
+              <span>MEM</span>
+            </div>
+            <div class="space-y-1 text-[11px] text-slate-300">
+              <div class="flex justify-between"><span>system_kernel.bin</span><span class="text-slate-500">001</span><span class="text-emerald-400">1.2%</span><span>120 MB</span></div>
+              <div class="flex justify-between"><span>crystal_wm.service</span><span class="text-slate-500">104</span><span class="text-emerald-400">4.5%</span><span>410 MB</span></div>
+              <div class="flex justify-between"><span>aether_synth_engine</span><span class="text-slate-500">220</span><span class="text-emerald-400">2.1%</span><span>210 MB</span></div>
+              <div class="flex justify-between"><span>photonic_fs_daemon</span><span class="text-slate-500">089</span><span class="text-emerald-400">0.8%</span><span>85 MB</span></div>
+            </div>
+          </div>
+        </div>
+      `;
+
+      initSystemMonitoring();
+    }
+
+    const cpuHistory = new Array(30).fill(15);
+    const ramHistory = new Array(30).fill(25);
+
+    function initSystemMonitoring() {
+      if (metricsInterval) clearInterval(metricsInterval);
+
+      metricsInterval = setInterval(() => {
+        const cpuVal = Math.floor(Math.random() * 25) + 10;
+        const ramVal = Math.floor(Math.random() * 15) + 20;
+
+        cpuHistory.push(cpuVal);
+        cpuHistory.shift();
+        ramHistory.push(ramVal);
+        ramHistory.shift();
+
+        // Top bar update
+        const topCpu = document.getElementById('top-bar-cpu');
+        if (topCpu) topCpu.textContent = `${cpuVal}%`;
+
+        // Inner app text update
+        const mCpu = document.getElementById('m-cpu-text');
+        if (mCpu) mCpu.textContent = `${cpuVal}%`;
+
+        // Render Canvas Graphs
+        drawGraph('cpu-graph-canvas', cpuHistory, '#10b981');
+        drawGraph('ram-graph-canvas', ramHistory, '#a855f7');
+      }, 1000);
+    }
+
+    function drawGraph(canvasId, data, color) {
+      const canvas = document.getElementById(canvasId);
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      const w = canvas.width = canvas.clientWidth;
+      const h = canvas.height = canvas.clientHeight;
+
+      ctx.clearRect(0, 0, w, h);
+      ctx.beginPath();
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 2;
+
+      const step = w / (data.length - 1);
+      for (let i = 0; i < data.length; i++) {
+        const x = i * step;
+        const y = h - (data[i] / 100) * h;
+        if (i === 0) ctx.moveTo(x, y);
+        else ctx.lineTo(x, y);
+      }
+      ctx.stroke();
+
+      // Gradient Fill
+      ctx.lineTo(w, h);
+      ctx.lineTo(0, h);
+      ctx.closePath();
+      ctx.fillStyle = color + '22';
+      ctx.fill();
+    }
+
+    /* ----------------------------------------------------
+       4. AETHERBEATS AUDIO SYNTH APP
+    ---------------------------------------------------- */
+    function renderSynthApp(container) {
+      container.innerHTML = `
+        <div class="h-full flex flex-col justify-between p-2 space-y-3">
+          <!-- Oscilloscope Visualizer -->
+          <div class="h-28 bg-slate-950 rounded-lg border border-slate-800 relative overflow-hidden flex items-center justify-center">
+            <canvas id="synth-scope" class="w-full h-full"></canvas>
+            <span class="absolute top-2 left-2 text-[10px] font-mono text-pink-400">Aether Oscilloscope</span>
+          </div>
+
+          <!-- Controls -->
+          <div class="flex items-center justify-between px-2">
+            <button onclick="playSynthDemo()" class="px-3 py-1.5 rounded-lg bg-pink-500/20 hover:bg-pink-500/30 border border-pink-500/40 text-xs font-mono text-pink-300 flex items-center space-x-1.5 transition">
+              <i data-lucide="play" class="w-3.5 h-3.5"></i>
+              <span>Play Demo Arp</span>
+            </button>
+            <div class="flex items-center space-x-2 text-xs font-mono text-slate-400">
+              <span>Waveform:</span>
+              <button onclick="setSynthWave('sine')" class="px-2 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-cyan-300">Sine</button>
+              <button onclick="setSynthWave('sawtooth')" class="px-2 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-pink-300">Saw</button>
+              <button onclick="setSynthWave('square')" class="px-2 py-0.5 rounded bg-slate-800 hover:bg-slate-700 text-amber-300">Square</button>
+            </div>
+          </div>
+
+          <!-- Interactive Piano Keys with touchstart support -->
+          <div class="h-32 bg-slate-900 border border-slate-800 rounded-lg p-2 flex space-x-1 justify-center relative touch-none">
+            <button ontouchstart="event.preventDefault(); triggerKey(261.63);" onclick="triggerKey(261.63)" class="flex-1 bg-slate-200 hover:bg-cyan-200 rounded-b-md text-slate-900 font-bold text-xs flex flex-col justify-end p-2 active:bg-cyan-400">C4</button>
+            <button ontouchstart="event.preventDefault(); triggerKey(293.66);" onclick="triggerKey(293.66)" class="flex-1 bg-slate-200 hover:bg-cyan-200 rounded-b-md text-slate-900 font-bold text-xs flex flex-col justify-end p-2 active:bg-cyan-400">D4</button>
+            <button ontouchstart="event.preventDefault(); triggerKey(329.63);" onclick="triggerKey(329.63)" class="flex-1 bg-slate-200 hover:bg-cyan-200 rounded-b-md text-slate-900 font-bold text-xs flex flex-col justify-end p-2 active:bg-cyan-400">E4</button>
+            <button ontouchstart="event.preventDefault(); triggerKey(349.23);" onclick="triggerKey(349.23)" class="flex-1 bg-slate-200 hover:bg-cyan-200 rounded-b-md text-slate-900 font-bold text-xs flex flex-col justify-end p-2 active:bg-cyan-400">F4</button>
+            <button ontouchstart="event.preventDefault(); triggerKey(392.00);" onclick="triggerKey(392.00)" class="flex-1 bg-slate-200 hover:bg-cyan-200 rounded-b-md text-slate-900 font-bold text-xs flex flex-col justify-end p-2 active:bg-cyan-400">G4</button>
+            <button ontouchstart="event.preventDefault(); triggerKey(440.00);" onclick="triggerKey(440.00)" class="flex-1 bg-slate-200 hover:bg-cyan-200 rounded-b-md text-slate-900 font-bold text-xs flex flex-col justify-end p-2 active:bg-cyan-400">A4</button>
+            <button ontouchstart="event.preventDefault(); triggerKey(493.88);" onclick="triggerKey(493.88)" class="flex-1 bg-slate-200 hover:bg-cyan-200 rounded-b-md text-slate-900 font-bold text-xs flex flex-col justify-end p-2 active:bg-cyan-400">B4</button>
+            <button ontouchstart="event.preventDefault(); triggerKey(523.25);" onclick="triggerKey(523.25)" class="flex-1 bg-slate-200 hover:bg-cyan-200 rounded-b-md text-slate-900 font-bold text-xs flex flex-col justify-end p-2 active:bg-cyan-400">C5</button>
+          </div>
+        </div>
+      `;
+      lucide.createIcons();
+    }
+
+    let currentWaveType = 'sine';
+    function setSynthWave(type) {
+      currentWaveType = type;
+      playTone(440, type, 0.1, 0.05);
+    }
+
+    function triggerKey(freq) {
+      playTone(freq, currentWaveType, 0.3, 0.1);
+    }
+
+    function playSynthDemo() {
+      const notes = [261.63, 329.63, 392.00, 523.25, 392.00, 329.63];
+      notes.forEach((freq, i) => {
+        setTimeout(() => triggerKey(freq), i * 180);
+      });
+    }
+
+    /* ----------------------------------------------------
+       5. SHARD DEFENDER ARCADE GAME APP
+    ---------------------------------------------------- */
+    function renderDefenderGameApp(container) {
+      container.innerHTML = `
+        <div class="h-full flex flex-col">
+          <div class="flex justify-between items-center mb-2 px-1 text-xs font-mono">
+            <span class="text-amber-400 font-bold">SHARD DEFENDER v1.0</span>
+            <span>SCORE: <span id="game-score" class="text-cyan-400 font-bold">0</span></span>
+            <button onclick="startDefenderGame()" class="px-2 py-0.5 rounded bg-amber-500/20 border border-amber-500/40 text-amber-300 hover:bg-amber-500/30">
+              New Game
+            </button>
+          </div>
+          <div class="flex-1 relative bg-slate-950 rounded-lg overflow-hidden border border-slate-800">
+            <canvas id="defender-canvas" class="w-full h-full cursor-crosshair"></canvas>
+            <div id="game-start-overlay" class="absolute inset-0 bg-slate-950/80 flex flex-col items-center justify-center space-y-3">
+              <i data-lucide="gamepad-2" class="w-12 h-12 text-amber-400 animate-bounce"></i>
+              <h3 class="text-base font-bold text-slate-100">Defend Against Falling Dark Shards</h3>
+              <p class="text-xs text-slate-400">Move mouse to aim, Click to fire crystal laser!</p>
+              <button onclick="startDefenderGame()" class="px-4 py-2 rounded-lg bg-amber-500 text-slate-950 font-bold text-xs hover:bg-amber-400 transition">
+                PLAY NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      `;
+      lucide.createIcons();
+    }
+
+    let defenderLoop = null;
+    function startDefenderGame() {
+      const overlay = document.getElementById('game-start-overlay');
+      if (overlay) overlay.style.display = 'none';
+
+      const canvas = document.getElementById('defender-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      canvas.width = canvas.clientWidth;
+      canvas.height = canvas.clientHeight;
+
+      let score = 0;
+      let bullets = [];
+      let enemies = [];
+      let mouseX = canvas.width / 2;
+
+      const setShipPos = (clientX) => {
+        const rect = canvas.getBoundingClientRect();
+        mouseX = clientX - rect.left;
+      };
+
+      const fireLaser = () => {
+        bullets.push({ x: mouseX, y: canvas.height - 30, radius: 4, speed: 8 });
+        playTone(800, 'square', 0.05, 0.03);
+      };
+
+      canvas.onmousemove = (e) => setShipPos(e.clientX);
+      canvas.onclick = () => fireLaser();
+
+      canvas.ontouchstart = (e) => {
+        if (e.touches.length > 0) {
+          setShipPos(e.touches[0].clientX);
+          fireLaser();
+        }
+      };
+
+      canvas.ontouchmove = (e) => {
+        if (e.touches.length > 0) {
+          setShipPos(e.touches[0].clientX);
+        }
+      };
+
+      if (defenderLoop) clearInterval(defenderLoop);
+
+      // Enemy Spawner
+      const spawnInterval = setInterval(() => {
+        enemies.push({
+          x: Math.random() * (canvas.width - 20) + 10,
+          y: -10,
+          radius: Math.random() * 10 + 10,
+          speed: Math.random() * 1.5 + 1
+        });
+      }, 700);
+
+      function updateGame() {
+        ctx.fillStyle = '#020617';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        // Draw Ship
+        ctx.fillStyle = '#38bdf8';
+        ctx.beginPath();
+        ctx.moveTo(mouseX, canvas.height - 30);
+        ctx.lineTo(mouseX - 15, canvas.height - 10);
+        ctx.lineTo(mouseX + 15, canvas.height - 10);
+        ctx.closePath();
+        ctx.fill();
+
+        // Update Bullets
+        for (let i = bullets.length - 1; i >= 0; i--) {
+          const b = bullets[i];
+          b.y -= b.speed;
+          ctx.fillStyle = '#ec4899';
+          ctx.beginPath();
+          ctx.arc(b.x, b.y, b.radius, 0, Math.PI * 2);
+          ctx.fill();
+
+          if (b.y < 0) bullets.splice(i, 1);
+        }
+
+        // Update Enemies
+        for (let i = enemies.length - 1; i >= 0; i--) {
+          const e = enemies[i];
+          e.y += e.speed;
+
+          ctx.fillStyle = '#f59e0b';
+          ctx.beginPath();
+          ctx.arc(e.x, e.y, e.radius, 0, Math.PI * 2);
+          ctx.fill();
+
+          // Bullet Collision
+          for (let j = bullets.length - 1; j >= 0; j--) {
+            const b = bullets[j];
+            const dist = Math.hypot(e.x - b.x, e.y - b.y);
+            if (dist < e.radius + b.radius) {
+              enemies.splice(i, 1);
+              bullets.splice(j, 1);
+              score += 100;
+              document.getElementById('game-score').textContent = score;
+              playTone(200, 'sawtooth', 0.1, 0.04);
+              break;
+            }
+          }
+
+          if (e.y > canvas.height) {
+            enemies.splice(i, 1);
+          }
+        }
+
+        requestAnimationFrame(updateGame);
+      }
+
+      updateGame();
+    }
+
+    /* ----------------------------------------------------
+       6. AETHERDRIVE FILE EXPLORER APP
+    ---------------------------------------------------- */
+    const VIRTUAL_FS = {
+      'C:': { name: 'Aether (C:)', path: 'C:', children: ['bin', 'Audio', 'Documents', 'Crystals', 'System', 'Trash'] },
+      'C:/bin': { name: 'bin', path: 'C:/bin', parent: 'C:', children: ['kernel.bin', 'synth_engine.bin', 'terminal_shell.bin', 'defender_game.bin', 'sources_hub.bin'] },
+      'C:/Audio': { name: 'Audio', path: 'C:/Audio', parent: 'C:', children: ['quantum_chime.wav', 'aether_synth_beat.synth', 'crystal_resonate.wav', 'system_chime.audio', 'quantum_voice_log.wav'] },
+      'C:/Documents': { name: 'Documents', path: 'C:/Documents', parent: 'C:', children: ['notes.txt', 'quantum_os_manual.doc', 'crystal_spec.txt'] },
+      'C:/Crystals': { name: 'Crystals', path: 'C:/Crystals', parent: 'C:', children: ['shard_alpha.3d', 'prism_core.3d'] },
+      'C:/System': { name: 'System', path: 'C:/System', parent: 'C:', children: ['boot_config.sys', 'crystal_driver.sys'] },
+      'C:/Trash': { name: 'Trash', path: 'C:/Trash', parent: 'C:', children: ['corrupted_sector.tmp', 'old_logs.txt'] }
+    };
+
+    const FILE_REGISTRY = {
+      // Binaries
+      'kernel.bin': { type: 'bin', size: '2.4 MB', desc: 'Quantum OS Microkernel Executable', app: 'terminal' },
+      'synth_engine.bin': { type: 'bin', size: '1.8 MB', desc: 'AetherBeats Synthesizer Core', app: 'synth' },
+      'terminal_shell.bin': { type: 'bin', size: '820 KB', desc: 'Interactive Shell Command Daemon', app: 'terminal' },
+      'defender_game.bin': { type: 'bin', size: '3.1 MB', desc: 'Shard Defender Arcade Game Binary', app: 'defender' },
+      'sources_hub.bin': { type: 'bin', size: '2.1 MB', desc: 'Real-Time Web Sources & Data Stream Daemon', app: 'sources' },
+      // Audio Files
+      'quantum_chime.wav': { type: 'audio', size: '1.2 MB', freqSeq: [523.25, 659.25, 783.99, 1046.50], wave: 'sine', desc: 'High-Res Crystal Chime Audio' },
+      'aether_synth_beat.synth': { type: 'audio', size: '3.4 MB', freqSeq: [261.63, 329.63, 392.00, 523.25, 392.00, 329.63], wave: 'sawtooth', desc: 'Synthesizer Arpeggio Audio Track' },
+      'crystal_resonate.wav': { type: 'audio', size: '850 KB', freqSeq: [440, 554.37, 659.25, 880], wave: 'triangle', desc: 'Resonator Frequency Pulse' },
+      'system_chime.audio': { type: 'audio', size: '420 KB', freqSeq: [600, 750, 900], wave: 'sine', desc: 'OS Boot Alert Sound' },
+      'quantum_voice_log.wav': { type: 'audio', size: '2.1 MB', freqSeq: [300, 350, 320, 400, 280, 310, 420], wave: 'square', desc: 'Encrypted Quantum Voice Transmission' },
+
+      // Documents
+      'notes.txt': { type: 'text', size: '12 KB', content: 'Welcome to AetherNotes.\n\n- Real-time auto save activated.\n- Encrypted in photonic storage.\n- Audio files located in C:/Audio.' },
+      'quantum_os_manual.doc': { type: 'text', size: '45 KB', content: 'CRYSTALCORE OS USER MANUAL\n===========================\n1. Bin Directory: Find system executables in C:/bin.\n2. Audio Directory: Play crystal wave audio tracks in C:/Audio.\n3. Binary Viewer: Double click .bin files to inspect raw hex bytes or launch system apps.\n4. Trash / Recycle Bin: Deleted files are safely stored in C:/Trash.' },
+      'crystal_spec.txt': { type: 'text', size: '8 KB', content: 'Refractor Crystal Specification v1.2\nGeometry: Octahedron / Dodecahedron\nRefractive Index: 2.417\nLattice Constant: 3.567 Angstroms' },
+
+      // 3D Shards
+      'shard_alpha.3d': { type: '3d', size: '512 KB', desc: '3D Octahedron Crystal Model', app: 'refractor' },
+      'prism_core.3d': { type: '3d', size: '1.1 MB', desc: 'Prism Refractor Model Mesh', app: 'refractor' },
+
+      // System / Temp Files
+      'boot_config.sys': { type: 'sys', size: '4 KB', content: 'BOOT_MODE=QUANTUM\nAUDIO_FREQ=48000\nTHEME=CRYSTAL_DARK\nDEFAULT_SHELL=C:/bin/terminal_shell.bin' },
+      'crystal_driver.sys': { type: 'sys', size: '16 KB', content: 'DRIVER_NAME=AETHER_3D_ACCEL\nSTATUS=ACTIVE\nMEM_ADDR=0x88F001' },
+      'corrupted_sector.tmp': { type: 'tmp', size: '0 KB', content: '[RECOVERED BAD SECTOR]' },
+      'old_logs.txt': { type: 'text', size: '2 KB', content: 'Kernel log archive 2026-09-08...' }
+    };
+
+    let currentExplorerPath = 'C:';
+
+    function renderExplorerApp(container) {
+      container.innerHTML = `
+        <div class="h-full flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-3 font-sans text-xs">
+          <!-- Sidebar -->
+          <div class="w-full sm:w-40 bg-slate-900/80 rounded-lg p-2 border border-slate-800 flex flex-row sm:flex-col space-x-1 sm:space-x-0 sm:space-y-1 overflow-x-auto shrink-0">
+            <div class="text-[10px] text-slate-500 font-bold px-2 py-1 hidden sm:block">QUICK ACCESS</div>
+            <button onclick="navigateExplorer('C:')" class="flex items-center space-x-2 px-2 py-1.5 rounded hover:bg-slate-800 text-cyan-300 font-semibold shrink-0">
+              <i data-lucide="hard-drive" class="w-3.5 h-3.5"></i>
+              <span>Aether (C:)</span>
+            </button>
+            <button onclick="navigateExplorer('C:/bin')" class="flex items-center space-x-2 px-2 py-1.5 rounded hover:bg-slate-800 text-amber-400 font-medium shrink-0">
+              <i data-lucide="binary" class="w-3.5 h-3.5"></i>
+              <span>/bin</span>
+            </button>
+            <button onclick="navigateExplorer('C:/Audio')" class="flex items-center space-x-2 px-2 py-1.5 rounded hover:bg-slate-800 text-pink-400 font-medium shrink-0">
+              <i data-lucide="music" class="w-3.5 h-3.5"></i>
+              <span>/Audio</span>
+            </button>
+            <button onclick="navigateExplorer('C:/Documents')" class="flex items-center space-x-2 px-2 py-1.5 rounded hover:bg-slate-800 text-indigo-400 font-medium shrink-0">
+              <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
+              <span>/Documents</span>
+            </button>
+            <button onclick="navigateExplorer('C:/Trash')" class="flex items-center space-x-2 px-2 py-1.5 rounded hover:bg-slate-800 text-rose-400 font-medium shrink-0">
+              <i data-lucide="trash-2" class="w-3.5 h-3.5"></i>
+              <span>/Trash</span>
+            </button>
+          </div>
+
+          <!-- Main Directory View -->
+          <div class="flex-1 flex flex-col bg-slate-900/50 rounded-lg border border-slate-800 overflow-hidden min-h-0">
+            <!-- Path Bar & Controls -->
+            <div class="h-9 bg-slate-950/80 border-b border-slate-800 px-3 flex items-center justify-between space-x-2">
+              <div class="flex items-center space-x-2 overflow-x-auto">
+                <button onclick="navigateExplorerUp()" class="p-1 rounded hover:bg-slate-800 text-slate-300 disabled:opacity-30" title="Go Up Directory">
+                  <i data-lucide="arrow-up" class="w-3.5 h-3.5"></i>
+                </button>
+                <div id="explorer-breadcrumbs" class="font-mono text-[11px] text-slate-300 truncate font-semibold">
+                  C:
+                </div>
+              </div>
+              <span id="explorer-count" class="text-[10px] text-slate-500 font-mono shrink-0">4 Items</span>
+            </div>
+
+            <!-- Directory Content Grid -->
+            <div id="explorer-grid" class="flex-1 p-3 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 auto-rows-max overflow-y-auto">
+              <!-- Content dynamically rendered -->
+            </div>
+
+            <!-- Preview / Action Modal Container -->
+            <div id="explorer-preview-panel" class="hidden border-t border-slate-800 bg-slate-950 p-3 flex flex-col space-y-2">
+              <!-- Dynamic File Preview Container -->
+            </div>
+          </div>
+        </div>
+      `;
+      lucide.createIcons();
+      updateExplorerView();
+    }
+
+    function navigateExplorer(path) {
+      if (VIRTUAL_FS[path]) {
+        currentExplorerPath = path;
+        playTone(500, 'sine', 0.05, 0.02);
+        updateExplorerView();
+      }
+    }
+
+    function navigateExplorerUp() {
+      const node = VIRTUAL_FS[currentExplorerPath];
+      if (node && node.parent) {
+        navigateExplorer(node.parent);
+      }
+    }
+
+    function updateExplorerView() {
+      const breadcrumbs = document.getElementById('explorer-breadcrumbs');
+      const grid = document.getElementById('explorer-grid');
+      const count = document.getElementById('explorer-count');
+      const preview = document.getElementById('explorer-preview-panel');
+
+      if (!breadcrumbs || !grid) return;
+
+      if (preview) preview.classList.add('hidden');
+      breadcrumbs.textContent = currentExplorerPath;
+
+      const currentDir = VIRTUAL_FS[currentExplorerPath];
+      if (!currentDir) return;
+
+      const items = currentDir.children || [];
+      count.textContent = `${items.length} Item${items.length === 1 ? '' : 's'}`;
+      grid.innerHTML = '';
+
+      items.forEach(itemName => {
+        const fullPath = `${currentExplorerPath}/${itemName}`;
+        const isDir = !!VIRTUAL_FS[fullPath];
+        const fileData = FILE_REGISTRY[itemName] || {};
+
+        const card = document.createElement('div');
+        card.className = 'p-3 rounded-lg bg-slate-800/60 hover:bg-slate-800 border border-slate-700/60 flex flex-col items-center justify-between cursor-pointer group transition transform active:scale-95 select-none relative';
+
+        let iconName = 'file';
+        let iconColor = 'text-slate-400';
+
+        if (isDir) {
+          iconName = 'folder';
+          if (itemName === 'bin') iconColor = 'text-amber-400';
+          else if (itemName === 'Audio') iconColor = 'text-pink-400';
+          else if (itemName === 'Trash') iconColor = 'text-rose-400';
+          else iconColor = 'text-sky-400';
+        } else {
+          switch(fileData.type) {
+            case 'audio': iconName = 'music'; iconColor = 'text-pink-400'; break;
+            case 'bin': iconName = 'binary'; iconColor = 'text-amber-400'; break;
+            case 'text': iconName = 'file-text'; iconColor = 'text-indigo-400'; break;
+            case '3d': iconName = 'box'; iconColor = 'text-purple-400'; break;
+            case 'sys': iconName = 'settings'; iconColor = 'text-emerald-400'; break;
+            default: iconName = 'file'; iconColor = 'text-slate-400'; break;
+          }
+        }
+
+        card.innerHTML = `
+          <div class="flex flex-col items-center space-y-1.5 w-full">
+            <i data-lucide="${iconName}" class="w-8 h-8 ${iconColor} group-hover:scale-110 transition"></i>
+            <span class="text-[11px] text-slate-200 font-medium truncate w-full text-center">${itemName}</span>
+          </div>
+          <span class="text-[9px] text-slate-500 font-mono mt-1">${isDir ? 'Folder' : (fileData.size || 'FILE')}</span>
+        `;
+
+        card.onclick = () => {
+          if (isDir) {
+            navigateExplorer(fullPath);
+          } else {
+            openFileItem(itemName, fileData);
+          }
+        };
+
+        grid.appendChild(card);
+      });
+
+      lucide.createIcons();
+    }
+
+    function openFileItem(fileName, fileData) {
+      playTone(600, 'sine', 0.08, 0.04);
+      const preview = document.getElementById('explorer-preview-panel');
+      if (!preview) return;
+
+      preview.classList.remove('hidden');
+
+      if (fileData.type === 'audio') {
+        // Audio Player Preview
+        preview.innerHTML = `
+          <div class="flex items-center justify-between pb-1 border-b border-slate-800">
+            <div class="flex items-center space-x-2">
+              <i data-lucide="music" class="w-4 h-4 text-pink-400"></i>
+              <span class="font-bold text-slate-200 text-xs">${fileName}</span>
+            </div>
+            <button onclick="document.getElementById('explorer-preview-panel').classList.add('hidden')" class="text-slate-500 hover:text-slate-300 text-xs font-bold">×</button>
+          </div>
+          <p class="text-[11px] text-slate-400">${fileData.desc || 'Crystal Audio Track'}</p>
+          <div class="flex items-center space-x-3 pt-1">
+            <button onclick="playExplorerAudioTrack('${fileName}')" class="px-3 py-1.5 rounded-lg bg-pink-500 hover:bg-pink-400 text-slate-950 font-bold text-xs flex items-center space-x-1.5 shadow-lg active:scale-95 transition">
+              <i data-lucide="play" class="w-3.5 h-3.5"></i>
+              <span>Play Audio Sample</span>
+            </button>
+            <button onclick="openWindow('synth')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-pink-300 text-xs">
+              Open in Synth Engine
+            </button>
+          </div>
+        `;
+      } else if (fileData.type === 'bin') {
+        // Binary Executable / Hex Viewer
+        preview.innerHTML = `
+          <div class="flex items-center justify-between pb-1 border-b border-slate-800">
+            <div class="flex items-center space-x-2">
+              <i data-lucide="binary" class="w-4 h-4 text-amber-400"></i>
+              <span class="font-bold text-slate-200 text-xs">${fileName} (Executable)</span>
+            </div>
+            <button onclick="document.getElementById('explorer-preview-panel').classList.add('hidden')" class="text-slate-500 hover:text-slate-300 text-xs font-bold">×</button>
+          </div>
+          <div class="bg-slate-900 p-2 rounded font-mono text-[10px] text-amber-300 overflow-x-auto">
+            0x0000: 7F 45 4C 46 02 01 01 00 00 00 00 00 00 00 00 00 [.ELF............]<br>
+            0x0010: 02 00 3E 00 01 00 00 00 80 10 40 00 00 00 00 00 [..>.......@.....]
+          </div>
+          <div class="flex items-center space-x-2 pt-1">
+            ${fileData.app ? `<button onclick="openWindow('${fileData.app}')" class="px-3 py-1 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs">Run Executable</button>` : ''}
+            <button onclick="moveToTrash('${fileName}')" class="px-2 py-1 rounded bg-rose-500/20 text-rose-300 hover:bg-rose-500/30 text-xs">Move to Trash</button>
+          </div>
+        `;
+      } else if (fileData.type === 'text' || fileData.type === 'sys') {
+        // Text Document View
+        preview.innerHTML = `
+          <div class="flex items-center justify-between pb-1 border-b border-slate-800">
+            <div class="flex items-center space-x-2">
+              <i data-lucide="file-text" class="w-4 h-4 text-indigo-400"></i>
+              <span class="font-bold text-slate-200 text-xs">${fileName}</span>
+            </div>
+            <button onclick="document.getElementById('explorer-preview-panel').classList.add('hidden')" class="text-slate-500 hover:text-slate-300 text-xs font-bold">×</button>
+          </div>
+          <textarea readonly class="w-full h-20 bg-slate-900 text-indigo-200 p-2 rounded font-mono text-[11px] border border-slate-800 resize-none">${fileData.content || ''}</textarea>
+          <div class="flex items-center space-x-2 pt-1">
+            <button onclick="openWindow('notes')" class="px-3 py-1 rounded bg-indigo-500 text-slate-950 font-bold text-xs">Open in AetherNotes</button>
+          </div>
+        `;
+      } else if (fileData.type === '3d') {
+        // 3D Model file
+        preview.innerHTML = `
+          <div class="flex items-center justify-between pb-1 border-b border-slate-800">
+            <div class="flex items-center space-x-2">
+              <i data-lucide="box" class="w-4 h-4 text-purple-400"></i>
+              <span class="font-bold text-slate-200 text-xs">${fileName}</span>
+            </div>
+            <button onclick="document.getElementById('explorer-preview-panel').classList.add('hidden')" class="text-slate-500 hover:text-slate-300 text-xs font-bold">×</button>
+          </div>
+          <p class="text-[11px] text-slate-400">${fileData.desc || '3D Crystal Mesh Model'}</p>
+          <div class="pt-1">
+            <button onclick="openWindow('refractor')" class="px-3 py-1 rounded bg-purple-500 text-slate-950 font-bold text-xs">Open in 3D Refractor</button>
+          </div>
+        `;
+      }
+
+      lucide.createIcons();
+    }
+
+    function playExplorerAudioTrack(fileName) {
+      const data = FILE_REGISTRY[fileName];
+      if (!data || !data.freqSeq) return;
+
+      const seq = data.freqSeq;
+      const wave = data.wave || 'sine';
+
+      seq.forEach((freq, idx) => {
+        setTimeout(() => {
+          playTone(freq, wave, 0.25, 0.08);
+        }, idx * 220);
+      });
+    }
+
+    function moveToTrash(fileName) {
+      const curDir = VIRTUAL_FS[currentExplorerPath];
+      if (curDir && curDir.children) {
+        curDir.children = curDir.children.filter(i => i !== fileName);
+      }
+      if (!VIRTUAL_FS['C:/Trash'].children.includes(fileName)) {
+        VIRTUAL_FS['C:/Trash'].children.push(fileName);
+      }
+      playTone(300, 'sawtooth', 0.1, 0.05);
+      updateExplorerView();
+    }
+
+    /* ----------------------------------------------------
+       7. AETHERNOTES APP
+    ---------------------------------------------------- */
+    function renderNotesApp(container) {
+      const savedNote = localStorage.getItem('crystal_note') || 'Welcome to AetherNotes.\n\n- Real-time auto save activated.\n- Encrypted in photonic storage.';
+      container.innerHTML = `
+        <div class="h-full flex flex-col font-mono text-xs">
+          <textarea id="notes-textarea" class="flex-1 bg-slate-950/80 text-indigo-200 p-3 rounded-lg border border-slate-800 focus:outline-none focus:border-indigo-500 resize-none">${savedNote}</textarea>
+          <div class="mt-2 flex justify-between items-center text-[10px] text-slate-500">
+            <span>Status: Auto-Saved</span>
+            <button onclick="saveNoteManual()" class="px-2 py-1 rounded bg-indigo-500/20 text-indigo-300 hover:bg-indigo-500/30">Save Now</button>
+          </div>
+        </div>
+      `;
+
+      const area = container.querySelector('#notes-textarea');
+      area.addEventListener('input', () => {
+        localStorage.setItem('crystal_note', area.value);
+      });
+    }
+
+    function saveNoteManual() {
+      playTone(700, 'sine', 0.1, 0.05);
+    }
+
+    /* ----------------------------------------------------
+       8. SOURCES & LIVE DATA HUB APP (GEMINI SEARCH GROUNDING)
+    ---------------------------------------------------- */
+    function renderSourcesApp(container) {
+      container.innerHTML = `
+        <div class="h-full flex flex-col font-sans text-xs">
+          <!-- Control Bar -->
+          <div class="bg-slate-900/90 p-2.5 rounded-lg border border-slate-800 flex flex-col sm:flex-row space-y-2 sm:space-y-0 space-x-0 sm:space-x-2 items-center justify-between mb-2 shrink-0">
+            <div class="flex items-center space-x-2 w-full sm:w-auto">
+              <i data-lucide="rss" class="w-4 h-4 text-cyan-400 animate-pulse"></i>
+              <span class="font-bold text-slate-200">Real-Time Data Feed</span>
+            </div>
+            <div class="flex items-center space-x-1.5 w-full sm:w-auto overflow-x-auto">
+              <button onclick="fetchSourcesData('Latest discoveries in Quantum Computing and AI')" class="px-2.5 py-1 rounded bg-cyan-500/20 text-cyan-300 hover:bg-cyan-500/30 border border-cyan-500/30 shrink-0 font-medium">Science</button>
+              <button onclick="fetchSourcesData('Top global technology news breaking today')" class="px-2.5 py-1 rounded bg-purple-500/20 text-purple-300 hover:bg-purple-500/30 border border-purple-500/30 shrink-0 font-medium">Tech News</button>
+              <button onclick="fetchSourcesData('Global financial market analysis and economic highlights')" class="px-2.5 py-1 rounded bg-emerald-500/20 text-emerald-300 hover:bg-emerald-500/30 border border-emerald-500/30 shrink-0 font-medium">Markets</button>
+            </div>
+          </div>
+
+          <!-- Query Input -->
+          <div class="flex space-x-2 mb-2 shrink-0">
+            <div class="relative flex-1">
+              <i data-lucide="search" class="w-3.5 h-3.5 absolute left-3 top-2.5 text-slate-400"></i>
+              <input type="text" id="sources-query-input" placeholder="Search live web sources (e.g., 'James Webb Space Telescope findings')..." 
+                onkeydown="if(event.key==='Enter') fetchSourcesData(this.value)" 
+                class="w-full bg-slate-950 border border-slate-800 rounded-lg pl-8 pr-3 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-400 font-mono">
+            </div>
+            <button onclick="fetchSourcesData(document.getElementById('sources-query-input').value)" 
+              class="px-3.5 py-1.5 rounded-lg bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold flex items-center space-x-1.5 transition shrink-0">
+              <i data-lucide="radio" class="w-3.5 h-3.5"></i>
+              <span>Connect</span>
+            </button>
+          </div>
+
+          <!-- Live Feed Output Area -->
+          <div id="sources-stream-body" class="flex-1 bg-slate-950/90 rounded-lg border border-slate-800 p-3 overflow-y-auto space-y-3 font-mono">
+            <div class="text-center text-slate-500 py-12 flex flex-col items-center space-y-2">
+              <i data-lucide="globe" class="w-10 h-10 text-slate-700 animate-spin" style="animation-duration: 20s;"></i>
+              <p class="font-sans text-xs text-slate-400">Select a topic above or query live web sources with search grounding.</p>
+            </div>
+          </div>
+        </div>
+      `;
+      lucide.createIcons();
+    }
+
+    async function fetchSourcesData(userQuery) {
+      if (!userQuery || !userQuery.trim()) return;
+
+      const outputContainer = document.getElementById('sources-stream-body');
+      if (!outputContainer) return;
+
+      playTone(650, 'sine', 0.08, 0.04);
+
+      // Display Loading State
+      outputContainer.innerHTML = `
+        <div class="flex flex-col items-center justify-center py-12 space-y-3 text-cyan-400 font-sans">
+          <i data-lucide="loader-2" class="w-8 h-8 animate-spin"></i>
+          <span class="text-xs font-mono">Scanning live quantum web nodes for: "${userQuery}"...</span>
+        </div>
+      `;
+      lucide.createIcons();
+
+      const systemPrompt = "Act as CrystalCore OS Live Intelligence Feed. Provide a concise, bulleted summary of recent, grounded information on the user's query with technical precision.";
+      const apiKey = ""; // Runtime auto-injected or key
+      const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`;
+
+      const payload = {
+        contents: [{ parts: [{ text: userQuery }] }],
+        tools: [{ "google_search": {} }],
+        systemInstruction: { parts: [{ text: systemPrompt }] }
+      };
+
+      try {
+        const response = await fetch(apiUrl, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        const result = await response.json();
+        const candidate = result.candidates?.[0];
+
+        if (candidate && candidate.content?.parts?.[0]?.text) {
+          const text = candidate.content.parts[0].text;
+          
+          // Extract citations/sources from grounding metadata
+          let sources = [];
+          const groundingMetadata = candidate.groundingMetadata;
+          if (groundingMetadata && groundingMetadata.groundingAttributions) {
+            sources = groundingMetadata.groundingAttributions
+              .map(attr => ({ uri: attr.web?.uri, title: attr.web?.title }))
+              .filter(s => s.uri && s.title);
+          }
+
+          // Format Text
+          const formattedText = text.replace(/\n/g, '<br>').replace(/\*\*(.*?)\*\*/g, '<strong class="text-cyan-300">$1</strong>');
+
+          outputContainer.innerHTML = `
+            <div class="space-y-4 font-sans">
+              <div class="p-3 bg-slate-900/90 rounded-lg border border-slate-800 text-slate-200 text-xs leading-relaxed">
+                <div class="flex items-center space-x-2 text-cyan-400 font-mono text-[11px] mb-2 font-bold border-b border-slate-800 pb-1">
+                  <i data-lucide="check-circle-2" class="w-3.5 h-3.5"></i>
+                  <span>Live Grounded Summary: "${userQuery}"</span>
+                </div>
+                <div>${formattedText}</div>
+              </div>
+
+              ${sources.length > 0 ? `
+                <div class="bg-slate-900/60 p-3 rounded-lg border border-slate-800/80">
+                  <h5 class="text-[11px] font-mono font-bold text-slate-400 uppercase tracking-wider mb-2 flex items-center space-x-1.5">
+                    <i data-lucide="link" class="w-3.5 h-3.5 text-cyan-400"></i>
+                    <span>Verified Web Sources (${sources.length})</span>
+                  </h5>
+                  <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    ${sources.map(src => `
+                      <a href="${src.uri}" target="_blank" rel="noopener noreferrer" 
+                        class="p-2 rounded bg-slate-950 hover:bg-slate-800 border border-slate-800 hover:border-cyan-500/40 text-[11px] text-cyan-300 truncate flex items-center space-x-2 transition">
+                        <i data-lucide="external-link" class="w-3 h-3 shrink-0 text-slate-500"></i>
+                        <span class="truncate">${src.title}</span>
+                      </a>
+                    `).join('')}
+                  </div>
+                </div>
+              ` : ''}
+            </div>
+          `;
+          playChime(600, 'sine');
+        } else {
+          throw new Error('No candidate response');
+        }
+      } catch (err) {
+        console.warn('Sources query fallback:', err);
+        // Fallback simulate response
+        outputContainer.innerHTML = `
+          <div class="p-3 bg-slate-900/90 rounded-lg border border-slate-800 text-slate-200 text-xs space-y-2 font-sans">
+            <div class="text-amber-400 font-mono font-bold flex items-center space-x-1.5 border-b border-slate-800 pb-1">
+              <i data-lucide="wifi-off" class="w-3.5 h-3.5"></i>
+              <span>Offline / Simulated Source Stream: "${userQuery}"</span>
+            </div>
+            <p class="text-slate-300">Connected to local cache node. Scanned live quantum data network:</p>
+            <ul class="list-disc list-inside space-y-1 text-slate-400 font-mono text-[11px]">
+              <li><span class="text-cyan-300">Node Alpha:</span> Quantum spectrum pulse optimal at 5.2 GHz.</li>
+              <li><span class="text-purple-300">Node Beta:</span> Photonic crystal lattice alignment verified.</li>
+              <li><span class="text-emerald-300">Node Gamma:</span> Memory registers synchronized across 8 cores.</li>
+            </ul>
+          </div>
+        `;
+      }
+      lucide.createIcons();
+    }
+
+    /* ----------------------------------------------------
+       9. SETTINGS APP
+    ---------------------------------------------------- */
+    function renderSettingsApp(container) {
+      container.innerHTML = `
+        <div class="h-full flex flex-col space-y-4 font-sans text-xs p-1">
+          <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-800 space-y-2">
+            <h4 class="font-bold text-slate-200 border-b border-slate-800 pb-1">Display & Aesthetics</h4>
+            <div class="flex justify-between items-center">
+              <span class="text-slate-400">CRT Scanline FX:</span>
+              <button onclick="toggleCRT()" class="px-3 py-1 rounded bg-slate-800 text-cyan-300 hover:bg-slate-700">Toggle Overlay</button>
+            </div>
+          </div>
+
+          <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-800 space-y-2">
+            <h4 class="font-bold text-slate-200 border-b border-slate-800 pb-1">System Audio</h4>
+            <div class="flex justify-between items-center">
+              <span class="text-slate-400">Audio Feedback Chimes:</span>
+              <button onclick="toggleAudioSynthMaster()" class="px-3 py-1 rounded bg-slate-800 text-pink-300 hover:bg-slate-700">Mute / Unmute</button>
+            </div>
+          </div>
+
+          <div class="bg-slate-900/80 p-3 rounded-lg border border-slate-800 space-y-2">
+            <h4 class="font-bold text-slate-200 border-b border-slate-800 pb-1">Quantum Kernel</h4>
+            <div class="flex justify-between items-center">
+              <span class="text-slate-400">System Reboot:</span>
+              <button onclick="rebootSystem()" class="px-3 py-1 rounded bg-rose-500/20 border border-rose-500/40 text-rose-300 hover:bg-rose-500/30">Reboot OS</button>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function toggleCRT() {
+      const crt = document.getElementById('crt-layer');
+      crt.classList.toggle('hidden');
+      playTone(500, 'sine');
+    }
+
+    function startClock() {
+      setInterval(() => {
+        const clock = document.getElementById('clock-display');
+        if (clock) {
+          const d = new Date();
+          clock.textContent = d.toLocaleTimeString();
+        }
+      }, 1000);
+    }
+  </script>
+
+  <script>
+    window.onload = function() {
+      initBgCanvas();
+      startBootSequence();
+    };
+  </script>
+</body>
+</html>

@@ -1,5 +1,6 @@
 continuum-sync-loop_c958.zip
 crystalcore-os-freeze-2026-09-11_f75e.zip
+  NOTE: freeze *markdown* pack filed under handoff/crystalcore-os-freeze-2026-09-11/ (full 00–06 + licenses). Zip still held — do not unpack over living tree.
 memorycore-build_40aa.zip
 remix-remix-death_a70c.zip
 The-Crystal-Vision-System_2_328d.zip
@@ -17,3 +18,12 @@ _stream_readable_37ca.js
 _stream_readable_bbe0.js
 _stream_transform_2151.js
 _stream_transform_41da.js
+--- tooling / artifact noise held ---
+cli_8984.js
+cli-helper_1f28.js
+create_light_essay_a18f.js
+create_w1dg3_manual_09e9.js
+webpack.config_1d2b.js
+youtube_9283.html
+index_171f.html
+React_Artifact_*.html / Artifact_*.html (extras; selected CrystalCore shells filed under 07 sitting)
