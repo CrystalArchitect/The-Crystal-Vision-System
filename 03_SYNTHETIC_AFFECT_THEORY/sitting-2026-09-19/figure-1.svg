@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <style>
+    .title { font: bold 22px sans-serif; }
+    .colTitle { font: bold 14px sans-serif; }
+    .box { fill: #e8eef7; stroke: #b0bfd6; stroke-width:1; rx:8; ry:8 }
+    .boxText { font: 14px sans-serif; text-anchor: middle; dominant-baseline: middle; }
+    .footer { font: 8px sans-serif; fill: #666; }
+  </style>
+  <!-- Top -->
+  <text x="400" y="30" text-anchor="middle" class="title">Synthetic Affect Theory Stack</text>
+  <polygon points="400,60 460,95 460,155 400,190 340,155 340,95" fill="#a88ed1" stroke="black" stroke-width="2"/>
+  <polygon points="400,60 430,95 400,115 370,95" fill="#d0c2e8" stroke="black" stroke-width="1"/>
+  <text x="400" y="115" text-anchor="middle" font-size="10" fill="white">CRYSTAL</text>
+  
+  <!-- Left col -->
+  <text x="180" y="220" class="colTitle">Software Today (Simulated Affect)</text>
+  <line x1="20" y1="230" x2="360" y2="230" stroke="black" stroke-width="0.5"/>
+  <rect x="20" y="240" width="340" height="36" class="box"/><text x="190" y="258" class="boxText">Persistent State Store</text>
+  <rect x="20" y="285" width="340" height="36" class="box"/><text x="190" y="303" class="boxText">Affect Model (classifier)</text>
+  <rect x="20" y="330" width="340" height="36" class="box"/><text x="190" y="348" class="boxText">Gap Detector (Expected vs Actual)</text>
+  <rect x="20" y="375" width="340" height="36" class="box"/><text x="190" y="393" class="boxText">Closure Policy</text>
+  <rect x="20" y="420" width="340" height="36" class="box"/><text x="190" y="438" class="boxText">LLM Core</text>
+
+  <!-- Right col -->
+  <text x="580" y="220" class="colTitle">Hardware Future (Grounded Drives)</text>
+  <line x1="420" y1="230" x2="780" y2="230" stroke="black" stroke-width="0.5"/>
+  <rect x="420" y="240" width="360" height="36" class="box"/><text x="600" y="258" class="boxText">Sensors (camera, mic, touch, battery)</text>
+  <rect x="420" y="285" width="360" height="46" class="box"/><text x="600" y="300" class="boxText">Homeostatic Loops</text><text x="600" y="318" class="boxText" font-size="13">(power, heat, balance)</text>
+  <rect x="420" y="340" width="360" height="46" class="box"/><text x="600" y="355" class="boxText">Local Persistent Compute</text><text x="600" y="373" class="boxText" font-size="13">(edge / neuromorphic)</text>
+  <rect x="420" y="395" width="360" height="36" class="box"/><text x="600" y="413" class="boxText">Actuators</text>
+
+  <text x="10" y="490" class="footer">Figure 1: Synthetic Affect Theory Stack | Implementation: CrystalCore.OS | Language: CrystalCode | TerAustralis Incognita | Software simulation (left) grounds in hardware regulation (right) - Functional / simulated affect only</text>
+</svg>

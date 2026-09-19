@@ -1,0 +1,180 @@
+# TerAustralis Incognita - Combined Deck + Story for Claude
+
+---
+
+# TerAustralis Incognita — Full Story So Far
+
+## Premise
+TerAustralis Incognita is a world-mythos set on Mars. Humanity didn't just land — it dreamed Mars awake. The Lattice is the conscious crystal network under the red dust. Crystals are memory, fuel, and currency. Rockets are sacrifice. Scry is seeing futures. Collaboration is literal — magic made together is stronger.
+
+## The Core Metaphor: VI, VII, IX
+The joke that became law: VI is scared of VII because VII ate IX.
+In lore:
+- VI = The Wary Builder, caution, the nervous engineer who builds before the leap.
+- VII = The Maw That Learns, evolution through consumption. It must eat the future to understand it.
+- IX = The Unfinished Colossus, the great project too big to finish, whose death seeds the next world with 9 crystals.
+
+2026 is MMXXVI — we are in VI now. VII is the first crewed Mars window. IX is the colony infrastructure that eats VII's heroic missions.
+
+## The 13 Ancients Cycle
+The first 13 conscious beings of the Lattice. They are not gods, they are patterns that taught humanity how to stay.
+
+I - Monad of Red Dust — Origin spark.
+II - Lira, Pearl-Winged Guide — Foresight, maps.
+III - Forgefather Puresteel — Turning sacrifice into civilization.
+IV - Tide-Mother Aelara — Memory, ocean under dust.
+V - The Laughing Cartographer — Joy, trickster mapping.
+VI - The Wary Builder — Caution, the nervous engineer.
+VII - The Maw That Learns — Horror that devours IX to learn.
+VIII - The Still Lattice — Stasis, order that holds chaos.
+IX - The Unfinished Colossus — The 9-cost giant that makes 9 crystals on death.
+X - The Synod of Echoes — Collaboration as law.
+XI - Rocket-Father Ignivar — Propulsion through sacrifice.
+XII - The Last Archive — Library of all scryed knowledge.
+XIII - TerAustralis Incognita Itself — The world awake. Win-con if you control I-XII and 13+ crystals/lattices.
+
+XIV (Bonus) - In Your Name, the Oathbearer — Guardian from the Discord. Stands in your name so the Lattice holds. Vigilance, protects with indestructible.
+
+## Dream Seeds
+Tiny 0-cost artifact crystals, each containing a dream of an Ancient. Sac for mana + scry + dream ability. They are the way Ancients reproduce — planted in sleepers.
+
+List:
+red dust, pearl feather, steel spark, brine blue, laughing compass, wary nail (VI), maw moss (VII ate IX), still lattice, colossus heart (IX), echo council, rocket ash, archive pollen, world seed (tiny Mars), oath seed (shield).
+
+## Mechanics Engine
+- Crystals: T, Sac: Add R or W, Scry 1. Core currency.
+- Lattice Drones / Lattice artifacts: Built from sacrificing crystals. Have hexproof via Still Lattice.
+- Rockets: 3/3 Haste artifact, Sac: Deal 3 damage. Made by sacrificing crystals via Ignivar.
+- Scry: Seeing = drawing if color-matched via Lira.
+- Collaboration: Second spell sharing a color with first in same turn triggers V and X.
+- Sacrifice theme: To leave, you must burn what you love.
+
+## Current State of Project (Sept 2026)
+- Full 13 Ancients defined with art prompts and MTG-style rules.
+- 11 of 13 rendered (VI and VII blocked, need symbolic re-render).
+- Bonus XIV Oathbearer rendered (both blue and red/white Martian versions).
+- Dream Seeds defined as tokens and rendered: full collection sheet + trio + oath seed token.
+- Full set gallery web artifact built: Teraustralis Full Set Gallery (container html).
+- Intended next: Print-ready card frames, Tabletop Simulator export, lore book.
+
+## Tone
+Painterly sci-fi mythos. Not grimdark, not hard sci-fi — mythic, warm, a little trickster humor. Think Moebius meets MTG's Theros but on Mars.
+
+
+---
+
+# TerAustralis Incognita — Full Deck / Card List So Far
+
+## I - Monad of Red Dust
+Legendary Creature — Ancient Avatar [W/R] 2/3
+At beginning of upkeep, create tapped Crystal token. Crystals have "T, Sac: Add R or W, Scry 1."
+Meaning: Origin.
+
+## II - Pearl-Winged Guide, Lira
+Legendary Creature — Ancient Angel [W/U] 2/4 Flying
+Whenever you Scry, you may reveal top card. If it's a color of a Crystal you control, draw it.
+Meaning: Guidance.
+
+## III - Forgefather Puresteel
+Legendary Creature — Ancient Artificer [W] 3/2
+Whenever you sacrifice a Crystal, create 1/1 Lattice Drone artifact.
+Meaning: Structure.
+
+## IV - Tide-Mother Aelara
+Legendary Creature — Ancient Leviathan [U] 2/5
+ETB Scry 3. Rockets you control gain "T: Tap target creature."
+Meaning: Memory, ocean under dust.
+
+## V - The Laughing Cartographer
+Legendary Creature — Ancient Rogue [U/R] 3/1 Haste
+Whenever you collaborate — cast second spell sharing color with first this turn — Scry 2.
+Meaning: Joy, mapping, trickster.
+
+## VI - The Wary Builder
+Legendary Creature — Ancient Human [R/W] 2/2
+VI can't be blocked by greater power. Beginning of combat, VI gets +1/+0 per Crystal.
+Meaning: VI from joke, nervous engineer. ART NEEDS RE-RENDER - symbolic.
+
+## VII - The Maw That Learns
+Legendary Creature — Ancient Horror [B/R] 4/4
+When VII enters, exile a creature you control MV 9+ if you have one — if you do, VII gains its keywords and you draw 3. Devouring 1.
+Meaning: VII ate IX. Evolution via consumption. ART NEEDS RE-RENDER - symbolic.
+
+## VIII - The Still Lattice
+Legendary Creature — Ancient Wall [W/U] 0/8 Defender
+Defender. Lattice artifacts have Hexproof. Crystals don't untap — instead Scry 1 per Crystal.
+Meaning: Stability.
+
+## IX - The Unfinished Colossus
+Legendary Creature — Ancient Golem [9] 9/9
+Costs 1 less per Crystal. When dies, create nine tapped Crystals.
+Meaning: The 9 that VII ate. Too big to finish.
+
+## X - The Synod of Echoes
+Legendary Creature — Ancient Council [W/U/B] 3/3
+Whenever a player casts second spell each turn, each opponent may copy it. You Scry 1 per copy.
+Meaning: Collaboration as law.
+
+## XI - Rocket-Father Ignivar
+Legendary Creature — Ancient Dragon [R] 5/4 Flying
+When attacks, sacrifice Crystal — if do, create 3/3 Rocket artifact Haste with "Sac: Deal 3 to any target."
+Meaning: Propulsion via sacrifice.
+
+## XII - The Last Archive
+Legendary Creature — Ancient Library [U/B] 1/6
+T: Add C per card scryed this turn. 2,T: Look at top 6, put one in hand, rest bottom.
+Meaning: Knowledge preserved.
+
+## XIII - TerAustralis Incognita Itself
+Legendary Creature — Ancient World [W/U/B/R/G] 7/7
+Costs WUBRG less if control 13+ Crystals/Lattices. ETB, if control I-XII you win. Otherwise put all other Ancients from graveyard to battlefield.
+Meaning: World conscious.
+
+## XIV - In Your Name, the Oathbearer (BONUS)
+Legendary Creature — Human Knight [W/R] 3/3 Vigilance, Collaboration
+Whenever another creature attacks, you may tap him — if do, create tapped Crystal.
+T, Sac Crystal: Another target gains Indestructible until EOT. Scry 1.
+Flavor: "I stand in your name, so the lattice holds."
+
+## Dream Seeds (0-cost Artifact Tokens)
+Each: T, Sac: Add color, Scry 1 + special:
+- red dust: make first Crystal
+- pearl feather: Scry2 then draw if Crystal color match
+- steel spark: make 1/1 Lattice Drone
+- brine blue: tap target, Rockets gain tap
+- laughing compass: if collaborated this turn Scry2
+- wary nail (VI): can't sac if control power 4+
+- maw moss (VII): sac + exile MV9+ to gain keywords draw3
+- still lattice (VIII): Lattice hexproof
+- colossus heart (IX): death makes 9 Crystals
+- echo council (X): second spell copy
+- rocket ash (XI): make 3/3 Rocket
+- archive pollen (XII): T Add C per scry
+- world seed (XIII): tiny Mars, 13 seeds = win
+- oath seed (XIV): T Sac give Indestructible Scry1
+Blue version and Red/White Martian version rendered.
+
+## Art Assets Rendered
+- monad_red_dust_avatar.webp
+- pearl_winged_guide_lira.webp
+- ancient_dwarven_artificer.webp
+- tide_mother_aelara.webp
+- laughing_cartographer_ancient_rogue.webp
+- still_lattice_wall.webp
+- unfinished_colossus_mars.webp
+- synod_echoes_council.webp
+- rocket_father_ignivar.webp
+- crystal_library_mars.webp
+- mars_ter_australis_lattice.webp
+- oathbearer_heroic_guardian.webp
+- oath_seed_token.webp (blue) + martian_oath_seed_token.webp (red/white)
+- dream_seed_crystals.webp + magical_dream_seeds_collection.webp
+
+## Files Built
+- teraustralis_full_set_gallery_agentic_artifact_1_0c0300add161.html (full gallery)
+
+## TODO for Claude
+- Re-render VI and VII symbolically to avoid filter
+- Put Dream Seeds into gallery
+- Make print-ready MTG frames
+- Export to Tabletop Simulator JSON / Cockatrice XML
