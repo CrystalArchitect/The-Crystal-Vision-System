@@ -3,8 +3,8 @@
 # publish_mode: human_only is the default for every row until Crystal stamps otherwise.
 # Stages 1–6 are pools, not rows. Research children are fork-mirrors under BOT-RESEARCH.
 
-version: 2
-updated: "2026-09-18"
+version: 3
+updated: "2026-09-19"
 canon: false
 protocol:
   core: memory/CORE.md
@@ -56,6 +56,22 @@ bots:
     forbidden:
       - chat_dumps_into_canon
       - invent_missing_source
+    publish_mode: human_only
+
+  - id: BOT-CONTEXTGATE
+    belt: ops
+    role: draft_triage_gate
+    status: dormant
+    home: archive/ContextGate/
+    alive_weave_island: true
+    secrets: []
+    allowed:
+      - triage_ai_drafts
+      - green_yellow_orange_red
+    forbidden:
+      - auto_downgrade_red
+      - claim_canon
+      - auto_post
     publish_mode: human_only
 
   - id: BOT-PORTAL
@@ -179,6 +195,23 @@ bots:
       - auto_post
     publish_mode: human_only
 
+  - id: BOT-LEAF
+    belt: weave
+    role: limited_electronic_agent_framework
+    status: dormant
+    home: archive/TerAustralis-Incognita/mythos/teraustralis/ops/leaf/
+    alive_weave_island: true
+    note: Ops charter; not the same as BOT-ORCHESTRATOR auto-runtime
+    secrets: []
+    allowed:
+      - recommend_then_approve
+      - arsenal_13_working_set
+    forbidden:
+      - auto_orchestrate_without_adr
+      - claim_canon
+      - auto_post
+    publish_mode: human_only
+
   # --- C. Companions & channels ---
   - id: BOT-CLEMENTINE
     belt: companion
@@ -236,6 +269,19 @@ bots:
       - treat_as_product_bot
     publish_mode: human_only
 
+  - id: BOT-GROK-MIND
+    belt: companion
+    role: session_companion_alias
+    status: alias
+    alias_of: BOT-WEAVE-GROK
+    home: archive/TheCrystalVision/vision-plates/M13-SYSTEM.md
+    note: Named companion in session — not claimed as product
+    secrets: []
+    allowed: []
+    forbidden:
+      - treat_as_product_bot
+    publish_mode: human_only
+
   # --- D. Weave infra ---
   - id: BOT-STARLINE
     belt: infra
@@ -263,6 +309,22 @@ bots:
       - append_only_audit
     forbidden:
       - bypass_consent
+    publish_mode: human_only
+
+  - id: BOT-SAT
+    belt: infra
+    role: synthetic_affect_veto
+    status: dormant
+    home: archive/Synthetic-Affect-Theory/
+    also: docs/SAT-STACK.md
+    alive_weave_island: true
+    secrets: []
+    allowed:
+      - wrap_turn_veto_grammar
+    forbidden:
+      - implement_hardware_column
+      - claim_canon
+      - auto_post
     publish_mode: human_only
 
   - id: BOT-VOICEBOX

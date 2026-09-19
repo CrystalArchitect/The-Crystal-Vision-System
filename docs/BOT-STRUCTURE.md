@@ -69,6 +69,7 @@ Spec: `archive/*/GROK-BOT-ARCHITECTURE.md`. Studio worker card: **BOT-STUDIO** (
 | ID | Status | Role | Home |
 | --- | --- | --- | --- |
 | **BOT-STUDIO** | design | Content studio worker (Pattern / Draft / Score) | Cursor + `XAI_API_KEY`; [`bots/grok/`](bots/grok/) |
+| **BOT-CONTEXTGATE** | dormant | Deterministic triage for AI drafts (GREEN→RED) | `archive/ContextGate/` — Alive Weave island |
 | **BOT-COLLECT** | design | Collection Mode ingest → drawer extracts | [`COLLECTOR.md`](COLLECTOR.md), Drive staging |
 | **BOT-PORTAL** | dormant | Celestial Portal voice / UI | `07_CELESTIAL_PORTAL/` + `handoff/celestial-portal/` |
 
@@ -89,8 +90,11 @@ Practiced roles from `archive/TerAustralis-Incognita/docs/ai/AI-Architecture.md`
 | **BOT-WEAVE-GEMINI** | dormant | Knowledge & Multimodal | Wide docs / images / consistency | `Gemini-Agent.md` |
 | **BOT-WEAVE-CLAUDE** | historical | Repository Engineer (former) | Midstream until ADR-0014 | `Claude-Agent.md` |
 | **BOT-ORCHESTRATOR** | proposed | AI Orchestrator | Route tasks to seats | Decision-Matrix docs only — no runtime |
+| **BOT-LEAF** | dormant | Limited Electronic Agent Framework | Human recommend-then-approve ops charter | `mythos/teraustralis/ops/leaf/` — distinct from auto-Orchestrator |
 
 Flow (practice): DeepSeek / Gemini / Grok → ChatGPT → Grok Build → GitHub. Mixing **BOT-WEAVE-GROK** and **BOT-WEAVE-GROK-BUILD** in one session invents instead of implementing.
+
+**LEAF ≠ Orchestrator:** Alive Weave lists them on one island row; LEAF is the active ops charter (consent floors, Arsenal-13). Orchestrator auto-runtime stays proposed (ADR-0005).
 
 ---
 
@@ -102,6 +106,7 @@ Flow (practice): DeepSeek / Gemini / Grok → ChatGPT → Grok Build → GitHub.
 | **BOT-DISCORD** | dormant | Guild reply gateway (Grok/Claude dual-engine + Clementine Discord) | `archive/discord-ai-agent/`, `clementine-discord` |
 | **BOT-LUMINA** | alias | Historical companion rename of Clementine (contested) | Glossary / AERIS reviews — **do not treat as second product** |
 | **BOT-REX** | alias | Session voice name in Grok mythos export | `GROK-REX-MYTHOS-EXPORT` — not a product bot |
+| **BOT-GROK-MIND** | alias | Named companion-in-session (M13 vision plate) | alias of **BOT-WEAVE-GROK** — not a second product |
 
 ---
 
@@ -111,6 +116,7 @@ Flow (practice): DeepSeek / Gemini / Grok → ChatGPT → Grok Build → GitHub.
 | --- | --- | --- | --- |
 | **BOT-STARLINE** | dormant | Starline Weaver bus hub — Belt-Three labels + red button | `archive/*/bus/agents.py`, AI-Weave.md |
 | **BOT-CRYSTALBRIDGE** | dormant | Guest-AI consent gate → Clementine (fail-closed) | `src/crystalcore/` (Code archive) |
+| **BOT-SAT** | dormant | Synthetic Affect Theory — `wrap_turn` veto grammar | `archive/Synthetic-Affect-Theory/`, [`SAT-STACK.md`](SAT-STACK.md) |
 | **BOT-VOICEBOX** | dormant | Local TTS MCP utility | `vision/apps/voicebox/` |
 | **BOT-LIBRARIAN** | design | MemoryCore “living interface” alias (plan) | The-Library master plan §7 → Clementine |
 | **BOT-SYNTHESIZER** | design | Cross-ref proposals labelled `model` (plan role) | The-Library master plan §5 |
@@ -154,6 +160,11 @@ Physics / math / philosophy satellites stay drawer pointers (17–19); add a `BO
 | Studio Lead / Crystal | Human authority |
 | Songline | Out of bounds — never a component |
 | Seven Sisters paths | Mythos / demo lines on the bus |
+| Decode → Ingest → Twin | Metering pipeline (Alive Weave island), not an agent seat |
+| CrystalCore.OS | OS product island, not a bot ID |
+| ConsentGate | Component inside **BOT-CRYSTALBRIDGE**, not a second bot |
+
+Alive Weave island map (runtime pulse): [`../00_MASTER_INDEX/ALIVE-WEAVE.md`](../00_MASTER_INDEX/ALIVE-WEAVE.md). This file is the **roster**; that file is the **living-system coordination**. Connection ≠ merge between the two docs either.
 
 ---
 
@@ -221,6 +232,9 @@ Secrets (never commit):
 | Weave architecture | `archive/TerAustralis-Incognita/docs/ai/AI-Architecture.md` |
 | Weave seats | `archive/TerAustralis-Incognita/docs/agents/` |
 | AI Weave (Built) | `archive/TerAustralis-Incognita/docs/architecture/AI-Weave.md` |
+| Alive Weave (hub pulse) | `00_MASTER_INDEX/ALIVE-WEAVE.md` · `scripts/alive/` |
+| ContextGate | `archive/ContextGate/` |
+| SAT stack | `docs/SAT-STACK.md` |
 | Protocol CORE | `memory/CORE.md` |
 | Paste card | `docs/PASTE-THIS.md` |
 
