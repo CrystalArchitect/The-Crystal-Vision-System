@@ -11,10 +11,11 @@
 - Titomic NASA SAA + aerospace/defence orders 2026 — not hull factory.
 
 ## Map key (complete — do not ship a cropped five-dot export)
-- Gold: Bowen / Gilmour (licensed orbital); Koonibba / Whalers Way (Southern Launch); W. Sydney Academy (sim / classroom).
+- Gold: Bowen / Gilmour (licensed orbital); Koonibba / Whalers Way (Southern Launch); W. Sydney Academy + Westmead (sim / classroom + compute/clinical).
 - Peach: Christmas Island (Ship 40 recovery adjacency, not a pad); North (diligence only).
-- Cyan: Adelaide (Fleet); Melbourne (Titomic / AM; SpIRIT ≠ Gilmour); Canberra (ASA / ADFA / UNSW / EOS).
+- Cyan: Adelaide (Neumann EP + Fleet); Melbourne (Titomic / Lab22; SpIRIT ≠ Gilmour); Canberra (ASA / ADFA / UNSW / EOS).
 - Purpose line must stay on the figure: sales graphic for SpaceX / SpaceXAI — existing stack, not a Starbase site map.
+- Keep off the figure: ELA, Woomera fiction, Hypersonix (Wallops demo), ANSTO NTR.
 
 ## Do not claim
 - No Starship MoU; ELA not live; SpIRIT != Gilmour; Eris not orbital yet.

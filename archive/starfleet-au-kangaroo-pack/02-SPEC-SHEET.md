@@ -37,14 +37,17 @@ Full figure key (purpose, colours, all eight dots including the three city hubs)
 ## Academy
 Western Sydney Aerotropolis (sim/classroom) + Qld flight corridor (Gilmour/Bowen) + ADFA leadership model + UNSW Canberra Space / RMIT / CSIRO.
 
-Map: gold **W. Sydney Academy**; cyan **Canberra** for the ADFA / UNSW / ASA spine.
+Map: gold **W. Sydney Academy + Westmead**; cyan **Canberra** for the ADFA / UNSW / ASA spine.
 
 ## Institutional hubs on the schematic
 | Node | Use in pitch |
 |---|---|
-| Adelaide | Fleet Space commercial LEO / ExoSphere; SA launch-operator adjacency |
-| Melbourne | Titomic / AM. SpIRIT = UniMelb / Inovor / Neumann — **not Gilmour** |
+| Adelaide | Neumann EP + Fleet Space commercial LEO / ExoSphere; SA launch-operator adjacency |
+| Melbourne | Titomic / Lab22. SpIRIT = UniMelb / Inovor / Neumann — **not Gilmour** |
 | Canberra | ASA · ADFA · UNSW Canberra Space · EOS |
+| Westmead (on the W. Sydney node) | SpaceXAI / Grok compute + clinical demand. Digital health / imaging — not motor-BCI trials. |
+
+Off-map on purpose (Hypersonix Wallops demo, ANSTO research, Woomera fiction, ELA dead): [`04-INDUSTRIAL-NODES.md`](04-INDUSTRIAL-NODES.md)#not-on-this-map-on-purpose.
 
 ## SpaceX ask package
 1. Diligence call on northern AU launch geography (not ELA liquidation).  

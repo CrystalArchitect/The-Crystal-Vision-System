@@ -35,7 +35,7 @@ Hard frame: **no Starship site MoU**. Northern Australia is diligence only. Equa
 |---|---|---|
 | **Bowen / Gilmour** | Gilmour Space licensed orbital site, Queensland. Eris TF1 Jul 2025 anomaly; TF2 ~early 2027*. ElaraSat flew SpaceX Transporter-14 (rideshare). Series E A$217m. | Mid-inclination **access**. Licensed pad + LV/sat builder. Do not claim Eris is orbital. |
 | **Koonibba / Whalers Way** | Southern Launch. Koonibba: commercial re-entry (from Feb 2025, incl. Varda-class). Whalers Way: polar / SSO orbital complex. A$25m Series A Jun 2026 (A$10m NRF). | **Launch / return**. Microgravity recovery teaching adjacency. Polar/SSO geometry vs Bowen’s mid-inclination. |
-| **W. Sydney Academy** | Proposed sim / classroom at Western Sydney Aerotropolis. Flight ops along the Qld corridor (Gilmour/Bowen). ADFA leadership model + UNSW Canberra Space / RMIT / CSIRO. | **Crew**. Academy before Hollywood. Holodeck v1 = high-fidelity MR/UE5 sims, not a starship. |
+| **W. Sydney Academy** | Proposed sim / classroom at Western Sydney Aerotropolis, plus **Westmead** health-precinct adjacency (digital health / neuro imaging — not motor-BCI trials). Flight ops along the Qld corridor (Gilmour/Bowen). ADFA leadership model + UNSW Canberra Space / RMIT / CSIRO. | **Crew**, and the SpaceXAI / Grok compute parallel. Academy before Hollywood. Holodeck v1 = MR/UE5 sims. |
 
 ## Peach — adjacency / diligence
 
@@ -50,8 +50,8 @@ These three were on the full figure and dropped by the cropped screenshot.
 
 | Node | What it is | What it is for in the pitch |
 |---|---|---|
-| **Adelaide** | Fleet Space — commercial LEO + ExoSphere subsurface mapping. Southern Launch is SA-based. | **Sensors / trusted services.** Fleet is a solid commercial hook. |
-| **Melbourne** | Titomic / metal AM adjacency. SpIRIT flew on SpaceX as **Uni Melbourne / Inovor / Neumann** — not Gilmour’s bird. | **Manufacture.** Exploratory AM, not a Starship hull line. Credit SpIRIT correctly. |
+| **Adelaide** | **Neumann Space** (commercial Mo EP on Transporters) and **Fleet Space** (LEO + ExoSphere). Southern Launch is SA-based. | **Stay** (Neumann) and **sensors / trusted services** (Fleet). Debris→fuel remains roadmap. |
+| **Melbourne** | Titomic + CSIRO **Lab22** metal AM. SpIRIT flew on SpaceX as **Uni Melbourne / Inovor / Neumann** — not Gilmour’s bird. RMIT sits on the academy science spine. | **Manufacture.** Exploratory AM, not a Starship hull line. Credit SpIRIT correctly. |
 | **Canberra** | Australian Space Agency, ADFA, UNSW Canberra Space, EOS laser SSA. | **Policy + academy spine + SSA.** EOS laser tracking is proven; active debris “space control” is in development. |
 
 ## Footer (must stay on the figure)
@@ -63,9 +63,23 @@ These three were on the full figure and dropped by the cropped screenshot.
 | Principle | Nodes on this figure |
 |---|---|
 | **Access** | Bowen / Gilmour · Whalers Way · Christmas Island recovery · North (diligence) |
-| **Stay** | Not a map dot — Neumann EP (commercial on Transporters); debris→fuel is roadmap |
-| **Build** | Melbourne Titomic / Lab22 adjacency |
-| **Crew** | W. Sydney Academy · Canberra (ADFA / UNSW) |
+| **Stay** | Adelaide — Neumann EP (commercial on Transporters); debris→fuel is roadmap |
+| **Build** | Melbourne — Titomic / Lab22 |
+| **Crew** | W. Sydney Academy + Westmead · Canberra (ADFA / UNSW) |
+
+## Not on this map (on purpose)
+
+These show up in the pitch. They do **not** get their own dots.
+
+| Item | Why it stays off the schematic |
+|---|---|
+| **ELA / Arnhem** | Not live (ops ceased; liquidation 2026). Covered by the North diligence disclaimer. |
+| **Woomera Orbital Yard** | Fiction cover on the Kangaroo-class art sheet. Not an engineering or siting claim. |
+| **Hypersonix** | Mach 5+ DART AE / SPARTAN demo flew at **Wallops** (Feb 2026). AU partner, not an Australian pad. |
+| **ANSTO NTR** | Research only. |
+| **Inovor** | Credited on SpIRIT with UniMelb / Neumann — not a separate city node. |
+| **Amaero / Boeing green-Ti / MMI** | Manufacturing *adjacency* already under Melbourne Titomic / Lab22. Pilots, not a hull line. |
+| **sydney-xai-pack / Grok NSW** | Parallel compute ask. Westmead is the map hook; the rest lives in that companion pack. |
 
 ## Rebuild
 
