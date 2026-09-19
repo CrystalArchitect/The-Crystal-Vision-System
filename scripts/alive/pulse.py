@@ -79,20 +79,21 @@ def _check(island: Island) -> tuple[str, str]:
                 sys.path.remove(str(island.path))
 
     if island.pulse == "bridge_gate":
-        # Full crystalcore.selftest needs the `mcp` package; pulse the ConsentGate itself.
-        core = ROOT / "archive/TerAustralis-Incognita-Code/core"
-        if not (core / "crystalcore" / "gate.py").exists():
-            return "MISSING", "crystalcore/gate.py absent"
-        sys.path.insert(0, str(core))
+        # Full crystalcore.selftest needs the `mcp` package; pulse the real ConsentGate.
+        alive_dir = str(Path(__file__).resolve().parent)
+        if alive_dir not in sys.path:
+            sys.path.insert(0, alive_dir)
         try:
-            gate_mod = importlib.import_module("crystalcore.gate")
-            assert hasattr(gate_mod, "ConsentGate")
-            return "ALIVE", "ConsentGate importable (fail-closed guest gate)"
+            from bridge_gate import assert_gate_law, probe_gate
+
+            assert_gate_law()
+            probes = probe_gate()
+            summary = "; ".join(
+                f"{p.label}:{'allow' if p.allowed else p.decision}" for p in probes
+            )
+            return "ALIVE", f"ConsentGate law holds ({summary})"
         except Exception as exc:  # noqa: BLE001
             return "DOWN", f"{type(exc).__name__}: {exc}"
-        finally:
-            if str(core) in sys.path:
-                sys.path.remove(str(core))
 
     if island.pulse.startswith("module:"):
         module = island.pulse.split(":", 1)[1]

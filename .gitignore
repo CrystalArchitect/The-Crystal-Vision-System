@@ -13,3 +13,6 @@ build/
 *~
 .cache/
 public/data/
+
+__pycache__/
+*.pyc

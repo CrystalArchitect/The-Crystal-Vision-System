@@ -75,10 +75,24 @@ def test_signal_bus_message_is_accepted():
         value="1",
         unit="count",
         h3="weave.hub",
-        source_did="did:crystal:bus:songline:Echo",
+        source_did="did:crystal:bus:tcv_bridge:Echo",
     ))
     assert reason == "" and event is not None
     assert event["class"] == "signal.bus_message" and event["unit"] == "count"
+
+
+def test_signal_gate_check_is_accepted():
+    """ConsentGate decisions meter as signal.gate_check."""
+    event, reason = decode_event(_event(
+        event_id="gate-s4-1",
+        **{"class": "signal.gate_check"},
+        value="1",
+        unit="count",
+        h3="weave.hub",
+        source_did="did:crystal:bridge:ConsentGate",
+    ))
+    assert reason == "" and event is not None
+    assert event["class"] == "signal.gate_check"
 
 
 def main() -> int:
@@ -88,6 +102,7 @@ def main() -> int:
         test_replay_is_rejected_in_batch,
         test_ingest_is_idempotent_and_twin_aggregates,
         test_signal_bus_message_is_accepted,
+        test_signal_gate_check_is_accepted,
     ]
     for t in tests:
         t()
