@@ -27,3 +27,18 @@ webpack.config_1d2b.js
 youtube_9283.html
 index_171f.html
 React_Artifact_*.html / Artifact_*.html (extras; selected CrystalCore shells filed under 07 sitting)
+
+--- wave 2026-09-19b (AERIS / MemoryCore / bots / library) ---
+memorycore-repo_c53c.zip
+clementine-starter_9e4b.zip
+clementine_c8d6.bundle
+discord-ai-agent_67e5.zip
+discord-dual-engine-bot_07fe.bundle
+dimensional-telephone-v12__1__46f1.zip
+the-library-browser_0149.zip
+the-library-nextjs_29c1.zip
+the-library-python_5b8e.zip
+React_Artifact_555a.html
+clementine.skill
+taskmarket.skill
+web-os-easter-eggs.skill

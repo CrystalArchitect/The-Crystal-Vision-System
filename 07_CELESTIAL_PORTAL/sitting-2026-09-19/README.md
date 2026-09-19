@@ -1,9 +1,9 @@
-# Sitting 2026-09-19 — Celestial Portal / CrystalCore shell extracts
+# Sitting 2026-09-19 — Celestial Portal / CrystalCore / AERIS extracts
 
-Includes **AI-SYSTEM-BRIEF** (verified Portal architecture handoff, 2026-09-10), a CrystalCore.OS App.tsx shell extract, HTML shell snapshots, and Social Orbit API stub Python extracts.
+Includes **AI-SYSTEM-BRIEF**, CrystalCore shells, Social Orbit stubs, **AERIS** guides/notes/UI extracts, and **MemoryCore** handoff extracts.
 
-**Built vs Vision:** follow the brief §9. No live hosted URL claimed here. HTML shells and API stubs are **Vision / kept trail**, not a claim of production deployment.
+**Built vs Vision:** follow AI-SYSTEM-BRIEF §9. AERIS Manus URL / MemoryCore Vercel notes in extracts are historical session claims — verify live before treating as Built. No Songline title/component.
 
-Also see paper freeze pack: [`../../handoff/crystalcore-os-freeze-2026-09-11/`](../../handoff/crystalcore-os-freeze-2026-09-11/).
+Also: [`../../handoff/crystalcore-os-freeze-2026-09-11/`](../../handoff/crystalcore-os-freeze-2026-09-11/).
 
 See [`../../docs/COLLECTION-LOG-2026-09-19.md`](../../docs/COLLECTION-LOG-2026-09-19.md).
