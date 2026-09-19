@@ -16,21 +16,35 @@
 ## Launch & range (safe framing)
 | Asset | Use in pitch |
 |---|---|
-| Northern AU ranges (generic) | Future Starship-capable geography + TSA pathway — diligence required |
-| Gilmour Bowen | Licensed orbital site + LV/sat builder |
+| Northern AU ranges (generic) | Future Starship-capable geography + TSA pathway — diligence required. Map label: **North (diligence)**. |
+| Gilmour Bowen | Licensed orbital site + LV/sat builder. Map: gold **Bowen / Gilmour**. |
+| Southern Launch Koonibba | Commercial spacecraft re-entry (from Feb 2025). Map: gold **Koonibba / Whalers Way**. |
+| Southern Launch Whalers Way | Polar / SSO orbital complex. Same gold node as Koonibba. |
+| Christmas Island | Starship recovery adjacency (Ship 40, Jul–Aug 2026). Peach node — **not** a pad or MoU. |
 | ~~ELA Arnhem as operating equatorial port~~ | **Remove** until/unless a successor entity exists |
+
+Full figure key (purpose, colours, all eight dots including the three city hubs): [`04-INDUSTRIAL-NODES.md`](04-INDUSTRIAL-NODES.md).
 
 ## Manufacturing / propulsion / sensing
 | Asset | Status for external send |
 |---|---|
-| Titomic TKF | Exploratory / demo manufacturing |
+| Titomic TKF | Exploratory / demo manufacturing. Map hub: cyan **Melbourne**. |
 | Neumann Drive | Flight-demonstrated Mo EP; roadmap items labelled |
 | Hypersonix SPARTAN | Flight demo 2026 |
-| Fleet Space | Commercial mapping constellation |
-| EOS | Proven laser SSA; soft-pedal “debris shield” |
+| Fleet Space | Commercial mapping constellation. Map hub: cyan **Adelaide**. |
+| EOS | Proven laser SSA; soft-pedal “debris shield”. Map hub: cyan **Canberra**. |
 
 ## Academy
 Western Sydney Aerotropolis (sim/classroom) + Qld flight corridor (Gilmour/Bowen) + ADFA leadership model + UNSW Canberra Space / RMIT / CSIRO.
+
+Map: gold **W. Sydney Academy**; cyan **Canberra** for the ADFA / UNSW / ASA spine.
+
+## Institutional hubs on the schematic
+| Node | Use in pitch |
+|---|---|
+| Adelaide | Fleet Space commercial LEO / ExoSphere; SA launch-operator adjacency |
+| Melbourne | Titomic / AM. SpIRIT = UniMelb / Inovor / Neumann — **not Gilmour** |
+| Canberra | ASA · ADFA · UNSW Canberra Space · EOS |
 
 ## SpaceX ask package
 1. Diligence call on northern AU launch geography (not ELA liquidation).  
