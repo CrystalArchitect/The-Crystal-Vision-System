@@ -42,3 +42,9 @@ React_Artifact_555a.html
 clementine.skill
 taskmarket.skill
 web-os-easter-eggs.skill
+
+--- wave 2026-09-19c (filings evidence) ---
+elon-musk-evidence-LITE-2026-09-16_1898.zip
+  (reports extracted to 13_RESEARCH_SOURCES/.../elon-musk-filings-2026-09-16/; privacy/sec snippets stay in zip)
+elon-musk-evidence-FILINGS-2026-09-16_b122.zip
+  (large SEC HTML: 424B4, 10-Q, 10-K, DEF 14A — hold only; verify via EDGAR + SHA256SUMS)

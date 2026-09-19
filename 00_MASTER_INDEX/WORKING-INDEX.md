@@ -37,6 +37,8 @@
 | CVS-AERIS-07 | 07 | AERIS site guides + VAULT 12 report + UI extracts (Vision) | vision | no | `/07_CELESTIAL_PORTAL/sitting-2026-09-19/aeris/` |
 | CVS-FERMI-SL | 10 | Fermi's Silent Line poster (creative; not Songline) | vision | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/Fermis-Silent-Line-poster.jpg` |
 | CVS-CLEM-SKILL | 08 | Clementine companion SKILL.md (filed under docs/bots) | coordination | no | `/docs/bots/clementine/SKILL.md` |
+| CVS-FILINGS-EM | 13 | Elon Musk public-record filings pack 2026-09-16 | research | no | `/13_RESEARCH_SOURCES/sitting-2026-09-19/elon-musk-filings-2026-09-16/` |
+| CVS-PORTAL-HYB | 07 | Celestial Portal hybrid engineering brief 2026-09-16 (design) | vision | no | `/07_CELESTIAL_PORTAL/sitting-2026-09-19/celestial-portal-hybrid-engineering-brief-2026-09-16.md` |
 | CVS-SAT-03 | 03 | SAT drawer + sitting-2026-09-19 extracts | research | no | `/03_SYNTHETIC_AFFECT_THEORY/` |
 | CVS-MUSIC-TREE | 10 | Music Theory Tree plate (C major modes) | research | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/music-theory-tree-C-major-modes.jpg` |
 
@@ -44,7 +46,7 @@ Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
-- **2026-09-19 (collection):** Filed agent upload dumps into drawers 03/07/10/11/12/13/14/16/19/20/99. Freeze pack full under `handoff/`. Wave-b: AERIS + MemoryCore extracts under Portal sitting; **Fermi's Silent Line** poster + stories/Codex extracts under creative; Master Plan / ecosystem review under correspondence; Clementine `SKILL.md` under `docs/bots/`. Held zips/bundles/skill-packages/torrents. Canon: no.
+- **2026-09-19 (collection):** Filed agent upload dumps into drawers 03/07/10/11/12/13/14/16/19/20/99. Freeze pack full under `handoff/`. Wave-b: AERIS + MemoryCore; Fermi's Silent Line poster; Master Plan; Clementine SKILL. Wave-c: Portal hybrid engineering brief (design); Elon Musk public-record filings pack under research + bylined article under publications; evidence zips held. Canon: no.
 
 - **2026-09-19:** Alive Weave — CrystalBridge ConsentGate wired into pulse + weave (allow/refuse proven; `signal.gate_check` into twin). Gate on by default; `--no-gate` to skip. Canon: no.
 
