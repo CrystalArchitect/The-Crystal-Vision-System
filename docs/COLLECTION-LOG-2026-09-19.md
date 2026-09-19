@@ -17,13 +17,13 @@ Documents and artifacts dropped into the agent session without an explicit build
 | 07 Portal | [`07_CELESTIAL_PORTAL/sitting-2026-09-19/`](../07_CELESTIAL_PORTAL/sitting-2026-09-19/) — AI-SYSTEM-BRIEF, CrystalCore shells, Social Orbit stubs, **AERIS/**, **memorycore/**, **hybrid engineering brief** (design) |
 | handoff | [`handoff/crystalcore-os-freeze-2026-09-11/`](../handoff/crystalcore-os-freeze-2026-09-11/) — full freeze pack (00–06 + LICENSE-CODE/MYTHOS) |
 | 10 Creative | [`10_ORIGINAL_CREATIVE/sitting-2026-09-19/`](../10_ORIGINAL_CREATIVE/sitting-2026-09-19/) — Fermi poster, **starcrystal/** atlas HTML, **sovereign-lattice-game/**, Field Book, Codex/SyncMe |
-| 11 Correspondence | [`11_CORRESPONDENCE/sitting-2026-09-19/`](../11_CORRESPONDENCE/sitting-2026-09-19/) — Master Plan, ecosystem review, proposal parallel-build, todos/ideas |
-| 12 Publications | [`12_PUBLICATIONS/sitting-2026-09-19/`](../12_PUBLICATIONS/sitting-2026-09-19/) — Bergson note, website pptx, **what-the-filings-show** (17 Sep 2026) |
+| 11 Correspondence | [`11_CORRESPONDENCE/sitting-2026-09-19/`](../11_CORRESPONDENCE/sitting-2026-09-19/) — Master Plan, ecosystem review, 90-day roadmap PDF, GROK save rule |
+| 12 Publications | [`12_PUBLICATIONS/sitting-2026-09-19/`](../12_PUBLICATIONS/sitting-2026-09-19/) — filings article, proposal HTML one-pagers (08/13/14/16), website pptx |
 | 13 Research | [`13_RESEARCH_SOURCES/sitting-2026-09-19/`](../13_RESEARCH_SOURCES/sitting-2026-09-19/) — screenshots/PDFs + [`elon-musk-filings-2026-09-16/`](../13_RESEARCH_SOURCES/sitting-2026-09-19/elon-musk-filings-2026-09-16/) public-record dossier pack |
-| 14 AI interactions | [`14_AI_INTERACTIONS/sitting-2026-09-19/`](../14_AI_INTERACTIONS/sitting-2026-09-19/) — briefs + `skills/web-os-easter-eggs-SKILL.md` |
+| 14 AI interactions | [`14_AI_INTERACTIONS/sitting-2026-09-19/`](../14_AI_INTERACTIONS/sitting-2026-09-19/) — briefs, skills, Meta AI export HTML |
 | bots | [`docs/bots/clementine/SKILL.md`](../docs/bots/clementine/SKILL.md) — Clementine companion skill (markdown) |
+| 16 AI safety | [`16_AI_SAFETY_RESEARCH/sitting-2026-09-19/`](../16_AI_SAFETY_RESEARCH/sitting-2026-09-19/) — FC07, **CICH Framework**, xAI frontier framework PDF |
 | 17 Physics | [`17_PHYSICS_SIMULATION/sitting-2026-09-19/`](../17_PHYSICS_SIMULATION/sitting-2026-09-19/) — BUILT gem/sonic plates, stellar fusion/CMB notes |
-| 16 AI safety | [`16_AI_SAFETY_RESEARCH/sitting-2026-09-19/`](../16_AI_SAFETY_RESEARCH/sitting-2026-09-19/) |
 | 19 Philosophy | [`19_PHILOSOPHICAL_FOUNDATIONS/sitting-2026-09-19/`](../19_PHILOSOPHICAL_FOUNDATIONS/sitting-2026-09-19/) — Chrome Ascendance + ONE BUT MANY Field Book |
 | 20 Economic | [`20_ECONOMIC_MODELS/sitting-2026-09-19/`](../20_ECONOMIC_MODELS/sitting-2026-09-19/) — TaskMarket skill pointer (binary held) |
 | 99 Unresolved | [`99_UNRESOLVED/sitting-2026-09-19/`](../99_UNRESOLVED/sitting-2026-09-19/) |
