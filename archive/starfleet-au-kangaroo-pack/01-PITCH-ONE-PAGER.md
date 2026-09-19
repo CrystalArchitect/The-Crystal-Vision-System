@@ -43,5 +43,6 @@ A 30-minute exploratory with SpaceX launch-site / manufacturing BD (and SpaceXAI
 
 **Contact:** Crystal Elle Arena-Turner · teraustralis.incognita@gmail.com · TerAustralis.com.au · +61 450 144 997
 
-## Visual
-Concept art: Kangaroo-class Explorer NCC-992-AU (ASM / Woomera Orbital Yard fiction sheet). **Not** an engineering claim — narrative cover for the Academy/shipyard pitch. Files: `assets/kangaroo-class-ncc-992-au.jpeg` + `.html`.
+## Visuals
+1. **AU industrial nodes (schematic)** — sales graphic of the existing launch / recovery / academy stack for this SpaceX / SpaceXAI ask. All eight nodes (Bowen, Koonibba / Whalers Way, W. Sydney Academy, Christmas Island, North diligence, Adelaide, Melbourne, Canberra), colour key, and purpose line live on `assets/au-sites-map.png`. Complete write-up: [`04-INDUSTRIAL-NODES.md`](04-INDUSTRIAL-NODES.md). A cropped five-dot export is incomplete.
+2. **Kangaroo-class Explorer NCC-992-AU** — ASM / Woomera Orbital Yard fiction sheet. **Not** an engineering claim — narrative cover for the Academy/shipyard pitch. Files: `assets/kangaroo-class-ncc-992-au.jpeg` + `.html`.

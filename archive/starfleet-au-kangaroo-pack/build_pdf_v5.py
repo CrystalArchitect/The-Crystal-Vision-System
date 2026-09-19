@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
 """Kangaroo-class pitch v5 — legible, concise 3-pager."""
+from pathlib import Path
+
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
 from reportlab.lib.colors import HexColor
 from reportlab.pdfgen import canvas
 from reportlab.lib.utils import ImageReader
-from PIL import Image as PILImage, ImageEnhance, ImageDraw
+from PIL import Image as PILImage, ImageEnhance
 
-out = "/workspace/starfleet-au-pack/Starfleet-Australia-Kangaroo-Class-Pitch.pdf"
-img_path = "/workspace/starfleet-au-pack/assets/kangaroo-class-ncc-992-au.jpeg"
-preview = "/workspace/starfleet-au-pack/assets/kangaroo-preview-hq.jpg"
-map_path = "/workspace/starfleet-au-pack/assets/au-sites-map.png"
+from nodes_map import render as render_nodes_map
+
+ROOT = Path(__file__).resolve().parent
+out = str(ROOT / "Starfleet-Australia-Kangaroo-Class-Pitch.pdf")
+img_path = str(ROOT / "assets" / "kangaroo-class-ncc-992-au.jpeg")
+preview = str(ROOT / "assets" / "kangaroo-preview-hq.jpg")
+map_path = str(render_nodes_map(ROOT / "assets" / "au-sites-map.png"))
 
 im = PILImage.open(img_path).convert("RGB")
 im = ImageEnhance.Contrast(im).enhance(1.18)
@@ -19,33 +24,6 @@ w, h = im.size
 im = im.crop((int(w * 0.02), int(h * 0.02), int(w * 0.98), int(h * 0.70)))
 im.thumbnail((2200, 1100), PILImage.Resampling.LANCZOS)
 im.save(preview, "JPEG", quality=92, optimize=True)
-
-mw, mh = 880, 680
-mp = PILImage.new("RGB", (mw, mh), (7, 14, 26))
-d = ImageDraw.Draw(mp)
-outline = [
-    (520, 40), (580, 70), (640, 120), (700, 200), (740, 280), (760, 360), (750, 450),
-    (720, 520), (680, 560), (620, 590), (540, 610), (460, 600), (400, 560), (360, 500),
-    (340, 420), (320, 340), (300, 280), (280, 220), (300, 160), (340, 100), (400, 60),
-    (460, 40), (520, 40),
-]
-d.polygon(outline, fill=(18, 36, 58), outline=(61, 190, 182), width=2)
-sites = [
-    ("Bowen / Gilmour", 620, 280, (212, 175, 55)),
-    ("Christmas Is.", 210, 210, (232, 168, 124)),
-    ("North (diligence)", 480, 130, (232, 168, 124)),
-    ("Koonibba / Whalers Way", 360, 380, (212, 175, 55)),
-    ("Adelaide", 420, 440, (61, 190, 182)),
-    ("Melbourne", 520, 510, (61, 190, 182)),
-    ("Canberra", 580, 410, (61, 190, 182)),
-    ("W. Sydney Academy", 640, 390, (212, 175, 55)),
-]
-for name, x, y, col in sites:
-    d.ellipse((x - 8, y - 8, x + 8, y + 8), fill=col)
-    d.text((x + 14, y - 8), name, fill=(240, 244, 250))
-d.text((24, 22), "AU INDUSTRIAL NODES (schematic)", fill=(212, 175, 55))
-d.text((24, mh - 28), "Not to scale · ELA not live · North = diligence only", fill=(154, 171, 191))
-mp.save(map_path)
 
 page_w, page_h = A4
 c = canvas.Canvas(out, pagesize=A4)
@@ -363,40 +341,56 @@ c.showPage()
 chrome("3 / 3")
 y = page_h - 28 * mm
 
-map_h = 78 * mm
-rr(M, y - map_h, 95 * mm, map_h, fill=panel, stroke=cyan)
+map_h = 92 * mm
+rr(M, y - map_h, 92 * mm, map_h, fill=panel, stroke=cyan)
 c.setFillColor(gold)
 c.setFont("Helvetica-Bold", 9)
-c.drawString(M + 3.5 * mm, y - 5.5 * mm, "GEOGRAPHY")
+c.drawString(M + 3.5 * mm, y - 5.5 * mm, "GEOGRAPHY — ALL NODES")
 c.drawImage(
     ImageReader(map_path),
     M + 3 * mm,
     y - map_h + 3 * mm,
-    width=89 * mm,
+    width=86 * mm,
     height=map_h - 11 * mm,
     preserveAspectRatio=True,
     mask="auto",
 )
 
-rr(M + 99 * mm, y - map_h, page_w - 2 * M - 99 * mm, map_h, fill=panel, stroke=gold)
+key_x = M + 96 * mm
+key_w = page_w - 2 * M - 96 * mm
+rr(key_x, y - map_h, key_w, map_h, fill=panel, stroke=gold)
 c.setFillColor(gold)
 c.setFont("Helvetica-Bold", 9)
-c.drawString(M + 103 * mm, y - 5.5 * mm, "ACADEMY")
-bullets(
-    [
-        "Y1 — Shipbuilding · propulsion · astrogation",
-        "Y2 — UE5 / MR holodeck sims",
-        "Y3 — Cislunar tug capstone + live range",
-        "Spine — ADFA leadership model",
-        "Sites — W. Sydney + Qld / SA corridors",
-    ],
-    M + 103 * mm,
-    y - 14 * mm,
-    page_w - M - 108 * mm,
-    size=8,
-    leading=10.5,
-    gap=2 * mm,
+c.drawString(key_x + 3.5 * mm, y - 5.5 * mm, "WHAT THIS IS FOR")
+ky = wrap(
+    "Sales graphic: existing AU launch / recovery / academy stack for SpaceX / SpaceXAI — not a Starbase site map. Cropped five-dot exports are incomplete.",
+    key_x + 3.5 * mm,
+    y - 13 * mm,
+    key_w - 7 * mm,
+    size=7,
+    leading=9,
 )
+ky -= 2.2 * mm
+node_rows = [
+    (gold, "Bowen / Gilmour", "Licensed orbital pad · Eris (not orbital yet)"),
+    (gold, "Koonibba / Whalers Way", "Southern Launch re-entry + polar/SSO"),
+    (gold, "W. Sydney Academy", "Sim / classroom · ADFA spine · Y1–Y3 build→sim→range"),
+    (warn, "Christmas Is.", "Ship 40 recovery adjacency — not a pad"),
+    (warn, "North (diligence)", "Future heavy-lift geography; ELA not live"),
+    (cyan, "Adelaide", "Fleet Space commercial LEO / ExoSphere"),
+    (cyan, "Melbourne", "Titomic / AM · SpIRIT ≠ Gilmour"),
+    (cyan, "Canberra", "ASA · ADFA · UNSW Canberra · EOS"),
+]
+for color, name, body in node_rows:
+    c.setFillColor(color)
+    c.circle(key_x + 5.5 * mm, ky + 1.2 * mm, 1.3 * mm, fill=1, stroke=0)
+    c.setFillColor(color)
+    c.setFont("Helvetica-Bold", 6.6)
+    c.drawString(key_x + 9 * mm, ky, name)
+    c.setFillColor(light)
+    c.setFont("Helvetica", 6.4)
+    c.drawString(key_x + 42 * mm, ky, body)
+    ky -= 6.6 * mm
 
 y = y - map_h - 5 * mm
 
@@ -444,6 +438,20 @@ for i, (title, stroke, body) in enumerate(panels):
     c.setFont("Helvetica-Bold", 8)
     c.drawString(x + 3 * mm, y - 5.5 * mm, title)
     wrap(body, x + 3 * mm, y - 12 * mm, third - 6 * mm, size=7.5, leading=9.5)
+
+y = y - 34 * mm - 4 * mm
+rr(M, y - 22 * mm, page_w - 2 * M, 22 * mm, fill=panel, stroke=cyan)
+c.setFillColor(gold)
+c.setFont("Helvetica-Bold", 8)
+c.drawString(M + 3.5 * mm, y - 5.5 * mm, "ACADEMY (KEPT WITH THE MAP)")
+wrap(
+    "Y1 shipbuilding · propulsion · astrogation   ·   Y2 UE5 / MR holodeck sims   ·   Y3 cislunar tug capstone + live range   ·   Spine ADFA + UNSW Canberra   ·   Sites W. Sydney Aerotropolis + Qld / SA corridors",
+    M + 3.5 * mm,
+    y - 13 * mm,
+    page_w - 2 * M - 7 * mm,
+    size=7.5,
+    leading=9.5,
+)
 
 rr(M, 7 * mm, page_w - 2 * M, 20 * mm, fill=HexColor("#101f35"), stroke=gold, sw=1)
 c.setFillColor(gold)
