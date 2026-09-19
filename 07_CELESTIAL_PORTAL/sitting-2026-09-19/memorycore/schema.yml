@@ -1,0 +1,55 @@
+version: 2
+
+models:
+  - name: dim_emotions
+    description: Emotion reference table with Goleman EI framework mapping
+    columns:
+      - name: emotion_idx
+        description: Numeric emotion identifier (0-27)
+        tests:
+          - unique
+          - not_null
+
+      - name: emotion_label
+        description: Emotion name (e.g., 'joy', 'anger')
+        tests:
+          - unique
+          - not_null
+
+      - name: ei_component
+        description: Goleman EI framework component this emotion relates to
+        tests:
+          - accepted_values:
+              values: ['self-awareness', 'self-regulation', 'motivation', 'empathy', 'social_skills', 'neutral']
+
+      - name: emotional_valence
+        description: Positive, neutral, or challenging emotion
+        tests:
+          - accepted_values:
+              values: ['positive', 'neutral', 'challenging']
+
+  - name: fct_emotion_predictions
+    description: Fact table of all emotion predictions with uncertainty metrics
+    columns:
+      - name: prediction_id
+        description: Unique prediction identifier
+        tests:
+          - unique
+          - not_null
+
+      - name: confidence_level
+        description: Confidence categorization
+        tests:
+          - accepted_values:
+              values: ['low', 'medium', 'high']
+
+      - name: is_high_entropy
+        description: Whether entropy exceeds threshold (ambiguous prediction)
+        tests:
+          - not_null
+
+      - name: labeling_status
+        description: Active learning labeling status
+        tests:
+          - accepted_values:
+              values: ['queried', 'labeled', 'rejected', 'pending']

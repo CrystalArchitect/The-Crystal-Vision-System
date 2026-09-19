@@ -11,7 +11,7 @@ Canon is a Crystal stamp, not a folder.
 | 00_MEMORY | [folder](https://drive.google.com/drive/folders/198aF86HlpiXyuX70sHcPdY6bBSn0TLmf) | `00_MEMORY/` (research); protocol also at `memory/` — see note below |
 | 01_CRYSTALCORE | [folder](https://drive.google.com/drive/folders/1tsk47DWrkTxGt8pqrZj_Hsaw5Ar32uLl) | pointers only — code stays in its own repo |
 | 02_TERAUSTRALIS_INCOGNITA | [folder](https://drive.google.com/drive/folders/1zh9v_cdbpTUcrg8RGvVr82OXmYscTZmT) | pointers only — Canon Map stays in TerAustralis git |
-| 03_SYNTHETIC_AFFECT_THEORY | [folder](https://drive.google.com/drive/folders/1xLr8YAGNJp6LgN8TKbAZ15P5_A1aGn0X) | `docs/SAT-STACK.md` until moved |
+| 03_SYNTHETIC_AFFECT_THEORY | [folder](https://drive.google.com/drive/folders/1xLr8YAGNJp6LgN8TKbAZ15P5_A1aGn0X) | `03_SYNTHETIC_AFFECT_THEORY/` + `docs/SAT-STACK.md` |
 | 04_STARLINES | [folder](https://drive.google.com/drive/folders/1MaoTMD00TBpKflk5Vya_tE75OUbRZmb4) | pointer |
 | 05_DREAMLINES | [folder](https://drive.google.com/drive/folders/1uJqI75n1ZjnfXErzRirmCqEt18Sbd_hN) | pointer |
 | 06_CMX_CONTINUUM | [folder](https://drive.google.com/drive/folders/1JfBcQM7PFBvB_1gr-vJC8FBnprbn-ACR) | pointer |
@@ -19,10 +19,10 @@ Canon is a Crystal stamp, not a folder.
 | 08_SHARED_CROSS_PROJECT | [folder](https://drive.google.com/drive/folders/1RJx5sAJ805CP3zvC7O84TW_h0j-lxHBh) | `docs/PROVENANCE-LINKING.md` + `docs/BOT-STRUCTURE.md` |
 | 09_PRIVATE_PROTECTED | [folder](https://drive.google.com/drive/folders/1KWkX1GLQRTuApso6N8R5Uy1XcRVNqKn8) | do not commit secrets |
 | 10_ORIGINAL_CREATIVE | [folder](https://drive.google.com/drive/folders/1VLJdk0zE5X1W4xETiR-N1RmIxIDuXEIB) | `10_ORIGINAL_CREATIVE/` + `codex/` (Codex Crystalum) |
-| 11_CORRESPONDENCE | [folder](https://drive.google.com/drive/folders/1_l5CMzzmcKBfjArh0PPraN6l8WnkBeep) | pointer |
-| 12_PUBLICATIONS | [folder](https://drive.google.com/drive/folders/1sghk5oCm9xWt5Y4lTTqBzDibgJBvUc8x) | pointer |
+| 11_CORRESPONDENCE | [folder](https://drive.google.com/drive/folders/1_l5CMzzmcKBfjArh0PPraN6l8WnkBeep) | `11_CORRESPONDENCE/` |
+| 12_PUBLICATIONS | [folder](https://drive.google.com/drive/folders/1sghk5oCm9xWt5Y4lTTqBzDibgJBvUc8x) | `12_PUBLICATIONS/` |
 | 13_RESEARCH_SOURCES | [folder](https://drive.google.com/drive/folders/1SSUF0jfCVFvv-oZvKD4OoQueC6wvHLv-) | Permutt = research, not Codex |
-| 14_AI_INTERACTIONS | [folder](https://drive.google.com/drive/folders/1WJMWSdgPEVxjMOhW_vWAEJrAbV3o2G48) | extracts only |
+| 14_AI_INTERACTIONS | [folder](https://drive.google.com/drive/folders/1WJMWSdgPEVxjMOhW_vWAEJrAbV3o2G48) | `14_AI_INTERACTIONS/` |
 | 15_ARCHIVE_HISTORY | [folder](https://drive.google.com/drive/folders/11WKhsG0G74H7JPAIEUU21-KMw8QQO9QV) | pointer |
 | 16_AI_SAFETY_RESEARCH | [folder](https://drive.google.com/drive/folders/TBD) | `16_AI_SAFETY_RESEARCH/` + pointers to swarm, automaton, agency-os |
 | 17_PHYSICS_SIMULATION | [folder](https://drive.google.com/drive/folders/TBD) | `17_PHYSICS_SIMULATION/` + pointers to mars-cybertruck-sim |

@@ -32,11 +32,27 @@
 | CVS-CRYSTAL-DEC | 00 | Crystal decisions pending (Drive / naming / stubs) | coordination | no | `/00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md` |
 | CVS-AXIOM-AUDIT | 00 | Axiom Audit Framework (Thread 3 map) | research | no | `/00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md` |
 | CVS-BOTS | 08 | Bot structure (ops + weave + companion + infra + research) | coordination | no | `/docs/BOT-STRUCTURE.md` |
+| CVS-COLLECT-0919 | 00 | Collection sitting 2026-09-19 (SAT/Portal/Codex/AERIS/MemoryCore dumps + freeze) | fact | no | `/docs/COLLECTION-LOG-2026-09-19.md` |
+| CVS-CC-FREEZE | handoff | CrystalCore.OS freeze pack 2026-09-11 (full paper freeze) | fact | no | `/handoff/crystalcore-os-freeze-2026-09-11/` |
+| CVS-AERIS-07 | 07 | AERIS site guides + VAULT 12 report + UI extracts (Vision) | vision | no | `/07_CELESTIAL_PORTAL/sitting-2026-09-19/aeris/` |
+| CVS-FERMI-SL | 10 | Fermi's Silent Line poster (creative; not Songline) | vision | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/Fermis-Silent-Line-poster.jpg` |
+| CVS-CLEM-SKILL | 08 | Clementine companion SKILL.md (filed under docs/bots) | coordination | no | `/docs/bots/clementine/SKILL.md` |
+| CVS-FILINGS-EM | 13 | Elon Musk public-record filings pack 2026-09-16 | research | no | `/13_RESEARCH_SOURCES/sitting-2026-09-19/elon-musk-filings-2026-09-16/` |
+| CVS-PORTAL-HYB | 07 | Celestial Portal hybrid engineering brief 2026-09-16 (design) | vision | no | `/07_CELESTIAL_PORTAL/sitting-2026-09-19/celestial-portal-hybrid-engineering-brief-2026-09-16.md` |
+| CVS-MC-TRUTH | 00 | MemoryCore vs local-first architecture truth-check 2026-09-19 | coordination | no | `/00_MASTER_INDEX/MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md` |
+| CVS-STARCRYSTAL | 10 | StarCrystal HTML atlas extracts (Fermi Silent Line pages = art titles) | vision | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/starcrystal/` |
+| CVS-CICH | 16 | CICH Framework v1 (Cognitive Immune Complex) | research | no | `/16_AI_SAFETY_RESEARCH/sitting-2026-09-19/CICH-Framework-v1.md` |
+| CVS-SAT-03 | 03 | SAT drawer + sitting-2026-09-19 extracts | research | no | `/03_SYNTHETIC_AFFECT_THEORY/` |
+| CVS-MUSIC-TREE | 10 | Music Theory Tree plate (C major modes) | research | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/music-theory-tree-C-major-modes.jpg` |
 | CVS-LATTICE-PLATE | 10 | Vision plate — Lattice lock / NON SOLUS (2026-09-19) | vision | no | `/10_ORIGINAL_CREATIVE/vision-plates/2026-09-19-LATTICE-LOCK-EXTRACT.md` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-19 (architecture):** MemoryCore discrepancy truth-checked — local-first Clementine (Track A) vs optional cloud/archive vault (Track B). Interim = separate tracks (packet E1). Doc: `MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md`. Nag Hammadi BookItems / infra map parked until labels held. Canon: no.
+
+- **2026-09-19 (collection):** Waves a–d filed (freeze, AERIS/MemoryCore, filings dossier, **starcrystal/** atlas + sovereign-lattice-game, CICH, physics BUILT plates, proposal HTML one-pagers). Large atlas/proxy/odyssey binaries held. Canon: no.
 
 - **2026-09-19 (vision):** Filed Lattice lock / NON SOLUS status card + image as vision plate extract (Canon: no). Not a component stamp.
 

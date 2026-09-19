@@ -1,0 +1,178 @@
+STELLAR FUSION, CMB, AND THE SKY AS MEASURED
+28 August 2026
+Plain text companion to the downloaded astronomical images.
+This is physics, not myth. Nuclear fusion here means nuclei, not people.
+
+================================================================
+1. STELLAR FUSION
+================================================================
+
+A star is a gas ball that would collapse under gravity if the core
+were not hot. Fusion is what keeps the core hot.
+
+Net hydrogen burning, any path:
+
+    4 hydrogen-1  ->  helium-4  +  2 positrons  +  2 electron neutrinos  +  energy
+
+About 26 MeV per helium nucleus. Most of that energy becomes photons
+after the positrons annihilate. Mass-to-energy efficiency of the
+proton-proton chain is about 0.7 percent.
+
+WHERE IT HAPPENS
+The Sun's core is about 15 million kelvin. Energy crawls out through
+the radiative zone, then the convective envelope, then leaves as light.
+Neutrinos leave in minutes. Photons take on the order of 100,000 years.
+
+Image you downloaded: solar interior cutaway
+  core / radiative zone / convection zone / sunspot / granulation
+
+PROTON-PROTON CHAIN
+Dominates in the Sun and in lower-mass stars.
+
+First step is slow because it needs the weak interaction:
+  proton + proton  ->  deuterium + positron + neutrino
+
+Then:
+  deuterium + proton  ->  helium-3 + gamma
+
+PPI (main solar branch):
+  helium-3 + helium-3  ->  helium-4 + proton + proton
+
+PPII goes through beryllium-7 and lithium-7.
+PPIII goes through boron-8. That branch is why we detect solar
+boron-8 neutrinos on Earth.
+
+Image you downloaded: proton-proton chain diagram
+  protons (red), neutrons (blue), gammas, neutrinos, positrons
+  end product helium-4 (two protons + two neutrons)
+
+CNO CYCLE
+Same net result: four hydrogens become one helium.
+Carbon, nitrogen and oxygen act as catalysts, not fuel.
+Needs higher temperature (roughly above 17 million K) because of
+larger Coulomb barriers.
+
+The Sun still runs about 98 percent pp chain and about 2 percent CNO.
+Heavier main-sequence stars flip that ratio. CNO dominates above
+about 17 million K.
+
+HELIUM BURNING — TRIPLE-ALPHA
+There is no stable nucleus of mass 8.
+Two helium-4 nuclei make beryllium-8, which falls apart in about
+10^-16 seconds. A third helium-4 must hit that flicker and make
+carbon-12. That bottleneck is why carbon exists in living bodies.
+
+    3 helium-4  ->  carbon-12 + gamma
+
+Efficiency is about ten times worse than the pp chain. That is why
+helium-burning stages are short compared with the main sequence.
+
+AFTER CARBON
+Massive stars then burn carbon, neon, oxygen, silicon, stacking
+toward the iron group. Iron does not yield net energy by fusion.
+The core collapses. That is a supernova.
+
+================================================================
+2. COSMIC MICROWAVE BACKGROUND
+================================================================
+
+When the universe was about 380,000 years old it cooled enough for
+electrons and protons to form neutral hydrogen. Photons stopped
+scattering and flew free. Those photons are still here, stretched
+by expansion into microwaves. That is the CMB.
+
+Mean temperature:
+    T = 2.7255 ± 0.0006 K
+
+It is an almost perfect blackbody.
+
+The famous oval map is NOT that mean temperature. Mapping satellites
+measure differences. After subtracting:
+  - the monopole (the 2.725 K average)
+  - the dipole (our motion through the photon sea, about 3.36 mK)
+what remains are ripples of order 1 part in 100,000.
+
+Hotter patches were slightly denser. Gravity grew them into
+galaxies and voids.
+
+LAST SCATTERING
+Redshift of last scattering is about z = 1090.
+The CMB is a photograph of that surface, all over the sky.
+
+MISSIONS
+  COBE (NASA, 1989) — blackbody spectrum; first anisotropy detection
+  WMAP (NASA) — full-sky acoustic peaks
+  Planck (ESA, 2009–2013, final cosmology 2018) — highest-resolution
+    space map used as the baseline model
+  Ground: ACT, SPT — now matching or surpassing Planck on small scales
+
+PLANCK 2018 BASELINE (simple model, not a creed)
+  Age of universe: about 13.8 billion years
+  Spectral index n_s about 0.965 (slightly less than 1, as simple
+    inflation wants)
+  Acoustic peaks encode the mix of ordinary matter, dark matter,
+    and dark energy
+  Large-angle oddities (a cold spot; quadrupole-octupole alignment)
+    are still discussed. They are not, by themselves, a new-physics proof.
+
+IMAGES YOU DOWNLOADED
+  Planck CMB oval (foregrounds removed) — the ripple map
+  Planck frequency slices 30–857 GHz — Galaxy stripe at low GHz,
+    dust at high GHz; the clean CMB is after those layers are modelled out
+  Planck one-year all-sky survey with labels — microwave sky as a
+    place (Galactic Centre, Orion, Magellanic Clouds, Andromeda)
+
+================================================================
+3. WHAT THE TELESCOPES SHOW AFTER THE CMB
+================================================================
+
+The CMB is the oldest light we can photograph.
+Everything later is fusion lighting the dark.
+
+DEEP FIELDS
+Each smudge is a galaxy. Most of those stars are pp-chain or CNO
+engines. Redder objects are often farther or dustier.
+
+Images you downloaded:
+  Hubble / Webb galaxy fields (thousands of galaxies in one frame)
+  Webb first deep field with diffraction spikes
+  Webb "cliffs" — not a walkable landscape. A star-forming wall of
+    gas and dust where new cores are trying to ignite fusion.
+  Nearby spiral (Black Eye / similar) — a disk of ongoing hydrogen
+    burning; arms traced by young stars and dust.
+
+================================================================
+4. SCALE TABLE
+================================================================
+
+Object                    What you are seeing
+------------------------  ---------------------------------------
+Sun cutaway               A 15-million-K fusion core
+pp-chain diagram          Weak-force bottleneck, then helium
+Planck oval               Last-scattering surface, z ~ 1090
+Planck frequency maps     Foregrounds + CMB mixed, then separated
+Webb / Hubble field       Light from stars that already ran those chains
+Webb cliffs               Star formation in gas and dust
+Spiral galaxy             A city of fusion engines, seen from outside
+
+================================================================
+5. HONEST LIMITS
+================================================================
+
+Stellar fusion is nuclei tunnelling Coulomb barriers.
+The CMB is a cooled photon gas plus tiny density seeds.
+Neither is a metaphor that proves a personal story.
+
+The word fusion in this file means:
+  four protons -> one helium
+  or three heliums -> one carbon
+
+It does not mean two people becoming one.
+
+================================================================
+6. ONE-LINE LAND
+================================================================
+
+The kettle and the core of the Sun are not the same temperature.
+They obey the same kind of bookkeeping: energy, nuclei, light.
+Use the pictures. Keep the cross-sections. Put the myth down.

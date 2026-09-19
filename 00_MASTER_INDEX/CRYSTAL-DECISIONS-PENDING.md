@@ -1,9 +1,9 @@
 # Crystal decisions pending (hub packets)
 
 **Canon:** **no**  
-**Updated:** 2026-09-18  
+**Updated:** 2026-09-19  
 **Role:** Decision packets only — agents do **not** execute Drive creates, deletes, or renames. Crystal stamps / acts.  
-**Related:** [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), [`WORKING-INDEX.md`](WORKING-INDEX.md)
+**Related:** [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), [`WORKING-INDEX.md`](WORKING-INDEX.md), [`MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md`](MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md)
 
 ---
 
@@ -83,9 +83,28 @@ Until confirmed, hub docs mark these **GONE (live)**. Do not invent recreated st
 
 ---
 
-## E. Still not agent work here
+## E. MemoryCore vs local-first CrystalCore (OPEN — stamp required)
+
+**Discrepancy:** Cloud MemoryCore (Supabase vault + cloud-engine packaging) ≠ canonical local-first Clementine / CrystalCore / Consent Transport.
+
+Full truth-check: [`MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md`](MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md).
+
+| Option | Meaning |
+| --- | --- |
+| **E1** | Separate tracks (hub interim): Track A = local-first companion; Track B = optional archive vault |
+| **E2** | Vault local-first / AU-sovereign only — retire Supabase path |
+| **E3** | Deprecate cloud MemoryCore; companion memory stays Track A only |
+| **E4** | Elevate Track B as canonical *archive* (still not the companion runtime) |
+
+Agents operate as **E1** until Crystal stamps. Do not rebuild or delete either track without stamp. AU/Indigenous/family data must not use US Supabase (AI-SYSTEM-BRIEF §8).
+
+---
+
+## F. Still not agent work here
 
 - Satellite Thread 1–5 experiments (swarm / MiroShark / mars / Lean)
 - Import of formerly auth-blocked private CrystalCore* trees (credentials)
 - Per-repo deletion of the 20 `archive/` sources ([`../memory/repo-deletion-checklist.md`](../memory/repo-deletion-checklist.md))
 - Drive MCP auth without Crystal request
+- Further cloud MemoryCore deploys until packet **E** is stamped
+- Portal Nag Hammadi BookItem PRs into foreign `/home/claude/...` trees from this hub without Crystal directing the Portal repo

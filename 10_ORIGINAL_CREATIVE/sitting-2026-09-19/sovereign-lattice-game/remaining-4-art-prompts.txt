@@ -1,0 +1,32 @@
+
+--- HIGH-RES ART PROMPTS - Z. FENG / Codex Mechanicae / Ricardo Cavolo / Elias Aurelian Style ---
+
+All share the same cohesive language as your 8:
+- Ornate silver-dark blue filigree frame with sacred geometry (hexagram, scales, quill, compass rose, star, hourglass)
+- Central luminous crystal lattice core, blue-white star particles
+- Base: red Australian outback dust / mesa, Top: deep starfield with constellations
+- Lighting: cinematic, glowing, soft volumetric, ultra-detailed fantasy-tech
+- Artist credit style: AUS • EN, small shield icon
+- Frame: same as Credit Eraser Elixir + CrystalCore OS
+
+1. APOCRYPHON OF CRYSTAL - {2}{W} - Sorcery
+Prompt:
+"Full Magic the Gathering card art for 'Apocryphon of Crystal', sorcery. Ornate mystical frame in exact style of Credit Eraser Elixir and CrystalCore OS: intricate silver and dark blue filigree borders with sacred geometry symbols (hexagram, scales, quill, compass, hourglass). Central art: an ancient open codex floating above red dust mesa, pages made of light and crystalline lattice, glowing blue-white glyphs and constellations rising from the book into starfield, pearl dust particles, a faint geometric Australia silhouette in the light. Title 'Apocryphon of Crystal' at top, sorcery type line, rules text box for draw + Crystal tokens. High-detail luminous fantasy-tech illustration, style of Z. FENG and Codex Mechanicae, 8k, sharp focus."
+
+2. SOUTHERN REDUNDANCY - {1}{R}{W} - Instant
+Prompt:
+"Full Magic the Gathering card art for 'Southern Redundancy', instant. Same ornate frame as TerAustralis Incognita and Red Dust Refinery: magenta-red gold trim with navy sacred geometry. Central art: two golden rockets launching in parallel from red outback launch pads, contrails forming perfect symmetric arcs into starry night, below a lattice of white-blue crystal nodes mirroring the launch - redundancy as sacred geometry. Small crystal Australia in launch smoke. Fast, dynamic, aggressive flying energy. Title at top, instant frame, high-detail cinematic lighting, style of Z. FENG."
+
+3. CONSENT TOKEN PROTOCOL - {W} - Instant
+Prompt:
+"Full Magic the Gathering card art for 'Consent Token Protocol', instant. Ornate silver-blue filigree frame with protective ward symbols (shield, scales, compass). Central art: a single glowing Crystal token hovering in front of a silhouetted hand, projecting a translucent sovereign lattice shield dome over a small figure - consent as a luminous barrier, soft white-blue protection field, red dust ground, starfield above. Minimal, quiet, sovereign. 'Sovereign by design' energy, not aggressive. Same style as Sovereign Lattice by Ricardo Cavolo and CrystalCore OS by Codex Mechanicae, luminous and protective."
+
+4. MULTIPLANETARY CLAIM - {4}{R}{W} - Sorcery
+Prompt:
+"Full Magic the Gathering card art for 'Multiplanetary Claim', sorcery. Epic wide-angle ornate frame, same as Sovereign Lattice: navy and gold, star compass at top. Central art: vista from red Australian desert to Mars on horizon - three rocket artifact tokens ascending in formation leaving crystal contrails, two large Crystal tokens orbiting like moons, a wide army of small flying artifact creatures gaining golden light, Earth and Mars faintly visible in starfield, geometric Australia constellation overhead glowing gold. Phrase 'Australia -> Multiplanetary. The sky is large enough for both.' as flavor inspiration. Grand, hopeful, multiplanetary scope, style of Z. FENG + Elias Aurelian, ultra-detailed, cinematic."
+
+Render Notes:
+- Aspect: portrait 2.5:3.5 MTG
+- Use same border textures as your 8 uploads (aged parchment bottom, dark starfield top)
+- Keep text boxes in Times / Beleren font, italic flavor
+- Add collector numbers: M 0035-0038/150 AUS • EN

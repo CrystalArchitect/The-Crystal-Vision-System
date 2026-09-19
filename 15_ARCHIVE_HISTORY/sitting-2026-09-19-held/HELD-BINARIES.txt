@@ -1,0 +1,60 @@
+continuum-sync-loop_c958.zip
+crystalcore-os-freeze-2026-09-11_f75e.zip
+  NOTE: freeze *markdown* pack filed under handoff/crystalcore-os-freeze-2026-09-11/ (full 00–06 + licenses). Zip still held — do not unpack over living tree.
+memorycore-build_40aa.zip
+remix-remix-death_a70c.zip
+The-Crystal-Vision-System_2_328d.zip
+The-Crystal-Vision-System_ec86.zip
+three-bills_cc69.zip
+ukdnbcollection_archive_4f7c.torrent
+UKDNBCollection_f299.torrent
+ukdnbcollection_meta_2e8a.sqlite
+--- stream polyfills held ---
+_stream_duplex_02cc.js
+_stream_duplex_3048.js
+_stream_passthrough_5d27.js
+_stream_passthrough_82d7.js
+_stream_readable_37ca.js
+_stream_readable_bbe0.js
+_stream_transform_2151.js
+_stream_transform_41da.js
+--- tooling / artifact noise held ---
+cli_8984.js
+cli-helper_1f28.js
+create_light_essay_a18f.js
+create_w1dg3_manual_09e9.js
+webpack.config_1d2b.js
+youtube_9283.html
+index_171f.html
+React_Artifact_*.html / Artifact_*.html (extras; selected CrystalCore shells filed under 07 sitting)
+
+--- wave 2026-09-19b (AERIS / MemoryCore / bots / library) ---
+memorycore-repo_c53c.zip
+clementine-starter_9e4b.zip
+clementine_c8d6.bundle
+discord-ai-agent_67e5.zip
+discord-dual-engine-bot_07fe.bundle
+dimensional-telephone-v12__1__46f1.zip
+the-library-browser_0149.zip
+the-library-nextjs_29c1.zip
+the-library-python_5b8e.zip
+React_Artifact_555a.html
+clementine.skill
+taskmarket.skill
+web-os-easter-eggs.skill
+
+--- wave 2026-09-19c (filings evidence) ---
+elon-musk-evidence-LITE-2026-09-16_1898.zip
+  (reports extracted to 13_RESEARCH_SOURCES/.../elon-musk-filings-2026-09-16/; privacy/sec snippets stay in zip)
+elon-musk-evidence-FILINGS-2026-09-16_b122.zip
+  (large SEC HTML: 424B4, 10-Q, 10-K, DEF 14A — hold only; verify via EDGAR + SHA256SUMS)
+
+--- wave 2026-09-19d (starcrystal / lattice / plates) ---
+odyssey-engine-clean.tar_1f7e.gz
+React_Artifact_2_9ed6.html
+React_Artifact_3_4233.html
+React_Artifact_4_3dbe.html
+React_Artifact_5_b009.html
+continuing_x5f_chart_8d61.html   (~1.1MB chart HTML — hold)
+visual_x5f_atlas_x5f_seven_3266.html  (~2.3MB — hold)
+TerAustralis_x5f_Sovereign_x5f_Lattice_x5f_Proxy_x5f_Sheet_ef58.pdf  (~2.9MB — hold)

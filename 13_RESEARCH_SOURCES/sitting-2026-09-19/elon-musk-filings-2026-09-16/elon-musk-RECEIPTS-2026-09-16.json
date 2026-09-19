@@ -1,0 +1,516 @@
+{
+  "generated_at": "2026-09-16T23:03:55.206404+10:00",
+  "timezone": "Australia/Sydney",
+  "document_receipts": [
+    {
+      "receipt_id": "R-001",
+      "document": "fetch-results.json",
+      "local_path": "/workspace/evidence-docs/fetch-results.json",
+      "sha256": "52f3c439c4125866f3324593c4231b545d4c4ef1c9299df278cd7cf970b8daa0",
+      "byte_size": 5838,
+      "canonical_url": null,
+      "form_type": null,
+      "accession": null,
+      "filing_date": null,
+      "cik": null,
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-002",
+      "document": "ars-grok-training.html",
+      "local_path": "/workspace/evidence-docs/news/ars-grok-training.html",
+      "sha256": "ac3d2ee82ed9f1e9c9550e5de29c9e0b059296ffd1c5e1b28e2c1ac7d9a7ca66",
+      "byte_size": 132,
+      "canonical_url": null,
+      "form_type": null,
+      "accession": null,
+      "filing_date": null,
+      "cik": null,
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-003",
+      "document": "goodjobsfirst-38b.html",
+      "local_path": "/workspace/evidence-docs/news/goodjobsfirst-38b.html",
+      "sha256": "0be214f7b11051122d2e6b30cdf83330ab01efe50c7d25cec9188855cefc61dd",
+      "byte_size": 58150,
+      "canonical_url": null,
+      "form_type": null,
+      "accession": null,
+      "filing_date": null,
+      "cik": null,
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-004",
+      "document": "propublica-irs-files.html",
+      "local_path": "/workspace/evidence-docs/news/propublica-irs-files.html",
+      "sha256": "103834f3e0421f7db59f21eb9593083ed0adec1aeda6f40403b00062bb79ee5f",
+      "byte_size": 453260,
+      "canonical_url": null,
+      "form_type": null,
+      "accession": null,
+      "filing_date": null,
+      "cik": null,
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-005",
+      "document": "opensecrets-home.html",
+      "local_path": "/workspace/evidence-docs/other/opensecrets-home.html",
+      "sha256": "8921de937601b9c54f3acd67a28b04ff9f7fe092149f986488831b368d4ef617",
+      "byte_size": 1125142,
+      "canonical_url": null,
+      "form_type": null,
+      "accession": null,
+      "filing_date": null,
+      "cik": null,
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-006",
+      "document": "wikipedia-elon-musk.html",
+      "local_path": "/workspace/evidence-docs/other/wikipedia-elon-musk.html",
+      "sha256": "1c02493598c95db3b633f7811ac8fa5c21f435980063e23bfe16c2233297a9fb",
+      "byte_size": 2674602,
+      "canonical_url": null,
+      "form_type": null,
+      "accession": null,
+      "filing_date": null,
+      "cik": null,
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-007",
+      "document": "spacexai-privacy-policy.html",
+      "local_path": "/workspace/evidence-docs/privacy/spacexai-privacy-policy.html",
+      "sha256": "794e346be69abaa2db9aea3fcbb87a87bac4d2d25fadb35cebc627c2100943be",
+      "byte_size": 182387,
+      "canonical_url": "https://x.ai/legal/privacy-policy",
+      "form_type": "Privacy Policy",
+      "accession": null,
+      "filing_date": "2026-08-24",
+      "cik": null,
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": [
+        "HE-11"
+      ]
+    },
+    {
+      "receipt_id": "R-008",
+      "document": "x-privacy-policy.html",
+      "local_path": "/workspace/evidence-docs/privacy/x-privacy-policy.html",
+      "sha256": "92fc1a546fd05fca9b8ba421ce5b9221cdb8df53d399365fe0c9f238085fa2ad",
+      "byte_size": 152894,
+      "canonical_url": "https://x.ai/legal/privacy-policy",
+      "form_type": "Privacy Policy",
+      "accession": null,
+      "filing_date": "2026-08-24",
+      "cik": null,
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-009",
+      "document": "xai-privacy-policy.html",
+      "local_path": "/workspace/evidence-docs/privacy/xai-privacy-policy.html",
+      "sha256": "be369b74e2cd63d170c3f5b20f1b96301a9e0ca77212ecd44727bb9ad4083e9c",
+      "byte_size": 182387,
+      "canonical_url": "https://x.ai/legal/privacy-policy",
+      "form_type": "Privacy Policy",
+      "accession": null,
+      "filing_date": "2026-08-24",
+      "cik": null,
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-010",
+      "document": "xai-privacy-portal.html",
+      "local_path": "/workspace/evidence-docs/privacy/xai-privacy-portal.html",
+      "sha256": "5474e58d42c44a15888d2a5b03e8ebd5c40c913ebc493c126d88dd105b04229b",
+      "byte_size": 129696,
+      "canonical_url": "https://x.ai/legal/privacy-policy",
+      "form_type": "Privacy Policy",
+      "accession": null,
+      "filing_date": "2026-08-24",
+      "cik": null,
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-011",
+      "document": "spacex-10q-2026-06-30.htm",
+      "local_path": "/workspace/evidence-docs/sec/spacex-10q-2026-06-30.htm",
+      "sha256": "2b6762e149c2af81f1f840acb7541e0df8b420cb18e0058d59b451721418ff88",
+      "byte_size": 2271923,
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026052535/spcx-20260630.htm",
+      "form_type": "10-Q",
+      "accession": "0001628280-26-052535",
+      "filing_date": "2026-08-04",
+      "cik": "0001181412",
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": [
+        "HE-06"
+      ]
+    },
+    {
+      "receipt_id": "R-012",
+      "document": "spacex-424b4-2026-06-12.htm",
+      "local_path": "/workspace/evidence-docs/sec/spacex-424b4-2026-06-12.htm",
+      "sha256": "6e2ca0709f2c7251f46adec87e5ef30bee8b8bf1f9d9b7741221c4ef74ebeb0a",
+      "byte_size": 11953976,
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026042639/spaceexplorationtechnologi.htm",
+      "form_type": "424B4",
+      "accession": "0001628280-26-042639",
+      "filing_date": "2026-06-12",
+      "cik": "0001181412",
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": [
+        "HE-01",
+        "HE-02",
+        "HE-03",
+        "HE-04",
+        "HE-05"
+      ]
+    },
+    {
+      "receipt_id": "R-013",
+      "document": "spacex-8k-closing-2026-06.htm",
+      "local_path": "/workspace/evidence-docs/sec/spacex-8k-closing-2026-06.htm",
+      "sha256": "15dfb0ad1e1c1963a5f0c12b7be5e56e1571249d97104aacc8a9715aeb05639f",
+      "byte_size": 40975,
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026045763/spcx-closing8xkjune2026.htm",
+      "form_type": "8-K",
+      "accession": null,
+      "filing_date": "2026-06",
+      "cik": "0001181412",
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-014",
+      "document": "spacex-8k-cursor-2026-08-14.htm",
+      "local_path": "/workspace/evidence-docs/sec/spacex-8k-cursor-2026-08-14.htm",
+      "sha256": "e35f4ba1b1dc32abe8986e5553d6c652a30307db6c1e24d9bbdd0c2616859260",
+      "byte_size": 28791,
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm",
+      "form_type": "8-K",
+      "accession": "0001628280-26-056945",
+      "filing_date": "2026-08-14",
+      "cik": "0001181412",
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-015",
+      "document": "spacex-8k-pricing-2026-06.htm",
+      "local_path": "/workspace/evidence-docs/sec/spacex-8k-pricing-2026-06.htm",
+      "sha256": "30375ee7dcf0b17395e3534f5e806deaa7a973c4e251e4bd48a2d848fd0dec5b",
+      "byte_size": 25511,
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026044955/spcx-pricing8xk.htm",
+      "form_type": "8-K",
+      "accession": null,
+      "filing_date": "2026-06",
+      "cik": "0001181412",
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-016",
+      "document": "spacex-CIK0001181412-submissions.json",
+      "local_path": "/workspace/evidence-docs/sec/spacex-CIK0001181412-submissions.json",
+      "sha256": "66dc7256fa3e1de8f61c81e01dc1d01bcec563d5b3d82d39259badc51863fb5b",
+      "byte_size": 14474,
+      "canonical_url": null,
+      "form_type": null,
+      "accession": null,
+      "filing_date": null,
+      "cik": null,
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-017",
+      "document": "spacex-musk-form3-2026-06.xml",
+      "local_path": "/workspace/evidence-docs/sec/spacex-musk-form3-2026-06.xml",
+      "sha256": "c4934d276f27a450cf30441cc79131c3d650136f4358b0477dbe0a7cb2168638",
+      "byte_size": 16158,
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1494730/000162828026042628/wk-form3_1781226017.xml",
+      "form_type": "3",
+      "accession": null,
+      "filing_date": "2026-06-11",
+      "cik": "0001494730",
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-018",
+      "document": "spacex-musk-form4-2026-06.xml",
+      "local_path": "/workspace/evidence-docs/sec/spacex-musk-form4-2026-06.xml",
+      "sha256": "4feb60ac96c2bd1c1a5a286f60417ec0f5403016796647deafe04dbce345b559",
+      "byte_size": 43971,
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1494730/000162828026044069/wk-form4_1781740812.xml",
+      "form_type": "4",
+      "accession": null,
+      "filing_date": "2026-06-17",
+      "cik": "0001494730",
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-019",
+      "document": "tesla-10k-20251231.htm",
+      "local_path": "/workspace/evidence-docs/sec/tesla-10k-20251231.htm",
+      "sha256": "90d5d2bc4057df41c645f85dcebe575af9b0953a6a1902d189297bec17fd440a",
+      "byte_size": 2391529,
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm",
+      "form_type": "10-K",
+      "accession": "0001628280-26-003952",
+      "filing_date": "2026-01-29",
+      "cik": "0001318605",
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-020",
+      "document": "tesla-10q-2026-06-30.htm",
+      "local_path": "/workspace/evidence-docs/sec/tesla-10q-2026-06-30.htm",
+      "sha256": "8f562b36769e31c93590b7e97d1df69640dee8d7708f330785cd6f40b14c6101",
+      "byte_size": 1573323,
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026049270/tsla-20260630.htm",
+      "form_type": "10-Q",
+      "accession": "0001628280-26-049270",
+      "filing_date": "2026-07-23",
+      "cik": "0001318605",
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-021",
+      "document": "tesla-CIK0001318605-submissions.json",
+      "local_path": "/workspace/evidence-docs/sec/tesla-CIK0001318605-submissions.json",
+      "sha256": "b0790bd286b9b30ae0df5daaa78898cc5684d345f8159735e15b67c99e77c37b",
+      "byte_size": 162409,
+      "canonical_url": null,
+      "form_type": null,
+      "accession": null,
+      "filing_date": null,
+      "cik": null,
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    },
+    {
+      "receipt_id": "R-022",
+      "document": "tesla-def14a-2025-09-17.htm",
+      "local_path": "/workspace/evidence-docs/sec/tesla-def14a-2025-09-17.htm",
+      "sha256": "345644a9cc685adead389dc936bb53b3a821d9275d0744f1332176b7bbd9abfb",
+      "byte_size": 4673874,
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465925090866/tm252289-12_def14a.htm",
+      "form_type": "DEF 14A",
+      "accession": "0001104659-25-090866",
+      "filing_date": "2025-09-17",
+      "cik": "0001318605",
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": [
+        "HE-07",
+        "HE-08",
+        "HE-09"
+      ]
+    },
+    {
+      "receipt_id": "R-023",
+      "document": "tesla-form4-2026-06-17.xml",
+      "local_path": "/workspace/evidence-docs/sec/tesla-form4-2026-06-17.xml",
+      "sha256": "0de09e841962987ce3cfea602d65671521ca7467d6a003afd82cc7dce95b5915",
+      "byte_size": 10826,
+      "canonical_url": "https://www.sec.gov/Archives/edgar/data/1318605/000110465926075213/tm2618092-2_4seq1.xml",
+      "form_type": "4",
+      "accession": "0001104659-26-075213",
+      "filing_date": "2026-06-17",
+      "cik": "0001318605",
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": [
+        "HE-10"
+      ]
+    },
+    {
+      "receipt_id": "R-024",
+      "document": "url-list.txt",
+      "local_path": "/workspace/evidence-docs/url-list.txt",
+      "sha256": "e8ef552a8ac5f16c6211c094d532cc5536cbb0acf3977a0214bb0b171c047196",
+      "byte_size": 1839,
+      "canonical_url": null,
+      "form_type": null,
+      "accession": null,
+      "filing_date": null,
+      "cik": null,
+      "fetched_at": "2026-09-16T23:03:55.206404+10:00",
+      "http_status": 200,
+      "claims_supported": []
+    }
+  ],
+  "claim_receipts": [
+    {
+      "claim_id": "HE-01",
+      "claim": "SpaceX Class A one vote / Class B ten votes",
+      "verified": true,
+      "receipt_ids": [
+        "R-012"
+      ],
+      "local_path": "/workspace/evidence-docs/sec/spacex-424b4-2026-06-12.htm",
+      "sha256": "6e2ca0709f2c7251f46adec87e5ef30bee8b8bf1f9d9b7741221c4ef74ebeb0a",
+      "excerpt": "r ability to influence corporate matters and the election of our directors. Our Class B common stock will have ten votes per share; our Class A common stock will have one vote per share; and, except as summarized here, our Class A common st",
+      "verified_at": "2026-09-16T23:03:55.206404+10:00"
+    },
+    {
+      "claim_id": "HE-02",
+      "claim": "SpaceX Class B elects 51% of directors",
+      "verified": true,
+      "receipt_ids": [
+        "R-012"
+      ],
+      "local_path": "/workspace/evidence-docs/sec/spacex-424b4-2026-06-12.htm",
+      "sha256": "6e2ca0709f2c7251f46adec87e5ef30bee8b8bf1f9d9b7741221c4ef74ebeb0a",
+      "excerpt": "r Class B common stock, voting separately as a class, will be entitled to elect 51% of the total number of authorized directors constituting our board (rounded up to the nearest whole number), following the completion of this offering, we will be",
+      "verified_at": "2026-09-16T23:03:55.206404+10:00"
+    },
+    {
+      "claim_id": "HE-03",
+      "claim": "Removing Musk as CEO/Chair requires Class B majority",
+      "verified": true,
+      "receipt_ids": [
+        "R-012"
+      ],
+      "local_path": "/workspace/evidence-docs/sec/spacex-424b4-2026-06-12.htm",
+      "sha256": "6e2ca0709f2c7251f46adec87e5ef30bee8b8bf1f9d9b7741221c4ef74ebeb0a",
+      "excerpt": "umber of authorized directors (rounded up to the nearest whole number); and (2) removal of Mr. Musk from his board and leadership roles (Chief Executive Officer and Chairman of our board) requires the approval of the holders of at least a majority of the voting power of the outst\u2026",
+      "verified_at": "2026-09-16T23:03:55.206404+10:00"
+    },
+    {
+      "claim_id": "HE-04",
+      "claim": "Musk combined voting power table ~84.4%",
+      "verified": true,
+      "receipt_ids": [
+        "R-012"
+      ],
+      "local_path": "/workspace/evidence-docs/sec/spacex-424b4-2026-06-12.htm",
+      "sha256": "6e2ca0709f2c7251f46adec87e5ef30bee8b8bf1f9d9b7741221c4ef74ebeb0a",
+      "excerpt": ",440 12.3 % 5,569,053,075 93.6 % 85.1 % 849,494,440 11.3 % 5,569,053,075 93.6 % 84.4 % Named Executive Officers and Directors: Elon Musk (1) .................................. 849,494,440 12.3 % 5,569,053,0",
+      "verified_at": "2026-09-16T23:03:55.206404+10:00"
+    },
+    {
+      "claim_id": "HE-05",
+      "claim": "Cover summary Musk voting power ~82.4%",
+      "verified": true,
+      "receipt_ids": [
+        "R-012"
+      ],
+      "local_path": "/workspace/evidence-docs/sec/spacex-424b4-2026-06-12.htm",
+      "sha256": "6e2ca0709f2c7251f46adec87e5ef30bee8b8bf1f9d9b7741221c4ef74ebeb0a",
+      "excerpt": "cer, Chief Technical Officer and Chairman of our board, will hold approximately 82.4% of the voting power of our common stock (or approximately 82.3% if the underwriters exercise their option to purchase a",
+      "verified_at": "2026-09-16T23:03:55.206404+10:00"
+    },
+    {
+      "claim_id": "HE-06",
+      "claim": "SpaceX IPO net proceeds $85,675 million",
+      "verified": true,
+      "receipt_ids": [
+        "R-011"
+      ],
+      "local_path": "/workspace/evidence-docs/sec/spacex-10q-2026-06-30.htm",
+      "sha256": "2b6762e149c2af81f1f840acb7541e0df8b420cb18e0058d59b451721418ff88",
+      "excerpt": "th IPO, net of underwriting commissions and offering costs \u2014 \u2014 639 1 85,674 \u2014 \u2014 85,675 Common stock issued, net of tax withholding \u2014 \u2014 26 \u2014 ( 253 ) \u2014 \u2014 ( 253 ) Conversion of redeemable convertible preferred",
+      "verified_at": "2026-09-16T23:03:55.206404+10:00"
+    },
+    {
+      "claim_id": "HE-07",
+      "claim": "Tesla Musk beneficial ownership 19.8% / 717,323,438 shares",
+      "verified": true,
+      "receipt_ids": [
+        "R-022"
+      ],
+      "local_path": "/workspace/evidence-docs/sec/tesla-def14a-2025-09-17.htm",
+      "sha256": "345644a9cc685adead389dc936bb53b3a821d9275d0744f1332176b7bbd9abfb",
+      "excerpt": "CEO Performance Award that have been earned. \u200b (2) Mr. Musk\u2019s stake consists of 717,323,438 shares of Tesla\u2019s common stock beneficially owned by Mr. Musk as of September 15, 2025 (including the 303,960,630 share",
+      "verified_at": "2026-09-16T23:03:55.206404+10:00"
+    },
+    {
+      "claim_id": "HE-08",
+      "claim": "Tesla shares pledged 235,998,721",
+      "verified": true,
+      "receipt_ids": [
+        "R-022"
+      ],
+      "local_path": "/workspace/evidence-docs/sec/tesla-def14a-2025-09-17.htm",
+      "sha256": "345644a9cc685adead389dc936bb53b3a821d9275d0744f1332176b7bbd9abfb",
+      "excerpt": "usk is presented in this manner to avoid double-counting these awards. Includes 235,998,721 shares pledged as collateral to secure certain personal indebtedness. \u200b (2) Includes shares beneficially owned by The V",
+      "verified_at": "2026-09-16T23:03:55.206404+10:00"
+    },
+    {
+      "claim_id": "HE-09",
+      "claim": "Tesla CEO pledge loan cap $3.5B or 25%",
+      "verified": true,
+      "receipt_ids": [
+        "R-022"
+      ],
+      "local_path": "/workspace/evidence-docs/sec/tesla-def14a-2025-09-17.htm",
+      "sha256": "345644a9cc685adead389dc936bb53b3a821d9275d0744f1332176b7bbd9abfb",
+      "excerpt": "unt that can be collateralized by the pledged stock of our CEO to the lesser of $3.5 billion or twenty-five percent (25%) of the total value of the pledged stock, and (ii) lower the percentage used to calculate t",
+      "verified_at": "2026-09-16T23:03:55.206404+10:00"
+    },
+    {
+      "claim_id": "HE-10",
+      "claim": "Form 4 option exercise 303,960,630 @ $23.34",
+      "verified": true,
+      "receipt_ids": [
+        "R-023"
+      ],
+      "local_path": "/workspace/evidence-docs/sec/tesla-form4-2026-06-17.xml",
+      "sha256": "0de09e841962987ce3cfea602d65671521ca7467d6a003afd82cc7dce95b5915",
+      "excerpt": ", INC. 1 TESLA ROAD AUSTIN TX 78725 1 1 1 0 CEO 0 Common Stock 2026-06-16 4 M 0 303960630 23.34 A 727704534 D Common Stock 2026-06-16 4 F 0 17531857 404.66 D 710172677 D Common Stock 413152109 I By Trust Non-Q",
+      "verified_at": "2026-09-16T23:03:55.206404+10:00"
+    },
+    {
+      "claim_id": "HE-11",
+      "claim": "Privacy policy uses public X posts / public internet data",
+      "verified": true,
+      "receipt_ids": [
+        "R-007"
+      ],
+      "local_path": "/workspace/evidence-docs/privacy/spacexai-privacy-policy.html",
+      "sha256": "794e346be69abaa2db9aea3fcbb87a87bac4d2d25fadb35cebc627c2100943be",
+      "excerpt": "ur related companies. Public X Posts and Internet Search Data: The Service uses public posts shared on X, engagement data such as number of followers, and number of views, likes, reposts, shares, and replies and internet sea",
+      "verified_at": "2026-09-16T23:03:55.206404+10:00"
+    }
+  ]
+}
