@@ -95,8 +95,9 @@ From repo root:
 
 ```bash
 python3 scripts/alive/pulse.py          # inventory + island selftests
-python3 scripts/alive/weave.py          # bus turns → twin signal events (S4)
+python3 scripts/alive/weave.py          # ConsentGate + bus turns → twin (S4)
 python3 scripts/alive/weave.py --sat    # same, with SAT wrap_turn on the hub turn
+python3 scripts/alive/weave.py --no-gate  # buses only (skip ConsentGate)
 ```
 
 Pulse does **not** merge repos. It imports from archive paths as **guests of the hub script**.
@@ -107,7 +108,7 @@ Pulse does **not** merge repos. It imports from archive paths as **guests of the
 
 `TheCrystalVision/spec/ARCHITECTURE.md` step S4: wire labeled bus + CrystalBridge as event sources into decode.
 
-**Built here:** delivered bus messages become `crystal.twin.event/1` with class `signal.bus_message` (domain `signal`, unit `count`). Quarantine still applies. CrystalBridge remains the guest gate for companion tools; bus speech is the event source for the twin.
+**Built here:** delivered bus messages become `crystal.twin.event/1` with class `signal.bus_message`; ConsentGate decisions become `signal.gate_check` (domain `signal`, unit `count`). Quarantine still applies. CrystalBridge remains the guest gate for companion tools; bus speech and gate checks are event sources for the twin.
 
 ---
 

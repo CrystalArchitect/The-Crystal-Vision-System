@@ -37,6 +37,8 @@ Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
+- **2026-09-19:** Alive Weave — CrystalBridge ConsentGate wired into pulse + weave (allow/refuse proven; `signal.gate_check` into twin). Gate on by default; `--no-gate` to skip. Canon: no.
+
 - **2026-09-18:** Alive Weave — hub coordination for multi-AI islands without merge. Map: `00_MASTER_INDEX/ALIVE-WEAVE.md`. Runners: `scripts/alive/pulse.py` (island pulse + selftests), `scripts/alive/weave.py` (TCV bridge bus + Starline Weaver → twin `signal.bus_message`, Architecture S4). Optional `--sat` gates hub turn via SAT `wrap_turn`. Law unchanged: connection ≠ merge; out-of-bounds titles stay out of bounds. Canon: no.
 
 - **2026-09-18 (bots):** Expanded bot structure — [`docs/bots/registry.yaml`](../docs/bots/registry.yaml), BOT-GROK [`prompt.md`](../docs/bots/grok/prompt.md) + [`stages.md`](../docs/bots/grok/stages.md) I/O contracts. Canon: no.

@@ -9,6 +9,15 @@ this repo; nothing here is invented.
 dated row. Do not silently overwrite an existing entry — a reversed
 decision gets a new entry that says so.
 
+## 2026-09-19 — Alive Weave: CrystalBridge ConsentGate in the pulse/weave path
+
+Decision: guests speak on the Alive Weave only after the real CrystalBridge
+`ConsentGate` allows (fail-closed). Hub runners call archive `ConsentGate`
+(not a stub): allow+token / refuse provenance / refuse approval are pulsed;
+weave meters decisions as `signal.gate_check` alongside `signal.bus_message`.
+Default on; `--no-gate` opt-out. Still connection ≠ merge; no MCP bridge server
+required for this path.
+
 ## 2026-09-18 — Alive Weave: connect AI islands; do not merge them
 
 Decision: stand up hub-level **Alive Weave** coordination so the TCV labeled
