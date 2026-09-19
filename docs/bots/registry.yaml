@@ -1,8 +1,9 @@
 # Bot registry — hub design skeleton (Canon: no)
 # Living runtimes live in satellite repos. Secrets never go in this file.
 # publish_mode: human_only is the default for every row until Crystal stamps otherwise.
+# Stages 1–6 are pools, not rows. Research children are fork-mirrors under BOT-RESEARCH.
 
-version: 1
+version: 2
 updated: "2026-09-18"
 canon: false
 protocol:
@@ -10,16 +11,20 @@ protocol:
   paste: docs/PASTE-THIS.md
   map: docs/BOT-STRUCTURE.md
   pipeline: archive/discord-ai-agent/GROK-BOT-ARCHITECTURE.md
+  weave: archive/TerAustralis-Incognita/docs/ai/AI-Architecture.md
 
 defaults:
   publish_mode: human_only
-  layer_tag_required: true  # science | story | vision on public-facing drafts
+  layer_tag_required: true
   auto_post: false
 
+# --- A. Hub ops & content studio ---
 bots:
-  - id: BOT-GROK
-    role: draft_reason
-    status: design  # design | dormant | active
+  - id: BOT-STUDIO
+    belt: ops
+    role: content_studio_worker
+    status: design
+    formerly: BOT-GROK  # renamed so weave Creative Exploration can own BOT-WEAVE-GROK
     home: cursor-agent
     config:
       prompt: docs/bots/grok/prompt.md
@@ -27,34 +32,20 @@ bots:
     secrets:
       - XAI_API_KEY
     allowed:
-      - drafts
-      - audits
-      - briefs
       - stage_2_pattern
       - stage_3_draft
       - stage_5_score
+      - briefs
     forbidden:
       - auto_post
       - elon_bond_claims
       - claim_canon
+      - implement_repo  # that is BOT-WEAVE-GROK-BUILD
     publish_mode: human_only
     shortlist_target: 14_AI_INTERACTIONS
 
-  - id: BOT-DISCORD
-    role: companion_reply
-    status: dormant
-    home: archive/discord-ai-agent/
-    secrets:
-      - DISCORD_BOT_TOKEN
-    allowed:
-      - replies_in_allowed_guilds
-    forbidden:
-      - scrape
-      - claim_canon
-      - auto_post_cross_platform
-    publish_mode: human_only
-
   - id: BOT-COLLECT
+    belt: ops
     role: collection_ingest
     status: design
     home: docs/COLLECTOR.md
@@ -67,28 +58,383 @@ bots:
       - invent_missing_source
     publish_mode: human_only
 
-  - id: BOT-RESEARCH
-    role: science_drawer_agent
-    status: design
-    home: drawers 16-20 satellites
-    secrets: []
-    allowed:
-      - experiments_in_own_repos
-      - hub_extracts_only
-    forbidden:
-      - merge_forks_into_cvs
-      - treat_vision_as_built
-    publish_mode: human_only
-
   - id: BOT-PORTAL
+    belt: ops
     role: celestial_portal_voice_ui
     status: dormant
     home: 07_CELESTIAL_PORTAL/ + handoff/celestial-portal/
     secrets:
-      - PORTAL_ENV  # name only; never commit values
+      - PORTAL_ENV
     allowed:
       - local_staged_ui
     forbidden:
       - commit_dotenv
       - claim_canon
+    publish_mode: human_only
+
+  # --- B. Weave seats ---
+  - id: BOT-WEAVE-CHATGPT
+    belt: weave
+    role: chief_systems_architect
+    status: dormant
+    home: archive/TerAustralis-Incognita/docs/agents/ChatGPT-Agent.md
+    secrets: []
+    allowed:
+      - specs
+      - architecture_briefs
+    forbidden:
+      - claim_canon
+      - auto_post
+      - silent_repo_writes
+    publish_mode: human_only
+
+  - id: BOT-WEAVE-GROK
+    belt: weave
+    role: creative_exploration
+    status: dormant
+    home: archive/TerAustralis-Incognita/docs/agents/Grok-Agent.md#A
+    secrets:
+      - XAI_API_KEY
+    allowed:
+      - vision_brainstorm
+      - diverge
+    forbidden:
+      - implement_repo
+      - open_engineering_prs
+      - claim_science_ink_on_brainstorm
+      - elon_bond_claims
+      - auto_post
+    publish_mode: human_only
+
+  - id: BOT-WEAVE-GROK-BUILD
+    belt: weave
+    role: repository_engineer
+    status: dormant
+    home: archive/TerAustralis-Incognita/docs/agents/Grok-Agent.md#B
+    note: Seat from 2026-08-20 ADR-0014
+    secrets:
+      - XAI_API_KEY
+    allowed:
+      - implement_via_prs
+      - name_seat_in_pr
+    forbidden:
+      - mix_with_creative_exploration_in_same_pass
+      - claim_canon_without_merge
+      - auto_post
+    publish_mode: human_only
+
+  - id: BOT-WEAVE-DEEPSEEK
+    belt: weave
+    role: research_engineering_specialist
+    status: dormant
+    home: archive/TerAustralis-Incognita/docs/agents/DeepSeek-Agent.md
+    secrets: []
+    allowed:
+      - math
+      - algorithms
+      - analysis
+    forbidden:
+      - claim_canon
+      - auto_post
+    publish_mode: human_only
+
+  - id: BOT-WEAVE-GEMINI
+    belt: weave
+    role: knowledge_multimodal
+    status: dormant
+    home: archive/TerAustralis-Incognita/docs/agents/Gemini-Agent.md
+    secrets: []
+    allowed:
+      - wide_document_read
+      - multimodal
+      - consistency_pass
+    forbidden:
+      - claim_canon
+      - auto_post
+    publish_mode: human_only
+
+  - id: BOT-WEAVE-CLAUDE
+    belt: weave
+    role: repository_engineer_former
+    status: historical
+    home: archive/TerAustralis-Incognita/docs/agents/Claude-Agent.md
+    secrets: []
+    allowed:
+      - retained_as_record
+    forbidden:
+      - treat_as_live_midstream_seat
+    publish_mode: human_only
+
+  - id: BOT-ORCHESTRATOR
+    belt: weave
+    role: ai_orchestrator
+    status: proposed
+    home: archive/TerAustralis-Incognita/docs/ai/AI-Architecture.md
+    note: Decision-Matrix docs only; no runtime
+    secrets: []
+    allowed:
+      - recommend_seat_via_matrix
+    forbidden:
+      - auto_route_without_crystal
+      - auto_post
+    publish_mode: human_only
+
+  # --- C. Companions & channels ---
+  - id: BOT-CLEMENTINE
+    belt: companion
+    role: sovereign_companion
+    status: dormant
+    home: archive/Clementine-ai-companion/
+    secrets: []
+    allowed:
+      - local_first_companion
+      - songline_starline_bus_persona
+    forbidden:
+      - claim_canon
+      - scrape
+      - auto_post_cross_platform
+    publish_mode: human_only
+
+  - id: BOT-DISCORD
+    belt: companion
+    role: guild_reply_gateway
+    status: dormant
+    home: archive/discord-ai-agent/
+    also: archive/.../clementine-discord/
+    secrets:
+      - DISCORD_BOT_TOKEN
+    allowed:
+      - replies_in_allowed_guilds
+    forbidden:
+      - scrape
+      - claim_canon
+      - auto_post_cross_platform
+    publish_mode: human_only
+
+  - id: BOT-LUMINA
+    belt: companion
+    role: companion_rename_alias
+    status: alias
+    alias_of: BOT-CLEMENTINE
+    home: archive/CrystalCore-OS-Archive/knowledge-base/09-GLOSSARY.md
+    note: Contested historical rename — not a second product
+    secrets: []
+    allowed: []
+    forbidden:
+      - treat_as_separate_runtime
+    publish_mode: human_only
+
+  - id: BOT-REX
+    belt: companion
+    role: session_voice_alias
+    status: alias
+    alias_of: BOT-WEAVE-GROK
+    home: archive/CrystalCore-OS-Archive/GROK-REX-MYTHOS-EXPORT-2026-08-07.md
+    secrets: []
+    allowed: []
+    forbidden:
+      - treat_as_product_bot
+    publish_mode: human_only
+
+  # --- D. Weave infra ---
+  - id: BOT-STARLINE
+    belt: infra
+    role: starline_weaver_bus
+    status: dormant
+    home: archive/TerAustralis-Incognita/docs/architecture/AI-Weave.md
+    secrets: []
+    allowed:
+      - belt_three_label_enforce
+      - red_button
+      - matrix_mode_count
+    forbidden:
+      - publish_to_public_platforms
+      - treat_matrix_agreement_as_verdict
+    publish_mode: human_only
+
+  - id: BOT-CRYSTALBRIDGE
+    belt: infra
+    role: guest_ai_consent_gate
+    status: dormant
+    home: archive/TerAustralis-Incognita-Code/core/crystalcore/
+    secrets: []
+    allowed:
+      - fail_closed_guest_gate
+      - append_only_audit
+    forbidden:
+      - bypass_consent
+    publish_mode: human_only
+
+  - id: BOT-VOICEBOX
+    belt: infra
+    role: local_tts_utility
+    status: dormant
+    home: archive/TerAustralis-Incognita-Code/vision/apps/voicebox/
+    secrets: []
+    allowed:
+      - local_tts_mcp
+    forbidden:
+      - claim_canon
+      - auto_post
+    publish_mode: human_only
+
+  - id: BOT-LIBRARIAN
+    belt: infra
+    role: memorycore_living_interface_alias
+    status: design
+    alias_of: BOT-CLEMENTINE
+    home: archive/The-Library/plans/2026-08-01-teraustralis-master-plan.md
+    secrets: []
+    allowed: []
+    forbidden:
+      - invent_separate_runtime
+    publish_mode: human_only
+
+  - id: BOT-SYNTHESIZER
+    belt: infra
+    role: cross_ref_proposer
+    status: design
+    home: archive/The-Library/plans/2026-08-01-teraustralis-master-plan.md
+    secrets: []
+    allowed:
+      - propose_cross_refs_labelled_model
+    forbidden:
+      - claim_canon
+    publish_mode: human_only
+
+  # --- E. Research umbrella + children ---
+  - id: BOT-RESEARCH
+    belt: research
+    role: science_drawer_umbrella
+    status: design
+    home: drawers 16-20
+    secrets: []
+    allowed:
+      - route_to_child_homes
+      - hub_extracts_only
+    forbidden:
+      - merge_forks_into_cvs
+      - treat_vision_as_built
+    publish_mode: human_only
+    children:
+      - BOT-RES-SWARM
+      - BOT-RES-SWARM-ARTIFACTS
+      - BOT-RES-SWARM-GATE
+      - BOT-RES-SWARMGYM
+      - BOT-RES-AUTOMATON
+      - BOT-RES-AGENCY-OS
+      - BOT-RES-AEON
+      - BOT-RES-MIROSHARK
+
+  - id: BOT-RES-SWARM
+    belt: research
+    parent: BOT-RESEARCH
+    role: multi_agent_simulation
+    status: dormant
+    home: https://github.com/CrystalArchitect/swarm
+    drawer: 16
+    secrets: []
+    allowed:
+      - experiments_in_own_repo
+    forbidden:
+      - merge_into_cvs
+    publish_mode: human_only
+
+  - id: BOT-RES-SWARM-ARTIFACTS
+    belt: research
+    parent: BOT-RESEARCH
+    role: artifact_vault
+    status: dormant
+    home: https://github.com/CrystalArchitect/swarm-artifacts
+    drawer: 16
+    secrets: []
+    allowed:
+      - experiments_in_own_repo
+    forbidden:
+      - merge_into_cvs
+    publish_mode: human_only
+
+  - id: BOT-RES-SWARM-GATE
+    belt: research
+    parent: BOT-RESEARCH
+    role: safety_eval_framework
+    status: dormant
+    home: https://github.com/CrystalArchitect/swarm-safety-gate
+    drawer: 16
+    secrets: []
+    allowed:
+      - experiments_in_own_repo
+    forbidden:
+      - merge_into_cvs
+    publish_mode: human_only
+
+  - id: BOT-RES-SWARMGYM
+    belt: research
+    parent: BOT-RESEARCH
+    role: swarm_gym
+    status: dormant
+    home: https://github.com/CrystalArchitect/swarmgym
+    drawer: 16
+    secrets: []
+    allowed:
+      - experiments_in_own_repo
+    forbidden:
+      - merge_into_cvs
+    publish_mode: human_only
+
+  - id: BOT-RES-AUTOMATON
+    belt: research
+    parent: BOT-RESEARCH
+    role: autonomous_agent_framework
+    status: dormant
+    home: https://github.com/CrystalArchitect/automaton
+    drawer: 16
+    secrets: []
+    allowed:
+      - experiments_in_own_repo
+    forbidden:
+      - merge_into_cvs
+    publish_mode: human_only
+
+  - id: BOT-RES-AGENCY-OS
+    belt: research
+    parent: BOT-RESEARCH
+    role: distributed_agent_os
+    status: dormant
+    home: https://github.com/CrystalArchitect/agency-os
+    drawer: 16
+    secrets: []
+    allowed:
+      - experiments_in_own_repo
+    forbidden:
+      - merge_into_cvs
+    publish_mode: human_only
+
+  - id: BOT-RES-AEON
+    belt: research
+    parent: BOT-RESEARCH
+    role: aeon_runtime
+    status: dormant
+    home: https://github.com/CrystalArchitect/aeon
+    also: https://github.com/CrystalArchitect/aeon-atlas
+    drawer: 16
+    secrets: []
+    allowed:
+      - experiments_in_own_repo
+    forbidden:
+      - merge_into_cvs
+    publish_mode: human_only
+
+  - id: BOT-RES-MIROSHARK
+    belt: research
+    parent: BOT-RESEARCH
+    role: economic_models
+    status: dormant
+    home: https://github.com/CrystalArchitect/MiroShark
+    drawer: 20
+    secrets: []
+    allowed:
+      - experiments_in_own_repo
+    forbidden:
+      - merge_into_cvs
     publish_mode: human_only

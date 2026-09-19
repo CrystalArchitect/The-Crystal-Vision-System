@@ -1,12 +1,12 @@
-# BOT-GROK — Stage bindings
+# BOT-STUDIO — Stage bindings
 
 **Canon:** no  
 **Pipeline spec:** [`../../../archive/discord-ai-agent/GROK-BOT-ARCHITECTURE.md`](../../../archive/discord-ai-agent/GROK-BOT-ARCHITECTURE.md)  
 **Hub map:** [`../../BOT-STRUCTURE.md`](../../BOT-STRUCTURE.md)
 
-BOT-GROK participates in Think + Check pools. Intake and Human stay outside the model.
+BOT-STUDIO participates in Think + Check pools. Intake and Human stay outside the model. Weave seats are a separate belt.
 
-| Stage | Pool | BOT-GROK? | Notes |
+| Stage | Pool | BOT-STUDIO? | Notes |
 | --- | --- | --- | --- |
 | 1 Signal Intake | Intake | no | Script / official API → normalized records |
 | 2 Pattern Miner | Pattern | **yes** | One call per window over Stage 1 batch |
