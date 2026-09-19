@@ -32,10 +32,15 @@
 | CVS-CRYSTAL-DEC | 00 | Crystal decisions pending (Drive / naming / stubs) | coordination | no | `/00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md` |
 | CVS-AXIOM-AUDIT | 00 | Axiom Audit Framework (Thread 3 map) | research | no | `/00_MEMORY/AXIOM-AUDIT-FRAMEWORK.md` |
 | CVS-BOTS | 08 | Bot structure (ops + weave + companion + infra + research) | coordination | no | `/docs/BOT-STRUCTURE.md` |
+| CVS-LATTICE-PLATE | 10 | Vision plate — Lattice lock / NON SOLUS (2026-09-19) | vision | no | `/10_ORIGINAL_CREATIVE/vision-plates/2026-09-19-LATTICE-LOCK-EXTRACT.md` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-19 (vision):** Filed Lattice lock / NON SOLUS status card + image as vision plate extract (Canon: no). Not a component stamp.
+
+- **2026-09-19 (bots):** Filled Alive Weave island gaps on roster — BOT-CONTEXTGATE, BOT-SAT, BOT-LEAF (≠ Orchestrator), BOT-GROK-MIND alias. Cross-link `ALIVE-WEAVE.md` ↔ `BOT-STRUCTURE.md`. Canon: no.
 
 - **2026-09-19:** Alive Weave — CrystalBridge ConsentGate wired into pulse + weave (allow/refuse proven; `signal.gate_check` into twin). Gate on by default; `--no-gate` to skip. Canon: no.
 
