@@ -48,3 +48,13 @@ elon-musk-evidence-LITE-2026-09-16_1898.zip
   (reports extracted to 13_RESEARCH_SOURCES/.../elon-musk-filings-2026-09-16/; privacy/sec snippets stay in zip)
 elon-musk-evidence-FILINGS-2026-09-16_b122.zip
   (large SEC HTML: 424B4, 10-Q, 10-K, DEF 14A — hold only; verify via EDGAR + SHA256SUMS)
+
+--- wave 2026-09-19d (starcrystal / lattice / plates) ---
+odyssey-engine-clean.tar_1f7e.gz
+React_Artifact_2_9ed6.html
+React_Artifact_3_4233.html
+React_Artifact_4_3dbe.html
+React_Artifact_5_b009.html
+continuing_x5f_chart_8d61.html   (~1.1MB chart HTML — hold)
+visual_x5f_atlas_x5f_seven_3266.html  (~2.3MB — hold)
+TerAustralis_x5f_Sovereign_x5f_Lattice_x5f_Proxy_x5f_Sheet_ef58.pdf  (~2.9MB — hold)

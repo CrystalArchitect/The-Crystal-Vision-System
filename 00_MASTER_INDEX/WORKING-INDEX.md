@@ -39,6 +39,8 @@
 | CVS-CLEM-SKILL | 08 | Clementine companion SKILL.md (filed under docs/bots) | coordination | no | `/docs/bots/clementine/SKILL.md` |
 | CVS-FILINGS-EM | 13 | Elon Musk public-record filings pack 2026-09-16 | research | no | `/13_RESEARCH_SOURCES/sitting-2026-09-19/elon-musk-filings-2026-09-16/` |
 | CVS-PORTAL-HYB | 07 | Celestial Portal hybrid engineering brief 2026-09-16 (design) | vision | no | `/07_CELESTIAL_PORTAL/sitting-2026-09-19/celestial-portal-hybrid-engineering-brief-2026-09-16.md` |
+| CVS-STARCRYSTAL | 10 | StarCrystal HTML atlas extracts (Fermi Silent Line pages = art titles) | vision | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/starcrystal/` |
+| CVS-CICH | 16 | CICH Framework v1 (Cognitive Immune Complex) | research | no | `/16_AI_SAFETY_RESEARCH/sitting-2026-09-19/CICH-Framework-v1.md` |
 | CVS-SAT-03 | 03 | SAT drawer + sitting-2026-09-19 extracts | research | no | `/03_SYNTHETIC_AFFECT_THEORY/` |
 | CVS-MUSIC-TREE | 10 | Music Theory Tree plate (C major modes) | research | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/music-theory-tree-C-major-modes.jpg` |
 
@@ -46,7 +48,7 @@ Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
-- **2026-09-19 (collection):** Filed agent upload dumps into drawers 03/07/10/11/12/13/14/16/19/20/99. Freeze pack full under `handoff/`. Wave-b: AERIS + MemoryCore; Fermi's Silent Line poster; Master Plan; Clementine SKILL. Wave-c: Portal hybrid engineering brief (design); Elon Musk public-record filings pack under research + bylined article under publications; evidence zips held. Canon: no.
+- **2026-09-19 (collection):** Waves a–d filed (freeze, AERIS/MemoryCore, filings dossier, **starcrystal/** atlas + sovereign-lattice-game, CICH, physics BUILT plates, proposal HTML one-pagers). Large atlas/proxy/odyssey binaries held. Canon: no.
 
 - **2026-09-19:** Alive Weave — CrystalBridge ConsentGate wired into pulse + weave (allow/refuse proven; `signal.gate_check` into twin). Gate on by default; `--no-gate` to skip. Canon: no.
 

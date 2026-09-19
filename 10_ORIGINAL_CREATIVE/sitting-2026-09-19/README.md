@@ -1,6 +1,6 @@
 # Sitting 2026-09-19 — Original creative extracts
 
-Krystallos / Silent Line prose, Codex renders, SyncMe notes, Music Theory Tree plate, **Fermi's Silent Line** poster, companion stories, web-OS easter-egg presentation, mythos TS extract, Codex UI/SQL extracts.
+Krystallos / Silent Line prose, Codex renders, SyncMe, Music Theory Tree plate, **Fermi's Silent Line** poster, companion stories, web-OS easter-egg presentation, mythos/Codex extracts, **starcrystal/** HTML atlas pages, **sovereign-lattice-game/** TTS/Moxfield/art-prompt extracts, ONE BUT MANY Field Book.
 
 **Not** a Songline title or CVS component. Canon: **no**.
 

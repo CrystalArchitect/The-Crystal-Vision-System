@@ -1,0 +1,17 @@
+STANDING SAVE RULE — 28 August 2026
+Crystal Arena-Turner
+
+Every file or image created in a Grok conversation is to be uploaded
+to this Google Drive folder:
+
+  Name: Grok
+  ID:   1-POKepy3R-U1luFWbhQDbeMhWSGraxcf
+  URL:  https://drive.google.com/drive/folders/1-POKepy3R-U1luFWbhQDbeMhWSGraxcf
+
+Do this in every conversation. Do not wait to be asked.
+
+iPhone camera roll syncs to Google Photos and iCloud.
+There is no Photos API. Path: Drive -> she saves to camera roll -> Photos.
+
+If a future chat forgets, she can say "Drive" and this file is the proof
+the rule already exists.
