@@ -10,6 +10,12 @@
 - Neumann ND-25 Transporter cadence; ND-50 CarbSAR; CisLunar = roadmap.
 - Titomic NASA SAA + aerospace/defence orders 2026 — not hull factory.
 
+## Map key (complete — do not ship a cropped five-dot export)
+- Gold: Bowen / Gilmour (licensed orbital); Koonibba / Whalers Way (Southern Launch); W. Sydney Academy (sim / classroom).
+- Peach: Christmas Island (Ship 40 recovery adjacency, not a pad); North (diligence only).
+- Cyan: Adelaide (Fleet); Melbourne (Titomic / AM; SpIRIT ≠ Gilmour); Canberra (ASA / ADFA / UNSW / EOS).
+- Purpose line must stay on the figure: sales graphic for SpaceX / SpaceXAI — existing stack, not a Starbase site map.
+
 ## Do not claim
 - No Starship MoU; ELA not live; SpIRIT != Gilmour; Eris not orbital yet.
 
