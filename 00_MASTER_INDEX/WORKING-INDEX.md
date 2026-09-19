@@ -14,7 +14,8 @@
 | CVS-LWYMMD | 13 | Swift lyric vs Crystal recall | interpretation | no | `/13_RESEARCH_SOURCES/LWYMMD-lyric.md` |
 | CVS-PORTAL-A | 07 | Portal export partial | fact | no | `/handoff/celestial-portal/` |
 | CVS-Q32K | 99 | Quartz as timeline grid | speculation | no | `/99_UNRESOLVED/QUARTZ-TIMELINE-METAPHOR.md` |
-| CVS-SONGLINE | -- | Songline | out of bounds | never | -- |
+| CVS-SONGLINE | -- | **Songline** (wrong name for this project) | out of bounds | never | Use **Starline** — see `CVS-STARLINE` |
+| CVS-STARLINE | 04 | Starline / Consent Transport (project name; ≠ Songline) | coordination | no | Starlines drawer · Consent Transport in Code archive |
 | CVS-MEMORY | 00 | memory/ umbrella protocol (DECISIONS/MILESTONES/OPEN-QUESTIONS/PRIVACY) | fact | no | `/memory/` |
 | CVS-AISAFE-16 | 16 | AI Safety Research Drawer | coordination | no | `/16_AI_SAFETY_RESEARCH/INDEX.md` |
 | CVS-PHYSICS-17 | 17 | Physics Simulation Drawer | coordination | no | `/17_PHYSICS_SIMULATION/INDEX.md` |
@@ -35,7 +36,7 @@
 | CVS-COLLECT-0919 | 00 | Collection sitting 2026-09-19 (SAT/Portal/Codex/AERIS/MemoryCore dumps + freeze) | fact | no | `/docs/COLLECTION-LOG-2026-09-19.md` |
 | CVS-CC-FREEZE | handoff | CrystalCore.OS freeze pack 2026-09-11 (full paper freeze) | fact | no | `/handoff/crystalcore-os-freeze-2026-09-11/` |
 | CVS-AERIS-07 | 07 | AERIS site guides + VAULT 12 report + UI extracts (Vision) | vision | no | `/07_CELESTIAL_PORTAL/sitting-2026-09-19/aeris/` |
-| CVS-FERMI-SL | 10 | Fermi's Silent Line poster (creative; not Songline) | vision | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/Fermis-Silent-Line-poster.jpg` |
+| CVS-FERMI-SL | 10 | Fermi's Silent Line poster (creative; Starline family, not Songline) | vision | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/Fermis-Silent-Line-poster.jpg` |
 | CVS-CLEM-SKILL | 08 | Clementine companion SKILL.md (filed under docs/bots) | coordination | no | `/docs/bots/clementine/SKILL.md` |
 | CVS-FILINGS-EM | 13 | Elon Musk public-record filings pack 2026-09-16 | research | no | `/13_RESEARCH_SOURCES/sitting-2026-09-19/elon-musk-filings-2026-09-16/` |
 | CVS-PORTAL-HYB | 07 | Celestial Portal hybrid engineering brief 2026-09-16 (design) | vision | no | `/07_CELESTIAL_PORTAL/sitting-2026-09-19/celestial-portal-hybrid-engineering-brief-2026-09-16.md` |
@@ -49,6 +50,8 @@
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-19 (naming):** Project term is **Starline** (Consent Transport / Starlines). **Songline** is never a CVS title or component (`CVS-SONGLINE` out of bounds). Canon: no.
 
 - **2026-09-19 (architecture):** MemoryCore discrepancy truth-checked — local-first Clementine (Track A) vs optional cloud/archive vault (Track B). Interim = separate tracks (packet E1). Doc: `MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md`. Nag Hammadi BookItems / infra map parked until labels held. Canon: no.
 
