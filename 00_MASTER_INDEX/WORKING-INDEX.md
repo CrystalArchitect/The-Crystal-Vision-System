@@ -44,6 +44,7 @@
 | CVS-CICH | 16 | CICH Framework v1 (Cognitive Immune Complex) | research | no | `/16_AI_SAFETY_RESEARCH/sitting-2026-09-19/CICH-Framework-v1.md` |
 | CVS-SAT-03 | 03 | SAT drawer + sitting-2026-09-19 extracts | research | no | `/03_SYNTHETIC_AFFECT_THEORY/` |
 | CVS-MUSIC-TREE | 10 | Music Theory Tree plate (C major modes) | research | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/music-theory-tree-C-major-modes.jpg` |
+| CVS-LATTICE-PLATE | 10 | Vision plate — Lattice lock / NON SOLUS (2026-09-19) | vision | no | `/10_ORIGINAL_CREATIVE/vision-plates/2026-09-19-LATTICE-LOCK-EXTRACT.md` |
 
 Canon stays **no** until Crystal stamps it.
 
@@ -52,6 +53,10 @@ Canon stays **no** until Crystal stamps it.
 - **2026-09-19 (architecture):** MemoryCore discrepancy truth-checked — local-first Clementine (Track A) vs optional cloud/archive vault (Track B). Interim = separate tracks (packet E1). Doc: `MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md`. Nag Hammadi BookItems / infra map parked until labels held. Canon: no.
 
 - **2026-09-19 (collection):** Waves a–d filed (freeze, AERIS/MemoryCore, filings dossier, **starcrystal/** atlas + sovereign-lattice-game, CICH, physics BUILT plates, proposal HTML one-pagers). Large atlas/proxy/odyssey binaries held. Canon: no.
+
+- **2026-09-19 (vision):** Filed Lattice lock / NON SOLUS status card + image as vision plate extract (Canon: no). Not a component stamp.
+
+- **2026-09-19 (bots):** Filled Alive Weave island gaps on roster — BOT-CONTEXTGATE, BOT-SAT, BOT-LEAF (≠ Orchestrator), BOT-GROK-MIND alias. Cross-link `ALIVE-WEAVE.md` ↔ `BOT-STRUCTURE.md`. Canon: no.
 
 - **2026-09-19:** Alive Weave — CrystalBridge ConsentGate wired into pulse + weave (allow/refuse proven; `signal.gate_check` into twin). Gate on by default; `--no-gate` to skip. Canon: no.
 
