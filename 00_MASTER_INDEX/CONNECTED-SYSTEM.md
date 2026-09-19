@@ -161,6 +161,7 @@ Pending infra from research status: Drive mirrors for 16–20, multi-domain vali
 | **Protocol Omega only in CVS** | No `protocol-omega` repo on account | Correct | Don’t invent a research repo |
 | **Stub private templates** | `jolly-bolt-flora-lotus`, `pilot-horizon-acre-spring` | **GONE (live 2026-09-18)** | Absent from list + API 404; Crystal confirm — packet C |
 | **CVS-CONNECTED indexed** | WORKING-INDEX row + Latest Updates | **FIXED** | Canon: no |
+| **Alive Weave (multi-AI)** | Islands pulsed separately; no shared bus→twin path | **FIXED** (2026-09-18) | `CVS-ALIVE`; S4 `signal.bus_message`; connection ≠ merge |
 | **Science INDEX URL pointers** | Indexes named repos without full CrystalArchitect URLs | **FIXED** (cvs-fixes INDEX refresh) | Still Canon: no |
 | **Cross-domain thread extracts** | Threads 1–5 hub extracts filed 2026-09-18 (T2 = stub awaiting formal spec) | **DONE (hub)** | Satellite execution remains |
 
@@ -179,7 +180,8 @@ Pending infra from research status: Drive mirrors for 16–20, multi-domain vali
 9. **Cross-domain Threads 1–5** — **DONE (hub extracts)** 2026-09-18 — satellite execution remains OPEN.  
 10. **Leave Protocol Omega in drawer 10** — Still correct; no promotion into 16–19.  
 11. **Stub delete/adopt** — **GONE (live)** — confirm packet C; do not recreate.  
-12. **Open backlog + decision packets** — **DONE** — [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), [`CRYSTAL-DECISIONS-PENDING.md`](CRYSTAL-DECISIONS-PENDING.md).
+12. **Open backlog + decision packets** — **DONE** — [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), [`CRYSTAL-DECISIONS-PENDING.md`](CRYSTAL-DECISIONS-PENDING.md).  
+13. ~~**Alive Weave (multi-AI pulse + S4)**~~ — **Done** 2026-09-18: `ALIVE-WEAVE.md` + `scripts/alive/`.
 
 ---
 

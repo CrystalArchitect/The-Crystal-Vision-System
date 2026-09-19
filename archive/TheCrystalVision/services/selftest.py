@@ -67,12 +67,27 @@ def test_ingest_is_idempotent_and_twin_aggregates():
         conn.close()
 
 
+def test_signal_bus_message_is_accepted():
+    """Architecture S4 — bus speech meters as signal.bus_message."""
+    event, reason = decode_event(_event(
+        event_id="bus-s4-1",
+        **{"class": "signal.bus_message"},
+        value="1",
+        unit="count",
+        h3="weave.hub",
+        source_did="did:crystal:bus:songline:Echo",
+    ))
+    assert reason == "" and event is not None
+    assert event["class"] == "signal.bus_message" and event["unit"] == "count"
+
+
 def main() -> int:
     tests = [
         test_decode_accepts_and_normalizes,
         test_decode_quarantines_bad_input,
         test_replay_is_rejected_in_batch,
         test_ingest_is_idempotent_and_twin_aggregates,
+        test_signal_bus_message_is_accepted,
     ]
     for t in tests:
         t()
