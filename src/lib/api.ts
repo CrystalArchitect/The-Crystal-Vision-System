@@ -384,3 +384,55 @@ export async function deleteSmartPlaylist(playlistId: string): Promise<boolean> 
     throw err;
   }
 }
+
+export async function addToFavorites(userId: string, trackId: string): Promise<boolean> {
+  try {
+    const { error } = await supabase
+      .from('favorites')
+      .upsert(
+        {
+          user_id: userId,
+          track_id: trackId,
+          created_at: new Date().toISOString(),
+        },
+        { onConflict: 'user_id,track_id' }
+      );
+
+    if (error) throw new APIError(error.message, 'ADD_FAVORITE_ERROR');
+    return true;
+  } catch (err) {
+    console.error('Add to favorites error:', err);
+    throw err;
+  }
+}
+
+export async function removeFromFavorites(userId: string, trackId: string): Promise<boolean> {
+  try {
+    const { error } = await supabase
+      .from('favorites')
+      .delete()
+      .eq('user_id', userId)
+      .eq('track_id', trackId);
+
+    if (error) throw new APIError(error.message, 'REMOVE_FAVORITE_ERROR');
+    return true;
+  } catch (err) {
+    console.error('Remove from favorites error:', err);
+    throw err;
+  }
+}
+
+export async function getFavorites(userId: string): Promise<string[]> {
+  try {
+    const { data, error } = await supabase
+      .from('favorites')
+      .select('track_id')
+      .eq('user_id', userId);
+
+    if (error) throw new APIError(error.message, 'GET_FAVORITES_ERROR');
+    return data?.map((item: { track_id: string }) => item.track_id) || [];
+  } catch (err) {
+    console.error('Get favorites error:', err);
+    throw err;
+  }
+}

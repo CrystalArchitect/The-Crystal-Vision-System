@@ -1,9 +1,10 @@
 // SPDX-License-Identifier: MIT
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Track } from "../../types";
-import { getUserMeta, setTrackRating, addTrackTags, removeTrackTags, setTrackNote, deletePlaylist, addTrackToPlaylist } from "../../lib/storage";
+import { getUserMeta, setTrackRating, addTrackTags, removeTrackTags, setTrackNote, deletePlaylist, addTrackToPlaylist, getFavorites, addToFavorites, removeFromFavorites } from "../../lib/storage";
 import RatingStars from "./RatingStars";
+import FavoritesButton from "./FavoritesButton";
 
 interface Props {
   track: Track;
@@ -20,6 +21,7 @@ export default function TrackDetailDrawer({ track, onClose, onMetaChange }: Prop
   const trackNote = meta.notes?.[track.id] ?? "";
   const trackTags = meta.tags?.[track.id] ?? [];
   const playlists = meta.playlists ?? [];
+  const [isFavorited, setIsFavorited] = useState(() => getFavorites().includes(track.id));
 
   useEffect(() => {
     const handleEscape = (e: KeyboardEvent) => {
@@ -49,6 +51,16 @@ export default function TrackDetailDrawer({ track, onClose, onMetaChange }: Prop
     onMetaChange();
   };
 
+  const handleToggleFavorite = (trackId: string, favorited: boolean) => {
+    if (favorited) {
+      addToFavorites(trackId);
+    } else {
+      removeFromFavorites(trackId);
+    }
+    setIsFavorited(favorited);
+    onMetaChange();
+  };
+
   return (
     <div
       ref={overlayRef}
@@ -60,13 +72,21 @@ export default function TrackDetailDrawer({ track, onClose, onMetaChange }: Prop
       >
         <div className="sticky top-0 bg-ink-950 border-b border-ink-800 px-6 py-4 flex items-center justify-between">
           <h2 className="text-lg font-semibold text-white truncate">{track.title}</h2>
-          <button
-            onClick={onClose}
-            className="p-2 hover:bg-ink-800 rounded transition-colors text-neutral-400 hover:text-white"
-            aria-label="Close"
-          >
-            ✕
-          </button>
+          <div className="flex items-center gap-2">
+            <FavoritesButton
+              trackId={track.id}
+              isFavorited={isFavorited}
+              onToggle={handleToggleFavorite}
+              size={20}
+            />
+            <button
+              onClick={onClose}
+              className="p-2 hover:bg-ink-800 rounded transition-colors text-neutral-400 hover:text-white"
+              aria-label="Close"
+            >
+              ✕
+            </button>
+          </div>
         </div>
 
         <div className="p-6 space-y-6">

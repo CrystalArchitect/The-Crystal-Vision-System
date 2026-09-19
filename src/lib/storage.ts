@@ -8,6 +8,7 @@ const STORAGE_KEY = 'dnb-library:user-meta';
 const PLAYLIST_PREFIX = 'dnb-library:playlist:';
 const SMART_PLAYLIST_PREFIX = 'dnb-library:smart:';
 const SYNC_QUEUE_KEY = 'dnb-library:sync-queue';
+const FAVORITES_KEY = 'dnb-library:favorites';
 
 const DEFAULT_META: UserMeta = {
   ratings: {},
@@ -23,7 +24,7 @@ const DEFAULT_META: UserMeta = {
 };
 
 interface SyncQueueItem {
-  type: 'rating' | 'tags' | 'note' | 'playlist' | 'smartPlaylist';
+  type: 'rating' | 'tags' | 'note' | 'playlist' | 'smartPlaylist' | 'favorite';
   action: 'set' | 'add' | 'remove' | 'create' | 'update' | 'delete';
   data: Record<string, unknown>;
   timestamp: number;
@@ -160,6 +161,20 @@ export async function processSyncQueue(): Promise<void> {
             );
           } else if (item.action === 'delete') {
             await api.deleteSmartPlaylist(item.data.playlistId as string);
+          }
+          break;
+
+        case 'favorite':
+          if (item.action === 'add') {
+            await api.addToFavorites(
+              user.id,
+              item.data.trackId as string
+            );
+          } else if (item.action === 'remove') {
+            await api.removeFromFavorites(
+              user.id,
+              item.data.trackId as string
+            );
           }
           break;
       }
@@ -738,4 +753,94 @@ export function importUserData(json: string): boolean {
 export function clearUserData(): void {
   if (typeof localStorage === 'undefined') return;
   localStorage.removeItem(STORAGE_KEY);
+}
+
+/**
+ * Get user's favorite track IDs
+ */
+export function getFavorites(): string[] {
+  if (typeof localStorage === 'undefined') return [];
+  try {
+    const data = localStorage.getItem(FAVORITES_KEY);
+    return data ? JSON.parse(data) : [];
+  } catch (e) {
+    console.error('Failed to get favorites:', e);
+    return [];
+  }
+}
+
+/**
+ * Add track to favorites
+ */
+export function addToFavorites(trackId: string): void {
+  const user = getCurrentUser();
+  const favorites = getFavorites();
+
+  if (!favorites.includes(trackId)) {
+    favorites.push(trackId);
+  }
+
+  if (typeof localStorage !== 'undefined') {
+    try {
+      localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+    } catch (e) {
+      console.error('Failed to save favorites:', e);
+    }
+  }
+
+  if (!user) {
+    addToSyncQueue({
+      type: 'favorite',
+      action: 'add',
+      data: { trackId },
+    });
+    return;
+  }
+
+  api
+    .addToFavorites(user.id, trackId)
+    .catch((err) => {
+      console.error('Failed to add favorite:', err);
+      addToSyncQueue({
+        type: 'favorite',
+        action: 'add',
+        data: { trackId },
+      });
+    });
+}
+
+/**
+ * Remove track from favorites
+ */
+export function removeFromFavorites(trackId: string): void {
+  const user = getCurrentUser();
+  const favorites = getFavorites().filter((id) => id !== trackId);
+
+  if (typeof localStorage !== 'undefined') {
+    try {
+      localStorage.setItem(FAVORITES_KEY, JSON.stringify(favorites));
+    } catch (e) {
+      console.error('Failed to save favorites:', e);
+    }
+  }
+
+  if (!user) {
+    addToSyncQueue({
+      type: 'favorite',
+      action: 'remove',
+      data: { trackId },
+    });
+    return;
+  }
+
+  api
+    .removeFromFavorites(user.id, trackId)
+    .catch((err) => {
+      console.error('Failed to remove favorite:', err);
+      addToSyncQueue({
+        type: 'favorite',
+        action: 'remove',
+        data: { trackId },
+      });
+    });
 }
