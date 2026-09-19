@@ -374,11 +374,11 @@ ky -= 2.2 * mm
 node_rows = [
     (gold, "Bowen / Gilmour", "Licensed orbital pad · Eris (not orbital yet)"),
     (gold, "Koonibba / Whalers Way", "Southern Launch re-entry + polar/SSO"),
-    (gold, "W. Sydney Academy", "Sim / classroom · ADFA spine · Y1–Y3 build→sim→range"),
+    (gold, "W. Sydney Academy", "Aerotropolis sim + Westmead compute/clinical"),
     (warn, "Christmas Is.", "Ship 40 recovery adjacency — not a pad"),
     (warn, "North (diligence)", "Future heavy-lift geography; ELA not live"),
-    (cyan, "Adelaide", "Fleet Space commercial LEO / ExoSphere"),
-    (cyan, "Melbourne", "Titomic / AM · SpIRIT ≠ Gilmour"),
+    (cyan, "Adelaide", "Neumann EP · Fleet Space LEO / ExoSphere"),
+    (cyan, "Melbourne", "Titomic / Lab22 · SpIRIT ≠ Gilmour"),
     (cyan, "Canberra", "ASA · ADFA · UNSW Canberra · EOS"),
 ]
 for color, name, body in node_rows:
@@ -411,7 +411,7 @@ maps = [
     "Impulse → Neumann (+ Gilmour)",
     "Sensors → Fleet + EOS",
     "Shipyard → Bowen + Southern Launch",
-    "Academy → W. Sydney + ADFA",
+    "Academy → W. Sydney + Westmead + ADFA",
     "Recovery → Koonibba / Christmas Is.",
 ]
 cy = y - 14 * mm

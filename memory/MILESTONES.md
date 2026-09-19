@@ -7,6 +7,13 @@ tracks that project; this file tracks this repo).
 **Write-back:** when monorepo-level work lands, add a dated entry here and,
 if it changes "now," update the relevant row in [`INDEX.md`](INDEX.md).
 
+## 2026-09-19 — Alive Weave: ConsentGate before bus speech
+
+- `scripts/alive/bridge_gate.py` — real ConsentGate probes (allow / refuse).
+- `pulse.py` CrystalBridge island now asserts gate law, not import-only.
+- `weave.py` runs ConsentGate by default; meters `signal.gate_check` to twin.
+- Twin selftest covers `signal.gate_check`.
+
 ## 2026-09-18 — Alive Weave: multi-AI islands pulsed and woven (S4)
 
 - Hub map: [`00_MASTER_INDEX/ALIVE-WEAVE.md`](../00_MASTER_INDEX/ALIVE-WEAVE.md)

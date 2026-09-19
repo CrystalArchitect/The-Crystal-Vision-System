@@ -55,14 +55,14 @@ SITES = [
     },
     {
         "name": "Adelaide",
-        "role": "Fleet Space (commercial LEO / EO)",
+        "role": "Neumann EP · Fleet Space",
         "xy": (428, 498),
         "color": CYAN,
         "label": "left",
     },
     {
         "name": "Melbourne",
-        "role": "Titomic / AM · SpIRIT ≠ Gilmour",
+        "role": "Titomic / Lab22 · SpIRIT ≠ Gilmour",
         "xy": (538, 568),
         "color": CYAN,
         "label": "right",
@@ -76,7 +76,7 @@ SITES = [
     },
     {
         "name": "W. Sydney Academy",
-        "role": "Aerotropolis sim / classroom",
+        "role": "Academy + Westmead compute/clinical",
         "xy": (728, 368),
         "color": GOLD,
         "label": "right",
@@ -181,9 +181,9 @@ def render(path: Path = OUT) -> Path:
     )
 
     swatches = [
-        (GOLD, "Gold — live industrial", "Bowen pad · Southern Launch · W. Sydney Academy"),
+        (GOLD, "Gold — live industrial", "Bowen pad · Southern Launch · W. Sydney Academy + Westmead"),
         (PEACH, "Peach — adjacency / diligence", "Christmas Island recovery · North = no MoU"),
-        (CYAN, "Cyan — institutional hubs", "Adelaide Fleet · Melbourne AM · Canberra ASA/ADFA/EOS"),
+        (CYAN, "Cyan — institutional hubs", "Adelaide Neumann/Fleet · Melbourne Titomic/Lab22 · Canberra ASA/ADFA/EOS"),
     ]
     sx = 40
     sy = 820
