@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 
 import React, { useState, useRef, useEffect } from 'react';
-import { User, Settings, LogOut } from 'lucide-react';
+import { User, Settings, LogOut, Download } from 'lucide-react';
 import { useUserStore } from '../../lib/userStore';
 import { logout } from '../../lib/auth';
 
@@ -91,6 +91,14 @@ export default function AuthMenu({ userName }: AuthMenuProps) {
           >
             <Settings size={16} />
             Settings
+          </a>
+
+          <a
+            href="/account/migrate-data"
+            className="flex items-center gap-3 px-4 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-ink-800"
+          >
+            <Download size={16} />
+            Migrate Data
           </a>
 
           <button
