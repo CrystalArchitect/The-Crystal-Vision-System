@@ -52,6 +52,11 @@ app.add_middleware(
 # Include authentication routes
 app.include_router(auth_router)
 
+# Siri / App Intent / universal gateway → CrystalCore.OS → TAI (foundation)
+from backend.portal.gateway import router as gateway_router
+
+app.include_router(gateway_router)
+
 
 # ============================================================================
 # Models

@@ -46,10 +46,13 @@
 | CVS-SAT-03 | 03 | SAT drawer + sitting-2026-09-19 extracts | research | no | `/03_SYNTHETIC_AFFECT_THEORY/` |
 | CVS-MUSIC-TREE | 10 | Music Theory Tree plate (C major modes) | research | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/music-theory-tree-C-major-modes.jpg` |
 | CVS-LATTICE-PLATE | 10 | Vision plate — Lattice lock / NON SOLUS (2026-09-19) | vision | no | `/10_ORIGINAL_CREATIVE/vision-plates/2026-09-19-LATTICE-LOCK-EXTRACT.md` |
+| CVS-STACK | 00 | Stack surface — Siri → Portal → CrystalCore.OS → TAI → Intelligence/MCP | coordination | no | `/00_MASTER_INDEX/STACK-SURFACE.md` · `/crystal_platform/` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-20 (stack):** Foundational platform contracts — `STACK-SURFACE.md` + `crystal_platform/` (Core ≠ agent; TAI acts; providers pluggable) + iOS App Intent scaffold + Portal `/v1/gateway/ask`. Canon: no.
 
 - **2026-09-19 (naming):** Project term is **Starline** (Consent Transport / Starlines). **Songline** is never a CVS title or component (`CVS-SONGLINE` out of bounds). Canon: no.
 
