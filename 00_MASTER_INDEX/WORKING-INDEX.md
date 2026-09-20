@@ -54,11 +54,14 @@
 | CVS-CHAOS-LAUNCH | 14 | Chaos Engine LAUNCHED — HTTP :8765 live | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-ENGINE-LAUNCHED.md` |
 | CVS-CHAOS-LOOT | 14 | Chaos loot bag — launch sitting spoils | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-LOOT-BAG.md` |
 | CVS-CHAOS-LOOT-W2 | 14 | Chaos loot wave 2 — solos, /ask, manifest, paste pack | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-LOOT-WAVE2.md` |
-| CVS-STARFLEET-KANGAROO | 00 | Starfleet Australia — Kangaroo Division LAUNCHED (Vision) | vision | no | `/00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md` · `archive/starfleet-au-kangaroo-pack/` |
+| CVS-STARFLEET-KANGAROO | 00 | Kangaroo Division pitch face (Vision) — **not** Starfleet OS | vision | no | `/00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md` · `archive/starfleet-au-kangaroo-pack/` |
+| CVS-NO-STARFLEET-OS | 14 | No Starfleet OS — stack already exists | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-NO-STARFLEET-OS.md` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-20 (no Starfleet OS):** Crystal stamp — do not build Starfleet OS; CrystalCore.OS + Chaos + Portal + TAI already cover it. Kangaroo Division = pitch pack only. Canon: no.
 
 - **2026-09-20 (Kangaroo Division):** Starfleet Australia — Kangaroo Division LAUNCHED (Vision). Pack verified, hub map, launch script, Chaos fan-out. No MoU / persona / warp. Canon: no.
 
