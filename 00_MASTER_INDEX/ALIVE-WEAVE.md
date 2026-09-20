@@ -125,6 +125,7 @@ Pulse does **not** merge repos. It imports from archive paths as **guests of the
 ## 7. Related
 
 - [`CONNECTED-SYSTEM.md`](CONNECTED-SYSTEM.md) — portfolio ↔ drawer map  
+- [`STACK-SURFACE.md`](STACK-SURFACE.md) — Siri → Portal → CrystalCore.OS → TAI → Intelligence/MCP  
 - [`../docs/BOT-STRUCTURE.md`](../docs/BOT-STRUCTURE.md) — bot roster (seats / homes; not this living pulse)  
 - [`../memory/CORE.md`](../memory/CORE.md) — do not collapse  
 - [`../archive/TheCrystalVision/spec/ARCHITECTURE.md`](../archive/TheCrystalVision/spec/ARCHITECTURE.md) — Decode · Ingest · Twin  

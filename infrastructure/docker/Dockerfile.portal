@@ -13,8 +13,9 @@ RUN apt-get update && apt-get install -y \
 COPY backend/portal/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy Portal code
-COPY backend/portal /app/portal
+# Portal + shared stack contracts (CrystalCore.OS / TAI / intelligence)
+COPY backend /app/backend
+COPY crystal_platform /app/crystal_platform
 
 # Set environment
 ENV PYTHONUNBUFFERED=1
@@ -27,4 +28,4 @@ RUN chmod +x /app/health-check.sh
 EXPOSE 8000
 
 # Run Portal service
-CMD ["python", "-m", "uvicorn", "portal.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["python", "-m", "uvicorn", "backend.portal.main:app", "--host", "0.0.0.0", "--port", "8000"]

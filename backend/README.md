@@ -9,6 +9,24 @@ Voice-first governance system with immutable audit trails. Three-layer architect
 ## Architecture
 
 ```
+Siri (App Intents) / Device Apps (iOS, Windows)
+    ↓
+Celestial Portal gateway  (/v1/gateway/ask)
+    ↓
+CrystalCore.OS (govern — crystal_platform)
+    ↓
+TAI agents (act) → Intelligence providers (think) → MCP/tools
+    ↓
+MemoryCore Vault (PostgreSQL)  ← durable memory / decisions
+    ↓
+CrystalBus MCP (→ UK Portfolio CI/CD)
+```
+
+Stack contracts: [`../../crystal_platform/`](../../crystal_platform/) · map: [`../../00_MASTER_INDEX/STACK-SURFACE.md`](../../00_MASTER_INDEX/STACK-SURFACE.md)
+
+Legacy three-layer note (still true for Vault/Portal/CrystalBus):
+
+```
 Device Apps (iOS, Windows)
     ↓
     ← Biometric Auth (Face ID, Windows Hello)

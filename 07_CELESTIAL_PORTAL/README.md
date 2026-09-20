@@ -18,6 +18,9 @@ Pointer + handoff trail for Celestial Portal. **Not** a merge of CrystalCore int
 
 - Handoff pack: [`../handoff/celestial-portal/`](../handoff/celestial-portal/) (`README.md`, `GET-THESE.md`)
 - Working-index id: `CVS-PORTAL-A`
+- Living Portal API: [`../backend/`](../backend/)
+- Stack surface (Siri → Portal → CrystalCore.OS → TAI): [`../00_MASTER_INDEX/STACK-SURFACE.md`](../00_MASTER_INDEX/STACK-SURFACE.md)
+- iOS App Intent (Siri entry): [`../apps/ios/CelestialPortal/Sources/Intents/`](../apps/ios/CelestialPortal/Sources/Intents/)
 
 ## Still missing (from handoff)
 
