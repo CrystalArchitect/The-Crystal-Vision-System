@@ -5,6 +5,8 @@ Exploratory industrial brief: Australia as shipyard + academy adjacency for Spac
 **From:** Crystal Elle Arena-Turner · TerAustralis Incognita  
 **Status:** Vision / proposal layer — fact-checked claims hygiene applied 2026-09-06.
 
+**Hub launch (CVS):** Kangaroo Division — [`../../00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md`](../../00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md) · `python3 scripts/starfleet/launch_kangaroo_division.py`
+
 ## Contents
 - `01-PITCH-ONE-PAGER.md` — thesis
 - `02-SPEC-SHEET.md` — systems
