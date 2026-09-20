@@ -83,13 +83,13 @@ Practiced roles from `archive/TerAustralis-Incognita/docs/ai/AI-Architecture.md`
 
 | ID | Status | Seat | One line | Agent card (archive) |
 | --- | --- | --- | --- | --- |
-| **BOT-WEAVE-CHATGPT** | dormant | Chief Systems Architect | Intent → specs | `docs/agents/ChatGPT-Agent.md` |
-| **BOT-WEAVE-GROK** | dormant | Creative Exploration | Diverge / Vision brainstorm | `docs/agents/Grok-Agent.md` §A |
-| **BOT-WEAVE-GROK-BUILD** | dormant | Repository Engineer | Implements via PRs (from 2026-08-20) | `Grok-Agent.md` §B |
-| **BOT-WEAVE-DEEPSEEK** | dormant | Research & Engineering | Math / algorithms / rigor | `DeepSeek-Agent.md` · bus `deepseek` |
-| **BOT-WEAVE-KIMI** | proposed | Long-context / multilingual research | Contradiction / wide-read passes | bus `kimi` (Moonshot) — agent card TBD |
-| **BOT-WEAVE-GEMINI** | dormant | Knowledge & Multimodal | Wide docs / images / consistency | `Gemini-Agent.md` · bus `gemini` |
-| **BOT-WEAVE-CLAUDE** | historical | Repository Engineer (former) | Midstream until ADR-0014 | `Claude-Agent.md` |
+| **BOT-WEAVE-CHATGPT** | dormant | Chief Systems Architect | Intent → specs | `docs/agents/ChatGPT-Agent.md` · bus `gpt` · provider `openai.chatgpt` |
+| **BOT-WEAVE-GROK** | dormant | Creative Exploration | Diverge / Vision brainstorm | `docs/agents/Grok-Agent.md` §A · bus `grok` · provider `xai.grok` |
+| **BOT-WEAVE-GROK-BUILD** | dormant | Repository Engineer | Implements via PRs (from 2026-08-20) | `Grok-Agent.md` §B · **not** a Chaos seat |
+| **BOT-WEAVE-DEEPSEEK** | dormant | Research & Engineering | Math / algorithms / rigor | `DeepSeek-Agent.md` · bus `deepseek` · provider `deepseek` |
+| **BOT-WEAVE-KIMI** | proposed | Long-context / multilingual research | Contradiction / wide-read passes | bus `kimi` · provider `moonshot.kimi` — agent card TBD |
+| **BOT-WEAVE-GEMINI** | dormant | Knowledge & Multimodal | Wide docs / images / consistency | `Gemini-Agent.md` · bus `gemini` · provider `google.gemini` |
+| **BOT-WEAVE-CLAUDE** | historical | Repository Engineer (former) | Midstream until ADR-0014 | `Claude-Agent.md` · bus `claude` · provider `anthropic.claude` |
 | **BOT-ORCHESTRATOR** | proposed | AI Orchestrator | Route tasks to seats | Decision-Matrix docs only — no runtime |
 | **BOT-LEAF** | dormant | Limited Electronic Agent Framework | Human recommend-then-approve ops charter | `mythos/teraustralis/ops/leaf/` — distinct from auto-Orchestrator |
 
