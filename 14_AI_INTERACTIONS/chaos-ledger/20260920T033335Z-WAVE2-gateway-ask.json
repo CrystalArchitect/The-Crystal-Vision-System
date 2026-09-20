@@ -1,0 +1,26 @@
+{
+  "bagged_at": "2026-09-20 03:33 UTC",
+  "asks": [
+    {
+      "provider_id": "local.open",
+      "status": "ok",
+      "provider_hint": "local.open",
+      "speech_text": "[local.open] LOOT /ask via local.open",
+      "correlation_id": "72387b89-5b78-4ece-a848-168237b9e11c"
+    },
+    {
+      "provider_id": "deepseek",
+      "status": "ok",
+      "provider_hint": "deepseek",
+      "speech_text": "[deepseek] not configured (DEEPSEEK_API_KEY unset); staying silent.",
+      "correlation_id": "e502e655-73cc-410c-8400-2d5aabd105e8"
+    },
+    {
+      "provider_id": "xai.grok",
+      "status": "ok",
+      "provider_hint": "xai.grok",
+      "speech_text": "[xai.grok] not configured (XAI_API_KEY unset); staying silent.",
+      "correlation_id": "86595e88-abab-4542-814f-19b013bd7946"
+    }
+  ]
+}
