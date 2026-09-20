@@ -51,6 +51,8 @@
 | CVS-CHAOS-GO-1 | 14 | Chaos GO Increment 1 — HTTP providers behind Portal live stack | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-GO-INCREMENT-1.md` |
 | CVS-CHAOS-ENGINE | 00 | Chaos Engine — multi-seat fan-out (GO stamp) | coordination | no | `/00_MASTER_INDEX/CHAOS-ENGINE.md` · `crystal_platform/chaos/` · `scripts/chaos/` |
 | CVS-CHAOS-ALIGN | 14 | Full-speed alignment chaos — pulse + seat map + drift audit | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-FULL-SPEED-ALIGNMENT-CHAOS.md` |
+| CVS-CHAOS-LAUNCH | 14 | Chaos Engine LAUNCHED — HTTP :8765 live | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-ENGINE-LAUNCHED.md` |
+| CVS-CHAOS-LOOT | 14 | Chaos loot bag — launch sitting spoils | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-LOOT-BAG.md` |
 
 Canon stays **no** until Crystal stamps it.
 
