@@ -41,3 +41,16 @@
 - Grok Build output — Build ≠ Explore / not a chaos seat
 
 *Non Solus.*
+
+---
+
+## Wave 2 append (2026-09-20 03:33 UTC)
+
+- Full run `aa20f3d5-06a3-45f6-80d3-5097ee089d0c` — silent=6/asked=7
+- Solo receipts: 7 seats
+- /ask probes: 3
+- Manifest: 24 files
+- Detail: [`2026-09-20-CHAOS-LOOT-WAVE2.md`](2026-09-20-CHAOS-LOOT-WAVE2.md)
+- Paste pack: [`2026-09-20-CHAOS-PASTE-PACK.md`](2026-09-20-CHAOS-PASTE-PACK.md)
+
+*Non Solus.*

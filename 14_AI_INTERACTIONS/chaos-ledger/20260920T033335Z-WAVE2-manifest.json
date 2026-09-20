@@ -1,0 +1,126 @@
+{
+  "bagged_at": "2026-09-20 03:33 UTC",
+  "count": 24,
+  "files": [
+    {
+      "path": "00_MASTER_INDEX/CHAOS-ENGINE.md",
+      "bytes": 2709,
+      "sha256": "18fade169b1c87c9"
+    },
+    {
+      "path": "14_AI_INTERACTIONS/2026-09-20-CHAOS-ENGINE-LAUNCHED.md",
+      "bytes": 1019,
+      "sha256": "9299355f75e9d598"
+    },
+    {
+      "path": "14_AI_INTERACTIONS/2026-09-20-CHAOS-GO-INCREMENT-1.md",
+      "bytes": 2344,
+      "sha256": "13696e6dd5eca345"
+    },
+    {
+      "path": "14_AI_INTERACTIONS/2026-09-20-CHAOS-LOOT-BAG.md",
+      "bytes": 1815,
+      "sha256": "7dc8456af0eba038"
+    },
+    {
+      "path": "14_AI_INTERACTIONS/2026-09-20-CHAOS-OPENING-WEAVE-CHECK.md",
+      "bytes": 5460,
+      "sha256": "a3d6d5e4245da92e"
+    },
+    {
+      "path": "14_AI_INTERACTIONS/2026-09-20-FULL-SPEED-ALIGNMENT-CHAOS.md",
+      "bytes": 2248,
+      "sha256": "edd4587bf3938733"
+    },
+    {
+      "path": "14_AI_INTERACTIONS/chaos-ledger/2026-09-20-LAUNCH.md",
+      "bytes": 1805,
+      "sha256": "5e6903d3c60a021c"
+    },
+    {
+      "path": "14_AI_INTERACTIONS/chaos-ledger/2026-09-20-LOOT.json",
+      "bytes": 2267,
+      "sha256": "033b1fcccc808862"
+    },
+    {
+      "path": "14_AI_INTERACTIONS/chaos-ledger/2026-09-20-engine-go.md",
+      "bytes": 1629,
+      "sha256": "f4993cb73a7411c7"
+    },
+    {
+      "path": "14_AI_INTERACTIONS/chaos-ledger/2026-09-20-full-speed-alignment.md",
+      "bytes": 1771,
+      "sha256": "3824f95bdb0fbeec"
+    },
+    {
+      "path": "14_AI_INTERACTIONS/chaos-ledger/20260920T033335Z-WAVE2-full.json",
+      "bytes": 2094,
+      "sha256": "fe37d67c6cd736a9"
+    },
+    {
+      "path": "14_AI_INTERACTIONS/chaos-ledger/20260920T033335Z-WAVE2-full.md",
+      "bytes": 1669,
+      "sha256": "4fcf71123acd3cf8"
+    },
+    {
+      "path": "14_AI_INTERACTIONS/chaos-ledger/20260920T033335Z-WAVE2-gateway-ask.json",
+      "bytes": 801,
+      "sha256": "12eabb99114c0aab"
+    },
+    {
+      "path": "14_AI_INTERACTIONS/chaos-ledger/20260920T033335Z-WAVE2-solo-seats.json",
+      "bytes": 2181,
+      "sha256": "57eaee8b5162e216"
+    },
+    {
+      "path": "14_AI_INTERACTIONS/chaos-ledger/README.md",
+      "bytes": 144,
+      "sha256": "586df730fe51857c"
+    },
+    {
+      "path": "crystal_platform/chaos/__init__.py",
+      "bytes": 287,
+      "sha256": "d79253272321b894"
+    },
+    {
+      "path": "crystal_platform/chaos/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 399,
+      "sha256": "7d3e0be07dcff0f2"
+    },
+    {
+      "path": "crystal_platform/chaos/__pycache__/engine.cpython-312.pyc",
+      "bytes": 7400,
+      "sha256": "151d95338873f456"
+    },
+    {
+      "path": "crystal_platform/chaos/engine.py",
+      "bytes": 5496,
+      "sha256": "92f6ed0223ff5f9f"
+    },
+    {
+      "path": "crystal_platform/intelligence/http_providers.py",
+      "bytes": 9727,
+      "sha256": "878ce0d99680b32f"
+    },
+    {
+      "path": "scripts/chaos/__pycache__/align.cpython-312.pyc",
+      "bytes": 6261,
+      "sha256": "c2be3556f74124a1"
+    },
+    {
+      "path": "scripts/chaos/align.py",
+      "bytes": 4417,
+      "sha256": "1f8306ea45544a09"
+    },
+    {
+      "path": "scripts/chaos/launch.py",
+      "bytes": 6736,
+      "sha256": "9c877ad4108dda53"
+    },
+    {
+      "path": "scripts/chaos/run.py",
+      "bytes": 2399,
+      "sha256": "d535cb6ef6a5349e"
+    }
+  ]
+}

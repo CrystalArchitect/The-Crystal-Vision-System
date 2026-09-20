@@ -1,0 +1,65 @@
+{
+  "run_id": "aa20f3d5-06a3-45f6-80d3-5097ee089d0c",
+  "question": "LOOT WAVE 2 \u2014 bag everything honest. Core\u2260TAI. Canon: no.",
+  "cross_compare": {
+    "seats_asked": 7,
+    "seats_ok": 1,
+    "seats_silent": 6,
+    "status_counts": {
+      "ok": 7
+    },
+    "unanimous_silence": false,
+    "note": "count not verdict"
+  },
+  "replies": [
+    {
+      "provider_id": "openai.chatgpt",
+      "status": "ok",
+      "silent": true,
+      "text": "[openai.chatgpt] not configured (OPENAI_API_KEY unset); staying silent.",
+      "correlation_id": "c072b45b-e67e-4a6e-aed0-bbc60edd68d5"
+    },
+    {
+      "provider_id": "anthropic.claude",
+      "status": "ok",
+      "silent": true,
+      "text": "[anthropic.claude] not configured (ANTHROPIC_API_KEY unset); staying silent.",
+      "correlation_id": "faa8c5ad-41fb-41ec-98c1-83eb3f7431bb"
+    },
+    {
+      "provider_id": "xai.grok",
+      "status": "ok",
+      "silent": true,
+      "text": "[xai.grok] not configured (XAI_API_KEY unset); staying silent.",
+      "correlation_id": "bb0c36ef-0ea8-4298-b20f-39a0424736e2"
+    },
+    {
+      "provider_id": "deepseek",
+      "status": "ok",
+      "silent": true,
+      "text": "[deepseek] not configured (DEEPSEEK_API_KEY unset); staying silent.",
+      "correlation_id": "8c7d89e7-33b9-413c-8fb3-f72de315fa56"
+    },
+    {
+      "provider_id": "moonshot.kimi",
+      "status": "ok",
+      "silent": true,
+      "text": "[moonshot.kimi] not configured (MOONSHOT_API_KEY / KIMI_API_KEY unset); staying silent.",
+      "correlation_id": "ef3a305d-32ef-4f89-8ce6-4709a1b320e8"
+    },
+    {
+      "provider_id": "google.gemini",
+      "status": "ok",
+      "silent": true,
+      "text": "[google.gemini] not configured (GEMINI_API_KEY unset); staying silent.",
+      "correlation_id": "6e60e15c-60ba-4885-bc67-48dd23e51673"
+    },
+    {
+      "provider_id": "local.open",
+      "status": "ok",
+      "silent": false,
+      "text": "[local.open] LOOT WAVE 2 \u2014 bag everything honest. Core\u2260TAI. Canon: no.",
+      "correlation_id": "3092ef27-d242-46e2-881c-128d540fe1e5"
+    }
+  ]
+}
