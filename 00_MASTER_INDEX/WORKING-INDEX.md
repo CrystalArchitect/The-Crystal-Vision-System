@@ -58,6 +58,8 @@ Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
+- **2026-09-20 (loot):** Bagged Chaos Engine launch sitting — loot bag + JSON ledger; pulse 12/12; align clean. Canon: no.
+
 - **2026-09-20 (chaos LAUNCH):** Engine LIVE — `scripts/chaos/launch.py --serve` on :8765; align cleared; 6 silent + local.open. Canon: no.
 
 - **2026-09-20 (alignment chaos):** Full-speed pass — pulse 12/12, Chaos+Starline matrices silent, registry `bus_agent`/`provider_id` aligned, `scripts/chaos/align.py --strict`. Canon: no.
