@@ -47,13 +47,13 @@
 | CVS-MUSIC-TREE | 10 | Music Theory Tree plate (C major modes) | research | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/music-theory-tree-C-major-modes.jpg` |
 | CVS-LATTICE-PLATE | 10 | Vision plate — Lattice lock / NON SOLUS (2026-09-19) | vision | no | `/10_ORIGINAL_CREATIVE/vision-plates/2026-09-19-LATTICE-LOCK-EXTRACT.md` |
 | CVS-STACK | 00 | Stack surface — Siri → Portal → CrystalCore.OS → TAI → Intelligence/MCP | coordination | no | `/00_MASTER_INDEX/STACK-SURFACE.md` · `/crystal_platform/` |
-| CVS-CHAOS-0920 | 14 | Chaos opening — weave seat check (ChatGPT/Claude/Grok silent; keys unset) | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-OPENING-WEAVE-CHECK.md` |
+| CVS-CHAOS-0920 | 14 | Chaos opening — weave seat check (Claude/GPT/Grok/DeepSeek/Kimi/Manus/Gemini; keys unset) | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-OPENING-WEAVE-CHECK.md` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
-- **2026-09-20 (chaos):** Starline matrix asked Claude/GPT/Grok — all silent (API keys unset). Filed chaos opening + paste cards. Pulse still 12/12. Canon: no.
+- **2026-09-20 (chaos):** Starline matrix expanded to Claude/GPT/Grok/DeepSeek/Kimi/Manus/Gemini — 7/7 silent (keys unset). Adapters + paste cards; Kimi proposed; Manus matrix-guest only. Canon: no.
 
 - **2026-09-20 (stack):** Foundational platform contracts — `STACK-SURFACE.md` + `crystal_platform/` (Core ≠ agent; TAI acts; providers pluggable) + iOS App Intent scaffold + Portal `/v1/gateway/ask`. Canon: no.
 

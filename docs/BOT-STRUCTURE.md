@@ -86,8 +86,9 @@ Practiced roles from `archive/TerAustralis-Incognita/docs/ai/AI-Architecture.md`
 | **BOT-WEAVE-CHATGPT** | dormant | Chief Systems Architect | Intent → specs | `docs/agents/ChatGPT-Agent.md` |
 | **BOT-WEAVE-GROK** | dormant | Creative Exploration | Diverge / Vision brainstorm | `docs/agents/Grok-Agent.md` §A |
 | **BOT-WEAVE-GROK-BUILD** | dormant | Repository Engineer | Implements via PRs (from 2026-08-20) | `Grok-Agent.md` §B |
-| **BOT-WEAVE-DEEPSEEK** | dormant | Research & Engineering | Math / algorithms / rigor | `DeepSeek-Agent.md` |
-| **BOT-WEAVE-GEMINI** | dormant | Knowledge & Multimodal | Wide docs / images / consistency | `Gemini-Agent.md` |
+| **BOT-WEAVE-DEEPSEEK** | dormant | Research & Engineering | Math / algorithms / rigor | `DeepSeek-Agent.md` · bus `deepseek` |
+| **BOT-WEAVE-KIMI** | proposed | Long-context / multilingual research | Contradiction / wide-read passes | bus `kimi` (Moonshot) — agent card TBD |
+| **BOT-WEAVE-GEMINI** | dormant | Knowledge & Multimodal | Wide docs / images / consistency | `Gemini-Agent.md` · bus `gemini` |
 | **BOT-WEAVE-CLAUDE** | historical | Repository Engineer (former) | Midstream until ADR-0014 | `Claude-Agent.md` |
 | **BOT-ORCHESTRATOR** | proposed | AI Orchestrator | Route tasks to seats | Decision-Matrix docs only — no runtime |
 | **BOT-LEAF** | dormant | Limited Electronic Agent Framework | Human recommend-then-approve ops charter | `mythos/teraustralis/ops/leaf/` — distinct from auto-Orchestrator |
@@ -154,7 +155,7 @@ Physics / math / philosophy satellites stay drawer pointers (17–19); add a `BO
 | --- | --- |
 | Stage 1–6 workers as IDs | Pools — see §1 |
 | “4,200 bots” | Marketing hyperbole in source post |
-| Manus | External design tool assignment — not a CVS bot |
+| Manus | External design tool — **not a CVS bot**; may speak as Starline matrix guest (`bus` agent `manus`) only |
 | Meta AI | Contributor credit / panel subject |
 | Crystal Weaver (mythos) | Story role, not software ID |
 | Studio Lead / Crystal | Human authority |
@@ -215,6 +216,12 @@ Secrets (never commit):
 | Name | Used by |
 | --- | --- |
 | `XAI_API_KEY` | BOT-STUDIO, BOT-WEAVE-GROK*, BOT-DISCORD (if Grok path) |
+| `OPENAI_API_KEY` | BOT-WEAVE-CHATGPT (bus `gpt`) |
+| `ANTHROPIC_API_KEY` | BOT-WEAVE-CLAUDE historical / optional matrix |
+| `DEEPSEEK_API_KEY` | BOT-WEAVE-DEEPSEEK |
+| `MOONSHOT_API_KEY` / `KIMI_API_KEY` | BOT-WEAVE-KIMI (proposed) |
+| `GEMINI_API_KEY` | BOT-WEAVE-GEMINI |
+| `MANUS_API_KEY` (+ optional `MANUS_BASE_URL`) | matrix guest only — not a roster bot |
 | Discord token(s) | BOT-DISCORD |
 | Platform API keys | Intake only |
 | Portal env | BOT-PORTAL |

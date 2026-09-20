@@ -16,7 +16,15 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from .adapters import AnthropicAdapter, OpenAIAdapter, XAIAdapter
+from .adapters import (
+    AnthropicAdapter,
+    DeepSeekAdapter,
+    GeminiAdapter,
+    KimiAdapter,
+    ManusAdapter,
+    OpenAIAdapter,
+    XAIAdapter,
+)
 from .agents import BusHub, EchoAgent, RedButtonAgent, SevenSistersAgent, UnlabeledAgent
 from .bus import StarlineWeaver
 
@@ -28,6 +36,10 @@ REGISTRY = {
     "claude": AnthropicAdapter,
     "gpt": OpenAIAdapter,
     "grok": XAIAdapter,
+    "deepseek": DeepSeekAdapter,
+    "kimi": KimiAdapter,
+    "manus": ManusAdapter,
+    "gemini": GeminiAdapter,
 }
 
 

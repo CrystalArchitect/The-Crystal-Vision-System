@@ -4,7 +4,7 @@
 # Stages 1–6 are pools, not rows. Research children are fork-mirrors under BOT-RESEARCH.
 
 version: 3
-updated: "2026-09-19"
+updated: "2026-09-20"
 canon: false
 protocol:
   core: memory/CORE.md
@@ -144,7 +144,9 @@ bots:
     role: research_engineering_specialist
     status: dormant
     home: archive/TerAustralis-Incognita/docs/agents/DeepSeek-Agent.md
-    secrets: []
+    bus_agent: deepseek
+    secrets:
+      - DEEPSEEK_API_KEY
     allowed:
       - math
       - algorithms
@@ -154,12 +156,34 @@ bots:
       - auto_post
     publish_mode: human_only
 
+  - id: BOT-WEAVE-KIMI
+    belt: weave
+    role: long_context_multilingual_research
+    status: proposed
+    home: archive/TerAustralis-Incognita-Code/core/crystal-core/bus/adapters.py  # KimiAdapter until agent card exists
+    bus_agent: kimi
+    note: Proposed weave seat for Moonshot/Kimi matrix. Not Canon until Crystal stamps.
+    secrets:
+      - MOONSHOT_API_KEY
+      - KIMI_API_KEY  # alias accepted by adapter
+    allowed:
+      - long_context_read
+      - multilingual_notes
+      - contradiction_pass
+    forbidden:
+      - claim_canon
+      - auto_post
+      - invent_roster_ids
+    publish_mode: human_only
+
   - id: BOT-WEAVE-GEMINI
     belt: weave
     role: knowledge_multimodal
     status: dormant
     home: archive/TerAustralis-Incognita/docs/agents/Gemini-Agent.md
-    secrets: []
+    bus_agent: gemini
+    secrets:
+      - GEMINI_API_KEY
     allowed:
       - wide_document_read
       - multimodal
