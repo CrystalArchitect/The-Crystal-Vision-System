@@ -4,8 +4,8 @@
     python3 scripts/starfleet/launch_kangaroo_division.py
 
 Does NOT adopt a Starfleet persona. Does NOT claim MoU / pads / warp.
-Vision ≠ Built. Canon: no.
-"""
+Does NOT launch Starfleet OS — CrystalCore.OS stack already owns that job.
+Vision ≠ Built. Canon: no."""
 
 from __future__ import annotations
 
@@ -98,12 +98,14 @@ def main(argv: list[str] | None = None) -> int:
         "canon": False,
         "vision": True,
         "hard_nos": [
+            "no_starfleet_os",
             "no_starship_mou",
             "no_warp",
             "no_ela_as_live",
             "no_false_elon_bonds",
             "no_starfleet_persona_adoption",
             "kangaroo_class_is_fiction_cover",
+            "pitch_pack_not_operating_system",
         ],
         "pack": str(PACK.relative_to(ROOT)),
     }
@@ -174,11 +176,12 @@ def main(argv: list[str] | None = None) -> int:
                 "- Hub Division map on disk",
                 "- Chaos align clean (if run)",
                 "- Persona adoption: **refused** (mythos ≠ authorize)",
+                "- **Starfleet OS: out of bounds** — CrystalCore.OS stack already covers it",
                 "",
                 "## Hard nos held",
                 "",
-                "- No Starship MoU · no warp · no ELA-as-live · no false Elon bonds",
-                "- Kangaroo-class = fiction cover only",
+                "- No Starfleet OS · no Starship MoU · no warp · no ELA-as-live · no false Elon bonds",
+                "- Kangaroo-class = fiction cover only · Division = pitch face only",
                 "",
                 f"Chaos run: `{result_meta.get('chaos_run_id', 'n/a')}`",
                 "",
