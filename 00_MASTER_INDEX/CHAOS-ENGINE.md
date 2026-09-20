@@ -26,8 +26,9 @@ Multi-seat fan-out over the live stack: one question → N intelligence seats �
 | Piece | Status | Where |
 | --- | --- | --- |
 | HTTP providers + live stack | ● | `crystal_platform/intelligence/`, `orchestration.py` |
-| ChaosEngine fan-out | ● | `crystal_platform/chaos/engine.py` |
-| CLI | ● | `scripts/chaos/run.py` |
+| Chaos Engine fan-out | ● | `crystal_platform/chaos/engine.py` |
+| CLI | ● | `scripts/chaos/run.py` · `scripts/chaos/launch.py` |
+| HTTP launch surface | ● | `scripts/chaos/launch.py --serve` → `:8765` |
 | Portal `/v1/gateway/chaos` | ● | `backend/portal/gateway.py` |
 | Ledger drawer | ● | `14_AI_INTERACTIONS/chaos-ledger/` |
 | Keyed live diverge | ○ | needs Secrets in a new Cloud Agent |
@@ -50,7 +51,15 @@ Multi-seat fan-out over the live stack: one question → N intelligence seats �
 ## Run
 
 ```bash
+# One-shot fan-out + ledger
+python3 scripts/chaos/launch.py
 python3 scripts/chaos/run.py --topic "Where is each seat?"
+
+# Live HTTP surface (stdlib — no Portal DB required)
+python3 scripts/chaos/launch.py --serve --port 8765
+# GET  /health
+# POST /v1/gateway/chaos  {"text":"..."}
+
 python3 scripts/chaos/align.py --strict
 python3 -m unittest discover -s crystal_platform/tests -v
 ```
