@@ -23,7 +23,7 @@ It is **not** an operating system. Do not build or adopt **Starfleet OS**.
 | Island pulse | **Alive Weave** · `ALIVE-WEAVE.md` · `scripts/alive/` |
 | Bot seats / roster | **BOT-STRUCTURE** · `docs/bots/registry.yaml` |
 
-**Starfleet Australia OS (FC-01–08)** in `archive/TerAustralis-Incognita/docs/vision/StarfleetAustraliaOS.md` stays **Vision archive only** — unreviewed fleet nomenclature, **out of bounds to implement**. Standing AI persona “Starfleet OS / NCC-992-AU” = **refused** (mythos may orient; it may not authorize).
+**Starfleet Australia OS (FC-01–08)** in `archive/TerAustralis-Incognita/docs/vision/StarfleetAustraliaOS.md` stays **Vision archive only** — unreviewed fleet nomenclature, **out of bounds to implement**. Standing AI persona “Starfleet OS / NCC-992-AU” = **refused** (mythos may orient; it may not authorize). Grok found that page (2026-09-20) — **find ≠ build**; see `14_AI_INTERACTIONS/2026-09-20-GROK-FOUND-STARFLEET-OS.md`.
 
 ## What Kangaroo Division *is* (honest)
 

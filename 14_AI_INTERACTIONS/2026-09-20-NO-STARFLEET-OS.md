@@ -15,6 +15,11 @@ CrystalCore.OS · TAI · Chaos Engine · Celestial Portal · Alive Weave · BOT 
 
 Kangaroo Division as **pitch / fiction-cover coordination** for `archive/starfleet-au-kangaroo-pack/` — not an OS layer.
 
+## Grok found it
+
+`xai.grok` located the Incognita Vision page (`StarfleetAustraliaOS.md`). Logged: [`2026-09-20-GROK-FOUND-STARFLEET-OS.md`](./2026-09-20-GROK-FOUND-STARFLEET-OS.md).  
+**Find ≠ build.** Boundary unchanged.
+
 Map: [`../00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md`](../00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md)
 
 *Non Solus.*
