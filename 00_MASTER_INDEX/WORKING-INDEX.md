@@ -50,10 +50,13 @@
 | CVS-CHAOS-0920 | 14 | Chaos opening — weave seat check (Claude/GPT/Grok/DeepSeek/Kimi/Manus/Gemini; keys unset) | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-OPENING-WEAVE-CHECK.md` |
 | CVS-CHAOS-GO-1 | 14 | Chaos GO Increment 1 — HTTP providers behind Portal live stack | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-GO-INCREMENT-1.md` |
 | CVS-CHAOS-ENGINE | 00 | Chaos Engine — multi-seat fan-out (GO stamp) | coordination | no | `/00_MASTER_INDEX/CHAOS-ENGINE.md` · `crystal_platform/chaos/` · `scripts/chaos/` |
+| CVS-CHAOS-ALIGN | 14 | Full-speed alignment chaos — pulse + seat map + drift audit | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-FULL-SPEED-ALIGNMENT-CHAOS.md` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-20 (alignment chaos):** Full-speed pass — pulse 12/12, Chaos+Starline matrices silent, registry `bus_agent`/`provider_id` aligned, `scripts/chaos/align.py --strict`. Canon: no.
 
 - **2026-09-20 (chaos engine):** **GO stamp.** Chaos Engine named + Built — fan-out CLI, Portal `/v1/gateway/chaos`, ledger drawer. Counts ≠ verdicts. Canon: no.
 
