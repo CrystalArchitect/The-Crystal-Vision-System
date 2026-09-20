@@ -11,12 +11,15 @@ from fastapi import APIRouter
 from pydantic import BaseModel, Field
 
 import backend.portal._path_setup  # noqa: F401
-from crystal_platform.orchestration import build_default_stack
+from crystal_platform.chaos import DEFAULT_CHAOS_SEATS, ChaosEngine
+from crystal_platform.orchestration import build_live_stack
 from crystal_platform.portal import EntryChannel, PortalIdentity, PortalRequest
 
 router = APIRouter(prefix="/v1/gateway", tags=["gateway"])
 
-_stack = build_default_stack(provider_ids=("local.open",))
+# Live stack: HTTP providers when keys exist; silent/stub otherwise. Core still governs.
+_stack = build_live_stack()
+_chaos = ChaosEngine(stack=_stack)
 
 
 class GatewayAskBody(BaseModel):
@@ -24,6 +27,8 @@ class GatewayAskBody(BaseModel):
     channel: str = "api"
     client: Optional[str] = None
     display_name: Optional[str] = None
+    # Optional seat id from KNOWN_PROVIDER_IDS — Core router may honor if registered.
+    provider_id: Optional[str] = None
 
 
 class GatewayAskResponse(BaseModel):
@@ -43,6 +48,11 @@ def _channel(raw: str) -> EntryChannel:
 
 @router.post("/ask", response_model=GatewayAskResponse)
 def ask(body: GatewayAskBody) -> Any:
+    meta: dict[str, Any] = {}
+    if body.client:
+        meta["client"] = body.client
+    if body.provider_id:
+        meta["provider_id"] = body.provider_id
     req = PortalRequest(
         text=body.text,
         identity=PortalIdentity(
@@ -51,7 +61,7 @@ def ask(body: GatewayAskBody) -> Any:
             channel=_channel(body.channel),
             device_attested=body.channel in {"siri", "shortcut", "app_ui"},
         ),
-        metadata={"client": body.client} if body.client else {},
+        metadata=meta,
     )
     resp = _stack.accept(req)
     return GatewayAskResponse(
@@ -60,4 +70,56 @@ def ask(body: GatewayAskBody) -> Any:
         status=resp.status,
         correlation_id=resp.correlation_id,
         provider_hint=resp.provider_hint,
+    )
+
+
+class GatewayChaosBody(BaseModel):
+    text: str = Field(min_length=1, max_length=8000)
+    seats: Optional[list[str]] = None
+    channel: str = "api"
+    display_name: Optional[str] = "ChaosEngine"
+
+
+class GatewayChaosSeat(BaseModel):
+    provider_id: str
+    status: str
+    text: str
+    silent: bool
+    correlation_id: Optional[str] = None
+
+
+class GatewayChaosResponse(BaseModel):
+    run_id: str
+    question: str
+    seats: list[str]
+    replies: list[GatewayChaosSeat]
+    cross_compare: dict[str, Any]
+    note: str = "count not verdict — Canon: no"
+
+
+@router.post("/chaos", response_model=GatewayChaosResponse)
+def chaos(body: GatewayChaosBody) -> Any:
+    """Multi-seat fan-out. Counts are not verdicts. Human publishes."""
+    seats = tuple(body.seats) if body.seats else DEFAULT_CHAOS_SEATS
+    result = _chaos.run(
+        body.text,
+        seats=seats,
+        channel=_channel(body.channel),
+        display_name=body.display_name or "ChaosEngine",
+    )
+    return GatewayChaosResponse(
+        run_id=result.run_id,
+        question=result.question,
+        seats=list(result.seats),
+        replies=[
+            GatewayChaosSeat(
+                provider_id=r.provider_id,
+                status=r.status,
+                text=r.text,
+                silent=r.silent,
+                correlation_id=r.correlation_id,
+            )
+            for r in result.replies
+        ],
+        cross_compare=dict(result.cross_compare),
     )
