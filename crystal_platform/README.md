@@ -24,9 +24,22 @@ python3 -m unittest discover -s crystal_platform/tests -v
 
 ## Adding a provider
 
-1. Implement `intelligence.provider.IntelligenceProvider`  
-2. Register in `intelligence.registry.default_registry()`  
-3. Do **not** change CrystalCore.OS types for vendor quirks — adapt in the provider module.
+1. Prefer `intelligence/http_providers.py` for env-gated HTTP seats (stdlib).  
+2. Or implement `IntelligenceProvider` and register via `live_registry` / `default_registry`.  
+3. Do **not** change CrystalCore.OS types for vendor quirks — adapt in the provider module.  
+4. Portal `/v1/gateway/ask` may pass `provider_id`; Core router honors it when registered.
+
+## Live stack
+
+```bash
+# Offline / CI
+python3 -m unittest discover -s crystal_platform/tests -v
+
+# Portal uses build_live_stack() — HTTP when keys exist, local.open otherwise.
+# Optional: CRYSTAL_PROVIDER=deepseek
+```
+
+Manus is **not** a sync Portal provider (async Starline bus guest only).
 
 ## Adding an agent
 

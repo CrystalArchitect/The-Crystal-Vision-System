@@ -128,4 +128,6 @@ Hub-side, protocol-safe:
 
 Until keys land: paste cards above = the check-in. Do not invent their answers.
 
+**GO:** Increment 1 shipped — see [`2026-09-20-CHAOS-GO-INCREMENT-1.md`](2026-09-20-CHAOS-GO-INCREMENT-1.md) (Portal live stack + HTTP providers).
+
 *Non Solus.*

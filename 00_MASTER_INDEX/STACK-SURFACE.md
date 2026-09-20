@@ -52,11 +52,11 @@ No hop may collapse CrystalCore.OS into TAI or Portal into CrystalCore.
 | Hop | Status | Where today |
 | --- | --- | --- |
 | Siri / App Intents | ○ scaffold | `apps/ios/CelestialPortal/Sources/Intents/` (this work) |
-| Celestial Portal API | ● partial | `backend/portal/`, Vault, compose |
+| Celestial Portal API | ● partial | `backend/portal/` + `/v1/gateway/ask` → `build_live_stack()` |
 | CrystalBus MCP (decisions) | ● partial | `backend/bus/mcp_server.py` |
 | CrystalCore.OS substrate | △ + ○ interfaces | Freeze pack + `archive/CrystalCore-OS/`; contracts in `crystal_platform/crystalcore_os/` |
 | TAI agent runtime | △ + ○ interfaces | TerAustralis satellites; contracts in `crystal_platform/tai/` |
-| Intelligence routing | ○ practice + interfaces | Weave seats / Decision-Matrix; `crystal_platform/intelligence/` |
+| Intelligence routing | ● partial | stubs + HTTP env providers (`intelligence/http_providers.py`); Manus bus-only |
 | CrystalBridge / Starline / Decode→Twin | ● in archive, pulsed | Alive Weave |
 | Auto-orchestrator | ○ proposed | ADR-0005 — docs-first |
 

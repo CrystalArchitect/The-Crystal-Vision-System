@@ -48,6 +48,7 @@
 | CVS-LATTICE-PLATE | 10 | Vision plate — Lattice lock / NON SOLUS (2026-09-19) | vision | no | `/10_ORIGINAL_CREATIVE/vision-plates/2026-09-19-LATTICE-LOCK-EXTRACT.md` |
 | CVS-STACK | 00 | Stack surface — Siri → Portal → CrystalCore.OS → TAI → Intelligence/MCP | coordination | no | `/00_MASTER_INDEX/STACK-SURFACE.md` · `/crystal_platform/` |
 | CVS-CHAOS-0920 | 14 | Chaos opening — weave seat check (Claude/GPT/Grok/DeepSeek/Kimi/Manus/Gemini; keys unset) | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-OPENING-WEAVE-CHECK.md` |
+| CVS-CHAOS-GO-1 | 14 | Chaos GO Increment 1 — HTTP providers behind Portal live stack | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-GO-INCREMENT-1.md` |
 
 Canon stays **no** until Crystal stamps it.
 
