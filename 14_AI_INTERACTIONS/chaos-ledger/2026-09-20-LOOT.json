@@ -1,0 +1,75 @@
+{
+  "run_id": "4a17521b-a04a-43e1-ba33-51fbafa29160",
+  "question": "LOOT PASS. Bag seat silence + local.open. Canon: no.",
+  "seats": [
+    "openai.chatgpt",
+    "anthropic.claude",
+    "xai.grok",
+    "deepseek",
+    "moonshot.kimi",
+    "google.gemini",
+    "local.open"
+  ],
+  "replies": [
+    {
+      "provider_id": "openai.chatgpt",
+      "status": "ok",
+      "text": "[openai.chatgpt] not configured (OPENAI_API_KEY unset); staying silent.",
+      "silent": true,
+      "correlation_id": "c72150ec-6283-4314-a361-0914b3d6493d"
+    },
+    {
+      "provider_id": "anthropic.claude",
+      "status": "ok",
+      "text": "[anthropic.claude] not configured (ANTHROPIC_API_KEY unset); staying silent.",
+      "silent": true,
+      "correlation_id": "fb312c46-3947-4218-b32a-667121057516"
+    },
+    {
+      "provider_id": "xai.grok",
+      "status": "ok",
+      "text": "[xai.grok] not configured (XAI_API_KEY unset); staying silent.",
+      "silent": true,
+      "correlation_id": "b72c3d29-5822-4abf-a80d-503a579f1b91"
+    },
+    {
+      "provider_id": "deepseek",
+      "status": "ok",
+      "text": "[deepseek] not configured (DEEPSEEK_API_KEY unset); staying silent.",
+      "silent": true,
+      "correlation_id": "9ffc9d14-fcb3-4d8b-bb37-d22c54b5817c"
+    },
+    {
+      "provider_id": "moonshot.kimi",
+      "status": "ok",
+      "text": "[moonshot.kimi] not configured (MOONSHOT_API_KEY / KIMI_API_KEY unset); staying silent.",
+      "silent": true,
+      "correlation_id": "ff764ff5-1809-41e6-a0cd-e1af6fb8e95d"
+    },
+    {
+      "provider_id": "google.gemini",
+      "status": "ok",
+      "text": "[google.gemini] not configured (GEMINI_API_KEY unset); staying silent.",
+      "silent": true,
+      "correlation_id": "955c0dd4-82c0-4fc1-a2d0-b0bed0332964"
+    },
+    {
+      "provider_id": "local.open",
+      "status": "ok",
+      "text": "[local.open] LOOT PASS. Bag seat silence + local.open. Canon: no.",
+      "silent": false,
+      "correlation_id": "a8ccb8c1-4ef8-42d9-bba3-70e62db395be"
+    }
+  ],
+  "cross_compare": {
+    "seats_asked": 7,
+    "seats_ok": 1,
+    "seats_silent": 6,
+    "status_counts": {
+      "ok": 7
+    },
+    "unanimous_silence": false,
+    "note": "count not verdict"
+  },
+  "note": "count not verdict \u2014 Canon: no"
+}

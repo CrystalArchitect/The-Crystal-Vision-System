@@ -51,10 +51,16 @@
 | CVS-CHAOS-GO-1 | 14 | Chaos GO Increment 1 — HTTP providers behind Portal live stack | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-GO-INCREMENT-1.md` |
 | CVS-CHAOS-ENGINE | 00 | Chaos Engine — multi-seat fan-out (GO stamp) | coordination | no | `/00_MASTER_INDEX/CHAOS-ENGINE.md` · `crystal_platform/chaos/` · `scripts/chaos/` |
 | CVS-CHAOS-ALIGN | 14 | Full-speed alignment chaos — pulse + seat map + drift audit | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-FULL-SPEED-ALIGNMENT-CHAOS.md` |
+| CVS-CHAOS-LAUNCH | 14 | Chaos Engine LAUNCHED — HTTP :8765 live | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-ENGINE-LAUNCHED.md` |
+| CVS-CHAOS-LOOT | 14 | Chaos loot bag — launch sitting spoils | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-LOOT-BAG.md` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-20 (loot):** Bagged Chaos Engine launch sitting — loot bag + JSON ledger; pulse 12/12; align clean. Canon: no.
+
+- **2026-09-20 (chaos LAUNCH):** Engine LIVE — `scripts/chaos/launch.py --serve` on :8765; align cleared; 6 silent + local.open. Canon: no.
 
 - **2026-09-20 (alignment chaos):** Full-speed pass — pulse 12/12, Chaos+Starline matrices silent, registry `bus_agent`/`provider_id` aligned, `scripts/chaos/align.py --strict`. Canon: no.
 
