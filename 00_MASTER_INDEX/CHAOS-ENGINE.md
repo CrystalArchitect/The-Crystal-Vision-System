@@ -35,12 +35,23 @@ Multi-seat fan-out over the live stack: one question → N intelligence seats �
 
 ## Default seats
 
-`openai.chatgpt`, `anthropic.claude`, `xai.grok`, `deepseek`, `moonshot.kimi`, `google.gemini`, `local.open`
+| provider_id | bus | Roster |
+| --- | --- | --- |
+| `openai.chatgpt` | `gpt` | BOT-WEAVE-CHATGPT |
+| `anthropic.claude` | `claude` | BOT-WEAVE-CLAUDE (historical) |
+| `xai.grok` | `grok` | BOT-WEAVE-GROK (Explore only) |
+| `deepseek` | `deepseek` | BOT-WEAVE-DEEPSEEK |
+| `moonshot.kimi` | `kimi` | BOT-WEAVE-KIMI (proposed) |
+| `google.gemini` | `gemini` | BOT-WEAVE-GEMINI |
+| `local.open` | — | offline stub |
+
+**Not in Portal fan-out:** Manus (Starline guest), BOT-WEAVE-GROK-BUILD (Build ≠ Explore).
 
 ## Run
 
 ```bash
 python3 scripts/chaos/run.py --topic "Where is each seat?"
+python3 scripts/chaos/align.py --strict
 python3 -m unittest discover -s crystal_platform/tests -v
 ```
 

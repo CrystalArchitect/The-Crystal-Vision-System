@@ -94,7 +94,10 @@ bots:
     role: chief_systems_architect
     status: dormant
     home: archive/TerAustralis-Incognita/docs/agents/ChatGPT-Agent.md
-    secrets: []
+    bus_agent: gpt
+    provider_id: openai.chatgpt
+    secrets:
+      - OPENAI_API_KEY
     allowed:
       - specs
       - architecture_briefs
@@ -109,6 +112,8 @@ bots:
     role: creative_exploration
     status: dormant
     home: archive/TerAustralis-Incognita/docs/agents/Grok-Agent.md#A
+    bus_agent: grok
+    provider_id: xai.grok
     secrets:
       - XAI_API_KEY
     allowed:
@@ -127,7 +132,8 @@ bots:
     role: repository_engineer
     status: dormant
     home: archive/TerAustralis-Incognita/docs/agents/Grok-Agent.md#B
-    note: Seat from 2026-08-20 ADR-0014
+    note: Seat from 2026-08-20 ADR-0014. Not a Chaos Engine fan-out seat (Build ≠ Explore).
+    provider_id: xai.grok
     secrets:
       - XAI_API_KEY
     allowed:
@@ -145,6 +151,7 @@ bots:
     status: dormant
     home: archive/TerAustralis-Incognita/docs/agents/DeepSeek-Agent.md
     bus_agent: deepseek
+    provider_id: deepseek
     secrets:
       - DEEPSEEK_API_KEY
     allowed:
@@ -162,6 +169,7 @@ bots:
     status: proposed
     home: archive/TerAustralis-Incognita-Code/core/crystal-core/bus/adapters.py  # KimiAdapter until agent card exists
     bus_agent: kimi
+    provider_id: moonshot.kimi
     note: Proposed weave seat for Moonshot/Kimi matrix. Not Canon until Crystal stamps.
     secrets:
       - MOONSHOT_API_KEY
@@ -182,6 +190,7 @@ bots:
     status: dormant
     home: archive/TerAustralis-Incognita/docs/agents/Gemini-Agent.md
     bus_agent: gemini
+    provider_id: google.gemini
     secrets:
       - GEMINI_API_KEY
     allowed:
@@ -198,9 +207,13 @@ bots:
     role: repository_engineer_former
     status: historical
     home: archive/TerAustralis-Incognita/docs/agents/Claude-Agent.md
-    secrets: []
+    bus_agent: claude
+    provider_id: anthropic.claude
+    secrets:
+      - ANTHROPIC_API_KEY
     allowed:
       - retained_as_record
+      - optional_matrix_second_opinion
     forbidden:
       - treat_as_live_midstream_seat
     publish_mode: human_only
