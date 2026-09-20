@@ -54,6 +54,8 @@ Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
+- **2026-09-20 (chaos GO):** Increment 1 — HTTP intelligence providers + `build_live_stack()` on Portal `/v1/gateway/ask` (optional `provider_id`). Keys still unset → silent / local.open. Manus bus-only. Canon: no.
+
 - **2026-09-20 (chaos):** Starline matrix expanded to Claude/GPT/Grok/DeepSeek/Kimi/Manus/Gemini — 7/7 silent (keys unset). Adapters + paste cards; Kimi proposed; Manus matrix-guest only. Canon: no.
 
 - **2026-09-20 (stack):** Foundational platform contracts — `STACK-SURFACE.md` + `crystal_platform/` (Core ≠ agent; TAI acts; providers pluggable) + iOS App Intent scaffold + Portal `/v1/gateway/ask`. Canon: no.
