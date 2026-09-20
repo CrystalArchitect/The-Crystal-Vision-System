@@ -1,0 +1,72 @@
+{
+  "division": "Kangaroo Division",
+  "fleet": "Starfleet Australia",
+  "callsign_fiction": "NCC-992-AU",
+  "launched_at": "2026-09-20 04:04 UTC",
+  "canon": false,
+  "vision": true,
+  "hard_nos": [
+    "no_starship_mou",
+    "no_warp",
+    "no_ela_as_live",
+    "no_false_elon_bonds",
+    "no_starfleet_persona_adoption",
+    "kangaroo_class_is_fiction_cover"
+  ],
+  "pack": "archive/starfleet-au-kangaroo-pack",
+  "chaos_run_id": "7ea98686-54b5-48f1-b8b0-bbc4014ebc7d",
+  "cross_compare": {
+    "seats_asked": 7,
+    "seats_ok": 1,
+    "seats_silent": 6,
+    "status_counts": {
+      "ok": 7
+    },
+    "unanimous_silence": false,
+    "note": "count not verdict"
+  },
+  "replies": [
+    {
+      "provider_id": "openai.chatgpt",
+      "status": "ok",
+      "silent": true,
+      "text": "[openai.chatgpt] not configured (OPENAI_API_KEY unset); staying silent."
+    },
+    {
+      "provider_id": "anthropic.claude",
+      "status": "ok",
+      "silent": true,
+      "text": "[anthropic.claude] not configured (ANTHROPIC_API_KEY unset); staying silent."
+    },
+    {
+      "provider_id": "xai.grok",
+      "status": "ok",
+      "silent": true,
+      "text": "[xai.grok] not configured (XAI_API_KEY unset); staying silent."
+    },
+    {
+      "provider_id": "deepseek",
+      "status": "ok",
+      "silent": true,
+      "text": "[deepseek] not configured (DEEPSEEK_API_KEY unset); staying silent."
+    },
+    {
+      "provider_id": "moonshot.kimi",
+      "status": "ok",
+      "silent": true,
+      "text": "[moonshot.kimi] not configured (MOONSHOT_API_KEY / KIMI_API_KEY unset); staying silent."
+    },
+    {
+      "provider_id": "google.gemini",
+      "status": "ok",
+      "silent": true,
+      "text": "[google.gemini] not configured (GEMINI_API_KEY unset); staying silent."
+    },
+    {
+      "provider_id": "local.open",
+      "status": "ok",
+      "silent": false,
+      "text": "[local.open] STARFLEET AUSTRALIA \u2014 KANGAROO DIVISION LAUNCH. Vision only: AU shipyard + Academy adjacency pitch (NCC-992-AU fiction cover). Hard no: Starship MoU, warp, ELA-as-live, Core\u2260TAI collapse, false Elon bonds. Map each seat's honest role if any. Label science|story|vision. Canon: no. Human publishes."
+    }
+  ]
+}

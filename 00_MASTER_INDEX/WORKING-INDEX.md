@@ -54,10 +54,13 @@
 | CVS-CHAOS-LAUNCH | 14 | Chaos Engine LAUNCHED — HTTP :8765 live | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-ENGINE-LAUNCHED.md` |
 | CVS-CHAOS-LOOT | 14 | Chaos loot bag — launch sitting spoils | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-LOOT-BAG.md` |
 | CVS-CHAOS-LOOT-W2 | 14 | Chaos loot wave 2 — solos, /ask, manifest, paste pack | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-LOOT-WAVE2.md` |
+| CVS-STARFLEET-KANGAROO | 00 | Starfleet Australia — Kangaroo Division LAUNCHED (Vision) | vision | no | `/00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md` · `archive/starfleet-au-kangaroo-pack/` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-20 (Kangaroo Division):** Starfleet Australia — Kangaroo Division LAUNCHED (Vision). Pack verified, hub map, launch script, Chaos fan-out. No MoU / persona / warp. Canon: no.
 
 - **2026-09-20 (loot w2):** Wave 2 — per-seat solos, /ask probes, 24-file manifest, paste pack, Starline+HTTP ledgers. Canon: no.
 

@@ -70,5 +70,6 @@ python3 -m unittest discover -s crystal_platform/tests -v
 - Increment 1: `14_AI_INTERACTIONS/2026-09-20-CHAOS-GO-INCREMENT-1.md`
 - Stack: `00_MASTER_INDEX/STACK-SURFACE.md`
 - Alive Weave: `00_MASTER_INDEX/ALIVE-WEAVE.md`
+- Kangaroo Division (Vision): `00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md` · `scripts/starfleet/launch_kangaroo_division.py`
 
 *Non Solus.*
