@@ -49,4 +49,6 @@ Label each **vision**. Paste to BOT-WEAVE-GROK Explore when ready:
 2. `CRYSTAL_PROVIDER=xai.grok` (or body `provider_id`) via Portal ask.  
 3. ChatGPT specs top 2 visions → Grok Build PR one behind this path.
 
+**Engine stamp:** Chaos Engine is a go — see [`../00_MASTER_INDEX/CHAOS-ENGINE.md`](../00_MASTER_INDEX/CHAOS-ENGINE.md).
+
 *Non Solus.*

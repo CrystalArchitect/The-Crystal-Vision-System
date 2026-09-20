@@ -15,6 +15,7 @@ See [`../00_MASTER_INDEX/STACK-SURFACE.md`](../00_MASTER_INDEX/STACK-SURFACE.md)
 | `tai` | Agent definitions and runtime (action layer) |
 | `intelligence` | Provider-agnostic think/complete API + registry |
 | `capabilities` | MCP / tool capability contracts |
+| `chaos` | Multi-seat fan-out harness (counts ≠ verdicts) |
 
 ## Quick test
 

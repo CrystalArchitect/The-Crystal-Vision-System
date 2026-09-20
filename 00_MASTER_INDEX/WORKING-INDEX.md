@@ -49,10 +49,13 @@
 | CVS-STACK | 00 | Stack surface — Siri → Portal → CrystalCore.OS → TAI → Intelligence/MCP | coordination | no | `/00_MASTER_INDEX/STACK-SURFACE.md` · `/crystal_platform/` |
 | CVS-CHAOS-0920 | 14 | Chaos opening — weave seat check (Claude/GPT/Grok/DeepSeek/Kimi/Manus/Gemini; keys unset) | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-OPENING-WEAVE-CHECK.md` |
 | CVS-CHAOS-GO-1 | 14 | Chaos GO Increment 1 — HTTP providers behind Portal live stack | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-GO-INCREMENT-1.md` |
+| CVS-CHAOS-ENGINE | 00 | Chaos Engine — multi-seat fan-out (GO stamp) | coordination | no | `/00_MASTER_INDEX/CHAOS-ENGINE.md` · `crystal_platform/chaos/` · `scripts/chaos/` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-20 (chaos engine):** **GO stamp.** Chaos Engine named + Built — fan-out CLI, Portal `/v1/gateway/chaos`, ledger drawer. Counts ≠ verdicts. Canon: no.
 
 - **2026-09-20 (chaos GO):** Increment 1 — HTTP intelligence providers + `build_live_stack()` on Portal `/v1/gateway/ask` (optional `provider_id`). Keys still unset → silent / local.open. Manus bus-only. Canon: no.
 

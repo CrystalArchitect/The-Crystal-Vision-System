@@ -56,7 +56,8 @@ No hop may collapse CrystalCore.OS into TAI or Portal into CrystalCore.
 | CrystalBus MCP (decisions) | ● partial | `backend/bus/mcp_server.py` |
 | CrystalCore.OS substrate | △ + ○ interfaces | Freeze pack + `archive/CrystalCore-OS/`; contracts in `crystal_platform/crystalcore_os/` |
 | TAI agent runtime | △ + ○ interfaces | TerAustralis satellites; contracts in `crystal_platform/tai/` |
-| Intelligence routing | ● partial | stubs + HTTP env providers (`intelligence/http_providers.py`); Manus bus-only |
+| Intelligence routing | ● partial | stubs + HTTP env providers; Chaos Engine fan-out |
+| Chaos Engine | ● | `CHAOS-ENGINE.md` · `crystal_platform/chaos/` · `/v1/gateway/chaos` |
 | CrystalBridge / Starline / Decode→Twin | ● in archive, pulsed | Alive Weave |
 | Auto-orchestrator | ○ proposed | ADR-0005 — docs-first |
 
