@@ -53,10 +53,13 @@
 | CVS-CHAOS-ALIGN | 14 | Full-speed alignment chaos — pulse + seat map + drift audit | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-FULL-SPEED-ALIGNMENT-CHAOS.md` |
 | CVS-CHAOS-LAUNCH | 14 | Chaos Engine LAUNCHED — HTTP :8765 live | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-ENGINE-LAUNCHED.md` |
 | CVS-CHAOS-LOOT | 14 | Chaos loot bag — launch sitting spoils | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-LOOT-BAG.md` |
+| CVS-CHAOS-LOOT-W2 | 14 | Chaos loot wave 2 — solos, /ask, manifest, paste pack | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-LOOT-WAVE2.md` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-20 (loot w2):** Wave 2 — per-seat solos, /ask probes, 24-file manifest, paste pack, Starline+HTTP ledgers. Canon: no.
 
 - **2026-09-20 (loot):** Bagged Chaos Engine launch sitting — loot bag + JSON ledger; pulse 12/12; align clean. Canon: no.
 

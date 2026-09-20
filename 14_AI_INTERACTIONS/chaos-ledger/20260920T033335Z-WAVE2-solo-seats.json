@@ -1,0 +1,61 @@
+{
+  "bagged_at": "2026-09-20 03:33 UTC",
+  "seats": [
+    {
+      "provider_id": "openai.chatgpt",
+      "run_id": "436f71a3-7c82-49a2-b306-7efbade5ea2d",
+      "silent": true,
+      "status": "ok",
+      "text": "[openai.chatgpt] not configured (OPENAI_API_KEY unset); staying silent.",
+      "correlation_id": "d36c9c12-1e42-4fb2-bbd0-847cd3ffdcfb"
+    },
+    {
+      "provider_id": "anthropic.claude",
+      "run_id": "4f0eb43d-2ec0-4b8a-bc7c-c050092ad9ee",
+      "silent": true,
+      "status": "ok",
+      "text": "[anthropic.claude] not configured (ANTHROPIC_API_KEY unset); staying silent.",
+      "correlation_id": "10304e94-e79b-40e7-a5df-37ff52dd9e66"
+    },
+    {
+      "provider_id": "xai.grok",
+      "run_id": "8937e05f-3db6-492c-b3fc-fbc984890ca4",
+      "silent": true,
+      "status": "ok",
+      "text": "[xai.grok] not configured (XAI_API_KEY unset); staying silent.",
+      "correlation_id": "f836c324-03ab-4e9d-9579-6a16a6ed22d8"
+    },
+    {
+      "provider_id": "deepseek",
+      "run_id": "32c327ff-7701-46b4-990f-63a0dc178f57",
+      "silent": true,
+      "status": "ok",
+      "text": "[deepseek] not configured (DEEPSEEK_API_KEY unset); staying silent.",
+      "correlation_id": "32ec096d-3e75-46d7-b7d4-2879714ee651"
+    },
+    {
+      "provider_id": "moonshot.kimi",
+      "run_id": "ecd4f5d7-7485-4cbd-a78f-6bd0e1191e40",
+      "silent": true,
+      "status": "ok",
+      "text": "[moonshot.kimi] not configured (MOONSHOT_API_KEY / KIMI_API_KEY unset); staying silent.",
+      "correlation_id": "8f96aada-15a5-40a3-8324-72a3b02e3b73"
+    },
+    {
+      "provider_id": "google.gemini",
+      "run_id": "2a29ba62-eccc-4cc8-abf3-6a2ddfaf35d6",
+      "silent": true,
+      "status": "ok",
+      "text": "[google.gemini] not configured (GEMINI_API_KEY unset); staying silent.",
+      "correlation_id": "34a8a91c-c851-42d7-95c4-41893ed15749"
+    },
+    {
+      "provider_id": "local.open",
+      "run_id": "ea67044a-023b-40e1-a3e1-0e4f13bf522e",
+      "silent": false,
+      "status": "ok",
+      "text": "[local.open] LOOT solo seat local.open. Acknowledge path only. Canon: no.",
+      "correlation_id": "a42b28b9-8450-43d4-9a37-eb7e4931b400"
+    }
+  ]
+}
