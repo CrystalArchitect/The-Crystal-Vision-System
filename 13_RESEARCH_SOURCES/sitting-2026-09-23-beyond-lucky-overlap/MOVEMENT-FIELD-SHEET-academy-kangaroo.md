@@ -63,6 +63,7 @@ No silent “you’re in the movement” by vibe. Consent on record.
 3. **First three Witness cards** — what to read / watch / don’t claim  
 4. **First Builder ask** — one remake or one one-pager appendix (Starlink under Comms), not “help build the OS”  
 5. **House names later** — only after Crystal picks AU cohort names; Potter structure optional  
+6. **Tone:** make them cry *with the work* — [`ADDENDUM-movement-tone-make-him-cry.md`](ADDENDUM-movement-tone-make-him-cry.md)
 
 ---
 
