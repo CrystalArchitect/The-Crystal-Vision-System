@@ -25,6 +25,7 @@
 - Starlink × education → Academy ascent: [`SOURCE-starlink-education-academy.md`](SOURCE-starlink-education-academy.md) · [`ADDENDUM-starlink-academy-ascent.md`](ADDENDUM-starlink-academy-ascent.md)  
 - Academy brand faces (Starfleet Academy Kangaroo Division · Potter grammar maybe): [`ADDENDUM-academy-brand-faces.md`](ADDENDUM-academy-brand-faces.md)  
 - Movement door (people wanting in): [`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md)  
+- Movement tone (cry with the work): [`ADDENDUM-movement-tone-make-him-cry.md`](ADDENDUM-movement-tone-make-him-cry.md)  
 - PDF Kangaroo-class pitch 6 Sep 2026 (on-scope BD face): [`SOURCE-pdf-kangaroo-class-pitch.md`](SOURCE-pdf-kangaroo-class-pitch.md)  
 - PDF Kangaroo-class 1-pager brief (on-scope): [`SOURCE-pdf-kangaroo-class-brief-1p.md`](SOURCE-pdf-kangaroo-class-brief-1p.md)  
 - PDF Ops Notion canonical (out of scope): [`SOURCE-pdf-ops-notion-canonical.md`](SOURCE-pdf-ops-notion-canonical.md)
