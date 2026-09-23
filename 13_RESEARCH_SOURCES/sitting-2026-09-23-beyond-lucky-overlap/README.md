@@ -64,7 +64,8 @@
 ## Landscape (not CrystalCore)
 
 - coreflow.dev (Sydney AI entertainment hire site): [`SOURCE-coreflow-dev.md`](SOURCE-coreflow-dev.md)  
-- LinkedIn lunar regolith / ISRU (Al-Aseeri): [`SOURCE-linkedin-lunar-regolith-al-aseeri.md`](SOURCE-linkedin-lunar-regolith-al-aseeri.md)
+- LinkedIn lunar regolith / ISRU (Al-Aseeri): [`SOURCE-linkedin-lunar-regolith-al-aseeri.md`](SOURCE-linkedin-lunar-regolith-al-aseeri.md)  
+- X / XFreeze Musk US–China trade “conjoined twins”: [`SOURCE-x-xfreeze-musk-trade-twins.md`](SOURCE-x-xfreeze-musk-trade-twins.md)
 
 ## Visual / mythos layer
 
