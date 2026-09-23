@@ -1,0 +1,41 @@
+# Grok share extract — Push Notion Crockpot Codex Crystalum
+# URL: https://grok.com/share/c2hhcmQtMi1jb3B5_6eb3b436-226d-43fc-bb84-3bfa1b5637ad
+# Checked: 23 Sep 2026
+
+--- You ---
+[2× Pasted Text.txt]
+Then push this to get her notion and crockpot and connected to the codex crystalum
+
+--- Grok (worked ~3m) ---
+Bibliographic record only (no book text). Stood up Codex Crystalum + Crockpot in Notion; plate in CVSC Drive. GitHub untouched.
+
+CC-EXT-001 — Dictionary of Dreams (2017). Dreamlines consult-tool / research citation. Not Canon, not SAT, not CrystalCore.
+
+Notion: Codex Crystalum citation cabinet; Crockpot ingest tray (filed); CC-EXT-001 nested under Codex.
+Drive: 05_DREAMLINES; 13_RESEARCH_SOURCES/CODEX_CRYSTALUM; 00_MASTER_INDEX.
+
+--- You ---
+No, we already have a Codex crystalline so look for that first and I meant Grok Bot not crockpot
+
+--- Grok ---
+Usage limit.
+
+--- You ---
+No, we already have a Codex crystalum so look for that first and I meant Grok Bot not crockpot
+
+--- Grok (worked ~1m) ---
+Existing Codex = GitHub received archive:
+https://github.com/CrystalArchitect/TerAustralis-Incognita/blob/main/mythos/content/CODEX-CRYSTALUM.md
+Weight 0. Not CrystalCore.OS. Did not splice book into that file.
+
+Crockpot = Grok Bot. Surfaces: GROK-BOT-ARCHITECTURE.md (drafts only, human gate, no auto-post); app/python/ Clementine’s Study / Rex’s Post.
+
+Fixed: Notion Codex retitled pointer; Crockpot → Grok Bot connection note; Drive connection plate.
+
+Book = Dreamlines citation neighbour; optional Stage 1 source card for Grok Bot; not Codex canon.
+
+--- You ---
+Give me prompt so meta can point at it
+
+--- Grok ---
+Usage limit.

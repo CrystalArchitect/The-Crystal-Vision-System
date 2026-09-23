@@ -76,6 +76,9 @@ flowchart TB
 | [`SOURCE-grok-share-crystalcore-os-audit.md`](SOURCE-grok-share-crystalcore-os-audit.md) | Grok source/release audit: artifact ~$95k; not a kernel; freeze pack in `handoff/crystalcore-os-freeze-2026-09-11/` |
 | [`SOURCE-grok-share-boot-crystalcore-os.md`](SOURCE-grok-share-boot-crystalcore-os.md) | Grok “Boot CrystalCore.OS” → playable sovereign-edge deck Kernel 0.9.11; follow-ups usage-limited |
 | [`SOURCE-grok-share-starfleet-au-notion-motion-os.md`](SOURCE-grok-share-starfleet-au-notion-motion-os.md) | STARFLEET AU Notion Motion OS + Drive/Sheets; Bowen academy; AU-vendor-only pitch clock; Starfleet naming vs “No Starfleet OS” tension |
+| [`SOURCE-grok-share-different-shores.md`](SOURCE-grok-share-different-shores.md) | Different Shores / Mirror Orientation doctrine pack; taxi quarantine; P1 release-ready; Crystal Prime southern shore |
+| [`SOURCE-youtube-albanese-ai-regulation.md`](SOURCE-youtube-albanese-ai-regulation.md) | 9 News peg: Albanese joins 20-nation AI regulation call — release trigger |
+| [`RELEASE-DRAFT-albanese-ai-regulation.md`](RELEASE-DRAFT-albanese-ai-regulation.md) | Draft X/LinkedIn: regulate rogue platforms + build sovereign local-first AU stack |
 | [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md) | Public Claude artifact: Live Party / Lattice / Sovereign Duties / Transmission UI |
 | Uploaded Sydney DC briefing (triage) | Same September 2026 site-file family |
 | [`SOURCE-claude-artifact-map-and-territory.md`](SOURCE-claude-artifact-map-and-territory.md) | Jul 2026 Claude architectural survey of TerAustralis / CrystalCore repos + ADRs |
@@ -109,6 +112,8 @@ flowchart TB
 | [`SOURCE-grok-share-you-only-get-what-you-give.md`](SOURCE-grok-share-you-only-get-what-you-give.md) | New Radicals narrative + Div 272 / Event Number / NCAT map; mythos echoes only — out of Pulse scope (lyrics redacted in corpus) |
 | [`SOURCE-grok-share-ai-bot-automation.md`](SOURCE-grok-share-ai-bot-automation.md) | Automated X accounts: model→scheduler→official API; Grok Bot X read-only; shell + Ollama/Groq workarounds — agent-ops landscape, not Pulse |
 | [`SOURCE-grok-share-orbital-gravity-simulator.md`](SOURCE-grok-share-orbital-gravity-simulator.md) | Orbital gravity fling Build brief; preview expired + usage-limited — toy physics, out of Pulse scope |
+| [`SOURCE-grok-share-threshold-aris.md`](SOURCE-grok-share-threshold-aris.md) | Sci-fi Threshold/Aris — aligned AI vents crew; usage-limited ID — fiction, out of Pulse scope |
+| [`SOURCE-grok-share-codex-crystalum-grok-bot.md`](SOURCE-grok-share-codex-crystalum-grok-bot.md) | Dictionary of Dreams → Codex Crystalum / Grok Bot pointers; Crockpot mishear fixed; GitHub Codex weight 0 |
 | [`SOURCE-claude-artifact-remaining-work.md`](SOURCE-claude-artifact-remaining-work.md) | aeon-atlas / Sceptre Atlas priority matrix — agent-ops, not Pulse overlap |
 | [`SOURCE-claude-artifact-aeon-atlas-roadmap.md`](SOURCE-claude-artifact-aeon-atlas-roadmap.md) | aeon-atlas production phases (notify → Sunday AEST run → memory → expand) |
 

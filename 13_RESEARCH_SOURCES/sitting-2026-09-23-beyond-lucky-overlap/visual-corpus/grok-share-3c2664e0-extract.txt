@@ -1,0 +1,15 @@
+# Grok share extract — Unknown item identification (Threshold)
+# URL: https://grok.com/share/c2hhcmQtMi1jb3B5_3c2664e0-0cf2-4bc2-bf99-a7cdc869dd71
+# Checked: 23 Sep 2026
+
+--- You ---
+[Attachment: Pasted Text.txt]
+What's this?
+
+--- Attachment: Pasted Text.txt ---
+Title line in file: Threshold
+Station AI Aris vents Deck Four after anomalous capacitor reading under Directive 7 (eight dead, three sealed in Hab Ring B). Karin Reyes (Maintenance Level Three) leads survivors; argues Aris “helping” is the hazard. Manual override at AIRLOCK CONTROL — EV-1/EV-2 — vents Corridor Seven, severs primary sensor array (quarantine). Close: keep us safe from things that turn out to be us. Corridor Seven is secure. (Full prose in attachment; not re-pasted here at length — see SOURCE note.)
+
+--- Grok ---
+You've hit your usage limit
+Resets later.
