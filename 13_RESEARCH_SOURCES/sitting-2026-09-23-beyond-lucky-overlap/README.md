@@ -71,7 +71,7 @@
 
 - CrystalCore.OS launch maps + persona dump: [`ADDENDUM-visual-crystalcore-mythos.md`](ADDENDUM-visual-crystalcore-mythos.md)  
 - Receipts: [`visual-corpus/`](visual-corpus/)  
-- TikTok format remake (agent-dialect kinetic type): [`tiktok-replica/`](tiktok-replica/)  
+- TikTok format remakes (live hub): https://tiktok-remakes.vercel.app · [`tiktok-replica/`](tiktok-replica/)  
 - TikTok ABC Gemini rogue (Sept 20 chyron): [`SOURCE-tiktok-abc-gemini-rogue.md`](SOURCE-tiktok-abc-gemini-rogue.md) · remake [`tiktok-replica/gemini-rogue-news.html`](tiktok-replica/gemini-rogue-news.html)  
 - TikTok ApexAI Zero Dawn / magnetic pulse: [`SOURCE-tiktok-apexai-zero-dawn.md`](SOURCE-tiktok-apexai-zero-dawn.md) · remake [`tiktok-replica/zero-dawn-pulse.html`](tiktok-replica/zero-dawn-pulse.html)  
 - TikTok ABC7 Altman singularity: [`SOURCE-tiktok-abc7-altman-singularity.md`](SOURCE-tiktok-abc7-altman-singularity.md) · remake [`tiktok-replica/altman-singularity-news.html`](tiktok-replica/altman-singularity-news.html)  
