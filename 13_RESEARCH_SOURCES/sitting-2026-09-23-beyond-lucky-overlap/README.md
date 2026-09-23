@@ -14,4 +14,5 @@ Richardson Pulse snapshot: [`SOURCE-richardson-beyond-lucky-2026-09-21.md`](SOUR
 Live Grok CrystalCore.OS / Sydney Hall: [`SOURCE-tango-zinc-quiet-terra-grok.md`](SOURCE-tango-zinc-quiet-terra-grok.md)  
 Manus share (we1.crt — out of scope): [`SOURCE-manus-share-we1-crt.md`](SOURCE-manus-share-we1-crt.md)  
 Manus share (Web OS easter eggs / TerAustralis.com.au): [`SOURCE-manus-share-web-os-easter-eggs.md`](SOURCE-manus-share-web-os-easter-eggs.md)  
-Manus share (genealogy site analysis — weak link): [`SOURCE-manus-share-website-analysis-genealogy.md`](SOURCE-manus-share-website-analysis-genealogy.md)
+Manus share (genealogy site analysis — weak link): [`SOURCE-manus-share-website-analysis-genealogy.md`](SOURCE-manus-share-website-analysis-genealogy.md)  
+Manus share (unified MCP / GitHub CrystalArchitect): [`SOURCE-manus-share-mcp-api-dev.md`](SOURCE-manus-share-mcp-api-dev.md)
