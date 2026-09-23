@@ -89,17 +89,19 @@ The May SpaceNews piece is the **public tip**. The stack underneath (May–Sep 2
 timeline
   title Public chronology relevant to the overlap question
   May 2026 : Arena-Turner Phase-1 geography briefs on disk
-  22 May 2026 : Arena-Turner SpaceNews Opinion (734w gated)
-  23 May 2026 : SpaceDaily editorial on DARC + Port Hedland Starship frame (adjacent public amplification)
+  22 May 2026 : Arena-Turner SpaceNews Opinion published
+  23 May 2026 : ISS Tracker near-full byline republish
+  23 May 2026 : SpaceDaily adjacent editorial rewrite same themes
   Jun 2026 : Sam Maher status brief METS Space Cluster
   Aug 2026 : Full Stack / Multi-node / Catch sittings + corrections
-  3 to 4 Sep 2026 : After the radar sequel submitted / published on TerAustralis
+  13 Aug 2026 : Sydney Station Aerotropolis invitation
+  3 to 4 Sep 2026 : After the radar sequel submitted / on TerAustralis
   Aug 2026 : Richardson LinkedIn series on AI leadership productivity
   21 Sep 2026 : Richardson Beyond Lucky Pulse
   23 Sep 2026 : This overlap sitting
 ```
 
-**Gap:** ~4 months from SpaceNews to *Beyond Lucky*; ~2–3 weeks from *After the radar* / Full Stack maturity to *Beyond Lucky*. Richardson’s Aug posts do **not** preview the three-pillar inheritance thesis — that appears as a new Pulse topic on 21 Sep.
+**Gap:** ~4 months from SpaceNews (+ same-day/next-day syndication) to *Beyond Lucky*; ~2–3 weeks from *After the radar* / Full Stack maturity to *Beyond Lucky*. Richardson’s Aug posts do **not** preview the three-pillar inheritance thesis — that appears as a new Pulse topic on 21 Sep.
 
 ---
 
@@ -137,10 +139,10 @@ These are **parallel conclusions in a crowded genre**. They are not identical se
 
 ## 4. What is *not* established
 
-1. **That Richardson read or copied the May SpaceNews op-ed.** Possible (public URL; SpaceDaily adjacent coverage 23 May), unproven.
-2. **That he read TerAustralis proposal HTML / GitHub / steward site.** Possible if he follows AU space–minerals discourse; unproven. No citation either way.
+1. **That Richardson read or copied the May SpaceNews op-ed.** Possible (canonical URL + **ISS Tracker republish 23 May** + SpaceDaily adjacent rewrite same day widened discoverability), unproven.
+2. **That he read TerAustralis proposal HTML / GitHub / steward site / Aerotropolis material.** Possible if he follows AU space–minerals discourse; unproven. No citation either way.
 3. **That “live conversation right now about three pillars” refers to you specifically.** Could mean industry forums, consulting pipelines, AUKUS/critical-minerals policy chatter, or your work. Treat as **Unknown**.
-4. **Line plagiarism.** Unavailable for SpaceNews body; unavailable as matching strings between retrieved Pulse text and in-repo drafts.
+4. **Line plagiarism of the SpaceNews body.** Recovered text ([`SOURCE-spacenews-arena-turner-2026-05-22.md`](SOURCE-spacenews-arena-turner-2026-05-22.md)) vs Pulse: **no matching sentences**. Shared water is thesis-level (minerals + alliance geography + sovereign capability), not verbatim. His Horne / Mt Isa / METS / Unit 8200 / Norway-fund machine is absent from your May op-ed.
 
 ---
 
