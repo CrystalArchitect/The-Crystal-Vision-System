@@ -30,7 +30,8 @@
 - Claude artifact Discursive Ops (satire — out of scope): [`SOURCE-claude-artifact-discursive-ops.md`](SOURCE-claude-artifact-discursive-ops.md)  
 - Claude artifact Remaining Work matrix (aeon-atlas ops): [`SOURCE-claude-artifact-remaining-work.md`](SOURCE-claude-artifact-remaining-work.md)  
 - Claude artifact aeon-atlas production roadmap: [`SOURCE-claude-artifact-aeon-atlas-roadmap.md`](SOURCE-claude-artifact-aeon-atlas-roadmap.md)  
-- Claude artifact CrystalCore.OS console (v1.7.9 mythos UI): [`SOURCE-claude-artifact-crystalcore-os-console.md`](SOURCE-claude-artifact-crystalcore-os-console.md)
+- Claude artifact CrystalCore.OS console (v1.7.9 mythos UI): [`SOURCE-claude-artifact-crystalcore-os-console.md`](SOURCE-claude-artifact-crystalcore-os-console.md)  
+- Claude artifact Hozmb… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-hozmb-gated.md`](SOURCE-claude-artifact-hozmb-gated.md)
 
 ## Manus shares (triaged)
 
