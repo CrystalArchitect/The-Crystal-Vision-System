@@ -1,7 +1,7 @@
 # TikTok format remakes
 
 Live hub (phone): **https://tiktok-remakes.vercel.app**  
-Brand domain (yours): **https://www.teraustralis.com.au** — prefer this for anything public/permanent; remakes can move to a subdomain or path under it (e.g. `remakes.teraustralis.com.au`) instead of living only on `*.vercel.app`.
+Brand domain: **https://www.teraustralis.com.au** — prefer for anything public/permanent; remakes can move under it later.
 
 These are 9:16 HTML shells for screen-recording. GitHub “View file” will not play them.
 
@@ -14,7 +14,10 @@ python3 -m http.server 8765
 
 Then open [`http://127.0.0.1:8765/`](http://127.0.0.1:8765/) → pick a remake → Fullscreen 9:16 → screen-record.
 
-Hub file: [`index.html`](index.html)
+Hub file: [`index.html`](index.html) (Vercel root). Agent dialects remake: [`agent-dialects.html`](agent-dialects.html).  
+`hub.html` is a leftover alternate entry from `main` — do not use as public root.
+
+**Rebuild copy/look:** hand [`../MANUS-BRIEF-tiktok-remakes-hub-rebuild.md`](../MANUS-BRIEF-tiktok-remakes-hub-rebuild.md) to Manus.
 
 ---
 
