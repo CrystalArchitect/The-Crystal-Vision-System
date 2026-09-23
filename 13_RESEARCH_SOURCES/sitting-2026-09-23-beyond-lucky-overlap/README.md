@@ -31,7 +31,8 @@
 - Claude artifact Remaining Work matrix (aeon-atlas ops): [`SOURCE-claude-artifact-remaining-work.md`](SOURCE-claude-artifact-remaining-work.md)  
 - Claude artifact aeon-atlas production roadmap: [`SOURCE-claude-artifact-aeon-atlas-roadmap.md`](SOURCE-claude-artifact-aeon-atlas-roadmap.md)  
 - Claude artifact CrystalCore.OS console (v1.7.9 mythos UI): [`SOURCE-claude-artifact-crystalcore-os-console.md`](SOURCE-claude-artifact-crystalcore-os-console.md)  
-- Claude artifact Hozmb… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-hozmb-gated.md`](SOURCE-claude-artifact-hozmb-gated.md)
+- Claude artifact Hozmb… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-hozmb-gated.md`](SOURCE-claude-artifact-hozmb-gated.md)  
+- Claude artifact 2VWLx… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-2vwl-gated.md`](SOURCE-claude-artifact-2vwl-gated.md)
 
 ## Manus shares (triaged)
 
