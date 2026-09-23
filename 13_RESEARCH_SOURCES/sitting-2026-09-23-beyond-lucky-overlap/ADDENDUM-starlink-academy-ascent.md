@@ -2,7 +2,8 @@
 
 **Canon:** **no** · Vision labelled vision  
 **Parent source:** [`SOURCE-starlink-education-academy.md`](SOURCE-starlink-education-academy.md)  
-**Ask:** Starlink education for Starfleet ascent · **Academy**
+**Ask:** Starlink education for Starfleet ascent · **Academy**  
+**Brand face (working):** **Starfleet Academy — Kangaroo Division** · optional Potter-structure skin — see [`ADDENDUM-academy-brand-faces.md`](ADDENDUM-academy-brand-faces.md)
 
 ---
 
@@ -46,7 +47,7 @@ Remote school / feeder  --Starlink-->  live lecture / sim seat
 
 ## One exploratory sentence (if tide clean)
 
-> Starlink already puts classrooms on the sky; Australia’s Academy ask is the **crew charter** that uses that pipe — Western Sydney shore, Bowen field, remote feeders — under human gate, not under a Starfleet OS.
+> Starlink already puts classrooms on the sky; **Starfleet Academy — Kangaroo Division** is the crew charter that uses that pipe — Western Sydney shore, Bowen field, remote feeders — under human gate, not under a Starfleet OS.
 
 ---
 

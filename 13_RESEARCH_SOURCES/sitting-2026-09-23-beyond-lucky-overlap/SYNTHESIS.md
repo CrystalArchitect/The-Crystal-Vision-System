@@ -107,6 +107,7 @@ flowchart TB
 | [`SOURCE-pdf-academy-charter-101-thinkers.md`](SOURCE-pdf-academy-charter-101-thinkers.md) | Academy Charter 101 Thinkers / Train ed. — Aerotropolis/Academy partial; mythos compost |
 | [`SOURCE-starlink-education-academy.md`](SOURCE-starlink-education-academy.md) | Starlink education landscape — remote schools pipe for Academy ascent |
 | [`ADDENDUM-starlink-academy-ascent.md`](ADDENDUM-starlink-academy-ascent.md) | Starlink = pipe; Academy = crew charter; no Starfleet OS |
+| [`ADDENDUM-academy-brand-faces.md`](ADDENDUM-academy-brand-faces.md) | Working name: Starfleet Academy — Kangaroo Division; Potter grammar alternate |
 | [`SOURCE-pdf-kangaroo-class-pitch.md`](SOURCE-pdf-kangaroo-class-pitch.md) | Kangaroo-class pitch 6 Sep 2026 — Access/Stay/Build/Crew BD face |
 | [`SOURCE-pdf-kangaroo-class-brief-1p.md`](SOURCE-pdf-kangaroo-class-brief-1p.md) | Kangaroo 1-pager SpaceX/SpaceXAI ask |
 | [`SOURCE-pdf-ops-notion-canonical.md`](SOURCE-pdf-ops-notion-canonical.md) | Ops Notion pointer — out of Pulse scope |
