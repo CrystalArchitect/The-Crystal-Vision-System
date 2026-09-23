@@ -54,7 +54,7 @@ The May SpaceNews piece is the **public tip**. The stack underneath (May–Sep 2
 | Sep 2026 | Minerals site claim (“Processing, not just ore”) | Dig well, ship rock, buy finished things back |
 | Manifesto | Jobs with destiny beat cycles of extraction alone | Explicit anti-boom-bust creed |
 
-**Distinctive Arena-Turner load-bearing claims (not in Richardson):** DARC clock / Exmouth eyes; Aerotropolis / AMRF / BCI dual-rail; CrystalCore local-first intelligence; Starship catch industrial definition; FPIC / Juukan floor; named firm ladder (Iluka, ANSTO, Liquid Instruments, Synchron / NRFC); Self-corrections published when Ship 40 went to Christmas Island → Texas.
+**Distinctive Arena-Turner load-bearing claims (not in Richardson):** DARC clock / Exmouth eyes; **Aerotropolis West / AMRF / BCI dual-rail** (full map: [`ADDENDUM-aerotropolis-west.md`](ADDENDUM-aerotropolis-west.md)); CrystalCore local-first intelligence; Starship catch industrial definition; FPIC / Juukan floor; named firm ladder (Iluka, ANSTO, Liquid Instruments, Synchron / NRFC); Self-corrections published when Ship 40 went to Christmas Island → Texas.
 
 ### 1.3 Richardson — LinkedIn Pulse, 21 Sep 2026
 

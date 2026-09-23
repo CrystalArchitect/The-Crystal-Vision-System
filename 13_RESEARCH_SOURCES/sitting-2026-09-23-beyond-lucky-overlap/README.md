@@ -6,4 +6,5 @@
 
 **Verdict (one line):** strong **thematic** overlap with the TerAustralis stack (resources + space/defence + compute; stop dig-and-ship; leave capability, not just royalties); **no proven line-copy** of the May SpaceNews text from sources available in this sitting; prior Australian “Lucky Country / value-add” discourse is real and older than both.
 
-Primary brief: [`OVERLAP-BRIEF.md`](OVERLAP-BRIEF.md)
+Primary brief: [`OVERLAP-BRIEF.md`](OVERLAP-BRIEF.md)  
+Aerotropolis West (Sydney) addendum: [`ADDENDUM-aerotropolis-west.md`](ADDENDUM-aerotropolis-west.md) — your sited compute/BCI spine vs his abstract “compute” pillar
