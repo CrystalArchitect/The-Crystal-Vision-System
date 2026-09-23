@@ -73,6 +73,7 @@ flowchart TB
 | --- | --- |
 | [`SOURCE-tango-zinc-quiet-terra-grok.md`](SOURCE-tango-zinc-quiet-terra-grok.md) | Live CrystalCore.OS / Western Sydney Hall (Aerotropolis primary, zero potable, Optimus, Westmead pathway) |
 | Uploaded Sydney DC briefing (triage) | Same September 2026 site-file family |
+| [`SOURCE-claude-artifact-map-and-territory.md`](SOURCE-claude-artifact-map-and-territory.md) | Jul 2026 Claude architectural survey of TerAustralis / CrystalCore repos + ADRs |
 
 ### C. Product / OS surfaces (existence of CrystalCore.OS, not the national thesis)
 
