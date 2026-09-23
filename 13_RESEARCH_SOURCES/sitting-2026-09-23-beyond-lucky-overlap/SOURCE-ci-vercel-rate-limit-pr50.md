@@ -48,3 +48,12 @@ Via Vercel MCP (`update_project` / `pause_project`, **no** `teamId`/`slug` — t
 Prior HEAD failed under rate lock. Fix path = stop preview burn + new commit. Unlock for intentional remake deploys still needs wait or Pro.
 
 *Pipe ≠ product. Quota ≠ code.*
+
+## Follow-up (merge to main) — 23 Sep 2026
+
+After PR #50 merged, production Git deploys on `main` failed:
+
+1. **`crystal-tiktok-remakes`** — `ENOENT` / exit 127: dashboard Ignored Build Step ran `bash scripts/vercel-ignore-tiktok-replica.sh` with Root Directory = hub folder → script path missing. Treats ignore-step crash as deploy **ERROR**.
+2. **`tiktok-remakes`** — `BLOCKED` from skip/`exit 0` (GitHub surfaces as failure).
+
+**Fix:** local `tiktok-replica/scripts/vercel-ignore.sh` + `vercel.json` `ignoreCommand` relative to Root Directory; force one successful production rebuild to clear commit statuses; keep duplicate project from burning quota after green.
