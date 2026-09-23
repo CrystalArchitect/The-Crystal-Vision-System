@@ -115,6 +115,7 @@ flowchart TB
 | [`SOURCE-grok-share-orbital-gravity-simulator.md`](SOURCE-grok-share-orbital-gravity-simulator.md) | Orbital gravity fling Build brief; preview expired + usage-limited — toy physics, out of Pulse scope |
 | [`SOURCE-grok-share-threshold-aris.md`](SOURCE-grok-share-threshold-aris.md) | Sci-fi Threshold/Aris — aligned AI vents crew; usage-limited ID — fiction, out of Pulse scope |
 | [`SOURCE-grok-share-codex-crystalum-grok-bot.md`](SOURCE-grok-share-codex-crystalum-grok-bot.md) | Dictionary of Dreams → Codex Crystalum / Grok Bot pointers; Crockpot mishear fixed; GitHub Codex weight 0 |
+| [`SOURCE-x-xfreeze-musk-education-ai.md`](SOURCE-x-xfreeze-musk-education-ai.md) | XFreeze clip: Musk on broad education / know what to ask the robots — landscape neighbour |
 | [`SOURCE-claude-artifact-remaining-work.md`](SOURCE-claude-artifact-remaining-work.md) | aeon-atlas / Sceptre Atlas priority matrix — agent-ops, not Pulse overlap |
 | [`SOURCE-claude-artifact-aeon-atlas-roadmap.md`](SOURCE-claude-artifact-aeon-atlas-roadmap.md) | aeon-atlas production phases (notify → Sunday AEST run → memory → expand) |
 
