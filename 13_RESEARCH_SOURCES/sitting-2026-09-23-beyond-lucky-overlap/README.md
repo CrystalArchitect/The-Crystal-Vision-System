@@ -67,7 +67,8 @@
 ## Visual / mythos layer
 
 - CrystalCore.OS launch maps + persona dump: [`ADDENDUM-visual-crystalcore-mythos.md`](ADDENDUM-visual-crystalcore-mythos.md)  
-- Receipts: [`visual-corpus/`](visual-corpus/)
+- Receipts: [`visual-corpus/`](visual-corpus/)  
+- TikTok format remake (agent-dialect kinetic type): [`tiktok-replica/`](tiktok-replica/)
 
 ## Sibling Cursor agents
 
