@@ -50,6 +50,7 @@
 - Claude **Code** session 019o7… (sign-in gated — contents unknown): [`SOURCE-claude-code-session-019o7-gated.md`](SOURCE-claude-code-session-019o7-gated.md)  
 - Claude **Code** session 01PMZ… (sign-in gated — contents unknown): [`SOURCE-claude-code-session-01pmz-gated.md`](SOURCE-claude-code-session-01pmz-gated.md)
 - Claude **Code** session 0192x… (sign-in gated — contents unknown): [`SOURCE-claude-code-session-0192x-gated.md`](SOURCE-claude-code-session-0192x-gated.md)
+- Claude **Code** session 016w… (sign-in gated — contents unknown): [`SOURCE-claude-code-session-016w-gated.md`](SOURCE-claude-code-session-016w-gated.md)
 
 ## Manus shares (triaged)
 
