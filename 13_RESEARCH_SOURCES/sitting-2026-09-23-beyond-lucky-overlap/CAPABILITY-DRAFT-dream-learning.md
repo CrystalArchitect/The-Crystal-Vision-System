@@ -84,7 +84,8 @@ Working name for one offline pass: a **dreaming circle**.
 - Circles do not stack into canon without a stamp  
 - Parallel circles OK (Chaos fan-out); verdict still Crystal’s  
 
-(Queued ask: implement / sketch dreaming circles next.)
+**Run pack:** [`DREAMING-CIRCLES-FIELD-SHEET.md`](DREAMING-CIRCLES-FIELD-SHEET.md)  
+**First worked circle:** [`DREAMING-CIRCLE-DC-2026-09-23-remake-hub.md`](DREAMING-CIRCLE-DC-2026-09-23-remake-hub.md)
 
 ---
 
