@@ -24,7 +24,7 @@ Useful as a **map metaphor** beside Dreaming Circles and Different Shores:
 
 A dreaming circle picks a **mode** (policy root) over a shared **pool** (parent scale / paid history). Changing mode ≠ changing the notes that exist. Changing policy ≠ changing weights.
 
-Cross-ref: [`DREAMING-CIRCLES-FIELD-SHEET.md`](DREAMING-CIRCLES-FIELD-SHEET.md) · [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md) · Different Shores “one light, many cups.”
+Cross-ref: [`ADDENDUM-cosmology-modes-circles.md`](ADDENDUM-cosmology-modes-circles.md) · [`DREAMING-CIRCLES-FIELD-SHEET.md`](DREAMING-CIRCLES-FIELD-SHEET.md) · [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md) · Different Shores “one light, many cups.”
 
 ## Boundary
 
