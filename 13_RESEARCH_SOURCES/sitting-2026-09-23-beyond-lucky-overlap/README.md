@@ -39,6 +39,7 @@
 - Grok share Threshold / Aris fiction ID (usage-limited — out of scope): [`SOURCE-grok-share-threshold-aris.md`](SOURCE-grok-share-threshold-aris.md)  
 - Grok share Codex Crystalum ↔ Grok Bot filing (ops): [`SOURCE-grok-share-codex-crystalum-grok-bot.md`](SOURCE-grok-share-codex-crystalum-grok-bot.md)  
 - 9 News Albanese AI regulation peg + release draft: [`SOURCE-youtube-albanese-ai-regulation.md`](SOURCE-youtube-albanese-ai-regulation.md) · [`RELEASE-DRAFT-albanese-ai-regulation.md`](RELEASE-DRAFT-albanese-ai-regulation.md)  
+- ABC News Trump admin vs AU Digital Duty of Care (feed choice): [`SOURCE-youtube-abc-digital-duty-of-care.md`](SOURCE-youtube-abc-digital-duty-of-care.md)  
 - Grok share CrystalCore.OS source/release audit + freeze pack trail (11 Sep frame): [`SOURCE-grok-share-crystalcore-os-audit.md`](SOURCE-grok-share-crystalcore-os-audit.md)  
 - Grok share Boot CrystalCore.OS (playable deck 0.9.11; preview expired): [`SOURCE-grok-share-boot-crystalcore-os.md`](SOURCE-grok-share-boot-crystalcore-os.md)  
 - Claude artifact CrystalCore.OS Live Party shell (public): [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md)  

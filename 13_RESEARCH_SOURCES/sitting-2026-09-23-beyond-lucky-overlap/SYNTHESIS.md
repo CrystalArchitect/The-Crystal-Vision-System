@@ -80,6 +80,7 @@ flowchart TB
 | [`SOURCE-grok-share-hindsight-receipt.md`](SOURCE-grok-share-hindsight-receipt.md) | Hindsight Receipt box → receipt not masthead; alignment as reading; 6 Sep 20:18 AEST Ordinary Evidence |
 | [`SOURCE-youtube-albanese-ai-regulation.md`](SOURCE-youtube-albanese-ai-regulation.md) | 9 News peg: Albanese joins 20-nation AI regulation call — release trigger |
 | [`RELEASE-DRAFT-albanese-ai-regulation.md`](RELEASE-DRAFT-albanese-ai-regulation.md) | Draft X/LinkedIn: regulate rogue platforms + build sovereign local-first AU stack |
+| [`SOURCE-youtube-abc-digital-duty-of-care.md`](SOURCE-youtube-abc-digital-duty-of-care.md) | ABC: rare US public submission vs AU Digital Duty of Care / chronological feed choice — same Albanese US week |
 | [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md) | Public Claude artifact: Live Party / Lattice / Sovereign Duties / Transmission UI |
 | Uploaded Sydney DC briefing (triage) | Same September 2026 site-file family |
 | [`SOURCE-claude-artifact-map-and-territory.md`](SOURCE-claude-artifact-map-and-territory.md) | Jul 2026 Claude architectural survey of TerAustralis / CrystalCore repos + ADRs |
