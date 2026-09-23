@@ -12,7 +12,9 @@ build/
 *.swo
 *~
 .cache/
+.astro/
 public/data/
+src/env.d.ts
 
 __pycache__/
 *.pyc

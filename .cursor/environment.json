@@ -1,0 +1,14 @@
+{
+  "name": "Crystal Vision — Astro DnB Library",
+  "user": "ubuntu",
+  "install": "bash .cursor/setup.sh",
+  "terminals": [
+    {
+      "name": "astro-dev",
+      "command": "npm run dev -- --host 0.0.0.0 --port 4321"
+    }
+  ],
+  "ports": [
+    { "name": "astro", "port": 4321 }
+  ]
+}
