@@ -24,17 +24,27 @@ Team **TerAustralis Incognita** is on **Hobby**. Hobby caps deployments/day (~10
 | `tiktok-replica/vercel.json` → `ignoreCommand` | Skip build when hub folder unchanged |
 | `scripts/vercel-ignore-tiktok-replica.sh` | Same rule for dashboard Ignored Build Step (repo-root path) |
 
-## Dashboard (human / Crystal) — still needed
+## Dashboard / API mitigation applied (23 Sep 2026, agent)
 
-1. **Disconnect or pause auto-deploy** on dead/orphan projects: `tiktok-remakes`, `tiktok-remakes-fixed-017d`, `tiktok-remakes-personal` — keep only `crystal-tiktok-remakes`  
-2. On `crystal-tiktok-remakes`: Git → Ignored Build Step →  
-   `bash scripts/vercel-ignore-tiktok-replica.sh`  
-   (also set via `tiktok-replica/vercel.json` `ignoreCommand` once unlock allows a deploy that reads it)  
-3. After Hobby lockout clears (~24h) **or** upgrade to Pro: push or Redeploy once so ignored-build config is live  
-4. Do not treat red Vercel statuses as “Academy broken”
+Via Vercel MCP (`update_project` / `pause_project`, **no** `teamId`/`slug` — those 404):
+
+| Project | Action |
+| --- | --- |
+| `crystal-tiktok-remakes` (`prj_i76Zx9NfG3B66TbdKQVcwkNvXGOH`) | `previewDeploymentsDisabled: true` · Ignored Build Step → `bash scripts/vercel-ignore-tiktok-replica.sh` · **keep** live hub |
+| `tiktok-remakes` (`prj_iNOdEFQoJcnEdc7jgGucj2zHCOvr`) | `previewDeploymentsDisabled: true` · Ignored Build Step → `exit 0` · pause attempted |
+| `tiktok-remakes-fixed-017d` | pause attempted |
+| `tiktok-remakes-personal` | pause attempted |
+
+**Why this clears PR reds:** Hobby rate-limit failures are commit statuses on the push that tried to create preview deploys. With preview deploys off, a new PR head should not get new `Vercel – *` failure statuses. Old failures stay on old SHAs only.
+
+## Still useful (human)
+
+1. Confirm orphans disconnected in dashboard if pause did not stick  
+2. After Hobby lockout clears (~24h from last burn) **or** Pro: re-enable previews on `crystal-tiktok-remakes` only if PR preview URLs are needed  
+3. Do not treat red Vercel statuses as “Academy broken”
 
 ## Current red checks
 
-Cannot turn green while the 24h rate lock is active. Mitigation stops **future** research pushes from re-burning quota; unlock requires wait or Pro.
+Prior HEAD failed under rate lock. Fix path = stop preview burn + new commit. Unlock for intentional remake deploys still needs wait or Pro.
 
 *Pipe ≠ product. Quota ≠ code.*
