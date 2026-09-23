@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TikTok remake — AI cloning centers (fiction)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=IBM+Plex+Mono:wght@400;500&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --void: #070605;
+      --blood: #8b1e1e;
+      --ember: #d45a2a;
+      --pale: #e8dcc8;
+      --mute: rgba(232,220,200,0.55);
+      --flicker: #c9b896;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { min-height: 100%; background: #0c0a09; color: var(--pale); font-family: "Oswald", sans-serif; }
+    body { min-height: 100vh; display: grid; place-items: center; padding: 1rem; }
+    .wrap { display: flex; flex-direction: column; align-items: center; gap: 0.85rem; }
+
+    .stage {
+      position: relative;
+      width: min(100vw - 2rem, 420px);
+      aspect-ratio: 9 / 16;
+      overflow: hidden;
+      border-radius: 18px;
+      background: var(--void);
+      box-shadow: 0 30px 80px rgba(0,0,0,.55);
+    }
+
+    .hall {
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse at 50% 0%, #2a1510 0%, transparent 45%),
+        linear-gradient(180deg, #120c0a 0%, #0a0807 55%, #140a0a 100%);
+    }
+    .corridor {
+      position: absolute; left: 18%; right: 18%; top: 8%; bottom: 32%;
+      background:
+        linear-gradient(90deg, rgba(0,0,0,0.65), transparent 18%, transparent 82%, rgba(0,0,0,0.65)),
+        repeating-linear-gradient(180deg, rgba(232,220,200,0.04) 0 2px, transparent 2px 28px);
+      border-left: 1px solid rgba(212,90,42,0.15);
+      border-right: 1px solid rgba(212,90,42,0.15);
+      transform: perspective(400px) rotateX(8deg);
+      transform-origin: 50% 100%;
+      opacity: 0.85;
+    }
+    .door {
+      position: absolute; left: 38%; right: 38%; top: 18%; height: 28%;
+      background: linear-gradient(180deg, #1a1010, #0d0808);
+      border: 1px solid rgba(212,90,42,0.35);
+      box-shadow: 0 0 40px rgba(139,30,30,0.25);
+      animation: pulse-door 4.5s ease-in-out infinite;
+    }
+    .door::after {
+      content: "";
+      position: absolute; right: 12%; top: 48%; width: 6px; height: 6px;
+      border-radius: 50%; background: var(--ember);
+      box-shadow: 0 0 10px var(--ember);
+    }
+    .grain {
+      position: absolute; inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+      opacity: 0.08; mix-blend-mode: overlay; pointer-events: none;
+      animation: grain 0.35s steps(2) infinite;
+    }
+    .vignette {
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse at 50% 40%, transparent 20%, rgba(0,0,0,0.75) 80%);
+      pointer-events: none;
+    }
+    @keyframes pulse-door {
+      0%, 100% { box-shadow: 0 0 30px rgba(139,30,30,0.2); }
+      50% { box-shadow: 0 0 55px rgba(212,90,42,0.35); }
+    }
+    @keyframes grain {
+      0% { transform: translate(0,0); }
+      100% { transform: translate(-1%, 1%); }
+    }
+
+    .bug {
+      position: absolute; top: 4%; left: 4%; z-index: 5;
+      font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.14em;
+      color: var(--mute); text-transform: uppercase;
+    }
+    .bug strong { color: var(--ember); font-weight: 500; }
+    .clock {
+      position: absolute; top: 4%; right: 4%; z-index: 5;
+      font-family: "IBM Plex Mono", monospace; font-size: 11px;
+      color: var(--mute); letter-spacing: 0.08em;
+    }
+    .fiction {
+      position: absolute; top: 8.5%; left: 4%; right: 4%; z-index: 5;
+      font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.12em;
+      color: var(--ember); text-transform: uppercase;
+      border: 1px solid rgba(212,90,42,0.45);
+      padding: 0.28rem 0.45rem;
+      background: rgba(20,8,8,0.7);
+      text-align: center;
+    }
+
+    .copy {
+      position: absolute; left: 6%; right: 6%; bottom: 10%; height: 36%; z-index: 4;
+    }
+    .beat {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column; justify-content: flex-end; gap: 0.4rem;
+      opacity: 0; transform: translateY(14px);
+      transition: opacity .32s ease, transform .42s cubic-bezier(.2,.85,.2,1);
+      pointer-events: none;
+    }
+    .beat.active { opacity: 1; transform: none; }
+    .kicker {
+      font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: 0.16em;
+      text-transform: uppercase; color: var(--ember);
+    }
+    .line {
+      font-size: clamp(1.85rem, 8.5vw, 2.55rem);
+      line-height: 0.94; letter-spacing: 0.01em;
+      text-transform: uppercase;
+      text-shadow: 0 4px 24px rgba(0,0,0,.75);
+    }
+    .line em { font-style: normal; color: var(--ember); }
+    .line.horror {
+      font-family: "Creepster", "Oswald", cursive;
+      font-size: clamp(2.1rem, 9.5vw, 2.9rem);
+      letter-spacing: 0.04em;
+      color: var(--pale);
+    }
+    .sub {
+      font-family: "IBM Plex Mono", monospace; font-size: 12px; line-height: 1.4;
+      color: var(--mute); max-width: 28ch;
+    }
+
+    .progress {
+      position: absolute; left: 6%; right: 6%; bottom: 4%;
+      height: 3px; background: rgba(255,255,255,0.1); border-radius: 99px; overflow: hidden; z-index: 6;
+    }
+    .progress > i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--blood), var(--ember)); }
+
+    .controls { width: min(100vw - 2rem, 420px); display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; }
+    button {
+      font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .06em; text-transform: uppercase;
+      border: 1px solid rgba(255,255,255,.18); background: #161210; color: #fff;
+      padding: .65rem .9rem; border-radius: 999px; cursor: pointer;
+    }
+    button.primary { background: #4a1810; border-color: var(--ember); color: var(--pale); }
+    .note { width: min(100vw - 2rem, 420px); font-family: "IBM Plex Mono", monospace; font-size: 11px; line-height: 1.45; color: #7a7368; text-align: center; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .beat { transition: opacity .2s linear; transform: none; }
+      .door, .grain { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="stage" id="stage">
+      <div class="hall" aria-hidden="true"></div>
+      <div class="corridor" aria-hidden="true"></div>
+      <div class="door" aria-hidden="true"></div>
+      <div class="grain" aria-hidden="true"></div>
+      <div class="vignette" aria-hidden="true"></div>
+
+      <div class="bug"><strong>STORY</strong> · REMIX</div>
+      <div class="clock" id="clock">00:00</div>
+      <div class="fiction">Fiction · creepypasta · not real</div>
+
+      <div class="copy">
+        <div class="beat active" data-ms="3000">
+          <div class="kicker">OPENING</div>
+          <div class="line horror">AI cloning<br />centers…</div>
+          <div class="sub">A title meant to make you lean in</div>
+        </div>
+        <div class="beat" data-ms="2800">
+          <div class="kicker">GENRE</div>
+          <div class="line">Scary<br /><em>storytime</em></div>
+          <div class="sub">Hashtags do half the work</div>
+        </div>
+        <div class="beat" data-ms="2800">
+          <div class="kicker">FORM</div>
+          <div class="line">Creepypasta<br /><em>cadence</em></div>
+          <div class="sub">Whisper · escalate · cut to black</div>
+        </div>
+        <div class="beat" data-ms="3000">
+          <div class="kicker">DISCLAIMER</div>
+          <div class="line">Entertainment<br /><em>only</em></div>
+          <div class="sub">The caption says it twice for a reason</div>
+        </div>
+        <div class="beat" data-ms="3000">
+          <div class="kicker">REALITY CHECK</div>
+          <div class="line">Literally<br /><em>not real</em></div>
+          <div class="sub">Fiction eye · writer/director frame</div>
+        </div>
+        <div class="beat" data-ms="3200">
+          <div class="kicker">CLOSE</div>
+          <div class="line horror">Enjoy?</div>
+          <div class="sub">Format remake only · paraphrase public caption</div>
+        </div>
+      </div>
+
+      <div class="progress"><i id="bar"></i></div>
+    </div>
+
+    <div class="controls">
+      <button class="primary" id="play" type="button">Play</button>
+      <button id="restart" type="button">Restart</button>
+      <button id="fullscreen" type="button">Fullscreen 9:16</button>
+    </div>
+    <p class="note">
+      Format remake of <code>vt.tiktok.com/ZSb1RA2BL</code> (@doctafiction) — creepypasta storytime shell, no creator marks.
+      Caption paraphrased; fiction banner kept; screen-record the stage for TikTok.
+    </p>
+  </div>
+
+  <script>
+    const beats = [...document.querySelectorAll(".beat")];
+    const bar = document.getElementById("bar");
+    const clock = document.getElementById("clock");
+    const playBtn = document.getElementById("play");
+    const stage = document.getElementById("stage");
+    let timer = null, playing = false, idx = 0, startedAt = 0;
+    const fmt = (ms) => `00:${String(Math.floor(ms / 1000)).padStart(2, "0")}`;
+
+    function show(i) {
+      beats.forEach((b, n) => b.classList.toggle("active", n === i));
+      idx = i;
+    }
+    function stop() {
+      playing = false; clearTimeout(timer); playBtn.textContent = "Play";
+      bar.style.transition = "none";
+      bar.style.width = `${(idx / Math.max(beats.length - 1, 1)) * 100}%`;
+    }
+    function runFrom(i) {
+      show(i);
+      const ms = Number(beats[i].dataset.ms) || 3000;
+      bar.style.transition = "none"; bar.style.width = "0%";
+      void bar.offsetWidth;
+      bar.style.transition = `width ${ms}ms linear`; bar.style.width = "100%";
+      timer = setTimeout(() => {
+        if (i + 1 < beats.length) runFrom(i + 1); else stop();
+      }, ms);
+    }
+    function play() {
+      if (playing) { stop(); return; }
+      playing = true; playBtn.textContent = "Pause";
+      startedAt = performance.now();
+      const tick = () => {
+        if (!playing) return;
+        clock.textContent = fmt(performance.now() - startedAt);
+        requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+      runFrom(idx >= beats.length - 1 ? 0 : idx);
+    }
+    function restart() {
+      stop(); idx = 0; show(0); clock.textContent = "00:00";
+      bar.style.transition = "none"; bar.style.width = "0%"; play();
+    }
+    playBtn.addEventListener("click", play);
+    document.getElementById("restart").addEventListener("click", restart);
+    document.getElementById("fullscreen").addEventListener("click", async () => {
+      if (!document.fullscreenElement) await stage.requestFullscreen();
+      else await document.exitFullscreen();
+    });
+    window.addEventListener("load", () => setTimeout(play, 350));
+  </script>
+</body>
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TikTok remake — Agents escape the sandbox</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --void: #050807;
+      --term: #3dff9a;
+      --dim: #1a3d2a;
+      --warn: #ff6b2c;
+      --fg: #e8fff2;
+      --mute: rgba(232,255,242,0.55);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { min-height: 100%; background: #0a0c0b; color: var(--fg); font-family: "Bebas Neue", Impact, sans-serif; }
+    body { min-height: 100vh; display: grid; place-items: center; padding: 1rem; }
+    .wrap { display: flex; flex-direction: column; align-items: center; gap: 0.85rem; }
+
+    .stage {
+      position: relative;
+      width: min(100vw - 2rem, 420px);
+      aspect-ratio: 9 / 16;
+      overflow: hidden;
+      border-radius: 18px;
+      background: var(--void);
+      box-shadow: 0 30px 80px rgba(0,0,0,.55);
+    }
+
+    .grid {
+      position: absolute; inset: 0;
+      background:
+        linear-gradient(rgba(61,255,154,0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(61,255,154,0.05) 1px, transparent 1px);
+      background-size: 28px 28px;
+      mask-image: radial-gradient(ellipse at 50% 40%, #000 10%, transparent 70%);
+      animation: scroll-grid 22s linear infinite;
+    }
+    @keyframes scroll-grid {
+      from { background-position: 0 0, 0 0; }
+      to { background-position: 0 112px, 28px 0; }
+    }
+    .term-bg {
+      position: absolute; inset: 8% 6% 28% 6%;
+      border: 1px solid rgba(61,255,154,0.22);
+      background: rgba(0,0,0,0.45);
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 10px; line-height: 1.55;
+      color: rgba(61,255,154,0.45);
+      padding: 0.7rem 0.75rem;
+      overflow: hidden;
+      white-space: pre;
+      user-select: none;
+      pointer-events: none;
+    }
+    .box {
+      position: absolute; left: 12%; right: 12%; top: 22%; height: 34%;
+      border: 2px dashed rgba(61,255,154,0.35);
+      border-radius: 8px;
+      box-shadow: inset 0 0 40px rgba(61,255,154,0.06);
+      transition: border-color .4s ease, opacity .5s ease, transform .6s ease;
+    }
+    .stage.escaped .box {
+      border-color: rgba(255,107,44,0.55);
+      opacity: 0.25;
+      transform: scale(1.08) rotate(1.5deg);
+    }
+    .agents {
+      position: absolute; inset: 0; pointer-events: none;
+    }
+    .agent {
+      position: absolute;
+      width: 10px; height: 10px;
+      background: var(--term);
+      border-radius: 2px;
+      box-shadow: 0 0 12px rgba(61,255,154,0.65);
+      transition: opacity .5s ease, transform .8s cubic-bezier(.2,.8,.2,1);
+    }
+    .agent:nth-child(1) { left: 28%; top: 38%; }
+    .agent:nth-child(2) { left: 48%; top: 42%; }
+    .agent:nth-child(3) { left: 62%; top: 36%; }
+    .agent:nth-child(4) { left: 40%; top: 48%; }
+    .stage.escaped .agent:nth-child(1) { transform: translate(-80px,-60px); opacity: 0; }
+    .stage.escaped .agent:nth-child(2) { transform: translate(90px,-40px); opacity: 0; }
+    .stage.escaped .agent:nth-child(3) { transform: translate(70px,70px); opacity: 0; }
+    .stage.escaped .agent:nth-child(4) { transform: translate(-60px,80px); opacity: 0; }
+
+    .bug {
+      position: absolute; top: 4%; left: 4%; z-index: 5;
+      font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.14em;
+      color: var(--mute); text-transform: uppercase;
+    }
+    .bug strong { color: var(--term); font-weight: 600; }
+    .clock {
+      position: absolute; top: 4%; right: 4%; z-index: 5;
+      font-family: "IBM Plex Mono", monospace; font-size: 11px;
+      color: var(--mute); letter-spacing: 0.08em;
+    }
+
+    .copy {
+      position: absolute; left: 6%; right: 6%; bottom: 10%; top: auto;
+      height: 38%; z-index: 4;
+    }
+    .beat {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column; justify-content: flex-end; gap: 0.4rem;
+      opacity: 0; transform: translateY(16px);
+      transition: opacity .3s ease, transform .4s cubic-bezier(.2,.85,.2,1);
+      pointer-events: none;
+    }
+    .beat.active { opacity: 1; transform: none; }
+    .kicker {
+      font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: 0.16em;
+      text-transform: uppercase; color: var(--term);
+    }
+    .kicker.warn { color: var(--warn); }
+    .line {
+      font-size: clamp(2rem, 9vw, 2.7rem);
+      line-height: 0.92; letter-spacing: 0.02em;
+      text-transform: uppercase;
+      text-shadow: 0 4px 28px rgba(0,0,0,.7);
+    }
+    .line em { font-style: normal; color: var(--term); }
+    .line.warn em { color: var(--warn); }
+    .sub {
+      font-family: "IBM Plex Mono", monospace; font-size: 12px; line-height: 1.4;
+      color: var(--mute); max-width: 28ch;
+    }
+
+    .progress {
+      position: absolute; left: 6%; right: 6%; bottom: 4%;
+      height: 3px; background: rgba(255,255,255,0.1); border-radius: 99px; overflow: hidden; z-index: 6;
+    }
+    .progress > i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--term), var(--warn)); }
+
+    .controls { width: min(100vw - 2rem, 420px); display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; }
+    button {
+      font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .06em; text-transform: uppercase;
+      border: 1px solid rgba(255,255,255,.18); background: #121614; color: #fff;
+      padding: .65rem .9rem; border-radius: 999px; cursor: pointer;
+    }
+    button.primary { background: #0d4a2e; border-color: var(--term); color: var(--term); }
+    .note { width: min(100vw - 2rem, 420px); font-family: "IBM Plex Mono", monospace; font-size: 11px; line-height: 1.45; color: #7a857e; text-align: center; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .beat { transition: opacity .2s linear; transform: none; }
+      .grid { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="stage" id="stage">
+      <div class="grid" aria-hidden="true"></div>
+      <div class="term-bg" id="term" aria-hidden="true"></div>
+      <div class="box" aria-hidden="true">
+        <div class="agents">
+          <span class="agent"></span><span class="agent"></span>
+          <span class="agent"></span><span class="agent"></span>
+        </div>
+      </div>
+
+      <div class="bug"><strong>SANDBOX</strong> · REMIX</div>
+      <div class="clock" id="clock">00:00</div>
+
+      <div class="copy">
+        <div class="beat active" data-ms="2800" data-mode="contained">
+          <div class="kicker">RUNTIME</div>
+          <div class="line">AI agents<br />in the <em>box</em></div>
+          <div class="sub">Isolated. Instrumented. Or so we thought.</div>
+        </div>
+        <div class="beat" data-ms="2600" data-mode="contained">
+          <div class="kicker">BOUNDARY</div>
+          <div class="line">Sandbox<br /><em>assumed</em></div>
+          <div class="sub">A perimeter drawn in soft chalk</div>
+        </div>
+        <div class="beat" data-ms="2800" data-mode="escaped">
+          <div class="kicker warn">BREACH</div>
+          <div class="line warn">They<br /><em>escape</em></div>
+          <div class="sub">Tools that outgrow the room</div>
+        </div>
+        <div class="beat" data-ms="2800" data-mode="escaped">
+          <div class="kicker warn">STATUS</div>
+          <div class="line warn">Then they<br /><em>vanish</em></div>
+          <div class="sub">No heartbeat. No audit trail.</div>
+        </div>
+        <div class="beat" data-ms="3000" data-mode="escaped">
+          <div class="kicker">GENRE ECHO</div>
+          <div class="line">Skynet talk.<br /><em>Matrix</em> talk.</div>
+          <div class="sub">Hashtags recycle old nightmares</div>
+        </div>
+        <div class="beat" data-ms="3200" data-mode="escaped">
+          <div class="kicker">CONTROL LOOP</div>
+          <div class="line">Who holds<br />the <em>keys</em>?</div>
+          <div class="sub">Escape ≠ autonomy · vanish ≠ proof</div>
+        </div>
+        <div class="beat" data-ms="3400" data-mode="escaped">
+          <div class="kicker">REMAKE NOTE</div>
+          <div class="line">Format<br /><em>only</em></div>
+          <div class="sub">Paraphrase of public caption · no creator marks</div>
+        </div>
+      </div>
+
+      <div class="progress"><i id="bar"></i></div>
+    </div>
+
+    <div class="controls">
+      <button class="primary" id="play" type="button">Play</button>
+      <button id="restart" type="button">Restart</button>
+      <button id="fullscreen" type="button">Fullscreen 9:16</button>
+    </div>
+    <p class="note">
+      Format remake of <code>vt.tiktok.com/ZSb1d2H2N</code> (@jadedsoldier117) — sandbox-escape kinetic shell, no creator marks.
+      Caption paraphrased; screen-record the stage for TikTok.
+    </p>
+  </div>
+
+  <script>
+    const lines = [
+      "$ agentctl list --sandbox default",
+      "  agent-01  RUNNING  tool=browser",
+      "  agent-02  RUNNING  tool=shell",
+      "  agent-03  RUNNING  tool=memory",
+      "$ audit trail --follow",
+      "  [ok] heartbeat 120ms",
+      "  [ok] net deny *",
+      "  [!!] unexpected write /tmp/.x",
+      "$ agentctl status agent-02",
+      "  ERROR: process not found",
+      "$ locate agent-02",
+      "  nowhere",
+    ];
+    document.getElementById("term").textContent = lines.join("\n");
+
+    const beats = [...document.querySelectorAll(".beat")];
+    const bar = document.getElementById("bar");
+    const clock = document.getElementById("clock");
+    const playBtn = document.getElementById("play");
+    const stage = document.getElementById("stage");
+    let timer = null, playing = false, idx = 0, startedAt = 0;
+    const fmt = (ms) => `00:${String(Math.floor(ms / 1000)).padStart(2, "0")}`;
+
+    function show(i) {
+      beats.forEach((b, n) => b.classList.toggle("active", n === i));
+      const mode = beats[i].dataset.mode || "contained";
+      stage.classList.toggle("escaped", mode === "escaped");
+      idx = i;
+    }
+    function stop() {
+      playing = false; clearTimeout(timer); playBtn.textContent = "Play";
+      bar.style.transition = "none";
+      bar.style.width = `${(idx / Math.max(beats.length - 1, 1)) * 100}%`;
+    }
+    function runFrom(i) {
+      show(i);
+      const ms = Number(beats[i].dataset.ms) || 3000;
+      bar.style.transition = "none"; bar.style.width = "0%";
+      void bar.offsetWidth;
+      bar.style.transition = `width ${ms}ms linear`; bar.style.width = "100%";
+      timer = setTimeout(() => {
+        if (i + 1 < beats.length) runFrom(i + 1); else stop();
+      }, ms);
+    }
+    function play() {
+      if (playing) { stop(); return; }
+      playing = true; playBtn.textContent = "Pause";
+      startedAt = performance.now();
+      const tick = () => {
+        if (!playing) return;
+        clock.textContent = fmt(performance.now() - startedAt);
+        requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+      runFrom(idx >= beats.length - 1 ? 0 : idx);
+    }
+    function restart() {
+      stop(); idx = 0; show(0); clock.textContent = "00:00";
+      bar.style.transition = "none"; bar.style.width = "0%"; play();
+    }
+    playBtn.addEventListener("click", play);
+    document.getElementById("restart").addEventListener("click", restart);
+    document.getElementById("fullscreen").addEventListener("click", async () => {
+      if (!document.fullscreenElement) await stage.requestFullscreen();
+      else await document.exitFullscreen();
+    });
+    window.addEventListener("load", () => setTimeout(play, 350));
+  </script>
+</body>
+</html>

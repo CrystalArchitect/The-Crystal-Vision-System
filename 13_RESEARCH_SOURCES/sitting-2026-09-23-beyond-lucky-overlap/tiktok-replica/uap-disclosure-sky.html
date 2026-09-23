@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TikTok remake — UAP disclosure (kinetic)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --void: #05070c;
+      --scan: #3ecf9a;
+      --amber: #e6b84d;
+      --fg: #eef3f8;
+      --mute: rgba(238,243,248,0.55);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { min-height: 100%; background: #090b10; color: var(--fg); font-family: "Bebas Neue", Impact, sans-serif; }
+    body { min-height: 100vh; display: grid; place-items: center; padding: 1rem; }
+    .wrap { display: flex; flex-direction: column; align-items: center; gap: 0.85rem; }
+
+    .stage {
+      position: relative;
+      width: min(100vw - 2rem, 420px);
+      aspect-ratio: 9 / 16;
+      overflow: hidden;
+      border-radius: 18px;
+      background: var(--void);
+      box-shadow: 0 30px 80px rgba(0,0,0,.55);
+    }
+
+    .sky {
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse at 50% 100%, #1a2a38 0%, transparent 40%),
+        linear-gradient(180deg, #02040a 0%, #0a1220 55%, #101820 100%);
+    }
+    .stars {
+      position: absolute; inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, #fff, transparent),
+        radial-gradient(1px 1px at 25% 40%, #fff, transparent),
+        radial-gradient(1.5px 1.5px at 55% 12%, #fff, transparent),
+        radial-gradient(1px 1px at 72% 28%, #fff, transparent),
+        radial-gradient(1px 1px at 88% 55%, #fff, transparent),
+        radial-gradient(1px 1px at 15% 70%, #fff, transparent),
+        radial-gradient(1.2px 1.2px at 45% 60%, #fff, transparent),
+        radial-gradient(1px 1px at 63% 78%, #fff, transparent);
+      opacity: 0.75; animation: drift 36s linear infinite;
+    }
+    .tree {
+      position: absolute; left: 0; right: 0; bottom: 0; height: 28%;
+      background: linear-gradient(180deg, transparent, #040608 40%);
+      clip-path: polygon(0 100%, 0 55%, 8% 40%, 14% 58%, 22% 35%, 30% 60%, 38% 28%, 48% 55%, 58% 32%, 68% 58%, 78% 30%, 88% 52%, 100% 42%, 100% 100%);
+      opacity: 0.95;
+    }
+    .craft {
+      position: absolute; left: 38%; top: 26%; width: 24%; aspect-ratio: 2.4/1;
+      background: radial-gradient(ellipse at 50% 60%, #cfd8e4 0%, #6a7a8c 50%, #2a3440 100%);
+      border-radius: 50% 50% 45% 45% / 70% 70% 40% 40%;
+      box-shadow: 0 0 28px rgba(62,207,154,0.35), 0 8px 20px rgba(0,0,0,.45);
+      animation: hover 5s ease-in-out infinite alternate;
+    }
+    .craft::before {
+      content: "";
+      position: absolute; left: 18%; right: 18%; bottom: -6%; height: 35%;
+      background: linear-gradient(180deg, rgba(62,207,154,0.55), transparent);
+      filter: blur(6px);
+      border-radius: 50%;
+    }
+    .scanline {
+      position: absolute; left: 0; right: 0; height: 18%;
+      background: linear-gradient(180deg, transparent, rgba(62,207,154,0.08), transparent);
+      animation: scan 7s linear infinite;
+      pointer-events: none;
+    }
+    @keyframes drift { from { transform: translateY(0); } to { transform: translateY(-16px); } }
+    @keyframes hover { from { transform: translateY(0); } to { transform: translateY(-10px); } }
+    @keyframes scan { from { top: 8%; } to { top: 70%; } }
+
+    .bug {
+      position: absolute; top: 4%; left: 4%; z-index: 5;
+      font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.14em;
+      color: var(--mute); text-transform: uppercase;
+    }
+    .bug strong { color: var(--scan); font-weight: 500; }
+    .clock {
+      position: absolute; top: 4%; right: 4%; z-index: 5;
+      font-family: "IBM Plex Mono", monospace; font-size: 11px;
+      color: var(--mute); letter-spacing: 0.08em;
+    }
+
+    .copy {
+      position: absolute; left: 6%; right: 6%; bottom: 10%; height: 38%; z-index: 4;
+    }
+    .beat {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column; justify-content: flex-end; gap: 0.4rem;
+      opacity: 0; transform: translateY(14px);
+      transition: opacity .3s ease, transform .42s cubic-bezier(.2,.85,.2,1);
+      pointer-events: none;
+    }
+    .beat.active { opacity: 1; transform: none; }
+    .kicker {
+      font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: 0.16em;
+      text-transform: uppercase; color: var(--scan);
+    }
+    .kicker.warn { color: var(--amber); }
+    .line {
+      font-size: clamp(1.95rem, 8.8vw, 2.65rem);
+      line-height: 0.93; letter-spacing: 0.02em;
+      text-transform: uppercase;
+      text-shadow: 0 4px 28px rgba(0,0,0,.7);
+    }
+    .line em { font-style: normal; color: var(--scan); }
+    .line .amber { color: var(--amber); }
+    .sub {
+      font-family: "IBM Plex Mono", monospace; font-size: 12px; line-height: 1.4;
+      color: var(--mute); max-width: 28ch;
+    }
+
+    .progress {
+      position: absolute; left: 6%; right: 6%; bottom: 4%;
+      height: 3px; background: rgba(255,255,255,0.1); border-radius: 99px; overflow: hidden; z-index: 6;
+    }
+    .progress > i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--scan), var(--amber)); }
+
+    .controls { width: min(100vw - 2rem, 420px); display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; }
+    button {
+      font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .06em; text-transform: uppercase;
+      border: 1px solid rgba(255,255,255,.18); background: #12151c; color: #fff;
+      padding: .65rem .9rem; border-radius: 999px; cursor: pointer;
+    }
+    button.primary { background: #0d3a2a; border-color: var(--scan); color: var(--scan); }
+    .note { width: min(100vw - 2rem, 420px); font-family: "IBM Plex Mono", monospace; font-size: 11px; line-height: 1.45; color: #7a8290; text-align: center; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .beat { transition: opacity .2s linear; transform: none; }
+      .stars, .craft, .scanline { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="stage" id="stage">
+      <div class="sky" aria-hidden="true"></div>
+      <div class="stars" aria-hidden="true"></div>
+      <div class="craft" aria-hidden="true"></div>
+      <div class="scanline" aria-hidden="true"></div>
+      <div class="tree" aria-hidden="true"></div>
+
+      <div class="bug"><strong>UAP</strong> · REMIX</div>
+      <div class="clock" id="clock">00:00</div>
+
+      <div class="copy">
+        <div class="beat active" data-ms="3000">
+          <div class="kicker">HASHTAG STACK</div>
+          <div class="line">UFO<br /><em>sightings</em></div>
+          <div class="sub">Night cut · disclosure channel grammar</div>
+        </div>
+        <div class="beat" data-ms="2800">
+          <div class="kicker warn">POLICY ECHO</div>
+          <div class="line">Files on a<br /><span class="amber">rolling</span> basis</div>
+          <div class="sub">Public UAP release cadence (paraphrase)</div>
+        </div>
+        <div class="beat" data-ms="2800">
+          <div class="kicker">FRAME</div>
+          <div class="line"><em>Disclosure</em><br />as content</div>
+          <div class="sub">Anomalous · unidentified · looped</div>
+        </div>
+        <div class="beat" data-ms="2800">
+          <div class="kicker">GENRE</div>
+          <div class="line">Extra-<em>terrestrial</em></div>
+          <div class="sub">Tag set does the storytelling</div>
+        </div>
+        <div class="beat" data-ms="3000">
+          <div class="kicker">OBJECTS</div>
+          <div class="line">UFO · UAP<br /><em>Aliens</em></div>
+          <div class="sub">Same sky · different labels</div>
+        </div>
+        <div class="beat" data-ms="3400">
+          <div class="kicker">REMAKE NOTE</div>
+          <div class="line">No agency<br /><em>marks</em></div>
+          <div class="sub">Format only · paraphrase public caption/bio</div>
+        </div>
+      </div>
+
+      <div class="progress"><i id="bar"></i></div>
+    </div>
+
+    <div class="controls">
+      <button class="primary" id="play" type="button">Play</button>
+      <button id="restart" type="button">Restart</button>
+      <button id="fullscreen" type="button">Fullscreen 9:16</button>
+    </div>
+    <p class="note">
+      Format remake of <code>vt.tiktok.com/ZSb1RpBaC</code> (@pentagonufodisclosure) — UAP night-sky shell, no agency marks.
+      Caption paraphrased; screen-record the stage for TikTok.
+    </p>
+  </div>
+
+  <script>
+    const beats = [...document.querySelectorAll(".beat")];
+    const bar = document.getElementById("bar");
+    const clock = document.getElementById("clock");
+    const playBtn = document.getElementById("play");
+    const stage = document.getElementById("stage");
+    let timer = null, playing = false, idx = 0, startedAt = 0;
+    const fmt = (ms) => `00:${String(Math.floor(ms / 1000)).padStart(2, "0")}`;
+
+    function show(i) {
+      beats.forEach((b, n) => b.classList.toggle("active", n === i));
+      idx = i;
+    }
+    function stop() {
+      playing = false; clearTimeout(timer); playBtn.textContent = "Play";
+      bar.style.transition = "none";
+      bar.style.width = `${(idx / Math.max(beats.length - 1, 1)) * 100}%`;
+    }
+    function runFrom(i) {
+      show(i);
+      const ms = Number(beats[i].dataset.ms) || 3000;
+      bar.style.transition = "none"; bar.style.width = "0%";
+      void bar.offsetWidth;
+      bar.style.transition = `width ${ms}ms linear`; bar.style.width = "100%";
+      timer = setTimeout(() => {
+        if (i + 1 < beats.length) runFrom(i + 1); else stop();
+      }, ms);
+    }
+    function play() {
+      if (playing) { stop(); return; }
+      playing = true; playBtn.textContent = "Pause";
+      startedAt = performance.now();
+      const tick = () => {
+        if (!playing) return;
+        clock.textContent = fmt(performance.now() - startedAt);
+        requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+      runFrom(idx >= beats.length - 1 ? 0 : idx);
+    }
+    function restart() {
+      stop(); idx = 0; show(0); clock.textContent = "00:00";
+      bar.style.transition = "none"; bar.style.width = "0%"; play();
+    }
+    playBtn.addEventListener("click", play);
+    document.getElementById("restart").addEventListener("click", restart);
+    document.getElementById("fullscreen").addEventListener("click", async () => {
+      if (!document.fullscreenElement) await stage.requestFullscreen();
+      else await document.exitFullscreen();
+    });
+    window.addEventListener("load", () => setTimeout(play, 350));
+  </script>
+</body>
+</html>

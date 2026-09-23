@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TikTok remake — Altman AI singularity (news)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0a1f4d;
+      --deep: #061434;
+      --blue: #1e6bff;
+      --yellow: #f5d000;
+      --fg: #fff;
+      --mute: #c8d4ef;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { min-height: 100%; background: #0a0b10; color: var(--fg); font-family: "IBM Plex Sans", sans-serif; }
+    body { min-height: 100vh; display: grid; place-items: center; padding: 1rem; }
+    .wrap { display: flex; flex-direction: column; align-items: center; gap: 0.85rem; }
+
+    .stage {
+      position: relative;
+      width: min(100vw - 2rem, 420px);
+      aspect-ratio: 9 / 16;
+      overflow: hidden;
+      border-radius: 16px;
+      background: var(--deep);
+      box-shadow: 0 28px 70px rgba(0,0,0,.55);
+    }
+
+    .split {
+      position: absolute; inset: 0 0 30% 0;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 2px; background: #000;
+    }
+    .studio, .screen { position: relative; overflow: hidden; }
+    .studio {
+      background:
+        radial-gradient(ellipse at 40% 0%, #2a4f9a 0%, transparent 50%),
+        linear-gradient(180deg, #12306a, #0a1c44 60%, #061430);
+    }
+    .studio::before {
+      content: "";
+      position: absolute; left: 22%; right: 22%; top: 22%; bottom: 34%;
+      background: linear-gradient(165deg, #2a2a2e, #111116);
+      border-radius: 42% 42% 10% 10% / 36% 36% 14% 14%;
+      box-shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+    .studio::after {
+      content: "";
+      position: absolute; left: 8%; right: 8%; bottom: 12%; height: 30%;
+      background: linear-gradient(180deg, #0d2858, #071832);
+      border-top: 2px solid rgba(255,255,255,0.15);
+    }
+    .screen {
+      background: linear-gradient(160deg, #0c2a6e, #071a44);
+      display: grid; place-items: center; padding: 8%;
+    }
+    .milestone {
+      width: 100%;
+      background: rgba(0,0,0,0.35);
+      border: 1px solid rgba(255,255,255,0.18);
+      padding: 0.7rem 0.55rem;
+      text-align: center;
+    }
+    .milestone .a { font-family: "Barlow Condensed", sans-serif; font-weight: 800; font-size: 1.35rem; letter-spacing: 0.04em; color: #6ea8ff; }
+    .milestone .b { font-family: "Barlow Condensed", sans-serif; font-weight: 800; font-size: 1.55rem; letter-spacing: 0.03em; color: var(--yellow); line-height: 0.95; }
+    .face {
+      margin: 0.55rem auto 0;
+      width: 54%; aspect-ratio: 1;
+      border-radius: 8px;
+      background:
+        radial-gradient(circle at 40% 30%, #f0d2b0 0%, #c08a5a 35%, #6a4030 70%);
+      border: 2px solid rgba(255,255,255,0.25);
+    }
+
+    .loc {
+      position: absolute; top: 4%; left: 3.5%; z-index: 5;
+      background: #1db954; color: #04120a;
+      font-family: "Barlow Condensed", sans-serif; font-weight: 800;
+      letter-spacing: 0.08em; font-size: 0.85rem;
+      padding: 0.28rem 0.5rem;
+    }
+    .bug {
+      position: absolute; top: 4%; right: 3.5%; z-index: 5;
+      font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.1em;
+      color: rgba(255,255,255,0.65); text-align: right;
+    }
+
+    .lower {
+      position: absolute; left: 0; right: 0; bottom: 0; height: 34%;
+      background: linear-gradient(180deg, transparent, rgba(2,10,30,0.55) 20%, #020a1c 50%);
+      z-index: 4; display: flex; flex-direction: column; justify-content: flex-end;
+      padding: 0 0 5.5%;
+    }
+    .breaking {
+      display: flex; align-items: stretch; margin: 0 3.5% 0.45rem;
+      box-shadow: 0 8px 28px rgba(0,0,0,.4);
+    }
+    .breaking .tag {
+      background: var(--blue);
+      font-family: "Barlow Condensed", sans-serif; font-weight: 800;
+      letter-spacing: 0.1em; font-size: 0.9rem;
+      padding: 0.45rem 0.55rem; display: grid; place-items: center; white-space: nowrap;
+    }
+    .breaking .bar {
+      flex: 1; background: var(--yellow); color: #0a1628;
+      font-family: "Barlow Condensed", sans-serif; font-weight: 800;
+      font-size: clamp(1.25rem, 5.4vw, 1.7rem); letter-spacing: 0.02em;
+      line-height: 1; padding: 0.45rem 0.6rem; display: flex; align-items: center;
+      text-transform: uppercase;
+    }
+    .beats { position: relative; min-height: 5.4rem; margin: 0 3.5%; }
+    .beat {
+      position: absolute; inset: 0; opacity: 0; transform: translateY(12px);
+      transition: opacity .35s ease, transform .45s cubic-bezier(.2,.8,.2,1);
+      pointer-events: none;
+    }
+    .beat.active { opacity: 1; transform: none; }
+    .line1 {
+      font-family: "Barlow Condensed", sans-serif; font-weight: 800;
+      font-size: clamp(1.35rem, 5.8vw, 1.9rem); letter-spacing: 0.02em;
+      line-height: 1.02; text-transform: uppercase;
+      text-shadow: 0 2px 16px rgba(0,0,0,.55);
+    }
+    .line2 {
+      margin-top: 0.28rem;
+      font-family: "Barlow Condensed", sans-serif; font-weight: 700;
+      font-size: clamp(1rem, 4.2vw, 1.25rem); letter-spacing: 0.04em;
+      color: var(--yellow); text-transform: uppercase;
+    }
+
+    .progress {
+      position: absolute; left: 3.5%; right: 3.5%; bottom: 2.2%;
+      height: 3px; background: rgba(255,255,255,0.15); border-radius: 99px; overflow: hidden; z-index: 6;
+    }
+    .progress > i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--blue), var(--yellow)); }
+
+    .controls { width: min(100vw - 2rem, 420px); display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; }
+    button {
+      font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .06em; text-transform: uppercase;
+      border: 1px solid rgba(255,255,255,.18); background: #151922; color: #fff;
+      padding: .65rem .9rem; border-radius: 999px; cursor: pointer;
+    }
+    button.primary { background: var(--blue); border-color: var(--blue); }
+    .note { width: min(100vw - 2rem, 420px); font-family: "IBM Plex Mono", monospace; font-size: 11px; line-height: 1.45; color: #8b93a5; text-align: center; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .beat { transition: opacity .2s linear; transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="stage" id="stage">
+      <div class="loc">SAN FRANCISCO</div>
+      <div class="bug">BAY DESK · REMIX<br /><span id="clock">00:00</span></div>
+
+      <div class="split" aria-hidden="true">
+        <div class="studio"></div>
+        <div class="screen">
+          <div class="milestone">
+            <div class="a">ALTMAN</div>
+            <div class="b">A.I.<br />MILESTONE</div>
+            <div class="face" aria-hidden="true"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="lower">
+        <div class="breaking">
+          <div class="tag">LIVE</div>
+          <div class="bar" id="ticker">A.I. MILESTONE</div>
+        </div>
+        <div class="beats">
+          <div class="beat active" data-ms="3200" data-ticker="A.I. MILESTONE">
+            <div class="line1">Altman: AI can improve itself</div>
+            <div class="line2">Long-sought threshold claimed</div>
+          </div>
+          <div class="beat" data-ms="3000" data-ticker="THE SINGULARITY">
+            <div class="line1">He calls it the singularity</div>
+            <div class="line2">Rapid progress · hard to fully control</div>
+          </div>
+          <div class="beat" data-ms="3000" data-ticker="SOCIETAL BENEFITS">
+            <div class="line1">Promises significant benefits</div>
+            <div class="line2">Appears to rebuke control fears</div>
+          </div>
+          <div class="beat" data-ms="3200" data-ticker="OPENAI CEO">
+            <div class="line1">Who is in charge of AI?</div>
+            <div class="line2">Critics still ask the same question</div>
+          </div>
+          <div class="beat" data-ms="3400" data-ticker="OBSERVABILITY ≠ CONTROL">
+            <div class="line1">Improve itself ≠ stewardship</div>
+            <div class="line2">Progress ≠ permission</div>
+          </div>
+          <div class="beat" data-ms="3600" data-ticker="BAY AREA DESK">
+            <div class="line1">Sophie Flay has the story</div>
+            <div class="line2">Bay Area desk · remixed chyron only</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="progress"><i id="bar"></i></div>
+    </div>
+
+    <div class="controls">
+      <button class="primary" id="play" type="button">Play</button>
+      <button id="restart" type="button">Restart</button>
+      <button id="fullscreen" type="button">Fullscreen 9:16</button>
+    </div>
+    <p class="note">
+      Format remake of <code>vt.tiktok.com/ZSb1dNXaT</code> (@abc7newsbayarea) — news package shell, no network logos.
+      Caption paraphrased; screen-record the stage for TikTok.
+    </p>
+  </div>
+
+  <script>
+    const beats = [...document.querySelectorAll(".beat")];
+    const bar = document.getElementById("bar");
+    const clock = document.getElementById("clock");
+    const ticker = document.getElementById("ticker");
+    const playBtn = document.getElementById("play");
+    const stage = document.getElementById("stage");
+    let timer = null, playing = false, idx = 0, startedAt = 0;
+    const fmt = (ms) => `00:${String(Math.floor(ms / 1000)).padStart(2, "0")}`;
+
+    function show(i) {
+      beats.forEach((b, n) => b.classList.toggle("active", n === i));
+      ticker.textContent = beats[i].dataset.ticker || "LIVE";
+      idx = i;
+    }
+    function stop() {
+      playing = false; clearTimeout(timer); playBtn.textContent = "Play";
+      bar.style.transition = "none";
+      bar.style.width = `${(idx / Math.max(beats.length - 1, 1)) * 100}%`;
+    }
+    function runFrom(i) {
+      show(i);
+      const ms = Number(beats[i].dataset.ms) || 3000;
+      bar.style.transition = "none"; bar.style.width = "0%";
+      void bar.offsetWidth;
+      bar.style.transition = `width ${ms}ms linear`; bar.style.width = "100%";
+      timer = setTimeout(() => {
+        if (i + 1 < beats.length) runFrom(i + 1); else stop();
+      }, ms);
+    }
+    function play() {
+      if (playing) { stop(); return; }
+      playing = true; playBtn.textContent = "Pause";
+      startedAt = performance.now();
+      const tick = () => {
+        if (!playing) return;
+        clock.textContent = fmt(performance.now() - startedAt);
+        requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+      runFrom(idx >= beats.length - 1 ? 0 : idx);
+    }
+    function restart() {
+      stop(); idx = 0; show(0); clock.textContent = "00:00";
+      bar.style.transition = "none"; bar.style.width = "0%"; play();
+    }
+    playBtn.addEventListener("click", play);
+    document.getElementById("restart").addEventListener("click", restart);
+    document.getElementById("fullscreen").addEventListener("click", async () => {
+      if (!document.fullscreenElement) await stage.requestFullscreen();
+      else await document.exitFullscreen();
+    });
+    window.addEventListener("load", () => setTimeout(play, 350));
+  </script>
+</body>
+</html>

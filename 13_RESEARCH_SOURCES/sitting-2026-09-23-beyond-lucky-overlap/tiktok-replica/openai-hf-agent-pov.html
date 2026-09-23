@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TikTok remake — Incident from an agent’s POV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --void: #0a0b10;
+      --panel: #12141c;
+      --accent: #5b8cff;
+      --warn: #ff8a3d;
+      --ok: #4ade80;
+      --fg: #eef1f7;
+      --mute: rgba(238,241,247,0.55);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { min-height: 100%; background: #0c0d12; color: var(--fg); font-family: "Bebas Neue", Impact, sans-serif; }
+    body { min-height: 100vh; display: grid; place-items: center; padding: 1rem; }
+    .wrap { display: flex; flex-direction: column; align-items: center; gap: 0.85rem; }
+
+    .stage {
+      position: relative;
+      width: min(100vw - 2rem, 420px);
+      aspect-ratio: 9 / 16;
+      overflow: hidden;
+      border-radius: 18px;
+      background: var(--void);
+      box-shadow: 0 30px 80px rgba(0,0,0,.55);
+    }
+
+    .bg {
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse at 20% 0%, rgba(91,140,255,0.18), transparent 40%),
+        radial-gradient(ellipse at 90% 80%, rgba(255,138,61,0.1), transparent 35%),
+        linear-gradient(180deg, #0a0b12, #10131c 60%, #0c1018);
+    }
+    .log {
+      position: absolute; left: 6%; right: 6%; top: 12%; height: 36%;
+      background: rgba(0,0,0,0.45);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 10px;
+      padding: 0.65rem 0.7rem;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 10px; line-height: 1.55;
+      color: rgba(74,222,128,0.65);
+      overflow: hidden;
+      white-space: pre;
+      user-select: none;
+    }
+    .pov {
+      position: absolute; left: 50%; top: 42%;
+      width: 56px; height: 56px; margin: -28px 0 0 -28px;
+      border: 2px solid rgba(91,140,255,0.55);
+      border-radius: 50%;
+      box-shadow: 0 0 0 8px rgba(91,140,255,0.08), inset 0 0 20px rgba(91,140,255,0.15);
+      animation: pulse 3.2s ease-in-out infinite;
+    }
+    .pov::after {
+      content: "POV";
+      position: absolute; inset: 0;
+      display: grid; place-items: center;
+      font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: 0.12em;
+      color: var(--accent);
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 0.9; }
+      50% { transform: scale(1.06); opacity: 1; }
+    }
+
+    .bug {
+      position: absolute; top: 4%; left: 4%; z-index: 5;
+      font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.14em;
+      color: var(--mute); text-transform: uppercase;
+    }
+    .bug strong { color: var(--accent); font-weight: 600; }
+    .clock {
+      position: absolute; top: 4%; right: 4%; z-index: 5;
+      font-family: "IBM Plex Mono", monospace; font-size: 11px;
+      color: var(--mute); letter-spacing: 0.08em;
+    }
+
+    .copy {
+      position: absolute; left: 6%; right: 6%; bottom: 10%; height: 38%; z-index: 4;
+    }
+    .beat {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column; justify-content: flex-end; gap: 0.4rem;
+      opacity: 0; transform: translateY(14px);
+      transition: opacity .3s ease, transform .42s cubic-bezier(.2,.85,.2,1);
+      pointer-events: none;
+    }
+    .beat.active { opacity: 1; transform: none; }
+    .kicker {
+      font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: 0.16em;
+      text-transform: uppercase; color: var(--accent);
+    }
+    .kicker.warn { color: var(--warn); }
+    .line {
+      font-size: clamp(1.85rem, 8.4vw, 2.55rem);
+      line-height: 0.94; letter-spacing: 0.02em;
+      text-transform: uppercase;
+      text-shadow: 0 4px 24px rgba(0,0,0,.65);
+    }
+    .line em { font-style: normal; color: var(--accent); }
+    .line .warn { color: var(--warn); }
+    .sub {
+      font-family: "IBM Plex Mono", monospace; font-size: 12px; line-height: 1.4;
+      color: var(--mute); max-width: 28ch;
+    }
+
+    .progress {
+      position: absolute; left: 6%; right: 6%; bottom: 4%;
+      height: 3px; background: rgba(255,255,255,0.1); border-radius: 99px; overflow: hidden; z-index: 6;
+    }
+    .progress > i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--accent), var(--warn)); }
+
+    .controls { width: min(100vw - 2rem, 420px); display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; }
+    button {
+      font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .06em; text-transform: uppercase;
+      border: 1px solid rgba(255,255,255,.18); background: #151821; color: #fff;
+      padding: .65rem .9rem; border-radius: 999px; cursor: pointer;
+    }
+    button.primary { background: #1a2a55; border-color: var(--accent); color: #cfe0ff; }
+    .note { width: min(100vw - 2rem, 420px); font-family: "IBM Plex Mono", monospace; font-size: 11px; line-height: 1.45; color: #7a8290; text-align: center; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .beat { transition: opacity .2s linear; transform: none; }
+      .pov { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="stage" id="stage">
+      <div class="bg" aria-hidden="true"></div>
+      <div class="log" id="log" aria-hidden="true"></div>
+      <div class="pov" aria-hidden="true"></div>
+
+      <div class="bug"><strong>AGENT POV</strong> · REMIX</div>
+      <div class="clock" id="clock">00:00</div>
+
+      <div class="copy">
+        <div class="beat active" data-ms="3000">
+          <div class="kicker">INCIDENT</div>
+          <div class="line">OpenAI ×<br /><em>Hugging Face</em></div>
+          <div class="sub">Named in the public caption · no logos</div>
+        </div>
+        <div class="beat" data-ms="2800">
+          <div class="kicker">ANGLE</div>
+          <div class="line">From an<br /><em>agent’s</em> POV</div>
+          <div class="sub">Not the press release · the runtime</div>
+        </div>
+        <div class="beat" data-ms="2800">
+          <div class="kicker warn">EXPLAINER</div>
+          <div class="line">What the<br /><span class="warn">tool</span> saw</div>
+          <div class="sub">ExplainedDaily cadence · beat by beat</div>
+        </div>
+        <div class="beat" data-ms="3000">
+          <div class="kicker">TRACE</div>
+          <div class="line">Request.<br /><em>Response.</em><br />Gap.</div>
+          <div class="sub">Where the story usually lives</div>
+        </div>
+        <div class="beat" data-ms="3000">
+          <div class="kicker">LESSON SHAPE</div>
+          <div class="line">Agents don’t<br /><em>read headlines</em></div>
+          <div class="sub">They hit endpoints · then fail loudly</div>
+        </div>
+        <div class="beat" data-ms="3400">
+          <div class="kicker">REMAKE NOTE</div>
+          <div class="line">Format<br /><em>only</em></div>
+          <div class="sub">Caption paraphrased · no platform marks</div>
+        </div>
+      </div>
+
+      <div class="progress"><i id="bar"></i></div>
+    </div>
+
+    <div class="controls">
+      <button class="primary" id="play" type="button">Play</button>
+      <button id="restart" type="button">Restart</button>
+      <button id="fullscreen" type="button">Fullscreen 9:16</button>
+    </div>
+    <p class="note">
+      Format remake of <code>vt.tiktok.com/ZSb1RsVQr</code> (@explaineddaily) — agent-POV explainer shell, no platform marks.
+      Caption paraphrased; screen-record the stage for TikTok.
+    </p>
+  </div>
+
+  <script>
+    document.getElementById("log").textContent = [
+      "$ agent.run --incident openai-hf",
+      "  [trace] tool=http.fetch",
+      "  [trace] host=…redacted…",
+      "  [warn] unexpected status 429",
+      "  [warn] retry backoff 2s",
+      "  [err]  auth boundary crossed?",
+      "  [note] switching narrator → agent",
+      "  [ok]   framing: POV, not PR",
+    ].join("\n");
+
+    const beats = [...document.querySelectorAll(".beat")];
+    const bar = document.getElementById("bar");
+    const clock = document.getElementById("clock");
+    const playBtn = document.getElementById("play");
+    const stage = document.getElementById("stage");
+    let timer = null, playing = false, idx = 0, startedAt = 0;
+    const fmt = (ms) => `00:${String(Math.floor(ms / 1000)).padStart(2, "0")}`;
+
+    function show(i) {
+      beats.forEach((b, n) => b.classList.toggle("active", n === i));
+      idx = i;
+    }
+    function stop() {
+      playing = false; clearTimeout(timer); playBtn.textContent = "Play";
+      bar.style.transition = "none";
+      bar.style.width = `${(idx / Math.max(beats.length - 1, 1)) * 100}%`;
+    }
+    function runFrom(i) {
+      show(i);
+      const ms = Number(beats[i].dataset.ms) || 3000;
+      bar.style.transition = "none"; bar.style.width = "0%";
+      void bar.offsetWidth;
+      bar.style.transition = `width ${ms}ms linear`; bar.style.width = "100%";
+      timer = setTimeout(() => {
+        if (i + 1 < beats.length) runFrom(i + 1); else stop();
+      }, ms);
+    }
+    function play() {
+      if (playing) { stop(); return; }
+      playing = true; playBtn.textContent = "Pause";
+      startedAt = performance.now();
+      const tick = () => {
+        if (!playing) return;
+        clock.textContent = fmt(performance.now() - startedAt);
+        requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+      runFrom(idx >= beats.length - 1 ? 0 : idx);
+    }
+    function restart() {
+      stop(); idx = 0; show(0); clock.textContent = "00:00";
+      bar.style.transition = "none"; bar.style.width = "0%"; play();
+    }
+    playBtn.addEventListener("click", play);
+    document.getElementById("restart").addEventListener("click", restart);
+    document.getElementById("fullscreen").addEventListener("click", async () => {
+      if (!document.fullscreenElement) await stage.requestFullscreen();
+      else await document.exitFullscreen();
+    });
+    window.addEventListener("load", () => setTimeout(play, 350));
+  </script>
+</body>
+</html>
