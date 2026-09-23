@@ -108,6 +108,7 @@ flowchart TB
 | [`SOURCE-grok-share-never-ever-map-letter.md`](SOURCE-grok-share-never-ever-map-letter.md) | Grok Build: Never Ever→problems→letter to Father; then High + Lucky chapters; preview expired — literary sibling to letter lab, not Pulse |
 | [`SOURCE-grok-share-you-only-get-what-you-give.md`](SOURCE-grok-share-you-only-get-what-you-give.md) | New Radicals narrative + Div 272 / Event Number / NCAT map; mythos echoes only — out of Pulse scope (lyrics redacted in corpus) |
 | [`SOURCE-grok-share-ai-bot-automation.md`](SOURCE-grok-share-ai-bot-automation.md) | Automated X accounts: model→scheduler→official API; Grok Bot X read-only; shell + Ollama/Groq workarounds — agent-ops landscape, not Pulse |
+| [`SOURCE-grok-share-orbital-gravity-simulator.md`](SOURCE-grok-share-orbital-gravity-simulator.md) | Orbital gravity fling Build brief; preview expired + usage-limited — toy physics, out of Pulse scope |
 | [`SOURCE-claude-artifact-remaining-work.md`](SOURCE-claude-artifact-remaining-work.md) | aeon-atlas / Sceptre Atlas priority matrix — agent-ops, not Pulse overlap |
 | [`SOURCE-claude-artifact-aeon-atlas-roadmap.md`](SOURCE-claude-artifact-aeon-atlas-roadmap.md) | aeon-atlas production phases (notify → Sunday AEST run → memory → expand) |
 
