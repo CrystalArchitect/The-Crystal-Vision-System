@@ -71,7 +71,8 @@
 - TikTok format remake (agent-dialect kinetic type): [`tiktok-replica/`](tiktok-replica/)  
 - TikTok ABC Gemini rogue (Sept 20 chyron): [`SOURCE-tiktok-abc-gemini-rogue.md`](SOURCE-tiktok-abc-gemini-rogue.md) · remake [`tiktok-replica/gemini-rogue-news.html`](tiktok-replica/gemini-rogue-news.html)  
 - TikTok ApexAI Zero Dawn / magnetic pulse: [`SOURCE-tiktok-apexai-zero-dawn.md`](SOURCE-tiktok-apexai-zero-dawn.md) · remake [`tiktok-replica/zero-dawn-pulse.html`](tiktok-replica/zero-dawn-pulse.html)  
-- TikTok ABC7 Altman singularity: [`SOURCE-tiktok-abc7-altman-singularity.md`](SOURCE-tiktok-abc7-altman-singularity.md) · remake [`tiktok-replica/altman-singularity-news.html`](tiktok-replica/altman-singularity-news.html)
+- TikTok ABC7 Altman singularity: [`SOURCE-tiktok-abc7-altman-singularity.md`](SOURCE-tiktok-abc7-altman-singularity.md) · remake [`tiktok-replica/altman-singularity-news.html`](tiktok-replica/altman-singularity-news.html)  
+- TikTok LoveMyAu2 EU FTA / Australia First: [`SOURCE-tiktok-lovemyau-eufta.md`](SOURCE-tiktok-lovemyau-eufta.md) · remake [`tiktok-replica/australia-first-eufta.html`](tiktok-replica/australia-first-eufta.html)
 
 ## Sibling Cursor agents
 

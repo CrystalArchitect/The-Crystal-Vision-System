@@ -26,6 +26,14 @@ Open [`altman-singularity-news.html`](altman-singularity-news.html) → Fullscre
 
 Studio / milestone wall + blue+yellow LIVE ticker. No ABC7 marks.
 
+## 5. Australia / EU FTA (kinetic AusPol)
+
+**Source:** https://vt.tiktok.com/ZSb1eWLed/ → `@lovemyau2`  
+
+Open [`australia-first-eufta.html`](australia-first-eufta.html) → Fullscreen 9:16 → screen-record.
+
+Paddock dusk + slam kinetic type. No creator marks; caption paraphrased.
+
 ## Sitting note
 
 Landscape / format references only — **not** Beyond Lucky text overlap.
