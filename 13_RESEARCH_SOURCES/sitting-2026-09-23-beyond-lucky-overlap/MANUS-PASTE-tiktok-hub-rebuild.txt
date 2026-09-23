@@ -1,0 +1,68 @@
+Rebuild the TikTok remakes hub as a proper TerAustralis / CrystalCore surface.
+
+LIVE URL (USE THIS)
+https://crystal-tiktok-remakes.vercel.app — works on phone.
+Do NOT use https://tiktok-remakes.vercel.app (that hostname 404s at /).
+Brand home is https://www.teraustralis.com.au — remakes should look like they belong to TerAustralis, not a random dark card list.
+
+PROBLEM
+The hub looks unfinished: dark monospace card dump, titles that do not explain what you are opening, no brand, no “what this is / what it isn’t,” and developer localhost instructions on a phone page.
+
+WHAT THIS SITE IS
+A phone-friendly index of 12 HTML shells. Each shell is a 9:16 format remake of a public TikTok style (news chyron, kinetic type, night-sky, etc.) for screen-recording. Landscape / format references only — NOT Beyond Lucky text overlap, NOT the original creators’ videos, NOT CrystalCore.OS itself.
+
+WHAT THIS SITE IS NOT
+- Not TerAustralis.com.au (that is CrystalCore.OS)
+- Not plagiarised TikToks — paraphrase captions; no creator marks, logos, or agency marks
+- Not a product storefront
+
+REQUIRED OUTPUT
+1) New hub page as site root index.html that:
+   - Leads with TerAustralis brand + one short line of what the page is
+   - Groups remakes by format family (News / Kinetic type / Night-sky & lore / Fiction / Quote)
+   - For each remake: human title, one-sentence “what you will see”, format tag, open button
+   - Phone-first: big tap targets; NO localhost/python instructions on the public page
+   - Footer: “Format remakes only · temporary host · brand home teraustralis.com.au”
+2) Keep these 12 remake filenames working (do not delete shells; hub only links to them)
+3) Deliver: index.html (+ optional shared CSS), mobile-width preview, short “what changed” note
+
+LAYOUT RULE
+- Hub = index.html (Vercel root)
+- Agent dialects remake = agent-dialects.html (NOT index.html)
+- Do not use hub.html as the public entry
+- vercel.json: cleanUrls false; rewrite / → /index.html (cleanUrls was causing / to 404)
+
+DESIGN DIRECTION
+- One composition, not a dashboard
+- Brand first (TerAustralis), then one headline, one supporting sentence, then the list
+- Expressive type (not Inter/Roboto/system); avoid purple-glow AI cliché and warm-cream terracotta cliché
+- Subtle red-dust / starline atmosphere OK — not flat black with blue cards
+- No floating badges/stickers on hero
+- Cards only as tap targets for each remake
+
+COPY (rewrite tighter if needed, keep facts)
+Brand: TerAustralis
+Headline: Format remakes
+Support: Twelve 9:16 shells for phone screen-recording. Open → Fullscreen 9:16 → record.
+Disclaimer: Paraphrased public captions. No creator marks. Landscape references only.
+
+INVENTORY (keep all 12)
+01 agent-dialects.html — Agent dialects — Kinetic type · Ask The AI style — Kinetic type over code rain; agent “dialects” slam on.
+02 gemini-rogue-news.html — Gemini rogue — News chyron / broadcast — Fake news desk + chyron about a rogue Gemini moment.
+03 zero-dawn-pulse.html — Zero Dawn pulse — Cinematic orbital — Orbital cinematic beat; magnetic-pulse / Zero Dawn energy.
+04 altman-singularity-news.html — Altman singularity — Bay Desk news — Studio news wall + LIVE ticker; singularity milestone tone.
+05 australia-first-eufta.html — Australia / EU FTA — Kinetic AusPol — Paddock dusk + slam kinetic type on FTA / Australia First.
+06 agents-escape-sandbox.html — Agents escape sandbox — Terminal kinetic — Terminal grid; agents vanish from a sandbox.
+07 ai-cloning-centers-fiction.html — AI cloning centers — Creepypasta fiction — Horror corridor; fiction banner.
+08 multiplanetary-tonnage.html — Multi-planetary tonnage — Orbital quote — Mars orbit quote cards; tonnage motivation.
+09 uap-disclosure-sky.html — UAP disclosure — Teal night-sky — Craft over treeline; disclosure beats under teal sky.
+10 openai-hf-agent-pov.html — OpenAI × HF agent POV — Explainer kinetic — Trace-log explainer from an agent’s POV.
+11 anunnaki-reckoning-lore.html — Anunnaki reckoning — Mythos lore — Pyramid / craft lore beats; Cinzel mythos energy.
+12 uap-final-hour.html — UAP final hour — Ember night-sky — Sibling of 09 with ember palette / “final hour” energy.
+
+CONSTRAINTS
+- Mobile-first 390px must look intentional
+- Preserve relative links to the 12 HTML files above
+- No Inter/Roboto/Arial; no purple-on-white gradient theme
+- Do not claim these are official news or original TikToks
+- Output ready-to-drop HTML I can put in tiktok-replica/ and redeploy on Vercel

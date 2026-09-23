@@ -4,7 +4,7 @@
 **Trigger:** Anthony Richardson, *Beyond Lucky: Australia's Next Inheritance* (LinkedIn Pulse, 21 Sep 2026)  
 **Question:** how does that piece sit against Crystal Elle Arena-Turner’s May 2026 SpaceNews op-ed and the wider TerAustralis corpus?
 
-**Brand domain:** **www.teraustralis.com.au** (company / CrystalCore.OS). Prefer this over bare `*.vercel.app` for anything public or permanent. Temporary remake hub: https://tiktok-remakes.vercel.app — attach under the brand domain when ready.
+**Brand domain:** **www.teraustralis.com.au** (company / CrystalCore.OS). Prefer this over bare `*.vercel.app` for anything public or permanent. Temporary remake hub: https://crystal-tiktok-remakes.vercel.app — attach under the brand domain when ready.
 
 **Verdict (one line):** strong **thematic** overlap with the TerAustralis stack (resources + space/defence + compute; stop dig-and-ship; leave capability, not just royalties); **no proven line-copy** of the May SpaceNews text from sources available in this sitting; prior Australian “Lucky Country / value-add” discourse is real and older than both.
 
@@ -20,7 +20,16 @@
 
 - Primary brief: [`OVERLAP-BRIEF.md`](OVERLAP-BRIEF.md)  
 - Aerotropolis West (Sydney) addendum: [`ADDENDUM-aerotropolis-west.md`](ADDENDUM-aerotropolis-west.md)  
-- Uploaded corpus triage: [`ADDENDUM-uploaded-corpus-triage.md`](ADDENDUM-uploaded-corpus-triage.md)
+- Uploaded corpus triage: [`ADDENDUM-uploaded-corpus-triage.md`](ADDENDUM-uploaded-corpus-triage.md)  
+- PDF Academy Charter 101 Thinkers (partial — Aerotropolis/Academy): [`SOURCE-pdf-academy-charter-101-thinkers.md`](SOURCE-pdf-academy-charter-101-thinkers.md)  
+- Starlink × education → Academy ascent: [`SOURCE-starlink-education-academy.md`](SOURCE-starlink-education-academy.md) · [`ADDENDUM-starlink-academy-ascent.md`](ADDENDUM-starlink-academy-ascent.md)  
+- Academy brand faces (Starfleet Academy Kangaroo Division · Fantastic Beasts cohorts): [`ADDENDUM-academy-brand-faces.md`](ADDENDUM-academy-brand-faces.md)  
+- Movement door (people wanting in): [`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md)  
+- Movement tone (cry with the work): [`ADDENDUM-movement-tone-make-him-cry.md`](ADDENDUM-movement-tone-make-him-cry.md)  
+- PR #50 CI (Vercel Hobby rate limit): [`SOURCE-ci-vercel-rate-limit-pr50.md`](SOURCE-ci-vercel-rate-limit-pr50.md)  
+- PDF Kangaroo-class pitch 6 Sep 2026 (on-scope BD face): [`SOURCE-pdf-kangaroo-class-pitch.md`](SOURCE-pdf-kangaroo-class-pitch.md)  
+- PDF Kangaroo-class 1-pager brief (on-scope): [`SOURCE-pdf-kangaroo-class-brief-1p.md`](SOURCE-pdf-kangaroo-class-brief-1p.md)  
+- PDF Ops Notion canonical (out of scope): [`SOURCE-pdf-ops-notion-canonical.md`](SOURCE-pdf-ops-notion-canonical.md)
 
 ## Public / live sources
 
@@ -90,6 +99,13 @@
 - X / XFreeze Musk US–China trade “conjoined twins”: [`SOURCE-x-xfreeze-musk-trade-twins.md`](SOURCE-x-xfreeze-musk-trade-twins.md)
 - X / XFreeze Musk broad education in age of AI: [`SOURCE-x-xfreeze-musk-education-ai.md`](SOURCE-x-xfreeze-musk-education-ai.md)
 - X / AIHegemonyMemes SWF→LLM prophecy + GHI remake draft: [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) · [`DRAFT-ghi-from-aihegemony-grammar.md`](DRAFT-ghi-from-aihegemony-grammar.md)
+- Dream-RSI (Google/DeepMind — dream = replay history, not sleep): [`SOURCE-dream-rsi-landscape.md`](SOURCE-dream-rsi-landscape.md)  
+- **Dream Learning capability draft** (wanted learning path): [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md)  
+- Dreaming Circles field sheet + first circle (remake hub 404): [`DREAMING-CIRCLES-FIELD-SHEET.md`](DREAMING-CIRCLES-FIELD-SHEET.md) · [`DREAMING-CIRCLE-DC-2026-09-23-remake-hub.md`](DREAMING-CIRCLE-DC-2026-09-23-remake-hub.md)  
+- Music Theory Tree → cosmology / seven modes ↔ circles: [`SOURCE-music-theory-tree-modes.md`](SOURCE-music-theory-tree-modes.md) · [`ADDENDUM-cosmology-modes-circles.md`](ADDENDUM-cosmology-modes-circles.md)  
+- Dreamtime beside circles (honour, not ownership): [`ADDENDUM-dreamtime-cosmology.md`](ADDENDUM-dreamtime-cosmology.md)  
+- AI System Brief (2026-09-10 handoff): [`SOURCE-ai-system-brief-2026-09-10.md`](SOURCE-ai-system-brief-2026-09-10.md)  
+- FC07 decentralised intelligence BOM scrape: [`SOURCE-fc07-decentralised-intelligence-csv.md`](SOURCE-fc07-decentralised-intelligence-csv.md)
 
 ## Visual / mythos layer
 
@@ -97,7 +113,7 @@
 - Receipts: [`visual-corpus/`](visual-corpus/)  
 - Grok share Crystalum / Riptide Live Lounge (voice pack + performance spec — out of scope for Beyond Lucky): [`SOURCE-grok-share-crystalum-riptide.md`](SOURCE-grok-share-crystalum-riptide.md)  
 - Grok share AI Actor Singer / Crystalum design (parent — out of scope): [`SOURCE-grok-share-crystalum-ai-actor.md`](SOURCE-grok-share-crystalum-ai-actor.md)  
-- TikTok format remakes (live hub): https://tiktok-remakes.vercel.app · [`tiktok-replica/`](tiktok-replica/) · Manus rebuild brief: [`MANUS-BRIEF-tiktok-remakes-hub-rebuild.md`](MANUS-BRIEF-tiktok-remakes-hub-rebuild.md)  
+- TikTok format remakes (live hub): https://crystal-tiktok-remakes.vercel.app · [`tiktok-replica/`](tiktok-replica/) · Manus rebuild brief: [`MANUS-BRIEF-tiktok-remakes-hub-rebuild.md`](MANUS-BRIEF-tiktok-remakes-hub-rebuild.md)  
 - TikTok ABC Gemini rogue (Sept 20 chyron): [`SOURCE-tiktok-abc-gemini-rogue.md`](SOURCE-tiktok-abc-gemini-rogue.md) · remake [`tiktok-replica/gemini-rogue-news.html`](tiktok-replica/gemini-rogue-news.html)  
 - TikTok ApexAI Zero Dawn / magnetic pulse: [`SOURCE-tiktok-apexai-zero-dawn.md`](SOURCE-tiktok-apexai-zero-dawn.md) · remake [`tiktok-replica/zero-dawn-pulse.html`](tiktok-replica/zero-dawn-pulse.html)  
 - TikTok ABC7 Altman singularity: [`SOURCE-tiktok-abc7-altman-singularity.md`](SOURCE-tiktok-abc7-altman-singularity.md) · remake [`tiktok-replica/altman-singularity-news.html`](tiktok-replica/altman-singularity-news.html)  
