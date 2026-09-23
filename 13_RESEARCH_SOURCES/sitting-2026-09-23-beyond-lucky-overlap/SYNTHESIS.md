@@ -126,6 +126,8 @@ flowchart TB
 | [`SOURCE-x-xfreeze-musk-education-ai.md`](SOURCE-x-xfreeze-musk-education-ai.md) | XFreeze clip: Musk on broad education / know what to ask the robots — landscape neighbour |
 | [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) | Taxi: SWF→LLM custodians prophecy — steal grammar only |
 | [`SOURCE-dream-rsi-landscape.md`](SOURCE-dream-rsi-landscape.md) | Dream-RSI — RSI via replay “dreams”; weights fixed; thought/field read |
+| [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md) | Wanted learning path: Record→Pool→Dream→Receipt→Gate (not vendor clone) |
+| [`DREAMING-CIRCLES-FIELD-SHEET.md`](DREAMING-CIRCLES-FIELD-SHEET.md) | Circle anatomy + first remake-hub circle |
 | [`DRAFT-ghi-from-aihegemony-grammar.md`](DRAFT-ghi-from-aihegemony-grammar.md) | Remake as Universal/Global High Income under human gate — not LLM-owned AUM |
 | [`SOURCE-claude-artifact-remaining-work.md`](SOURCE-claude-artifact-remaining-work.md) | aeon-atlas / Sceptre Atlas priority matrix — agent-ops, not Pulse overlap |
 | [`SOURCE-claude-artifact-aeon-atlas-roadmap.md`](SOURCE-claude-artifact-aeon-atlas-roadmap.md) | aeon-atlas production phases (notify → Sunday AEST run → memory → expand) |
@@ -135,7 +137,11 @@ flowchart TB
 | Piece | Role |
 | --- | --- |
 | [`ADDENDUM-visual-crystalcore-mythos.md`](ADDENDUM-visual-crystalcore-mythos.md) | 56-frame dump triage; launch-map grammar (EARTH AUS → Mars → Alpha Centauri → Colossus) |
-| [`visual-corpus/`](visual-corpus/) | Copied receipts: four launch maps + persona stills |
+| [`ADDENDUM-cosmology-modes-circles.md`](ADDENDUM-cosmology-modes-circles.md) | Music Theory Tree → seven modes as circle stances (vision only) |
+| [`SOURCE-music-theory-tree-modes.md`](SOURCE-music-theory-tree-modes.md) | Heptagon C-major modes image + sitting read |
+| [`SOURCE-ai-system-brief-2026-09-10.md`](SOURCE-ai-system-brief-2026-09-10.md) | AI seat handoff brief (Incognita / three-layer) |
+| [`SOURCE-fc07-decentralised-intelligence-csv.md`](SOURCE-fc07-decentralised-intelligence-csv.md) | FC07 edge/compute BOM scrape — neighbour, not Pulse |
+| [`visual-corpus/`](visual-corpus/) | Copied receipts: four launch maps + persona stills + Music Theory Tree |
 | [`SOURCE-claude-artifact-crystalcore-os-console.md`](SOURCE-claude-artifact-crystalcore-os-console.md) | CrystalCore.OS v1.7.9 interactive console — Australia Prime / Mars relay mythos UI |
 | [`SOURCE-cursor-agent-agents-availability.md`](SOURCE-cursor-agent-agents-availability.md) | Sibling Cursor run: Silent Line AU voice, Ember/CrystalCore gate, Lemuria PR #42 (creative only) |
 | [`SOURCE-cursor-agent-task-definition.md`](SOURCE-cursor-agent-task-definition.md) | Sibling Cursor run: Models think / TAI acts / CrystalCore governs; Kangaroo Division Vision; No Starfleet OS |

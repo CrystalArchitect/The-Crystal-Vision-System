@@ -96,7 +96,10 @@
 - X / AIHegemonyMemes SWF→LLM prophecy + GHI remake draft: [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) · [`DRAFT-ghi-from-aihegemony-grammar.md`](DRAFT-ghi-from-aihegemony-grammar.md)
 - Dream-RSI (Google/DeepMind — dream = replay history, not sleep): [`SOURCE-dream-rsi-landscape.md`](SOURCE-dream-rsi-landscape.md)  
 - **Dream Learning capability draft** (wanted learning path): [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md)  
-- Dreaming Circles field sheet + first circle (remake hub 404): [`DREAMING-CIRCLES-FIELD-SHEET.md`](DREAMING-CIRCLES-FIELD-SHEET.md) · [`DREAMING-CIRCLE-DC-2026-09-23-remake-hub.md`](DREAMING-CIRCLE-DC-2026-09-23-remake-hub.md)
+- Dreaming Circles field sheet + first circle (remake hub 404): [`DREAMING-CIRCLES-FIELD-SHEET.md`](DREAMING-CIRCLES-FIELD-SHEET.md) · [`DREAMING-CIRCLE-DC-2026-09-23-remake-hub.md`](DREAMING-CIRCLE-DC-2026-09-23-remake-hub.md)  
+- Music Theory Tree → cosmology / seven modes ↔ circles: [`SOURCE-music-theory-tree-modes.md`](SOURCE-music-theory-tree-modes.md) · [`ADDENDUM-cosmology-modes-circles.md`](ADDENDUM-cosmology-modes-circles.md)  
+- AI System Brief (2026-09-10 handoff): [`SOURCE-ai-system-brief-2026-09-10.md`](SOURCE-ai-system-brief-2026-09-10.md)  
+- FC07 decentralised intelligence BOM scrape: [`SOURCE-fc07-decentralised-intelligence-csv.md`](SOURCE-fc07-decentralised-intelligence-csv.md)
 
 ## Visual / mythos layer
 

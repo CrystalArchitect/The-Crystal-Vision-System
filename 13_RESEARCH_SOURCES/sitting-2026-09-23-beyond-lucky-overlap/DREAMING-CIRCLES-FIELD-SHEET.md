@@ -115,6 +115,11 @@ Chaos may fan-out several circles on the same pool.
 
 See [`DREAMING-CIRCLE-DC-2026-09-23-remake-hub.md`](DREAMING-CIRCLE-DC-2026-09-23-remake-hub.md) — remake-hub 404 as first circle.
 
+## Cosmology mnemonic (vision)
+
+Seven modes of one parent scale ≈ seven circle stances over one history pool.  
+Map only — not Canon. See [`ADDENDUM-cosmology-modes-circles.md`](ADDENDUM-cosmology-modes-circles.md) · [`SOURCE-music-theory-tree-modes.md`](SOURCE-music-theory-tree-modes.md).
+
 ---
 
 ## Quiet rules

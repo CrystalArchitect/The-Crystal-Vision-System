@@ -1,0 +1,7 @@
+Component,Tech,Spec,Cost,Purpose
+Edge Neuromorphic,BrainChip Akida,Perth Neuromorphic processing,$1250,Ultra-low power on-device classification
+Edge Compute,NVIDIA Jetson Orin,40 TOPS AI Performance,$1500,Local offline Llama 3.1 8B execution & Qdrant RAG
+Optical Comm,EOS Laser,10Gbps line-of-sight laser,$1000,High-bandwidth intercept-proof fleet telemetry
+Backup Comm,LoRa / Fleet Space,Satellite-linked direct DTN,$500,Resilient mesh network routing across Country
+Data Layer,IPFS & CRDT,Decentralised self-healing storage,$500,Cryptographic tracking keeping data on Country
+Total Platform Budget,Integrated Stack,144 Nodes Sync Target,$5000,Complete standalone platform cost ($720k total Fleet)
