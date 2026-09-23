@@ -10,6 +10,8 @@
 
 A multi-turn Grok thread about **Crystalum** (singing persona) covering Vance Joy’s *Riptide* in the grammar of **Taylor Swift’s 9 Oct 2014 BBC Radio 1 Live Lounge** cut — plus how to hand Grok a phone / Voice Memos. Two `Pasted Text.txt` attachments were asked “What’s this?”; Grok summarised them rather than reprinting full paste bodies in the share chrome.
 
+**Parent design thread** (full AI actor-singer brief those pastes come from): [`SOURCE-grok-share-crystalum-ai-actor.md`](SOURCE-grok-share-crystalum-ai-actor.md) (`ee6882a8-…`).
+
 **Not** Beyond Lucky text, SpaceNews policy prose, or TerAustralis compute/site briefing. Adjacent only via CrystalCore / Crystalum mythos language in the performance note.
 
 ## Turn map (public share)
