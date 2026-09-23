@@ -105,6 +105,8 @@ flowchart TB
 | [`SOURCE-manus-share-website-analysis-genealogy.md`](SOURCE-manus-share-website-analysis-genealogy.md) | Genealogy product + Aegir chrome only |
 | [`ADDENDUM-uploaded-corpus-triage.md`](ADDENDUM-uploaded-corpus-triage.md) | What’s in / out of the upload dump |
 | [`SOURCE-pdf-academy-charter-101-thinkers.md`](SOURCE-pdf-academy-charter-101-thinkers.md) | Academy Charter 101 Thinkers / Train ed. — Aerotropolis/Academy partial; mythos compost |
+| [`SOURCE-starlink-education-academy.md`](SOURCE-starlink-education-academy.md) | Starlink education landscape — remote schools pipe for Academy ascent |
+| [`ADDENDUM-starlink-academy-ascent.md`](ADDENDUM-starlink-academy-ascent.md) | Starlink = pipe; Academy = crew charter; no Starfleet OS |
 | [`SOURCE-pdf-kangaroo-class-pitch.md`](SOURCE-pdf-kangaroo-class-pitch.md) | Kangaroo-class pitch 6 Sep 2026 — Access/Stay/Build/Crew BD face |
 | [`SOURCE-pdf-kangaroo-class-brief-1p.md`](SOURCE-pdf-kangaroo-class-brief-1p.md) | Kangaroo 1-pager SpaceX/SpaceXAI ask |
 | [`SOURCE-pdf-ops-notion-canonical.md`](SOURCE-pdf-ops-notion-canonical.md) | Ops Notion pointer — out of Pulse scope |
