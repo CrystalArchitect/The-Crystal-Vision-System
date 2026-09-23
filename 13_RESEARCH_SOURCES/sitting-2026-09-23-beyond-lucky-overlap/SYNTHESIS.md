@@ -74,6 +74,7 @@ flowchart TB
 | [`SOURCE-tango-zinc-quiet-terra-grok.md`](SOURCE-tango-zinc-quiet-terra-grok.md) | Live CrystalCore.OS / Western Sydney Hall (Aerotropolis primary, zero potable, Optimus, Westmead pathway) |
 | Uploaded Sydney DC briefing (triage) | Same September 2026 site-file family |
 | [`SOURCE-claude-artifact-map-and-territory.md`](SOURCE-claude-artifact-map-and-territory.md) | Jul 2026 Claude architectural survey of TerAustralis / CrystalCore repos + ADRs |
+| [`SOURCE-claude-artifact-ntxj-what-is-built.md`](SOURCE-claude-artifact-ntxj-what-is-built.md) | Aug 2026 Doc 13 *What Is Built* — CrystalCore tests, site, OTS, ABN, STATUS.md law |
 
 ### C. Product / OS surfaces (existence of CrystalCore.OS, not the national thesis)
 
@@ -116,6 +117,7 @@ flowchart TB
 | --- | --- |
 | May 2026 | Phase-1 geography briefs; **SpaceNews Opinion 22 May**; ISS Tracker republish + SpaceDaily adjacent rewrite **23 May** |
 | **21–24 Jul 2026** | Claude **share** TerAustralis site design (CrystalCore palette / Incognita Rule) + map-and-territory survey + **“Boot CrystalCore.OS @m13crystalat”** invoke share |
+| **Aug 2026** | Claude artifact Document 13 *What Is Built* — surveyed CrystalCore / site / OTS / ABN ledger (public) |
 | Jun–Aug 2026 | Full Stack densifies; Catch / Multi-node; **Sydney Station invitation 13 Aug** |
 | 3–4 Sep 2026 | *After the radar* — “Exmouth eyes / Aerotropolis hands” |
 | Sep 2026 | Grok Sydney Hall / CrystalCore.OS site pack live |
