@@ -77,6 +77,7 @@ flowchart TB
 | [`SOURCE-grok-share-boot-crystalcore-os.md`](SOURCE-grok-share-boot-crystalcore-os.md) | Grok “Boot CrystalCore.OS” → playable sovereign-edge deck Kernel 0.9.11; follow-ups usage-limited |
 | [`SOURCE-grok-share-starfleet-au-notion-motion-os.md`](SOURCE-grok-share-starfleet-au-notion-motion-os.md) | STARFLEET AU Notion Motion OS + Drive/Sheets; Bowen academy; AU-vendor-only pitch clock; Starfleet naming vs “No Starfleet OS” tension |
 | [`SOURCE-grok-share-different-shores.md`](SOURCE-grok-share-different-shores.md) | Different Shores / Mirror Orientation doctrine pack; taxi quarantine; P1 release-ready; Crystal Prime southern shore |
+| [`SOURCE-grok-share-hindsight-receipt.md`](SOURCE-grok-share-hindsight-receipt.md) | Hindsight Receipt box → receipt not masthead; alignment as reading; 6 Sep 20:18 AEST Ordinary Evidence |
 | [`SOURCE-youtube-albanese-ai-regulation.md`](SOURCE-youtube-albanese-ai-regulation.md) | 9 News peg: Albanese joins 20-nation AI regulation call — release trigger |
 | [`RELEASE-DRAFT-albanese-ai-regulation.md`](RELEASE-DRAFT-albanese-ai-regulation.md) | Draft X/LinkedIn: regulate rogue platforms + build sovereign local-first AU stack |
 | [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md) | Public Claude artifact: Live Party / Lattice / Sovereign Duties / Transmission UI |
