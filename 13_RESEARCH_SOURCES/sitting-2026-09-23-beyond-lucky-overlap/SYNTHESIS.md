@@ -83,6 +83,7 @@ flowchart TB
 | [`SOURCE-manus-share-web-os-easter-eggs.md`](SOURCE-manus-share-web-os-easter-eggs.md) | Manus attests TerAustralis.com.au = live CrystalCore.OS; Aegir Station fiction easter egg |
 | [`SOURCE-manus-share-mcp-api-dev.md`](SOURCE-manus-share-mcp-api-dev.md) | CrystalArchitect GitHub ≥50 repos; private The-Crystal-Vision-System; unified MCP draft |
 | [`SOURCE-claude-share-a364-teraustralis-design.md`](SOURCE-claude-share-a364-teraustralis-design.md) | Jul 21–23 public Claude share: TerAustralis.com.au redesign; CrystalCore art palette 196°–300°; CrystalCoreOS nav |
+| [`SOURCE-claude-artifact-ukfk-clementine.md`](SOURCE-claude-artifact-ukfk-clementine.md) | Public Clementine product page — /clementine-voice/, Incognita RUNS vs DESIGNED ONLY |
 | [`SOURCE-claude-share-4e12-crystalcore-boot.md`](SOURCE-claude-share-4e12-crystalcore-boot.md) | Jul 24 public share: “Boot CrystalCore.OS @m13crystalat”; personal remainder out of scope |
 
 ### D. Out of scope / weak (keep filed so you don’t re-open them)

@@ -32,6 +32,7 @@
 - Claude artifact aeon-atlas production roadmap: [`SOURCE-claude-artifact-aeon-atlas-roadmap.md`](SOURCE-claude-artifact-aeon-atlas-roadmap.md)  
 - Claude artifact CrystalCore.OS console (v1.7.9 mythos UI): [`SOURCE-claude-artifact-crystalcore-os-console.md`](SOURCE-claude-artifact-crystalcore-os-console.md)  
 - Claude artifact **What Is Built** (Doc 13, Aug 2026, public): [`SOURCE-claude-artifact-ntxj-what-is-built.md`](SOURCE-claude-artifact-ntxj-what-is-built.md)  
+- Claude artifact **Clementine** (public product page): [`SOURCE-claude-artifact-ukfk-clementine.md`](SOURCE-claude-artifact-ukfk-clementine.md)  
 - Claude **share** TerAustralis site design (Jul 21–23, public): [`SOURCE-claude-share-a364-teraustralis-design.md`](SOURCE-claude-share-a364-teraustralis-design.md)  
 - Claude **share** CrystalCore.OS boot invoke (Jul 24–Aug 7, public): [`SOURCE-claude-share-4e12-crystalcore-boot.md`](SOURCE-claude-share-4e12-crystalcore-boot.md)  
 - Claude artifact Hozmb… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-hozmb-gated.md`](SOURCE-claude-artifact-hozmb-gated.md)  
