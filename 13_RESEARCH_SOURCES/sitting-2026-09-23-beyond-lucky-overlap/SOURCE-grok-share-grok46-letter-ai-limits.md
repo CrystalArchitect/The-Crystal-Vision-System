@@ -39,6 +39,10 @@ Operational close every successful letter shares: leave building, bill, and what
 
 Share is **epistemology / product honesty**, not Aerotropolis design or Pulse reply. Useful as: (a) language bank for “what this is not” (building on earth, not heaven/Colossus hall); (b) reminder that multi-model rhyme under a strong brief ≠ independent discovery; (c) Sep 2026 US regulation noise filed separately from Australian dual-use thesis.
 
+## Sibling Build (same Never Ever song-family, different assignment)
+
+Interactive walkable map / letter to Father / High / Lucky chapters: [`SOURCE-grok-share-never-ever-map-letter.md`](SOURCE-grok-share-never-ever-map-letter.md) (`d4589148-…`; preview expired).
+
 ## Artifacts
 
 - Plaintext extract: [`visual-corpus/grok-share-d7f1df4c-extract.txt`](visual-corpus/grok-share-d7f1df4c-extract.txt)  
