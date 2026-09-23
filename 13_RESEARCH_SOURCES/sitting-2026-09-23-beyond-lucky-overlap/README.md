@@ -37,7 +37,8 @@
 
 ## Landscape (not CrystalCore)
 
-- coreflow.dev (Sydney AI entertainment hire site): [`SOURCE-coreflow-dev.md`](SOURCE-coreflow-dev.md)
+- coreflow.dev (Sydney AI entertainment hire site): [`SOURCE-coreflow-dev.md`](SOURCE-coreflow-dev.md)  
+- LinkedIn lunar regolith / ISRU (Al-Aseeri): [`SOURCE-linkedin-lunar-regolith-al-aseeri.md`](SOURCE-linkedin-lunar-regolith-al-aseeri.md)
 
 ## Visual / mythos layer
 
