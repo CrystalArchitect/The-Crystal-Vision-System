@@ -11,4 +11,5 @@ Aerotropolis West (Sydney) addendum: [`ADDENDUM-aerotropolis-west.md`](ADDENDUM-
 Uploaded corpus triage: [`ADDENDUM-uploaded-corpus-triage.md`](ADDENDUM-uploaded-corpus-triage.md)  
 SpaceNews body + republish notes: [`SOURCE-spacenews-arena-turner-2026-05-22.md`](SOURCE-spacenews-arena-turner-2026-05-22.md)  
 Richardson Pulse snapshot: [`SOURCE-richardson-beyond-lucky-2026-09-21.md`](SOURCE-richardson-beyond-lucky-2026-09-21.md)  
-Live Grok CrystalCore.OS / Sydney Hall: [`SOURCE-tango-zinc-quiet-terra-grok.md`](SOURCE-tango-zinc-quiet-terra-grok.md)
+Live Grok CrystalCore.OS / Sydney Hall: [`SOURCE-tango-zinc-quiet-terra-grok.md`](SOURCE-tango-zinc-quiet-terra-grok.md)  
+Manus share (we1.crt — out of scope): [`SOURCE-manus-share-we1-crt.md`](SOURCE-manus-share-we1-crt.md)
