@@ -79,7 +79,8 @@
 - TikTok DoctorFiction AI cloning centers (creepypasta): [`SOURCE-tiktok-doctafiction-cloning-centers.md`](SOURCE-tiktok-doctafiction-cloning-centers.md) · remake [`tiktok-replica/ai-cloning-centers-fiction.html`](tiktok-replica/ai-cloning-centers-fiction.html)  
 - TikTok x.socialmedia multi-planetary tonnage: [`SOURCE-tiktok-xsocial-multiplanetary.md`](SOURCE-tiktok-xsocial-multiplanetary.md) · remake [`tiktok-replica/multiplanetary-tonnage.html`](tiktok-replica/multiplanetary-tonnage.html)  
 - TikTok UAP disclosure night cut: [`SOURCE-tiktok-uap-disclosure.md`](SOURCE-tiktok-uap-disclosure.md) · remake [`tiktok-replica/uap-disclosure-sky.html`](tiktok-replica/uap-disclosure-sky.html)  
-- TikTok ExplainedDaily OpenAI×HF agent POV: [`SOURCE-tiktok-explaineddaily-openai-hf.md`](SOURCE-tiktok-explaineddaily-openai-hf.md) · remake [`tiktok-replica/openai-hf-agent-pov.html`](tiktok-replica/openai-hf-agent-pov.html)
+- TikTok ExplainedDaily OpenAI×HF agent POV: [`SOURCE-tiktok-explaineddaily-openai-hf.md`](SOURCE-tiktok-explaineddaily-openai-hf.md) · remake [`tiktok-replica/openai-hf-agent-pov.html`](tiktok-replica/openai-hf-agent-pov.html)  
+- TikTok Anunnaki reckoning lore: [`SOURCE-tiktok-anunnaki-reckoning.md`](SOURCE-tiktok-anunnaki-reckoning.md) · remake [`tiktok-replica/anunnaki-reckoning-lore.html`](tiktok-replica/anunnaki-reckoning-lore.html)
 
 ## Sibling Cursor agents
 

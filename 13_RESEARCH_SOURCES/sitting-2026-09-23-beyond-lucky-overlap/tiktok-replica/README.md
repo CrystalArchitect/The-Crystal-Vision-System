@@ -74,6 +74,14 @@ Open [`openai-hf-agent-pov.html`](openai-hf-agent-pov.html) → Fullscreen 9:16 
 
 Trace log + POV badge. No platform marks; caption paraphrased.
 
+## 11. Anunnaki reckoning (mythos lore)
+
+**Source:** https://vt.tiktok.com/ZSb18mF6b/ → `@deepintheghb`  
+
+Open [`anunnaki-reckoning-lore.html`](anunnaki-reckoning-lore.html) → Fullscreen 9:16 → screen-record.
+
+Pyramid craft + Cinzel lore beats. Myth banner; no creator marks.
+
 ## Sitting note
 
 Landscape / format references only — **not** Beyond Lucky text overlap.

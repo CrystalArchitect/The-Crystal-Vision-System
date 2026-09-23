@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TikTok remake — Anunnaki reckoning (lore)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --void: #06050a;
+      --gold: #d4a84b;
+      --sand: #c9b896;
+      --blood: #8b2a2a;
+      --fg: #f3ead8;
+      --mute: rgba(243,234,216,0.55);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { min-height: 100%; background: #0b0a0e; color: var(--fg); font-family: "Oswald", sans-serif; }
+    body { min-height: 100vh; display: grid; place-items: center; padding: 1rem; }
+    .wrap { display: flex; flex-direction: column; align-items: center; gap: 0.85rem; }
+
+    .stage {
+      position: relative;
+      width: min(100vw - 2rem, 420px);
+      aspect-ratio: 9 / 16;
+      overflow: hidden;
+      border-radius: 18px;
+      background: var(--void);
+      box-shadow: 0 30px 80px rgba(0,0,0,.55);
+    }
+
+    .cosmos {
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse at 50% 0%, #2a1a0e 0%, transparent 42%),
+        radial-gradient(circle at 70% 30%, rgba(212,168,75,0.12), transparent 28%),
+        linear-gradient(180deg, #040308 0%, #0c0a12 50%, #1a120c 100%);
+    }
+    .stars {
+      position: absolute; inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 12% 18%, #fff, transparent),
+        radial-gradient(1px 1px at 30% 40%, #fff, transparent),
+        radial-gradient(1.4px 1.4px at 58% 14%, #fff, transparent),
+        radial-gradient(1px 1px at 78% 35%, #fff, transparent),
+        radial-gradient(1px 1px at 88% 62%, #fff, transparent),
+        radial-gradient(1px 1px at 20% 72%, #fff, transparent);
+      opacity: 0.65; animation: drift 40s linear infinite;
+    }
+    .pyramid {
+      position: absolute; left: 22%; right: 22%; bottom: 28%; height: 32%;
+      background: linear-gradient(180deg, rgba(212,168,75,0.55), rgba(60,40,20,0.9));
+      clip-path: polygon(50% 0, 100% 100%, 0 100%);
+      filter: drop-shadow(0 0 30px rgba(212,168,75,0.25));
+      animation: glow 6s ease-in-out infinite alternate;
+    }
+    .craft {
+      position: absolute; left: 44%; top: 22%; width: 12%; aspect-ratio: 1;
+      background: radial-gradient(circle, #f0e0b0 0%, #a08040 50%, transparent 70%);
+      border-radius: 50%;
+      box-shadow: 0 0 24px rgba(212,168,75,0.55);
+      animation: lift 7s ease-in-out infinite alternate;
+    }
+    @keyframes drift { from { transform: translateY(0); } to { transform: translateY(-18px); } }
+    @keyframes glow { from { opacity: 0.75; } to { opacity: 1; } }
+    @keyframes lift { from { transform: translateY(6px); } to { transform: translateY(-12px); } }
+
+    .bug {
+      position: absolute; top: 4%; left: 4%; z-index: 5;
+      font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.14em;
+      color: var(--mute); text-transform: uppercase;
+    }
+    .bug strong { color: var(--gold); font-weight: 500; }
+    .clock {
+      position: absolute; top: 4%; right: 4%; z-index: 5;
+      font-family: "IBM Plex Mono", monospace; font-size: 11px;
+      color: var(--mute); letter-spacing: 0.08em;
+    }
+    .fiction {
+      position: absolute; top: 8.5%; left: 4%; right: 4%; z-index: 5;
+      font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.1em;
+      color: var(--gold); text-transform: uppercase;
+      border: 1px solid rgba(212,168,75,0.4);
+      padding: 0.28rem 0.45rem; text-align: center;
+      background: rgba(10,8,6,0.7);
+    }
+
+    .copy {
+      position: absolute; left: 6%; right: 6%; bottom: 10%; height: 38%; z-index: 4;
+    }
+    .beat {
+      position: absolute; inset: 0;
+      display: flex; flex-direction: column; justify-content: flex-end; gap: 0.4rem;
+      opacity: 0; transform: translateY(14px);
+      transition: opacity .32s ease, transform .42s cubic-bezier(.2,.85,.2,1);
+      pointer-events: none;
+    }
+    .beat.active { opacity: 1; transform: none; }
+    .kicker {
+      font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: 0.16em;
+      text-transform: uppercase; color: var(--gold);
+    }
+    .line {
+      font-family: "Cinzel", "Oswald", serif;
+      font-weight: 700;
+      font-size: clamp(1.55rem, 7.2vw, 2.15rem);
+      line-height: 1.05; letter-spacing: 0.02em;
+      text-transform: uppercase;
+      text-shadow: 0 4px 24px rgba(0,0,0,.7);
+    }
+    .line em { font-style: normal; color: var(--gold); }
+    .sub {
+      font-family: "IBM Plex Mono", monospace; font-size: 12px; line-height: 1.4;
+      color: var(--mute); max-width: 28ch;
+    }
+
+    .progress {
+      position: absolute; left: 6%; right: 6%; bottom: 4%;
+      height: 3px; background: rgba(255,255,255,0.1); border-radius: 99px; overflow: hidden; z-index: 6;
+    }
+    .progress > i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--blood), var(--gold)); }
+
+    .controls { width: min(100vw - 2rem, 420px); display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; }
+    button {
+      font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .06em; text-transform: uppercase;
+      border: 1px solid rgba(255,255,255,.18); background: #16120e; color: #fff;
+      padding: .65rem .9rem; border-radius: 999px; cursor: pointer;
+    }
+    button.primary { background: #3a2a12; border-color: var(--gold); color: var(--gold); }
+    .note { width: min(100vw - 2rem, 420px); font-family: "IBM Plex Mono", monospace; font-size: 11px; line-height: 1.45; color: #7a7368; text-align: center; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .beat { transition: opacity .2s linear; transform: none; }
+      .stars, .pyramid, .craft { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="stage" id="stage">
+      <div class="cosmos" aria-hidden="true"></div>
+      <div class="stars" aria-hidden="true"></div>
+      <div class="craft" aria-hidden="true"></div>
+      <div class="pyramid" aria-hidden="true"></div>
+
+      <div class="bug"><strong>LORE</strong> · REMIX</div>
+      <div class="clock" id="clock">00:00</div>
+      <div class="fiction">Myth narrative · not history</div>
+
+      <div class="copy">
+        <div class="beat active" data-ms="3200">
+          <div class="kicker">TITLE CARD</div>
+          <div class="line">The Fall of<br /><em>Earth</em></div>
+          <div class="sub">Anunnaki reckoning · caption paraphrase</div>
+        </div>
+        <div class="beat" data-ms="3000">
+          <div class="kicker">RETURN</div>
+          <div class="line">Pyramid craft<br />to <em>Nibiru</em></div>
+          <div class="sub">Enlil and Enki — not in triumph</div>
+        </div>
+        <div class="beat" data-ms="3000">
+          <div class="kicker">NEWS</div>
+          <div class="line">Earth seized<br /><em>in the tale</em></div>
+          <div class="sub">Genre: ancient-aliens serial</div>
+        </div>
+        <div class="beat" data-ms="3000">
+          <div class="kicker">OATH</div>
+          <div class="line">Inanna’s<br /><em>vow</em></div>
+          <div class="sub">Rage as plot engine · stars as stage</div>
+        </div>
+        <div class="beat" data-ms="3000">
+          <div class="kicker">MESSAGE</div>
+          <div class="line">Capsule to<br /><em>Anu</em></div>
+          <div class="sub">War declared in the lore loop</div>
+        </div>
+        <div class="beat" data-ms="3400">
+          <div class="kicker">REMAKE NOTE</div>
+          <div class="line">Format<br /><em>only</em></div>
+          <div class="sub">No creator marks · paraphrase public caption</div>
+        </div>
+      </div>
+
+      <div class="progress"><i id="bar"></i></div>
+    </div>
+
+    <div class="controls">
+      <button class="primary" id="play" type="button">Play</button>
+      <button id="restart" type="button">Restart</button>
+      <button id="fullscreen" type="button">Fullscreen 9:16</button>
+    </div>
+    <p class="note">
+      Format remake of <code>vt.tiktok.com/ZSb18mF6b</code> (@deepintheghb) — Anunnaki lore shell, no creator marks.
+      Caption paraphrased; myth banner kept; screen-record the stage for TikTok.
+    </p>
+  </div>
+
+  <script>
+    const beats = [...document.querySelectorAll(".beat")];
+    const bar = document.getElementById("bar");
+    const clock = document.getElementById("clock");
+    const playBtn = document.getElementById("play");
+    const stage = document.getElementById("stage");
+    let timer = null, playing = false, idx = 0, startedAt = 0;
+    const fmt = (ms) => `00:${String(Math.floor(ms / 1000)).padStart(2, "0")}`;
+
+    function show(i) {
+      beats.forEach((b, n) => b.classList.toggle("active", n === i));
+      idx = i;
+    }
+    function stop() {
+      playing = false; clearTimeout(timer); playBtn.textContent = "Play";
+      bar.style.transition = "none";
+      bar.style.width = `${(idx / Math.max(beats.length - 1, 1)) * 100}%`;
+    }
+    function runFrom(i) {
+      show(i);
+      const ms = Number(beats[i].dataset.ms) || 3000;
+      bar.style.transition = "none"; bar.style.width = "0%";
+      void bar.offsetWidth;
+      bar.style.transition = `width ${ms}ms linear`; bar.style.width = "100%";
+      timer = setTimeout(() => {
+        if (i + 1 < beats.length) runFrom(i + 1); else stop();
+      }, ms);
+    }
+    function play() {
+      if (playing) { stop(); return; }
+      playing = true; playBtn.textContent = "Pause";
+      startedAt = performance.now();
+      const tick = () => {
+        if (!playing) return;
+        clock.textContent = fmt(performance.now() - startedAt);
+        requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+      runFrom(idx >= beats.length - 1 ? 0 : idx);
+    }
+    function restart() {
+      stop(); idx = 0; show(0); clock.textContent = "00:00";
+      bar.style.transition = "none"; bar.style.width = "0%"; play();
+    }
+    playBtn.addEventListener("click", play);
+    document.getElementById("restart").addEventListener("click", restart);
+    document.getElementById("fullscreen").addEventListener("click", async () => {
+      if (!document.fullscreenElement) await stage.requestFullscreen();
+      else await document.exitFullscreen();
+    });
+    window.addEventListener("load", () => setTimeout(play, 350));
+  </script>
+</body>
+</html>
