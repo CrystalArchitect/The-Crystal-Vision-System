@@ -47,7 +47,8 @@
 - Claude artifact QquL… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-qqul-gated.md`](SOURCE-claude-artifact-qqul-gated.md)  
 - Claude artifact M3Vm… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-m3vm-gated.md`](SOURCE-claude-artifact-m3vm-gated.md)  
 - Claude artifact SPD8… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-spd8-gated.md`](SOURCE-claude-artifact-spd8-gated.md)  
-- Claude **Code** session 019o7… (sign-in gated — contents unknown): [`SOURCE-claude-code-session-019o7-gated.md`](SOURCE-claude-code-session-019o7-gated.md)
+- Claude **Code** session 019o7… (sign-in gated — contents unknown): [`SOURCE-claude-code-session-019o7-gated.md`](SOURCE-claude-code-session-019o7-gated.md)  
+- Claude **Code** session 01PMZ… (sign-in gated — contents unknown): [`SOURCE-claude-code-session-01pmz-gated.md`](SOURCE-claude-code-session-01pmz-gated.md)
 
 ## Manus shares (triaged)
 
