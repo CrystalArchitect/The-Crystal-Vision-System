@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TikTok remake — Magnetic pulse / Zero Dawn Space</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --void: #03060c;
+      --earth: #1a4a7a;
+      --glow: #5ec8ff;
+      --warn: #ff6a3d;
+      --fg: #f4f7fb;
+      --dim: rgba(255,255,255,0.55);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { min-height: 100%; background: #0b0d12; color: var(--fg); font-family: "Bebas Neue", Impact, sans-serif; }
+    body { min-height: 100vh; display: grid; place-items: center; padding: 1rem; }
+    .wrap { display: flex; flex-direction: column; align-items: center; gap: 0.85rem; }
+
+    .stage {
+      position: relative;
+      width: min(100vw - 2rem, 420px);
+      aspect-ratio: 9 / 16;
+      overflow: hidden;
+      border-radius: 18px;
+      background: var(--void);
+      box-shadow: 0 30px 80px rgba(0,0,0,.55);
+    }
+
+    .space {
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse at 50% 115%, #2a6aa8 0%, transparent 42%),
+        radial-gradient(circle at 70% 18%, rgba(94,200,255,0.25), transparent 28%),
+        radial-gradient(circle at 20% 30%, rgba(255,255,255,0.08), transparent 20%),
+        linear-gradient(180deg, #02040a 0%, #071525 55%, #0a1f38 100%);
+    }
+    .stars {
+      position: absolute; inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 20%, #fff, transparent),
+        radial-gradient(1px 1px at 30% 45%, #fff, transparent),
+        radial-gradient(1.5px 1.5px at 55% 15%, #fff, transparent),
+        radial-gradient(1px 1px at 78% 35%, #fff, transparent),
+        radial-gradient(1px 1px at 88% 70%, #fff, transparent),
+        radial-gradient(1px 1px at 15% 75%, #fff, transparent),
+        radial-gradient(1.5px 1.5px at 42% 88%, #fff, transparent);
+      opacity: 0.7;
+      animation: drift 40s linear infinite;
+    }
+    @keyframes drift { to { transform: translateY(-40px); } }
+
+    .earth {
+      position: absolute;
+      left: -20%; right: -20%;
+      bottom: -28%;
+      height: 55%;
+      border-radius: 50%;
+      background:
+        radial-gradient(circle at 45% 30%, #7ec8ff 0%, #1f5f9a 28%, #0d355f 55%, #061828 75%);
+      box-shadow: 0 0 60px rgba(80, 170, 255, 0.35);
+      opacity: 0.85;
+    }
+    .earth::after {
+      content: "";
+      position: absolute; inset: 8% 12% 40% 18%;
+      background: radial-gradient(ellipse, rgba(255,255,255,0.25), transparent 60%);
+      filter: blur(8px);
+    }
+
+    .panel {
+      position: absolute;
+      right: 6%; top: 18%;
+      width: 38%;
+      aspect-ratio: 0.72;
+      border: 1px solid rgba(94,200,255,0.35);
+      background: linear-gradient(160deg, rgba(10,30,55,0.75), rgba(4,12,24,0.9));
+      clip-path: polygon(8% 0, 100% 0, 100% 92%, 92% 100%, 0 100%, 0 8%);
+      box-shadow: 0 0 40px rgba(94,200,255,0.12);
+      overflow: hidden;
+    }
+    .panel .grid {
+      position: absolute; inset: 0;
+      background-image:
+        linear-gradient(rgba(94,200,255,0.12) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(94,200,255,0.12) 1px, transparent 1px);
+      background-size: 14px 14px;
+      opacity: 0.7;
+    }
+    .panel .pulse {
+      position: absolute; left: 50%; top: 42%;
+      width: 14px; height: 14px; margin: -7px;
+      border-radius: 50%;
+      background: var(--glow);
+      box-shadow: 0 0 0 0 rgba(94,200,255,0.6);
+      animation: ping 1.8s ease-out infinite;
+    }
+    @keyframes ping {
+      70% { box-shadow: 0 0 0 28px rgba(94,200,255,0); }
+      100% { box-shadow: 0 0 0 0 rgba(94,200,255,0); }
+    }
+    .panel .brand {
+      position: absolute; left: 10%; right: 10%; bottom: 10%;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 8px; letter-spacing: 0.14em;
+      color: var(--glow); text-align: center;
+    }
+
+    .hud {
+      position: absolute; top: 4.5%; left: 6%; right: 6%;
+      display: flex; justify-content: space-between;
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 10px; letter-spacing: 0.14em;
+      color: rgba(255,255,255,0.5); text-transform: uppercase;
+      z-index: 3;
+    }
+
+    .copy {
+      position: absolute; inset: 0;
+      display: grid; place-items: end center;
+      padding: 0 7% 14%;
+      text-align: center;
+      z-index: 2;
+    }
+    .beat {
+      position: absolute; left: 7%; right: 7%; bottom: 14%;
+      opacity: 0; transform: translateY(18px);
+      transition: opacity .45s ease, transform .55s cubic-bezier(.2,.8,.2,1);
+      pointer-events: none;
+    }
+    .beat.active { opacity: 1; transform: none; }
+    .line {
+      display: block;
+      font-size: clamp(2rem, 8.6vw, 3.1rem);
+      letter-spacing: 0.04em;
+      line-height: 0.95;
+      text-shadow: 0 4px 28px rgba(0,0,0,.75);
+      text-wrap: balance;
+    }
+    .line.sub {
+      margin-top: 0.45rem;
+      font-size: clamp(1.05rem, 4.4vw, 1.35rem);
+      letter-spacing: 0.12em;
+      color: var(--dim);
+      font-family: "IBM Plex Mono", monospace;
+      text-transform: uppercase;
+    }
+    .line.accent { color: var(--glow); }
+    .line.warn { color: var(--warn); }
+
+    .progress {
+      position: absolute; left: 7%; right: 7%; bottom: 5.5%;
+      height: 3px; background: rgba(255,255,255,0.12);
+      border-radius: 99px; overflow: hidden; z-index: 4;
+    }
+    .progress > i {
+      display: block; height: 100%; width: 0;
+      background: linear-gradient(90deg, #fff, var(--glow), var(--warn));
+    }
+
+    .controls { width: min(100vw - 2rem, 420px); display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; }
+    button {
+      font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .06em; text-transform: uppercase;
+      border: 1px solid rgba(255,255,255,.18); background: #151922; color: #fff;
+      padding: .65rem .9rem; border-radius: 999px; cursor: pointer;
+    }
+    button.primary { background: #1a5f9a; border-color: #1a5f9a; }
+    .note { width: min(100vw - 2rem, 420px); font-family: "IBM Plex Mono", monospace; font-size: 11px; line-height: 1.45; color: #8b93a5; text-align: center; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .stars, .panel .pulse { animation: none; }
+      .beat { transition: opacity .2s linear; transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="stage" id="stage">
+      <div class="space" aria-hidden="true">
+        <div class="stars"></div>
+        <div class="earth"></div>
+        <div class="panel">
+          <div class="grid"></div>
+          <div class="pulse"></div>
+          <div class="brand">ZERO DAWN · SPACE</div>
+        </div>
+      </div>
+
+      <div class="hud">
+        <span>APEXAI · REMIX</span>
+        <span id="clock">00:00</span>
+      </div>
+
+      <div class="copy">
+        <div class="beat active" data-ms="3000">
+          <span class="line">WHEN THE FATE</span>
+          <span class="line">OF EARTH</span>
+        </div>
+        <div class="beat" data-ms="2800">
+          <span class="line">RESTS ON A</span>
+          <span class="line accent">SINGLE PULSE</span>
+        </div>
+        <div class="beat" data-ms="3000">
+          <span class="line">MAGNETIC</span>
+          <span class="line">DEFENSE</span>
+          <span class="line sub">ORBITAL ARRAY · ONE SHOT</span>
+        </div>
+        <div class="beat" data-ms="2800">
+          <span class="line">SOLAR LATTICE</span>
+          <span class="line">ABOVE THE BLUE</span>
+        </div>
+        <div class="beat" data-ms="3000">
+          <span class="line">HANDS ON THE</span>
+          <span class="line">CONSOLE.</span>
+          <span class="line sub">NO SECOND TRY</span>
+        </div>
+        <div class="beat" data-ms="3200">
+          <span class="line">IS THIS THE</span>
+          <span class="line">NEXT FRONTIER</span>
+          <span class="line">OF SPACE DEFENSE?</span>
+        </div>
+        <div class="beat" data-ms="3800">
+          <span class="line warn">ZERO DAWN</span>
+          <span class="line">SPACE</span>
+          <span class="line sub">CINEMATIC CONCEPT · AI-GENERATED SOURCE</span>
+        </div>
+      </div>
+
+      <div class="progress"><i id="bar"></i></div>
+    </div>
+
+    <div class="controls">
+      <button class="primary" id="play" type="button">Play</button>
+      <button id="restart" type="button">Restart</button>
+      <button id="fullscreen" type="button">Fullscreen 9:16</button>
+    </div>
+    <p class="note">
+      Format remake of <code>vt.tiktok.com/ZSb1eBFPw</code> (@apexai85 / ApexAI) — cinematic kinetic type over orbital plate.
+      Concept paraphrased from caption; not a copy of the AI video frames. Screen-record the stage for TikTok.
+    </p>
+  </div>
+
+  <script>
+    const beats = [...document.querySelectorAll(".beat")];
+    const bar = document.getElementById("bar");
+    const clock = document.getElementById("clock");
+    const playBtn = document.getElementById("play");
+    const stage = document.getElementById("stage");
+    let timer = null, playing = false, idx = 0, startedAt = 0;
+    const fmt = (ms) => `00:${String(Math.floor(ms / 1000)).padStart(2, "0")}`;
+
+    function show(i) {
+      beats.forEach((b, n) => b.classList.toggle("active", n === i));
+      idx = i;
+    }
+    function stop() {
+      playing = false; clearTimeout(timer); playBtn.textContent = "Play";
+      bar.style.transition = "none";
+      bar.style.width = `${(idx / Math.max(beats.length - 1, 1)) * 100}%`;
+    }
+    function runFrom(i) {
+      show(i);
+      const ms = Number(beats[i].dataset.ms) || 3000;
+      bar.style.transition = "none"; bar.style.width = "0%";
+      void bar.offsetWidth;
+      bar.style.transition = `width ${ms}ms linear`; bar.style.width = "100%";
+      timer = setTimeout(() => {
+        if (i + 1 < beats.length) runFrom(i + 1); else stop();
+      }, ms);
+    }
+    function play() {
+      if (playing) { stop(); return; }
+      playing = true; playBtn.textContent = "Pause";
+      startedAt = performance.now();
+      const tick = () => {
+        if (!playing) return;
+        clock.textContent = fmt(performance.now() - startedAt);
+        requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+      runFrom(idx >= beats.length - 1 ? 0 : idx);
+    }
+    function restart() {
+      stop(); idx = 0; show(0); clock.textContent = "00:00";
+      bar.style.transition = "none"; bar.style.width = "0%"; play();
+    }
+    playBtn.addEventListener("click", play);
+    document.getElementById("restart").addEventListener("click", restart);
+    document.getElementById("fullscreen").addEventListener("click", async () => {
+      if (!document.fullscreenElement) await stage.requestFullscreen();
+      else await document.exitFullscreen();
+    });
+    window.addEventListener("load", () => setTimeout(play, 400));
+  </script>
+</body>
+</html>
