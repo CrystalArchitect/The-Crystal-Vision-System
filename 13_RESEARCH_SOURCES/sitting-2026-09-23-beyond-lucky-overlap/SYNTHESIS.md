@@ -104,6 +104,11 @@ flowchart TB
 | [`SOURCE-manus-share-we1-crt.md`](SOURCE-manus-share-we1-crt.md) | PKI decode only |
 | [`SOURCE-manus-share-website-analysis-genealogy.md`](SOURCE-manus-share-website-analysis-genealogy.md) | Genealogy product + Aegir chrome only |
 | [`ADDENDUM-uploaded-corpus-triage.md`](ADDENDUM-uploaded-corpus-triage.md) | What’s in / out of the upload dump |
+| [`SOURCE-pdf-academy-charter-101-thinkers.md`](SOURCE-pdf-academy-charter-101-thinkers.md) | Academy Charter 101 Thinkers / Train ed. — Aerotropolis/Academy partial; mythos compost |
+| [`SOURCE-pdf-kangaroo-class-pitch.md`](SOURCE-pdf-kangaroo-class-pitch.md) | Kangaroo-class pitch 6 Sep 2026 — Access/Stay/Build/Crew BD face |
+| [`SOURCE-pdf-kangaroo-class-brief-1p.md`](SOURCE-pdf-kangaroo-class-brief-1p.md) | Kangaroo 1-pager SpaceX/SpaceXAI ask |
+| [`SOURCE-pdf-ops-notion-canonical.md`](SOURCE-pdf-ops-notion-canonical.md) | Ops Notion pointer — out of Pulse scope |
+| [`MANUS-BRIEF-tiktok-remakes-hub-rebuild.md`](MANUS-BRIEF-tiktok-remakes-hub-rebuild.md) | Paste-ready Manus brief to rebuild remake hub copy/look |
 | [`SOURCE-coreflow-dev.md`](SOURCE-coreflow-dev.md) | Sydney AI entertainment hire site — name-adjacent only, not CrystalCore |
 | [`SOURCE-linkedin-lunar-regolith-al-aseeri.md`](SOURCE-linkedin-lunar-regolith-al-aseeri.md) | Lunar ISRU LinkedIn post — genre neighbour, not Richardson/TerAustralis overlap |
 | [`SOURCE-claude-artifact-protocol-omega.md`](SOURCE-claude-artifact-protocol-omega.md) | Personal boundaries practice — out of scope for overlap matrix |

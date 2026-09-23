@@ -1,0 +1,47 @@
+--- page 1 ---
+STARFLEET FOR REAL — AUSTRALIA
+Kangaroo-class NCC-992-AU  ·  SpaceX / SpaceXAI
+CHIEF ENGINEER
+Crystal Elle Arena-Turner
+TerAustralis · Sydney · 6 Sep 2026 · 1 / 3
+FIRST PRINCIPLES
+Access Cheap, frequent launch — not one heroic flight. Bowen + Southern Launch exist; no Starship MoU yet. Christmas Island already
+recovered Ship 40 (Jul–Aug 2026).
+Stay Fleets need in-space mobility. Neumann Drive is commercial on SpaceX Transporters; debris→ fuel is roadmap, not done.
+Build Print metal structures onshore (Titomic / Lab22). Traction is real aerospace/defence — not a Starship hull line.
+Crew Academy before Hollywood. Western Sydney + ADFA model; holodeck = sim first.
+SYSTEMS STACK
+07 Academy
+W. Sydney + ADFA · sim →  flight corridor
+06 Medicine
+AU medtech / sensing adjacency — not kits
+05 Sensors
+Fleet constellation · EOS SSA (Atlas = early)
+04 Propulsion
+Neumann commercial EP · Gilmour access · Hypersonix flown
+03 Manufacture
+Titomic cold-spray · Lab22 AM — pilots
+02 Launch / return
+Bowen orbital · Koonibba re-entry · Whalers Way
+01 Foundation
+TSA 23 Jul 2024 · ITAR · Statement on Space Jul 2026
+WHY AUSTRALIA
+· TSA in force — US vehicles can launch from AU soil (still needs
+licences).
+· Ship 40 recovery already used AU logistics.
+· Whalers Way: polar / SSO. Bowen: mid-inclination.
+· Allied second-hemisphere option — not a Starbase clone (no
+methalox industrial base yet).
+BUILD PHASES
+· P1 · 12 mo — Structure demo + range diligence
+· P2 · 24 mo — Academy charter (~100 cadets)
+· P3 · 5 yr — Print →  launch →  assemble demo
+HARD NO'S
+· No Starship MoU. No warp.
+· ELA / Arnhem not live.
+· SpIRIT is not Gilmour.
+· Eris not orbital yet (TF2 ~early 2027*).
+· Concept art ≠ hardware.
+PARTNERS (FACT-CHECKED)
+Gilmour (Bowen · Series E A$217m · ElaraSat rideshare) · Southern Launch (Koonibba re-entry · A$25m) · Neumann (Transporter cadence) · Titomic +
+Lab22 · Fleet · EOS · Hypersonix · UNSW / ADFA

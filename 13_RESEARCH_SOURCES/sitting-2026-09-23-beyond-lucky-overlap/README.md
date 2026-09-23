@@ -20,7 +20,11 @@
 
 - Primary brief: [`OVERLAP-BRIEF.md`](OVERLAP-BRIEF.md)  
 - Aerotropolis West (Sydney) addendum: [`ADDENDUM-aerotropolis-west.md`](ADDENDUM-aerotropolis-west.md)  
-- Uploaded corpus triage: [`ADDENDUM-uploaded-corpus-triage.md`](ADDENDUM-uploaded-corpus-triage.md)
+- Uploaded corpus triage: [`ADDENDUM-uploaded-corpus-triage.md`](ADDENDUM-uploaded-corpus-triage.md)  
+- PDF Academy Charter 101 Thinkers (partial — Aerotropolis/Academy): [`SOURCE-pdf-academy-charter-101-thinkers.md`](SOURCE-pdf-academy-charter-101-thinkers.md)  
+- PDF Kangaroo-class pitch 6 Sep 2026 (on-scope BD face): [`SOURCE-pdf-kangaroo-class-pitch.md`](SOURCE-pdf-kangaroo-class-pitch.md)  
+- PDF Kangaroo-class 1-pager brief (on-scope): [`SOURCE-pdf-kangaroo-class-brief-1p.md`](SOURCE-pdf-kangaroo-class-brief-1p.md)  
+- PDF Ops Notion canonical (out of scope): [`SOURCE-pdf-ops-notion-canonical.md`](SOURCE-pdf-ops-notion-canonical.md)
 
 ## Public / live sources
 
