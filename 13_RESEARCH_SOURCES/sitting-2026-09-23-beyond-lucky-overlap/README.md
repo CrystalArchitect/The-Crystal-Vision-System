@@ -31,6 +31,7 @@
 - Claude artifact Remaining Work matrix (aeon-atlas ops): [`SOURCE-claude-artifact-remaining-work.md`](SOURCE-claude-artifact-remaining-work.md)  
 - Claude artifact aeon-atlas production roadmap: [`SOURCE-claude-artifact-aeon-atlas-roadmap.md`](SOURCE-claude-artifact-aeon-atlas-roadmap.md)  
 - Claude artifact CrystalCore.OS console (v1.7.9 mythos UI): [`SOURCE-claude-artifact-crystalcore-os-console.md`](SOURCE-claude-artifact-crystalcore-os-console.md)  
+- Claude **share** TerAustralis site design (Jul 21–23, public): [`SOURCE-claude-share-a364-teraustralis-design.md`](SOURCE-claude-share-a364-teraustralis-design.md)  
 - Claude artifact Hozmb… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-hozmb-gated.md`](SOURCE-claude-artifact-hozmb-gated.md)  
 - Claude artifact 2VWLx… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-2vwl-gated.md`](SOURCE-claude-artifact-2vwl-gated.md)  
 - Claude artifact CRFak… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-crfak-gated.md`](SOURCE-claude-artifact-crfak-gated.md)  
