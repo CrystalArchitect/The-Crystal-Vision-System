@@ -14,11 +14,17 @@ Open [`gemini-rogue-news.html`](gemini-rogue-news.html) → Fullscreen 9:16 → 
 
 ## 3. Zero Dawn Space / magnetic pulse (cinematic kinetic)
 
-**Source:** https://vt.tiktok.com/ZSb1eBFPw/ → `@apexai85` / ApexAI (AI-generated orbital trailer)  
+**Source:** https://vt.tiktok.com/ZSb1eBFPw/ → `@apexai85` / ApexAI  
 
 Open [`zero-dawn-pulse.html`](zero-dawn-pulse.html) → Fullscreen 9:16 → screen-record.
 
-Earth limb + pulse HUD + Bebas trailer beats. Concept from caption; not a frame-copy of the AI video.
+## 4. Altman singularity (Bay Area news package)
+
+**Source:** https://vt.tiktok.com/ZSb1dNXaT/ → `@abc7newsbayarea`  
+
+Open [`altman-singularity-news.html`](altman-singularity-news.html) → Fullscreen 9:16 → screen-record.
+
+Studio / milestone wall + blue+yellow LIVE ticker. No ABC7 marks.
 
 ## Sitting note
 
