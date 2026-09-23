@@ -35,6 +35,7 @@
 - Grok share STARFLEET AU Notion Motion OS (floating city / Bowen / Elon pitch pack): [`SOURCE-grok-share-starfleet-au-notion-motion-os.md`](SOURCE-grok-share-starfleet-au-notion-motion-os.md)  
 - Grok share Orbital Gravity Simulator Build (preview expired / usage-limited — out of scope): [`SOURCE-grok-share-orbital-gravity-simulator.md`](SOURCE-grok-share-orbital-gravity-simulator.md)  
 - Grok share Different Shores / Mirror Orientation pack (release-adjacent): [`SOURCE-grok-share-different-shores.md`](SOURCE-grok-share-different-shores.md)  
+- Grok share SEQUENTIAL_MERGE_404 Identity Matrix (Arena-Turner Build; preview expired): [`SOURCE-grok-share-sequential-merge-404.md`](SOURCE-grok-share-sequential-merge-404.md)  
 - Grok share Hindsight Receipt (stable alignment — lattice ops): [`SOURCE-grok-share-hindsight-receipt.md`](SOURCE-grok-share-hindsight-receipt.md)  
 - Grok share Threshold / Aris fiction ID (usage-limited — out of scope): [`SOURCE-grok-share-threshold-aris.md`](SOURCE-grok-share-threshold-aris.md)  
 - Grok share Codex Crystalum ↔ Grok Bot filing (ops): [`SOURCE-grok-share-codex-crystalum-grok-bot.md`](SOURCE-grok-share-codex-crystalum-grok-bot.md)  

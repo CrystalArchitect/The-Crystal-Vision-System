@@ -61,6 +61,7 @@ flowchart TB
 | --- | --- |
 | [`OVERLAP-BRIEF.md`](OVERLAP-BRIEF.md) | Chronology, theme matrix, limits, options A–D |
 | [`SOURCE-spacenews-arena-turner-2026-05-22.md`](SOURCE-spacenews-arena-turner-2026-05-22.md) | Your May body (via ISS Tracker republish) + SpaceDaily adjacent rewrite |
+| [`SOURCE-grok-share-sequential-merge-404.md`](SOURCE-grok-share-sequential-merge-404.md) | Grok Build Identity Matrix for Crystal Elle Arena-Turner — comic/tech/pivot; 404=index not person; preview expired |
 | [`SOURCE-richardson-beyond-lucky-2026-09-21.md`](SOURCE-richardson-beyond-lucky-2026-09-21.md) | His Pulse snapshot |
 | [`ADDENDUM-aerotropolis-west.md`](ADDENDUM-aerotropolis-west.md) | Cleanest “I already sited compute” receipt |
 
