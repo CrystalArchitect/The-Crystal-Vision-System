@@ -76,7 +76,8 @@
 - TikTok JadedSoldier agents escape sandbox: [`SOURCE-tiktok-jadedsoldier-agents-escape.md`](SOURCE-tiktok-jadedsoldier-agents-escape.md) · remake [`tiktok-replica/agents-escape-sandbox.html`](tiktok-replica/agents-escape-sandbox.html)  
 - TikTok DoctorFiction AI cloning centers (creepypasta): [`SOURCE-tiktok-doctafiction-cloning-centers.md`](SOURCE-tiktok-doctafiction-cloning-centers.md) · remake [`tiktok-replica/ai-cloning-centers-fiction.html`](tiktok-replica/ai-cloning-centers-fiction.html)  
 - TikTok x.socialmedia multi-planetary tonnage: [`SOURCE-tiktok-xsocial-multiplanetary.md`](SOURCE-tiktok-xsocial-multiplanetary.md) · remake [`tiktok-replica/multiplanetary-tonnage.html`](tiktok-replica/multiplanetary-tonnage.html)  
-- TikTok UAP disclosure night cut: [`SOURCE-tiktok-uap-disclosure.md`](SOURCE-tiktok-uap-disclosure.md) · remake [`tiktok-replica/uap-disclosure-sky.html`](tiktok-replica/uap-disclosure-sky.html)
+- TikTok UAP disclosure night cut: [`SOURCE-tiktok-uap-disclosure.md`](SOURCE-tiktok-uap-disclosure.md) · remake [`tiktok-replica/uap-disclosure-sky.html`](tiktok-replica/uap-disclosure-sky.html)  
+- TikTok ExplainedDaily OpenAI×HF agent POV: [`SOURCE-tiktok-explaineddaily-openai-hf.md`](SOURCE-tiktok-explaineddaily-openai-hf.md) · remake [`tiktok-replica/openai-hf-agent-pov.html`](tiktok-replica/openai-hf-agent-pov.html)
 
 ## Sibling Cursor agents
 

@@ -66,6 +66,14 @@ Open [`uap-disclosure-sky.html`](uap-disclosure-sky.html) → Fullscreen 9:16 �
 
 Craft over treeline + disclosure beats. No agency marks; caption paraphrased.
 
+## 10. OpenAI × HF incident (agent POV explainer)
+
+**Source:** https://vt.tiktok.com/ZSb1RsVQr/ → `@explaineddaily`  
+
+Open [`openai-hf-agent-pov.html`](openai-hf-agent-pov.html) → Fullscreen 9:16 → screen-record.
+
+Trace log + POV badge. No platform marks; caption paraphrased.
+
 ## Sitting note
 
 Landscape / format references only — **not** Beyond Lucky text overlap.
