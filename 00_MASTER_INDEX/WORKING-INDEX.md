@@ -57,10 +57,13 @@
 | CVS-STARFLEET-KANGAROO | 00 | Kangaroo Division pitch face (Vision) — **not** Starfleet OS | vision | no | `/00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md` · `archive/starfleet-au-kangaroo-pack/` |
 | CVS-NO-STARFLEET-OS | 14 | No Starfleet OS — stack already exists | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-NO-STARFLEET-OS.md` |
 | CVS-GROK-FOUND-SFOS | 14 | Grok found Starfleet OS Vision archive — find ≠ build | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-GROK-FOUND-STARFLEET-OS.md` |
+| CVS-GROK-GATE-0923 | 14 | Grok share First Gate — chat weight zero; terminal replay checked | fact | no | `/14_AI_INTERACTIONS/2026-09-23-GROK-SHARE-FIRST-GATE.md` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-23 (Grok share):** First Gate share filed as a received document (weight zero). Local replay of `crystalcore_os.py` matches the flight path. Mikhail Protocol / Hellfire Gala are comic panels, not OS modules. Canon: no.
 
 - **2026-09-20 (Grok found it):** Grok located `StarfleetAustraliaOS.md` (Vision archive). Discovery logged; No Starfleet OS stamp still holds. Canon: no.
 
