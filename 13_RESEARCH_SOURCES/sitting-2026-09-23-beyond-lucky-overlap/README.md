@@ -4,6 +4,8 @@
 **Trigger:** Anthony Richardson, *Beyond Lucky: Australia's Next Inheritance* (LinkedIn Pulse, 21 Sep 2026)  
 **Question:** how does that piece sit against Crystal Elle Arena-Turner’s May 2026 SpaceNews op-ed and the wider TerAustralis corpus?
 
+**Brand domain:** **www.teraustralis.com.au** (company / CrystalCore.OS). Prefer this over bare `*.vercel.app` for anything public or permanent. Temporary remake hub: https://tiktok-remakes.vercel.app — attach under the brand domain when ready.
+
 **Verdict (one line):** strong **thematic** overlap with the TerAustralis stack (resources + space/defence + compute; stop dig-and-ship; leave capability, not just royalties); **no proven line-copy** of the May SpaceNews text from sources available in this sitting; prior Australian “Lucky Country / value-add” discourse is real and older than both.
 
 ---
