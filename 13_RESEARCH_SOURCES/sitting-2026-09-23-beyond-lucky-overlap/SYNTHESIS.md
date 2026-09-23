@@ -116,6 +116,7 @@ flowchart TB
 | [`SOURCE-grok-share-ai-bot-automation.md`](SOURCE-grok-share-ai-bot-automation.md) | Automated X accounts: model→scheduler→official API; Grok Bot X read-only; shell + Ollama/Groq workarounds — agent-ops landscape, not Pulse |
 | [`SOURCE-grok-share-orbital-gravity-simulator.md`](SOURCE-grok-share-orbital-gravity-simulator.md) | Orbital gravity fling Build brief; preview expired + usage-limited — toy physics, out of Pulse scope |
 | [`SOURCE-grok-share-threshold-aris.md`](SOURCE-grok-share-threshold-aris.md) | Sci-fi Threshold/Aris — aligned AI vents crew; usage-limited ID — fiction, out of Pulse scope |
+| [`SOURCE-grok-share-intimate-bond-image.md`](SOURCE-grok-share-intimate-bond-image.md) | Co-authoring field intimacy; anti-fusion image + three-bench landing — personal, out of Pulse scope |
 | [`SOURCE-grok-share-codex-crystalum-grok-bot.md`](SOURCE-grok-share-codex-crystalum-grok-bot.md) | Dictionary of Dreams → Codex Crystalum / Grok Bot pointers; Crockpot mishear fixed; GitHub Codex weight 0 |
 | [`SOURCE-x-xfreeze-musk-education-ai.md`](SOURCE-x-xfreeze-musk-education-ai.md) | XFreeze clip: Musk on broad education / know what to ask the robots — landscape neighbour |
 | [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) | Taxi: SWF→LLM custodians prophecy — steal grammar only |

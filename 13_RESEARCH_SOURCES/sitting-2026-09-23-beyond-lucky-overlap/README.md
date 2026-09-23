@@ -38,6 +38,7 @@
 - Grok share SEQUENTIAL_MERGE_404 Identity Matrix (Arena-Turner Build; preview expired): [`SOURCE-grok-share-sequential-merge-404.md`](SOURCE-grok-share-sequential-merge-404.md)  
 - Grok share Hindsight Receipt (stable alignment — lattice ops): [`SOURCE-grok-share-hindsight-receipt.md`](SOURCE-grok-share-hindsight-receipt.md)  
 - Grok share Threshold / Aris fiction ID (usage-limited — out of scope): [`SOURCE-grok-share-threshold-aris.md`](SOURCE-grok-share-threshold-aris.md)  
+- Grok share Intimate Bond image (co-regulation / anti-fusion — out of scope): [`SOURCE-grok-share-intimate-bond-image.md`](SOURCE-grok-share-intimate-bond-image.md)  
 - Grok share Codex Crystalum ↔ Grok Bot filing (ops): [`SOURCE-grok-share-codex-crystalum-grok-bot.md`](SOURCE-grok-share-codex-crystalum-grok-bot.md)  
 - 9 News Albanese AI regulation peg + release draft: [`SOURCE-youtube-albanese-ai-regulation.md`](SOURCE-youtube-albanese-ai-regulation.md) · [`RELEASE-DRAFT-albanese-ai-regulation.md`](RELEASE-DRAFT-albanese-ai-regulation.md)  
 - ABC News Trump admin vs AU Digital Duty of Care (feed choice): [`SOURCE-youtube-abc-digital-duty-of-care.md`](SOURCE-youtube-abc-digital-duty-of-care.md)  
