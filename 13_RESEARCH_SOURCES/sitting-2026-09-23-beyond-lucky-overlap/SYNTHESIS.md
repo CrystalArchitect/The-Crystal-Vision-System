@@ -32,6 +32,7 @@ flowchart TB
     ManusMCP[Manus MCP GitHub scan]
     ManusGene[Manus genealogy — other product]
     ManusCRT[Manus we1.crt — noise]
+    Mythos[CrystalCore.OS launch maps mythos]
   end
   subgraph other [Other actor]
     BL[Richardson Beyond Lucky Pulse]
@@ -43,6 +44,7 @@ flowchart TB
   Aero --> Grok
   FS --> TA
   TA --> ManusEgg
+  TA --> Mythos
   ManusMCP -.->|CrystalArchitect org| TA
   BL -.->|thematic rhyme only| FS
 ```
@@ -86,6 +88,13 @@ flowchart TB
 | [`SOURCE-manus-share-we1-crt.md`](SOURCE-manus-share-we1-crt.md) | PKI decode only |
 | [`SOURCE-manus-share-website-analysis-genealogy.md`](SOURCE-manus-share-website-analysis-genealogy.md) | Genealogy product + Aegir chrome only |
 | [`ADDENDUM-uploaded-corpus-triage.md`](ADDENDUM-uploaded-corpus-triage.md) | What’s in / out of the upload dump |
+
+### E. Mythos / visual OS layer (branded CrystalCore.OS — not Richardson text)
+
+| Piece | Role |
+| --- | --- |
+| [`ADDENDUM-visual-crystalcore-mythos.md`](ADDENDUM-visual-crystalcore-mythos.md) | 56-frame dump triage; launch-map grammar (EARTH AUS → Mars → Alpha Centauri → Colossus) |
+| [`visual-corpus/`](visual-corpus/) | Copied receipts: four launch maps + persona stills |
 
 ---
 
@@ -144,7 +153,7 @@ Plagiarism allegation. Evidence does not support it.
 
 ## 7. What “all together” means in one paragraph
 
-**TerAustralis** is the thesis and the map. **SpaceNews + After the radar** are the public spine. **Aerotropolis / Westmead / Grok Hall** are the sited compute receipts Richardson’s Pulse lacks. **CrystalCore.OS on TerAustralis.com.au** is the live console. **CrystalArchitect repos / MCP Manus share** are the software org around that console. **Manus easter-egg / Aegir** is fiction skin on the OS. **Genealogy Manus + we1.crt** are other threads — keep them out of the Beyond Lucky reply. **Richardson** is a late arrival in the slogan neighbourhood with a resources-industry essay machine (Horne, Mt Isa, METS, Unit 8200, Norway fund). Your move is to **own the earlier, denser, sited record** — not to litigate theft.
+**TerAustralis** is the thesis and the map. **SpaceNews + After the radar** are the public spine. **Aerotropolis / Westmead / Grok Hall** are the sited compute receipts Richardson’s Pulse lacks. **CrystalCore.OS on TerAustralis.com.au** is the live console. **CrystalArchitect repos / MCP Manus share** are the software org around that console. **Launch maps + persona stills** are the branded mythos layer (EARTH AUS first echo → Mars → Alpha Centauri → Colossus). **Manus easter-egg / Aegir** is fiction skin on the OS. **Genealogy Manus + we1.crt** are other threads — keep them out of the Beyond Lucky reply. **Richardson** is a late arrival in the slogan neighbourhood with a resources-industry essay machine (Horne, Mt Isa, METS, Unit 8200, Norway fund). Your move is to **own the earlier, denser, sited record** — not to litigate theft.
 
 ---
 

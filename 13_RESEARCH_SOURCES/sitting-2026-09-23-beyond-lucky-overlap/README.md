@@ -34,3 +34,8 @@
 | Unified MCP / GitHub CrystalArchitect | [`SOURCE-manus-share-mcp-api-dev.md`](SOURCE-manus-share-mcp-api-dev.md) | Dev-stack provenance |
 | Genealogy site analysis | [`SOURCE-manus-share-website-analysis-genealogy.md`](SOURCE-manus-share-website-analysis-genealogy.md) | Weak / other product |
 | we1.crt decode | [`SOURCE-manus-share-we1-crt.md`](SOURCE-manus-share-we1-crt.md) | Out of scope |
+
+## Visual / mythos layer
+
+- CrystalCore.OS launch maps + persona dump: [`ADDENDUM-visual-crystalcore-mythos.md`](ADDENDUM-visual-crystalcore-mythos.md)  
+- Receipts: [`visual-corpus/`](visual-corpus/)
