@@ -204,6 +204,8 @@ These are **parallel conclusions in a crowded genre**. They are not identical se
 2. Confirm whether Richardson / Aurecon appeared in any of your outreach logs (pathway tracker, correspondence drawers).
 3. Decide publicly: comment, sequel SpaceNews/LinkedIn, or ledger-only.
 
+**Unified map of this sitting (briefs + Grok + Manus surfaces + reply draft):** [`SYNTHESIS.md`](SYNTHESIS.md)
+
 ---
 
 *Built claim for this file: research sitting over public sources + this monorepo. Not legal advice. Not an accusation of plagiarism.*
