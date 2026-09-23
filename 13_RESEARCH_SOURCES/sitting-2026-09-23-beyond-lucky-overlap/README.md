@@ -34,7 +34,8 @@
 - Claude artifact Hozmb… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-hozmb-gated.md`](SOURCE-claude-artifact-hozmb-gated.md)  
 - Claude artifact 2VWLx… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-2vwl-gated.md`](SOURCE-claude-artifact-2vwl-gated.md)  
 - Claude artifact CRFak… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-crfak-gated.md`](SOURCE-claude-artifact-crfak-gated.md)  
-- Claude artifact ESsPu… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-esspu-gated.md`](SOURCE-claude-artifact-esspu-gated.md)
+- Claude artifact ESsPu… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-esspu-gated.md`](SOURCE-claude-artifact-esspu-gated.md)  
+- Claude artifact 6yXx… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-6yxx-gated.md`](SOURCE-claude-artifact-6yxx-gated.md)
 
 ## Manus shares (triaged)
 
