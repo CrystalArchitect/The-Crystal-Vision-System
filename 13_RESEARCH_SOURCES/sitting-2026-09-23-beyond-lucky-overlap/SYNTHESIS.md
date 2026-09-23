@@ -104,6 +104,17 @@ flowchart TB
 | [`SOURCE-manus-share-we1-crt.md`](SOURCE-manus-share-we1-crt.md) | PKI decode only |
 | [`SOURCE-manus-share-website-analysis-genealogy.md`](SOURCE-manus-share-website-analysis-genealogy.md) | Genealogy product + Aegir chrome only |
 | [`ADDENDUM-uploaded-corpus-triage.md`](ADDENDUM-uploaded-corpus-triage.md) | What’s in / out of the upload dump |
+| [`SOURCE-pdf-academy-charter-101-thinkers.md`](SOURCE-pdf-academy-charter-101-thinkers.md) | Academy Charter 101 Thinkers / Train ed. — Aerotropolis/Academy partial; mythos compost |
+| [`SOURCE-starlink-education-academy.md`](SOURCE-starlink-education-academy.md) | Starlink education landscape — remote schools pipe for Academy ascent |
+| [`ADDENDUM-starlink-academy-ascent.md`](ADDENDUM-starlink-academy-ascent.md) | Starlink = pipe; Academy = crew charter; no Starfleet OS |
+| [`ADDENDUM-academy-brand-faces.md`](ADDENDUM-academy-brand-faces.md) | Working name: Starfleet Academy — Kangaroo Division; Fantastic Beasts animal cohorts |
+| [`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md) | Movement door: Witness/Builder/Feeder/Cadet; interest→role→receipt→gate |
+| [`ADDENDUM-movement-tone-make-him-cry.md`](ADDENDUM-movement-tone-make-him-cry.md) | Emotional north star: moved by receipts, not harassment |
+| [`SOURCE-ci-vercel-rate-limit-pr50.md`](SOURCE-ci-vercel-rate-limit-pr50.md) | PR #50 red checks = Hobby deploy quota, not app failure |
+| [`SOURCE-pdf-kangaroo-class-pitch.md`](SOURCE-pdf-kangaroo-class-pitch.md) | Kangaroo-class pitch 6 Sep 2026 — Access/Stay/Build/Crew BD face |
+| [`SOURCE-pdf-kangaroo-class-brief-1p.md`](SOURCE-pdf-kangaroo-class-brief-1p.md) | Kangaroo 1-pager SpaceX/SpaceXAI ask |
+| [`SOURCE-pdf-ops-notion-canonical.md`](SOURCE-pdf-ops-notion-canonical.md) | Ops Notion pointer — out of Pulse scope |
+| [`MANUS-BRIEF-tiktok-remakes-hub-rebuild.md`](MANUS-BRIEF-tiktok-remakes-hub-rebuild.md) | Paste-ready Manus brief to rebuild remake hub copy/look |
 | [`SOURCE-coreflow-dev.md`](SOURCE-coreflow-dev.md) | Sydney AI entertainment hire site — name-adjacent only, not CrystalCore |
 | [`SOURCE-linkedin-lunar-regolith-al-aseeri.md`](SOURCE-linkedin-lunar-regolith-al-aseeri.md) | Lunar ISRU LinkedIn post — genre neighbour, not Richardson/TerAustralis overlap |
 | [`SOURCE-claude-artifact-protocol-omega.md`](SOURCE-claude-artifact-protocol-omega.md) | Personal boundaries practice — out of scope for overlap matrix |
@@ -120,6 +131,9 @@ flowchart TB
 | [`SOURCE-grok-share-codex-crystalum-grok-bot.md`](SOURCE-grok-share-codex-crystalum-grok-bot.md) | Dictionary of Dreams → Codex Crystalum / Grok Bot pointers; Crockpot mishear fixed; GitHub Codex weight 0 |
 | [`SOURCE-x-xfreeze-musk-education-ai.md`](SOURCE-x-xfreeze-musk-education-ai.md) | XFreeze clip: Musk on broad education / know what to ask the robots — landscape neighbour |
 | [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) | Taxi: SWF→LLM custodians prophecy — steal grammar only |
+| [`SOURCE-dream-rsi-landscape.md`](SOURCE-dream-rsi-landscape.md) | Dream-RSI — RSI via replay “dreams”; weights fixed; thought/field read |
+| [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md) | Wanted learning path: Record→Pool→Dream→Receipt→Gate (not vendor clone) |
+| [`DREAMING-CIRCLES-FIELD-SHEET.md`](DREAMING-CIRCLES-FIELD-SHEET.md) | Circle anatomy + first remake-hub circle |
 | [`DRAFT-ghi-from-aihegemony-grammar.md`](DRAFT-ghi-from-aihegemony-grammar.md) | Remake as Universal/Global High Income under human gate — not LLM-owned AUM |
 | [`SOURCE-claude-artifact-remaining-work.md`](SOURCE-claude-artifact-remaining-work.md) | aeon-atlas / Sceptre Atlas priority matrix — agent-ops, not Pulse overlap |
 | [`SOURCE-claude-artifact-aeon-atlas-roadmap.md`](SOURCE-claude-artifact-aeon-atlas-roadmap.md) | aeon-atlas production phases (notify → Sunday AEST run → memory → expand) |
@@ -129,7 +143,12 @@ flowchart TB
 | Piece | Role |
 | --- | --- |
 | [`ADDENDUM-visual-crystalcore-mythos.md`](ADDENDUM-visual-crystalcore-mythos.md) | 56-frame dump triage; launch-map grammar (EARTH AUS → Mars → Alpha Centauri → Colossus) |
-| [`visual-corpus/`](visual-corpus/) | Copied receipts: four launch maps + persona stills |
+| [`ADDENDUM-cosmology-modes-circles.md`](ADDENDUM-cosmology-modes-circles.md) | Music Theory Tree → seven modes as circle stances (vision only) |
+| [`ADDENDUM-dreamtime-cosmology.md`](ADDENDUM-dreamtime-cosmology.md) | Dreamtime ≠ Dreaming Circles; honour Country; ceremony ≠ runtime |
+| [`SOURCE-music-theory-tree-modes.md`](SOURCE-music-theory-tree-modes.md) | Heptagon C-major modes image + sitting read |
+| [`SOURCE-ai-system-brief-2026-09-10.md`](SOURCE-ai-system-brief-2026-09-10.md) | AI seat handoff brief (Incognita / three-layer) |
+| [`SOURCE-fc07-decentralised-intelligence-csv.md`](SOURCE-fc07-decentralised-intelligence-csv.md) | FC07 edge/compute BOM scrape — neighbour, not Pulse |
+| [`visual-corpus/`](visual-corpus/) | Copied receipts: four launch maps + persona stills + Music Theory Tree |
 | [`SOURCE-claude-artifact-crystalcore-os-console.md`](SOURCE-claude-artifact-crystalcore-os-console.md) | CrystalCore.OS v1.7.9 interactive console — Australia Prime / Mars relay mythos UI |
 | [`SOURCE-cursor-agent-agents-availability.md`](SOURCE-cursor-agent-agents-availability.md) | Sibling Cursor run: Silent Line AU voice, Ember/CrystalCore gate, Lemuria PR #42 (creative only) |
 | [`SOURCE-cursor-agent-task-definition.md`](SOURCE-cursor-agent-task-definition.md) | Sibling Cursor run: Models think / TAI acts / CrystalCore governs; Kangaroo Division Vision; No Starfleet OS |

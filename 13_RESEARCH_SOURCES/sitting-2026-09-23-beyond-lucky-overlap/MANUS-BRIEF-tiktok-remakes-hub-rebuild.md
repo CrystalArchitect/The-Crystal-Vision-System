@@ -2,7 +2,7 @@
 
 **Hand this whole file to Manus.** Goal: rebuild the public remake hub so it is readable, branded, and not a thin dark card list.
 
-**Live (temporary):** https://tiktok-remakes.vercel.app  
+**Live (temporary):** https://crystal-tiktok-remakes.vercel.app  
 **Brand home:** https://www.teraustralis.com.au (CrystalCore.OS) — remakes should eventually live under this brand, not look like a random Vercel experiment.  
 **Repo path:** `13_RESEARCH_SOURCES/sitting-2026-09-23-beyond-lucky-overlap/tiktok-replica/`
 
@@ -14,7 +14,7 @@
 Rebuild the TikTok remakes hub as a proper TerAustralis / CrystalCore surface.
 
 PROBLEM
-The live hub at https://tiktok-remakes.vercel.app looks unfinished: dark monospace card dump, titles that don’t explain what you’re opening, no brand, no “what this is / what it isn’t,” and local-server instructions leaking onto a phone page.
+The live hub at https://crystal-tiktok-remakes.vercel.app looks unfinished: dark monospace card dump, titles that don’t explain what you’re opening, no brand, no “what this is / what it isn’t,” and local-server instructions leaking onto a phone page.
 
 WHAT THIS SITE IS
 A phone-friendly index of 12 HTML shells. Each shell is a 9:16 format remake of a public TikTok style (news chyron, kinetic type, night-sky, etc.) for screen-recording. They are landscape / format references for a research sitting — NOT Beyond Lucky text overlap, NOT the original creators’ videos, NOT CrystalCore.OS itself.
