@@ -104,6 +104,7 @@ flowchart TB
 | [`SOURCE-grok-share-crystalum-riptide.md`](SOURCE-grok-share-crystalum-riptide.md) | Grok share: Crystalum singing-clone + Live Lounge Riptide performance — out of scope for Beyond Lucky |
 | [`SOURCE-grok-share-crystalum-ai-actor.md`](SOURCE-grok-share-crystalum-ai-actor.md) | Parent Grok share: AI Actor Singer / Crystalum four-layer design — out of scope; architecture-only ask usage-limited |
 | [`SOURCE-grok-share-grok46-letter-ai-limits.md`](SOURCE-grok-share-grok46-letter-ai-limits.md) | Multi-model fence-discipline letter lab (Never Ever/Heaven/Mouth…); refuses Colossus interiors; later Coxon/AI-regulation QT analysis — out of Pulse scope |
+| [`SOURCE-grok-share-you-only-get-what-you-give.md`](SOURCE-grok-share-you-only-get-what-you-give.md) | New Radicals narrative + Div 272 / Event Number / NCAT map; mythos echoes only — out of Pulse scope (lyrics redacted in corpus) |
 | [`SOURCE-claude-artifact-remaining-work.md`](SOURCE-claude-artifact-remaining-work.md) | aeon-atlas / Sceptre Atlas priority matrix — agent-ops, not Pulse overlap |
 | [`SOURCE-claude-artifact-aeon-atlas-roadmap.md`](SOURCE-claude-artifact-aeon-atlas-roadmap.md) | aeon-atlas production phases (notify → Sunday AEST run → memory → expand) |
 
