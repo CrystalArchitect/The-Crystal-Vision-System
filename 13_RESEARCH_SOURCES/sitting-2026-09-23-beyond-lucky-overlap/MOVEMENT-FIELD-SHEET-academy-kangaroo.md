@@ -13,7 +13,7 @@ Not only a SpaceX diligence one-pager.
 
 **Starfleet Academy — Kangaroo Division** is the **public face of a southern crew movement**: people who want Australia to leave capability (pads, skills, compute, care), not just dig-and-ship royalties — and who want a place to **join** before Hollywood invents the story for them.
 
-Harry Potter grammar (maybe) = how *younger* joiners feel houses/years. Trek/Kangaroo = how *industrial* partners hear shipyard + Academy. Same movement, two skins.
+Harry Potter grammar dropped. **Fantastic Beasts animal cohorts** (maybe) = how younger joiners feel tribes. Trek/Kangaroo = how industrial partners hear shipyard + Academy. Same movement, two skins.
 
 ---
 
@@ -62,7 +62,7 @@ No silent “you’re in the movement” by vibe. Consent on record.
 2. **Interest ledger** — names + role wanted + consent; not a public member list  
 3. **First three Witness cards** — what to read / watch / don’t claim  
 4. **First Builder ask** — one remake or one one-pager appendix (Starlink under Comms), not “help build the OS”  
-5. **House names later** — only after Crystal picks AU cohort names; Potter structure optional  
+5. **Cohort names later** — Fantastic Beasts *animals* as provisional cohort energy; Crystal stamps public names (AU fauna OK). See [`ADDENDUM-academy-brand-faces.md`](ADDENDUM-academy-brand-faces.md)  
 6. **Tone:** make them cry *with the work* — [`ADDENDUM-movement-tone-make-him-cry.md`](ADDENDUM-movement-tone-make-him-cry.md)
 
 ---

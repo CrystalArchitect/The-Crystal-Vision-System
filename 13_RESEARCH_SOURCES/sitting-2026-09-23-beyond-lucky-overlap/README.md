@@ -23,7 +23,7 @@
 - Uploaded corpus triage: [`ADDENDUM-uploaded-corpus-triage.md`](ADDENDUM-uploaded-corpus-triage.md)  
 - PDF Academy Charter 101 Thinkers (partial — Aerotropolis/Academy): [`SOURCE-pdf-academy-charter-101-thinkers.md`](SOURCE-pdf-academy-charter-101-thinkers.md)  
 - Starlink × education → Academy ascent: [`SOURCE-starlink-education-academy.md`](SOURCE-starlink-education-academy.md) · [`ADDENDUM-starlink-academy-ascent.md`](ADDENDUM-starlink-academy-ascent.md)  
-- Academy brand faces (Starfleet Academy Kangaroo Division · Potter grammar maybe): [`ADDENDUM-academy-brand-faces.md`](ADDENDUM-academy-brand-faces.md)  
+- Academy brand faces (Starfleet Academy Kangaroo Division · Fantastic Beasts cohorts): [`ADDENDUM-academy-brand-faces.md`](ADDENDUM-academy-brand-faces.md)  
 - Movement door (people wanting in): [`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md)  
 - Movement tone (cry with the work): [`ADDENDUM-movement-tone-make-him-cry.md`](ADDENDUM-movement-tone-make-him-cry.md)  
 - PR #50 CI (Vercel Hobby rate limit): [`SOURCE-ci-vercel-rate-limit-pr50.md`](SOURCE-ci-vercel-rate-limit-pr50.md)  

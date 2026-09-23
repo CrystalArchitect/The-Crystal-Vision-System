@@ -1,10 +1,10 @@
-# Academy brand faces — Starfleet Academy Kangaroo Division · or Harry Potter frame
+# Academy brand faces — Starfleet Academy Kangaroo Division · Fantastic Beasts cohorts
 
 **Canon:** **no** · Vision labelled vision  
-**Trigger:** User — “It’s starfleet Academy kangaroo division. Or we could do something Harry Potter maybe.”  
+**Trigger:** User — Harry Potter maybe → **rather Fantastic Beasts animal names / somewhere to find them**  
 **Stack law unchanged:** **No Starfleet OS.** CrystalCore.OS governs. Kangaroo Division = pitch / Academy face only.
 
-**Purpose (user):** get a **movement** happening — other people already want involved. Brand exists so they have a door. See [`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md).
+**Purpose:** movement door for people who want in. See [`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md).
 
 ---
 
@@ -16,36 +16,44 @@
 | --- | --- |
 | **Starfleet Academy** | Crew school face (ADFA-style + Aerotropolis shore + Bowen field) |
 | **Kangaroo Division** | Already-stamped AU division callsign · NCC-992-AU fiction cover |
-| **Not** | An operating system · SpaceX MoU · Paramount / Trek license claim |
+| **Not** | An operating system · SpaceX MoU · Paramount / Trek / Warner license claim |
 
-Reads as: the Academy *is* the Kangaroo Division’s education face — same pack, clearer noun.
-
-Cross-ref: [`00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md`](../../00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md) · [`SOURCE-pdf-academy-charter-101-thinkers.md`](SOURCE-pdf-academy-charter-101-thinkers.md) · Starlink pipe: [`ADDENDUM-starlink-academy-ascent.md`](ADDENDUM-starlink-academy-ascent.md)
+Cross-ref: [`00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md`](../../00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md) · Starlink pipe: [`ADDENDUM-starlink-academy-ascent.md`](ADDENDUM-starlink-academy-ascent.md)
 
 ---
 
-## Alternate face — Harry Potter grammar (maybe)
+## Creative twin — Fantastic Beasts animals (cohorts)
 
-Steal **structure**, not trademarks.
+Steal **creature energy**, not trademarks. Potter *houses* dropped in favour of **beast cohorts** — Newt’s grammar: find them, care for them, don’t seize them.
 
-| Potter grammar (taxi) | Kangaroo Academy read |
-| --- | --- |
-| School of magic → school of craft | Academy of crew / pad / lattice |
-| Houses | Cohorts / tracks (e.g. Shore · Sea · Sky · Gate) — **AU names only**, invent later under Crystal stamp |
-| Sorting | Intake + consent + aptitude — human gate, not AI destiny |
-| Years 1–7 | Cadet bands toward Phase-2 ~100 cohort |
-| Common room | Dreaming circle / sim bay (ops metaphor — not Dreamtime) |
-| Forbidden forest | Out-of-bounds: Starfleet OS, warp, false MoU |
-| Owl post | Starlink / Telstra last-mile pipe |
+### Provisional cohort map (Vision — Crystal stamps final names)
 
-### Hard compost
+| Beast (inspiration) | Trait to steal | Academy track read |
+| --- | --- | --- |
+| **Niffler** | Finds shiny; pouch of receipts | Builders / remake hunters / evidence gatherers |
+| **Occamy** | Grows or shrinks to fit the space | Adapters / dual-campus / Starlink remote seats |
+| **Thunderbird** | Wings make weather; senses danger | Shore / pad / launch-corridor ops |
+| **Bowtruckle** | Tree guardian; small, precise | Care / Country-adjacent / consent keepers |
+| **Demiguise** | Sees what’s coming; quiet | Scouts / dreaming-circle receipt writers |
+| **Erumpent** | Thick hide; friendly until crowded | Heavy industry / materials / Titomic-neighbour builders |
+| **Graphorn** | Rare pair; hard to breed | Elder / Crystal-adjacent mentors (few) |
+| **Zouwu** | Far-traveller; long range | Feeder / Bowen–Sydney corridor runners |
 
-- No Hogwarts / Harry Potter / Warner / Wizarding World in product names, domains, or APIs  
-- No house crests copied from IP  
-- No “you're a wizard” recruitment copy that implies licensed IP  
-- Mythos chrome OK in private recruitment fiction; public pitch stays **Starfleet Academy — Kangaroo Division** or plain **Academy Australia** until Crystal picks
+*Somewhere to find them* = the movement’s promise: cohorts are **found on Country / campus / Starlink**, not summoned from a northern studio.
 
-Potter face = **recruitment skin / film grammar** for cadets who grew up on houses and years. Primary BD face to SpaceX / ASA stays Trek-adjacent industrial (shipyard + Academy), already in the Kangaroo pack.
+### AU “find them” echo (public-safe rename path)
+
+If Warner names stay taxi-only, Crystal can stamp **AU fauna** with the same traits later (e.g. platypus ↔ niffler-shine, wedge-tail ↔ thunderbird-sky, goanna ↔ erumpent-hide). Kangaroo Division already owns the marsupial keystone.
+
+---
+
+## Hard compost
+
+- No **Fantastic Beasts / Harry Potter / Hogwarts / Warner / Wizarding World** in domains, APIs, product SKUs, or diligence PDFs  
+- Beast names OK as **private recruitment mythos** until Crystal stamps public cohort names  
+- No Newt / Scamander cosplay as affiliation with Warner or JKR  
+- Public BD face stays **Starfleet Academy — Kangaroo Division**  
+- Care for beasts ≠ claim Dreamtime / songline law  
 
 ---
 
@@ -54,16 +62,16 @@ Potter face = **recruitment skin / film grammar** for cadets who grew up on hous
 | Audience | Face |
 | --- | --- |
 | SpaceX / SpaceXAI / ASA / diligence | **Starfleet Academy — Kangaroo Division** |
-| People who want to join / movement | Same name + Witness/Builder/Feeder on-ramps ([`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md)) |
-| Youth / feeder / remake / TikTok | Optional Potter-*structure* skin (unnamed houses) or plain Academy |
+| People who want to join / movement | Same + Witness/Builder/Feeder ([`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md)) |
+| Youth / remake / TikTok | Fantastic Beasts **animal cohorts** (private) or AU fauna echoes (public) |
 | Runtime / code / bots | Neither — CrystalCore.OS + TAI + Chaos |
 
 ---
 
-## One-line stamp (until Crystal chooses otherwise)
+## One-line stamp
 
-> Public Academy name: **Starfleet Academy — Kangaroo Division**.  
-> Optional creative twin: Harry Potter *grammar* only — no licensed names.  
+> Public: **Starfleet Academy — Kangaroo Division**.  
+> Creative twin: Fantastic Beasts **animals as cohorts** — find them, don’t seize them; Warner names taxi-only until Crystal stamps.  
 > **No Starfleet OS.**
 
-*Crew before Hollywood. Brand ≠ kernel.*
+*Crew before Hollywood. Beasts before houses. Brand ≠ kernel.*

@@ -107,7 +107,7 @@ flowchart TB
 | [`SOURCE-pdf-academy-charter-101-thinkers.md`](SOURCE-pdf-academy-charter-101-thinkers.md) | Academy Charter 101 Thinkers / Train ed. — Aerotropolis/Academy partial; mythos compost |
 | [`SOURCE-starlink-education-academy.md`](SOURCE-starlink-education-academy.md) | Starlink education landscape — remote schools pipe for Academy ascent |
 | [`ADDENDUM-starlink-academy-ascent.md`](ADDENDUM-starlink-academy-ascent.md) | Starlink = pipe; Academy = crew charter; no Starfleet OS |
-| [`ADDENDUM-academy-brand-faces.md`](ADDENDUM-academy-brand-faces.md) | Working name: Starfleet Academy — Kangaroo Division; Potter grammar alternate |
+| [`ADDENDUM-academy-brand-faces.md`](ADDENDUM-academy-brand-faces.md) | Working name: Starfleet Academy — Kangaroo Division; Fantastic Beasts animal cohorts |
 | [`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md) | Movement door: Witness/Builder/Feeder/Cadet; interest→role→receipt→gate |
 | [`ADDENDUM-movement-tone-make-him-cry.md`](ADDENDUM-movement-tone-make-him-cry.md) | Emotional north star: moved by receipts, not harassment |
 | [`SOURCE-ci-vercel-rate-limit-pr50.md`](SOURCE-ci-vercel-rate-limit-pr50.md) | PR #50 red checks = Hobby deploy quota, not app failure |
