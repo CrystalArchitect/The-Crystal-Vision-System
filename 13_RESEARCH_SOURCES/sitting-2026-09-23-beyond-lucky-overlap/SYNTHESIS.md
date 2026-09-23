@@ -172,7 +172,8 @@ Plagiarism allegation. Evidence does not support it.
 1. Author ungated SpaceNews text → string-diff lock.  
 2. Outreach log check: did Richardson / Aurecon appear in pathway tracker?  
 3. Ship option B (comment or short LinkedIn / steward post).  
-4. If desired: one steward page that is literally this synthesis for humans (not the research folder).
+4. If desired: one steward page that is literally this synthesis for humans (not the research folder).  
+5. Ungate or paste Claude artifact `HozmbRxTwqdQ1rixHyrCpy` — currently sign-in only; see [`SOURCE-claude-artifact-hozmb-gated.md`](SOURCE-claude-artifact-hozmb-gated.md).
 
 ---
 
