@@ -83,6 +83,7 @@ Working name for one offline pass: a **dreaming circle**.
 - Circle = one pool slice + one policy rewrite attempt + one receipt  
 - Circles do not stack into canon without a stamp  
 - Parallel circles OK (Chaos fan-out); verdict still Crystal’s  
+- **Not Dreamtime.** Do not fuse the name with Indigenous Dreaming / Songline law — see [`ADDENDUM-dreamtime-cosmology.md`](ADDENDUM-dreamtime-cosmology.md)
 
 **Run pack:** [`DREAMING-CIRCLES-FIELD-SHEET.md`](DREAMING-CIRCLES-FIELD-SHEET.md)  
 **First worked circle:** [`DREAMING-CIRCLE-DC-2026-09-23-remake-hub.md`](DREAMING-CIRCLE-DC-2026-09-23-remake-hub.md)
@@ -95,6 +96,7 @@ Working name for one offline pass: a **dreaming circle**.
 - No weight fine-tune as the learning story  
 - No auto-promotion of mythos trees into product routing  
 - No “Dream-RSI” trademark / copy of Google’s harness  
+- No Dreamtime / Songline as runtime, API, or product name  
 
 ---
 

@@ -28,6 +28,8 @@ This is the same physics Different Shores already speaks:
 Modes = orientations. Shores = cups. Scale = becoming.  
 **Seven modes does not mean seven universes.** It means seven honest ways to stand in one field.
 
+**And Dreamtime:** living Indigenous cosmologies are the deep-time neighbour Crystal may honour, never own or run. Separate word from Dreaming Circles. See [`ADDENDUM-dreamtime-cosmology.md`](ADDENDUM-dreamtime-cosmology.md).
+
 ---
 
 ## Dreaming Circles (ops face of the same map)

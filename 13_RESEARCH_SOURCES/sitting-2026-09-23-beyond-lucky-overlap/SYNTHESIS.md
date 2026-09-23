@@ -138,6 +138,7 @@ flowchart TB
 | --- | --- |
 | [`ADDENDUM-visual-crystalcore-mythos.md`](ADDENDUM-visual-crystalcore-mythos.md) | 56-frame dump triage; launch-map grammar (EARTH AUS → Mars → Alpha Centauri → Colossus) |
 | [`ADDENDUM-cosmology-modes-circles.md`](ADDENDUM-cosmology-modes-circles.md) | Music Theory Tree → seven modes as circle stances (vision only) |
+| [`ADDENDUM-dreamtime-cosmology.md`](ADDENDUM-dreamtime-cosmology.md) | Dreamtime ≠ Dreaming Circles; honour Country; ceremony ≠ runtime |
 | [`SOURCE-music-theory-tree-modes.md`](SOURCE-music-theory-tree-modes.md) | Heptagon C-major modes image + sitting read |
 | [`SOURCE-ai-system-brief-2026-09-10.md`](SOURCE-ai-system-brief-2026-09-10.md) | AI seat handoff brief (Incognita / three-layer) |
 | [`SOURCE-fc07-decentralised-intelligence-csv.md`](SOURCE-fc07-decentralised-intelligence-csv.md) | FC07 edge/compute BOM scrape — neighbour, not Pulse |
