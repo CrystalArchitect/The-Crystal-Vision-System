@@ -34,6 +34,14 @@ Open [`australia-first-eufta.html`](australia-first-eufta.html) → Fullscreen 9
 
 Paddock dusk + slam kinetic type. No creator marks; caption paraphrased.
 
+## 6. Agents escape sandbox (terminal kinetic)
+
+**Source:** https://vt.tiktok.com/ZSb1d2H2N/ → `@jadedsoldier117`  
+
+Open [`agents-escape-sandbox.html`](agents-escape-sandbox.html) → Fullscreen 9:16 → screen-record.
+
+Sandbox grid + vanishing agents. No creator marks; caption paraphrased.
+
 ## Sitting note
 
 Landscape / format references only — **not** Beyond Lucky text overlap.
