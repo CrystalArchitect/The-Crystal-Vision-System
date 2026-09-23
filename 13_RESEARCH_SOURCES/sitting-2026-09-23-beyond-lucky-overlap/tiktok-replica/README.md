@@ -50,6 +50,14 @@ Open [`ai-cloning-centers-fiction.html`](ai-cloning-centers-fiction.html) → Fu
 
 Horror corridor + fiction banner. No creator marks; caption paraphrased.
 
+## 8. Multi-planetary tonnage (quote / motivation)
+
+**Source:** https://vt.tiktok.com/ZSb1RTfPB/ → `@x.socialmedia`  
+
+Open [`multiplanetary-tonnage.html`](multiplanetary-tonnage.html) → Fullscreen 9:16 → screen-record.
+
+Orbital Mars + quote beats. No corporate marks; caption paraphrased.
+
 ## Sitting note
 
 Landscape / format references only — **not** Beyond Lucky text overlap.

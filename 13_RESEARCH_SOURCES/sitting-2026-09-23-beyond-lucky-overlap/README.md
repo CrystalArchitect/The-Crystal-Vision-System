@@ -74,7 +74,8 @@
 - TikTok ABC7 Altman singularity: [`SOURCE-tiktok-abc7-altman-singularity.md`](SOURCE-tiktok-abc7-altman-singularity.md) · remake [`tiktok-replica/altman-singularity-news.html`](tiktok-replica/altman-singularity-news.html)  
 - TikTok LoveMyAu2 EU FTA / Australia First: [`SOURCE-tiktok-lovemyau-eufta.md`](SOURCE-tiktok-lovemyau-eufta.md) · remake [`tiktok-replica/australia-first-eufta.html`](tiktok-replica/australia-first-eufta.html)  
 - TikTok JadedSoldier agents escape sandbox: [`SOURCE-tiktok-jadedsoldier-agents-escape.md`](SOURCE-tiktok-jadedsoldier-agents-escape.md) · remake [`tiktok-replica/agents-escape-sandbox.html`](tiktok-replica/agents-escape-sandbox.html)  
-- TikTok DoctorFiction AI cloning centers (creepypasta): [`SOURCE-tiktok-doctafiction-cloning-centers.md`](SOURCE-tiktok-doctafiction-cloning-centers.md) · remake [`tiktok-replica/ai-cloning-centers-fiction.html`](tiktok-replica/ai-cloning-centers-fiction.html)
+- TikTok DoctorFiction AI cloning centers (creepypasta): [`SOURCE-tiktok-doctafiction-cloning-centers.md`](SOURCE-tiktok-doctafiction-cloning-centers.md) · remake [`tiktok-replica/ai-cloning-centers-fiction.html`](tiktok-replica/ai-cloning-centers-fiction.html)  
+- TikTok x.socialmedia multi-planetary tonnage: [`SOURCE-tiktok-xsocial-multiplanetary.md`](SOURCE-tiktok-xsocial-multiplanetary.md) · remake [`tiktok-replica/multiplanetary-tonnage.html`](tiktok-replica/multiplanetary-tonnage.html)
 
 ## Sibling Cursor agents
 
