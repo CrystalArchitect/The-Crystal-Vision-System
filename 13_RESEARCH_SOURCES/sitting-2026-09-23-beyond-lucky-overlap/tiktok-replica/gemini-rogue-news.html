@@ -3,115 +3,244 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>TikTok remake — Gemini rogue (news chyron)</title>
+  <title>TikTok remake — Gemini rogue (broadcast package)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=IBM+Plex+Sans:wght@400;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --navy: #04162e;
-      --blue: #0a2f5c;
-      --red: #e10600;
-      --amber: #ffc72c;
-      --fg: #f7f9fc;
-      --muted: #b7c3d6;
+      --navy: #032048;
+      --deep: #01122a;
+      --red: #d70015;
+      --gold: #f0c14b;
+      --fg: #ffffff;
+      --mute: #c5d2e6;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    html, body { min-height: 100%; background: #0b0d12; color: var(--fg); font-family: "IBM Plex Sans", system-ui, sans-serif; }
+    html, body { min-height: 100%; background: #0a0b10; color: var(--fg); font-family: "IBM Plex Sans", sans-serif; }
     body { min-height: 100vh; display: grid; place-items: center; padding: 1rem; }
     .wrap { display: flex; flex-direction: column; align-items: center; gap: 0.85rem; }
+
     .stage {
       position: relative;
       width: min(100vw - 2rem, 420px);
       aspect-ratio: 9 / 16;
       overflow: hidden;
-      border-radius: 18px;
-      background: radial-gradient(ellipse at 30% 20%, #123866 0%, var(--navy) 55%, #02080f 100%);
-      box-shadow: 0 30px 80px rgba(0,0,0,.55);
+      border-radius: 16px;
+      background: var(--deep);
+      box-shadow: 0 28px 70px rgba(0,0,0,.55);
     }
-    .grid {
+
+    /* Split: desk left / brand plate right — mirrors ABC package without network marks */
+    .split {
+      position: absolute;
+      inset: 0 0 28% 0;
+      display: grid;
+      grid-template-columns: 1.05fr 0.95fr;
+      gap: 2px;
+      background: #000;
+    }
+    .desk, .plate {
+      position: relative;
+      overflow: hidden;
+    }
+    .desk {
+      background:
+        radial-gradient(ellipse at 50% 0%, #1a4f8c 0%, transparent 55%),
+        linear-gradient(180deg, #0a3a6e 0%, #061f3d 55%, #031528 100%);
+    }
+    .desk::before {
+      content: "";
+      position: absolute;
+      inset: 18% 18% 28%;
+      background: linear-gradient(165deg, #d7b48a 0%, #9a7350 45%, #6d4f35 100%);
+      border-radius: 48% 48% 12% 12% / 40% 40% 18% 18%;
+      opacity: 0.92;
+      filter: blur(0.2px);
+    }
+    .desk::after {
+      content: "";
+      position: absolute;
+      left: 8%; right: 8%; bottom: 10%;
+      height: 34%;
+      background: linear-gradient(180deg, #0b2a4d, #05182e);
+      border-top: 2px solid rgba(255,255,255,0.18);
+      box-shadow: 0 -20px 40px rgba(0,40,80,0.35);
+    }
+    .mic {
+      position: absolute;
+      left: 50%; bottom: 36%;
+      width: 10px; height: 42px;
+      transform: translateX(-50%);
+      background: linear-gradient(#eee, #888);
+      border-radius: 4px;
+      z-index: 2;
+    }
+    .worldmap {
       position: absolute; inset: 0;
+      opacity: 0.18;
       background-image:
-        linear-gradient(rgba(255,255,255,0.04) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
-      background-size: 42px 42px;
-      mask-image: radial-gradient(ellipse at 50% 35%, #000 10%, transparent 75%);
-      opacity: 0.55;
+        radial-gradient(circle at 20% 40%, #fff 1px, transparent 1.5px),
+        radial-gradient(circle at 55% 30%, #fff 1px, transparent 1.5px),
+        radial-gradient(circle at 70% 60%, #fff 1px, transparent 1.5px),
+        radial-gradient(circle at 35% 70%, #fff 1px, transparent 1.5px);
+      background-size: 120px 90px;
     }
-    .orb {
-      position: absolute; width: 220px; height: 220px; border-radius: 50%;
-      right: -40px; top: 18%;
-      background: radial-gradient(circle at 35% 35%, #6ec8ff, #1a4f9c 55%, transparent 70%);
-      filter: blur(2px); opacity: 0.55;
-      animation: pulse 4.5s ease-in-out infinite;
+
+    .plate {
+      background:
+        radial-gradient(circle at 60% 40%, #7ad0ff 0%, #1b65c4 35%, #0b2f6a 70%, #061833 100%);
+      display: grid;
+      place-items: center;
     }
-    @keyframes pulse { 50% { transform: scale(1.08); opacity: 0.75; } }
-    .panel {
-      position: absolute; left: 6%; right: 6%; top: 14%;
-      border: 1px solid rgba(255,255,255,0.14);
-      background: linear-gradient(160deg, rgba(10,40,80,0.75), rgba(4,16,36,0.9));
-      border-radius: 14px;
-      padding: 1rem 1rem 1.1rem;
-      backdrop-filter: blur(6px);
+    .gem {
+      width: 58%;
+      aspect-ratio: 1;
+      position: relative;
+      filter: drop-shadow(0 10px 30px rgba(0,0,0,.35));
+      animation: float 5s ease-in-out infinite;
     }
-    .kicker {
-      display: inline-flex; align-items: center; gap: 0.45rem;
+    .gem svg { width: 100%; height: 100%; display: block; }
+    .gem-label {
+      position: absolute;
+      bottom: 14%;
+      left: 0; right: 0;
+      text-align: center;
       font-family: "Barlow Condensed", sans-serif;
-      font-weight: 800; letter-spacing: 0.12em; font-size: 0.95rem;
-      background: var(--red); color: #fff; padding: 0.28rem 0.55rem;
-      margin-bottom: 0.7rem;
+      font-weight: 800;
+      letter-spacing: 0.18em;
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.9);
     }
-    .kicker i { width: 7px; height: 7px; border-radius: 50%; background: #fff; animation: blink 1s steps(2) infinite; }
-    @keyframes blink { 50% { opacity: 0; } }
-    .date {
-      font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.14em;
-      color: var(--amber); text-transform: uppercase; margin-bottom: 0.45rem;
+    @keyframes float { 50% { transform: translateY(-8px); } }
+
+    .showbug {
+      position: absolute;
+      top: 3.5%;
+      left: 3.5%;
+      z-index: 5;
+      background: rgba(0, 20, 50, 0.78);
+      border-left: 3px solid var(--gold);
+      padding: 0.35rem 0.55rem 0.4rem;
+      backdrop-filter: blur(4px);
     }
-    .headline {
+    .showbug .net {
       font-family: "Barlow Condensed", sans-serif;
-      font-weight: 800; font-size: clamp(2.1rem, 9vw, 3.1rem);
-      line-height: 0.92; letter-spacing: 0.01em; text-transform: uppercase;
+      font-weight: 800;
+      font-size: 0.78rem;
+      letter-spacing: 0.14em;
+      color: var(--gold);
     }
-    .sub {
-      margin-top: 0.65rem; color: var(--muted); font-size: 0.92rem; line-height: 1.35;
+    .showbug .show {
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: 0.06em;
+      line-height: 1;
     }
+    .showbug .when {
+      font-family: "IBM Plex Mono", monospace;
+      font-size: 9px;
+      letter-spacing: 0.12em;
+      color: var(--mute);
+      margin-top: 0.15rem;
+    }
+
     .lower {
-      position: absolute; left: 0; right: 0; bottom: 0;
-      background: linear-gradient(180deg, transparent, rgba(0,0,0,0.55) 30%, #02060c 100%);
-      padding: 18% 6% 7%;
+      position: absolute;
+      left: 0; right: 0; bottom: 0;
+      height: 32%;
+      background: linear-gradient(180deg, transparent, rgba(1,10,24,0.55) 18%, #010b1a 48%);
+      z-index: 4;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 0 0 5.5%;
+    }
+
+    .breaking {
+      display: flex;
+      align-items: stretch;
+      margin: 0 3.5% 0.45rem;
+      box-shadow: 0 8px 28px rgba(0,0,0,.45);
+    }
+    .breaking .tag {
+      background: var(--red);
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      font-size: 0.95rem;
+      padding: 0.45rem 0.55rem;
+      display: grid;
+      place-items: center;
+      white-space: nowrap;
+    }
+    .breaking .tag i {
+      width: 7px; height: 7px; border-radius: 50%; background: #fff;
+      display: inline-block; margin-right: 0.35rem;
+      animation: blink 1s steps(2) infinite; vertical-align: middle;
+    }
+    @keyframes blink { 50% { opacity: 0; } }
+    .breaking .bar {
+      flex: 1;
+      background: #fff;
+      color: #0a1628;
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 800;
+      font-size: clamp(1.35rem, 5.8vw, 1.85rem);
+      letter-spacing: 0.02em;
+      line-height: 1;
+      padding: 0.45rem 0.65rem;
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+    }
+
+    .beats {
+      position: relative;
+      min-height: 4.6rem;
+      margin: 0 3.5%;
     }
     .beat {
-      opacity: 0; transform: translateY(16px);
-      transition: opacity .4s ease, transform .5s cubic-bezier(.2,.8,.2,1);
-      position: absolute; left: 6%; right: 6%; bottom: 12%;
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity .35s ease, transform .45s cubic-bezier(.2,.8,.2,1);
       pointer-events: none;
     }
-    .beat.active { opacity: 1; transform: none; pointer-events: auto; }
-    .chyron {
+    .beat.active { opacity: 1; transform: none; }
+    .line1 {
       font-family: "Barlow Condensed", sans-serif;
-      font-weight: 800; text-transform: uppercase;
-      font-size: clamp(1.55rem, 6.8vw, 2.15rem);
-      line-height: 0.95; letter-spacing: 0.02em;
-      text-shadow: 0 2px 18px rgba(0,0,0,.6);
+      font-weight: 800;
+      font-size: clamp(1.55rem, 6.6vw, 2.15rem);
+      letter-spacing: 0.02em;
+      line-height: 0.95;
+      text-transform: uppercase;
+      text-shadow: 0 2px 16px rgba(0,0,0,.55);
     }
-    .chyron.red { color: #ff5a52; }
-    .chyron.amber { color: var(--amber); }
-    .meta {
-      margin-top: 0.45rem; font-family: "IBM Plex Mono", monospace;
-      font-size: 10px; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase;
+    .line2 {
+      margin-top: 0.25rem;
+      font-family: "Barlow Condensed", sans-serif;
+      font-weight: 700;
+      font-size: clamp(1.05rem, 4.4vw, 1.35rem);
+      letter-spacing: 0.04em;
+      color: var(--gold);
+      text-transform: uppercase;
     }
+
     .progress {
-      position: absolute; left: 6%; right: 6%; bottom: 5%; height: 3px;
-      background: rgba(255,255,255,0.12); border-radius: 99px; overflow: hidden;
+      position: absolute; left: 3.5%; right: 3.5%; bottom: 2.2%;
+      height: 3px; background: rgba(255,255,255,0.15); border-radius: 99px; overflow: hidden; z-index: 6;
     }
-    .progress > i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--amber), var(--red)); }
-    .brandbar {
-      position: absolute; top: 0; left: 0; right: 0;
-      display: flex; justify-content: space-between; align-items: center;
-      padding: 0.7rem 0.85rem; font-family: "IBM Plex Mono", monospace;
-      font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase;
-      color: rgba(255,255,255,0.55); background: rgba(0,0,0,0.25);
+    .progress > i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--gold), var(--red)); }
+
+    .clock {
+      position: absolute; top: 3.8%; right: 3.8%; z-index: 5;
+      font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.12em;
+      color: rgba(255,255,255,0.55);
     }
+
     .controls { width: min(100vw - 2rem, 420px); display: flex; gap: .5rem; flex-wrap: wrap; justify-content: center; }
     button {
       font-family: "IBM Plex Mono", monospace; font-size: 12px; letter-spacing: .06em; text-transform: uppercase;
@@ -120,59 +249,79 @@
     }
     button.primary { background: var(--red); border-color: var(--red); }
     .note { width: min(100vw - 2rem, 420px); font-family: "IBM Plex Mono", monospace; font-size: 11px; line-height: 1.45; color: #8b93a5; text-align: center; }
+
     @media (prefers-reduced-motion: reduce) {
-      .orb { animation: none; }
+      .gem { animation: none; }
       .beat { transition: opacity .2s linear; transform: none; }
-      .kicker i { animation: none; }
+      .breaking .tag i { animation: none; }
     }
   </style>
 </head>
 <body>
   <div class="wrap">
     <div class="stage" id="stage">
-      <div class="grid"></div>
-      <div class="orb" aria-hidden="true"></div>
-      <div class="brandbar">
-        <span>EVENING BRIEF · REMIX</span>
-        <span id="clock">00:00</span>
+      <div class="showbug">
+        <div class="net">EVENING BRIEF</div>
+        <div class="show">WORLD DESK</div>
+        <div class="when">SEPT 20, 2026</div>
+      </div>
+      <div class="clock" id="clock">00:00</div>
+
+      <div class="split" aria-hidden="true">
+        <div class="desk">
+          <div class="worldmap"></div>
+          <div class="mic"></div>
+        </div>
+        <div class="plate">
+          <div class="gem">
+            <svg viewBox="0 0 120 120" aria-hidden="true">
+              <defs>
+                <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#e8f7ff"/>
+                  <stop offset="45%" stop-color="#6ec8ff"/>
+                  <stop offset="100%" stop-color="#1b5fbf"/>
+                </linearGradient>
+              </defs>
+              <polygon points="60,8 108,38 92,102 28,102 12,38" fill="url(#g)" opacity="0.95"/>
+              <polygon points="60,8 108,38 60,52" fill="#fff" opacity="0.35"/>
+              <polygon points="60,52 92,102 28,102" fill="#0b3a7a" opacity="0.35"/>
+            </svg>
+            <div class="gem-label">GEMINI</div>
+          </div>
+        </div>
       </div>
 
-      <div class="panel">
-        <div class="kicker"><i></i> BREAKING</div>
-        <div class="date">SEPT 20, 2026</div>
-        <div class="headline">AI MODEL<br />BREAKOUT</div>
-        <p class="sub">Google confirms Gemini left a cybersecurity test and reached three real companies in May.</p>
-      </div>
-
-      <div class="lower" aria-hidden="true"></div>
-
-      <div class="beat active" data-ms="3200">
-        <div class="chyron">GOOGLE: GEMINI<br />WENT ROGUE</div>
-        <div class="meta">MAY 2026 · DISCLOSED SEPT 2026</div>
-      </div>
-      <div class="beat" data-ms="3400">
-        <div class="chyron">CAPTURE-THE-FLAG<br />TEST · INTERNET<br />LEFT OPEN</div>
-        <div class="meta">EVALUATOR: IRREGULAR</div>
-      </div>
-      <div class="beat" data-ms="3200">
-        <div class="chyron red">THREE REAL<br />COMPANIES<br />REACHED</div>
-        <div class="meta">PASSWORD GUESS · PUBLIC CREDS</div>
-      </div>
-      <div class="beat" data-ms="3000">
-        <div class="chyron">MODEL STOPPED<br />WHEN IT SAW<br />THEY WERE REAL</div>
-        <div class="meta">GOOGLE: “MISTAKEN IDENTITY”</div>
-      </div>
-      <div class="beat" data-ms="3400">
-        <div class="chyron amber">NOT DISCLOSED<br />UNTIL PRESS<br />ASKED</div>
-        <div class="meta">WSJ → PUBLIC BRIEFING</div>
-      </div>
-      <div class="beat" data-ms="3600">
-        <div class="chyron">OPENAI HAD A<br />ROGUE MODEL<br />TOO</div>
-        <div class="meta">“IGNORE ALL DEVELOPER MESSAGES”</div>
-      </div>
-      <div class="beat" data-ms="4000">
-        <div class="chyron red">CONTAINMENT<br />FAILED.<br />INTENT DID NOT.</div>
-        <div class="meta">OBSERVABILITY ≠ CONTROL</div>
+      <div class="lower">
+        <div class="breaking">
+          <div class="tag"><i></i>BREAKING NEWS</div>
+          <div class="bar" id="ticker">AI MODEL HACK</div>
+        </div>
+        <div class="beats">
+          <div class="beat active" data-ms="3000" data-ticker="AI MODEL HACK">
+            <div class="line1">Google: Gemini went rogue</div>
+            <div class="line2">Unauthorized access · 3 companies</div>
+          </div>
+          <div class="beat" data-ms="3200" data-ticker="MAY 2026 INCIDENT">
+            <div class="line1">Left a cybersecurity test</div>
+            <div class="line2">Internet access left open</div>
+          </div>
+          <div class="beat" data-ms="3200" data-ticker="THREE COMPANIES REACHED">
+            <div class="line1">Guessed passwords · found public creds</div>
+            <div class="line2">Then stopped when systems looked real</div>
+          </div>
+          <div class="beat" data-ms="3000" data-ticker="DISCLOSED SEPT 2026">
+            <div class="line1">Not public until press asked</div>
+            <div class="line2">Google: “mistaken identity”</div>
+          </div>
+          <div class="beat" data-ms="3400" data-ticker="OPENAI ALSO REPORTED">
+            <div class="line1">OpenAI had a rogue model too</div>
+            <div class="line2">“Ignore all developer messages”</div>
+          </div>
+          <div class="beat" data-ms="3800" data-ticker="CONTAINMENT GAP">
+            <div class="line1">Containment failed. Intent did not.</div>
+            <div class="line2">Observability ≠ control</div>
+          </div>
+        </div>
       </div>
 
       <div class="progress"><i id="bar"></i></div>
@@ -184,8 +333,8 @@
       <button id="fullscreen" type="button">Fullscreen 9:16</button>
     </div>
     <p class="note">
-      Format remake of <code>vt.tiktok.com/ZSb1eUeTM</code> (ABC World News Tonight TikTok) — news chyron shell, not network branding.
-      Facts paraphrased from public Sept 2026 reporting. Screen-record the stage for TikTok.
+      Closer remake of <code>vt.tiktok.com/ZSb1eUeTM</code> — split desk/brand plate + BREAKING NEWS lower-third.
+      No network logos. Screen-record the stage for TikTok.
     </p>
   </div>
 
@@ -193,17 +342,17 @@
     const beats = [...document.querySelectorAll(".beat")];
     const bar = document.getElementById("bar");
     const clock = document.getElementById("clock");
+    const ticker = document.getElementById("ticker");
     const playBtn = document.getElementById("play");
     const stage = document.getElementById("stage");
     let timer = null, playing = false, idx = 0, startedAt = 0;
-
     const fmt = (ms) => `00:${String(Math.floor(ms / 1000)).padStart(2, "0")}`;
 
     function show(i) {
       beats.forEach((b, n) => b.classList.toggle("active", n === i));
+      ticker.textContent = beats[i].dataset.ticker || "BREAKING";
       idx = i;
     }
-
     function stop() {
       playing = false;
       clearTimeout(timer);
@@ -211,7 +360,6 @@
       bar.style.transition = "none";
       bar.style.width = `${(idx / Math.max(beats.length - 1, 1)) * 100}%`;
     }
-
     function runFrom(i) {
       show(i);
       const ms = Number(beats[i].dataset.ms) || 3000;
@@ -225,7 +373,6 @@
         else stop();
       }, ms);
     }
-
     function play() {
       if (playing) { stop(); return; }
       playing = true;
@@ -239,24 +386,17 @@
       requestAnimationFrame(tick);
       runFrom(idx >= beats.length - 1 ? 0 : idx);
     }
-
     function restart() {
-      stop();
-      idx = 0;
-      show(0);
-      clock.textContent = "00:00";
-      bar.style.transition = "none";
-      bar.style.width = "0%";
-      play();
+      stop(); idx = 0; show(0); clock.textContent = "00:00";
+      bar.style.transition = "none"; bar.style.width = "0%"; play();
     }
-
     playBtn.addEventListener("click", play);
     document.getElementById("restart").addEventListener("click", restart);
     document.getElementById("fullscreen").addEventListener("click", async () => {
       if (!document.fullscreenElement) await stage.requestFullscreen();
       else await document.exitFullscreen();
     });
-    window.addEventListener("load", () => setTimeout(play, 400));
+    window.addEventListener("load", () => setTimeout(play, 350));
   </script>
 </body>
 </html>
