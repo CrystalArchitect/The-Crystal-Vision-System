@@ -88,6 +88,7 @@ flowchart TB
 | [`SOURCE-manus-share-we1-crt.md`](SOURCE-manus-share-we1-crt.md) | PKI decode only |
 | [`SOURCE-manus-share-website-analysis-genealogy.md`](SOURCE-manus-share-website-analysis-genealogy.md) | Genealogy product + Aegir chrome only |
 | [`ADDENDUM-uploaded-corpus-triage.md`](ADDENDUM-uploaded-corpus-triage.md) | What’s in / out of the upload dump |
+| [`SOURCE-coreflow-dev.md`](SOURCE-coreflow-dev.md) | Sydney AI entertainment hire site — name-adjacent only, not CrystalCore |
 
 ### E. Mythos / visual OS layer (branded CrystalCore.OS — not Richardson text)
 
