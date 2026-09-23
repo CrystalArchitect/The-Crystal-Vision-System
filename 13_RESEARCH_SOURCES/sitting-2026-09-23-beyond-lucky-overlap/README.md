@@ -26,6 +26,8 @@
 - Richardson Pulse snapshot: [`SOURCE-richardson-beyond-lucky-2026-09-21.md`](SOURCE-richardson-beyond-lucky-2026-09-21.md)  
 - Live Grok CrystalCore.OS / Sydney Hall: [`SOURCE-tango-zinc-quiet-terra-grok.md`](SOURCE-tango-zinc-quiet-terra-grok.md)  
 - Grok share CrystalCore.OS source/release audit + freeze pack trail (11 Sep frame): [`SOURCE-grok-share-crystalcore-os-audit.md`](SOURCE-grok-share-crystalcore-os-audit.md)  
+- Grok share Boot CrystalCore.OS (playable deck 0.9.11; preview expired): [`SOURCE-grok-share-boot-crystalcore-os.md`](SOURCE-grok-share-boot-crystalcore-os.md)  
+- Claude artifact CrystalCore.OS Live Party shell (public): [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md)  
 - Grok share Crystalum / Riptide Live Lounge voice+performance (out of scope for Beyond Lucky): [`SOURCE-grok-share-crystalum-riptide.md`](SOURCE-grok-share-crystalum-riptide.md)  
 - Grok share AI Actor Singer / Crystalum design (parent thread — out of scope): [`SOURCE-grok-share-crystalum-ai-actor.md`](SOURCE-grok-share-crystalum-ai-actor.md)  
 - Claude artifact architectural survey (23 Jul 2026): [`SOURCE-claude-artifact-map-and-territory.md`](SOURCE-claude-artifact-map-and-territory.md)  

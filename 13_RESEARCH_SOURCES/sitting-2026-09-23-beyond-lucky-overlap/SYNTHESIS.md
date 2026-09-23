@@ -73,6 +73,8 @@ flowchart TB
 | --- | --- |
 | [`SOURCE-tango-zinc-quiet-terra-grok.md`](SOURCE-tango-zinc-quiet-terra-grok.md) | Live CrystalCore.OS / Western Sydney Hall (Aerotropolis primary, zero potable, Optimus, Westmead pathway) |
 | [`SOURCE-grok-share-crystalcore-os-audit.md`](SOURCE-grok-share-crystalcore-os-audit.md) | Grok source/release audit: artifact ~$95k; not a kernel; freeze pack in `handoff/crystalcore-os-freeze-2026-09-11/` |
+| [`SOURCE-grok-share-boot-crystalcore-os.md`](SOURCE-grok-share-boot-crystalcore-os.md) | Grok “Boot CrystalCore.OS” → playable sovereign-edge deck Kernel 0.9.11; follow-ups usage-limited |
+| [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md) | Public Claude artifact: Live Party / Lattice / Sovereign Duties / Transmission UI |
 | Uploaded Sydney DC briefing (triage) | Same September 2026 site-file family |
 | [`SOURCE-claude-artifact-map-and-territory.md`](SOURCE-claude-artifact-map-and-territory.md) | Jul 2026 Claude architectural survey of TerAustralis / CrystalCore repos + ADRs |
 | [`SOURCE-claude-artifact-ntxj-what-is-built.md`](SOURCE-claude-artifact-ntxj-what-is-built.md) | Aug 2026 Doc 13 *What Is Built* — CrystalCore tests, site, OTS, ABN, STATUS.md law |

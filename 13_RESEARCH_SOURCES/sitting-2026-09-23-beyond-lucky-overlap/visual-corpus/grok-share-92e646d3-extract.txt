@@ -1,0 +1,42 @@
+Live preview
+Live preview has expired
+Continue the conversation to get a live copy of this app.
+
+Boot CrystalCore.OS
+
+CrystalCore OG brand pass
+Completed
+Worked for 24m 38s
+
+I'll start by reading the workspace instructions and checking what's already in the project so CrystalCore.OS boots against the real scaffold, not an invented one.This is a full CrystalCore.OS boot — I'll load the design and scaffold skills, then ship a playable sovereign-edge OS rather than a splash screen.Loading design, OG, and motion skills next so the boot sequence and OS chrome match the CrystalCore visual system.CrystalCore.OS will boot as a real sovereign-edge deck: cinematic POST, then a working command lattice. Scaffolding the kernel and dispatching brand assets in parallel.Writing the kernel, doctrine, and shell next so the boot sequence has a real OS to land in.Typecheck is failing on canvas nullability — capturing the elements after the guards and fixing both files.Boot chrome is landing. I’ll densify the first paint, then click through Enter, the deck, and the terminal.Home copy is colliding with lattice labels, and the dock is too quiet. I’ll separate those layers, then re-check the deck.Clock is showing UTC under an AEST label. I’ll lock it to the Sydney vault timezone, then keep testing.Doctrine file was overwritten — restoring the full kernel content and appending the local reply.CrystalCore.OS is online. Kernel 0.9.11, Sovereign Edge, Crystal Prime holding south.
+
+Let the POST run, or tap Enter to open the gate. You land on the command deck.
+
+Try this:
+
+Terminal — help, status, identity set your name, registry set, query …
+Starlines — southern vault map (Crux, the pointers, Canopus). Tap a star.
+Lattice — seven nodes. Tap Purpose Core, Witness Flame, Sovereign Protocol.
+Codex — Lattice Field Doctrine, local-first.
+Witness W1-DG3 — the log. Write a line.
+Query — ask the lattice. If remote voice is dark, it answers from local doctrine.
+Reboot — cold boot, full POST again.
+
+Everything seals on this edge. The lattice is yours.
+
+5 sources
+
+Wire in all nodes
+
+You've hit your usage limit
+Resets later.
+
+https://claude.ai/code/artifact/b7fc01e4-d394-465d-85ec-57fe2910b1c6
+
+You've hit your usage limit
+Resets later.
+
+Assure you wire into the under water and sky network
+
+You've hit your usage limit
+Resets later.
