@@ -1,0 +1,260 @@
+Live preview
+Live preview has expired
+Continue the conversation to get a live copy of this app.
+Pasted Text.txt
+
+What's this?
+
+Worked for 21s
+
+The pasted note looks like a voice-clone playbook. I'll read the workspace rules and the file so I can tell you exactly what it is.It’s a how-to for cloning your singing voice, not a song, not a prompt, and not a paid product.
+
+Someone (likely a previous Grok turn) wrote it so you could put your throat on a finished melody for a character called Crystalum — specifically a Riptide cover in the style of Taylor’s BBC Live Lounge cut.
+
+The important split it keeps repeating:
+
+Job	What it does	What Crystalum needs
+Speaking clone	Type words → hear you talk	No
+Singing clone	Take a finished melody and paint your voice onto it	Yes
+
+Taylor’s Live Lounge recording is the map (melody, pacing, arrangement). Your phone recordings are the paint. It is explicit: never train on Taylor’s file.
+
+What it says is actually free (Sept 2026):
+
+Tonight, on the iPhone — Suno’s limited free Voices try. Upload your a cappella chorus, generate one chorus test, then stop. If it just sounds like “Suno girl with a hint of you,” that’s the free ceiling.
+This week, on a computer — Applio / RVC on Google Colab (free T4 GPU). That’s the real singer path: train a small model on your files, then run a guide vocal through it. Output = Riptide in your voice.
+
+What it asks you to record (Voice Memos, quiet room, no backing track):
+
+speak.m4a — ~1 min talking
+riptide-chorus.m4a — chorus a cappella, twice
+range.m4a — scale + five long “ah” notes
+soft.m4a — whispered speak-sing of the first verse
+
+What it will not do: clone the voice from chat. There’s no audio of you here, and it shouldn’t ingest Taylor’s recording as if it were yours.
+
+It ends on one fork: iPhone only, or iPhone + a computer with a Google account. That decides Suno-try vs Colab singer path.
+
+I can’t train the clone from this chat either. If you want the next step, say which of those two setups you have and I’ll write the click-by-click version.
+
+Pasted Text.txt
+
+What's this?
+
+Worked for 3s
+
+This is the other half of the same Crystalum plan — the acting and arrangement bible, not the clone-how-to.
+
+The last paste was how to clone your throat. This one is what she is doing when she sings.
+
+The lock: not Vance Joy’s ukulele original. Taylor’s 9 Oct 2014 BBC Radio 1 Live Lounge cover — piano, one woman, original pronouns kept. Crystalum should steal the grammar of that performance (room, gravity, catch in the throat), not Taylor’s timbre.
+
+It says that cover gives the actor five things the original doesn’t:
+
+Bounce → piano gravity (the riptide pulls)
+Singer in a room, not a stadium
+A woman singing lady / she / left-hand man without flipping the lyric
+The hook is fear: “you’re gonna sing the words wrong”
+Band is furniture — piano, almost no drums
+
+Mode name: Live Lounge / Riptide Mode
+
+Costume: Red Dust Intimate — dark coat, hair down, no lattice HUD
+
+Camera: one locked mid-shot, no cut until the last chorus
+
+It then maps Taylor’s vocal moves to what you should do instead (Australian vowels, chest, no stadium belt, hang on “if you’re gonna stay”).
+
+Do not train on Taylor’s file. Use it as arrangement + acting. Your recordings stay the voice lock.
+
+It also argues the lyric already speaks CrystalCore language (riptide as Tide Engine, left-hand man as the cup, “sing the words wrong” as the clone warning) — so this should be a calibration track, not a “Taylor but me” debut.
+
+Build order it wants:
+
+You send face stills + 45s spoken + chorus a cappella
+Face locked onto the piano frame
+Suno/clone sings your chorus in Live Lounge mode
+15–20s X cut of the chorus only
+Then an original in the same room — working titles: Stay, the Current, or Sing the Words Wrong
+
+It ends by asking which next turn you want: locked face (needs photos) or lyrics for the original.
+
+Together the two pastes are: voice pack (last message) + performance spec (this one). Neither is a finished song or a trained clone.
+
+Analyze Vance Joy's original Riptide arrangement
+
+Worked for 45s
+
+I'll pull the original studio cut's key, tempo, form, and instrumentation so the analysis is locked to Vance Joy, not the Live Lounge cover.Vance Joy’s original Riptide is not a small song with a big chorus. It is a three-chord loop that pretends to be a beach singalong, then smuggles anxiety underneath a ukulele bounce. The Live Lounge cover removed that bounce. This is the version that still has it.
+
+Spec
+	Studio original
+Writer	James Keogh (Vance Joy)
+Recorded	2012, one afternoon, Red Door Studios, Brunswick, Melbourne, with drummer Edwin White; extra production/mix by John Castle
+Released	2013 EP God Loves You When You’re Dancing; 2014 album Dream Your Life Away
+Length	~3:22
+Genre	Indie folk / folk-pop
+Meter	4/4
+Tempo	~100–102 BPM
+Concert key	D♭ / C♯ major (same pitch)
+Player shapes	Am – G – C (capo 1), plus Fmaj7 in the bridge
+Real loop	vi – V – I – I
+
+He started the first two lines in 2008 at home in Glen Iris, then found the chorus melody on ukulele in 2012 walking back from the shops. He has called it a “weird mish-mash” and a stream of consciousness, not a plotted story. The arrangement is built to sound like a campfire song so the lyric can be strange without collapsing.
+
+The harmonic engine
+
+Almost the entire song is one cycle:
+
+Am | G | C | C
+
+In concert pitch that is B♭m – A♭ – D♭ – D♭. Starting on vi is the trick: the verse never opens on a bright I-chord “here we are.” It opens already slightly off-balance, then G pushes it home to C. Because C gets two bars, every line lands and sits. That is why beginners can play it and why it feels like a tide, not a staircase.
+
+The only real harmonic event is the bridge:
+
+Am | Am | G | G | C | C | Fmaj7 | Fmaj7
+
+Fmaj7 is just IV in C — diatonic, not a borrowed colour. What it does is stop the 2-bar C landing. For the first time the loop does not resolve on the tonic; it opens sideways on “if you’re gonna stay.” That is the only place the song asks a direct question, and the arrangement marks it.
+
+No key change. No chorus lift into a new progression. Energy is density, not harmony.
+
+The ukulele is the architecture
+
+This is not “a guitar song played on uke.” The uke is the drum kit, the bass, and the bounce.
+
+Vance’s live trick: he often detunes a standard GCEA uke down a major 3rd (to something like E♭–A♭–C–F) and plays baritone-style Am/G/C shapes. That is why the record sounds woody, flabby, low — not the bright toy-uke of a YouTube cover. The body of the instrument is doing kick-drum work.
+
+Strum is an island-ish pattern (roughly D – D U – U D U / D-DU-UDU), ~102 BPM, offbeats slightly pushed. That bounce is the whole personality of the original:
+
+verse = nervous confession on top of something cute
+chorus = a party that still has a lump in the throat
+the riptide is a current you can dance in, not a drowning
+
+Taylor’s Live Lounge cut kills this on purpose. Piano gravity vs uke bounce is the actual rewrite.
+
+How the track is stacked
+
+It is an accumulation arrangement. Same chords; more furniture each time.
+
+Intro — uke riff only, two cycles. The song is already dancing before he speaks.
+Verse 1, first half — voice + uke. Diary. “Dentists and the dark.”
+Verse 1, second half — acoustic guitar enters. Friends, magician’s assistant. The room gets a second person in it.
+Pre-chorus / “yodel” — the oh-oh / come unstuck falsetto. This is the original’s secret hook. It is not a chord change. It is a register change. Falsetto is the lift.
+Chorus — double-tracked vocal, claps/percussion, more uke/guitar, stacked “Lady…” The lyric is dark; the mix is a singalong.
+Verse 2 — already thicker than verse 1. Movie, New York, Michelle Pfeiffer. Culture junk as camouflage for wanting her.
+Instrumental — short hammer-on lick over C (the little 3h5 guitar/uke figure). Palate-cleanser. Proves the loop can carry the song with no words.
+Bridge — vocal more exposed, Fmaj7 hanging. “I just wanna know if you’re gonna stay.”
+Final choruses — quiet then loud. No explosion, no new section. Just more of the same, which is the joke of a riptide: it does not climax, it takes you.
+
+Drums (White) stay folk-pocket: kick/snare, shaker, claps. Not a rock kit arguing with the mouth. Bass arrives as the chorus fattens. Harmonies are Vance + White, not a choir. Mix is relatively dry — backyard Melbourne shed, not a lounge with church reverb.
+
+Vocal arrangement
+Male tenor, one-octave folk range (concert roughly A♭3–B♭4).
+Verses: almost spoken, Australian vowels, slightly nasal, no crooner polish. Fear is listed, not acted.
+Pre-chorus: falsetto yodel. This is the original’s “come unstuck” physically happening in the throat.
+Chorus: chest opens, still not belted. “Lady” is a shout-sing, not a power note.
+“You’re gonna sing the words wrong” sits on the tonic landing — the lump is rhythmic (delay into C), not a special chord.
+Pronouns: a man singing lady / she / left-hand man. He wants to be the supporting character in her movie.
+
+The vocal is mixed as another strummed instrument. No big wet lead. Intimacy here is mates in a room, not one woman at a piano.
+
+Form vs lyric
+
+Vance has said it is not a linear story. The arrangement agrees: it does not develop, it repeats with more weight.
+
+Section	Lyric job	Arrangement job
+Verse 1	Childhood fears + social fear	Thin. Uke = nervous pulse
+“Come unstuck”	The slip	Falsetto. First lift
+Chorus	Surrender to the current	Singalong. Bounce vs dark words
+Verse 2	Her as a film character	Already denser. Crush as cinema
+Instrumental	None	Proof the loop is the riptide
+Bridge	The only real question: stay?	Only new chord
+Last choruses	Same words, more body	Taken, not resolved
+
+The title itself is a motel he stayed at as a kid on the Australian coast, and an ocean current. The arrangement picks the ocean: circular, same force, more of you in it each time.
+
+What this original is actually doing
+
+People hear “cute uke song.” Underneath:
+
+Fear dressed as bounce. Dentists, dark, pretty girls — listed over a dance strum so it does not sound like a therapy session.
+No owner of the gaze. He wants to be left-hand man, not the star. Michelle Pfeiffer / highest shelf is her ambition; he is the witness.
+The hook is a warning. “You’re gonna sing the words wrong” is comic and tender. The arrangement treats it like a campfire punchline, which is why a million people can shout it without noticing it is about failure.
+Patchwork as method. Magician’s assistant (a girl he actually met), Pfeiffer (Fabulous Baker Boys), New York, dentists — images glued by melody. The uke loop is the glue. Without that loop the lyric would just be scraps.
+Vs the Live Lounge (so you do not mix the two)
+	Vance original	Taylor Live Lounge
+Engine	Detuned uke bounce	Piano gravity
+Room	Mates, claps, shed	One woman, keys, witness camera
+Lift	Falsetto “oh / unstuck”	Chest on “Lady,” no yodel engine
+Drums	Pocket kit + shaker	Almost none
+Harmony event	Fmaj7 only in bridge	Same loop, but sustain replaces bounce
+Emotional weather	Sun on a dark lyric	The lyric wins
+Riptide means	Current you can still dance in	Pull. The current takes her
+
+If Crystalum is stealing grammar, the original’s grammar is: three chords, uke as drums, falsetto as the slip, accumulation not climax, fear with a smile. Taylor’s grammar is: delete the bounce, keep the pronouns, make the hook a lump.
+
+Those are two different songs wearing the same lyric. Do not train or prompt as if they were one.
+
+26 sources
+
+How do I give grok bot a phone
+
+Worked for 32s
+
+I'll check what “give Grok a phone” actually means in 2026 — voice call, iOS Voice Mode, or sending Voice Memos from your iPhone.You can mean three different things. Pick the one you actually want.
+
+1. Give a Grok agent a real phone number (most likely)
+
+That is Voice Agent Builder — a Grok that answers the phone.
+
+On a computer (or Safari), go to console.x.ai/voice/agents
+Sign in with your xAI / X account
+Add a payment method (there is no free calling tier)
+Create an agent — name, instructions, voice
+Assign the included phone number (or bring your own via SIP)
+Call that number. It picks up as Grok.
+
+Cost: about $0.05/min of audio + $0.01/min on the free xAI number.
+
+Australia catch: custom voice-clone on that agent is US-only (not Illinois). From NSW you get a built-in voice, not Crystalum’s throat. Do not use this as the Riptide clone path.
+
+Product write-up: x.ai/news/grok-voice-agent-builder
+
+2. Talk to this Grok from your iPhone (no new number)
+
+You already have the Grok iOS app. You do not give it a phone line.
+
+Open Grok
+Open a chat
+Tap the mic (Voice Mode)
+Talk. It talks back.
+
+Live Camera is in the same Voice Mode if you want it to see the room.
+
+There is also a US demo line some people call: +1 844-448-4765 (844-HIT-GROK). From Australia that is an international call and it is a generic Grok, not this thread and not Crystalum.
+
+3. Put Grok Bot on the phone
+
+Separate app from Grok chat. SuperGrok Plus can use it.
+
+App Store → Grok Bot
+Sign in (same X / Cursor account)
+Message your bots from the phone — text, dictate, photos, files
+
+Docs: docs.x.ai/grok-bot/mobile
+
+That gives the bot a phone in your hand. It does not give the bot a number people can dial.
+
+If you meant the Riptide recordings
+
+This chat cannot be called. To hand Grok the Voice Memos:
+
+Voice Memos → tap the file → Share → Grok
+
+or in the Grok chat tap + / paperclip and attach speak.m4a, riptide-chorus.m4a, etc.
+
+I still cannot train a singing clone from here. Attach is for listening / notes, then you still do Suno Voices or Colab.
+
+Which one: number for an agent, Voice Mode in the app, or send the four m4as?
+
+33 sources

@@ -4,6 +4,8 @@
 **Trigger:** Anthony Richardson, *Beyond Lucky: Australia's Next Inheritance* (LinkedIn Pulse, 21 Sep 2026)  
 **Question:** how does that piece sit against Crystal Elle Arena-Turner’s May 2026 SpaceNews op-ed and the wider TerAustralis corpus?
 
+**Brand domain:** **www.teraustralis.com.au** (company / CrystalCore.OS). Prefer this over bare `*.vercel.app` for anything public or permanent. Temporary remake hub: https://tiktok-remakes.vercel.app — attach under the brand domain when ready.
+
 **Verdict (one line):** strong **thematic** overlap with the TerAustralis stack (resources + space/defence + compute; stop dig-and-ship; leave capability, not just royalties); **no proven line-copy** of the May SpaceNews text from sources available in this sitting; prior Australian “Lucky Country / value-add” discourse is real and older than both.
 
 ---
@@ -25,6 +27,26 @@
 - SpaceNews body + republish notes: [`SOURCE-spacenews-arena-turner-2026-05-22.md`](SOURCE-spacenews-arena-turner-2026-05-22.md)  
 - Richardson Pulse snapshot: [`SOURCE-richardson-beyond-lucky-2026-09-21.md`](SOURCE-richardson-beyond-lucky-2026-09-21.md)  
 - Live Grok CrystalCore.OS / Sydney Hall: [`SOURCE-tango-zinc-quiet-terra-grok.md`](SOURCE-tango-zinc-quiet-terra-grok.md)  
+- Grok share Colossus Memphis–Southaven physical map (no website; bits vs watts): [`SOURCE-grok-share-colossus-memphis-map.md`](SOURCE-grok-share-colossus-memphis-map.md)  
+- Grok share Grok 4.6 Letter on AI Limits (multi-model fence lab + Coxon regulation QT): [`SOURCE-grok-share-grok46-letter-ai-limits.md`](SOURCE-grok-share-grok46-letter-ai-limits.md)  
+- Grok share Never Ever map / problems / letter Build (preview expired — out of scope): [`SOURCE-grok-share-never-ever-map-letter.md`](SOURCE-grok-share-never-ever-map-letter.md)  
+- Grok share You Only Get What You Give (personal narrative + AU legal map — out of scope): [`SOURCE-grok-share-you-only-get-what-you-give.md`](SOURCE-grok-share-you-only-get-what-you-give.md)  
+- Grok share AI Bot Automation Explained (X bots / Grok Bot shell — out of scope): [`SOURCE-grok-share-ai-bot-automation.md`](SOURCE-grok-share-ai-bot-automation.md)  
+- Grok share STARFLEET AU Notion Motion OS (floating city / Bowen / Elon pitch pack): [`SOURCE-grok-share-starfleet-au-notion-motion-os.md`](SOURCE-grok-share-starfleet-au-notion-motion-os.md)  
+- Grok share Orbital Gravity Simulator Build (preview expired / usage-limited — out of scope): [`SOURCE-grok-share-orbital-gravity-simulator.md`](SOURCE-grok-share-orbital-gravity-simulator.md)  
+- Grok share Different Shores / Mirror Orientation pack (release-adjacent): [`SOURCE-grok-share-different-shores.md`](SOURCE-grok-share-different-shores.md)  
+- Grok share SEQUENTIAL_MERGE_404 Identity Matrix (Arena-Turner Build; preview expired): [`SOURCE-grok-share-sequential-merge-404.md`](SOURCE-grok-share-sequential-merge-404.md)  
+- Grok share Hindsight Receipt (stable alignment — lattice ops): [`SOURCE-grok-share-hindsight-receipt.md`](SOURCE-grok-share-hindsight-receipt.md)  
+- Grok share Threshold / Aris fiction ID (usage-limited — out of scope): [`SOURCE-grok-share-threshold-aris.md`](SOURCE-grok-share-threshold-aris.md)  
+- Grok share Intimate Bond image (co-regulation / anti-fusion — out of scope): [`SOURCE-grok-share-intimate-bond-image.md`](SOURCE-grok-share-intimate-bond-image.md)  
+- Grok share Codex Crystalum ↔ Grok Bot filing (ops): [`SOURCE-grok-share-codex-crystalum-grok-bot.md`](SOURCE-grok-share-codex-crystalum-grok-bot.md)  
+- 9 News Albanese AI regulation peg + release draft: [`SOURCE-youtube-albanese-ai-regulation.md`](SOURCE-youtube-albanese-ai-regulation.md) · [`RELEASE-DRAFT-albanese-ai-regulation.md`](RELEASE-DRAFT-albanese-ai-regulation.md)  
+- ABC News Trump admin vs AU Digital Duty of Care (feed choice): [`SOURCE-youtube-abc-digital-duty-of-care.md`](SOURCE-youtube-abc-digital-duty-of-care.md)  
+- Grok share CrystalCore.OS source/release audit + freeze pack trail (11 Sep frame): [`SOURCE-grok-share-crystalcore-os-audit.md`](SOURCE-grok-share-crystalcore-os-audit.md)  
+- Grok share Boot CrystalCore.OS (playable deck 0.9.11; preview expired): [`SOURCE-grok-share-boot-crystalcore-os.md`](SOURCE-grok-share-boot-crystalcore-os.md)  
+- Claude artifact CrystalCore.OS Live Party shell (public): [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md)  
+- Grok share Crystalum / Riptide Live Lounge voice+performance (out of scope for Beyond Lucky): [`SOURCE-grok-share-crystalum-riptide.md`](SOURCE-grok-share-crystalum-riptide.md)  
+- Grok share AI Actor Singer / Crystalum design (parent thread — out of scope): [`SOURCE-grok-share-crystalum-ai-actor.md`](SOURCE-grok-share-crystalum-ai-actor.md)  
 - Claude artifact architectural survey (23 Jul 2026): [`SOURCE-claude-artifact-map-and-territory.md`](SOURCE-claude-artifact-map-and-territory.md)  
 - Claude artifact Protocol Omega (boundaries practice — out of scope): [`SOURCE-claude-artifact-protocol-omega.md`](SOURCE-claude-artifact-protocol-omega.md)  
 - Claude artifact Discursive Ops (satire — out of scope): [`SOURCE-claude-artifact-discursive-ops.md`](SOURCE-claude-artifact-discursive-ops.md)  
@@ -66,12 +88,16 @@
 - coreflow.dev (Sydney AI entertainment hire site): [`SOURCE-coreflow-dev.md`](SOURCE-coreflow-dev.md)  
 - LinkedIn lunar regolith / ISRU (Al-Aseeri): [`SOURCE-linkedin-lunar-regolith-al-aseeri.md`](SOURCE-linkedin-lunar-regolith-al-aseeri.md)  
 - X / XFreeze Musk US–China trade “conjoined twins”: [`SOURCE-x-xfreeze-musk-trade-twins.md`](SOURCE-x-xfreeze-musk-trade-twins.md)
+- X / XFreeze Musk broad education in age of AI: [`SOURCE-x-xfreeze-musk-education-ai.md`](SOURCE-x-xfreeze-musk-education-ai.md)
+- X / AIHegemonyMemes SWF→LLM prophecy + GHI remake draft: [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) · [`DRAFT-ghi-from-aihegemony-grammar.md`](DRAFT-ghi-from-aihegemony-grammar.md)
 
 ## Visual / mythos layer
 
 - CrystalCore.OS launch maps + persona dump: [`ADDENDUM-visual-crystalcore-mythos.md`](ADDENDUM-visual-crystalcore-mythos.md)  
 - Receipts: [`visual-corpus/`](visual-corpus/)  
-- TikTok format remake (agent-dialect kinetic type): [`tiktok-replica/`](tiktok-replica/)  
+- Grok share Crystalum / Riptide Live Lounge (voice pack + performance spec — out of scope for Beyond Lucky): [`SOURCE-grok-share-crystalum-riptide.md`](SOURCE-grok-share-crystalum-riptide.md)  
+- Grok share AI Actor Singer / Crystalum design (parent — out of scope): [`SOURCE-grok-share-crystalum-ai-actor.md`](SOURCE-grok-share-crystalum-ai-actor.md)  
+- TikTok format remakes (live hub): https://tiktok-remakes.vercel.app · [`tiktok-replica/`](tiktok-replica/) · Manus rebuild brief: [`MANUS-BRIEF-tiktok-remakes-hub-rebuild.md`](MANUS-BRIEF-tiktok-remakes-hub-rebuild.md)  
 - TikTok ABC Gemini rogue (Sept 20 chyron): [`SOURCE-tiktok-abc-gemini-rogue.md`](SOURCE-tiktok-abc-gemini-rogue.md) · remake [`tiktok-replica/gemini-rogue-news.html`](tiktok-replica/gemini-rogue-news.html)  
 - TikTok ApexAI Zero Dawn / magnetic pulse: [`SOURCE-tiktok-apexai-zero-dawn.md`](SOURCE-tiktok-apexai-zero-dawn.md) · remake [`tiktok-replica/zero-dawn-pulse.html`](tiktok-replica/zero-dawn-pulse.html)  
 - TikTok ABC7 Altman singularity: [`SOURCE-tiktok-abc7-altman-singularity.md`](SOURCE-tiktok-abc7-altman-singularity.md) · remake [`tiktok-replica/altman-singularity-news.html`](tiktok-replica/altman-singularity-news.html)  

@@ -1,0 +1,57 @@
+# Grok share extract — AI Bot Automation Explained
+# URL: https://grok.com/share/c2hhcmQtMi1jb3B5_d472cd40-3322-419c-ade0-4a3ea204a233
+# Checked: 23 Sep 2026
+
+--- You ---
+Hey, you know how there's some, like, AI bots that have automated X accounts and they make their own posts and stuff like that? How does that work?
+
+--- Grok ---
+It's a loop of three pieces: an AI model that writes the posts, a scheduler that decides when, and the official X API that actually publishes them.
+
+The model gets a prompt — a topic, a persona, maybe some recent news it pulled from search — and spits out a draft. A script or agent framework like LangChain or CrewAI runs that on a timer, then fires the text through an API key tied to the account. No human taps post.
+
+X allows this as long as you use the official API, keep posts unique, pace them out instead of bursting, and slap the automated label on fully hands-off accounts. Spammy replies, mass mentions, or scraping instead of the API gets you suspended.
+
+(25 sources)
+
+--- You ---
+Can this be done with Grok Bot?
+
+--- Grok ---
+Not natively, no. Grok Bot's X connector is read-only — it can search posts, read your timeline, and check mentions, but it can't publish on its own.
+
+The workaround is bolting on a third-party publishing tool. You add an MCP server like BulkPublish or OpenTweet as a custom connector, give it your X API key, and then the bot can draft and actually post through that layer. Paid Grok Bot users even get free starter X API credits when they connect their account.
+
+So the full autonomous loop is possible, just not out of the box.
+
+(55 sources)
+
+--- You ---
+Okay, so obviously, obviously, obviously on Grok Bot, we've got, we've got the, the, the shell. We've got shell.
+
+--- Grok ---
+Shell's the right starting point — it's the execution layer. You'd write a small script that calls the Grok API for the text, then hands it to the X API to post, and cron or a loop runs it on a schedule.
+
+The catch is the API key. Grok Bot's built-in connector is read-only, so the script needs its own xAI key with write access, which means a paid tier.
+
+--- You ---
+Okay. So, with the shell, how would I go about installing a, 'cause obviously they've got their own sandbox, right? How would I go about installing a local LLM on it so it does it on its own?
+
+--- Grok ---
+You don't install the LLM inside the sandbox — you run it on your own machine and point the bot at it.
+
+Install Ollama on your host, pull a model like llama3.2, then in the sandbox shell run the grok-bot-setup adapters. The direct profile takes any OpenAI-compatible URL, so you do adapters use direct, base URL localhost colon 11434 slash v1, model llama3, and a dummy key since local doesn't need one.
+
+That patches the sand-host so the bot's inference calls route to your local server instead of xAI's. The sandbox itself stays a thin shell — it just executes and talks to whatever endpoint you give it.
+
+One catch: the sandbox is isolated, so localhost has to be reachable from it, which the setup handles by patching the host. If the VM resets, re-run the bootstrap script and it comes back.
+
+(58 sources)
+
+--- You ---
+I don't have a computer at the moment.
+
+--- Grok ---
+Then a local LLM is off the table — it needs a machine running Ollama, and a phone won't cut it.
+
+The workable path is a free cloud endpoint instead. Groq gives you free API credits for open models like Llama, and OpenRouter has a free tier too. Your bot's shell just points at their URL instead of localhost, and the whole loop runs from the cloud — no computer required.

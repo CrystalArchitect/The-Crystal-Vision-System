@@ -1,17 +1,23 @@
 # TikTok format remakes
 
-These are **local HTML shells**, not public websites. GitHub “View file” will not play them.
+Live hub (phone): **https://tiktok-remakes.vercel.app**  
+Brand domain: **https://www.teraustralis.com.au** — prefer for anything public/permanent; remakes can move under it later.
 
-**Open on your machine**
+These are 9:16 HTML shells for screen-recording. GitHub “View file” will not play them.
+
+**Local fallback**
 
 ```bash
 cd 13_RESEARCH_SOURCES/sitting-2026-09-23-beyond-lucky-overlap/tiktok-replica
 python3 -m http.server 8765
 ```
 
-Then open [`http://127.0.0.1:8765/hub.html`](http://127.0.0.1:8765/hub.html) → pick a remake → Fullscreen 9:16 → screen-record.
+Then open [`http://127.0.0.1:8765/`](http://127.0.0.1:8765/) → pick a remake → Fullscreen 9:16 → screen-record.
 
-Hub: [`hub.html`](hub.html)
+Hub file: [`index.html`](index.html) (Vercel root). Agent dialects remake: [`agent-dialects.html`](agent-dialects.html).  
+`hub.html` is a leftover alternate entry from `main` — do not use as public root.
+
+**Rebuild copy/look:** hand [`../MANUS-BRIEF-tiktok-remakes-hub-rebuild.md`](../MANUS-BRIEF-tiktok-remakes-hub-rebuild.md) to Manus.
 
 ---
 
@@ -19,7 +25,7 @@ Hub: [`hub.html`](hub.html)
 
 **Source:** https://vt.tiktok.com/ZSb1e1nJy/ → `@andusv12u` / Ask The AI  
 
-Open [`index.html`](index.html) → Fullscreen 9:16 → screen-record.
+Open [`agent-dialects.html`](agent-dialects.html) → Fullscreen 9:16 → screen-record.
 
 ## 2. Gemini rogue (news chyron / broadcast package)
 

@@ -1,0 +1,14 @@
+# Grok share extract — Orbital Gravity Simulator with Flinging
+# URL: https://grok.com/share/c2hhcmQtMi1jb3B5_28af6c4b-b964-4b5c-96d0-4b722a3b22d9
+# Checked: 23 Sep 2026
+# Live preview: expired
+# Grok reply: usage limit in shared chrome
+
+--- You ---
+Make an orbital gravity simulator where you click-drag to fling planets and watch them orbit, slingshot, and collide. Include mass presets, trail rendering, time scale control, and a clear button. Keep the physics stable enough for satisfying multi-body choreography.
+
+--- Grok ---
+You've hit your usage limit
+Resets later.
+
+[Live preview chrome present: “Live preview has expired / Continue the conversation to get a live copy of this app.”]

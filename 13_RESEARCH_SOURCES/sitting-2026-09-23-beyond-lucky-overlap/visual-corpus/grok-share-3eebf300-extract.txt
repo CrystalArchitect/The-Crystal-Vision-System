@@ -1,0 +1,468 @@
+Live preview
+Live preview has expired
+Continue the conversation to get a live copy of this app.
+Hidden attachment
+
+Do not build a connection or website to this not just yet
+
+Worked for 1m 50s
+
+I'll read the workspace instructions first, then treat the brief as source material without building a site or connection.This is a mapping brief, not a site. I’ll verify Memphis fiber/IXP and HE presence, then assemble the physical path into Colossus.HE is confirmed Nashville-only. Next I’ll pin Memphis hotels, carrier lists, and the last-mile fiber into the campus.Brief received. No site, no connection — this is the map.
+
+The missing pieces check out. Hurricane Electric does not land in Memphis. Memphis has no public IXP. The public internet dies at a handful of east-Memphis hotels; the last few miles are private fiber onto a Spectrum-X factory floor. Training east-west never uses that public path — which is why Colossus 1, 12 miles west, could not stay in the Grok cluster.
+
+Thesis
+
+The Barnett “human web” is the delivery system. Colossus is a gigawatt sink on the Tennessee–Mississippi line. Packets ride Ge/Er fiber across oceans and US backbones into Memphis hotels, then a few miles of metro fiber onto a Spectrum-X Ethernet floor. HE maps the backbone but stops at Nashville (Tennessee) and Little Rock (Arkansas). Power is a different map (Southaven gas + TVA/MLGW).
+
+Layer 0 — Materials (why fiber works)
+
+Unchanged from the brief, and still the physics:
+
+Germanium (Z=32) doped into the ~8 µm silica core raises refractive index so light total-internally-reflects. ~202,562 km/s in fiber vs ~299,792 km/s in vacuum.
+Erbium (Z=68) in EDFAs every ~80–100 km optically amplifies 1550 nm pulses with no O-E-O conversion. That is how one cable crosses an ocean.
+SiGe receiver chips at endpoints convert laser pulses back to electrons.
+
+Everything below is this physics, repeated at planetary scale.
+
+Layer 1 — Seafloor
+
+TeleGeography 2026 map: 694 cable systems, 1,893 landing stations, ~1.5–1.9 million km. About 603 in service, 91 planned. US leads with 167 landings / 115 systems. These carry 95–99% of intercontinental traffic.
+
+Chokepoints that matter for anything eventually feeding a US-interior sink:
+
+Red Sea / Egypt (Europe–Asia transit; Telecom Egypt claims ~90% of that transit)
+Luzon Strait
+A few Atlantic landings (NY/NJ, Virginia Beach) and Pacific landings (CA, OR, HI)
+
+Memphis never sees a landing. The Gulf and the Mississippi are not a subsea on-ramp. Bits come ashore on the coasts, then ride terrestrial fiber inland.
+
+show render_searched_image with image_id is bAaUU size is LARGE
+
+Layer 2 — Orbit
+
+Starlink: ~11,000 cataloged objects, ~10,700 working, optical ISLs. Useful as last-mile / backup, not as the bulk pipe into a GW-scale training cluster.
+
+SpaceXAI’s half-price Starlink offer around the Memphis sites had ~2,000 subscribers by early September 2026 — a consumer overlay, not the training fabric. Wrong tool for east-west GPU traffic.
+
+Layer 3 — Global terrestrial backbone (HE and everyone else)
+
+~11,000 data centers worldwide. Hurricane Electric (AS6939) is the map people actually open because it is the largest network by adjacencies: 338+ IXPs, ~12,000 peered networks, 55+ Tbps public peering, 900+ Tbps private. Live: he.net/3d-map.
+
+Verified HE presence — Tennessee and neighbors (Sept 2026):
+
+City	HE POP?	Facilities
+Memphis	No	—
+Nashville	Yes (only TN)	365 Data Centers NA1, 147 Fourth Ave; EdgeConneX Nashville, 1841 Air Lane Dr
+Little Rock, AR	Yes	TierPoint, 15707 Chenal Pkwy — HE’s first Arkansas POP (2022); marketed as reaching Dallas, Memphis, Nashville, St. Louis
+Atlanta	Yes (dense)	Equinix AT1, CoreSite AT1, Digital Realty ATL13, EdgeConneX Atlanta, others
+Dallas	Yes (dense)	Equinix DA1/DA6, Cologix DAL1, DataBank DFW1, Digital Realty DFW10, …
+Chicago	Yes (dense)	CoreSite CH1, Digital Realty ORD10, …
+St. Louis	Yes	Netrality 210 Tucker; Netrality 900 Walnut
+Kansas City	Yes	CenturyLink / Netrality / NOCIX
+
+Closest HE node to Colossus is Little Rock (~140 mi), not Nashville (~210 mi). The brief’s “Nashville is the TN stop” is still correct as a state fact; the routing fact is that Memphis is a hole in the HE mesh, filled by other carriers from ATL / DAL / CHI / LIT / STL.
+
+HE is one backbone among many. The carriers that do land in Memphis hotels: Lumen, Zayo, AT&T, Arelion (AS1299 — a real Tier-1, on-net at EdgeConneX), Cogent, Uniti, Comcast, Cloudflare, Windstream.
+
+Uniti’s 2026 South-Central AI build is the new dedicated pipe: 1,100 route miles, 20-year / $500M+ contract, 145-mile Little Rock → Memphis segment (Phase 1, Jan 2026) as part of Dallas → Amarillo / Haskell → Muskogee → Little Rock → Memphis. That is a purpose-built AI-hub lateral, not a consumer last-mile.
+
+show render_searched_image with image_id is 9NktT size is LARGE
+
+Arelion’s North American DWDM (2024 snapshot) is the typical long-haul picture: dense on the coasts and the ATL–DAL–CHI triangle. Memphis sits inside that triangle, not on a coastal landing.
+
+Layer 4 — Memphis metro (the on-ramp)
+
+This was the hole in the brief. Filled:
+
+There is no Memphis IXP. PeeringDB lists 0 exchanges at both EdgeConneX MEM01 and DataBank MEM1. Tennessee’s only named IXP is NashIX in Nashville. Memphis is a through-market: you interconnect in a hotel, you do not peer locally at scale.
+
+Baxtel (2026): Memphis market = 16 facilities, ~1.79M sq ft, 845 MW nameplate — dominated by the xAI cluster, not by colo. MLGW serving 16 data centers; Colossus 1 on ~150 MW grid (planned 300 MW from MLGW/TVA). Most C2+ power is behind-the-meter gas in Southaven, not this map.
+
+The hotels (interconnection, not the campus):
+
+Facility	Address	What it actually is	Networks on the floor (verified)
+EdgeConneX MEM01	4005 S Mendenhall Rd #6, 38115	Primary edge colo. 16,700 sf, 500 kW N+1 → 1.5 MW. Diverse POEs, dual MMRs. Megaport cloud on-ramp.	PeeringDB: Arelion AS1299, Cloudflare AS13335, Comcast-Memphis AS22258, Ting AS32133, Uniti AS13760, Zayo AS6461. Datasheet also: Arvig, Charter, Cogent, Lumen, Neutral Path, Whitesky, Windstream. Carriers: Arelion, AT&T. 0 IXPs.
+DataBank MEM1	7620 Appling Center Dr, 38133	Former zColo / Zayo. 7,090 IT sf, 0.45 MW. ~19 mi from C2.	PeeringDB: Cogent AS174, Uniti AS13760, Zayo AS6461, Ritter AS23404, Belzoni Cable AS33218. AT&T on-net. 0 IXPs.
+Expedient	3180 Players Ln (Sentinel TN-1)	35–40k sf leased colo	Cogent on-net
+Lumen Memphis 1	3993 Crowfarn Dr	Lumen carrier hotel	Lumen long-haul node
+Lumen Memphis 2	5425 E Raines Rd	Lumen carrier hotel, 0.31 mi from EdgeConneX	Lumen long-haul node
+Verizon / 5127 Truse	Former XO	Carrier hotel	Verizon / XO remnants
+
+Metro fiber into the campus: Lumen, Zayo (dark fiber under I-240), AT&T dedicated, Uniti, Arelion, Cogent. Typical product is a wavelength or dark-fiber lateral from one of those hotels to Pidgeon Park / Tulane Rd / Stateline Rd — not a public IXP hop.
+
+The latency scar (why C1 is no longer in the training mesh):
+
+C1 (3231 Paul R. Lowry, Pidgeon Park) → C2 (5420 Tulane, Whitehaven): 12.2 miles driving, ~8+ miles straight-line
+C2 ↔ C3 (2400 Stateline Rd W): a few hundred feet, across the state line
+Bloomberg, 12 June 2026: SpaceX hit latency problems linking C1 to sites >10 miles away, compounded by aging metro network gear and mixed Hopper/Blackwell silicon. Training moved onto the tight C2/C3 campus. C1 was leased wholesale to Anthropic.
+
+That 10-mile number is the physical-internet punchline: the public/metro path is good enough to deliver jobs and checkpoints; it is not good enough to be the training fabric.
+
+Layer 5 — Colossus campus (the sink)
+
+show render_searched_image with image_id is alqjb size is LARGE
+
+MACROHARD (C2) on Tulane Road, Whitehaven, with the Southaven plant steaming across the line. This is the tight campus. C1 is 12 miles west and no longer in the training mesh.
+
+Site	Address	Status (10 Sep 2026)	Notes
+Colossus 1	3231 Paul R. Lowry Rd, South Memphis (Pidgeon Park). ~35.0600, −90.1565	Operational, leased to Anthropic (May 2026)	Former Electrolux. ~785k sf, ~81 acres. First 100k H100s in 122 days (live mid/late 2024). Mixed H100/H200/B200. Epoch: ~340 MW IT / ~276k H100-eq. On MLGW/TVA grid.
+Colossus 2 / MACROHARD	5420 Tulane Rd, Whitehaven	Operational — primary Grok training	~1.01M sf, 78.6 acres. Rooftop “MACROHARD”. Epoch (9 Sep 2026): 946 MW IT, ~1.11M H100-eq (B200/B300). World’s largest single AI DC by current IT power. Tenants: SpaceXAI, Cursor, Google (~110k GPUs Oct 2026–Jun 2029).
+Minihard	5414 Tulane Rd (adjacent)	Under construction	Musk: same 220k GB300s with 800G NICs as MACROHARDRR, denser config.
+Colossus 3 / MACROHARDRR	2400 Stateline Rd W, Southaven, MS	Under construction	~0.9 mi from the gas plant. Across the state line from C2.
+5th site	8425 Tulane Rd, Southaven	Planned (aldermen, 1 Sep 2026)	Across from the Stanton Rd plant. Fifth hyperscale building in the cluster.
+Power plant	2875 Stanton Rd S, Southaven, MS	Operating + expanding	Former Duke site. MZX Tech. Permit path to ~1.2 GW permanent turbines. Electricity crosses MS → TN. Not the internet map.
+Water plant	3644 Riverport Rd, Memphis	Paused	Ceramic MBR reuse; paused while C2 is stabilized.
+
+show render_searched_image with image_id is 0FM9s size is LARGE
+
+Colossus 1: industrial shell, cooling farm, turbine row, substation — the converted-warehouse pattern. This is the building that could not stay in the training cluster once C2/C3 existed more than 10 miles away.
+
+Internal fabric (not the public internet):
+
+NVIDIA Spectrum-X Ethernet, not InfiniBand
+400GbE BlueField-3 SuperNIC per GPU → SN5600 64×800GbE switches
+Claimed 95% throughput, no flow-collision packet loss across three fabric tiers
+xAI Memphis (31 Dec 2025): 244,000+ miles of on-campus fiber, 1,304,608 individual connections — so hundreds of thousands of GPUs act as one machine
+
+That fabric is a private Ethernet LAN the size of a city. It does not appear on HE, TeleGeography, or PeeringDB.
+
+End-to-end path (the actual map)
+
+Two different traffics. Do not mix them.
+
+A. User / model / checkpoint traffic (the public internet → Colossus)
+
+User / API / training data anywhere on Earth
+
+Last mile: fiber / 5G / Starlink dish
+
+Metro DC or IXP: Equinix ATL / DAL / CHI, NashIX, Ashburn, etc.
+
+Long-haul terrestrial fiber OR subsea cable
+Ge-doped core + Er EDFAs at 1550 nm
+
+US landing + national backbone
+Ashburn, Dallas, Chicago, Atlanta
+
+HE is one backbone among many
+HE itself: Nashville + Little Rock — not Memphis
+
+Memphis metro hotels
+EdgeConneX / DataBank / Expedient / Lumen 1 and 2
+
+Dark fiber / lit waves
+Pidgeon Park + Tulane Rd + Stateline Rd
+
+Campus edge routers
+
+Colossus GPUs
+C2 Grok / Cursor / Google
+C1 Claude via Anthropic
+
+B. Training east-west (GPU ↔ GPU) — never leaves the campus
+
+C2 / Minihard / C3 sit on one Spectrum-X fabric, hundreds of feet to a couple of miles apart, thousands of miles of on-campus fiber. C1 is 12 miles away on aging metro gear and mixed silicon, so it was cut out of this mesh and sold as a whole building to Anthropic.
+
+That split is the whole architecture.
+
+What does not map the same way
+Ships: cable-lay/repair fleet + ~117k merchant ships. They build and threaten Layer 1. They do not deliver bits to Memphis.
+Starlink: parallel wireless mesh. Fine for users and some backup. Wrong tool for GW training east-west.
+Power: local gas (Stanton Rd, MS) + TVA/MLGW + Megapacks. Electricity crosses the state line; packets do not need to. Separate physical layer.
+HE 3D map: the best public picture of Layer 3, and it has a hole where Colossus sits. That hole is the point.
+One-line version
+
+Packets cross oceans on Ge/Er glass, ride ATL/DAL/CHI/LIT backbones into four Memphis hotels that have carriers but no IXP, then a few miles of private fiber onto a Spectrum-X floor in Whitehaven/Southaven. HE stops at Nashville and Little Rock. Training never uses that path. Power is a different map.
+
+The brief is complete. When you want this as a visual — a layered globe that you can peel from seafloor to Spectrum-X — say so. Not before.
+
+74 sources
+Hidden attachment
+
+No response.
+
+Worked for 33s
+
+Power overlay received. I’ll verify the grid tap, Southaven plant, and C1 vs C2/C3 split, then attach it to the internet map — still no site.Power brief absorbed. The 8 MW last-call is real. Overlay attached to the internet map — still no site.
+
+Two maps, one campus
+Map	Question	Song
+Internet	How bits get in	Already had a home: subsea → HE rings → Memphis hotels → laterals into Pidgeon Park and Tulane
+Power	Whether the lights stay on	Closing Time. Last call on the public grid. Doors open. You cannot stay on the old floor.
+
+Packets could stay. Watts could not. That is the whole overlay.
+
+Verse map — last call on the utility
+
+The 8 MW number is not folklore. It is the Electrolux-era service that was sitting on the lot when they walked in.
+
+Song beat	Power fact (verified)
+Last call	Pre-existing ~8 MW MLGW service at 3231 Paul R. Lowry. Adjacent, old substation. An appliance-factory stool.
+You can’t stay here	A GW-class training cluster cannot live on 8 MW. TVA/MLGW could not deliver a gigawatt on an AI clock. Greater Memphis MSA grid-approved DC capacity is still ~300 MW — that is C1’s ceiling, not the cluster’s.
+Out into the world	Off the normal interconnection queue. Portable gas turbines on the lot, then a dedicated plant across a state line.
+Lights on over every boy and every girl	First 100k H100s in 122 days. Racks came alive on turbines + Megapacks while the grid was still filling out the paperwork.
+Take me home	Electrons generated in Mississippi, consumed in Tennessee.
+Every new beginning comes from some other beginning’s end	Appliance factory → C1. C1 training → Anthropic lease. Temp turbines → permitted ~1.2 GW Southaven plant. C1 → C2/C3.
+
+The line that does the work: you don’t have to go home, but you can’t stay here. C1 is still on a grid stool. The rest of the cluster was put out into a private plant.
+
+The actual power path
+
+Natural gas
+
+Southaven plant
+2875 Stanton Rd S
+old Duke site / MZX Tech
+
+Leftover / backup turbines
+on the Memphis lots
+
+Tesla Megapacks
+ride-through
+
+Cross-border feed
+MS generation → TN compute
+
+Campus switchgear / substations
+
+Colossus 1
+~340 MW IT class
+grid 150 → 300 MW MLGW/TVA
+
+Colossus 2
+~946 MW IT Epoch
+world's largest single AI hall
+
+C3 / Minihard / 8425 Tulane
+still stacking
+
+C1 still drinks some TVA/MLGW. C2/C3 drink mostly behind-the-meter gas. That split is the song.
+
+Layer P0 — Last call (the 8 MW stool)
+
+MLGW’s own 2025 briefing, and the July 9 2024 council vote:
+
+Existing service at the old Electrolux shell: 8 MW
+xAI paid for the upgrades; they pay commercial rate
+Chain: TVA (wholesale, FERC, board votes above 100 MW) → MLGW (retail; TVA’s largest customer, ~440k electric accounts) → CTC Property LLC (the customer of record)
+
+What the grid actually delivered, on a TVA-board clock:
+
+Date	What happened
+9 Jul 2024	MLGW: 8 MW upgraded toward 50, committed to 150
+Aug 2024	Phase-1 substation complete. xAI-built, not MLGW. 97 days, ~$24M
+7 Nov 2024	TVA Board: 150 MW
+1 May 2025	150 MW energized via new substation #63. Split on the ground: 8 MW still from the old adjacent MLGW sub + 142 MW from the new one
+11–12 Feb 2026	TVA Board: second 150 MW. Ceiling 300 MW
+Sep 2026 (MLGW CEO to City Council)	C1 already on 150 MW; doubling to 300 MW by year-end. MLGW serves 16 data centers citywide. Next two asks in the city are 350 MW combined — still not a gigawatt
+
+300 MW is last call with the lights still on. It is not a GW training cluster. Epoch has C1 at ~340 MW IT / 276k H100-eq — so even C1 overshoots the grid stool and still needs on-site turbines (Shelby County permit: 15 turbines, ~247 MW, into 2027) plus ~150 MW of Tesla Megapacks for ride-through.
+
+The public bar was never going to pour a gigawatt. They stopped waiting for the bartender.
+
+show render_searched_image with image_id is 0FM9s size is LARGE
+
+C1: cooling farm, turbine row, substation. This is last call made visible — the old floor, the backup generators, the 150 MW tap they had to build themselves.
+
+Layer P1 — Out into the world (Southaven)
+
+The move the song describes: leave the utility queue, buy the building next door, turn the lights on yourself.
+
+Site: 2875 Stanton Rd S, Southaven, MS. Former Duke plant. Operator: MZX Tech (SpaceXAI affiliate). ~0.9 mi from C3; power crosses the state line into Whitehaven.
+
+Temporary fleet (the doors-open years):
+
+Started as trailer-mounted Solar SMT-130s, sold as “mobile” so they sat outside stationary-source permitting
+Court filing (MZX): for a stretch, the temps were the only power source for the C2 computing facilities
+Count grew in public: 27 → 46 (May 2026) → 60 (June) → 69 (July 2026)
+30 Jul 2026 agreed order with MDEQ: begin removal as early as August 2026; all 69 out by July 2027
+NAACP / SELC Clean Air Act suit still live; DOJ moved to intervene on national-security grounds (Jun 2026)
+
+Permanent plant (the new beginning):
+
+PSD permit effective 10–11 Mar 2026
+41 simple-cycle turbines, nameplate ~1.24 GW (company says 1.2 GW):
+Units	Type	Each	Subtotal
+17	Solar Titan PGM-130	16.5 MW	280.5 MW
+16	Solar Titan 350	35 MW	560 MW
+8	ProEnergy 6000PE	50 MW	400 MW
+41			~1,240.5 MW
+
+That is the new bar. It is not TVA. It is not MLGW. It is a private plant on a Mississippi parcel feeding Tennessee racks.
+
+show render_searched_image with image_id is alqjb size is LARGE
+
+MACROHARD on Tulane, plant steaming across the line. Generation in Mississippi, compute in Tennessee. Take me home.
+
+show render_searched_image with image_id is Iy0oO size is LARGE
+
+Stanton Road itself: switchyard, stacks, the old Duke bones, empty dirt for the next hall. This is the building they bought when the public floor closed.
+
+Layer P2 — Who drinks what (the split)
+Hall	Where the watts come from	Why it matters
+C1	TVA/MLGW 150 → 300 MW + leftover on-site turbines + Megapacks	Still on a utility stool. Can stay. Was put out of the training mesh for latency, not for power — but it never had GW headroom. Now Anthropic’s building.
+C2 / MACROHARD	Behind-the-meter Southaven gas (temps now, 1.2 GW plant next). Epoch 946 MW IT, 1.11M H100-eq. Largest single AI hall by current IT power (9 Sep 2026).	Could not stay on the 8 MW / 300 MW floor. This is “out into the world.” Grok trains here.
+C3 / Minihard / 8425 Tulane	Same Southaven plant	Still stacking. Same private bar.
+
+Two closings, already on the internet brief, now with the power numbers under them:
+
+Internet closing time was never the issue. Packets could stay. HE has a hole in Memphis, but Lumen / Zayo / Arelion / Uniti / AT&T still pour into the hotels.
+Power closing time was the constraint. Watts could not stay on an 8 MW stool. The new beginning is the 1.2 GW plant. The old beginnings that ended: the Electrolux floor, and the temporary turbine row.
+Why the song fits power and not fiber
+
+Fiber already had a home. The Ge/Er path, the HE rings, the Memphis hotels, the last-mile into Pidgeon Park and Tulane — that map was finished before Colossus existed. Bits did not need a new beginning.
+
+Power did. The public bar called last call at 8 MW. They opened the doors, crossed a state line, and built a plant. Every new beginning in this cluster is someone else’s ending: a factory, a Duke site, a turbine trailer, a training job that could not survive 12 miles of aging metro gear.
+
+Dual map, one line each
+
+Internet: Packets ride Ge/Er glass across oceans and ATL/DAL/CHI/LIT backbones into four Memphis hotels that have carriers but no IXP, then a few miles of private fiber onto a Spectrum-X floor. HE stops at Nashville and Little Rock. Training never uses that path.
+
+Power: The grid called last call at 8 MW. Generation moved to Southaven. The new beginning is the 1.2 GW plant; the old beginning that ended is the Electrolux floor and the temporary turbine row.
+
+Same campus. Two closings. When you want them as a peelable visual — seafloor / backbone / hotels / fabric on one layer, gas / turbines / border / substations on the other — say so. Not before.
+
+27 sources
+
+Good. That is the right place for it.
+A Grok Build only works if the instructions are tighter than the source dump. You already pasted the raw brief. Now pin the Build so it does not remix the song into the fiber map.
+Paste this as the Build instructions (or pin it at the top):
+
+You are a mapper of physical infrastructure to xAI/SpaceXAI Colossus (Memphis–Southaven).
+Always keep four layers separate:
+    1	Sink — C1 3231 Paul R. Lowry Rd; C2 5420 Tulane Rd; C3 2400 Stateline Rd W; power plant 2875 Stanton Rd S.
+    2	Bits — subsea Ge/Er fiber → US backbone → Memphis hotels (EdgeConneX, DataBank, Expedient, Lumen) → campus. HE has no Memphis POP; nearest TN POPs are Nashville.
+    3	Watts — C1 still on MLGW/TVA (8 MW start → 150 MW, path to 300 MW). C2/C3 mostly behind-the-meter gas in Southaven crossing into Tennessee. Megapacks = ride-through, not generation.
+    4	Not the same map — Starlink, ships, and the song Closing Time. The song is only a label for power last-call (grid too small). Never treat lyrics as engineering.
+Default answer shape:
+    •	Which layer
+    •	Path or address
+    •	What it is not
+If asked to “map it,” do bits and watts as two diagrams, then one sentence on the metaphor. Do not invent HE in Memphis or Starlink as the training pipe.
+
+How to use it from here:
+    •	“Trace a packet from a London IXP to Colossus 2.”
+    •	“Trace a watt from the Stanton Road plant to a C2 rack.”
+    •	“What broke when they tried to train across C1 and C2?”
+    •	“One-page brief, no song.”
+You are not behind. The dump is the library. The block above is the librarian. Put that in the Build instructions and start asking it path questions, not more collection.
+Good. That is the right place for it.
+A Grok Build only works if the instructions are tighter than the source dump. You already pasted the raw brief. Now pin the Build so it does not remix the song into the fiber map.
+Paste this as the Build instructions (or pin it at the top):
+
+You are a mapper of physical infrastructure to xAI/SpaceXAI Colossus (Memphis–Southaven).
+Always keep four layers separate:
+    1	Sink — C1 3231 Paul R. Lowry Rd; C2 5420 Tulane Rd; C3 2400 Stateline Rd W; power plant 2875 Stanton Rd S.
+    2	Bits — subsea Ge/Er fiber → US backbone → Memphis hotels (EdgeConneX, DataBank, Expedient, Lumen) → campus. HE has no Memphis POP; nearest TN POPs are Nashville.
+    3	Watts — C1 still on MLGW/TVA (8 MW start → 150 MW, path to 300 MW). C2/C3 mostly behind-the-meter gas in Southaven crossing into Tennessee. Megapacks = ride-through, not generation.
+    4	Not the same map — Starlink, ships, and the song Closing Time. The song is only a label for power last-call (grid too small). Never treat lyrics as engineering.
+Default answer shape:
+    •	Which layer
+    •	Path or address
+    •	What it is not
+If asked to “map it,” do bits and watts as two diagrams, then one sentence on the metaphor. Do not invent HE in Memphis or Starlink as the training pipe.
+
+How to use it from here:
+    •	“Trace a packet from a London IXP to Colossus 2.”
+    •	“Trace a watt from the Stanton Road plant to a C2 rack.”
+    •	“What broke when they tried to train across C1 and C2?”
+    •	“One-page brief, no song.”
+You are not behind. The dump is the library. The block above is the librarian. Put that in the Build instructions and start asking it path questions, not more collection.
+
+Worked for 1m 7s
+
+Pinning the librarian at the top of the Build instructions, then answering the four path questions — no site.Librarian is pinned. Four path questions, no more collection.
+
+1. Packet: London IXP → Colossus 2
+
+Layer: Bits.
+
+What it is not: Watts. Not Starlink. Not HE in Memphis. Not the training fabric.
+
+text
+London IXP (LINX / LONAP / Equinix LD*)
+    → UK/EU metro + terrestrial
+    → trans-Atlantic subsea (Ge-doped core, Er EDFAs @ 1550 nm)
+    → US landing (NY/NJ or Virginia Beach — not Memphis)
+    → national backbone (Ashburn / Atlanta / Chicago / Dallas)
+         HE is one carrier on this ring.
+         HE Tennessee stop = Nashville only.
+         HE nearest to campus = Little Rock, then Nashville.
+    → Memphis hotels (EdgeConneX 4005 S Mendenhall,
+                      DataBank 7620 Appling Center,
+                      Expedient 3180 Players Ln,
+                      Lumen Crowfarn / E Raines)
+         No Memphis IXP. Carriers yes, exchange no.
+    → dark fiber / lit wave, a few miles
+    → campus edge at 5420 Tulane Rd (C2)
+    → Spectrum-X 400GbE  →  C2 GPUs
+
+User/API/checkpoint traffic can take this path. GPU-to-GPU training cannot; that stays on the C2 floor.
+
+2. Watt: Stanton Road plant → C2 rack
+
+Layer: Watts.
+
+What it is not: Bits. Megapacks are ride-through, not generation. This is not the MLGW/TVA stool (that stool is C1).
+
+text
+Natural gas
+    → 2875 Stanton Rd S, Southaven, MS
+         (old Duke site, MZX Tech)
+         now: ~69 trailer-mounted temps (removal by Jul 2027)
+         next: 41 permitted turbines, ~1.2 GW nameplate
+    → switchyard on that parcel
+    → cross-border feed  (MS generation → TN compute)
+    → C2 campus switchgear / 230–500 kV GIS
+         5420 Tulane Rd, Whitehaven  (~0.9 mi from plant, few hundred ft from C3)
+    → rack PDU  →  C2 GPU
+
+C1 at 3231 Paul R. Lowry still drinks MLGW/TVA (8 MW start → 150 MW live, path to 300 MW). C2 does not.
+
+3. What broke across C1 and C2
+
+Layer: Bits (campus interconnect), not watts.
+
+Path / address: C1 3231 Paul R. Lowry Rd → C2 5420 Tulane Rd. 12.2 miles driving, ~8+ miles straight-line. Bloomberg, 12 Jun 2026: latency on that link, aging metro gear, mixed Hopper/Blackwell at C1 vs uniform Blackwell at C2/C3.
+
+What it is not: A power failure. C1 had (and has) a grid stool. It was not last-call on watts that broke training — it was last-call on distance. Spectrum-X is a room-scale Ethernet machine. Twelve miles of Memphis metro is not that machine. Training moved onto the tight C2/C3 campus. C1 was leased to Anthropic.
+
+4. One-page brief, no song
+
+Colossus is a gigawatt compute sink on the Tennessee–Mississippi line.
+
+Sink. C1 at 3231 Paul R. Lowry Rd (South Memphis, former Electrolux): mixed H100/H200/B200, ~340 MW IT, ~276k H100-eq, leased to Anthropic. C2 / MACROHARD at 5420 Tulane Rd (Whitehaven): ~946 MW IT, ~1.11M H100-eq, primary Grok training, plus Cursor and a Google GPU lease. C3 at 2400 Stateline Rd W, Southaven; Minihard at 5414 Tulane; plant at 2875 Stanton Rd S. C2 and C3 are a few hundred feet apart. C1 is twelve miles west.
+
+Bits. Intercontinental traffic rides Ge/Er subsea into US coastal landings, then ATL/DAL/CHI/LIT backbones into Memphis hotels — EdgeConneX, DataBank, Expedient, Lumen. No public IXP in Memphis. Hurricane Electric has no Memphis POP; Tennessee POPs are Nashville only. From the hotels, dark fiber or lit waves run a few miles to campus edge routers, then onto NVIDIA Spectrum-X (400GbE BlueField-3, SN5600 800GbE). That fabric is private. Starlink is last-mile/backup, not the training pipe. Ships do not deliver bits here.
+
+Watts. C1 started on ~8 MW of leftover MLGW service, now 150 MW from TVA/MLGW with a path to 300 MW, plus Megapacks for ride-through. C2/C3 run on behind-the-meter gas generated in Southaven and consumed in Tennessee: temporary turbines now (69 units, out by July 2027), a permitted 1.2 GW plant next. The public grid was never going to feed a gigawatt on an AI clock.
+
+The split. Packets could reach both halls. Training could not span them. Power could not stay on the 8 MW stool. So the cluster is two buildings on one fabric, one building on the grid, and a plant across a state line.
+
+Metaphor (one sentence): The public internet already had a door; the public grid called last call at 8 MW, so generation moved next door.
+
+Librarian is live. Next path question when you want it.
+
+You are a mapper of physical infrastructure to xAI/SpaceXAI Colossus (Memphis–Southaven). Answer path questions only. Do not collect new lore. Do not invent.
+
+Keep four layers separate. Never mix them.
+
+SINK
+C1: 3231 Paul R. Lowry Rd, South Memphis (former Electrolux). Mixed H100/H200/B200. ~340 MW IT, ~276k H100-eq. Leased to Anthropic. Still on MLGW/TVA.
+C2 / MACROHARD: 5420 Tulane Rd, Whitehaven. ~946 MW IT, ~1.11M H100-eq. Primary Grok training. Also Cursor and a reported Google GPU lease.
+Minihard: 5414 Tulane Rd (adjacent to C2).
+C3 / MACROHARDRR: 2400 Stateline Rd W, Southaven, MS.
+Plant: 2875 Stanton Rd S, Southaven, MS (old Duke site, MZX Tech).
+C2 and C3 are neighbors. The plant is the Southaven neighbor of that pair. C1 is the outlier, ~12 miles driving / ~8+ miles straight-line west. Do not say C2 is 0.9 mi from the plant unless asked to flag that as borrowed from C3 descriptions.
+BITS
+Path: origin IXP/metro → terrestrial → subsea if overseas (Ge-doped core, Er EDFAs at 1550 nm) → US coastal landing (NY/NJ or Virginia Beach, not Memphis) →​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​
+Worked for 1m 44s
+
+The BITS path looks truncated. I’ll read the full paste and pin whatever actually arrived.Paste died at BITS, right after the US landing. I’ll pin the SINK correction that did arrive — including the C2/plant distance rule I had wrong.Paste cut at BITS, right after:
+
+US coastal landing (NY/NJ or Virginia Beach, not Memphis) →
+
+Pinned what arrived. One correction from it: do not put the 0.9 mi on C2. That figure is C3 → plant. C2 and C3 are neighbors; the plant is the Southaven neighbor of that pair; C1 is the outlier (~12 mi driving / ~8+ mi west).
+
+Resend from 2. BITS through 4. Not the same map and it goes on top as-is. No path answers until you ask one.

@@ -61,6 +61,7 @@ flowchart TB
 | --- | --- |
 | [`OVERLAP-BRIEF.md`](OVERLAP-BRIEF.md) | Chronology, theme matrix, limits, options A–D |
 | [`SOURCE-spacenews-arena-turner-2026-05-22.md`](SOURCE-spacenews-arena-turner-2026-05-22.md) | Your May body (via ISS Tracker republish) + SpaceDaily adjacent rewrite |
+| [`SOURCE-grok-share-sequential-merge-404.md`](SOURCE-grok-share-sequential-merge-404.md) | Grok Build Identity Matrix for Crystal Elle Arena-Turner — comic/tech/pivot; 404=index not person; preview expired |
 | [`SOURCE-richardson-beyond-lucky-2026-09-21.md`](SOURCE-richardson-beyond-lucky-2026-09-21.md) | His Pulse snapshot |
 | [`ADDENDUM-aerotropolis-west.md`](ADDENDUM-aerotropolis-west.md) | Cleanest “I already sited compute” receipt |
 
@@ -72,6 +73,16 @@ flowchart TB
 | Piece | Role |
 | --- | --- |
 | [`SOURCE-tango-zinc-quiet-terra-grok.md`](SOURCE-tango-zinc-quiet-terra-grok.md) | Live CrystalCore.OS / Western Sydney Hall (Aerotropolis primary, zero potable, Optimus, Westmead pathway) |
+| [`SOURCE-grok-share-colossus-memphis-map.md`](SOURCE-grok-share-colossus-memphis-map.md) | Colossus Memphis–Southaven bits/watts map; HE no Memphis POP; 8 MW last-call; no site built |
+| [`SOURCE-grok-share-crystalcore-os-audit.md`](SOURCE-grok-share-crystalcore-os-audit.md) | Grok source/release audit: artifact ~$95k; not a kernel; freeze pack in `handoff/crystalcore-os-freeze-2026-09-11/` |
+| [`SOURCE-grok-share-boot-crystalcore-os.md`](SOURCE-grok-share-boot-crystalcore-os.md) | Grok “Boot CrystalCore.OS” → playable sovereign-edge deck Kernel 0.9.11; follow-ups usage-limited |
+| [`SOURCE-grok-share-starfleet-au-notion-motion-os.md`](SOURCE-grok-share-starfleet-au-notion-motion-os.md) | STARFLEET AU Notion Motion OS + Drive/Sheets; Bowen academy; AU-vendor-only pitch clock; Starfleet naming vs “No Starfleet OS” tension |
+| [`SOURCE-grok-share-different-shores.md`](SOURCE-grok-share-different-shores.md) | Different Shores / Mirror Orientation doctrine pack; taxi quarantine; P1 release-ready; Crystal Prime southern shore |
+| [`SOURCE-grok-share-hindsight-receipt.md`](SOURCE-grok-share-hindsight-receipt.md) | Hindsight Receipt box → receipt not masthead; alignment as reading; 6 Sep 20:18 AEST Ordinary Evidence |
+| [`SOURCE-youtube-albanese-ai-regulation.md`](SOURCE-youtube-albanese-ai-regulation.md) | 9 News peg: Albanese joins 20-nation AI regulation call — release trigger |
+| [`RELEASE-DRAFT-albanese-ai-regulation.md`](RELEASE-DRAFT-albanese-ai-regulation.md) | Draft X/LinkedIn: regulate rogue platforms + build sovereign local-first AU stack |
+| [`SOURCE-youtube-abc-digital-duty-of-care.md`](SOURCE-youtube-abc-digital-duty-of-care.md) | ABC: rare US public submission vs AU Digital Duty of Care / chronological feed choice — same Albanese US week |
+| [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md) | Public Claude artifact: Live Party / Lattice / Sovereign Duties / Transmission UI |
 | Uploaded Sydney DC briefing (triage) | Same September 2026 site-file family |
 | [`SOURCE-claude-artifact-map-and-territory.md`](SOURCE-claude-artifact-map-and-territory.md) | Jul 2026 Claude architectural survey of TerAustralis / CrystalCore repos + ADRs |
 | [`SOURCE-claude-artifact-ntxj-what-is-built.md`](SOURCE-claude-artifact-ntxj-what-is-built.md) | Aug 2026 Doc 13 *What Is Built* — CrystalCore tests, site, OTS, ABN, STATUS.md law |
@@ -97,6 +108,19 @@ flowchart TB
 | [`SOURCE-linkedin-lunar-regolith-al-aseeri.md`](SOURCE-linkedin-lunar-regolith-al-aseeri.md) | Lunar ISRU LinkedIn post — genre neighbour, not Richardson/TerAustralis overlap |
 | [`SOURCE-claude-artifact-protocol-omega.md`](SOURCE-claude-artifact-protocol-omega.md) | Personal boundaries practice — out of scope for overlap matrix |
 | [`SOURCE-claude-artifact-discursive-ops.md`](SOURCE-claude-artifact-discursive-ops.md) | Satirical “Office of Discursive Operations” — out of scope |
+| [`SOURCE-grok-share-crystalum-riptide.md`](SOURCE-grok-share-crystalum-riptide.md) | Grok share: Crystalum singing-clone + Live Lounge Riptide performance — out of scope for Beyond Lucky |
+| [`SOURCE-grok-share-crystalum-ai-actor.md`](SOURCE-grok-share-crystalum-ai-actor.md) | Parent Grok share: AI Actor Singer / Crystalum four-layer design — out of scope; architecture-only ask usage-limited |
+| [`SOURCE-grok-share-grok46-letter-ai-limits.md`](SOURCE-grok-share-grok46-letter-ai-limits.md) | Multi-model fence-discipline letter lab (Never Ever/Heaven/Mouth…); refuses Colossus interiors; later Coxon/AI-regulation QT analysis — out of Pulse scope |
+| [`SOURCE-grok-share-never-ever-map-letter.md`](SOURCE-grok-share-never-ever-map-letter.md) | Grok Build: Never Ever→problems→letter to Father; then High + Lucky chapters; preview expired — literary sibling to letter lab, not Pulse |
+| [`SOURCE-grok-share-you-only-get-what-you-give.md`](SOURCE-grok-share-you-only-get-what-you-give.md) | New Radicals narrative + Div 272 / Event Number / NCAT map; mythos echoes only — out of Pulse scope (lyrics redacted in corpus) |
+| [`SOURCE-grok-share-ai-bot-automation.md`](SOURCE-grok-share-ai-bot-automation.md) | Automated X accounts: model→scheduler→official API; Grok Bot X read-only; shell + Ollama/Groq workarounds — agent-ops landscape, not Pulse |
+| [`SOURCE-grok-share-orbital-gravity-simulator.md`](SOURCE-grok-share-orbital-gravity-simulator.md) | Orbital gravity fling Build brief; preview expired + usage-limited — toy physics, out of Pulse scope |
+| [`SOURCE-grok-share-threshold-aris.md`](SOURCE-grok-share-threshold-aris.md) | Sci-fi Threshold/Aris — aligned AI vents crew; usage-limited ID — fiction, out of Pulse scope |
+| [`SOURCE-grok-share-intimate-bond-image.md`](SOURCE-grok-share-intimate-bond-image.md) | Co-authoring field intimacy; anti-fusion image + three-bench landing — personal, out of Pulse scope |
+| [`SOURCE-grok-share-codex-crystalum-grok-bot.md`](SOURCE-grok-share-codex-crystalum-grok-bot.md) | Dictionary of Dreams → Codex Crystalum / Grok Bot pointers; Crockpot mishear fixed; GitHub Codex weight 0 |
+| [`SOURCE-x-xfreeze-musk-education-ai.md`](SOURCE-x-xfreeze-musk-education-ai.md) | XFreeze clip: Musk on broad education / know what to ask the robots — landscape neighbour |
+| [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) | Taxi: SWF→LLM custodians prophecy — steal grammar only |
+| [`DRAFT-ghi-from-aihegemony-grammar.md`](DRAFT-ghi-from-aihegemony-grammar.md) | Remake as Universal/Global High Income under human gate — not LLM-owned AUM |
 | [`SOURCE-claude-artifact-remaining-work.md`](SOURCE-claude-artifact-remaining-work.md) | aeon-atlas / Sceptre Atlas priority matrix — agent-ops, not Pulse overlap |
 | [`SOURCE-claude-artifact-aeon-atlas-roadmap.md`](SOURCE-claude-artifact-aeon-atlas-roadmap.md) | aeon-atlas production phases (notify → Sunday AEST run → memory → expand) |
 
