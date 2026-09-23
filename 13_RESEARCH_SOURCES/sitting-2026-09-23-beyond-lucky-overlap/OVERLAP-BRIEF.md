@@ -11,10 +11,18 @@
 
 | Limit | Implication |
 | --- | --- |
-| SpaceNews May 2026 body is **paywalled** (`access_source: gated`). Public HTML exposes lead paragraph, byline, schema (`wordCount: 734`), and author bio. Full 734-word body was **not** retrieved this sitting. | Line-level plagiarism vs SpaceNews cannot be proven or disproven from the gated page alone. Comparison uses: lead + bio + in-repo citations of the op-ed + later Arena-Turner drafts that continue the same thesis. |
+| SpaceNews May 2026 is **not** a hard paywall for readers. This cloud agent hit a Newspack **meter** on anonymous fetch (`access_source: gated`). Body recovered via **republish** (ISS Tracker, 23 May 2026) — see [`SOURCE-spacenews-arena-turner-2026-05-22.md`](SOURCE-spacenews-arena-turner-2026-05-22.md). One short policy-bullet block may be elided in that capture. | Full-text comparison to Richardson is now possible on recovered body. Prefer your author copy if any wording differs. |
 | Richardson Pulse text **was** retrieved in full (public Pulse / jina markdown). | B-side quotes below are from the live article. |
 | No private comms, DMs, or shared docs between the two authors were available. | “Lived conversation,” sourcing, or copying **cannot** be established as fact — only public chronology and theme maps. |
 | “Lucky Country → value-add / sovereign IP” is a long Australian policy genre (Horne 1964 onward; Cleary *Too Much Luck*; Norway-fund comparisons in mainstream press). | Shared genre ≠ theft. Distinctive architecture and dates still matter. |
+
+### Republishes / syndication (confirmed)
+
+| Outlet | Date | Relationship to SpaceNews op-ed |
+| --- | --- | --- |
+| **ISS Tracker** (satellitetracker.space) | **23 May 2026** | Near-full **byline republish** of your SpaceNews Opinion (English body; DE locale URL). |
+| **Copernical** | 22 May 2026 stamp | Syndication card; “appeared first on SpaceNews.” |
+| **SpaceDaily** Editorial Team | **23 May 2026** | **Adjacent rewrite** (DARC, Port Hedland, Koonibba, southern pillar) — **not** your byline. Amplifies the same conversation the day after you published. |
 
 ---
 
