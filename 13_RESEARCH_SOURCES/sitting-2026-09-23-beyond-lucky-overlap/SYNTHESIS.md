@@ -96,6 +96,7 @@ flowchart TB
 | [`ADDENDUM-visual-crystalcore-mythos.md`](ADDENDUM-visual-crystalcore-mythos.md) | 56-frame dump triage; launch-map grammar (EARTH AUS → Mars → Alpha Centauri → Colossus) |
 | [`visual-corpus/`](visual-corpus/) | Copied receipts: four launch maps + persona stills |
 | [`SOURCE-cursor-agent-agents-availability.md`](SOURCE-cursor-agent-agents-availability.md) | Sibling Cursor run: Silent Line AU voice, Ember/CrystalCore gate, Lemuria PR #42 (creative only) |
+| [`SOURCE-cursor-agent-task-definition.md`](SOURCE-cursor-agent-task-definition.md) | Sibling Cursor run: Models think / TAI acts / CrystalCore governs; Kangaroo Division Vision; No Starfleet OS |
 
 ---
 
