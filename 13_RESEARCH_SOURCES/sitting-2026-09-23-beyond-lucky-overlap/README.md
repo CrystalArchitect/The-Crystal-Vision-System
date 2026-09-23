@@ -94,7 +94,8 @@
 - X / XFreeze Musk US–China trade “conjoined twins”: [`SOURCE-x-xfreeze-musk-trade-twins.md`](SOURCE-x-xfreeze-musk-trade-twins.md)
 - X / XFreeze Musk broad education in age of AI: [`SOURCE-x-xfreeze-musk-education-ai.md`](SOURCE-x-xfreeze-musk-education-ai.md)
 - X / AIHegemonyMemes SWF→LLM prophecy + GHI remake draft: [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) · [`DRAFT-ghi-from-aihegemony-grammar.md`](DRAFT-ghi-from-aihegemony-grammar.md)
-- Dream-RSI (Google/DeepMind — dream = replay history, not sleep): [`SOURCE-dream-rsi-landscape.md`](SOURCE-dream-rsi-landscape.md)
+- Dream-RSI (Google/DeepMind — dream = replay history, not sleep): [`SOURCE-dream-rsi-landscape.md`](SOURCE-dream-rsi-landscape.md)  
+- **Dream Learning capability draft** (wanted learning path): [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md)
 
 ## Visual / mythos layer
 

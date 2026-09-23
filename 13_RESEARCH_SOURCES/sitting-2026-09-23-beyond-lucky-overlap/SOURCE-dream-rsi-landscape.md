@@ -27,6 +27,8 @@ Reported efficiency (paper claims; **single-lab preprint / experiment frame**): 
 
 Dream-RSI is an **experimental orchestration loop** around a coding agent — discovery trees → replay “dreams” → policy rewrite → redeploy. Not a consumer dream-mode. Not Canon. Not a CrystalCore module. Incognita: dreamed/sim lines stay unmarked until you measure them online yourself.
 
+**Wanted next:** turn the grammar into a CrystalCore **learning capability** — see [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md).
+
 ## Doctrine read (CrystalCore)
 
 | Their word | Honest cut |
