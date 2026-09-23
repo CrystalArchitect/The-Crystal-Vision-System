@@ -29,6 +29,7 @@
 - Live Grok CrystalCore.OS / Sydney Hall: [`SOURCE-tango-zinc-quiet-terra-grok.md`](SOURCE-tango-zinc-quiet-terra-grok.md)  
 - Grok share Colossus Memphis–Southaven physical map (no website; bits vs watts): [`SOURCE-grok-share-colossus-memphis-map.md`](SOURCE-grok-share-colossus-memphis-map.md)  
 - Grok share Grok 4.6 Letter on AI Limits (multi-model fence lab + Coxon regulation QT): [`SOURCE-grok-share-grok46-letter-ai-limits.md`](SOURCE-grok-share-grok46-letter-ai-limits.md)  
+- Grok share You Only Get What You Give (personal narrative + AU legal map — out of scope): [`SOURCE-grok-share-you-only-get-what-you-give.md`](SOURCE-grok-share-you-only-get-what-you-give.md)  
 - Grok share CrystalCore.OS source/release audit + freeze pack trail (11 Sep frame): [`SOURCE-grok-share-crystalcore-os-audit.md`](SOURCE-grok-share-crystalcore-os-audit.md)  
 - Grok share Boot CrystalCore.OS (playable deck 0.9.11; preview expired): [`SOURCE-grok-share-boot-crystalcore-os.md`](SOURCE-grok-share-boot-crystalcore-os.md)  
 - Claude artifact CrystalCore.OS Live Party shell (public): [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md)  
