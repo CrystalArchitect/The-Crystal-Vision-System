@@ -58,6 +58,14 @@ Open [`multiplanetary-tonnage.html`](multiplanetary-tonnage.html) → Fullscreen
 
 Orbital Mars + quote beats. No corporate marks; caption paraphrased.
 
+## 9. UAP disclosure (night-sky kinetic)
+
+**Source:** https://vt.tiktok.com/ZSb1RpBaC/ → `@pentagonufodisclosure`  
+
+Open [`uap-disclosure-sky.html`](uap-disclosure-sky.html) → Fullscreen 9:16 → screen-record.
+
+Craft over treeline + disclosure beats. No agency marks; caption paraphrased.
+
 ## Sitting note
 
 Landscape / format references only — **not** Beyond Lucky text overlap.
