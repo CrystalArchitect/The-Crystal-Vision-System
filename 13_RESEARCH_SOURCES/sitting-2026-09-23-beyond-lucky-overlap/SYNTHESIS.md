@@ -176,7 +176,7 @@ Plagiarism allegation. Evidence does not support it.
 2. Outreach log check: did Richardson / Aurecon appear in pathway tracker?  
 3. Ship option B (comment or short LinkedIn / steward post).  
 4. If desired: one steward page that is literally this synthesis for humans (not the research folder).  
-5. Ungate or paste Claude artifacts currently sign-in only (9): `HozmbRxTwqdQ1rixHyrCpy`, `2VWLxryMEeaMcRqiCNev3f`, `CRFakQR8T6xw6jdVdeVD52`, `ESsPuKYXmcPomqLtH5KPxg`, `6yXxYhRkw5rMMBR9QSdSE4`, `NNJHwMkrVioxSoNkMtK1Nf`, `JhkyM92y7NHwfhexFm1koT`, `WGg8osvKVG6EmrKooxZVqF`, `3j5uSncyrU9RasAJp1LkGh` — see matching `SOURCE-claude-artifact-*-gated.md` notes. Prefer `/share/` links when available.
+5. Ungate or paste Claude artifacts currently sign-in only (10): `HozmbRxTwqdQ1rixHyrCpy`, `2VWLxryMEeaMcRqiCNev3f`, `CRFakQR8T6xw6jdVdeVD52`, `ESsPuKYXmcPomqLtH5KPxg`, `6yXxYhRkw5rMMBR9QSdSE4`, `NNJHwMkrVioxSoNkMtK1Nf`, `JhkyM92y7NHwfhexFm1koT`, `WGg8osvKVG6EmrKooxZVqF`, `3j5uSncyrU9RasAJp1LkGh`, `QquLZbgmbqnyJefD3Up9VK` — see matching `SOURCE-claude-artifact-*-gated.md` notes. Prefer `/share/` links when available.
 
 ---
 
