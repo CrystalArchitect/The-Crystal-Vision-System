@@ -25,6 +25,7 @@
 - SpaceNews body + republish notes: [`SOURCE-spacenews-arena-turner-2026-05-22.md`](SOURCE-spacenews-arena-turner-2026-05-22.md)  
 - Richardson Pulse snapshot: [`SOURCE-richardson-beyond-lucky-2026-09-21.md`](SOURCE-richardson-beyond-lucky-2026-09-21.md)  
 - Live Grok CrystalCore.OS / Sydney Hall: [`SOURCE-tango-zinc-quiet-terra-grok.md`](SOURCE-tango-zinc-quiet-terra-grok.md)  
+- Grok share Crystalum / Riptide Live Lounge voice+performance (out of scope for Beyond Lucky): [`SOURCE-grok-share-crystalum-riptide.md`](SOURCE-grok-share-crystalum-riptide.md)  
 - Claude artifact architectural survey (23 Jul 2026): [`SOURCE-claude-artifact-map-and-territory.md`](SOURCE-claude-artifact-map-and-territory.md)  
 - Claude artifact Protocol Omega (boundaries practice — out of scope): [`SOURCE-claude-artifact-protocol-omega.md`](SOURCE-claude-artifact-protocol-omega.md)  
 - Claude artifact Discursive Ops (satire — out of scope): [`SOURCE-claude-artifact-discursive-ops.md`](SOURCE-claude-artifact-discursive-ops.md)  
@@ -71,6 +72,7 @@
 
 - CrystalCore.OS launch maps + persona dump: [`ADDENDUM-visual-crystalcore-mythos.md`](ADDENDUM-visual-crystalcore-mythos.md)  
 - Receipts: [`visual-corpus/`](visual-corpus/)  
+- Grok share Crystalum / Riptide Live Lounge (voice pack + performance spec — out of scope for Beyond Lucky): [`SOURCE-grok-share-crystalum-riptide.md`](SOURCE-grok-share-crystalum-riptide.md)  
 - TikTok format remakes (live hub): https://tiktok-remakes.vercel.app · [`tiktok-replica/`](tiktok-replica/)  
 - TikTok ABC Gemini rogue (Sept 20 chyron): [`SOURCE-tiktok-abc-gemini-rogue.md`](SOURCE-tiktok-abc-gemini-rogue.md) · remake [`tiktok-replica/gemini-rogue-news.html`](tiktok-replica/gemini-rogue-news.html)  
 - TikTok ApexAI Zero Dawn / magnetic pulse: [`SOURCE-tiktok-apexai-zero-dawn.md`](SOURCE-tiktok-apexai-zero-dawn.md) · remake [`tiktok-replica/zero-dawn-pulse.html`](tiktok-replica/zero-dawn-pulse.html)  

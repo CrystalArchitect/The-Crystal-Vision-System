@@ -97,6 +97,7 @@ flowchart TB
 | [`SOURCE-linkedin-lunar-regolith-al-aseeri.md`](SOURCE-linkedin-lunar-regolith-al-aseeri.md) | Lunar ISRU LinkedIn post — genre neighbour, not Richardson/TerAustralis overlap |
 | [`SOURCE-claude-artifact-protocol-omega.md`](SOURCE-claude-artifact-protocol-omega.md) | Personal boundaries practice — out of scope for overlap matrix |
 | [`SOURCE-claude-artifact-discursive-ops.md`](SOURCE-claude-artifact-discursive-ops.md) | Satirical “Office of Discursive Operations” — out of scope |
+| [`SOURCE-grok-share-crystalum-riptide.md`](SOURCE-grok-share-crystalum-riptide.md) | Grok share: Crystalum singing-clone + Live Lounge Riptide performance — out of scope for Beyond Lucky |
 | [`SOURCE-claude-artifact-remaining-work.md`](SOURCE-claude-artifact-remaining-work.md) | aeon-atlas / Sceptre Atlas priority matrix — agent-ops, not Pulse overlap |
 | [`SOURCE-claude-artifact-aeon-atlas-roadmap.md`](SOURCE-claude-artifact-aeon-atlas-roadmap.md) | aeon-atlas production phases (notify → Sunday AEST run → memory → expand) |
 
