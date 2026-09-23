@@ -19,6 +19,8 @@ Hub file: [`index.html`](index.html) (Vercel root). Agent dialects remake: [`age
 
 **Rebuild copy/look:** hand [`../MANUS-BRIEF-tiktok-remakes-hub-rebuild.md`](../MANUS-BRIEF-tiktok-remakes-hub-rebuild.md) to Manus.
 
+**Deploy hygiene:** `vercel.json` runs `bash scripts/vercel-ignore-tiktok-replica.sh` so research-only commits skip Vercel builds (Hobby rate-limit). Only `crystal-tiktok-remakes` should stay linked — disconnect orphan `tiktok-remakes*` projects. See [`../SOURCE-ci-vercel-rate-limit-pr50.md`](../SOURCE-ci-vercel-rate-limit-pr50.md).
+
 ---
 
 ## 1. Agent dialects (kinetic type)

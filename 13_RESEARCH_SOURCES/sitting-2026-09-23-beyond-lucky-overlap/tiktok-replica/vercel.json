@@ -2,6 +2,7 @@
   "version": 2,
   "cleanUrls": false,
   "trailingSlash": false,
+  "ignoreCommand": "bash scripts/vercel-ignore-tiktok-replica.sh",
   "rewrites": [
     { "source": "/", "destination": "/index.html" }
   ],
