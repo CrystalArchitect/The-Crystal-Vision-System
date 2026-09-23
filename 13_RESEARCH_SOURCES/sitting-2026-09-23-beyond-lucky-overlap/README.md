@@ -39,3 +39,7 @@
 
 - CrystalCore.OS launch maps + persona dump: [`ADDENDUM-visual-crystalcore-mythos.md`](ADDENDUM-visual-crystalcore-mythos.md)  
 - Receipts: [`visual-corpus/`](visual-corpus/)
+
+## Sibling Cursor agents
+
+- Agents availability (Silent Line / Ember / Lemuria PR #42): [`SOURCE-cursor-agent-agents-availability.md`](SOURCE-cursor-agent-agents-availability.md)
