@@ -92,6 +92,7 @@ flowchart TB
 | [`SOURCE-coreflow-dev.md`](SOURCE-coreflow-dev.md) | Sydney AI entertainment hire site — name-adjacent only, not CrystalCore |
 | [`SOURCE-linkedin-lunar-regolith-al-aseeri.md`](SOURCE-linkedin-lunar-regolith-al-aseeri.md) | Lunar ISRU LinkedIn post — genre neighbour, not Richardson/TerAustralis overlap |
 | [`SOURCE-claude-artifact-protocol-omega.md`](SOURCE-claude-artifact-protocol-omega.md) | Personal boundaries practice — out of scope for overlap matrix |
+| [`SOURCE-claude-artifact-discursive-ops.md`](SOURCE-claude-artifact-discursive-ops.md) | Satirical “Office of Discursive Operations” — out of scope |
 
 ### E. Mythos / visual OS layer (branded CrystalCore.OS — not Richardson text)
 
