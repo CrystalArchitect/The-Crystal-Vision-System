@@ -35,6 +35,10 @@
 | Genealogy site analysis | [`SOURCE-manus-share-website-analysis-genealogy.md`](SOURCE-manus-share-website-analysis-genealogy.md) | Weak / other product |
 | we1.crt decode | [`SOURCE-manus-share-we1-crt.md`](SOURCE-manus-share-we1-crt.md) | Out of scope |
 
+## Landscape (not CrystalCore)
+
+- coreflow.dev (Sydney AI entertainment hire site): [`SOURCE-coreflow-dev.md`](SOURCE-coreflow-dev.md)
+
 ## Visual / mythos layer
 
 - CrystalCore.OS launch maps + persona dump: [`ADDENDUM-visual-crystalcore-mythos.md`](ADDENDUM-visual-crystalcore-mythos.md)  
