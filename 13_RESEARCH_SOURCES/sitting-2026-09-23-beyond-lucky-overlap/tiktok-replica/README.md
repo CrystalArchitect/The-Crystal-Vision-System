@@ -1,6 +1,6 @@
 # TikTok format remakes
 
-Live hub (phone): **https://tiktok-remakes.vercel.app**  
+Live hub (phone): **https://crystal-tiktok-remakes.vercel.app**  
 Brand domain: **https://www.teraustralis.com.au** — prefer for anything public/permanent; remakes can move under it later.
 
 These are 9:16 HTML shells for screen-recording. GitHub “View file” will not play them.

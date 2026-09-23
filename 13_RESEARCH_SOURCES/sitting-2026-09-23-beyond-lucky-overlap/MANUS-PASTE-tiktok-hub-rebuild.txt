@@ -1,7 +1,7 @@
 Rebuild the TikTok remakes hub as a proper TerAustralis / CrystalCore surface.
 
 LIVE URL (BROKEN NOW)
-https://tiktok-remakes.vercel.app returns Vercel 404 NOT_FOUND (Sydney edge). Rebuild the hub page and I will redeploy. Brand home is https://www.teraustralis.com.au — remakes should look like they belong to TerAustralis, not a random dark card list.
+https://crystal-tiktok-remakes.vercel.app returns Vercel 404 NOT_FOUND (Sydney edge). Rebuild the hub page and I will redeploy. Brand home is https://www.teraustralis.com.au — remakes should look like they belong to TerAustralis, not a random dark card list.
 
 PROBLEM
 The hub looks unfinished: dark monospace card dump, titles that do not explain what you are opening, no brand, no “what this is / what it isn’t,” and developer localhost instructions on a phone page. Then the deploy went 404.
