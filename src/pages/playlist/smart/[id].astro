@@ -5,6 +5,14 @@ import BaseLayout from "../../../layouts/BaseLayout.astro";
 import SmartPlaylistView from "../../../components/react/SmartPlaylistView";
 import type { Track } from "../../../types";
 
+// Smart playlists are user-created at runtime and fetched client-side, so there
+// are no instances to prerender in a static build. Returning an empty list keeps
+// the static build valid; the route is still rendered on demand by `astro dev`.
+// Production static hosting of deep links would require an SSR adapter.
+export function getStaticPaths() {
+  return [];
+}
+
 const { id } = Astro.params;
 
 let tracks: Track[] = [];

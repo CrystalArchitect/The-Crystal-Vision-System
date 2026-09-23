@@ -4,26 +4,24 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import type { Track } from "../../types";
 
-let tracks: Track[] = [];
-let years: number[] = [];
+// getStaticPaths runs in its own build-time scope, so load the data here and
+// pass each year's tracks through props.
+export async function getStaticPaths() {
+  let tracks: Track[] = [];
+  try {
+    tracks = await import("../../data/tracks.json").then((m) => m.default);
+  } catch {
+    console.warn("Could not load tracks.json");
+  }
 
-try {
-  tracks = await import("../../data/tracks.json").then((m) => m.default);
-  const yearSet = new Set(tracks.map((t) => t.year));
-  years = Array.from(yearSet);
-} catch {
-  console.warn("Could not load tracks.json");
-}
-
-export function getStaticPaths() {
+  const years = Array.from(new Set(tracks.map((t) => t.year)));
   return years.map((year) => ({
     params: { year: String(year) },
-    props: { year },
+    props: { year, yearTracks: tracks.filter((t) => t.year === year) },
   }));
 }
 
-const { year } = Astro.props;
-const yearTracks = tracks.filter((t) => t.year === year);
+const { year, yearTracks } = Astro.props as { year: number; yearTracks: Track[] };
 ---
 
 <BaseLayout>
