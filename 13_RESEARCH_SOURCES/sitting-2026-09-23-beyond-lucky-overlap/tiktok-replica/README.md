@@ -42,6 +42,14 @@ Open [`agents-escape-sandbox.html`](agents-escape-sandbox.html) → Fullscreen 9
 
 Sandbox grid + vanishing agents. No creator marks; caption paraphrased.
 
+## 7. AI cloning centers (creepypasta fiction)
+
+**Source:** https://vt.tiktok.com/ZSb1RA2BL/ → `@doctafiction`  
+
+Open [`ai-cloning-centers-fiction.html`](ai-cloning-centers-fiction.html) → Fullscreen 9:16 → screen-record.
+
+Horror corridor + fiction banner. No creator marks; caption paraphrased.
+
 ## Sitting note
 
 Landscape / format references only — **not** Beyond Lucky text overlap.
