@@ -68,7 +68,8 @@
 
 - CrystalCore.OS launch maps + persona dump: [`ADDENDUM-visual-crystalcore-mythos.md`](ADDENDUM-visual-crystalcore-mythos.md)  
 - Receipts: [`visual-corpus/`](visual-corpus/)  
-- TikTok format remake (agent-dialect kinetic type): [`tiktok-replica/`](tiktok-replica/)
+- TikTok format remake (agent-dialect kinetic type): [`tiktok-replica/`](tiktok-replica/)  
+- TikTok ABC Gemini rogue (Sept 20 chyron): [`SOURCE-tiktok-abc-gemini-rogue.md`](SOURCE-tiktok-abc-gemini-rogue.md) · remake [`tiktok-replica/gemini-rogue-news.html`](tiktok-replica/gemini-rogue-news.html)
 
 ## Sibling Cursor agents
 
