@@ -1,10 +1,12 @@
 Rebuild the TikTok remakes hub as a proper TerAustralis / CrystalCore surface.
 
-LIVE URL (BROKEN NOW)
-https://crystal-tiktok-remakes.vercel.app returns Vercel 404 NOT_FOUND (Sydney edge). Rebuild the hub page and I will redeploy. Brand home is https://www.teraustralis.com.au — remakes should look like they belong to TerAustralis, not a random dark card list.
+LIVE URL (USE THIS)
+https://crystal-tiktok-remakes.vercel.app — works on phone.
+Do NOT use https://tiktok-remakes.vercel.app (that hostname 404s at /).
+Brand home is https://www.teraustralis.com.au — remakes should look like they belong to TerAustralis, not a random dark card list.
 
 PROBLEM
-The hub looks unfinished: dark monospace card dump, titles that do not explain what you are opening, no brand, no “what this is / what it isn’t,” and developer localhost instructions on a phone page. Then the deploy went 404.
+The hub looks unfinished: dark monospace card dump, titles that do not explain what you are opening, no brand, no “what this is / what it isn’t,” and developer localhost instructions on a phone page.
 
 WHAT THIS SITE IS
 A phone-friendly index of 12 HTML shells. Each shell is a 9:16 format remake of a public TikTok style (news chyron, kinetic type, night-sky, etc.) for screen-recording. Landscape / format references only — NOT Beyond Lucky text overlap, NOT the original creators’ videos, NOT CrystalCore.OS itself.
@@ -21,13 +23,14 @@ REQUIRED OUTPUT
    - For each remake: human title, one-sentence “what you will see”, format tag, open button
    - Phone-first: big tap targets; NO localhost/python instructions on the public page
    - Footer: “Format remakes only · temporary host · brand home teraustralis.com.au”
-2) Keep these 12 remake filenames working (do not delete shells; hub only links to them):
-3) Deliver: index.html (+ optional shared CSS), mobile-width preview, short “what changed” note.
+2) Keep these 12 remake filenames working (do not delete shells; hub only links to them)
+3) Deliver: index.html (+ optional shared CSS), mobile-width preview, short “what changed” note
 
 LAYOUT RULE
 - Hub = index.html (Vercel root)
 - Agent dialects remake = agent-dialects.html (NOT index.html)
 - Do not use hub.html as the public entry
+- vercel.json: cleanUrls false; rewrite / → /index.html (cleanUrls was causing / to 404)
 
 DESIGN DIRECTION
 - One composition, not a dashboard
