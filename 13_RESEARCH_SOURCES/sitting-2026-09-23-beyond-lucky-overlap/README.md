@@ -40,7 +40,8 @@
 - Claude artifact 6yXx… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-6yxx-gated.md`](SOURCE-claude-artifact-6yxx-gated.md)  
 - Claude artifact NNJH… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-nnjh-gated.md`](SOURCE-claude-artifact-nnjh-gated.md)  
 - Claude artifact Jhky… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-jhky-gated.md`](SOURCE-claude-artifact-jhky-gated.md)  
-- Claude artifact WGg8… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-wgg8-gated.md`](SOURCE-claude-artifact-wgg8-gated.md)
+- Claude artifact WGg8… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-wgg8-gated.md`](SOURCE-claude-artifact-wgg8-gated.md)  
+- Claude artifact 3j5u… (sign-in gated — contents unknown): [`SOURCE-claude-artifact-3j5u-gated.md`](SOURCE-claude-artifact-3j5u-gated.md)
 
 ## Manus shares (triaged)
 
