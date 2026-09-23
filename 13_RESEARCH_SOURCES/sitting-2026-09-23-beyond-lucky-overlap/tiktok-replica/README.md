@@ -1,5 +1,20 @@
 # TikTok format remakes
 
+These are **local HTML shells**, not public websites. GitHub “View file” will not play them.
+
+**Open on your machine**
+
+```bash
+cd 13_RESEARCH_SOURCES/sitting-2026-09-23-beyond-lucky-overlap/tiktok-replica
+python3 -m http.server 8765
+```
+
+Then open [`http://127.0.0.1:8765/hub.html`](http://127.0.0.1:8765/hub.html) → pick a remake → Fullscreen 9:16 → screen-record.
+
+Hub: [`hub.html`](hub.html)
+
+---
+
 ## 1. Agent dialects (kinetic type)
 
 **Source:** https://vt.tiktok.com/ZSb1e1nJy/ → `@andusv12u` / Ask The AI  
