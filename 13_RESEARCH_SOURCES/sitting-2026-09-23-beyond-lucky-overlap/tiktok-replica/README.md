@@ -82,6 +82,14 @@ Open [`anunnaki-reckoning-lore.html`](anunnaki-reckoning-lore.html) → Fullscre
 
 Pyramid craft + Cinzel lore beats. Myth banner; no creator marks.
 
+## 12. UAP final hour (ember night-sky)
+
+**Source:** https://vt.tiktok.com/ZSb18BSNh/ → `@pentagonufodisclosure`  
+
+Open [`uap-final-hour.html`](uap-final-hour.html) → Fullscreen 9:16 → screen-record.
+
+Sibling of #9 with ember palette / Final Hour bed energy. No agency marks.
+
 ## Sitting note
 
 Landscape / format references only — **not** Beyond Lucky text overlap.
