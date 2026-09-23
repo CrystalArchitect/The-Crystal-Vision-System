@@ -93,6 +93,7 @@ flowchart TB
 | [`SOURCE-linkedin-lunar-regolith-al-aseeri.md`](SOURCE-linkedin-lunar-regolith-al-aseeri.md) | Lunar ISRU LinkedIn post — genre neighbour, not Richardson/TerAustralis overlap |
 | [`SOURCE-claude-artifact-protocol-omega.md`](SOURCE-claude-artifact-protocol-omega.md) | Personal boundaries practice — out of scope for overlap matrix |
 | [`SOURCE-claude-artifact-discursive-ops.md`](SOURCE-claude-artifact-discursive-ops.md) | Satirical “Office of Discursive Operations” — out of scope |
+| [`SOURCE-claude-artifact-remaining-work.md`](SOURCE-claude-artifact-remaining-work.md) | aeon-atlas / Sceptre Atlas priority matrix — agent-ops, not Pulse overlap |
 
 ### E. Mythos / visual OS layer (branded CrystalCore.OS — not Richardson text)
 
