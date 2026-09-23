@@ -21,7 +21,11 @@ Loop:
 
 **Fixed:** model weights, evaluator, tools. **What improves:** the exploration-policy program.
 
-Reported efficiency (paper claims; single-lab preprint): up to ~162× fewer discovery calls vs SimpleTES on one Lasso task; ~1.7× vs fixed exploration; large budget cuts on some math tasks. Treat as research claim, not product.
+Reported efficiency (paper claims; **single-lab preprint / experiment frame**): up to ~162× fewer discovery calls vs SimpleTES on one Lasso task; ~1.7× vs fixed exploration; large budget cuts on some math tasks. Treat as **lab experiment**, not shipped capability.
+
+## Experiment stamp
+
+Dream-RSI is an **experimental orchestration loop** around a coding agent — discovery trees → replay “dreams” → policy rewrite → redeploy. Not a consumer dream-mode. Not Canon. Not a CrystalCore module. Incognita: dreamed/sim lines stay unmarked until you measure them online yourself.
 
 ## Doctrine read (CrystalCore)
 
