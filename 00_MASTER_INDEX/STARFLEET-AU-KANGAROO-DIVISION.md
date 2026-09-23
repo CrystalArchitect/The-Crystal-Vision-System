@@ -10,7 +10,7 @@
 
 **Kangaroo Division** is the hub launch face for the **industrial + Academy pitch pack** only — exploratory shipyard/academy adjacency for SpaceX / allied pathways. Narrative cover (Kangaroo-class) is **not** an engineering claim.
 
-**Academy brand (working, Vision):** **Starfleet Academy — Kangaroo Division** — education face of this Division. Optional Harry Potter *structure* skin for youth recruitment only (no licensed names). See sitting addendum `13_RESEARCH_SOURCES/sitting-2026-09-23-beyond-lucky-overlap/ADDENDUM-academy-brand-faces.md`.
+**Academy brand (working, Vision):** **Starfleet Academy — Kangaroo Division** — education face of this Division. Optional Harry Potter *structure* skin for youth recruitment only (no licensed names). **Movement door** for people who want in: sitting `MOVEMENT-FIELD-SHEET-academy-kangaroo.md`. Brand notes: `ADDENDUM-academy-brand-faces.md`.
 
 It is **not** an operating system. Do not build or adopt **Starfleet OS**.
 

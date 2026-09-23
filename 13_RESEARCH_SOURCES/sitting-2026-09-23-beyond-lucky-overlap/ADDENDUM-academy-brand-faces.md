@@ -4,6 +4,8 @@
 **Trigger:** User — “It’s starfleet Academy kangaroo division. Or we could do something Harry Potter maybe.”  
 **Stack law unchanged:** **No Starfleet OS.** CrystalCore.OS governs. Kangaroo Division = pitch / Academy face only.
 
+**Purpose (user):** get a **movement** happening — other people already want involved. Brand exists so they have a door. See [`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md).
+
 ---
 
 ## Working name (preferred)
@@ -52,6 +54,7 @@ Potter face = **recruitment skin / film grammar** for cadets who grew up on hous
 | Audience | Face |
 | --- | --- |
 | SpaceX / SpaceXAI / ASA / diligence | **Starfleet Academy — Kangaroo Division** |
+| People who want to join / movement | Same name + Witness/Builder/Feeder on-ramps ([`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md)) |
 | Youth / feeder / remake / TikTok | Optional Potter-*structure* skin (unnamed houses) or plain Academy |
 | Runtime / code / bots | Neither — CrystalCore.OS + TAI + Chaos |
 
