@@ -81,6 +81,7 @@ flowchart TB
 | --- | --- |
 | [`SOURCE-manus-share-web-os-easter-eggs.md`](SOURCE-manus-share-web-os-easter-eggs.md) | Manus attests TerAustralis.com.au = live CrystalCore.OS; Aegir Station fiction easter egg |
 | [`SOURCE-manus-share-mcp-api-dev.md`](SOURCE-manus-share-mcp-api-dev.md) | CrystalArchitect GitHub ≥50 repos; private The-Crystal-Vision-System; unified MCP draft |
+| [`SOURCE-claude-share-a364-teraustralis-design.md`](SOURCE-claude-share-a364-teraustralis-design.md) | Jul 21–23 public Claude share: TerAustralis.com.au redesign; CrystalCore art palette 196°–300°; CrystalCoreOS nav |
 
 ### D. Out of scope / weak (keep filed so you don’t re-open them)
 
@@ -113,6 +114,7 @@ flowchart TB
 | When | What |
 | --- | --- |
 | May 2026 | Phase-1 geography briefs; **SpaceNews Opinion 22 May**; ISS Tracker republish + SpaceDaily adjacent rewrite **23 May** |
+| **21–23 Jul 2026** | Claude **share** TerAustralis site design (CrystalCore palette / Incognita Rule) + map-and-territory architectural survey same week |
 | Jun–Aug 2026 | Full Stack densifies; Catch / Multi-node; **Sydney Station invitation 13 Aug** |
 | 3–4 Sep 2026 | *After the radar* — “Exmouth eyes / Aerotropolis hands” |
 | Sep 2026 | Grok Sydney Hall / CrystalCore.OS site pack live |
