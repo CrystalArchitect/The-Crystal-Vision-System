@@ -76,6 +76,7 @@ Order roughly follows MASTER journey (some CapCut beds may reorder for music edi
 | **Macarena** | Los del Río | Trojan horse · body joy · cosmic joke on Archons |
 | Trainor unapologetic + **Fly** | Meghan Trainor / — | Command · rise above the dirt |
 | **Made You Look** | Meghan Trainor | Materialism reject · Turner mic-drop |
+| **Laced Up** | Hilltop Hoods | Rock bottom trampoline · pay stubs · lace & kick |
 | **Genie in a Bottle** | Christina Aguilera | Avatar = containment · glass shatters |
 | **Bones** | Imagine Dragons | Biology as conductor · vessel = tuning fork |
 | **Bette Davis Eyes** | Kim Carnes | Piercing gaze · expose the Archons |

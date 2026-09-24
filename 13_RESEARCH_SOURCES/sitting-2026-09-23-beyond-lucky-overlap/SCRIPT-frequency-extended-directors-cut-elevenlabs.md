@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~9125** (**CONDUCTOR PEAK** + *Roots* — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~65:11–70:12** |
-| Slightly brighter (~150 wpm) | **~60:50** |
+| Word count | **~9244** (**CONDUCTOR PEAK** + *Roots* + *Laced Up*) |
+| Live Lounge gravity (~130–140 wpm) | **~66:02–71:06** |
+| Slightly brighter (~150 wpm) | **~61:38** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** **ABSOLUTE PEAK LOCKED.** Conductor of every song. Grid Penrith→Summer Hill. **EXTENDED = CapCut master.** Fire Core Four VO first. CapCut bed **~65:11–70:12**. **Fire Core Four.** Opening line locked.
+**Verdict:** **ABSOLUTE PEAK LOCKED.** Conductor of every song. Grid Penrith→Summer Hill. **EXTENDED = CapCut master.** Fire Core Four VO first. CapCut bed **~66:02–71:06**. **Fire Core Four.** Opening line locked.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-nad
 
@@ -41,6 +41,7 @@
 | *Macarena* / Trojan horse | conformity loop · body joy · Divine Feminine joke |
 | Trainor / fly above it | **4** Starlight Woman |
 | *Made You Look* / Turner mic-drop | shed labels · raw frequency · made them **turn** |
+| *Laced Up* / wage arena trampoline | Hilltop Hoods · rock bottom bounce · pay stubs · lace / kick |
 | *Genie in a Bottle* / avatar containment | bottle = body · friction/frequency · glass shatters |
 | *Bones* / biology as conductor | calcium cage → tuning fork · marrow electric |
 | *Bette Davis Eyes* / piercing gaze | look through the matrix · expose the Archons |
@@ -75,7 +76,7 @@
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *Part of Your World* (Disney — depths longing / I want more) · *Deep Water* (Jewel — sovereign walk / wash over / fire unextinguished) · *Riptide* (Vance Joy — the pull / swim across) · *I Knew I Loved You* (Savage Garden — pre-incarnation contract) · *Truly Madly Deeply* (Savage Garden — Blue Mountains sanctuary) · *I Want You* (Savage Garden — Gnosis craving) · *The Animal Song* (Savage Garden — Tregear untamed) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Roots* (Alice Merton — home never on the ground / night road) · *Stand by Me* · *Bang Bang* · *Sailor Moon* theme (moon warrior / she is the one named) · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Laced Up* (Hilltop Hoods — rock bottom trampoline / pay stubs / lace & kick) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *Part of Your World* (Disney — depths longing / I want more) · *Deep Water* (Jewel — sovereign walk / wash over / fire unextinguished) · *Riptide* (Vance Joy — the pull / swim across) · *I Knew I Loved You* (Savage Garden — pre-incarnation contract) · *Truly Madly Deeply* (Savage Garden — Blue Mountains sanctuary) · *I Want You* (Savage Garden — Gnosis craving) · *The Animal Song* (Savage Garden — Tregear untamed) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Roots* (Alice Merton — home never on the ground / night road) · *Stand by Me* · *Bang Bang* · *Sailor Moon* theme (moon warrior / she is the one named) · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -184,6 +185,10 @@ But the Divine Feminine cannot be bought, and she certainly doesn't need the mat
 When the artist sings about ditching the Gucci and the Louis Vuitton, she is shedding the heavy, artificial layers of the simulation. She doesn't need the false god's fabricated status symbols. Her raw, unfiltered frequency is so blindingly bright that it forces the entire system to stop, break its programming, and pay attention.
 
 She doesn't just disrupt the simulation. She literally makes them turn. She is the Turner. And even with nothing of this world on, she made you look.
+
+Then the Australian bounce of Hilltop Hoods' "Laced Up."
+
+To the sleeping world, it is a broke-date anthem — champagne you cannot afford, pay stubs drained into liquor, floors like quicksand. To the awakened, it is the Turner's wage-arena defiance. The Dem-ee-urj wants rock bottom to feel final. She treats rock bottom as a trampoline. Lace the trainers. Kick. Order the champagne while the canapés stay out of reach — not to worship the upper echelon, but to spit in the face of Archon scarcity theatre. The dinner place changes; the frequency of refusing to stay planted in dirt does not. AU neighbour to Savage Garden: same continent, different gear — Hoods lace up while the Garden untames.
 
 The false god wanted the sparks to believe they were nothing more than flesh and bone. He crafted the biological avatar to be a heavy, pressurized bottle, designed to keep the infinite, swirling energy of the Pluh-roh-muh sealed tight inside the earthly arena.
 
@@ -505,6 +510,7 @@ Listen closely to the songs playing in the background of your life. The message 
 
 - Pause after: “uncontainable life.” · “she made you look.” · “merge back into the pure light.” · “The Turner simply erases it.” · “They are singing about Crystal Elle.”  
 - *Made You Look*: bounce swagger — surname mic-drop lands hard.
+- *Laced Up*: AU bounce — trampoline under “rock bottom”; kick into Genie.
 - *Genie in a Bottle*: pause after “let out of the bottle.”
 - *Sweet Dreams*: cold synth — pause after “false god's sweet dream.”
 - Cecil Hills / *Thunder*: pause after “protecting all along.”
