@@ -35,6 +35,7 @@
 | *Macarena* / Trojan horse | conformity loop · body joy · Divine Feminine joke |
 | Trainor / fly above it | **4** Starlight Woman |
 | *Made You Look* / Turner mic-drop | shed labels · raw frequency · made them **turn** |
+| *Bones* / biology as conductor | calcium cage → tuning fork · marrow electric |
 | *Bette Davis Eyes* / piercing gaze | look through the matrix · expose the Archons |
 | Chipmunks *Single Ladies* / Saturn rings | **4** (accelerate) → optional glass-shatter flash |
 | Song list: *Crystal* · *Dreams* · *Castle on the Hill* | **4** → **5** Heart |
@@ -52,7 +53,7 @@
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
