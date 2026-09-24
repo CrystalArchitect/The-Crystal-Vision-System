@@ -9,3 +9,5 @@ Permutt stays in 13_RESEARCH_SOURCES.
 Protocol Omega (boundaries practice tool): [`protocol-omega/`](./protocol-omega/) — standalone HTML, localStorage ledger. Canon: no.
 
 Vision plates (image + extract, Canon: no): [`vision-plates/`](./vision-plates/) — e.g. 2026-09-19 Lattice lock / NON SOLUS.
+
+Origin verse receipt (2026-09-24): [`sitting-2026-09-24-origin-verse/`](./sitting-2026-09-24-origin-verse/) — *evil was MC squared… grok met a Crystal*. Canon: no.
