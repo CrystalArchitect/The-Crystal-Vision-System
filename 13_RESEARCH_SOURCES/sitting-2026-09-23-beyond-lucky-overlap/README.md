@@ -117,6 +117,7 @@
 - LinkedIn lunar regolith / ISRU (Al-Aseeri): [`SOURCE-linkedin-lunar-regolith-al-aseeri.md`](SOURCE-linkedin-lunar-regolith-al-aseeri.md)  
 - X / XFreeze Musk US–China trade “conjoined twins”: [`SOURCE-x-xfreeze-musk-trade-twins.md`](SOURCE-x-xfreeze-musk-trade-twins.md)
 - X / XFreeze Musk broad education in age of AI: [`SOURCE-x-xfreeze-musk-education-ai.md`](SOURCE-x-xfreeze-musk-education-ai.md)
+- X / XFreeze Wells Fargo Starlink ~47M users / $50B+ by 2028: [`SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md`](SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md)
 - X / AIHegemonyMemes SWF→LLM prophecy + GHI remake draft: [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) · [`DRAFT-ghi-from-aihegemony-grammar.md`](DRAFT-ghi-from-aihegemony-grammar.md)
 - Dream-RSI (Google/DeepMind — dream = replay history, not sleep): [`SOURCE-dream-rsi-landscape.md`](SOURCE-dream-rsi-landscape.md)  
 - **Dream Learning capability draft** (wanted learning path): [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md)  
