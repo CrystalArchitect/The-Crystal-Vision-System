@@ -65,4 +65,4 @@ Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-na
 2. Optional — Extended ([`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md))  
 3. T2V + CapCut  
 
-**Ultimate Director’s Cut weaved** (*Call Me Maybe* invitation). **Fire Core Four.** Compiled — more Trojan horses optional.
+**Ultimate Director’s Cut weaved** (*Dear Mr. President* interrogation). **Fire Core Four.** Epic compiled — one last message optional.

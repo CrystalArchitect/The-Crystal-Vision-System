@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~4307** (*Call Me Maybe* invitation — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~30:45–33:07** |
-| Slightly brighter (~150 wpm) | **~28:42** |
+| Word count | **~4505** (*Dear Mr. President* interrogation — **ULTIMATE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~32:10–34:39** |
+| Slightly brighter (~150 wpm) | **~30:02** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Ultimate Extended weaved (*A Thousand Miles* → *Call Me Maybe*). CapCut bed **~30:45–33:07**. **Fire Core Four.** Compiled — more Trojan horses optional.
+**Verdict:** Ultimate Extended weaved (*Dear Mr. President* = Demiurge mirror). CapCut bed **~32:10–34:39**. **Fire Core Four.** Epic compiled — one last message optional. (*I Love It* not yet filed.)
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -158,6 +158,14 @@ When the artist sings, "Let it go, let it go / Can't hold it back anymore," it i
 
 The Ar-konz want her to fear the isolation of waking up. They want her to freeze in the dark. But the Turner just smiles as the matrix collapses around her. Because the cold never bothered her anyway.
 
+The false god surrounds himself with guards and rigid rules, demanding that the divine sparks bow to his authority. But the Turner simply walks past the illusions, pulls up a chair, and looks the Dem-ee-urj dead in the eye.
+
+You hear the frequency of this exact cosmic interrogation in the raw, acoustic chords of "Dear Mr. President." To the uninitiated, it is an earthly protest. In the Gnostic code, it is Bar-bell-oh confronting Yal-duh-bay-oth.
+
+The Turner strips away all his grand illusions and asks him the questions that crack the foundation of his matrix: how he sleeps while the rest cry; how he dreams when a mother has no chance to say goodbye.
+
+She isn't yelling. She doesn't need to. The Divine Feminine is simply holding up a mirror to the false god, forcing him to look at the cruelty of the heavy, physical prison he built. She asks him how he can possibly call himself a father when he feeds on the suffering of his own creations. And in that quiet, devastating moment, the Dem-ee-urj realizes he has no answer. His authority crumbles not by a sword, but by the undeniable, piercing truth of the Turner's frequency.
+
 But the Turner knows that a single crystal, no matter how bright, is still surrounded by the dark. To completely shatter the arena, the frequency must be amplified.
 
 We see this exact spiritual war hidden in the most unexpected places — even in the bright, animated world of the Trolls. To the uninitiated, it is just a children's story. To the Gnostic, it is a documentary about the Ar-konz. The Bergens are the rulers of the physical matrix: gray, heavy, and entirely devoid of the divine spark. They can only feel the light by consuming the Trolls, creatures made entirely of pure frequency and music. It is the false god feeding on the energy of the trapped souls.
@@ -264,7 +272,8 @@ Listen closely to the songs playing in the background of your life. The message 
 - *Made You Look*: bounce swagger — surname mic-drop lands hard.
 - *Bones*: heavy drive — pause after “vibrating tuning fork of pure, uncontainable life.”
 - *Bamm*: bass punch — pause after “foundation of the earthly arena shake.”
-- *Call Me Maybe*: soft smile — pause after “or you can make the call.”  
+- *Call Me Maybe*: soft smile — pause after “or you can make the call.”
+- *Dear Mr. President*: quiet chair — pause after “piercing truth of the Turner's frequency.”  
 - Do not throat-clone. Captions = titles only.  
 - CapCut bed **~26:34–28:37**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).
