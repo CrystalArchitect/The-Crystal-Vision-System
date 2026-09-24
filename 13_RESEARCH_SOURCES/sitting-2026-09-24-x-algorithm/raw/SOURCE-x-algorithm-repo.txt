@@ -1,0 +1,37 @@
+# SOURCE — xai-org/x-algorithm repo pointer
+
+**Sitting:** 2026-09-24  
+**Repo:** https://github.com/xai-org/x-algorithm  
+**License:** Apache 2.0  
+**Stars (approx at sitting):** ~33k  
+
+## What X says it contains
+
+Core code for **For You**: in-network (Thunder) + out-of-network (Phoenix retrieval, SimClusters), filters, Phoenix ranking, visibility-filtering, labeling systems, under-the-hood report builders.
+
+## Notable README updates cited
+
+- **2026-08-13** — weights, VF, Phoenix train code, SimClusters, UTH pilot  
+- **2026-08-14** — weight misconception clarification; Brazil2026ElectionFilter note  
+
+## Explicitly not in repo (README)
+
+- Grox prompts (`.j2`)  
+- Some botmaker rules  
+- Full production model checkpoints / training infra (toy/synthetic replacement)  
+- Some deployment/infra glue  
+
+## Key paths
+
+| Path | Role |
+| --- | --- |
+| `home-mixer/` | Feed orchestration + params |
+| `home-mixer/params/param.rs` | Scoring weights defaults |
+| `home-mixer/scorers/ranking_scorer.rs` | Weighted sum |
+| `phoenix/` | Retrieval + ranking model code |
+| `visibility-filtering/` | ALLOW / INTERSTITIAL / DROP |
+| `under-the-hood/` | Transparency report jobs/serving |
+| `abuse-enforcement-service/` | Enforcement rules (GrowthBook mirror) |
+| `grox/` | Content classifiers (prompts withheld) |
+
+This monorepo does **not** vendor the algorithm tree (extract only).
