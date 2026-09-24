@@ -14,13 +14,14 @@ Ingest and synthesize the closed Public Comment corpus on the **Initial Report o
 | Drawer | Path |
 | --- | --- |
 | 13 Research | [`13_RESEARCH_SOURCES/icann-tsg-gtld-ans-2026/`](../13_RESEARCH_SOURCES/icann-tsg-gtld-ans-2026/) — SYNTHESIS, submissions-index.csv, raw extracts |
+| 13 Research | [`13_RESEARCH_SOURCES/sitting-2026-09-24-icann-tsg-string-controller/`](../13_RESEARCH_SOURCES/sitting-2026-09-24-icann-tsg-string-controller/) — report extract + roster + **integrated SYNTHESIS** + deep extracts (Fights A–D) |
 
 ## Honesty
 
 - 40 submissions indexed from user CSV (2 retracted).
-- Full digests for SSAC, ALAC, IPC, RrSG, Tucows, ENS Foundation, Unregistry, Clowes, Martinez, D3, ISPCP themes.
+- Full digests for SSAC, ALAC, IPC, RrSG, Tucows, ENS Foundation, Unregistry, Clowes, Martinez, D3, ISPCP themes; deep pass adds Bird middle path, Circleid MeitY/ISPCP hardening, PC overlay on checklist.
 - Netnod / CleanDNS / WIPO / RySG / MeitY bodies not fully retrieved this sitting (egress); roster links preserved.
-- Vision ≠ Built. Connection ≠ merge.
+- Vision ≠ Built. Connection ≠ merge. Two sittings cross-linked; do not triplicate.
 
 ## Not done
 

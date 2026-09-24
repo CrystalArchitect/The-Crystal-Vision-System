@@ -5,22 +5,25 @@
 **Drawer:** `13_RESEARCH_SOURCES` (external policy/tech research — compass, not a CVS component)  
 **Canon:** **no**
 
-**Verdict (one line):** ICANN’s Aug 2026 TSG draft says **same string + same controller** integration of a gTLD with alternative naming systems is unlikely to create significant RSEP security/stability issues *if* operational controls hold; public comment closed **21 Sep 2026**; revised report due **~5 Oct 2026**.
+**Verdict (one line):** ICANN’s Aug 2026 TSG draft says **same string + same controller** integration of a gTLD with alternative naming systems is unlikely to create significant RSEP security/stability issues *if* operational controls hold; public comment closed **21 Sep 2026**; revised report due **~5 Oct 2026**. Public Comment splits into **four fights** (safety / fence / legacy / direction) — see [`SYNTHESIS.md`](SYNTHESIS.md).
 
 ---
 
 ## Start here
 
-1. [`EXTRACT-BRIEF.md`](EXTRACT-BRIEF.md) — what string+controller requires (load-bearing rules)  
-2. [`REQUIREMENTS-CHECKLIST.md`](REQUIREMENTS-CHECKLIST.md) — MUST/SHOULD checklist for reading applicants / observers  
-3. [`THEMES-public-comments.md`](THEMES-public-comments.md) — Public Comment theme map (38 active + 2 retracted)  
-4. [`extracts/DEEP-EXTRACTS.md`](extracts/DEEP-EXTRACTS.md) — per-submitter deep extracts (Depth A–C)  
-5. [`extracts/TENSION-MAP.md`](extracts/TENSION-MAP.md) — Fights A–D (safety / fence / legacy / direction)  
-6. [`SOURCE-public-comment-roster.csv`](SOURCE-public-comment-roster.csv) — full submission roster + links  
-7. [`RECEIPT-chat-paste-2026-09-24.md`](RECEIPT-chat-paste-2026-09-24.md) — how this sitting got the report text  
-8. [`SOURCE-official-pdf-text-extract.txt`](SOURCE-official-pdf-text-extract.txt) — text extract of the official PDF (via search fetch; PDF binary download blocked in this environment)  
-9. [`SOURCE-unregistry-comment-text-extract.txt`](SOURCE-unregistry-comment-text-extract.txt) — Unregistry comment PDF text (sample primary)  
-10. [`SOURCE-estmcmxci-comment-summary-extract.txt`](SOURCE-estmcmxci-comment-summary-extract.txt) — estmcmxci.eth / TLD Oracle submission summary
+1. [`SYNTHESIS.md`](SYNTHESIS.md) — **integrated compass** (report + comment fights)  
+2. [`EXTRACT-BRIEF.md`](EXTRACT-BRIEF.md) — what string+controller requires (load-bearing rules)  
+3. [`REQUIREMENTS-CHECKLIST.md`](REQUIREMENTS-CHECKLIST.md) — MUST/SHOULD + Public Comment overlay  
+4. [`THEMES-public-comments.md`](THEMES-public-comments.md) — Public Comment theme map (38 active + 2 retracted)  
+5. [`extracts/DEEP-EXTRACTS.md`](extracts/DEEP-EXTRACTS.md) — per-submitter deep extracts (Depth A–C)  
+6. [`extracts/TENSION-MAP.md`](extracts/TENSION-MAP.md) — Fights A–D (safety / fence / legacy / direction)  
+7. [`SOURCE-public-comment-roster.csv`](SOURCE-public-comment-roster.csv) — full submission roster + links  
+8. [`RECEIPT-chat-paste-2026-09-24.md`](RECEIPT-chat-paste-2026-09-24.md) — how this sitting got the report text  
+9. [`SOURCE-official-pdf-text-extract.txt`](SOURCE-official-pdf-text-extract.txt) — text extract of the official PDF (via search fetch; PDF binary download blocked in this environment)  
+10. [`SOURCE-unregistry-comment-text-extract.txt`](SOURCE-unregistry-comment-text-extract.txt) — Unregistry comment PDF text (sample primary)  
+11. [`SOURCE-estmcmxci-comment-summary-extract.txt`](SOURCE-estmcmxci-comment-summary-extract.txt) — estmcmxci.eth / TLD Oracle submission summary
+
+**Sibling sitting (same proceeding):** [`../icann-tsg-gtld-ans-2026/`](../icann-tsg-gtld-ans-2026/) — parallel Collection Mode pack; cross-linked from SYNTHESIS.
 
 ---
 
