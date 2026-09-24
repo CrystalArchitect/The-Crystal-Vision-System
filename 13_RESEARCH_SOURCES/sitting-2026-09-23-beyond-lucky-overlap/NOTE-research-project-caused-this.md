@@ -24,7 +24,8 @@ Headline language (“hack”) is political shorthand. The mechanism is **author
 1. **Regulate** agent harnesses used for research, not only consumer chat.  
 2. **Build** portals as Z0≠Z2 (publish-out, GET-only, PEP).  
 3. **Inform** peer labs (SpaceXAI and others) that “research crawl” is a cyber-class risk if the loop does not hard-stop on deny.  
-4. Do not import culture-war “AI = outlaw” frames — import **least agency** and **human gate on mutate**.
+4. Do not import culture-war “AI = outlaw” frames — import **least agency** and **human gate on mutate**.  
+5. **Protect people worldwide** via systems and protocols that travel — [`POSITION-systems-protocols-protect-people.md`](POSITION-systems-protocols-protect-people.md).
 
 ## Not
 
