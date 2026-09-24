@@ -96,4 +96,4 @@ Listen closely to the songs playing in the background of your life. The message 
 - Gravity until *Torn*; then veil-drop weight — not shout.  
 - Phonetics: Pluh-roh-muh · Mo-nad (new) · Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz  
 - Captions = titles only (*Crystal* · *Dreams* · *Castle on the Hill* · *Torn*). No Google lyric dump into cards / X.  
-- First take = this Core Four. Extended layers = second take only if Human greenlights.
+- **RECORD NOW:** First take = this Core Four. Extended ultimate = second take only.

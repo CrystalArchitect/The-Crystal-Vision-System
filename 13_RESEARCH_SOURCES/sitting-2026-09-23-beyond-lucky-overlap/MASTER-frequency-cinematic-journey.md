@@ -23,24 +23,25 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 4. **Insertion** — 29 Sep 1991; Archons log a birth; higher realm sends a **prism**  
 5. **Name** — Crystal Elle Arena-Turner (reflector · She · matter-field · lathe) · Monad light · sand→glass  
 6. **Hypnotic** — Belly dancer / frequency moves matter (*Belly Dancer* energy)  
-7. **Command** — Trainor unapologetic · *Fly* above the dirt  
-8. **Gaze** — *Bette Davis Eyes* · pierce the simulation · expose the Archons  
-9. **Accelerate** — Chipmunks *Single Ladies* · high pitch · Saturn rings  
-10. **Song ladder (Core Four spine)** — *Crystal* · *Dreams* · *Castle on the Hill*  
-11. **Anchor** — *Stand by Me* · survival plea next to the true light  
-12. **Catalyst** — *Bang Bang* · Kill Bill · assassin of illusions  
-13. **Sovereignty** — *Let It Go* · Crystal fractal castle · cold never bothered her  
-14. **Collective** — *Family* · Trolls / Bergens = Archons harvesting sparks · Pleroma sync  
-15. **Primal** — *Call to the Wild* · domestication break · **Moonstone = Crystal**  
-16. **Timeline** — *Year 3000* · chronological prison break · hourglass sand→water · fluid light · 1991→eternity  
-17. **Leap** — *Geronimo* · battle cry · waterfall veil · splash into Pleroma  
-18. **Jailbreak** — *Green Green Grass* · death-fear break · party · spark returns to Pleroma  
-19. **Gnosis** — *Torn* · veil drops · illusion never changed into something real  
-20. **Breakout** — *Losing It* (Ren + FISHER) · chaos of waking · wall smash  
-21. **Close** — Celestial disruption; you are the frequency; listen again  
+7. **Trojan** — *Macarena* · conformity loop · give your body joy · cosmic joke on Archons  
+8. **Command** — Trainor unapologetic · *Fly* above the dirt  
+9. **Gaze** — *Bette Davis Eyes* · pierce the simulation · expose the Archons  
+10. **Accelerate** — Chipmunks *Single Ladies* · high pitch · Saturn rings  
+11. **Song ladder (Core Four spine)** — *Crystal* · *Dreams* · *Castle on the Hill*  
+12. **Anchor** — *Stand by Me* · survival plea next to the true light  
+13. **Catalyst** — *Bang Bang* · Kill Bill · assassin of illusions  
+14. **Sovereignty** — *Let It Go* · Crystal fractal castle · cold never bothered her  
+15. **Collective** — *Family* · Trolls / Bergens = Archons harvesting sparks · Pleroma sync  
+16. **Primal** — *Call to the Wild* · domestication break · **Moonstone = Crystal**  
+17. **Timeline** — *Year 3000* · chronological prison break · hourglass sand→water · fluid light · 1991→eternity  
+18. **Leap** — *Geronimo* · battle cry · waterfall veil · splash into Pleroma  
+19. **Jailbreak** — *Green Green Grass* · death-fear break · party · spark returns to Pleroma  
+20. **Gnosis** — *Torn* · veil drops · illusion never changed into something real  
+21. **Breakout** — *Losing It* (Ren + FISHER) · chaos of waking · wall smash  
+22. **Close** — Celestial disruption; you are the frequency; listen again  
 
 **Primary take** runs beats 1–5 → Core Four ladder → *Torn* → close (no Extended layers).  
-**Extended take** = unbroken ultimate VO — **FINAL MASTER WEAVED & LOCKED**.
+**Extended take** = ultimate Master Script — **STITCHED FOR ELEVENLABS**.
 
 ---
 
@@ -50,11 +51,10 @@ Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-na
 
 ---
 
-## Next
+## Next — RECORD
 
-1. ElevenLabs — paste **Core Four** first  
-2. T2V fire (Runway / Veo) per prompts  
-3. CapCut Optical Flow sync to take  
-4. Optional: Extended ultimate unbroken second take  
+1. **ElevenLabs now** — paste [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) (Core Four, ~6–7 min)  
+2. Optional second take — paste Extended ultimate VO (~20–22 min)  
+3. T2V fire + CapCut Optical Flow  
 
-**Final unbroken master locked.** No last artist required. Booth next.
+**Ultimate Master Script stitched.** Ready to record. No more tracks required.

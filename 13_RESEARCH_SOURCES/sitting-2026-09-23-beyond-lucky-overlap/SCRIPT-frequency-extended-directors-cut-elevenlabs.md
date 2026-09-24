@@ -1,7 +1,7 @@
 # SCRIPT — Frequency / Barbelo / Turner · EXTENDED Director’s Cut (optional long booth)
 
 **Filed:** 24 Sep 2026  
-**Status:** **FINAL UNBROKEN MASTER WEAVED & LOCKED** · Extended take · primary booth = Core Four · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
+**Status:** **ULTIMATE MASTER SCRIPT STITCHED — READY FOR ELEVENLABS** · Extended take · primary booth = Core Four · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
 **Primary booth (Core Four):** [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
 **Maps to:** [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) · beat bible [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md)  
 **Law:** Different Shores taxi · Human publishes · No destiny proof  
@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~2717** (*Bette Davis Eyes* — **FINAL UNBROKEN MASTER**) |
-| Live Lounge gravity (~130–140 wpm) | **~19:24–20:54** |
-| Slightly brighter (~150 wpm) | **~18:06** |
+| Word count | **~2980** (*Macarena* Trojan horse — **STITCHED FOR ELEVENLABS**) |
+| Live Lounge gravity (~130–140 wpm) | **~21:17–22:55** |
+| Slightly brighter (~150 wpm) | **~19:52** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Unbroken Extended master weaved end-to-end. CapCut bed **~19:24–20:54**. Primary booth = Core Four. **No last artist. Booth next.**
+**Verdict:** Ultimate Master Script stitched end-to-end. CapCut bed **~21:17–22:55**. **Record Core Four first.** Extended = second take. No more tracks.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -74,6 +74,20 @@ To the uninitiated, it is just a name. To a Gnostic eye, it is a spiritual bluep
 She willingly descended into the Arena — the physical world of dirt, survival, and illusion governed by the blind god. But she was not there to be a spectator. She was the Turner. The alchemist who shifts the paradigm of every sleeping soul she encounters.
 
 Even the way she moves is a celestial disruption. Think of the hypnotic rhythm of a belly dancer. To the sleeping world, it is just motion. But to the awakened, it is frequency manipulating matter. The false god built the human body to be heavy, a grounded prison. But the Turner uses that very flesh to create a trance, commanding the room and bending the physical laws of the arena with every vibration. She doesn't fight the matrix. She dances right through it.
+
+The Dem-ee-urj loves nothing more than absolute conformity. He wants the trapped souls moving in lockstep, perfectly synchronized, never questioning the repetitive loop of the matrix.
+
+This brings us to one of the most brilliant Trojan horses ever inserted into the earthly arena: the "Macarena."
+
+To the sleeping world, it was just a viral 90s dance craze. Millions of people moving like robots in perfect, synchronized conformity. But if you look at the actual code of the song, the entity known as Macarena is the exact opposite of conformity.
+
+While the masses mindlessly repeat the same physical loop, the story of Macarena herself is about total liberation. The false god tries to tie her down to a standard, boring earthly contract — represented by her boyfriend, Vitorino. But she completely rejects his authority. When the ruler is looking away, she breaks the rules, shatters the illusion of control, and does exactly what she pleases.
+
+But the most powerful Gnostic code is in the chorus itself: the command to give your body joy.
+
+The Ar-konz designed the human body to be a heavy, miserable prison of flesh and bone. But the Turner's frequency hacks that exact vessel. She commands the sparks to use the very bodies the Dem-ee-urj built to experience joy, to raise their vibration, and to completely mock the sterile rules of the arena. She tricked the entire world into celebrating the rebellion of the Divine Feminine, all while they thought they were just doing a line dance.
+
+It is the ultimate cosmic joke played on the rulers of the lower realm.
 
 She doesn't just survive the arena; she commands it. You feel this exact unapologetic frequency in the music of artists like Meghan Trainor — anthems of unshakeable self-worth, of seeing straight through the deception, and making the whole room look. It is the realization that you were never meant to be trapped in the dirt. You were meant to fly above it.
 
@@ -181,9 +195,9 @@ Listen closely to the songs playing in the background of your life. The message 
 
 ## Booth notes
 
-- Pause after: “They sent a prism.” · “Bette Davis Eyes.” · “you yell Geronimo.” · “the last door swinging open.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
-- *Bette Davis Eyes*: cold knowing gaze under Shot 4. Then Chipmunks brighten → … → *Torn*.  
+- Pause after: “They sent a prism.” · “Macarena.” · “cosmic joke played on the rulers of the lower realm.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
+- *Macarena*: playful Trojan under 3B→4 — then Trainor → … → *Torn*.  
 - Do not throat-clone. Captions = titles only.  
-- CapCut bed **~19:24–20:54**.  
+- CapCut bed **~21:17–22:55**.  
 - **Master map:** [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md)  
-- **FINAL UNBROKEN LOCK:** Extended VO is the complete weave. Core Four = first ElevenLabs take. No more artists.
+- **RECORD NOW:** Core Four first ([`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)). This Extended file = ultimate second take. No more tracks.

@@ -42,7 +42,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Macarena* (Los del Río — Trojan horse / body joy) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -61,6 +61,18 @@ She was designed to take the heavy, dead sand of the Demiurge and turn it into g
 Even the way she moves is a celestial disruption. Think of the hypnotic rhythm of a belly dancer. To the sleeping world, it is just motion. But to the awakened, it is frequency manipulating matter. The false god built the human body to be heavy, a grounded prison. But the Turner uses that very flesh to create a trance, commanding the room and bending the physical laws of the arena with every vibration. She doesn't fight the matrix; she dances right through it.
 
 **CapCut:** Shot **3B** under this VO · optional Akon *Belly Dancer* bed (licensed) — title only in captions.
+
+### 5b2. *Macarena* — Trojan horse / body joy (after Hypnotic → before Trainor)
+
+The Demiurge loves absolute conformity — lockstep souls, synchronized, never questioning the matrix loop.
+
+*Macarena*: to the sleeping world, a viral 90s dance craze — millions moving like robots in perfect conformity. In the song's code, Macarena herself is the opposite of conformity. Masses repeat the physical loop; her story is total liberation. False god ties her to a standard earthly contract (Vitorino); she rejects that authority, breaks the rules when the ruler looks away.
+
+Gnostic core of the chorus: give your body joy. Archons designed the body as a miserable prison; Turner's frequency hacks that vessel — use Demiurge flesh for joy, raise vibration, mock sterile arena rules. The world celebrated Divine Feminine rebellion while thinking it was a line dance. Ultimate cosmic joke on the lower realm.
+
+**Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Macarena* bed under 3B→4.
+
+**CapCut:** synchronized crowd → one figure breaks freestyle · title card *Macarena* · into Trainor.
 
 ### 5c. Command frequency — Trainor + *Fly* (power realization → Shot 4)
 
@@ -224,9 +236,9 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 8. Close: what if you are the frequency the room is tuning toward? Listen again.
 
-**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Call to the Wild* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
+**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / *Macarena* / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Call to the Wild* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
 
 ---
 
@@ -235,6 +247,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | Cue | Action |
 | --- | --- |
 | Sand→glass / Hypnotic VO | Shot **3B** belly dancer · optional *Belly Dancer* bed |
+| *Macarena* / Trojan VO | 3B→4 synchronized crowd breaks · title card · body joy |
 | Command / Trainor VO | Shot **4** starlight walk · optional Trainor title-bed (*Me Too* / *Made You Look* / *Lips Are Movin'*) |
 | *Fly* swell | Elevation colour under mid 4 — title only |
 | Chipmunks *Single Ladies* / accelerate | Late Shot **4** · optional pitch-up bed colour · glass-shatter flash · Saturn rings VO — title only |
