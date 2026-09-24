@@ -11,7 +11,7 @@ Owner: Crystal Arena-Turner (CrystalArchitect).
 
 Does not replace CrystalCore, Clementine, SAT, Starlines, Dreamlines, TerAustralis, or Celestial Portal. Do not merge those repos.
 
-**Naming:** **Starline** (Consent Transport / Starlines) — [`00_MASTER_INDEX/NAMING-STARLINE.md`](00_MASTER_INDEX/NAMING-STARLINE.md).
+**Naming:** **Starline** — Consent Transport / Starlines. See [`00_MASTER_INDEX/NAMING-STARLINE.md`](00_MASTER_INDEX/NAMING-STARLINE.md). *Spread the bird, not the word.*
 
 Collection Mode v0.2.0 (one copy): https://drive.google.com/file/d/1I4n2n3uYMJ3oaHJwGIirfekaprq6A7Hg/view
 
