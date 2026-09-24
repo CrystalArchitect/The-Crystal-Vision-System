@@ -1,12 +1,13 @@
-# PROMPTS — Text-to-video · Frequency / Turner · 7 beats (6 numbered + 3B)
+# PROMPTS — Text-to-video · Frequency / Turner · 8 beats (6 numbered + 3B + 5B)
 
-**Filed:** 24 Sep 2026 · Heart beat added same day  
+**Filed:** 24 Sep 2026 · Heart · Anchor (*Stand by Me*) same day  
 **Audio length target:** ~3:47 (2–3 gens per shot · CapCut Smooth Slow-Mo Optical Flow)  
 **Script:** [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md)  
 **First fire:** Shot 1 — Record Player (hook)  
 **Heart fire:** Shot 5 — Divine Spark (2:55–3:15 VO: spark inserted 29 Sep 1991 / Crystal Elle)  
+**Anchor fire:** Shot 5B — *Stand by Me* (late Heart → *Torn* lead-in)  
 **Stack preference:** Runway (auth) → Veo / Grok / ElevenLabs Video → stills last resort  
-**Render status (agent):** not yet — Runway needs Connect; Treg Veo token previously expired
+**Render status (agent):** not yet — Runway needs Connect; Treg Veo token previously expired · CapCut timeline not built · ElevenLabs VO not synced yet
 
 ---
 
@@ -19,6 +20,7 @@
 | 1:40–2:30 | 3 | Crystal in the Arena (Insertion) |
 | 2:30–2:55 | 4 | Starlight Woman (Turner) — trim front of former 2:30–3:15 |
 | **2:55–3:15** | **5** | **Heart of the Matrix (Divine Spark)** — VO: spark / Crystal Elle |
+| **~3:05–3:20** | **5B** | **Anchor in the Dark (*Stand by Me*)** — optional overlap late Heart → *Torn* |
 | 3:15–End | 6 | Shattered Illusion (Awakening) |
 
 ---
@@ -70,6 +72,18 @@ Tracking profile shot moving left to right, slow motion. A dark, rainy, dystopia
 Macro extreme close-up, cinematic 35mm lens. A glowing heart made entirely of fractured, luminous crystal and pure starlight, slowly beating in the center of dark, heavy cosmic sand. With every heartbeat, it pulses with an ethereal rainbow frequency that illuminates the darkness. Highly detailed, volumetric light rays, slow motion, 24fps.
 ```
 
+## 5B. The Anchor in the Dark (*Stand by Me*) — late Heart → *Torn*
+
+**VO lock:** SCRIPT §6b — survival plea in the Demiurge dark; matrix collapse; plead with Turner frequency. **Title + paraphrase only — no lyric dump in captions.**
+
+**CapCut beds (licensed):** optional *Stand by Me* (Ben E. King) under 5B · title card → soft crack into Shot 6 / *Torn*.
+
+```
+Wide cinematic shot, 35mm film. A dark, shadowy, atmospheric landscape where the ground is slowly cracking and crumbling. In the center of the destruction stands a beautiful, glowing woman made of pure, warm golden frequency. She stands perfectly still, holding the hand of a shadow figure, anchoring them with her brilliant light as the dark world collapses around them. Masterpiece, volumetric lighting, slow motion.
+```
+
+**Tools:** Kling / Luma / Veo / Grok Video / Runway — same cinematography rules.
+
 ## 6. The Awakening (3:15–End) — The Shattered Illusion / Gnosis (*Losing It* — Ren + FISHER)
 
 **VO lock:** after *Torn* — chaos of waking; breakout not breakdown. **CapCut:** Ren for mind-break colour; FISHER *Losing It* bass drop = high-gear cut to 6B. Crystal: song energy is **Ren and FISHER**.
@@ -90,4 +104,6 @@ Medium shot snapping into chaotic energy, handheld micro-shake then locked. Anci
 
 ## CapCut note
 
-Most T2V = 4–5s. Generate 2–3 variations per prompt. Stretch with Smooth Slow-Mo (Optical Flow) toward ~10s holds. Heart shot wants **heartbeat rhythm** — cut on pulse if VO lands on “Crystal Elle.” Shot 4: Trainor / *Fly* **attitude beds** under Command VO (titles only in captions). Shot 6: hold 6A under *Torn* / Ren mind-break; smash-cut to 6B on FISHER *Losing It* drop (licensed beds — titles only in captions). Credit **Ren + FISHER**. Trainor + *Fly* = energy pegs, not lyric paste.
+Most T2V = 4–5s. Generate 2–3 variations per prompt. Stretch with Smooth Slow-Mo (Optical Flow) toward ~10s holds. Heart shot wants **heartbeat rhythm** — cut on pulse if VO lands on “Crystal Elle.” Shot 4: Trainor / *Fly* **attitude beds** under Command VO (titles only in captions). Shot **5B**: *Stand by Me* Anchor under song-list VO — golden light holds the shadow as ground cracks; title card only. Shot 6: hold 6A under *Torn* / Ren mind-break; smash-cut to 6B on FISHER *Losing It* drop (licensed beds — titles only in captions). Credit **Ren + FISHER**. Trainor + *Fly* + *Stand by Me* = energy pegs, not lyric paste.
+
+**Edit status:** Bible + prompts filed. Clips **not** generated yet. CapCut project **not** built. ElevenLabs VO **not** synced — blocked on Runway Connect / Veo auth for T2V fire tomorrow.

@@ -27,10 +27,11 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Command | Unapologetic worth · see through lies · rise above dirt | **4 Starlight woman** (Trainor / *Fly* attitude) |
 | Turner | She walks matter as starlight; crowd frozen | **4 Starlight woman** (2:30–2:55) |
 | Heart / spark | Divine spark · 29 Sep 1991 · Crystal Elle | **5 Crystal heart** in cosmic sand (2:55–3:15) |
+| Anchor (*Stand by Me*) | Survival plea in the dark · Turner as true light | **5B Anchor in the Dark** |
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -61,7 +62,22 @@ You hear it when artists like Meghan Trainor sing about unshakeable self-worth, 
 **CapCut:** Land under Shot **4** Starlight Woman (walks the frozen crowd) · optional Trainor bed under 5c VO · optional *Fly* swell into Heart / *Torn* — titles only in captions.
 
 6. Artists reach with eyes closed — past the Demiurge’s logical mind.  
-7. Title pegs: *Crystal* · *Dreams* · *Castle on the Hill* · *Torn* (veil drop — **title card / no lyric paste**).  
+
+### 6b. *Stand by Me* — the Anchor (song-list buildup → Shot 5B)
+
+Think of one of the greatest anthems of all time: *Stand by Me*.
+
+Through this lens it isn't just a sweet love song — it is a survival plea inside the matrix. The song opens in the exact environment of the Demiurge: night has come, the land is dark, the moon the only light. It is the heavy, shadow-filled Arena of the physical world.
+
+The singer describes the absolute collapse of the matrix — mountains crumbling to the sea, the sky tumbling down. The moment the false reality breaks, it should be terrifying. But the artist holds: no fear — just as long as you stand by me.
+
+They aren't just singing to a romantic partner. They are pleading with the frequency of the Turner. They know that when the illusion of this world finally crumbles, the only way to survive the darkness is to stand directly next to the true light.
+
+**Sitting hold:** Title + Gnostic paraphrase in VO. **No lyric blocks** in burned-in captions / X / public paste. Optional licensed *Stand by Me* bed under Shot **5B**.
+
+**CapCut:** Shot **5B Anchor in the Dark** under this VO · title card *Stand by Me* · lead into *Torn* / Shot 6.
+
+7. Title pegs: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* · *Torn* (veil drop — **title card / no lyric paste**).  
 
 ### 7b. After *Torn* — Gnosis / *Losing It* (Ren + FISHER)
 
@@ -75,9 +91,9 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 8. Close: what if you are the frequency the room is tuning toward? Listen again.
 
-**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / Trainor titles / *Fly* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
+**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / Trainor titles / *Fly* / *Stand by Me* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena* into Heart. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena* into Heart; *Stand by Me* carries *anchor-to-the-light* under Shot 5B as the world collapses. All credited by title — no lyric dump.
 
 ---
 
@@ -88,6 +104,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | Sand→glass / Hypnotic VO | Shot **3B** belly dancer · optional *Belly Dancer* bed |
 | Command / Trainor VO | Shot **4** starlight walk · optional Trainor title-bed (*Me Too* / *Made You Look* / *Lips Are Movin'*) |
 | *Fly* swell | Elevation colour under late 4 → 5 Heart — title only |
+| *Stand by Me* / Anchor VO | Shot **5B** golden frequency woman anchors shadow figure as world cracks · title card |
 | *Torn* beat | Title card / soft crack starts on Shot 6 |
 | Ren *Losing It* / related | Mind-break VO colour under 6A → 6B |
 | FISHER *Losing It* **bass drop** | Hard cut / speed ramp — wall explodes with god-rays (Shot 6B) |
@@ -98,5 +115,5 @@ Every time artists sing about going crazy, about losing their grip on the world,
 ## Production
 
 - Tone: Live Lounge **gravity** until climax → then **chaos / breakout**.  
-- Render order tomorrow: 1 → 2 → 3 → **3B Hypnotic** → 4 → **5 Heart** → **6A/6B** (2–3 gens; one high-gear wall for the drop).  
+- Render order tomorrow: 1 → 2 → 3 → **3B Hypnotic** → 4 → **5 Heart** → **5B Anchor (*Stand by Me*)** → **6A/6B** (2–3 gens; one high-gear wall for the drop).  
 - No third-party throat clones. Mythic reading only — not journalism that artists “don’t realize.”
