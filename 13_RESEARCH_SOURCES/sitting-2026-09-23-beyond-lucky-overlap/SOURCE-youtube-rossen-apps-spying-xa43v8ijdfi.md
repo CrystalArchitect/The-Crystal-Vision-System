@@ -14,6 +14,8 @@ Consumer **phone-privacy hygiene** stream: which everyday apps over-collect (loc
 
 Not a nation-state jawboning brief. Not a covert-surveillance playbook. Ordinary “take back control of the handset” desk.
 
+Pairs with: [`SOURCE-youtube-rossen-stop-phone-yvupgso6lca.md`](SOURCE-youtube-rossen-stop-phone-yvupgso6lca.md) (*STOP Doing THIS on Your Phone Right Now!*).
+
 ## Sitting relevance
 
 **Yes — light neighbour to digital sovereignty / consent surface**, especially after phone-migration and Google-login friction in this sitting:
