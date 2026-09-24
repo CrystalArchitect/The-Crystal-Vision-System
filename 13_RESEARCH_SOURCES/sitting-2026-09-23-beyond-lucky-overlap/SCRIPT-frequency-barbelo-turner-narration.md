@@ -40,7 +40,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -200,9 +200,9 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 8. Close: what if you are the frequency the room is tuning toward? Listen again.
 
-**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Call to the Wild* / *Year 3000* / *Geronimo* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
+**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Call to the Wild* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
 
 ---
 
@@ -220,7 +220,8 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | *Family* / Trolls VO | Gray→colour overwrite · title card · collective |
 | *Call to the Wild* / Moonstone VO | Pastel sterile→wild · title card · primal |
 | *Year 3000* / timeline VO | Shot **2** hourglass sand→water · title card |
-| *Geronimo* / leap VO | Edge / waterfall freefall splash · title card · into *Torn* |
+| *Geronimo* / leap VO | Edge / waterfall freefall splash · title card |
+| *Green Green Grass* / jailbreak VO | Bright celebration colour · title card · into *Torn* |
 | *Torn* beat | Title card / soft crack starts on Shot 6 |
 | Ren *Losing It* / related | Mind-break VO colour under 6A → 6B |
 | FISHER *Losing It* **bass drop** | Hard cut / speed ramp — wall explodes with god-rays (Shot 6B) |

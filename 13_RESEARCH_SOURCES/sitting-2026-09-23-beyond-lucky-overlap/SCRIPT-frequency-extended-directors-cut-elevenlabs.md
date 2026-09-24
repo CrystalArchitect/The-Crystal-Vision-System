@@ -1,7 +1,7 @@
 # SCRIPT — Frequency / Barbelo / Turner · EXTENDED Director’s Cut (optional long booth)
 
 **Filed:** 24 Sep 2026  
-**Status:** **ULTIMATE Director’s Cut ASSEMBLED** · Extended take · primary booth = Core Four · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
+**Status:** **ULTIMATE Director’s Cut COMPILED & LOCKED** · Extended take · primary booth = Core Four · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
 **Primary booth (Core Four):** [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
 **Maps to:** [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) · beat bible [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md)  
 **Law:** Different Shores taxi · Human publishes · No destiny proof  
@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~2387** (*Geronimo* leap in — **ULTIMATE assembled**) |
-| Live Lounge gravity (~130–140 wpm) | **~17:03–18:21** |
-| Slightly brighter (~150 wpm) | **~15:54** |
+| Word count | **~2530** (*Green Green Grass* jailbreak — **COMPILED & LOCKED**) |
+| Live Lounge gravity (~130–140 wpm) | **~18:04–19:27** |
+| Slightly brighter (~150 wpm) | **~16:52** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Ultimate Extended Director’s Cut assembled. CapCut bed **~17:03–18:21**. Arc: … *Year 3000* → *Geronimo* (leap) → Gnosis. Primary booth = Core Four. **No more tracks required before booth.**
+**Verdict:** Final Extended master compiled. CapCut bed **~18:04–19:27**. Arc: … *Geronimo* → *Green Green Grass* (party / jailbreak) → Gnosis. Primary = Core Four. **No more tracks. Booth next.**
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -149,6 +149,12 @@ The lyrics speak of plunging through the curtain of the waterfall. That is the v
 
 When the illusion shatters, you don't brace for impact. You trust the Turner's light, you take the leap, and you yell Geronimo.
 
+The Dem-ee-urj uses the fear of the end to keep the sparks perfectly obedient. He wants humanity to mourn the loss of their biological vessels, to believe that leaving the physical arena is a tragedy.
+
+But the Turner's frequency completely shatters the illusion of death. You hear this cosmic rebellion in the upbeat rhythm of "Green Green Grass." The artist sings: "Green green grass, blue blue sky / You better throw a party on the day that I die."
+
+Why a party? Because leaving this heavy, physical prison is not a tragedy. It is the ultimate jailbreak. The false god wants you to cry over a temporary biological suit, but the awakened soul celebrates the spark's return to the pure light of the Pluh-roh-muh. Death in the matrix isn't the end. It is just the final illusion shattering, the last door swinging open.
+
 And then comes the ultimate breaking point. The moment of Gnosis.
 
 It starts with being "Torn." The veil drops, the illusion breaks, and the subject realizes the world they were told to believe in wasn't real. As the artist sings: "Illusion never changed into something real."
@@ -167,9 +173,9 @@ Listen closely to the songs playing in the background of your life. The message 
 
 ## Booth notes
 
-- Pause after: “They sent a prism.” · “Crystal Elle Arena-Turner.” · “fluid light.” · “you yell Geronimo.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
-- *Year 3000*: pop-punk lift / flood. *Geronimo*: explosive leap — then *Torn* weight.  
+- Pause after: “They sent a prism.” · “you yell Geronimo.” · “the last door swinging open.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
+- *Geronimo*: explosive leap. *Green Green Grass*: bright celebration — then *Torn* weight.  
 - Do not throat-clone. Captions = titles only.  
-- CapCut bed **~17:03–18:21**.  
+- CapCut bed **~18:04–19:27**.  
 - **Master map:** [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md)  
-- **ULTIMATE lock:** Extended assembled. Core Four = first ElevenLabs take. No more tracks required before booth.
+- **FINAL COMPILE LOCK:** Extended complete. Core Four = first ElevenLabs take. No more tracks.

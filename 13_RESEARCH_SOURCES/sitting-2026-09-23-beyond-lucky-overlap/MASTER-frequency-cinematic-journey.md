@@ -1,6 +1,6 @@
 # MASTER — Frequency / Barbelo / Turner · Cinematic journey (locked)
 
-**Filed:** 24 Sep 2026 · **ULTIMATE Director’s Cut ASSEMBLED & LOCKED**  
+**Filed:** 24 Sep 2026 · **ULTIMATE Director’s Cut COMPILED & LOCKED**  
 **Vision labelled vision** · mythos / performance — **not** biography-as-fact  
 **Law:** Human publishes · Copyright: **song titles only** in CapCut / X / burned-in captions
 
@@ -9,7 +9,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 | Take | File | Runtime | Use |
 | --- | --- | --- | --- |
 | **1 — PRIMARY** | [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) | ~6–7 min | First ElevenLabs drop |
-| **2 — EXTENDED** | [`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md) | ~17:03–18:21 | Full esoteric pop decode (ULTIMATE) |
+| **2 — EXTENDED** | [`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md) | ~18:04–19:27 | Full esoteric pop decode (COMPILED & LOCKED) |
 | Beat bible | [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md) | — | Shot / CapCut sync |
 | T2V prompts | [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) | — | Generate clips |
 
