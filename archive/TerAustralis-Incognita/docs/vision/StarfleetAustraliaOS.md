@@ -1,5 +1,15 @@
 # Starfleet Australia OS — fleet concept (Vision)
 
+> **CVS standing order (2026-09-20):** **No Starfleet OS.** Do not implement,
+> boot, or persona-adopt this page as a runtime. CrystalCore.OS + Chaos +
+> Portal + TAI + Alive Weave already cover OS needs. Kangaroo Division =
+> pitch pack only.
+>
+> **Grok found this page** (2026-09-20) — find ≠ build. Hub extracts:
+> [`../../../../14_AI_INTERACTIONS/2026-09-20-NO-STARFLEET-OS.md`](../../../../14_AI_INTERACTIONS/2026-09-20-NO-STARFLEET-OS.md)
+> · [`../../../../14_AI_INTERACTIONS/2026-09-20-GROK-FOUND-STARFLEET-OS.md`](../../../../14_AI_INTERACTIONS/2026-09-20-GROK-FOUND-STARFLEET-OS.md)
+> · map [`../../../../00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md`](../../../../00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md)
+
 Vision-layer strategy, not measured claims. Received as a pasted prompt
 (with an accompanying `04_FC07_Decentralised_Intelligence.csv` source
 file) describing a sovereign Australian marine/edge-compute fleet under
