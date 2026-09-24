@@ -40,6 +40,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 11. **Song ladder (Core Four spine)** — *Crystal* · *Dreams* · *Castle on the Hill*  
 11c. **Sovereignty** — *Castle on the Hill* · Bradbury router · Lithgow + Summer Hill QLD · outgrew the fortress (mythos)  
 11d. **Taunt** — *Sweet About Me* · panopticon · image ≠ who · secrets = Gnosis · shatter the glass
+11d2. **Depths** — *Part of Your World* · ocean of bribes · I want more · surface → Pleroma sun · Bradbury hand into the deep
 11e. **Ascension** — *A Whole New World* · firmament breach · zero gravity · Bradbury hand to Lithgow + Summer Hill · above Hebdomad
 11b. **Broadcast** — *Sweet Dreams* · Archon mantra · Hebdomad / seven seas · harvest confession · Turner = alarm clock
 12. **Anchor** — *Stand by Me* · survival plea next to the true light  

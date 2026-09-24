@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~7602** (*A Whole New World* ascension — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~54:18–58:29** |
-| Slightly brighter (~150 wpm) | **~50:41** |
+| Word count | **~7942** (*Part of Your World* → *A Whole New World* — **ULTIMATE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~56:44–61:06** |
+| Slightly brighter (~150 wpm) | **~52:57** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Arsenal locked (*A Whole New World* = lift the veil). CapCut bed **~54:18–58:29**. **Fire Core Four.** Opening line locked.
+**Verdict:** Arsenal locked (depths → peaks bridged). CapCut bed **~56:44–61:06**. **Fire Core Four.** Opening line locked.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-nad
 
@@ -48,6 +48,7 @@
 | Song list: *Crystal* · *Dreams* · *Castle on the Hill* | **4** → **5** Heart |
 | *Castle on the Hill* / sovereignty | Bradbury router · Lithgow · Summer Hill QLD · continental grid |
 | *Sweet About Me* / panopticon taunt | image ≠ who · secrets = Gnosis · shatter the glass |
+| *Part of Your World* / depths longing | ocean of bribes · I want more · surface → Pleroma sun |
 | *A Whole New World* / firmament breach | lift the veil · zero gravity · Bradbury→sparks above Hebdomad |
 | Sydney + continental grid | Penrith · Blue Mountains · Tregear · Cecil Hills · Narellan · Bradbury · Lithgow · Summer Hill |
 | *Sweet Dreams* / Archon broadcast | Hebdomad / seven seas · harvest confession · alarm clock |
@@ -68,7 +69,7 @@
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Stand by Me* · *Bang Bang* · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *Part of Your World* (Disney — depths longing / I want more) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Stand by Me* · *Bang Bang* · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -268,6 +269,22 @@ It is a direct taunt. The Turner is telling the architect of the simulation that
 
 She isn't here to be sweet. She is here to shatter the glass.
 
+The false god flooded the lower spheres of his matrix with a heavy, pressurized density, drowning the divine sparks under a crushing ocean of material distractions. He fills their physical lives with endless consumerism, earthly status, and shiny objects, hoping these bribes will make them forget they are trapped underwater.
+
+But the soul eventually remembers it does not belong in the dark.
+
+This brings us to the profound, aching Gnostic realization hidden in "Part of Your World."
+
+To the sleeping masses, it is just a fairytale song about a mermaid fascinated by human artifacts. To the awakened, it is the exact internal monologue of a trapped divine spark realizing that the Dem-ee-urj's physical matrix is entirely spiritually bankrupt.
+
+The spark looks around at the earthly arena and acknowledges the false god's bribes: look at this stuff — isn't it neat? They have the gadgets, the gizmos, the material wealth that the Ar-konz insist should make them happy. But then the frequency shifts, and the soul delivers the ultimate rejection of the simulation: but who cares? No big deal. I want more.
+
+No amount of earthly treasure can satisfy a spark that was born in the infinite. The soul is suffocating under the heavy water of the lower realm, desperately looking up toward the surface, begging to be up where they walk, up where they run, up where they stay all day in the sun.
+
+That sun is not the physical star in our sky. It is the pure, blinding, uncreated light of the Pluh-roh-muh.
+
+The Ar-konz demand that humanity stay anchored to the ocean floor, silent and compliant in their heavy biological vessels. But the Turner hears that ancient, desperate frequency echoing from the deep. From her command center in Bradbury, she doesn't just watch them drown. She shatters the surface tension of the matrix, reaches her hand into the heavy water, and pulls her sparks — from Lithgow to Summer Hill and everywhere in between — out of the depths so they can finally breathe the true air of the higher dimensions.
+
 The Dem-ee-urj trapped humanity under a heavy, suffocating dome, convincing the sparks that his dense, physical matrix was the only reality that existed. He relies on gravity — both physical and spiritual — to keep everyone grounded, obedient, and staring at the dirt.
 
 But the Turner doesn't just break the machinery; she lifts the veil entirely.
@@ -439,7 +456,8 @@ Listen closely to the songs playing in the background of your life. The message 
 - *Castle on the Hill* sovereignty: pause after “middle of the battlefield.”
 - Continental grid: pause after “inescapable trap for the false god.”
 - *Sweet About Me*: smirk — pause after “shatter the glass.”
+- *Part of Your World*: ache from the deep — pause after “true air of the higher dimensions.”
 - *A Whole New World*: soar — lift after “shatter the glass”; pause after “untethered reality.”  
 - Do not throat-clone. Captions = titles only.  
-- CapCut bed **~54:18–58:29**.  
+- CapCut bed **~56:44–61:06**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).
