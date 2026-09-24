@@ -97,6 +97,8 @@ flowchart TB
 | [`RECEIPT-national-security-x-2026-09-24.md`](RECEIPT-national-security-x-2026-09-24.md) | **PUBLIC X** @XECrystal — https://x.com/XECrystal/status/2102999905262526741 |
 | [`POSITION-true-free-will-is-more.md`](POSITION-true-free-will-is-more.md) | True free-will is more than toggles/walls — choice & consent as the unsolved layer |
 | [`MAP-riptide-where-we-go.md`](MAP-riptide-where-we-go.md) | Riptide motif → swim across: walls, free-will, one-pager, vanish; no lyric dump |
+| [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md) | Gnostic muse mythos VO — vision labelled vision; titles only, no lyric dump |
+| [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) | Cinematic T2V prompts (record→hourglass→crystal arena→starlight→shatter) |
 | [`RELEASE-DRAFT-true-free-will-is-more.md`](RELEASE-DRAFT-true-free-will-is-more.md) | Public visibility desk — ready for @XECrystal |
 | [`SOURCE-x-adamlyttle-ndis-pii-2026-09-24.md`](SOURCE-x-adamlyttle-ndis-pii-2026-09-24.md) | NDIS provider PII leak claim still live 4 yrs after ACSC report — QT Albo AI week |
 | [`RELEASE-DRAFT-qt-adamlyttle-ndis-2026-09-24.md`](RELEASE-DRAFT-qt-adamlyttle-ndis-2026-09-24.md) | QT desk — **SENT** https://x.com/XECrystal/status/2103035258002395292 |
