@@ -3,7 +3,8 @@
 **Canon:** **no**  
 **Updated:** 2026-09-18 (naming interim + gone privates; Drive still open)  
 **Role:** Single list of what remains open. IDs in [`WORKING-INDEX.md`](WORKING-INDEX.md).  
-**Decision packets:** [`CRYSTAL-DECISIONS-PENDING.md`](CRYSTAL-DECISIONS-PENDING.md)
+**Decision packets:** [`CRYSTAL-DECISIONS-PENDING.md`](CRYSTAL-DECISIONS-PENDING.md)  
+**Agreement check:** [`AGREEMENT-WORKFLOW.md`](AGREEMENT-WORKFLOW.md) · `python3 scripts/agreement/status.py --attention`
 
 ---
 

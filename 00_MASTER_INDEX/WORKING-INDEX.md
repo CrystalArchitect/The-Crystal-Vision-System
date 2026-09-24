@@ -60,10 +60,13 @@
 | CVS-GROK-FOUND-SFOS | 14 | Grok found Starfleet OS Vision archive — find ≠ build | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-GROK-FOUND-STARFLEET-OS.md` |
 | CVS-GROK-GATE-0923 | 14 | Grok share First Gate — chat weight zero; terminal replay checked | fact | no | `/14_AI_INTERACTIONS/2026-09-23-GROK-SHARE-FIRST-GATE.md` |
 | CVS-CC-BOOT | 00 | Mythos terminal start — `scripts/crystalcore/boot.py` opens First Gate once | fact | no | `/scripts/crystalcore/boot.py` |
+| CVS-AGREE | 00 | Agreement workflow — confirm Crystal yes/no vs Canon | coordination | no | `/00_MASTER_INDEX/AGREEMENT-WORKFLOW.md` · `agreement-ledger.yaml` · `/scripts/agreement/` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-24 (agreement workflow):** Ledger + `status.py` so Crystal can `AGREE`/`REJECT`/`CANON`/`INTERIM` by id. Separates proposed / interim / crystal_confirmed / canon / vision_only. Canon: no.
 
 - **2026-09-24 (document Grok find):** Cross-linked No Starfleet OS / Grok-found stamp onto Vision source page, launch extract, Incognita CURRENT + OPEN-QUESTIONS, STACK-SURFACE non-goals, and Notion Motion OS source note. Canon: no.
 

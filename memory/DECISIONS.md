@@ -9,6 +9,11 @@ this repo; nothing here is invented.
 dated row. Do not silently overwrite an existing entry — a reversed
 decision gets a new entry that says so.
 
+**Agreement check:** hub ledger
+[`00_MASTER_INDEX/AGREEMENT-WORKFLOW.md`](../00_MASTER_INDEX/AGREEMENT-WORKFLOW.md)
+· `python3 scripts/agreement/status.py` — Crystal replies
+`AGREE|REJECT|CANON|INTERIM <id>`.
+
 ## 2026-09-19 — Alive Weave: CrystalBridge ConsentGate in the pulse/weave path
 
 Decision: guests speak on the Alive Weave only after the real CrystalBridge
