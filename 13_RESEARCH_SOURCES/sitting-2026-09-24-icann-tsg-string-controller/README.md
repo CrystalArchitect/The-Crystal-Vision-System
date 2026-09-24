@@ -14,10 +14,13 @@
 1. [`EXTRACT-BRIEF.md`](EXTRACT-BRIEF.md) — what string+controller requires (load-bearing rules)  
 2. [`REQUIREMENTS-CHECKLIST.md`](REQUIREMENTS-CHECKLIST.md) — MUST/SHOULD checklist for reading applicants / observers  
 3. [`THEMES-public-comments.md`](THEMES-public-comments.md) — Public Comment theme map (38 active + 2 retracted)  
-4. [`SOURCE-public-comment-roster.csv`](SOURCE-public-comment-roster.csv) — full submission roster + links  
-5. [`RECEIPT-chat-paste-2026-09-24.md`](RECEIPT-chat-paste-2026-09-24.md) — how this sitting got the report text  
-6. [`SOURCE-official-pdf-text-extract.txt`](SOURCE-official-pdf-text-extract.txt) — text extract of the official PDF (via search fetch; PDF binary download blocked in this environment)  
-7. [`SOURCE-unregistry-comment-text-extract.txt`](SOURCE-unregistry-comment-text-extract.txt) — Unregistry comment PDF text (sample primary)
+4. [`extracts/DEEP-EXTRACTS.md`](extracts/DEEP-EXTRACTS.md) — per-submitter deep extracts (Depth A–C)  
+5. [`extracts/TENSION-MAP.md`](extracts/TENSION-MAP.md) — Fights A–D (safety / fence / legacy / direction)  
+6. [`SOURCE-public-comment-roster.csv`](SOURCE-public-comment-roster.csv) — full submission roster + links  
+7. [`RECEIPT-chat-paste-2026-09-24.md`](RECEIPT-chat-paste-2026-09-24.md) — how this sitting got the report text  
+8. [`SOURCE-official-pdf-text-extract.txt`](SOURCE-official-pdf-text-extract.txt) — text extract of the official PDF (via search fetch; PDF binary download blocked in this environment)  
+9. [`SOURCE-unregistry-comment-text-extract.txt`](SOURCE-unregistry-comment-text-extract.txt) — Unregistry comment PDF text (sample primary)  
+10. [`SOURCE-estmcmxci-comment-summary-extract.txt`](SOURCE-estmcmxci-comment-summary-extract.txt) — estmcmxci.eth / TLD Oracle submission summary
 
 ---
 
@@ -35,7 +38,7 @@
 
 This sitting is **after** the comment window. Do not invent a late filing unless Crystal stamps an out-of-band path.
 
-**Public Comment roster (filed 24 Sep):** 40 submissions in CSV (2 retracted). Theme extract prioritizes SSAC/ALAC/IPC/RrSG/ENS/Unregistry/ISPCP/MeitY; other org PDFs linked but not all extracted this pass.
+**Public Comment roster (filed 24 Sep):** 40 submissions in CSV (2 retracted). Deep pass v2 covers Unregistry (A), SSAC/ALAC/IPC/ENS/RrSG/Clowes/Bird/estmcmxci (B), ISPCP/MeitY/.ART via Circleid, RySG/WIPO via ENS cite; CleanDNS/Netnod still open.
 
 ---
 

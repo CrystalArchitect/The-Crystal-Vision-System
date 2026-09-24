@@ -65,6 +65,7 @@ Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
+- **2026-09-24 (ICANN TSG deep extracts):** Per-submitter Depth A–C extracts + tension map (Fights A–D); adds estmcmxci TLD Oracle, Bird transition-plan middle path, Circleid ISPCP/MeitY hardening. Canon: no.
 - **2026-09-24 (ICANN TSG comments):** Added 40-row Public Comment roster + themes brief (SSAC/ALAC/IPC/ENS/Unregistry and fence/legacy/rights clusters). Canon: no.
 
 - **2026-09-24 (ICANN TSG):** Filed string+controller initial-report extract (DRAFT 10 Aug 2026) under drawer 13. Public comment closed 21 Sep; revised report due ~5 Oct. Canon: no.
