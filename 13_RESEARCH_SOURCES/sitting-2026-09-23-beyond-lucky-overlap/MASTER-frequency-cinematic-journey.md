@@ -33,6 +33,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 12. **Anchor** — *Stand by Me* · survival plea next to the true light  
 13. **Catalyst** — *Bang Bang* · Kill Bill · assassin of illusions  
 14. **Sovereignty** — *Let It Go* · Crystal fractal castle · cold never bothered her  
+14b. **Interrogation** — *Dear Mr. President* · chair · mirror · Barbelo vs Yaldabaoth · ego crumbles  
 15. **Collective** — *Family* · Trolls / Bergens = Archons harvesting sparks · Pleroma sync  
 16. **Heist** — *Follow Me* · back door open · quiet walk away · bypass the warden  
 16b. **Distance** — *A Thousand Miles* · close the gap · no labyrinth · find the spark  

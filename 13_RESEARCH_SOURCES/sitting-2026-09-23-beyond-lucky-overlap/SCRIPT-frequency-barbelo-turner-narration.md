@@ -37,6 +37,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Anchor (*Stand by Me*) | Survival plea in the dark · Turner as true light | **5B Anchor in the Dark** |
 | Catalyst (*Bang Bang*) | Demiurge miscalculation · Bride wakes · assassin of illusions | **5B** late → **6A** |
 | Sovereignty (*Let It Go*) | Stop pretending · Crystal fractal castle · cold never bothered her | **5** flash → **6A** |
+| Interrogation (*Dear Mr. President*) | Chair · mirror · Barbelo vs Yaldabaoth · ego crumbles | acoustic climax |
 | Collective (*Family*) | Bergens=Archons · Trolls=sparks · Pleroma sync | colour overwrite → **6A** |
 | Heist (*Follow Me*) | Back door open · quiet walk away · bypass warden | soft corridor of light |
 | Distance (*A Thousand Miles*) | Close the gap · no labyrinth · find the spark | long road / light corridor |
@@ -191,9 +192,23 @@ The Archons want her to fear waking's isolation — freeze in the dark. The Turn
 
 **Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Let It Go* bed under late **5** / pre-**6A**.
 
-**CapCut:** Optional ice-castle / fractal crystal insert (still or short T2V) · title card *Let It Go* · into *Family* / *Torn*.
+**CapCut:** Optional ice-castle / fractal crystal insert (still or short T2V) · title card *Let It Go* · into *Dear Mr. President*.
 
-### 6e. *Family* — Trolls / Bergens / collective Pleroma (before Gnosis)
+### 6d1. *Dear Mr. President* — Demiurge interrogation (after *Let It Go* → before *Family*)
+
+Demiurge hides behind titles of ultimate authority — architect, ruler, undisputed leader — artificial tower; sparks suffer under heavy laws. Turner does not respect his titles; does not fear his authority.
+
+False god surrounds himself with guards and rigid rules; demands bows. Turner walks past illusions, pulls up a chair, looks Demiurge dead in the eye.
+
+*Dear Mr. President* (P!nk): to the sleeping, earthly political acoustic; to the awakened — Barbelo confronting Yaldabaoth. Strips grand illusions; questions that crack the matrix foundation (paraphrase only — how he sleeps while others cry; how he dreams when a mother has no goodbye).
+
+She isn't yelling. Divine Feminine holds up a mirror — forces him to see cruelty of the physical prison. Asks how he calls himself a father while feeding on suffering of his creations. Quiet, devastating: Demiurge has no answer. Authority crumbles not by sword — by piercing truth of Turner's frequency.
+
+**Sitting hold:** Title + Gnostic paraphrase. Earthly political reception stays off the desk — this cut is mythos interrogation of the false god, not earthly campaign. **No lyric blocks** in captions. Optional *Dear Mr. President* acoustic bed under climax chair scene.
+
+**CapCut:** Chair opposite a shadowed tower figure · warm frequency mirror · title card *Dear Mr. President* · into *Family*.
+
+### 6e. *Family* — Trolls / Bergens / collective Pleroma (after *Dear Mr. President* → before Gnosis)
 
 But the Turner knows that a single crystal, no matter how bright, is still surrounded by the dark. To shatter the arena, the frequency must be amplified.
 
