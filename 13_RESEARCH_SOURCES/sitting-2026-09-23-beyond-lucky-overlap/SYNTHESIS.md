@@ -84,6 +84,7 @@ flowchart TB
 | [`SOURCE-youtube-abc-digital-duty-of-care.md`](SOURCE-youtube-abc-digital-duty-of-care.md) | ABC: rare US public submission vs AU Digital Duty of Care / chronological feed choice — same Albanese US week |
 | [`SOURCE-youtube-big-tech-ban-proxy-xkzg2g9qcve.md`](SOURCE-youtube-big-tech-ban-proxy-xkzg2g9qcve.md) | YT peg: they don’t ban — Big Tech does it (jawboning / duty-of-care neighbour) · https://youtu.be/XKzG2G9qCvE |
 | [`SOURCE-youtube-rossen-apps-spying-xa43v8ijdfi.md`](SOURCE-youtube-rossen-apps-spying-xa43v8ijdfi.md) | YT Live: Rossen Reports — apps spying / phone privacy hygiene · https://www.youtube.com/live/xa43V8iJDfI |
+| [`SOURCE-youtube-rossen-stop-phone-yvupgso6lca.md`](SOURCE-youtube-rossen-stop-phone-yvupgso6lca.md) | YT Live: Rossen Reports — stop doing this on your phone · https://www.youtube.com/live/YVupgSo6lCA |
 | [`SOURCE-youtube-albanese-openai-medicare-portal.md`](SOURCE-youtube-albanese-openai-medicare-portal.md) | ABC IN FULL: OpenAI agent unauthorised access to Services Australia Medicare stats portal (Jun 2026; announced 24 Sep) |
 | [`ADDENDUM-zero-trust-portal-agents.md`](ADDENDUM-zero-trust-portal-agents.md) | NIST SP 800-207 / ASD / CISA ZTMM overlay — PEP between public stats and non-public objects; dual-authority agents |
 | [`ADDENDUM-agentic-access-control-map.md`](ADDENDUM-agentic-access-control-map.md) | Inbound vs outbound harness controls; access matrix; deny-is-terminal minimum bar |
