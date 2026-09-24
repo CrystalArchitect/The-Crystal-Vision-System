@@ -77,6 +77,7 @@ Order roughly follows MASTER journey (some CapCut beds may reorder for music edi
 | Trainor unapologetic + **Fly** | Meghan Trainor / — | Command · rise above the dirt |
 | **Made You Look** | Meghan Trainor | Materialism reject · Turner mic-drop |
 | **Laced Up** | Hilltop Hoods | Rock bottom trampoline · pay stubs · lace & kick |
+| **Shake That** | Eminem ft. Nate Dogg | Vibrate laced vessel · club Trojan · Nate cold witness |
 | **Genie in a Bottle** | Christina Aguilera | Avatar = containment · glass shatters |
 | **Bones** | Imagine Dragons | Biology as conductor · vessel = tuning fork |
 | **Bette Davis Eyes** | Kim Carnes | Piercing gaze · expose the Archons |

@@ -34,6 +34,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 8. **Command** — Trainor unapologetic · *Fly* above the dirt  
 8b. **Flex** — *Made You Look* · shed labels · raw frequency · made them **turn** (Turner mic-drop)  
 8b1. **Laced** — Hilltop Hoods *Laced Up* · rock bottom = trampoline · pay stubs = Archon wage · lace the vessel / kick · champagne bribe / quicksand floor  
+8b1a. **Shake** — Eminem ft. Nate Dogg *Shake That* · vibrate the laced vessel · club Trojan / densest-realm swagger · Nate = cold witness chorus · shake until frequency matches  
 8b2. **Bottle** — *Genie in a Bottle* · avatar = containment · friction/frequency · glass shatters  
 8c. **Vessel** — *Bones* · calcium cage → tuning fork · marrow electric · weaponize the avatar
 9. **Gaze** — *Bette Davis Eyes* · pierce the simulation · expose the Archons
