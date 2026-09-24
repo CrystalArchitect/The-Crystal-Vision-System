@@ -13,5 +13,6 @@ External books. Compass, not components.
 | --- | --- |
 | [`sitting-2026-09-19/elon-musk-filings-2026-09-16/`](sitting-2026-09-19/elon-musk-filings-2026-09-16/) | SEC / Musk control filings evidence pack |
 | [`sitting-2026-09-23-beyond-lucky-overlap/`](sitting-2026-09-23-beyond-lucky-overlap/) | Arena-Turner SpaceNews + TerAustralis corpus vs Richardson *Beyond Lucky* (LinkedIn, 21 Sep 2026) |
+| [`sitting-2026-09-24-icann-tsg-string-controller/`](sitting-2026-09-24-icann-tsg-string-controller/) | ICANN TSG initial report (DRAFT 10 Aug 2026): gTLD × alt naming via string+controller; comment closed 21 Sep 2026 |
 
 Do not copy symbol lists into the Codex. Do not file Lewis under 05_DREAMLINES.
