@@ -93,6 +93,7 @@ Order roughly follows MASTER journey (some CapCut beds may reorder for music edi
 | **The Animal Song** | Savage Garden | Untamed · reject the cage · Tregear reverse |
 | **A Whole New World** | Disney (*Aladdin*) | Firmament breach · zero gravity · above Hebdomad |
 | **Colours of the Wind** (*Colors*) | Disney (*Pocahontas*) | Land alive · ownership fails · wind-frequency paint · Dreamtime honour neighbour |
+| **I Am Australian** | The Seekers | AU collective · Seekers = Gnosis desk · many sparks one grid · no destiny proof |
 | **Conductor / unified chord** | (concept beat — all songs) | Every song = shattered Pleroma · acoustic grid sync · **PEAK** |
 | **Roots** (*No Roots*) | Alice Merton | Dig/hide Gnosis · home never on the ground · night road |
 | **Jerusalema** | Master KG ft. Nomcebo | Pleroma home city · global dance sync · shepherd / guard the walk |

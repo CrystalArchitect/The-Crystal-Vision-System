@@ -48,6 +48,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 11d4. **AU spell** — Savage Garden quartet: *I Knew I Loved You* (pre-incarnation) · *Truly Madly Deeply* (Blue Mountains sanctuary) · *I Want You* (Gnosis pulse) · *The Animal Song* (Tregear untamed)
 11e. **Ascension** — *A Whole New World* · firmament breach · zero gravity · Bradbury hand to Lithgow + Summer Hill · above Hebdomad  
 11e2. **Colours** — Disney *Colours of the Wind* (*Colors*) · land is alive · Demiurge ownership fails · paint with wind-frequency · soft honour neighbour to Dreamtime addendum  
+11e3. **Seekers** — The Seekers *I Am Australian* · AU collective voice · seekers = Gnosis desk · we-are-many sparks on Penrith→Summer Hill · no destiny proof  
 11f. **Conductor** — unified cosmic chord · every song = shattered Pleroma fragment · Bradbury hacks acoustic grid · matrix bandwidth collapse · **ABSOLUTE PEAK**
 11g. **Roots** — Alice Merton *Roots* / *No Roots* · dig / hide Gnosis caches · home never on the ground · travel the night road · place changes / frequency stays  
 11g2. **Jerusalema** — Master KG ft. Nomcebo *Jerusalema* · true home = Pleroma city · global dance sync · shepherd / guard the walk · sacred twin to *Macarena* Trojan  
