@@ -44,7 +44,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Follow Me* (Uncle Kracker — spiritual heist) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Macarena* (Los del Río — Trojan horse / body joy) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Follow Me* (Uncle Kracker — spiritual heist) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Blurred Lines* (erase borders / mythos only) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Macarena* (Los del Río — Trojan horse / body joy) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -196,9 +196,21 @@ Howl deep inside / rhythm they can't ignore = soul refuses Demiurge containment.
 
 **Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Call to the Wild* bed under primal-wake beat.
 
-**CapCut:** Sterile pastel→wild colour · title card *Call to the Wild* · into *Year 3000* / *Torn*.
+**CapCut:** Sterile pastel→wild colour · title card *Call to the Wild* · into *Blurred Lines* / *Year 3000*.
 
-### 6g. *Year 3000* — chronological prison break (after *Call to the Wild* → before Gnosis)
+### 6f2. *Blurred Lines* — erase Demiurge borders (after *Call to the Wild* → before *Year 3000*)
+
+The false god thrives on division — rigid uncrossable lines; sparks kept docile, predictable, obedient; "good girl" compliance to policed arena rules.
+
+The Turner does not respect his borders. She blurs lines between matter and spirit, reality and illusion.
+
+*Blurred Lines*: earthly club track on the surface; Gnostic read = Pleroma frequency to the suppressed soul — craving for freedom, not earthly desire. Soul refuses Demiurge domestication (echo *Call to the Wild*). Hard line between humanity and divine — Turner erases it.
+
+**Sitting hold:** Title + mythos paraphrase only. Controversial earthly reception stays off the desk — this cut is Gnostic frequency decode, not endorsement of earthly controversy. **No lyric blocks** in captions.
+
+**CapCut:** Hard edges dissolve / soft bloom · title card *Blurred Lines* · into *Year 3000*.
+
+### 6g. *Year 3000* — chronological prison break (after *Blurred Lines* → before Gnosis)
 
 The false god trapped humanity in linear time — clock ticks, black sand in the hourglass — spark made to feel finite and rushed. The Turner is not bound by linear time.
 
@@ -250,9 +262,9 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 8. Close: what if you are the frequency the room is tuning toward? Listen again.
 
-**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / *Macarena* / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Follow Me* / *Call to the Wild* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
+**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / *Macarena* / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Follow Me* / *Call to the Wild* / *Blurred Lines* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
 
 ---
 
@@ -271,6 +283,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | *Family* / Trolls VO | Gray→colour overwrite · title card · collective |
 | *Follow Me* / heist VO | Soft corridor / open back door · title card · quiet escape |
 | *Call to the Wild* / Moonstone VO | Pastel sterile→wild · title card · primal |
+| *Blurred Lines* / borders VO | Hard edges dissolve · title card · mythos only |
 | *Year 3000* / timeline VO | Shot **2** hourglass sand→water · title card |
 | *Geronimo* / leap VO | Edge / waterfall freefall splash · title card |
 | *Green Green Grass* / jailbreak VO | Bright celebration colour · title card · into *Torn* |

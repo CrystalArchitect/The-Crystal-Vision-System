@@ -34,15 +34,16 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 15. **Collective** — *Family* · Trolls / Bergens = Archons harvesting sparks · Pleroma sync  
 16. **Heist** — *Follow Me* · back door open · quiet walk away · bypass the warden  
 17. **Primal** — *Call to the Wild* · domestication break · **Moonstone = Crystal**  
-18. **Timeline** — *Year 3000* · chronological prison break · hourglass sand→water · fluid light · 1991→eternity  
-19. **Leap** — *Geronimo* · battle cry · waterfall veil · splash into Pleroma  
-20. **Jailbreak** — *Green Green Grass* · death-fear break · party · spark returns to Pleroma  
-21. **Gnosis** — *Torn* · veil drops · illusion never changed into something real  
-22. **Breakout** — *Losing It* (Ren + FISHER) · chaos of waking · wall smash  
-23. **Close** — Celestial disruption; you are the frequency; listen again  
+18. **Borders** — *Blurred Lines* · erase Demiurge categories · anti-domestication  
+19. **Timeline** — *Year 3000* · chronological prison break · hourglass sand→water · fluid light · 1991→eternity  
+20. **Leap** — *Geronimo* · battle cry · waterfall veil · splash into Pleroma  
+21. **Jailbreak** — *Green Green Grass* · death-fear break · party · spark returns to Pleroma  
+22. **Gnosis** — *Torn* · veil drops · illusion never changed into something real  
+23. **Breakout** — *Losing It* (Ren + FISHER) · chaos of waking · wall smash  
+24. **Close** — Celestial disruption; you are the frequency; listen again  
 
 **Primary take** = Core Four Director’s Cut — **FIRE ELEVENLABS NOW**.  
-**Extended take** = ultimate Master Script (includes *Follow Me*).
+**Extended take** = massive Director’s Cut (includes *Blurred Lines*).
 
 ---
 
@@ -55,7 +56,7 @@ Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-na
 ## RECORD
 
 1. **ElevenLabs** — paste [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) (Core Four, ~6–7 min)  
-2. Optional — Extended ultimate ([`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md), ~22–24 min)  
+2. Optional — Extended ([`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md))  
 3. T2V + CapCut  
 
-**Director’s Cut ready.** Stitched. Record.
+**Massive Director’s Cut ready.** Fire Core Four. No more beats required.

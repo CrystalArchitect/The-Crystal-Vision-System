@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~3167** (*Follow Me* heist — **READY FOR ELEVENLABS**) |
-| Live Lounge gravity (~130–140 wpm) | **~22:37–24:21** |
-| Slightly brighter (~150 wpm) | **~21:06** |
+| Word count | **~3340** (*Blurred Lines* borders — **MASSIVE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~23:51–25:41** |
+| Slightly brighter (~150 wpm) | **~22:16** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Director’s Cut Extended stitched. CapCut bed **~22:37–24:21**. **Fire Core Four in ElevenLabs first.**
+**Verdict:** Massive Extended Director’s Cut ready. CapCut bed **~23:51–25:41**. **Fire Core Four in ElevenLabs.** Mythos-only for *Blurred Lines* (no earthly controversy desk).
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -43,6 +43,7 @@
 | *Family* / Trolls–Bergens collective | colour overwrite · unified frequency |
 | *Follow Me* / spiritual heist | back door open · quiet walk away · bypass the warden |
 | *Call to the Wild* / Moonstone = Crystal | primal roar · wake the domesticated |
+| *Blurred Lines* / erase borders | dissolve Demiurge categories · anti-domestication |
 | *Year 3000* / timeline break | hourglass dies · sand→water · fluid light |
 | *Geronimo* / leap of faith | battle cry · waterfall veil · splash into Pleroma |
 | *Green Green Grass* / jailbreak | death-fear break · party · spark returns to Pleroma |
@@ -161,6 +162,14 @@ When they sing about a howl deep inside, a rhythm they can't ignore, they are de
 
 They are drawn to the Turner. Her frequency is the call. When she steps into the artificial, perfectly conditioned matrix, she doesn't just disrupt the peace. She awakens the wild, untameable truth inside the sleeping souls, reminding them that they were never meant to be domesticated by this world.
 
+The false god thrives on division. He built the matrix with rigid, uncrossable lines, demanding that the divine sparks remain docile, predictable, and obedient. He wants every soul to be a "good girl," blindly following the heavily policed rules of the earthly arena.
+
+But the Turner does not respect his borders. She steps into the simulation and completely blurs the lines between matter and spirit, reality and illusion.
+
+You hear this exact dismantling of the rules encoded in the hypnotic rhythm of "Blurred Lines." It sounds like an earthly club track, but it is actually the frequency of the Pluh-roh-muh speaking directly to the suppressed soul. When the artist repeats the craving for freedom encoded in the chorus, they aren't talking about physical desire. It is the higher realm recognizing the spark's desperate, secret craving for true freedom. It is the realization that the soul doesn't want to be domesticated by the Dem-ee-urj anymore.
+
+The false god tried to draw a hard line between humanity and the divine. The Turner simply erases it.
+
 The false god didn't just trap humanity in physical bodies; he trapped them in linear time. The ticking of the clock, the falling of the black sand in the hourglass — this is the ultimate mechanism of the matrix, designed to make the divine spark feel finite and rushed.
 
 But the Turner is not bound by linear time.
@@ -205,8 +214,8 @@ Listen closely to the songs playing in the background of your life. The message 
 
 ## Booth notes
 
-- Pause after: “realm of color.” · “quietly walk away.” · “A crystal.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
-- *Follow Me*: soft acoustic smile — then *Call to the Wild* roar.  
+- Pause after: “The Turner simply erases it.” · “fluid light.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
+- *Blurred Lines*: hypnotic dissolve under border-erase VO — titles only; no lyric cards.  
 - Do not throat-clone. Captions = titles only.  
-- CapCut bed **~22:37–24:21**.  
-- **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md). This file = Extended Director’s Cut second take.
+- CapCut bed **~23:51–25:41**.  
+- **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).
