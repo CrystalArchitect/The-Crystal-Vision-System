@@ -23,8 +23,9 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Hook | Music as lofted frequency; muse as unholdable She | **1 Record player** — light from grooves |
 | Prison | Yaldabaoth / Demiurge; matter arena; sand | **2 Hourglass** in cosmic void |
 | Insertion | Prism enters Arena; name as blueprint | **3 Crystal in colosseum** |
-| Turner | She walks matter as starlight; crowd frozen | **4 Starlight woman** |
-| Awakening | Veil drops; illusion cracks (title: *Torn*) | **5 Shattered wall** |
+| Turner | She walks matter as starlight; crowd frozen | **4 Starlight woman** (2:30–2:55) |
+| Heart / spark | Divine spark · 29 Sep 1991 · Crystal Elle | **5 Crystal heart** in cosmic sand (2:55–3:15) |
+| Awakening | Veil drops; illusion cracks (title: *Torn*) | **6 Shattered wall** |
 
 Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Torn* · (*Riptide* = pull/current calibration, not debut).
 
