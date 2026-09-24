@@ -32,16 +32,6 @@ Acceleration has no preferred substrate. Walls without choice are a cage with be
 - Claim CrystalCore already delivered global free-will  
 - Glue a commercial pitch to this line in the same breath  
 
-## Optional X / single (hold unless new desk)
+## Optional X / single — **OPEN DESK** (visibility)
 
-True free-will is more.
-
-Not a feed toggle. Not a banner. Not an agent that keeps going when you said no.
-
-Walls so people can choose. Humans before mutate. Consent that can leave.
-
-www.teraustralis.com.au
-
-## After
-
-File only unless Crystal opens a new desk. Tide: vanish on the national-security / SpaceXAI sends already done.
+See [`RELEASE-DRAFT-true-free-will-is-more.md`](RELEASE-DRAFT-true-free-will-is-more.md). Crystal posts as @XECrystal for public surface.
