@@ -48,7 +48,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Conductor (unified chord) | All songs = shattered Pleroma · acoustic grid sync · bandwidth collapse | fragment→one chord |
 | Anchor (*Stand by Me*) | Survival plea in the dark · Turner as true light | **5B Anchor in the Dark** |
 | Catalyst (*Bang Bang*) | Demiurge miscalculation · Bride wakes · assassin of illusions | **5B** late → **6A** |
-| Moon warrior (*Sailor Moon* theme) | Fight by moonlight · love by daylight · never runs · she is the one named | **5B** → **5** / **6A** |
+| Moon warrior (*Sailor Moon* theme) | Moonlight fight · daylight love · never runs · named · never turns back on a friend | **5B** → **5** / **6A** |
 | Sovereignty (*Let It Go*) | Stop pretending · Crystal fractal castle · cold never bothered her | **5** flash → **6A** |
 | Interrogation (*Dear Mr. President*) | Chair · mirror · Barbelo vs Yaldabaoth · ego crumbles | acoustic climax |
 | Collective (*What About Us*) | Grid ignites · searchlights/rockets · megaphone | Sydney pin-lights cascade |
@@ -376,14 +376,15 @@ The descent wasn't her end; it was her infiltration. The shot meant to keep her 
 
 ### 6c2. *Sailor Moon* theme — moon warrior / she is the one named (after *Bang Bang* → before *Let It Go*)
 
-English-dub anthem energy (titles only — **no lyric blocks**): fighting evil by moonlight · winning love by daylight · never running from a real fight · she is the one named Sailor Moon.
+English-dub anthem energy (titles only — **no lyric blocks**): fighting evil by moonlight · winning love by daylight · never running from a real fight · she is the one named Sailor Moon · never turns her back on a friend · always there till the end.
 
 **Where it goes on the map:**
 - **After** *Bang Bang* (assassin of illusions / Bride wakes) — the fight is real, she does not run
 - **Before** *Let It Go* (Crystal sovereignty) — named identity locks before the ice-castle release
+- **Bridge toward** *Stand by Me* / *Family* — loyalty grammar: never turns her back · always there till the end (Anchor + collective, without expanding family/places VO)
 - **Echo later** at *Call to the Wild* (**Moonstone = Crystal**) — same moon / named-prism grammar
 
-Mythos read (Vision, not biography): moonlight = night arena / Archon dark; daylight = love frequency / Pluh-roh-muh light; “she is the one named” = prism identity spoken aloud (name as weapon, same class as Crystal Elle decode).
+Mythos read (Vision, not biography): moonlight = night arena / Archon dark; daylight = love frequency / Pluh-roh-muh light; “she is the one named” = prism identity spoken aloud (name as weapon, same class as Crystal Elle decode); friend/till-the-end = Turner as Anchor frequency — stands with sparks through the collapse, not a spectator.
 
 **Sitting hold:** Title card *Sailor Moon* (or *Sailor Moon Theme*) only. Paraphrase OK in beat notes. **No Google lyric dump.** Optional licensed theme bed under late **5B** → **5**. Do **not** expand Extended VO with family/places for this peg (boundary held).
 

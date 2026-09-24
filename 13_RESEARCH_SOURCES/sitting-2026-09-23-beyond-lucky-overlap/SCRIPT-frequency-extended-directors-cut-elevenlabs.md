@@ -57,7 +57,7 @@
 | *Sweet Dreams* / Archon broadcast | Hebdomad / seven seas · harvest confession · alarm clock |
 | *Stand by Me* Anchor | **5B** Anchor in the Dark |
 | *Bang Bang* / Kill Bill catalyst | **5B** late → **6A** (cold vengeance colour) |
-| *Sailor Moon* theme / moon warrior | she is the one named · moonlight fight · daylight love |
+| *Sailor Moon* theme / moon warrior | named · moonlight/daylight · never turns back on a friend |
 | *Let It Go* / Crystal sovereignty | **5** flash / fractal ice-castle · into **6A** |
 | *Family* / Trolls–Bergens collective | colour overwrite · unified frequency |
 | *Follow Me* / spiritual heist | back door open · quiet walk away · bypass the warden |
