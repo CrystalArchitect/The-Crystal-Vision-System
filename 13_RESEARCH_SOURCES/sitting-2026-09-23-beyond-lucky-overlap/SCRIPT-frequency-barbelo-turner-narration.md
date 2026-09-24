@@ -24,12 +24,13 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Prison | Yaldabaoth / Demiurge; matter arena; sand | **2 Hourglass** in cosmic void |
 | Insertion | Prism enters Arena; name as blueprint | **3 Crystal in colosseum** |
 | Hypnotic | Frequency manipulates matter · dance through prison | **3B Belly dancer / Hypnotic Turner** (after sand→glass VO) |
+| Command | Unapologetic worth · see through lies · rise above dirt | **4 Starlight woman** (Trainor / *Fly* attitude) |
 | Turner | She walks matter as starlight; crowd frozen | **4 Starlight woman** (2:30–2:55) |
 | Heart / spark | Divine spark · 29 Sep 1991 · Crystal Elle | **5 Crystal heart** in cosmic sand (2:55–3:15) |
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -49,6 +50,16 @@ Even the way she moves is a celestial disruption. Think of the hypnotic rhythm o
 
 **CapCut:** Shot **3B** under this VO · optional Akon *Belly Dancer* bed (licensed) — title only in captions.
 
+### 5c. Command frequency — Trainor + *Fly* (power realization → Shot 4)
+
+She doesn't just survive the arena; she commands it. The false god thrives on making humanity feel small, but the Turner's frequency is completely unapologetic.
+
+You hear it when artists like Meghan Trainor sing about unshakeable self-worth, seeing straight through the lies, and making the whole room look. Title pegs only: *Lips Are Movin'* (false narratives crack) · *Me Too* / *Made You Look* (own the room / own the frequency). It is the anthem of a soul that refuses to be diminished by the matrix. It is the realization that you were never meant to be trapped in the dirt—you were meant to *Fly* above it.
+
+**Sitting hold:** Attitude + **song titles** in VO/cards. **No lyric blocks** pasted into sitting, X, or burned-in captions. *Fly* = elevation above the heavy physical arena — licensed bed TBD (Sugar Ray · Nicki Minaj & Rihanna · or other cleared cut).
+
+**CapCut:** Land under Shot **4** Starlight Woman (walks the frozen crowd) · optional Trainor bed under 5c VO · optional *Fly* swell into Heart / *Torn* — titles only in captions.
+
 6. Artists reach with eyes closed — past the Demiurge’s logical mind.  
 7. Title pegs: *Crystal* · *Dreams* · *Castle on the Hill* · *Torn* (veil drop — **title card / no lyric paste**).  
 
@@ -64,9 +75,9 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 8. Close: what if you are the frequency the room is tuning toward? Listen again.
 
-**Public cut:** *Torn* / *Losing It* (Ren + FISHER) = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
+**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / Trainor titles / *Fly* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Both credited — Crystal correction 24 Sep.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena* into Heart. All credited by title — no lyric dump.
 
 ---
 
@@ -75,6 +86,8 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | Cue | Action |
 | --- | --- |
 | Sand→glass / Hypnotic VO | Shot **3B** belly dancer · optional *Belly Dancer* bed |
+| Command / Trainor VO | Shot **4** starlight walk · optional Trainor title-bed (*Me Too* / *Made You Look* / *Lips Are Movin'*) |
+| *Fly* swell | Elevation colour under late 4 → 5 Heart — title only |
 | *Torn* beat | Title card / soft crack starts on Shot 6 |
 | Ren *Losing It* / related | Mind-break VO colour under 6A → 6B |
 | FISHER *Losing It* **bass drop** | Hard cut / speed ramp — wall explodes with god-rays (Shot 6B) |

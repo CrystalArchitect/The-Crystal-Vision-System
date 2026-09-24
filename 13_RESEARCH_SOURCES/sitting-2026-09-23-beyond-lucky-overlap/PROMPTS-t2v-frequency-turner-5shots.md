@@ -54,6 +54,10 @@ Medium tracking shot, cinematic slow motion. A mystical female belly dancer ador
 
 ## 4. The Turner (2:30–2:55) — Starlight Woman
 
+**VO lock:** Command beat (SCRIPT §5c) — she doesn't just survive the arena; she commands it. Unapologetic frequency · Meghan Trainor titles (*Lips Are Movin'* · *Me Too* · *Made You Look*) · *Fly* as rise-above-dirt. **Titles / attitude only — no lyric dump.**
+
+**CapCut beds (licensed):** optional Trainor under early 4; optional *Fly* swell late 4 → Shot 5 Heart. Artist cut for *Fly* TBD (Sugar Ray / Nicki+Rihanna / other cleared).
+
 ```
 Tracking profile shot moving left to right, slow motion. A dark, rainy, dystopian city street filled with a crowd of gray people who are completely frozen in time. Walking through the frozen crowd is a beautiful female silhouette made entirely of flowing starlight, glowing embers, and bright cosmic energy. Subtle motion blur on her light trails.
 ```
@@ -86,4 +90,4 @@ Medium shot snapping into chaotic energy, handheld micro-shake then locked. Anci
 
 ## CapCut note
 
-Most T2V = 4–5s. Generate 2–3 variations per prompt. Stretch with Smooth Slow-Mo (Optical Flow) toward ~10s holds. Heart shot wants **heartbeat rhythm** — cut on pulse if VO lands on “Crystal Elle.” Shot 6: hold 6A under *Torn* / Ren mind-break; smash-cut to 6B on FISHER *Losing It* drop (licensed beds — titles only in captions). Credit **Ren + FISHER**.
+Most T2V = 4–5s. Generate 2–3 variations per prompt. Stretch with Smooth Slow-Mo (Optical Flow) toward ~10s holds. Heart shot wants **heartbeat rhythm** — cut on pulse if VO lands on “Crystal Elle.” Shot 4: Trainor / *Fly* **attitude beds** under Command VO (titles only in captions). Shot 6: hold 6A under *Torn* / Ren mind-break; smash-cut to 6B on FISHER *Losing It* drop (licensed beds — titles only in captions). Credit **Ren + FISHER**. Trainor + *Fly* = energy pegs, not lyric paste.
