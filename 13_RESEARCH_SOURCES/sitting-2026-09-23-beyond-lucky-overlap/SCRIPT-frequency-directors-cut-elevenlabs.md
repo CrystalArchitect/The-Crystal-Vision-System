@@ -12,12 +12,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~1166** (Chipmunks / Saturn rings beat in) |
-| Live Lounge gravity (~130–140 wpm) | **~8:20–9:00** |
-| Slightly brighter (~150 wpm) | **~7:45** |
+| Word count | **~1348** (*Bang Bang* / Kill Bill catalyst in) |
+| Live Lounge gravity (~130–140 wpm) | **~9:40–10:25** |
+| Slightly brighter (~150 wpm) | **~9:00** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Flow still one arc — do **not** compress into 3:47. Extend CapCut / Optical Flow bed to **~8:00–9:00**. Keep 3:47 as optional later radio trim only. ElevenLabs: calm gravity until Gnosis; playful lift allowed on Chipmunks beat (still mythic, not cartoon VO); then chaos / breakout on *Torn* → *Losing It*.
+**Verdict:** Flow still one arc — do **not** compress into 3:47. Extend CapCut / Optical Flow bed to **~9:00–10:30**. Keep 3:47 as optional later radio trim only. ElevenLabs: calm gravity until *Bang Bang* (cold drop); Chipmunks beat slight brighten; then Gnosis chaos on *Torn* → *Losing It*.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -35,10 +35,11 @@
 | Chipmunks *Single Ladies* / Saturn rings | **4** (accelerate) → optional glass-shatter flash |
 | Song list: *Crystal* · *Dreams* · *Castle on the Hill* | **4** → **5** Heart |
 | *Stand by Me* Anchor | **5B** Anchor in the Dark |
+| *Bang Bang* / Kill Bill catalyst | **5B** late → **6A** (cold vengeance colour) |
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · Trainor titles · *Fly* · Chipmunks *Single Ladies* (title/energy — high-pitch metaphor) · *Stand by Me* · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · Trainor titles · *Fly* · Chipmunks *Single Ladies* (title/energy — high-pitch metaphor) · *Stand by Me* · *Bang Bang* (Nancy Sinatra — Kill Bill cold edge) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -88,6 +89,14 @@ Think of "Castle on the Hill," the ancient longing to return to the pure, high r
 
 Think of one of the greatest anthems of all time: "Stand by Me." The singer describes the exact environment of the Dem-ee-urj: a dark land where the mountains crumble to the sea. When the false reality finally breaks, it is terrifying. But they sing, "I won't be afraid, just as long as you stand by me." They are pleading with the frequency of the Turner, knowing that when the matrix collapses, the only way to survive is to stand next to the true light.
 
+But breaking the illusion requires a catalyst. Consider the haunting, cold-blooded resonance of Nancy Sinatra's "Bang Bang," famously tied to a story of ultimate vengeance.
+
+To the asleep, it is a melancholic song of heartbreak. In the Gnostic code, it is the story of the Dem-ee-urj's greatest miscalculation. The false god believed he could neutralize the Divine Feminine. He thought if he pulled the trigger, forcing her down into the dense gravity and suffering of the physical arena, she would forget who she was.
+
+As the lyrics echo: "Bang bang, he shot me down / Bang bang, I hit the ground."
+
+But the descent wasn't her end; it was her infiltration. The shot that was meant to keep her asleep is the exact sound that wakes her up. She rises from the dirt of the arena not as a victim, but as an assassin of illusions. She realizes the architect who put her in the ground is completely vulnerable to her frequency. The heartbreak transforms into absolute, calculating power. She doesn't just wake up — she prepares to dismantle his entire world.
+
 And then comes the ultimate breaking point. The moment of Gnosis.
 
 It starts with being "Torn." The veil drops, the illusion breaks, and the subject realizes the world they were told to believe in wasn't real. As the artist sings: "Illusion never changed into something real."
@@ -106,7 +115,7 @@ Listen closely to the songs playing in the background of your life. The message 
 
 ## Booth notes
 
-- Pause after: “They sent a prism.” · “Crystal Elle Arena-Turner.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
-- Lift energy only at Gnosis / *Torn* → losing it — not before. Chipmunks beat: slight brighten, still mythic (not cartoon throat).  
+- Pause after: “They sent a prism.” · “Crystal Elle Arena-Turner.” · “assassin of illusions.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
+- Chipmunks: slight brighten (still mythic). *Bang Bang*: cold drop — Kill Bill whistle energy, not shout. Then lift chaos at *Torn* → losing it.  
 - Do not throat-clone third-party artists. Mythic reading only.  
-- After render: sync CapCut to full **~8–9 min** bed; Optical Flow stretch T2V holds; titles-only cards.
+- After render: sync CapCut to full **~9–10:30** bed; Optical Flow stretch T2V holds; titles-only cards.

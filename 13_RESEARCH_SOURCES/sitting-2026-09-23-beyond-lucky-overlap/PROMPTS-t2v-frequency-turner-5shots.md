@@ -1,7 +1,7 @@
 # PROMPTS — Text-to-video · Frequency / Turner · 8 beats (6 numbered + 3B + 5B)
 
 **Filed:** 24 Sep 2026 · Heart · Anchor (*Stand by Me*) · Director’s Cut locked same day  
-**Audio length target:** **~8:00–9:00** (Director’s Cut ~1166 words @ Live Lounge gravity) · prior 3:47 = optional radio trim only
+**Audio length target:** **~9:00–10:30** (Director’s Cut ~1348 words @ Live Lounge gravity) · prior 3:47 = optional radio trim only
 **Script (booth):** [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
 **Beat bible:** [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md)  
 **First fire:** Shot 1 — Record Player (hook)  
@@ -12,7 +12,7 @@
 
 ---
 
-## CapCut timeline (full Director’s Cut ~8:00–9:00)
+## CapCut timeline (full Director’s Cut ~9:00–10:30)
 
 | Time (approx) | Shot | Title |
 | --- | --- | --- |
@@ -90,7 +90,7 @@ Wide cinematic shot, 35mm film. A dark, shadowy, atmospheric landscape where the
 
 ## 6. The Awakening (3:15–End) — The Shattered Illusion / Gnosis (*Losing It* — Ren + FISHER)
 
-**VO lock:** after *Torn* — chaos of waking; breakout not breakdown. **CapCut:** Ren for mind-break colour; FISHER *Losing It* bass drop = high-gear cut to 6B. Crystal: song energy is **Ren and FISHER**.
+**VO lock:** after *Torn* — chaos of waking; breakout not breakdown. Pre-roll: *Bang Bang* Kill Bill cold catalyst (SCRIPT §6c). **CapCut:** Ren for mind-break colour; FISHER *Losing It* bass drop = high-gear cut to 6B. Crystal: song energy is **Ren and FISHER**.
 
 ### 6A — Slow crack (pre-drop)
 
