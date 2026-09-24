@@ -3,6 +3,7 @@
 **Filed:** 24 Sep 2026 (Crystal paste — reverse-engineering *writeup* of a transparency JSON)  
 **English summary (same sitting):** confirmed — empty `modelRequests` · 9 PCC entries → 5 unique IDs · all `pcc-agent` / `vlu.v1` · ~25 Validated nodes · 1 safety + 5 CipherML VLU assets · JSON may lack final `}`  
 **CSV (request table only):** [`ARTIFACT-apple-pcc-vlu-requests-2026-09-18.csv`](ARTIFACT-apple-pcc-vlu-requests-2026-09-18.csv)  
+**Proxy edges (visible only):** [`ARTIFACT-apple-pcc-vlu-proxy-graph-2026-09-18.md`](ARTIFACT-apple-pcc-vlu-proxy-graph-2026-09-18.md)  
 **Sibling (different report):** [`SOURCE-apple-pcc-accessibility-reader-analytics-2026-09-24.md`](SOURCE-apple-pcc-accessibility-reader-analytics-2026-09-24.md) — that one had **populated `modelRequests`** (Accessibility Reader).  
 **This report:** `modelRequests: []` · all action in `privateCloudComputeRequests` · **Vision-Language Understanding (VLU)** via `pcc-agent`.  
 **Hold:** JSON truncated at end · attestation crypto **not** decoded · **no** cert-chain verification tooling.
