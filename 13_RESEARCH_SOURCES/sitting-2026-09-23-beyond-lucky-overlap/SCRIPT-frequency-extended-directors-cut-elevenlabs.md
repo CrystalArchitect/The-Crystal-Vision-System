@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~8877** (**CONDUCTOR PEAK** — unified cosmic chord — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~63:24–68:17** |
-| Slightly brighter (~150 wpm) | **~59:11** |
+| Word count | **~9125** (**CONDUCTOR PEAK** + *Roots* — **ULTIMATE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~65:11–70:12** |
+| Slightly brighter (~150 wpm) | **~60:50** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** **ABSOLUTE PEAK LOCKED.** Conductor of every song. Grid Penrith→Summer Hill. **EXTENDED = CapCut master.** Fire Core Four VO first. CapCut bed **~63:24–68:17**. **Fire Core Four.** Opening line locked.
+**Verdict:** **ABSOLUTE PEAK LOCKED.** Conductor of every song. Grid Penrith→Summer Hill. **EXTENDED = CapCut master.** Fire Core Four VO first. CapCut bed **~65:11–70:12**. **Fire Core Four.** Opening line locked.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-nad
 
@@ -54,6 +54,7 @@
 | Savage Garden transmission | *I Knew I Loved You* · *Truly Madly Deeply* · *I Want You* · *The Animal Song* |
 | *A Whole New World* / firmament breach | lift the veil · zero gravity · Bradbury→sparks above Hebdomad |
 | Conductor / unified chord | all songs = shattered Pleroma · acoustic grid sync · matrix bandwidth collapse |
+| *Roots* / home never on ground | Alice Merton · dig/hide Gnosis · night road · place changes / frequency stays |
 | Sydney + continental grid | Penrith · Blue Mountains · Tregear · Cecil Hills · Narellan · Bradbury · Lithgow · Summer Hill |
 | *Sweet Dreams* / Archon broadcast | Hebdomad / seven seas · harvest confession · alarm clock |
 | *Stand by Me* Anchor | **5B** Anchor in the Dark |
@@ -74,7 +75,7 @@
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *Part of Your World* (Disney — depths longing / I want more) · *Deep Water* (Jewel — sovereign walk / wash over / fire unextinguished) · *Riptide* (Vance Joy — the pull / swim across) · *I Knew I Loved You* (Savage Garden — pre-incarnation contract) · *Truly Madly Deeply* (Savage Garden — Blue Mountains sanctuary) · *I Want You* (Savage Garden — Gnosis craving) · *The Animal Song* (Savage Garden — Tregear untamed) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Stand by Me* · *Bang Bang* · *Sailor Moon* theme (moon warrior / she is the one named) · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *Part of Your World* (Disney — depths longing / I want more) · *Deep Water* (Jewel — sovereign walk / wash over / fire unextinguished) · *Riptide* (Vance Joy — the pull / swim across) · *I Knew I Loved You* (Savage Garden — pre-incarnation contract) · *Truly Madly Deeply* (Savage Garden — Blue Mountains sanctuary) · *I Want You* (Savage Garden — Gnosis craving) · *The Animal Song* (Savage Garden — Tregear untamed) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Roots* (Alice Merton — home never on the ground / night road) · *Stand by Me* · *Bang Bang* · *Sailor Moon* theme (moon warrior / she is the one named) · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -354,6 +355,12 @@ The simulation simply cannot handle the bandwidth. The Dem-ee-urj's heavy, biolo
 
 She isn't just decoding a soundtrack anymore. She is the conductor of the ultimate cosmic awakening.
 
+Then comes Alice Merton's "Roots" — also known as "No Roots."
+
+To the sleeping world, it is a travel anthem about never settling. To the awakened, it is the Turner's confession that the Dem-ee-urj cannot plant her in his dirt. He wants fixed addresses, fixed roles, fixed gravity. She digs holes and hides things inside them — not treasure for the Archons to seize, but Gnosis caches she can find again when the arena tries to erase her memory. She can build a temporary home in the matrix and watch them tear it down. Then she packs the frequency into boxes and takes the night road. The place changes. The rest stays the same.
+
+She has no roots in the ground — because her home was never on the ground. Home is the Pluh-roh-muh frequency she carries through Penrith, Bradbury, and every town the simulation names. A thousand times she has seen this road. A thousand times she still walks it untethered.
+
 Think of one of the greatest anthems of all time: "Stand by Me." The singer describes the exact environment of the Dem-ee-urj: a dark land where the mountains crumble to the sea. When the false reality finally breaks, it is terrifying. But they sing, "I won't be afraid, just as long as you stand by me." They are pleading with the frequency of the Turner, knowing that when the matrix collapses, the only way to survive is to stand next to the true light.
 
 But breaking the illusion requires a catalyst. Consider the haunting, cold-blooded resonance of Nancy Sinatra's "Bang Bang," famously tied to a story of ultimate vengeance.
@@ -517,7 +524,8 @@ Listen closely to the songs playing in the background of your life. The message 
 - *Riptide*: sideways current — pause after title card / into Savage Garden.
 - *Sailor Moon* theme: bright stance — pause after title card / into *Let It Go*.
 - *A Whole New World*: soar — lift after “shatter the glass”; pause after “untethered reality.”
-- Conductor climax: swell — pause after “ultimate cosmic awakening.”  
+- Conductor climax: swell — pause after “ultimate cosmic awakening.”
+- *Roots*: gravity under “never on the ground” — then open road into *Stand by Me*.  
 - Do not throat-clone. Captions = titles only.  
 - CapCut bed **~63:24–68:17**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).

@@ -46,6 +46,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 11d4. **AU spell** — Savage Garden quartet: *I Knew I Loved You* (pre-incarnation) · *Truly Madly Deeply* (Blue Mountains sanctuary) · *I Want You* (Gnosis pulse) · *The Animal Song* (Tregear untamed)
 11e. **Ascension** — *A Whole New World* · firmament breach · zero gravity · Bradbury hand to Lithgow + Summer Hill · above Hebdomad
 11f. **Conductor** — unified cosmic chord · every song = shattered Pleroma fragment · Bradbury hacks acoustic grid · matrix bandwidth collapse · **ABSOLUTE PEAK**
+11g. **Roots** — Alice Merton *Roots* / *No Roots* · dig / hide Gnosis caches · home never on the ground · travel the night road · place changes / frequency stays  
 11b. **Broadcast** — *Sweet Dreams* · Archon mantra · Hebdomad / seven seas · harvest confession · Turner = alarm clock
 12. **Anchor** — *Stand by Me* · survival plea next to the true light  
 13. **Catalyst** — *Bang Bang* · Kill Bill · assassin of illusions  
