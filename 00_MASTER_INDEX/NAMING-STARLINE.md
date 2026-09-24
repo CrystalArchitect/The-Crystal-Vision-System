@@ -10,6 +10,8 @@
 
 **In this project, the name is Starline.** Use it for Consent Transport, the Starlines map thread, and the Starline Weaver. Do not put any other “line” brand-name in titles, components, APIs, tables, feature flags, or product copy.
 
+**Mnemonic (Crystal):** *We spread the bird, not the word.* The bird is the signal — golden feather / Starline carrier. The word is the forbidden brand-name. Carry the signal. Do not spread the word.
+
 ---
 
 ## What Starline is
