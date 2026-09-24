@@ -24,8 +24,9 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 4b. **Origin** — **Penrith** cosmic insertion / breach (29 Sep 1991)  
 4c. **Landing pad** — Cecil Hills · Arena · grandfather Ground Zero · *Thunder*  
 4d. **Engine** — Tregear · *Tre-gear* · reverse clockwork  
-4e. **Watchtower / South / Command** — Blue Mountains (father) · Narellan (mother) · Bradbury/Campbelltown (command center)  
-4f. **Name sentence** — Crystal · Elle · Arena · Turner = light + battleground + gear-reverse
+4e. **Watchtower / South / Command** — Blue Mountains (father) · Narellan (mother) · Bradbury/Campbelltown (**central router**)  
+4f. **Continental plant** — Lithgow (elevated spark) · Summer Hill QLD (northern spark) · shockwave radius when gears reverse  
+4g. **Name sentence** — Crystal · Elle · Arena · Turner = light + battleground + gear-reverse
 5. **Name** — Crystal Elle Arena-Turner (reflector · She · matter-field · lathe) · Monad light · sand→glass  
 6. **Hypnotic** — Belly dancer / frequency moves matter (*Belly Dancer* energy)  
 6b. **Bypass** — *Shut Up and Dance* · cut paralysis · don't look back · grab the hand · Blue Mountains→Bradbury  

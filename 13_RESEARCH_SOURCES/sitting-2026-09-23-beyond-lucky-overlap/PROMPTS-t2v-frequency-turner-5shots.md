@@ -54,7 +54,7 @@ Low angle tracking shot, cinematic anamorphic lens. Inside a dark, ancient, sand
 **VO lock:** SCRIPT §5a — Penrith origin · Blue Mountains · Tregear · Cecil Hills · Narellan · Bradbury/Campbelltown. Mythos coordinates — not documentary.
 
 ```
-Wide aerial night map of Greater Western Sydney. Glowing circuit nodes light in sequence: Penrith breach flare, Blue Mountains ridge watchtower, Tregear gear-glow, Cecil Hills ground beacon, Narellan southern node, Bradbury/Campbelltown hub going full bright as lines connect. Cinematic, mythic, volumetric, 24fps.
+Wide aerial night map of eastern Australia. Glowing circuit nodes: Penrith breach, Blue Mountains/Lithgow elevated spark, Tregear gear-glow, Cecil Hills beacon, Narellan south, Bradbury/Campbelltown hub as central router, then a bright line shooting north to Summer Hill Queensland. Mythic circuit board, volumetric, 24fps.
 ```
 
 ### Optional still / T2V — Cecil Hills landing pad (*Thunder* / bloodline)

@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~6722** (*Castle* Bradbury sovereignty — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~48:00–51:42** |
-| Slightly brighter (~150 wpm) | **~44:48** |
+| Word count | **~6752** (continental grid Lithgow / Summer Hill — **ULTIMATE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~48:13–51:56** |
+| Slightly brighter (~150 wpm) | **~45:00** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Comprehensive Extended weaved. CapCut bed **~48:00–51:42**. **YES — Fire Core Four.** Opening line locked.
+**Verdict:** Continental plant locked (Bradbury router → Lithgow + Summer Hill QLD). CapCut bed **~48:13–51:56**. **Fire Core Four.** Mythos coordinates only.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -33,7 +33,7 @@
 | Barbelo · 29 Sep 1991 · prism · name decode | **3** Crystal in Arena |
 | Bloodline / Cecil Hills · Ground Zero | grandfather beacon · landing pad · *Thunder* echo |
 | Tregear · gear reverse | Turner bloodline · tre-gear · engine room keys |
-| Sydney grid · Penrith origin | Blue Mountains · Narellan · Bradbury/Campbelltown command |
+| Sydney + continental grid · Penrith origin | Blue Mountains · Tregear · Cecil Hills · Narellan · Bradbury router · Lithgow · Summer Hill QLD |
 | *Dear Mr. President* / Demiurge interrogation | bypass Archons · chair · mirror · ego crumbles |
 | *What About Us* / collective reckoning | grid ignites · searchlights / rockets · megaphone |
 | Hypnotic belly dancer | **3B** Hypnotic Turner |
@@ -126,9 +126,12 @@ The Blue Mountains — sitting right above the birth coordinate, where her fathe
 Tregear — where the Turner bloodline gives direct access to grip and reverse the mechanical gears of the simulation.
 Cecil Hills — where her grandfather anchors the Arena bloodline at ground zero.
 Narellan — where her mother's frequency holds the southern grid.
-Bradbury, Campbelltown — the current command center. The place where all of these frequencies converge, where she is actively hacking the system and waking up the trapped sparks.
+Bradbury, Campbelltown — the current command center and central router. The place where all of these frequencies converge, where she is actively hacking the system and waking up the trapped sparks.
 
-The false god thought he was scattering her family across the western and south-western suburbs to keep her energy diluted and grounded. Instead, he unknowingly allowed her to build a massive, interconnected circuit board of pure light across the entire region. When she finally hits the switch, the whole grid goes off at once.
+Lithgow — elevated spark extending the Blue Mountains watchtower.
+Summer Hill, Queensland — northern spark stretching the grid across state lines.
+
+The false god thought he was scattering her family across the western and south-western suburbs — and farther — to keep her energy diluted and grounded. Instead, he unknowingly allowed her to build a massive, interconnected circuit board of pure light across the entire region and beyond. When she finally hits the switch, the whole grid goes off at once.
 
 Her identity was encoded in the very name she was given: Crystal Elle Arena-Turner.
 
@@ -384,7 +387,8 @@ Listen closely to the songs playing in the background of your life. The message 
 - *What About Us*: collective swell — pause after “kept them in the dark for so long.”
 - Sydney grid: pause after “the whole grid goes off at once.”
 - *Shut Up and Dance*: punch — pause after “drag the sleeping masses into the light.”
-- *Castle on the Hill* sovereignty: pause after “middle of the battlefield.”  
+- *Castle on the Hill* sovereignty: pause after “middle of the battlefield.”
+- Continental grid: pause after “inescapable trap for the false god.”  
 - Do not throat-clone. Captions = titles only.  
 - CapCut bed **~26:34–28:37**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).

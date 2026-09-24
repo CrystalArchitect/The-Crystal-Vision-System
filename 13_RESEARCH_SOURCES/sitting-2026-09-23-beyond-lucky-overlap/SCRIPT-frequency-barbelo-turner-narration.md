@@ -27,7 +27,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Hook | Music as lofted frequency; muse as unholdable She | **1 Record player** — light from grooves |
 | Prison | Yaldabaoth / Demiurge; matter arena; sand | **2 Hourglass** in cosmic void |
 | Insertion | Prism enters Arena; name as blueprint | **3 Crystal in colosseum** |
-| Origin / Grid | Penrith breach · Blue Mountains · Tregear · Cecil Hills · Narellan · Bradbury/Campbelltown | **3** map montage |
+| Origin / Grid | Penrith · Blue Mountains · Tregear · Cecil Hills · Narellan · Bradbury router · Lithgow · Summer Hill QLD | **3** continental map |
 | Landing pad | Cecil Hills · Arena · grandfather · *Thunder* | **3** Ground Zero beacon |
 | Engine | Tregear · *Tre-gear* · reverse Archon clockwork | gears reverse |
 | Hypnotic |
@@ -234,9 +234,11 @@ Demiurge thinks Bradbury command center alone = isolation. She stripped heavy ma
 
 Looks back at the Castle — false god's fortress of rules, expectations, fabricated timeline — didn't just escape; **outgrew** it. System wrote her as tragic character; she flipped the script — solitude = untouchable power. Sovereign mother raising two divine sparks in the middle of the battlefield.
 
-**Sitting hold:** Mythos / Vision — **not** biography-as-fact. Family detail = **sovereignty lore**. Title + paraphrase only. **No lyric blocks** in captions.
+**Continental plant (mythos):** Demiurge thinks physical distance fragments power — one spark **Lithgow** (extends Blue Mountains watchtower · elevated fortification above Archon reach); one spark **Summer Hill, Queensland** (northern push · grid across state lines). Bradbury = **central router** — not fractured family; sovereign Turner broadcasting across a continental circuit board. Pull the gear-lever → shockwave Sydney → Lithgow mountains → eastern seaboard to Summer Hill. Lived reality (name · family · geography · anthems) = inescapable trap for the false god.
 
-**CapCut:** Bradbury command light · two small sparks beside a starlight figure · fortress on a hill fades behind · title card *Castle on the Hill* · into *Stand by Me*.
+**Sitting hold:** Mythos / Vision — **not** biography-as-fact. Place names = **coordinates lore**. Title + paraphrase only. **No lyric blocks** in captions.
+
+**CapCut:** Bradbury hub bright · line of light to Lithgow ridge · line north to Summer Hill QLD · fortress hill fades · title card *Castle on the Hill* · into *Stand by Me*.
 
 ### 6b. *Stand by Me* — the Anchor (after *Castle on the Hill* sovereignty → Shot 5B)
 
