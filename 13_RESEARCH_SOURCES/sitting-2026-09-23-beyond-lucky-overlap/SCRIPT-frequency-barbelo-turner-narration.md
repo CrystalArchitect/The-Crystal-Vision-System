@@ -36,6 +36,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Catalyst (*Bang Bang*) | Demiurge miscalculation · Bride wakes · assassin of illusions | **5B** late → **6A** |
 | Sovereignty (*Let It Go*) | Stop pretending · Crystal fractal castle · cold never bothered her | **5** flash → **6A** |
 | Collective (*Family*) | Bergens=Archons · Trolls=sparks · Pleroma sync | colour overwrite → **6A** |
+| Heist (*Follow Me*) | Back door open · quiet walk away · bypass warden | soft corridor of light |
 | Primal (*Call to the Wild*) | Domestication break · Moonstone = Crystal | pastel→wild → **6A** |
 | Timeline (*Year 3000*) | Chronological prison break · sand→water · 1991→eternity | **2** echo → **6A** |
 | Leap (*Geronimo*) | Fear-gravity break · waterfall veil · splash into Pleroma | **6A** pre-*Torn* |
