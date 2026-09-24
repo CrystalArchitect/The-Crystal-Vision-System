@@ -24,6 +24,8 @@ Representative receipts copied into this folder:
 
 Full dump index (all 56 paths as received): [`visual-corpus/ASSET-INDEX.txt`](visual-corpus/ASSET-INDEX.txt)
 
+**Durability check (24 Sep 2026):** only the **8** representative files in this folder are on disk. The original 56 paths under `~/.cursor/projects/workspace/assets/` are **gone on this node** (ephemeral agent assets). Re-upload required if the full set must be retained.
+
 ---
 
 ## 2. Launch-map grammar (recurring system)
