@@ -1,0 +1,141 @@
+Same string, same controller: one possible path to integrating the global DNS with alternative naming systems
+
+ 09 Sep 2026 15 min read icann 
+
+# Same string, same controller: one possible path to integrating the global DNS with alternative naming systems
+
+ 
+
+ I previously wrote about the discussion surrounding the integration of alternative naming systems with the DNS here. In that post I outlined the formation of ICANN's Technical Study Group on gTLD Integrations with Alternative Naming Systems. That group was spun up and over the past few months has been meeting and discussing the topic. I listened to the various published discussions, and read the first draft of the report that was published on August 10th. Reports like this can feel abstract, so I did the thing I always do when I want to understand a specification - I built it. The screenshots through this post come from a working prototype that implements the report's model end to end. For demonstration purposes I built an alternative namespace on the Ethereum blockchain. 
+
+My company, Unruggable, is a service provider for the Ethereum Name Service (ENS). As such I have particular interest in the power of blockchain technologies. It is however worth explicitly highlighting that alternative namespaces are not constrained to blockchains.
+
+## Acronyms
+
+If you're coming from web3, the ICANN world is a wall of acronyms. 
+
+- ICANN - the nonprofit that coordinates the DNS root zone: which top-level domains exist, and under what contracts they operate.
+- Registry / Registry Operator (RO) - the entity responsible for a TLD. Maintains the authoritative database of every name under that TLD. For example: Verisign for `.com`; Nova Registry for `.link` .
+- Registry Service Provider (RSP) - the technical outfit many ROs outsource actual registry operations to. Policy responsibility stays with the RO.
+- Registrar - where you (as a customer) register your domain (GoDaddy, Namecheap etc). Sits between you and the registry.
+- Registrant - you, the party who controls a registered name.
+
+- Shared Registration System (SRS) - the registry's transactional core that registrars register names into.
+- Extensible Provisioning Protocol (EPP) - the XML protocol registrars use to talk to the SRS.
+- RDAP - the modern successor to WHOIS. A standardised way to query who-controls-what.
+- Registry Services Evaluation Policy (RSEP) - the process a contracted registry must go through to offer any new registry service. ICANN evaluates the proposal for security, stability, and competition concerns. Integration as this report defines it counts as a registry service - only a registry can guarantee the same name and controller across an entire TLD - so a registry offering it must pass RSEP review. 
+- Emergency Back-End Registry Operator (EBERO) - a standby operator that takes over critical functions if a registry fails.
+
+- Alternative naming system - any naming system that isn't the global DNS. For example, ENS and Unstoppable Domains. In principle I could maintain an alternative namespace in my notebook. 
+
+## Findings
+
+Many alternative namespaces already exist and ICANN has no legal grounding to compel them to do anything. 
+
+This discussion has arisen because Registry Operators have been approaching ICANN since 2022 with requests for various kinds of integration. The study group's conclusion is cautiously positive: in its view, same-string integration under a common controller is "unlikely to create significant security or stability issues" - with the important qualifier "assuming appropriate operational controls".
+
+ This discussion has arisen because many Registry Operators have considered such integrations and have queried the appropriate path to integrate in a manner "unlikely to create significant security or stability issues" to the DNS. ICANN can compel registries that want to offer integrations with these alt-namespaces to follow certain rules on the basis that they are contracted parties. Entities such as ENS, Unstoppable Domains, and Freename have proactively engaged in the conversation because they are open-minded about how they can potentially build or update their offerings to create synergistic benefits to the ultimate end users - domain name registrants. This is demonstrated by the presence of Nick Johnson (ENS) and Sebastien Ducos (Unstoppable) on the Technical Study Group. The ultimate outcome of the report is a proposal for how integrations with alternative namespaces should be done. It can be paraphrased as:
+
+> A name that exists in any integrated naming system must, at all times, either be controlled by the same party in every system - or be withheld in the others so that nobody else can ever take it.
+
+If a registry can guarantee that reliably, its integration is to spec. If it can't, the report says the systems simply must not be treated as integrated. From a technical point of view the question then becomes how do you prove, continuously, that the same string has the same controller everywhere? This is ultimately a synchronisation problem.
+
+For distributed implementations the report defines the need for a Unified Source of Truth (USoT): one eventually-consistent body of evidence - potentially spanning the registry, the registrars, and the alternative namespace itself - that allows one to prove at any moment that the same string has the same controller everywhere.
+
+### Lifecycle synchronisation
+
+The report requires that lifecycle events move in lockstep across every integrated system:
+
+- Registering a name in any system allocates it there and, in every other system, either allocates it to the same controller or withholds it.
+- A change of registrant must carry across every system. The name can never be left active under the previous owner's control in one system while the registry says it belongs to someone else. 
+- Suspensions must apply to all naming systems simultaneously. 
+- If a name is taken down for external reasons - abuse, a court order - it must be disabled in every system. A danger in one naming system is a danger in all of them. 
+- When a name lapses in one system, the string is withheld there; it only becomes available again when the registrant gives it up in every system."
+
+The complication is that integrated systems do not confirm changes at the same speed. A registry database commits in milliseconds whereas a blockchain settles when it settles, and can even reorganise and un-settle. This necessitates allowing (and accepting) in-between states rather than pretending that they don't exist - a registry command may sit as pending while another system catches up. How that looks in practice is exactly what the prototype below demonstrates.
+
+### Prototype
+
+To make the TSG's model concrete, I built a prototype platform that sits between a registry and an alternative naming system and does exactly what the report asks: enrolment, withholding, controller proofs, lockstep lifecycle, pending states, and continuous verification of the invariant. You can check it out on GitHub here: clowestab/altname-platform. The most important design decision comes straight from the report's framing: the registry stays authoritative for registrations and controllers, and everything alt-naming-related happens on the other side of a small, explicit boundary. Disclaimer: This is a demo, not a product. Nothing about it is ICANN-approved, and the 'alternative system' in these screenshots is a purpose-built test namespace.
+
+The Registry Console plays the part of the RSP - it can only do what a real SRS could do, which in this design means sending eight lifecycle events: `allocate`, `activate`, `controller-change`, `credential-change`, `suspend`, `disable`, `restore`, and `release`. The Explorer is the read-only frontend that allows you to see and audit the consequences of individual registry console actions. 
+
+### Usage
+
+The registry console: the RSP side of the boundary sends normalised lifecycle events; the platform handles proofs, alt-system state, and monitoring
+
+Register a name. I register `coffee.example` for controller `registry-user-123`. The platform immediately withholds the same string in the alternative system such that nobody else can take `coffee.example` over there. No interaction or signing of messages is required by the registrant - we do that under the hood.
+
+Activate it. It isn't necessarily the case that the registrant wants the integrated name. If they do, they need to activate it and attach a wallet. The platform issues an EIP-712 challenge naming `coffee.example`, the controller `registry-user-123`, and the controller's wallet address. The wallet signs it, and the name activates in the alternative namespace.
+
+coffee.example fully consistent: registry active, alt-system active under a proven credential, all four integration checks green
+
+The important points here are:
+
+- The registry controller crosses the boundary only as an opaque hash - no registrant data goes anywhere near the chain. 
+- The wallet is listed as a credential, a separate thing from the controller it's bound to. Credentials associated with a controller can be rotated.
+- The interface allows for the visualisation of both registry state (left hand side) and alternative namespace state (right hand side).
+
+The Integration panel is the invariant rendered as a checklist. It is recomputed every couple of seconds from a fresh read of both systems.
+
+The four integration checks: same string, controller binding proven, same controller, state synchronised
+
+Settlement. Blockchain transactions do not confirm instantaneously, so there are a number of plausible in-between states. If, for example, we transfer the name to a new owner within the registry, the blockchain may not reflect this new reality immediately. The platform models this explicitly: an explained, in-flight difference shows as PENDING, and only a difference that nothing in flight can explain is flagged as an invariant violation. It also handles the case where the new controller has no wallet - or simply doesn't want the registration in the alternative namespace: its on-chain representation must necessarily return to the `withheld` state, now held for the new owner.
+
+Drift. If I reach around the platform and change the name's controller directly in the alternative system, within a couple of seconds we see the following:
+
+Simulated hijack: the monitor detects CONTROLLER_DRIFT, flags the name INCONSISTENT with severity CRITICAL, and shows expected vs observed
+
+Audits. Each state change lands in an append-only, hash-chained audit log. This serves as the evidence trail you'd hand an RSEP evaluator, a court, or your own compliance team.
+
+The audit trail: every lifecycle event, proof, transaction and invariant verification, hash-chained
+
+RDAP. Every name serves an RDAP document with an explicitly experimental alt-naming extension, as the report requires real deployments to publish and register one. 
+
+ Turn down. Because integration likely cannot survive an EBERO takeover, the report recommends a mandatory turn-down plan as part of the evaluation. This demo allows for this.
+
+### Learnings
+
+Whilst building this, it became more apparent why the report highlights the registry-first approach to integration. Decades of machinery hang off the SRS including registrant identity, UDRP/URS, transfer rules, data escrow, compliance, and EBERO. It would be nice to have a smart contract be the entry point for a registration in the DNS, but it adds significant technical and policy complexity. A smart contract cannot easily communicate with an external API, so checking that a name is actually available in the registry at mint time would require an oracle, and an oracle is a trusted intermediary. At that point you have rebuilt the registry's gate and given up the permissionless properties that made chain-first attractive to begin with. It would also be difficult to reconcile identity information about the underlying registrant of record, which the dispute and compliance processes all depend on. It is unsurprising that an ICANN-convened group lands on the approach that preserves the structures under ICANN's remit; it is, after all, the governing body of the DNS.
+
+## Big questions 
+
+Many members of blockchain communities are 'decentralisation and anonymity maximalists'. That is to say the unique selling point for them of blockchain identity primitives is that once registered they cannot be taken away - there is no centralised authoritarian 'admin' that has ultimate control. Additionally blockchains allow for you to transact in a largely anonymous manner if you care enough and have top-tier digital hygiene. It thus follows that those individuals would be curious about the implications of these proposals in those areas.
+
+Can I stay anonymous?
+
+Under the proposed model it is possible, plausible, and reasonable that your identity never touches the chain and never appears in RDAP. Everything published on a blockchain like Ethereum is visible to anyone, and as such publishing your full name and address is certainly suboptimal. 
+
+From an implementation point of view, opaque, durable references are valuable - hashes that represent a person without ever saying who that person is. It would be possible to look on chain and see that all these names are owned by the same person, but you would not be able to discern who that person is, and a better implementation would generate unique identifiers per name. This, however, is pseudonymity, not anonymity, given that the controller must be a real legal or natural person. Someone in the flow - in practice your registrar - has to know who you are, because suspension policies and dispute processes need a person to point at. This is not a hypothetical direction of travel. Registries are already pushing identity verification down through registrars - this landed in my inbox from Dynadot while I was writing this post:
+
+It is worth noting these are ccTLDs (.de and .no are run by DENIC and Norid, who set their own rules outside ICANN's contracts), but the separation of responsibilities is the point. The registrar is the customer-facing layer, so identity work tends to happen there. These registries hold registrant data and delegate the verification, but many gTLD registries are 'thin' and hold no identity information at all, leaving it entirely to the registrar. 
+
+Ultimately an alternative namespace that integrates fully with the DNS as outlined in this report could hide your identity publicly (as you can with current WHOIS privacy services) but full anonymity would not be possible. Can control of my name be rescinded? Yes. It is technically possible that a name in an alternative namespace can be taken from you if it is integrated with a DNS namespace. The reality is however that this should not be of concern to almost anyone. The Uniform Domain-Name Dispute-Resolution Policy (UDRP) is ICANN's mandatory arbitration process that lets a trademark holder take a domain away from someone who registered it in bad faith. If you don't register names with the intention of profiting off another entity's brand or mark then you are very unlikely to have an issue. Additionally there are precedents and protections surrounding Reverse Domain Name Hijacking. At a technical level the integration necessarily means that a name can be rescinded, but that is not new - any registry can in principle take your domain from you, but that would destroy faith in their offering and put them in hot water with ICANN... so they don't. This proposal outlines what needs to be done if a DNS registry wants to integrate with an alternative namespace or vice versa. It is (obviously) not a requirement to do so, and realistically it is a business-level decision. There is nothing to stop a technical product implementor offering both: some namespaces that integrate with their equivalent DNS TLDs, and other, separate namespaces that remain standalone - each targeted at the requirements, needs, and desires of its respective customer base. Will anyone integrate?
+
+This is the question that most fascinates me. Technical integration is complex and inherently costly. Ultimately if a new gTLD applicant is going to integrate with an alternative namespace then there needs to be a clear value proposition for their customers and an obvious business case. With the new influx of gTLDs, registries have a huge uphill battle to get their namespaces in front of potential customers through the registrar funnel. Arguably additional functionality is a USP for a gTLD - if your domain name can also function as your blockchain wallet address then maybe that is a novel value add that makes a potential customer choose your TLD over another. I certainly do not see a world in which individual Registry Operators are spinning up their own integrations. In practice I imagine one (or a few) third party providers will do the technical implementation and then contract with Registry Operators to offer the functionality - most likely the same firms that already provide registry back-ends for those TLDs. With the current state of play an RO would have to submit a request under RSEP to offer the integration as a new registry service, with the provider's design as the substance of the filing, but I would imagine that an integration category gets added to the RSP evaluation program once a few of these are live. As with all things, over time integration details stabilise, the administrative elements simplify, and the marginal cost and complexity fall. I see this happening in lockstep with the development and growth of the technological rails on which these alternative namespaces operate.
+
+Interestingly, Unstoppable Domains announced in February that it would apply for .crypto, .wallet, .nft, .bitcoin, .dao and .zil in this round but on August 26th founder Matt Gould stated that compliance, application fees, and potential auction costs would exceed expected sales. As such the company is not applying for those strings and is refunding certain customers who bought names under those TLDs in its alternative namespace. 
+
+What happens to names that already exist?
+
+For a brand new TLD where both namespaces start empty, integration is relatively simple, but going the other way, most alternative naming systems that would want integration are already operating, and already full of names. The report's requirements are unforgiving here. If an existing alternative namespace is brought into an integration, every name in it must be enrolled, which means every one of those strings must be at least withheld from the global DNS. Someone who minted a name on chain three years ago would, at the point of integration, acquire a reservation over the matching DNS string. Registries normally control who gets priority on strings through sunrise periods and trademark claims processes. A pre-existing on-chain namespace effectively front-runs all of that, and the report doesn't really give any answers to this - it acknowledges the policy implications but explicitly leaves them to the community to resolve. The study group's scope is intentionally constrained, and it was convened quickly to come up with answers in the context of the looming new gTLD process. If the fine details ultimately end up with the community, it is plausible that finalised policy still becomes a long, drawn-out process.
+
+## Do you even need a second namespace?
+
+The report's scope section explicitly states that if a name is not used as an identifier in the alternative system then none of this applies. Everything outlined in this post (enrolment, withholding, the Unified Source of Truth, turn-down plans) is only necessary because the same string exists as a name in two different systems. If what you actually want is blockchain functionality attached to a domain there is a much simpler design available: keep the DNS name as the only name and store a profile on-chain keyed against it. Such a profile might hold wallet addresses, keys, and attestations, and would be updateable by whoever can prove control of the domain. Functionality like this could plausibly be built at the registrar level with no registry involvement at all. One mistake that - in my opinion - ENS made with its original architecture pertains to data hygiene. If you transfer ownership of an ENS name the records set on it are for the most part maintained unless explicitly reset by the new owner. ENSv2 seeks to remedy this, and any implementation that comes out of this report needs to consider the same problem. Domains change hands, and a profile that the previous owner can still write to is a dangerous thing - the TSG cites research on abandoned DNS integrations that documents exactly this failure. Hygiene of this type could be guaranteed within registrar and registry level contractual agreements. It is worth asking which use cases genuinely require a second namespace at all. Sending payments to alice.example only requires a profile, and the same is true of keys, attestations, and service discovery. What actually requires a namespace is ownership of the name as an on-chain asset, and resolution inside web3-native applications that never touch the DNS. These also happen to be the properties that the report's requirements curtail most, given that an integrated name cannot be freely tradeable and the registry retains ultimate authority. Having built the prototype my honest view is that a profile delivers most of the practical utility at a fraction of the complexity, and I am not sure how much value remains in the namespace model once the report's requirements have been applied to it. The consultation is open until 21 September 2026 - the report and the comment process are here.
+
+### The comments so far
+
+At the time of writing there are around a dozen public comments on the record.
+
+There are many submissions, several of them near-identical, that ask that ICANN treat registrations already minted in existing alternative namespaces as a prior claim on the DNS - that existing holders be grandfathered into the matching DNS names regardless of which entity ultimately operates the registry. One more substantive version argues from registration counts across Freename namespaces and proposes a standardised mechanism for recognising them.
+
+The ask is understandable, but I do not think it works as policy. Alternative namespaces are permissionless to create, so treating minting history in any ledger as a claim on the DNS invites the manufacture of claims at arbitrary scale. Furthermore some strings exist in multiple alternative namespaces so a prior claim does not even identify a unique claimant - ICANN has no principled basis for ranking one above another. The report also already provides a conditional resolution path namely that if the operator of an established namespace wins the corresponding gTLD and integrates its own system, the enrolment requirement withholds every existing name for its current controller. Existing users get protected as a consequence of their operator's own business decision. What cannot reasonably be demanded is that this protection bind whoever wins the string, and as noted above Unstoppable have already stated that they are not going to apply for many of their current on-chain namespaces.
+
+That said, even in the legitimate case, enrolling a populated namespace withholds every string from the DNS ahead of the Sunrise and Claims processes that new gTLDs are required to run. A trademark string minted anonymously on chain years ago would pre-empt a validated rights holder. The report acknowledges the policy implications of enrolling existing names and leaves them to the community; this specific collision between withholding and the rights protection mechanisms is the piece I would most like to see the final report address explicitly.
+
+There is a second group of comments that is technically orientated and broadly supportive, pushing for the report's principles to become testable requirements. Two ideas stand out. One proposes treating controller proof as a renewable, expiring property rather than a fact established once - stale evidence should fail closed. Another proposes turning the report's lifecycle scenarios into a standard conformance checklist for evaluating applications. Both are implementable today, as demonstrated in my prototype.
+
+It is interesting to me that neither the Intellectual Property Constituency (IPC) nor any RSPs have - as yet - posted any comments. They may be forthcoming.
+
+I have submitted my own comments here.
