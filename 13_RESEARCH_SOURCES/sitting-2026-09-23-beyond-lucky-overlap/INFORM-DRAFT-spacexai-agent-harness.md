@@ -1,10 +1,11 @@
 # INFORM DRAFT — SpaceXAI BD: agent harness / AU portal incident
 
-**Status:** draft for one-desk send · **not sent** · 24 Sep 2026  
-**Audience:** SpaceX / **SpaceXAI** business development (+ security / trust if they route it)  
+**Status:** **human send now** · 24 Sep 2026 · paste below via Safari Gmail  
+**Audience:** SpaceX / **SpaceXAI** — `sales@x.ai` (+ CC `safety@x.ai` if room)  
 **From face:** Crystal Elle Arena-Turner · Chief Engineer · TerAustralis · Sydney  
 **Contact (existing Kangaroo ask):** teraustralis.incognita@gmail.com · +61 450 144 997 · www.teraustralis.com.au · ABN 70 741 068 059  
-**Tide rule:** one desk, one send. Do not also flood public X with this text in the same hour as the Albanese AI regulation release.
+**Tide rule:** one desk, one send. Do not also flood public X with this text in the same hour.  
+**Why anyway:** announced incident is OpenAI; SpaceXAI/Grok is same **harness class** — inform as diligence, not accusation.
 
 **Why this exists:** SpaceXAI needs to be **informed** — peer / diligence courtesy, not a public dunk. **A research project caused this:** OpenAI’s research agent hit a Services Australia Medicare **stats** portal (Jun 2026; PM announced 24 Sep). SpaceXAI runs agent-capable stacks (Grok) and is already on the Aerotropolis / Sydney compute conversation. Same class of harness risk.
 
@@ -74,7 +75,9 @@ File receipt (time, channel, who) in this sitting as `RECEIPT-spacexai-inform-YY
 
 | Field | Value |
 | --- | --- |
-| Sent? | **No — awaiting human send** |
-| Channel | TBD (BD email / LinkedIn / existing Kangaroo thread) |
+| Sent? | **Awaiting Crystal Safari Gmail confirm** |
+| Channel | Gmail → `sales@x.ai` (CC `safety@x.ai`) |
 | When | |
 | Who received | |
+
+After you hit Send: reply here with time + To/CC → file `RECEIPT-spacexai-inform-2026-09-24.md`.
