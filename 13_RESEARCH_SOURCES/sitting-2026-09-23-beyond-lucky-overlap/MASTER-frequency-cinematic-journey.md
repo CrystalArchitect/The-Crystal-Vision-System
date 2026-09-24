@@ -63,10 +63,10 @@ Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-na
 
 ---
 
-## RECORD
+## RECORD — EXIT BRAINSTORM → PRODUCTION
 
 1. **ElevenLabs** — paste [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) (Core Four, ~6–7 min)  
-2. Optional — Extended ([`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md))  
-3. T2V + CapCut  
+2. CapCut — sync to [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) (generate 5 spine shots first)  
+3. Optional — Extended VO later ([`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md) · ~38–41 min)  
 
-**Ultimate Director’s Cut weaved** (*Dear Mr. President* interrogation). **Fire Core Four.** Epic compiled — one last message optional.
+**Status:** Brainstorm locked. Arena × Cecil Hills landing pad filed. **Do the physical work now** — Core Four first.
