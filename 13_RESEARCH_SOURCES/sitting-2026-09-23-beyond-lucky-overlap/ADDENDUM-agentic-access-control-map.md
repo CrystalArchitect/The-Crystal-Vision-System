@@ -3,6 +3,7 @@
 **Filed:** 24 Sep 2026  
 **Peg:** [`SOURCE-youtube-albanese-openai-medicare-portal.md`](SOURCE-youtube-albanese-openai-medicare-portal.md)  
 **Zero Trust overlay:** [`ADDENDUM-zero-trust-portal-agents.md`](ADDENDUM-zero-trust-portal-agents.md)  
+**Zone walls:** [`ADDENDUM-portal-zone-segmentation.md`](ADDENDUM-portal-zone-segmentation.md)  
 
 ## What this is
 

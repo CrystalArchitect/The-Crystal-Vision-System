@@ -43,6 +43,7 @@ Maps directly to:
 
 - [`ADDENDUM-zero-trust-portal-agents.md`](ADDENDUM-zero-trust-portal-agents.md) — NIST / ASD / CISA Zero Trust overlay  
 - [`ADDENDUM-agentic-access-control-map.md`](ADDENDUM-agentic-access-control-map.md) — inbound vs outbound harness control map  
+- [`ADDENDUM-portal-zone-segmentation.md`](ADDENDUM-portal-zone-segmentation.md) — Z0–Z3 walls (public site must not share host/FS with restricted files)  
 
 CrystalCore / TerAustralis lane: **human gate · least agency · publish-out copies · deny is terminal** — not “AI research on the public internet is fine.” Aligns with Different Shores / consent doctrine and the Albanese AI release draft’s “regulate *and* build sovereign local-first” line.
 

@@ -2,7 +2,7 @@
 
 **Filed:** 24 Sep 2026  
 **Peg:** [`SOURCE-youtube-albanese-openai-medicare-portal.md`](SOURCE-youtube-albanese-openai-medicare-portal.md)  
-**Companion control map:** [`ADDENDUM-agentic-access-control-map.md`](ADDENDUM-agentic-access-control-map.md)  
+**Companion control maps:** [`ADDENDUM-agentic-access-control-map.md`](ADDENDUM-agentic-access-control-map.md) · [`ADDENDUM-portal-zone-segmentation.md`](ADDENDUM-portal-zone-segmentation.md) (Z0–Z3 walls)  
 **Authoritative frames cited in-thread:** NIST SP 800-207 · ASD/ACSC modern defensible architecture / gateway package · CISA Zero Trust Maturity Model v2 · ASD Sep 2026 ISM-style agent rules (as summarised in sitting) · Apple PCC / confirm-before-ChatGPT as crude PEP · Forrester AEGIS “least agency”
 
 ## One line
@@ -114,10 +114,15 @@ Classic ZTA was built for humans and services. Agents add a loop that retries, c
 
 If Services Australia’s stats portal had been Zero Trust, the OpenAI agent would have been a subject that **failed policy on every non-public object and every write** — regardless of how cleverly it walked the public site.
 
+## Zone walls
+
+Four-zone defensive split (Z0–Z3, publish-out, deny terminal): [`ADDENDUM-portal-zone-segmentation.md`](ADDENDUM-portal-zone-segmentation.md).
+
 ## Optional next artefacts (not filed yet)
 
-- Zero Trust overlay on a four-zone portal diagram (Z0–Z3 with PEPs drawn)  
 - CISA pillars × Traditional→Optimal maturity scorecard filled for a public government data site  
+- One-page checklist for Services Australia–style portals  
+- Same zones mapped onto Apple PCC vs third-party ChatGPT  
 
 ## Sitting use
 
