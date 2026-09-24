@@ -149,7 +149,7 @@ You hear it when artists like Meghan Trainor sing about unshakeable self-worth, 
 
 **CapCut:** Land under Shot **4** Starlight Woman (walks the frozen crowd) · optional Trainor bed under 5c VO · optional *Fly* swell · into *Made You Look* — titles only in captions.
 
-### 5c1. *Made You Look* — materialism reject / Turner mic-drop (after Trainor → before *Bette Davis Eyes*)
+### 5c1. *Made You Look* — materialism reject / Turner mic-drop (after Trainor → before *Laced Up*)
 
 Archons use glittering distractions — materialism, status, expensive labels, artificial fabrics — to convince sparks that worth comes from the lower realm.
 
