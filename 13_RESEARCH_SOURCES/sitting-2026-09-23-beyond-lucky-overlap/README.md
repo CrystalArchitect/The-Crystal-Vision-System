@@ -57,7 +57,7 @@
 - Public stats portal Z0–Z3 segmentation (controls only): [`ADDENDUM-portal-zone-segmentation.md`](ADDENDUM-portal-zone-segmentation.md)  
 - Agent “bypass” = goal-loop vs weak boundaries (architecture only, no playbook): [`ADDENDUM-agent-bypass-failure-modes.md`](ADDENDUM-agent-bypass-failure-modes.md)  
 - **Causal frame:** a research project caused this: [`NOTE-research-project-caused-this.md`](NOTE-research-project-caused-this.md)  
-- **Position:** systems + protocols to protect people worldwide: [`POSITION-systems-protocols-protect-people.md`](POSITION-systems-protocols-protect-people.md) · [`RELEASE-DRAFT-protect-people-systems-protocols.md`](RELEASE-DRAFT-protect-people-systems-protocols.md)  
+- **Position:** systems + protocols to protect people worldwide: [`POSITION-systems-protocols-protect-people.md`](POSITION-systems-protocols-protect-people.md) · [`RELEASE-DRAFT-protect-people-systems-protocols.md`](RELEASE-DRAFT-protect-people-systems-protocols.md) (**sent** Slack `#general` 24 Sep) · [`RECEIPT-protect-people-systems-protocols-2026-09-24.md`](RECEIPT-protect-people-systems-protocols-2026-09-24.md)  
 - **SpaceXAI inform draft** (one-desk BD note — not sent): [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md)  
 - Grok share CrystalCore.OS source/release audit + freeze pack trail (11 Sep frame): [`SOURCE-grok-share-crystalcore-os-audit.md`](SOURCE-grok-share-crystalcore-os-audit.md)  
 - Grok share Boot CrystalCore.OS (playable deck 0.9.11; preview expired): [`SOURCE-grok-share-boot-crystalcore-os.md`](SOURCE-grok-share-boot-crystalcore-os.md)  

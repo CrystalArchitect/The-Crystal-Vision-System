@@ -1,10 +1,13 @@
 # RELEASE DRAFT — Protect people: systems and protocols (worldwide)
 
-**Status:** draft for one-desk send · 24 Sep 2026 · **not sent**  
+**Status:** **SENT** · 24 Sep 2026 · Slack `#general`  
+**Receipt:** [`RECEIPT-protect-people-systems-protocols-2026-09-24.md`](RECEIPT-protect-people-systems-protocols-2026-09-24.md)  
+**Live:** https://teraustralisincognita.slack.com/archives/C0C2A6FK3PZ/p1790225846396529  
 **Doctrine:** [`POSITION-systems-protocols-protect-people.md`](POSITION-systems-protocols-protect-people.md)  
 **Pegs (pick one per send):** Albanese AI regulation · Digital Duty of Care · OpenAI research-agent portal announce  
 **Brand:** www.teraustralis.com.au  
-**Tide rule:** one desk, one send. Do **not** same-hour as SpaceXAI BD inform or the full Different Shores pack.
+**Tide rule:** one desk, one send. Do **not** same-hour as SpaceXAI BD inform or the full Different Shores pack.  
+**Note:** X public post blocked this run (no create-post MCP; browser login). Primary text went Slack `#general`.
 
 ---
 
