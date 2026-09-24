@@ -47,7 +47,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 25. **Close** — Celestial disruption; you are the frequency; listen again  
 
 **Primary take** = Core Four Director’s Cut — **FIRE ELEVENLABS NOW**.  
-**Extended take** = ultimate Director’s Cut (Zombies pair: *Call to the Wild* + *Someday*).
+**Extended take** = ultimate Director’s Cut (Zombies trio: *Call to the Wild* + *Bamm* + *Someday*).
 
 ---
 
