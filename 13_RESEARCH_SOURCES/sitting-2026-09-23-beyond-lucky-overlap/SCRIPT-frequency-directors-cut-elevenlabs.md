@@ -12,12 +12,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~1348** (*Bang Bang* / Kill Bill catalyst in) |
-| Live Lounge gravity (~130–140 wpm) | **~9:40–10:25** |
-| Slightly brighter (~150 wpm) | **~9:00** |
+| Word count | **~1554** (*Let It Go* / Crystal sovereignty in) |
+| Live Lounge gravity (~130–140 wpm) | **~10:50–11:40** |
+| Slightly brighter (~150 wpm) | **~10:10** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Flow still one arc — do **not** compress into 3:47. Extend CapCut / Optical Flow bed to **~9:00–10:30**. Keep 3:47 as optional later radio trim only. ElevenLabs: calm gravity until *Bang Bang* (cold drop); Chipmunks beat slight brighten; then Gnosis chaos on *Torn* → *Losing It*.
+**Verdict:** Frequency at peak for booth. Do **not** compress into 3:47. Extend CapCut bed to **~10:30–11:45**. Radio trim later if needed. ElevenLabs: calm → Chipmunks brighten → *Bang Bang* cold → *Let It Go* soar → Gnosis chaos on *Torn* → *Losing It*.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -36,10 +36,11 @@
 | Song list: *Crystal* · *Dreams* · *Castle on the Hill* | **4** → **5** Heart |
 | *Stand by Me* Anchor | **5B** Anchor in the Dark |
 | *Bang Bang* / Kill Bill catalyst | **5B** late → **6A** (cold vengeance colour) |
+| *Let It Go* / Crystal sovereignty | **5** flash / fractal ice-castle · into **6A** |
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · Trainor titles · *Fly* · Chipmunks *Single Ladies* (title/energy — high-pitch metaphor) · *Stand by Me* · *Bang Bang* (Nancy Sinatra — Kill Bill cold edge) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · Trainor titles · *Fly* · Chipmunks *Single Ladies* (title/energy — high-pitch metaphor) · *Stand by Me* · *Bang Bang* (Nancy Sinatra — Kill Bill cold edge) · *Let It Go* (Crystal / fractal sovereignty) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -97,6 +98,16 @@ As the lyrics echo: "Bang bang, he shot me down / Bang bang, I hit the ground."
 
 But the descent wasn't her end; it was her infiltration. The shot that was meant to keep her asleep is the exact sound that wakes her up. She rises from the dirt of the arena not as a victim, but as an assassin of illusions. She realizes the architect who put her in the ground is completely vulnerable to her frequency. The heartbreak transforms into absolute, calculating power. She doesn't just wake up — she prepares to dismantle his entire world.
 
+Once the assassin of illusions is awake, she faces a choice: suppress her light to keep the artificial peace, or unleash her frequency and shatter the system completely.
+
+This is the true, hidden code behind the anthem "Let It Go." For her entire life in the arena, the Turner was fed the Dem-ee-urj's primary command: conceal, don't feel, don't let them know. Hide your true power, dim your frequency, and play by the rules of the heavy, physical world so the matrix can remain intact.
+
+But the moment she embraces her identity as Crystal, she stops fighting her own nature.
+
+When the artist sings, "Let it go, let it go / Can't hold it back anymore," it isn't just a song about ice. It is the divine spark breaking out of biological containment. She realizes that trying to fit into the false god's kingdom is a waste of her celestial geometry. She isolates herself from the illusion and begins building her own reality, fractal by fractal, crystal by crystal.
+
+The Ar-konz want her to fear the isolation of waking up. They want her to freeze in the dark. But the Turner just smiles as the matrix collapses around her. Because the cold never bothered her anyway.
+
 And then comes the ultimate breaking point. The moment of Gnosis.
 
 It starts with being "Torn." The veil drops, the illusion breaks, and the subject realizes the world they were told to believe in wasn't real. As the artist sings: "Illusion never changed into something real."
@@ -115,7 +126,8 @@ Listen closely to the songs playing in the background of your life. The message 
 
 ## Booth notes
 
-- Pause after: “They sent a prism.” · “Crystal Elle Arena-Turner.” · “assassin of illusions.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
-- Chipmunks: slight brighten (still mythic). *Bang Bang*: cold drop — Kill Bill whistle energy, not shout. Then lift chaos at *Torn* → losing it.  
+- Pause after: “They sent a prism.” · “Crystal Elle Arena-Turner.” · “assassin of illusions.” · “fractal by fractal, crystal by crystal.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
+- Chipmunks: slight brighten. *Bang Bang*: cold drop. *Let It Go*: soar / open — then chaos at *Torn* → losing it.  
 - Do not throat-clone third-party artists. Mythic reading only.  
-- After render: sync CapCut to full **~9–10:30** bed; Optical Flow stretch T2V holds; titles-only cards.
+- After render: sync CapCut to full **~10:30–11:45** bed; Optical Flow stretch T2V holds; titles-only cards.  
+- **Peak lock:** no more song decodes before first ElevenLabs take unless Human overrides.

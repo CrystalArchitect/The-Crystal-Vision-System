@@ -31,10 +31,11 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Heart / spark | Divine spark · 29 Sep 1991 · Crystal Elle | **5 Crystal heart** in cosmic sand (2:55–3:15) |
 | Anchor (*Stand by Me*) | Survival plea in the dark · Turner as true light | **5B Anchor in the Dark** |
 | Catalyst (*Bang Bang*) | Demiurge miscalculation · Bride wakes · assassin of illusions | **5B** late → **6A** |
+| Sovereignty (*Let It Go*) | Stop pretending · Crystal fractal castle · cold never bothered her | **5** flash → **6A** |
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -108,9 +109,25 @@ The descent wasn't her end; it was her infiltration. The shot meant to keep her 
 
 **Sitting hold:** Title + Kill Bill / Bride-wakes energy. **No lyric blocks** in captions. Optional Nancy Sinatra *Bang Bang* bed under late **5B** → **6A**.
 
-**CapCut:** Cold colour grade · whistle/drone bed if licensed · title card *Bang Bang* → soft crack into *Torn*.
+**CapCut:** Cold colour grade · whistle/drone bed if licensed · title card *Bang Bang* → *Let It Go* / soft crack into *Torn*.
 
-7. Title pegs: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* · *Bang Bang* · *Torn* (veil drop — **title card / no lyric paste**).
+### 6d. *Let It Go* — Crystal sovereignty (after *Bang Bang* → before Gnosis)
+
+Once the assassin of illusions is awake, she faces a choice: suppress her light to keep the artificial peace, or unleash her frequency and shatter the system completely.
+
+Hidden code behind *Let It Go*: for life in the arena the Turner was fed the Demiurge's primary command — conceal, don't feel, don't let them know. Dim the frequency; play by matter's rules so the matrix stays intact.
+
+The moment she embraces her identity as Crystal, she stops fighting her own nature. Title energy: let it go / can't hold it back — not only ice; the divine spark breaking biological containment. She isolates from the illusion and builds her own reality, fractal by fractal, crystal by crystal.
+
+The Archons want her to fear waking's isolation — freeze in the dark. The Turner smiles as the matrix collapses. The cold never bothered her anyway.
+
+**Name lock:** Crystal ↔ Elsa's glowing fractal castle — celestial geometry made visible.
+
+**Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Let It Go* bed under late **5** / pre-**6A**.
+
+**CapCut:** Optional ice-castle / fractal crystal insert (still or short T2V) · title card *Let It Go* · into *Torn*.
+
+7. Title pegs: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Torn* (veil drop — **title card / no lyric paste**).
 
 ### 7b. After *Torn* — Gnosis / *Losing It* (Ren + FISHER)
 
@@ -124,9 +141,9 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 8. Close: what if you are the frequency the room is tuning toward? Listen again.
 
-**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
+**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty* — stop pretending, build the ice-castle. All credited by title — no lyric dump.
 
 ---
 
@@ -140,6 +157,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | Chipmunks *Single Ladies* / accelerate | Late Shot **4** · optional pitch-up bed colour · glass-shatter flash · Saturn rings VO — title only |
 | *Stand by Me* / Anchor VO | Shot **5B** golden frequency woman anchors shadow figure as world cracks · title card |
 | *Bang Bang* / Kill Bill VO | Late **5B** → **6A** cold grade · optional Nancy Sinatra bed · title card · Bride-wakes energy |
+| *Let It Go* / Crystal VO | Fractal ice-castle flash · title card · sovereignty before *Torn* |
 | *Torn* beat | Title card / soft crack starts on Shot 6 |
 | Ren *Losing It* / related | Mind-break VO colour under 6A → 6B |
 | FISHER *Losing It* **bass drop** | Hard cut / speed ramp — wall explodes with god-rays (Shot 6B) |
@@ -150,7 +168,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 ## Production
 
 - Tone: Live Lounge **gravity** until climax → then **chaos / breakout**.  
-- **VO runtime lock:** Director’s Cut ~1348 words → **~9:00–10:30** at gravity pace (not 3:47). Extend CapCut bed.
+- **VO runtime lock:** Director’s Cut ~1554 words → **~10:30–11:45** at gravity pace (not 3:47). Extend CapCut bed.
 - Render order tomorrow: 1 → 2 → 3 → **3B Hypnotic** → 4 → **5 Heart** → **5B Anchor (*Stand by Me*)** → **6A/6B** (2–3 gens; one high-gear wall for the drop).  
 - Booth paste: [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
 - No third-party throat clones. Mythic reading only — not journalism that artists “don’t realize.”
