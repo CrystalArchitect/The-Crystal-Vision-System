@@ -55,8 +55,10 @@ Homage / soundtrack / visual chrome that used the word historically stays in fil
 | [`ALIVE-WEAVE.md`](ALIVE-WEAVE.md) §6 | Out of bounds |
 | [`CONNECTED-SYSTEM.md`](CONNECTED-SYSTEM.md) | Filing rules |
 | [`../STRUCTURE.md`](../STRUCTURE.md) | Repo structure rules |
+| [`../README.md`](../README.md) | Root filing + naming |
 | [`../memory/CORE.md`](../memory/CORE.md) | Load-first do-nots |
-| [`../memory/INDEX.md`](../memory/INDEX.md) | Quick index row |
+| [`../memory/INDEX.md`](../memory/INDEX.md) | Quick index rows (Songline + Starline) |
+| [`../memory/README.md`](../memory/README.md) | Protocol startup |
 | [`../memory/DECISIONS.md`](../memory/DECISIONS.md) | Dated naming decision |
 | [`../docs/BOT-STRUCTURE.md`](../docs/BOT-STRUCTURE.md) | Bot out-of-bounds table |
 | [`../docs/LEDGER.md`](../docs/LEDGER.md) | Sitting ledger |
