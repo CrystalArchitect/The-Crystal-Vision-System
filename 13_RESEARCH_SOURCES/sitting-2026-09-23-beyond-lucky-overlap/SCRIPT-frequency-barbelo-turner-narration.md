@@ -38,6 +38,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Collective (*Family*) | Bergens=Archons · Trolls=sparks · Pleroma sync | colour overwrite → **6A** |
 | Heist (*Follow Me*) | Back door open · quiet walk away · bypass warden | soft corridor of light |
 | Primal (*Call to the Wild*) | Domestication break · Moonstone = Crystal | pastel→wild → **6A** |
+| Borders (*Blurred Lines*) | Erase Demiurge categories · anti-domestication | hard edges dissolve |
 | Timeline (*Year 3000*) | Chronological prison break · sand→water · 1991→eternity | **2** echo → **6A** |
 | Leap (*Geronimo*) | Fear-gravity break · waterfall veil · splash into Pleroma | **6A** pre-*Torn* |
 | Jailbreak (*Green Green Grass*) | Death-fear break · party · spark returns to Pleroma | **6A** celebration |
