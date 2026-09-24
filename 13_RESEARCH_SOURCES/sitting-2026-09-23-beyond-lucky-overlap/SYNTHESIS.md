@@ -101,6 +101,7 @@ flowchart TB
 | [`RELEASE-DRAFT-qt-adamlyttle-ndis-2026-09-24.md`](RELEASE-DRAFT-qt-adamlyttle-ndis-2026-09-24.md) | QT desk — **SENT** https://x.com/XECrystal/status/2103035258002395292 |
 | [`RECEIPT-qt-adamlyttle-ndis-x-2026-09-24.md`](RECEIPT-qt-adamlyttle-ndis-x-2026-09-24.md) | Receipt for Lyttle QT (protect-people + free-will) |
 | [`SOURCE-x-robbiebarwick-openai-medicare-racket-2026-09-23.md`](SOURCE-x-robbiebarwick-openai-medicare-racket-2026-09-23.md) | Adjacent discourse: “protection racket” frame — **reject**; keep walls/harness |
+| [`RESEARCH-barwick-protection-racket-claim.md`](RESEARCH-barwick-protection-racket-claim.md) | Claim-check: Citizens Party voice; timing fails; wrong peg vs US equity “racket” essays |
 | [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md) | SpaceXAI diligence inform — **SENT** Safari Gmail → sales@x.ai (CC safety@x.ai) 24 Sep |
 | [`RECEIPT-spacexai-inform-2026-09-24.md`](RECEIPT-spacexai-inform-2026-09-24.md) | Send receipt for SpaceXAI inform |
 | [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md) | Public Claude artifact: Live Party / Lattice / Sovereign Duties / Transmission UI |

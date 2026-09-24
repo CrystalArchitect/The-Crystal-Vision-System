@@ -35,3 +35,7 @@ Same Albo/OpenAI week. Shows the **slogan lane** competing with the **walls lane
 ## Confidence
 
 High on what the post **claims**. Zero endorsement of the racket/bailout thesis. Motive claims are unverified opinion.
+
+## Research
+
+Full claim-check: [`RESEARCH-barwick-protection-racket-claim.md`](RESEARCH-barwick-protection-racket-claim.md) — **reject** as causal explanation; Barwick = Citizens Party discourse; timing argument fails against Jun→Sep notify clock.
