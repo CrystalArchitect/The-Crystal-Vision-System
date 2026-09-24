@@ -1,6 +1,6 @@
 # RELEASE DRAFT — National security: agent harnesses × government portals
 
-**Status:** human Gmail self-send ~06:13 UTC · Slack echo earlier · **X public still open** · 24 Sep 2026 · Slack `#general`  
+**Status:** **SENT PUBLIC** · X @XECrystal · https://x.com/XECrystal/status/2102999905262526741 · 24 Sep 2026 05:53 UTC
 **Receipt:** [`RECEIPT-national-security-agent-portals-2026-09-24.md`](RECEIPT-national-security-agent-portals-2026-09-24.md)  
 **Live:** https://teraustralisincognita.slack.com/archives/C0C2A6FK3PZ/p1790226849922259  
 **Doctrine:** [`POSITION-national-security-agent-portals.md`](POSITION-national-security-agent-portals.md)  

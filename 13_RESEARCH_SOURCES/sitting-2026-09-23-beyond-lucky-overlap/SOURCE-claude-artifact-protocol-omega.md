@@ -2,6 +2,7 @@
 
 **URL:** https://claude.ai/artifact/Dyhq3oN217iAaVAVPAhqkV  
 **Checked:** 23 Sep 2026 (browser; public artifact view)  
+**Durable body:** [`artefacts/claude-Dyhq3oN217iAaVAVPAhqkV-protocol-omega.html`](artefacts/claude-Dyhq3oN217iAaVAVPAhqkV-protocol-omega.html) · also [`../../../10_ORIGINAL_CREATIVE/protocol-omega/`](../../../10_ORIGINAL_CREATIVE/protocol-omega/)  
 **Title:** Protocol Omega — A PERSONAL BOUNDARIES PRACTICE
 
 ## What it is

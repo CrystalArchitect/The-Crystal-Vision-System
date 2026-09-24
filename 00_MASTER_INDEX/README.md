@@ -6,6 +6,6 @@ See [`WORKING-INDEX.md`](WORKING-INDEX.md).
 Open remaining work: [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md).  
 Crystal decision packets (Drive / naming / stubs): [`CRYSTAL-DECISIONS-PENDING.md`](CRYSTAL-DECISIONS-PENDING.md).  
 Connected system map: [`CONNECTED-SYSTEM.md`](CONNECTED-SYSTEM.md).  
-**Starline naming law:** [`NAMING-STARLINE.md`](NAMING-STARLINE.md).
+**Starline naming:** [`NAMING-STARLINE.md`](NAMING-STARLINE.md) — plain-language law (*spread the bird, not the word*).
 
 Drive copy of increment CSV: https://drive.google.com/file/d/1SEeSb8xkYjfOGMXe9x_kB5ygJdVAr-T7/view

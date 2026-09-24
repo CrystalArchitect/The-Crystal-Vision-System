@@ -65,6 +65,48 @@ def _minimal_yaml(text: str) -> dict:
     return meta
 
 
+PLAIN_STATUS = {
+    "proposed": "Waiting on you",
+    "interim": "Working for now",
+    "crystal_confirmed": "You already said yes",
+    "canon": "Canon",
+    "rejected": "You said no",
+    "vision_only": "Story only",
+}
+
+
+def print_plain(items: list[dict], updated: object) -> None:
+    print("Needs your yes (plain)")
+    print(f"Updated: {updated}")
+    print("Full page: 00_MASTER_INDEX/NEEDS-YOUR-YES.md")
+    print()
+    if not items:
+        print("Nothing in this filter.")
+        return
+    by = {}
+    for i in items:
+        by.setdefault(str(i.get("status") or "?"), []).append(i)
+    order = [
+        "proposed",
+        "interim",
+        "crystal_confirmed",
+        "canon",
+        "rejected",
+        "vision_only",
+    ]
+    for st in order:
+        rows = by.get(st) or []
+        if not rows:
+            continue
+        print(f"## {PLAIN_STATUS.get(st, st)}")
+        for i in rows:
+            print(f"- {i.get('id')}: {i.get('title')}")
+            if i.get("note"):
+                print(f"  note: {i.get('note')}")
+        print()
+    print("Reply: AGREE|REJECT|CANON|INTERIM <id> — note")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Hub agreement ledger status")
     parser.add_argument("--open", action="store_true", help="Only proposed items")
@@ -75,6 +117,11 @@ def main() -> int:
     )
     parser.add_argument("--id", help="Show one item by id")
     parser.add_argument("--json", action="store_true", help="Machine-readable dump")
+    parser.add_argument(
+        "--plain",
+        action="store_true",
+        help="Human-readable groups (no YAML jargon table)",
+    )
     args = parser.parse_args()
 
     if not LEDGER.is_file():
@@ -99,6 +146,12 @@ def main() -> int:
         print(json.dumps({"updated": data.get("updated"), "items": items}, indent=2))
         return 0
 
+    if args.plain:
+        if not args.open and not args.attention and not args.id:
+            items = [i for i in items if i.get("status") in ATTENTION_STATUSES]
+        print_plain(items, data.get("updated"))
+        return 0
+
     counts: dict[str, int] = {}
     for i in data.get("items") or []:
         st = str(i.get("status") or "?")
@@ -109,6 +162,7 @@ def main() -> int:
     print(f"  authority: {data.get('authority')}")
     print(f"  file:      {LEDGER.relative_to(ROOT)}")
     print(f"  counts:    {counts}")
+    print("  plain:     python3 scripts/agreement/status.py --plain")
     print()
     if not items:
         print("  (no rows match filter)")
@@ -127,7 +181,7 @@ def main() -> int:
 
     print()
     print("Crystal reply shapes: AGREE|REJECT|CANON|INTERIM <id> — note")
-    print("Workflow: 00_MASTER_INDEX/AGREEMENT-WORKFLOW.md")
+    print("Plain read: 00_MASTER_INDEX/NEEDS-YOUR-YES.md")
     return 0
 
 

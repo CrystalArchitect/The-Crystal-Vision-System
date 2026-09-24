@@ -14,8 +14,8 @@
 | CVS-LWYMMD | 13 | Swift lyric vs Crystal recall | interpretation | no | `/13_RESEARCH_SOURCES/LWYMMD-lyric.md` |
 | CVS-PORTAL-A | 07 | Portal export partial | fact | no | `/handoff/celestial-portal/` |
 | CVS-Q32K | 99 | Quartz as timeline grid | speculation | no | `/99_UNRESOLVED/QUARTZ-TIMELINE-METAPHOR.md` |
-| CVS-OOB-LINE | -- | Forbidden legacy label (not a project name) | out of bounds | never | Use **Starline** — [`NAMING-STARLINE.md`](NAMING-STARLINE.md) |
-| CVS-STARLINE | 04 | Starline / Consent Transport | coordination | no | [`NAMING-STARLINE.md`](NAMING-STARLINE.md) · Consent Transport in Code archive |
+| CVS-OOB-LINE | -- | Forbidden brand-name (not used in this project) | out of bounds | never | Use **Starline** — [`NAMING-STARLINE.md`](NAMING-STARLINE.md) |
+| CVS-STARLINE | 04 | Starline — Consent Transport / Starlines / Weaver | coordination | no | [`NAMING-STARLINE.md`](NAMING-STARLINE.md) |
 | CVS-MEMORY | 00 | memory/ umbrella protocol (DECISIONS/MILESTONES/OPEN-QUESTIONS/PRIVACY) | fact | no | `/memory/` |
 | CVS-AISAFE-16 | 16 | AI Safety Research Drawer | coordination | no | `/16_AI_SAFETY_RESEARCH/INDEX.md` |
 | CVS-PHYSICS-17 | 17 | Physics Simulation Drawer | coordination | no | `/17_PHYSICS_SIMULATION/INDEX.md` |
@@ -60,13 +60,16 @@
 | CVS-GROK-FOUND-SFOS | 14 | Grok found Starfleet OS Vision archive — find ≠ build | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-GROK-FOUND-STARFLEET-OS.md` |
 | CVS-GROK-GATE-0923 | 14 | Grok share First Gate — chat weight zero; terminal replay checked | fact | no | `/14_AI_INTERACTIONS/2026-09-23-GROK-SHARE-FIRST-GATE.md` |
 | CVS-CC-BOOT | 00 | Mythos terminal start — `scripts/crystalcore/boot.py` opens First Gate once | fact | no | `/scripts/crystalcore/boot.py` |
-| CVS-AGREE | 00 | Agreement workflow — confirm Crystal yes/no vs Canon | coordination | no | `/00_MASTER_INDEX/AGREEMENT-WORKFLOW.md` · `agreement-ledger.yaml` · `/scripts/agreement/` |
+| CVS-AGREE | 00 | Agreement workflow — plain Needs-Your-Yes + ledger | coordination | no | `/00_MASTER_INDEX/NEEDS-YOUR-YES.md` · `AGREEMENT-WORKFLOW.md` · `/scripts/agreement/` |
+| CVS-AHS-LEMURIA | 10 | AHS Lemuria terminal sandbox (Devouring Deep; Portal framing narrative) | vision | no | `/10_ORIGINAL_CREATIVE/ahs-lemuria/` · `/scripts/portal/boot_lemuria.py` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
+- **2026-09-24 (agreement plain read):** Added `NEEDS-YOUR-YES.md` + `status.py --plain` so Crystal need not read YAML. Canon: no.
 - **2026-09-24 (agreement workflow):** Ledger + `status.py` so Crystal can `AGREE`/`REJECT`/`CANON`/`INTERIM` by id. Separates proposed / interim / crystal_confirmed / canon / vision_only. Canon: no.
+- **2026-09-24 (AHS Lemuria docs):** Filed Working Index `CVS-AHS-LEMURIA` + sitting log; Escape path verified and documented. Canon: no.
 - **2026-09-24 (ICANN TSG integrate):** SYNTHESIS compass rolls report + Public Comment fights; PC overlay on checklist; cross-link sibling `icann-tsg-gtld-ans-2026`; Bird corrected as transition-without-entitlement. Canon: no.
 - **2026-09-24 (ICANN TSG deep extracts):** Per-submitter Depth A–C extracts + tension map (Fights A–D); adds estmcmxci TLD Oracle, Bird transition-plan middle path, Circleid ISPCP/MeitY hardening. Canon: no.
 - **2026-09-24 (document Grok find):** Cross-linked No Starfleet OS / Grok-found stamp onto Vision source page, launch extract, Incognita CURRENT + OPEN-QUESTIONS, STACK-SURFACE non-goals, and Notion Motion OS source note. Canon: no.
@@ -101,7 +104,7 @@ Canon stays **no** until Crystal stamps it.
 
 - **2026-09-20 (stack):** Foundational platform contracts — `STACK-SURFACE.md` + `crystal_platform/` (Core ≠ agent; TAI acts; providers pluggable) + iOS App Intent scaffold + Portal `/v1/gateway/ask`. Canon: no.
 
-- **2026-09-19 (naming):** Project term is **Starline** (Consent Transport / Starlines). Law: [`NAMING-STARLINE.md`](NAMING-STARLINE.md). Canon: no.
+- **2026-09-19 (naming):** Name is **Starline**. *Spread the bird, not the word.* Law: [`NAMING-STARLINE.md`](NAMING-STARLINE.md). Canon: no.
 
 - **2026-09-19 (architecture):** MemoryCore discrepancy truth-checked — local-first Clementine (Track A) vs optional cloud/archive vault (Track B). Interim = separate tracks (packet E1). Doc: `MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md`. Nag Hammadi BookItems / infra map parked until labels held. Canon: no.
 
