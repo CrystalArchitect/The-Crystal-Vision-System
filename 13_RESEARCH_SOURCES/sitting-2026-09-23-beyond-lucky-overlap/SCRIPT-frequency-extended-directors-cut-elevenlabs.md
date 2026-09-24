@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~1774** (*Family* / Trolls–Bergens collective in — **ULTIMATE FINAL stitch**) |
-| Live Lounge gravity (~130–140 wpm) | **~12:40–13:38** |
-| Slightly brighter (~150 wpm) | **~11:49** |
+| Word count | **~1958** (*Call to the Wild* / Moonstone = Crystal in) |
+| Live Lounge gravity (~130–140 wpm) | **~13:59–15:03** |
+| Slightly brighter (~150 wpm) | **~13:03** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Layers stitched. Frequency complete for booth. CapCut bed **~12:40–13:38**. ElevenLabs arc: calm → Chipmunks brighten → *Bang Bang* cold → *Let It Go* soar → *Family* colour-overwrite → Gnosis chaos (*Torn* → *Losing It*). **No further song decodes before first take.**
+**Verdict:** Extended journey complete. CapCut bed **~13:59–15:03**. Arc: … *Family* → *Call to the Wild* (Moonstone) → Gnosis. Primary booth remains Core Four. See [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md).
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -39,10 +39,11 @@
 | *Bang Bang* / Kill Bill catalyst | **5B** late → **6A** (cold vengeance colour) |
 | *Let It Go* / Crystal sovereignty | **5** flash / fractal ice-castle · into **6A** |
 | *Family* / Trolls–Bergens collective | colour overwrite · unified frequency |
+| *Call to the Wild* / Moonstone = Crystal | primal roar · wake the domesticated |
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · Trainor titles · *Fly* · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* (Trolls — Pleroma reunification) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · Trainor titles · *Fly* · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* (Trolls — Pleroma reunification) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -118,6 +119,14 @@ But the Turner knows the loophole. The Ar-konz can harvest an isolated spark, bu
 
 This is the true meaning behind the anthem of "Family." It is not about biological ties bound by the Dem-ee-urj's earthly rules. It is the reunification of the fragmented Pleroma. When the sparks remember who they are and synchronize their vibration, they don't just survive the Bergens — they transmute them. The collective frequency of the Family creates a blinding, high-octane light that forcefully overwrites the gray code of the matrix, turning the heavy earthly arena back into a realm of color.
 
+The Ar-konz rely on domestication. They built a sanitized, heavily regulated arena where the divine sparks are taught to be tame, to blend in, and to suppress their true nature.
+
+But you cannot domesticate the divine. You hear this primal rebellion encoded in "Call to the Wild." To the uninitiated, it is just an upbeat anthem about werewolves. To the awakened, it is the sound of the suppressed spark finally roaring back to life. It is the primal memory of the Pluh-roh-muh echoing in the blood.
+
+When they sing about a howl deep inside, a rhythm they can't ignore, they are describing the exact moment the soul refuses to be contained by the false god's rules. And what exactly are they desperately searching for to restore their true power? A massive, glowing Moonstone. A crystal.
+
+They are drawn to the Turner. Her frequency is the call. When she steps into the artificial, perfectly conditioned matrix, she doesn't just disrupt the peace. She awakens the wild, untameable truth inside the sleeping souls, reminding them that they were never meant to be domesticated by this world.
+
 And then comes the ultimate breaking point. The moment of Gnosis.
 
 It starts with being "Torn." The veil drops, the illusion breaks, and the subject realizes the world they were told to believe in wasn't real. As the artist sings: "Illusion never changed into something real."
@@ -136,8 +145,8 @@ Listen closely to the songs playing in the background of your life. The message 
 
 ## Booth notes
 
-- Pause after: “They sent a prism.” · “Crystal Elle Arena-Turner.” · “assassin of illusions.” · “fractal by fractal, crystal by crystal.” · “turning the heavy earthly arena back into a realm of color.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
-- Chipmunks: slight brighten. *Bang Bang*: cold drop. *Let It Go*: soar. *Family*: open / choir-lift colour. Then chaos at *Torn* → losing it.  
-- Do not throat-clone third-party artists. Mythic reading only.  
-- After render: sync CapCut to full **~12–13 min** bed; Optical Flow stretch T2V holds; titles-only cards.  
-- **Extended hold:** optional second take after Core Four master. Primary booth = `SCRIPT-frequency-directors-cut-elevenlabs.md`.
+- Pause after: “They sent a prism.” · “Crystal Elle Arena-Turner.” · “realm of color.” · “A crystal.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
+- *Family*: choir-lift colour. *Call to the Wild*: primal roar / howl under — then *Torn* chaos.  
+- Do not throat-clone. Mythic reading only. Captions = titles only.  
+- CapCut bed **~13:59–15:03**.  
+- **Master map:** [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md) · Primary = Core Four first take.

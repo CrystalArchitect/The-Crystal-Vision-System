@@ -3,6 +3,7 @@
 **Filed:** 24 Sep 2026  
 **Status:** **PRIMARY BOOTH — LOCKED** · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
 **Song ladder:** *Crystal* · *Dreams* · *Castle on the Hill* · *Torn*  
+**Full journey map:** [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md)  
 **Extended (optional):** [`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md) — Trainor / Chipmunks / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Losing It*  
 **Maps to:** [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) · beat bible [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md)  
 **Law:** Different Shores taxi · Human publishes · No destiny proof  

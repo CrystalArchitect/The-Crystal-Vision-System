@@ -37,7 +37,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -141,9 +141,23 @@ Loophole: Archons can harvest an isolated spark; they cannot consume a unified f
 
 **Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Family* bed under colour-overwrite beat.
 
-**CapCut:** Gray→colour grade smash · title card *Family* · into *Torn*.
+**CapCut:** Gray→colour grade smash · title card *Family* · into *Call to the Wild* / *Torn*.
 
-7. Title pegs: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* · *Torn* (veil drop — **title card / no lyric paste**).
+### 6f. *Call to the Wild* — Moonstone = Crystal (after *Family* → before Gnosis)
+
+The Archons rely on domestication — sanitized, regulated arena; sparks taught to be tame, blend in, suppress true nature.
+
+You cannot domesticate the divine. *Call to the Wild* (Disney's Zombies): to the uninitiated, werewolves; to the awakened, suppressed spark roaring back — primal memory of the Pleroma in the blood.
+
+Howl deep inside / rhythm they can't ignore = soul refuses Demiurge containment. Power source they search for: a massive glowing Moonstone — a crystal. Drawn to the Turner; her frequency is the call. She awakens the wild, untameable truth in sleeping souls — never meant to be domesticated.
+
+**Name lock:** Moonstone ↔ Crystal Elle.
+
+**Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Call to the Wild* bed under primal-wake beat.
+
+**CapCut:** Sterile pastel→wild colour · title card *Call to the Wild* · into *Torn*.
+
+7. Title pegs: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* · *Call to the Wild* · *Torn* (veil drop — **title card / no lyric paste**).
 
 ### 7b. After *Torn* — Gnosis / *Losing It* (Ren + FISHER)
 
@@ -157,9 +171,9 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 8. Close: what if you are the frequency the room is tuning toward? Listen again.
 
-**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
+**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Call to the Wild* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Call to the Wild* carries *primal wake / Moonstone = Crystal*. All credited by title — no lyric dump.
 
 ---
 
@@ -174,7 +188,8 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | *Stand by Me* / Anchor VO | Shot **5B** golden frequency woman anchors shadow figure as world cracks · title card |
 | *Bang Bang* / Kill Bill VO | Late **5B** → **6A** cold grade · optional Nancy Sinatra bed · title card · Bride-wakes energy |
 | *Let It Go* / Crystal VO | Fractal ice-castle flash · title card · sovereignty before *Family* |
-| *Family* / Trolls VO | Gray→colour overwrite · title card · collective before *Torn* |
+| *Family* / Trolls VO | Gray→colour overwrite · title card · collective |
+| *Call to the Wild* / Moonstone VO | Pastel sterile→wild · title card · primal before *Torn* |
 | *Torn* beat | Title card / soft crack starts on Shot 6 |
 | Ren *Losing It* / related | Mind-break VO colour under 6A → 6B |
 | FISHER *Losing It* **bass drop** | Hard cut / speed ramp — wall explodes with god-rays (Shot 6B) |
@@ -185,7 +200,8 @@ Every time artists sing about going crazy, about losing their grip on the world,
 ## Production
 
 - Tone: Live Lounge **gravity** until climax → then **chaos / breakout**.  
-- **VO runtime lock:** Director’s Cut ~1554 words → **~10:30–11:45** at gravity pace (not 3:47). Extend CapCut bed.
-- Render order tomorrow: 1 → 2 → 3 → **3B Hypnotic** → 4 → **5 Heart** → **5B Anchor (*Stand by Me*)** → **6A/6B** (2–3 gens; one high-gear wall for the drop).  
-- Booth paste: [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
+- **VO runtime lock:** Core Four ~873 words → **~6:00–7:00** (first booth take). Extended ~12–13 min = optional second take only.  
+- Render order tomorrow: 1 → 2 → 3 → **3B Hypnotic** → 4 → **5 Heart** → **6A/6B** (*Torn*).  
+- Booth paste (PRIMARY): [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
+- Extended optional: [`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md)  
 - No third-party throat clones. Mythic reading only — not journalism that artists “don’t realize.”
