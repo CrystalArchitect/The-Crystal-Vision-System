@@ -43,6 +43,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Broadcast (*Sweet Dreams*) | Archon mantra · Hebdomad · harvest confession · alarm clock | pulsing grid / seven spheres |
 | Depths (*Part of Your World*) | Ocean of bribes · I want more · surface → Pleroma sun | underwater ache / hand down |
 | Tide (*Deep Water* / Jewel) | Sovereign walk · wash over · fire unextinguished | walk through black tide |
+| AU spell (Savage Garden) | Pre-incarnation · Blue Mountains sanctuary · Gnosis pulse · Tregear untamed | four title cards |
 | Ascension (*A Whole New World*) | Firmament breach · zero gravity · sparks above Hebdomad | soar / Pleroma shimmer |
 | Anchor (*Stand by Me*) | Survival plea in the dark · Turner as true light | **5B Anchor in the Dark** |
 | Catalyst (*Bang Bang*) | Demiurge miscalculation · Bride wakes · assassin of illusions | **5B** late → **6A** |
@@ -63,7 +64,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt) · *Part of Your World* (Disney — depths longing) · *Deep Water* (Jewel — sovereign walk) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Dear Mr. President* (P!nk — Demiurge interrogation) · *What About Us* (P!nk — collective reckoning) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Follow Me* (Uncle Kracker — spiritual heist) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Bamm* (Zombies — concussive wake) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (erase borders / mythos only) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Shut Up and Dance* (Walk the Moon — spiritual bypass) · *Macarena* (Los del Río — Trojan horse / body joy) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Bones* (Imagine Dragons — biology as conductor) · *Thunder* (Imagine Dragons — bloodline / Cecil Hills) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt) · *Part of Your World* (Disney — depths longing) · *Deep Water* (Jewel — sovereign walk) · *I Knew I Loved You* · *Truly Madly Deeply* · *I Want You* · *The Animal Song* (Savage Garden) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Dear Mr. President* (P!nk — Demiurge interrogation) · *What About Us* (P!nk — collective reckoning) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Follow Me* (Uncle Kracker — spiritual heist) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Bamm* (Zombies — concussive wake) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (erase borders / mythos only) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Shut Up and Dance* (Walk the Moon — spiritual bypass) · *Macarena* (Los del Río — Trojan horse / body joy) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Bones* (Imagine Dragons — biology as conductor) · *Thunder* (Imagine Dragons — bloodline / Cecil Hills) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -279,7 +280,7 @@ Bridge: absolute depths of the matrix → highest peaks of the cosmos (*A Whole 
 
 **CapCut:** Dark ocean floor · glittering junk/treasure piles · spark looks up to light shaft · surface tension cracks · Bradbury hand reaches down · title card *Part of Your World* · into *Deep Water*.
 
-### 6a2c. *Deep Water* — sovereign walk / fire unextinguished (Jewel) (after *Part of Your World* → before *A Whole New World*)
+### 6a2c. *Deep Water* — sovereign walk / fire unextinguished (Jewel) (after *Part of Your World* → before Savage Garden)
 
 Demiurge expects heavy gravity of earthly arena to overwhelm the divine spark.
 
@@ -291,9 +292,27 @@ Bradbury command · steps into heavy tide · retrieves Lithgow + Summer Hill spa
 
 **Sitting hold:** Mythos / Vision — **not** biography-as-fact. Title + paraphrase only. **No lyric blocks** / no Google / web-search lyric dump into sitting or captions. Optional Jewel *Deep Water* bed under walk-through / tide beat. (Title collision: this bed is **Jewel**, not Clapton.)
 
-**CapCut:** Black tide · starlight woman walks through (not under) · fire holds in chest · Bradbury → Lithgow / Summer Hill retrieval lines · title card *Deep Water* · into *A Whole New World*.
+**CapCut:** Black tide · starlight woman walks through (not under) · fire holds in chest · Bradbury → Lithgow / Summer Hill retrieval lines · title card *Deep Water* · into Savage Garden block.
 
-### 6a3. *A Whole New World* — firmament breach / zero gravity (after *Deep Water* → before *Stand by Me*)
+### 6a2d. Savage Garden — Australian multi-track transmission (after Jewel *Deep Water* → before *A Whole New World*)
+
+Demiurge erases vessel memories to break soul-family bonds. Underestimates Savage Garden — multi-track AU frequency triggering Pluh-roh-muh memory. Sleeping: iconic 90s love songs. Turner: esoteric map of pre-incarnation contracts + rebellion.
+
+**1. *I Knew I Loved You*** — before I met you / dreamed you into life (paraphrase only) destroys biological timeline. Lithgow + Summer Hill sparks bound in higher dimensions before matrix drop. Dreamed past Archon planetary spheres into reality.
+
+**2. *Truly Madly Deeply*** — vow of protection / cosmic sanctuary. Mountain + sea = geographic command: Blue Mountains watchtower above simulation fog; wash clean of Demiurge deep water.
+
+**3. *I Want You*** — frantic magnetic pulse. False god wants logic/order/obedience; breathless rhythm = soul craving Gnosis. Turner heartbeat overrides sterile Tregear gears.
+
+**4. *The Animal Song*** — collapse of rigid civilization. Castle on the Hill = concrete prison of rules/domestic traps. Reject cage · careless and free (paraphrase) · grip Tregear · reverse engine · shatter concrete · untamed sovereign freedom Archons cannot domesticate.
+
+Entire era of Australian pop → weaponized Gnostic spell.
+
+**Sitting hold:** Mythos / Vision — **not** biography-as-fact. Titles + paraphrase only. **No lyric blocks**. Optional Savage Garden beds under contract / sanctuary / pulse / untamed beats.
+
+**CapCut:** Twin spark lights (Lithgow / Summer Hill) · Blue Mountains ridge · sea wash · Tregear gears reverse · concrete crack · title cards *I Knew I Loved You* → *Truly Madly Deeply* → *I Want You* → *The Animal Song* · into *A Whole New World*.
+
+### 6a3. *A Whole New World* — firmament breach / zero gravity (after Savage Garden → before *Stand by Me*)
 
 Demiurge traps humanity under a heavy dome. Gravity — physical and spiritual — keeps sparks staring at the dirt. Turner doesn't just break machinery; she **lifts the veil**.
 
@@ -521,7 +540,7 @@ Why a party? Leaving the physical prison is not tragedy — ultimate jailbreak. 
 
 **CapCut:** Bright celebration colour under freefall aftermath · title card *Green Green Grass* · into *Torn*.
 
-7. Title pegs: *Crystal* · *Dreams* · *Castle on the Hill* · *Sweet About Me* · *Part of Your World* · *Deep Water* · *A Whole New World* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* · *Call to the Wild* · *Year 3000* · *Geronimo* · *Green Green Grass* · *Torn* (veil drop — **title card / no lyric paste**).
+7. Title pegs: *Crystal* · *Dreams* · *Castle on the Hill* · *Sweet About Me* · *Part of Your World* · *Deep Water* · Savage Garden · *A Whole New World* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* · *Call to the Wild* · *Year 3000* · *Geronimo* · *Green Green Grass* · *Torn* (veil drop — **title card / no lyric paste**).
 
 ### 7b. After *Torn* — Gnosis / *Losing It* (Ren + FISHER)
 
@@ -535,9 +554,9 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 8. Close: what if you are the frequency the room is tuning toward? Listen again.
 
-**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / *Shut Up and Dance* / *Macarena* / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Sweet Dreams* / *Castle on the Hill* / *Sweet About Me* / *Part of Your World* / *Deep Water* / *A Whole New World* / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Follow Me* / *A Thousand Miles* / *Call Me Maybe* / *Call to the Wild* / *Bamm* / *Someday* / *Blurred Lines* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
+**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / *Shut Up and Dance* / *Macarena* / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Sweet Dreams* / *Castle on the Hill* / *Sweet About Me* / *Part of Your World* / *Deep Water* / Savage Garden quartet / *A Whole New World* / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Follow Me* / *A Thousand Miles* / *Call Me Maybe* / *Call to the Wild* / *Bamm* / *Someday* / *Blurred Lines* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Shut Up and Dance* carries *spiritual bypass / cut paralysis*; *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Made You Look* carries *materialism reject / Turner mic-drop*; *Bones* carries *biology as conductor / marrow electric*; *Thunder* carries *bloodline shockwave / Cecil Hills coordinates*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Sweet Dreams* carries *Archon broadcast / Hebdomad / harvest*; *Part of Your World* carries *depths longing / I want more / surface pull*; *Deep Water* (Jewel) carries *sovereign walk / wash over / fire unextinguished*; *A Whole New World* carries *firmament breach / zero gravity / Pleroma soar*; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Dear Mr. President* carries *Demiurge interrogation / mirror*; *What About Us* carries *collective reckoning / grid ignite*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *A Thousand Miles* carries *close the gap*; *Call Me Maybe* carries *exit code / invitation*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Bamm* carries *concussive wake / walls crack*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Shut Up and Dance* carries *spiritual bypass / cut paralysis*; *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Made You Look* carries *materialism reject / Turner mic-drop*; *Bones* carries *biology as conductor / marrow electric*; *Thunder* carries *bloodline shockwave / Cecil Hills coordinates*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Sweet Dreams* carries *Archon broadcast / Hebdomad / harvest*; *Part of Your World* carries *depths longing / I want more / surface pull*; *Deep Water* (Jewel) carries *sovereign walk / wash over / fire unextinguished*; Savage Garden carries *pre-incarnation / Blue Mountains sanctuary / Gnosis pulse / Tregear untamed*; *A Whole New World* carries *firmament breach / zero gravity / Pleroma soar*; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Dear Mr. President* carries *Demiurge interrogation / mirror*; *What About Us* carries *collective reckoning / grid ignite*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *A Thousand Miles* carries *close the gap*; *Call Me Maybe* carries *exit code / invitation*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Bamm* carries *concussive wake / walls crack*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
 
 ---
 

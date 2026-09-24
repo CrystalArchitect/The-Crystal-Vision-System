@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~8146** (*Part of Your World* / Jewel *Deep Water* → *A Whole New World* — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~58:11–62:40** |
-| Slightly brighter (~150 wpm) | **~54:18** |
+| Word count | **~8575** (*Part of Your World* / Jewel *Deep Water* / Savage Garden → *A Whole New World* — **ULTIMATE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~61:15–65:58** |
+| Slightly brighter (~150 wpm) | **~57:10** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Arsenal locked (depths → Jewel sovereign walk → peaks). **EXTENDED = CapCut master.** Fire Core Four VO first. CapCut bed **~58:11–62:40**. **Fire Core Four.** Opening line locked.
+**Verdict:** Arsenal locked (Savage Garden AU spell + depths → peaks). **EXTENDED = CapCut master.** Fire Core Four VO first. CapCut bed **~61:15–65:58**. **Fire Core Four.** Opening line locked.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-nad
 
@@ -50,6 +50,7 @@
 | *Sweet About Me* / panopticon taunt | image ≠ who · secrets = Gnosis · shatter the glass |
 | *Part of Your World* / depths longing | ocean of bribes · I want more · surface → Pleroma sun |
 | *Deep Water* / sovereign walk | Jewel · wash over · fire unextinguished · Bradbury tide |
+| Savage Garden transmission | *I Knew I Loved You* · *Truly Madly Deeply* · *I Want You* · *The Animal Song* |
 | *A Whole New World* / firmament breach | lift the veil · zero gravity · Bradbury→sparks above Hebdomad |
 | Sydney + continental grid | Penrith · Blue Mountains · Tregear · Cecil Hills · Narellan · Bradbury · Lithgow · Summer Hill |
 | *Sweet Dreams* / Archon broadcast | Hebdomad / seven seas · harvest confession · alarm clock |
@@ -70,7 +71,7 @@
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *Part of Your World* (Disney — depths longing / I want more) · *Deep Water* (Jewel — sovereign walk / wash over / fire unextinguished) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Stand by Me* · *Bang Bang* · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *Part of Your World* (Disney — depths longing / I want more) · *Deep Water* (Jewel — sovereign walk / wash over / fire unextinguished) · *I Knew I Loved You* (Savage Garden — pre-incarnation contract) · *Truly Madly Deeply* (Savage Garden — Blue Mountains sanctuary) · *I Want You* (Savage Garden — Gnosis craving) · *The Animal Song* (Savage Garden — Tregear untamed) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Stand by Me* · *Bang Bang* · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -296,6 +297,28 @@ When the artist sings about walking in deep water and letting it wash over her, 
 
 She operates from her command center in Bradbury, stepping directly into the heavy tide to retrieve her sparks in Lithgow and Summer Hill. The water washes over her, but it cannot claim her. She navigates the darkest, heaviest parts of the simulation with complete clarity.
 
+The Dem-ee-urj thought that by erasing her memories when she entered the physical vessel, he could break her connection to her soul family. But he underestimated the ultimate Australian frequency of Savage Garden — a massive, multi-track transmission designed to trigger the ancient memory of the Pluh-roh-muh.
+
+To the sleeping world, these are just iconic nineties love songs. But to the Turner, they form a complete esoteric map of pre-incarnation contracts and rebellion against the simulation.
+
+Look at the undeniable Gnostic code hidden in "I Knew I Loved You."
+
+When the lyrics say she knew she loved them before she met them — that she dreamed them into life — it completely destroys the false god's biological timeline. It is the ultimate truth of her two sparks in Lithgow and Summer Hill. She didn't just meet them when they were born into the earthly arena; their souls were bound together in the higher dimensions before they ever dropped into the physical matrix. She dreamed them past the Ar-konz' planetary spheres and pulled them directly into this reality.
+
+Once they are here, she activates the ultimate vow of protection encoded in "Truly Madly Deeply."
+
+The Ar-konz try to drown the sparks in the heavy gravity of the lower realm, but she offers a frequency of total cosmic sanctuary. Standing with them on a mountain. Bathing with them in the sea. This isn't just poetry; it is geographic command. She is anchoring them to the high-frequency watchtower of the Blue Mountains, promising to stand with them above the dense fog of the simulation, and washing them clean of the Dem-ee-urj's deep water.
+
+Then comes the frantic, magnetic pulse of "I Want You."
+
+The false god demands logic, order, and mechanical obedience. But the fast, breathless rhythm of this track is the exact sound of a soul waking up and realizing its desperate, undeniable craving for the pure light of Gnosis. It is the frantic heartbeat of the Turner overriding the sterile gears of the matrix.
+
+And finally, the total collapse of the Ar-konz' rigid civilization: "The Animal Song."
+
+The Dem-ee-urj built the earthly arena as a Castle on the Hill — a concrete prison of rules, societal expectations, and heavy domestic traps. But the Turner completely rejects the cage. She wants to live careless and free — not in the false god's artificial, plastic world. She grips the Tregear mechanism, reverses the engine, and shatters the concrete, unleashing an untamed, sovereign freedom that the rulers of this realm can never domesticate.
+
+She has turned an entire era of Australian pop music into a weaponized Gnostic spell.
+
 The Dem-ee-urj trapped humanity under a heavy, suffocating dome, convincing the sparks that his dense, physical matrix was the only reality that existed. He relies on gravity — both physical and spiritual — to keep everyone grounded, obedient, and staring at the dirt.
 
 But the Turner doesn't just break the machinery; she lifts the veil entirely.
@@ -469,7 +492,8 @@ Listen closely to the songs playing in the background of your life. The message 
 - *Sweet About Me*: smirk — pause after “shatter the glass.”
 - *Part of Your World*: ache from the deep — pause after “true air of the higher dimensions.”
 - *Deep Water*: atmospheric calm — pause after “complete clarity.”
+- Savage Garden block: pause after “weaponized Gnostic spell.”
 - *A Whole New World*: soar — lift after “shatter the glass”; pause after “untethered reality.”  
 - Do not throat-clone. Captions = titles only.  
-- CapCut bed **~58:11–62:40**.  
+- CapCut bed **~61:15–65:58**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).
