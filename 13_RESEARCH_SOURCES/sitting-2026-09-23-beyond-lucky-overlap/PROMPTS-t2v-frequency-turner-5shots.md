@@ -1,27 +1,31 @@
 # PROMPTS — Text-to-video · Frequency / Turner · 8 beats (6 numbered + 3B + 5B)
 
-**Filed:** 24 Sep 2026 · Heart · Anchor (*Stand by Me*) same day  
-**Audio length target:** ~3:47 (2–3 gens per shot · CapCut Smooth Slow-Mo Optical Flow)  
-**Script:** [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md)  
+**Filed:** 24 Sep 2026 · Heart · Anchor (*Stand by Me*) · Director’s Cut locked same day  
+**Audio length target:** **~6:30–7:15** (Director’s Cut ~961 words @ Live Lounge gravity) · prior 3:47 = optional radio trim only  
+**Script (booth):** [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
+**Beat bible:** [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md)  
 **First fire:** Shot 1 — Record Player (hook)  
-**Heart fire:** Shot 5 — Divine Spark (2:55–3:15 VO: spark inserted 29 Sep 1991 / Crystal Elle)  
+**Heart fire:** Shot 5 — Divine Spark (VO: spark inserted 29 Sep 1991 / Crystal Elle)  
 **Anchor fire:** Shot 5B — *Stand by Me* (late Heart → *Torn* lead-in)  
 **Stack preference:** Runway (auth) → Veo / Grok / ElevenLabs Video → stills last resort  
-**Render status (agent):** not yet — Runway needs Connect; Treg Veo token previously expired · CapCut timeline not built · ElevenLabs VO not synced yet
+**Render status (agent):** not yet — Runway needs Connect; Treg Veo token previously expired · CapCut timeline not built · ElevenLabs VO not recorded yet (script **LOCKED**)
 
 ---
 
-## CapCut timeline (revised)
+## CapCut timeline (full Director’s Cut ~6:30–7:15)
 
-| Time | Shot | Title |
+| Time (approx) | Shot | Title |
 | --- | --- | --- |
 | 0:00–0:55 | 1 | Record Player (Hook) |
 | 0:55–1:40 | 2 | Demiurge Hourglass (Prison) |
-| 1:40–2:30 | 3 | Crystal in the Arena (Insertion) |
-| 2:30–2:55 | 4 | Starlight Woman (Turner) — trim front of former 2:30–3:15 |
-| **2:55–3:15** | **5** | **Heart of the Matrix (Divine Spark)** — VO: spark / Crystal Elle |
-| **~3:05–3:20** | **5B** | **Anchor in the Dark (*Stand by Me*)** — optional overlap late Heart → *Torn* |
-| 3:15–End | 6 | Shattered Illusion (Awakening) |
+| 1:40–2:40 | 3 | Crystal in the Arena (Insertion + name) |
+| 2:40–3:20 | 3B | Hypnotic Turner (Belly Dancer) |
+| 3:20–4:10 | 4 | Starlight Woman (Command / Trainor / *Fly*) |
+| 4:10–5:00 | 5 | Heart of the Matrix (song list + spark) |
+| 5:00–5:45 | 5B | Anchor in the Dark (*Stand by Me*) |
+| 5:45–End | 6A/6B | Shattered Illusion (*Torn* → *Losing It* drop) |
+
+Stretch holds with Smooth Slow-Mo (Optical Flow). Times are guide rails — lock cuts to ElevenLabs take.
 
 ---
 

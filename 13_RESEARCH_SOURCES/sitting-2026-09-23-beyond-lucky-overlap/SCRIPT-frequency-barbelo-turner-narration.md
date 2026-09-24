@@ -1,10 +1,11 @@
 # SCRIPT — Frequency / Barbelo / Turner (Gnostic muse narration)
 
 **Filed:** 24 Sep 2026  
-**Status:** vision labelled vision · mythos / performance bible — **not** biography-as-fact  
+**Status:** beat bible · mythos / performance — **not** biography-as-fact  
+**ElevenLabs master (LOCKED Director’s Cut):** [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
 **Maps to:** [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md)  
 **Riptide chart:** [`MAP-riptide-where-we-go.md`](MAP-riptide-where-we-go.md)  
-**Law:** Different Shores taxi · Human publishes · No destiny proof · Copyright: **song titles only** — no lyric blocks in public cuts
+**Law:** Different Shores taxi · Human publishes · No destiny proof · Copyright: **song titles only** — no lyric blocks in public cuts / burned-in captions
 
 ---
 
@@ -115,5 +116,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 ## Production
 
 - Tone: Live Lounge **gravity** until climax → then **chaos / breakout**.  
+- **VO runtime lock:** Director’s Cut ~961 words → **~6:30–7:15** at gravity pace (not 3:47). Extend CapCut bed.  
 - Render order tomorrow: 1 → 2 → 3 → **3B Hypnotic** → 4 → **5 Heart** → **5B Anchor (*Stand by Me*)** → **6A/6B** (2–3 gens; one high-gear wall for the drop).  
+- Booth paste: [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
 - No third-party throat clones. Mythic reading only — not journalism that artists “don’t realize.”
