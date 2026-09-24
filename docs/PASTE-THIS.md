@@ -16,5 +16,5 @@ This sitting: https://drive.google.com/drive/folders/1Je5IpBRqEXAR8b6uAkGEpCUR3N
 Crystal Arena-Turner is the authority. Drive/GitHub outrank chat. Do not collapse projects. Do not treat Vision as Built.
 
 ## Naming
-**Starline** = project name (Consent Transport / Starlines). **Songline** = never a title or component.
+**Starline** = project name (Consent Transport / Starlines).
 Doc: `00_MASTER_INDEX/NAMING-STARLINE.md`

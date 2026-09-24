@@ -24,14 +24,14 @@ working inside `archive/TerAustralis-Incognita/` (or any other subtree)
 should follow *that* subtree's own memory protocol, not this one. A session
 working on the monorepo itself (this file's level: consolidation state,
 cross-subtree pointers, the `/generate` endpoint work, drawer structure)
-reads and writes here.
+reads and writes here. Naming law: [`../00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md)
+(**Starline**).
 
 ## Protocol
 
 **Read at startup:** [`CORE.md`](CORE.md), then only the row you need from
 [`INDEX.md`](INDEX.md). Do not ingest a subtree's memory as if it were this
-one's. Naming law: [`../00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md)
-(**Starline**, not Songline).
+one's.
 
 **Write before ending meaningful monorepo-level work:**
 

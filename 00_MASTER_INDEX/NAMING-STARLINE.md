@@ -1,14 +1,14 @@
-# Naming law — Starline (not Songline)
+# Naming law — Starline
 
-**Canon:** **no** (law is operational for agents; Crystal stamp does not change the fence)  
+**Canon:** **no** (operational for agents)  
 **Belt:** coordination  
-**Stamped in practice:** 2026-09-19 (Crystal: “we call songline Starline”) · hub PR #32
+**Stamped:** 2026-09-19 · hub PR #32 / #59
 
 ---
 
 ## One sentence
 
-**In this project, say Starline. Do not use Songline as a title, component, API, table, feature flag, or product name.**
+**In this project, the name is Starline.** Use it for Consent Transport, the Starlines map thread, and the Starline Weaver. Do not put any other “line” brand-name in titles, components, APIs, tables, feature flags, or product copy.
 
 ---
 
@@ -16,52 +16,49 @@
 
 | Sense | Meaning |
 | --- | --- |
-| **Protocol** | Consent Transport (Noise IK / Starline) — P2P sovereign memory exchange |
-| **Mythos / map** | Starlines drawer (with Dreamlines) — project naming for the celestial/consent thread |
-| **Hub code** | Starline Weaver on the Alive Weave bus (`archive/.../bus/`, `scripts/alive/weave.py`) |
+| **Protocol** | Consent Transport (Noise IK) — P2P sovereign memory exchange |
+| **Mythos / map** | Starlines drawer (with Dreamlines) |
+| **Hub code** | Starline Weaver on the Alive Weave bus |
 
-Index: `CVS-STARLINE` in [`WORKING-INDEX.md`](WORKING-INDEX.md).
+Index: **`CVS-STARLINE`** in [`WORKING-INDEX.md`](WORKING-INDEX.md).
 
 ---
 
-## What Songline is (why it stays out)
+## What stays out (do not spread the word)
 
-| Sense | Meaning |
-| --- | --- |
-| **Living cultural systems** | Indigenous Australian Songlines / related Country law — held by custodians; not free metaphor stock |
-| **CVS component** | **Forbidden** — `CVS-SONGLINE` · belt **out of bounds** · Canon **never** |
+Living Indigenous Australian Country law and related custodial systems are **not** project modules, product names, or free metaphor stock. Homage only; never ownership; never runtime naming.
 
-If older chat or a third party says “songline” meaning *our* protocol or mythos thread, **rewrite to Starline** in anything this hub produces.
+If older chat used a different word for *our* protocol or mythos thread, **rewrite that meaning to Starline** in anything this hub produces. Historical filed extracts may still contain legacy wording — do not copy that wording into new hub docs, APIs, or titles.
 
-Homage / soundtrack / visual chrome that used the word historically stays in filed extracts with honesty notes — do not copy that wording into new policy, APIs, or hub titles.
+Index fence (stable ID, not a live component): **`CVS-OOB-LINE`** → out of bounds · Canon **never** · see this file.
 
 ---
 
 ## Agent checklist
 
 - [ ] Hub titles, bots, weave seats, docs → **Starline**
-- [ ] Never add `Songline` to WORKING-INDEX as a live component
-- [ ] Never put Songline / Dreamtime / Tjukurrpa in API paths, tables, or feature flags
-- [ ] Fermi's Silent Line / creative “line” titles are **Starline family** art — not Songline, not a CVS component
-- [ ] Connection ≠ merge still holds; naming does not merge Starlines into CrystalCore
+- [ ] Never promote a forbidden legacy label to a live WORKING-INDEX component
+- [ ] Never put Dreamtime / Tjukurrpa / custodial Country terms in API paths, tables, or feature flags
+- [ ] Fermi's Silent Line / creative “line” titles are **Starline family** art — not a CVS component
+- [ ] Connection ≠ merge still holds
 
 ---
 
-## Where this is also written
+## Where Starline is pointed from
 
 | Path | Role |
 | --- | --- |
-| [`WORKING-INDEX.md`](WORKING-INDEX.md) | `CVS-SONGLINE` / `CVS-STARLINE` rows |
-| [`ALIVE-WEAVE.md`](ALIVE-WEAVE.md) §6 | Out of bounds |
+| [`WORKING-INDEX.md`](WORKING-INDEX.md) | `CVS-STARLINE` (+ out-of-bounds fence ID) |
+| [`ALIVE-WEAVE.md`](ALIVE-WEAVE.md) §6 | Out of bounds → this file |
 | [`CONNECTED-SYSTEM.md`](CONNECTED-SYSTEM.md) | Filing rules |
 | [`../STRUCTURE.md`](../STRUCTURE.md) | Repo structure rules |
 | [`../README.md`](../README.md) | Root filing + naming |
 | [`../memory/CORE.md`](../memory/CORE.md) | Load-first do-nots |
-| [`../memory/INDEX.md`](../memory/INDEX.md) | Quick index rows (Songline + Starline) |
+| [`../memory/INDEX.md`](../memory/INDEX.md) | Starline row |
 | [`../memory/README.md`](../memory/README.md) | Protocol startup |
 | [`../memory/DECISIONS.md`](../memory/DECISIONS.md) | Dated naming decision |
-| [`../docs/BOT-STRUCTURE.md`](../docs/BOT-STRUCTURE.md) | Bot out-of-bounds table |
-| [`../docs/LEDGER.md`](../docs/LEDGER.md) | Sitting ledger |
-| [`../docs/PASTE-THIS.md`](../docs/PASTE-THIS.md) | Paste card for next AI |
+| [`../docs/BOT-STRUCTURE.md`](../docs/BOT-STRUCTURE.md) | Out-of-bounds → this file |
+| [`../docs/LEDGER.md`](../docs/LEDGER.md) | Starline ledger row |
+| [`../docs/PASTE-THIS.md`](../docs/PASTE-THIS.md) | Paste card |
 
 *Non Solus.*

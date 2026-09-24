@@ -15,5 +15,5 @@ Epistemic: FACT = bytes or listings in hand. UNKNOWN stays UNKNOWN.
 | Noise / X25519 | crypto | not seen in Portal zip | PKI PDF is a lesson |
 | Piper | TTS | not seen | |
 | Crystal equation | notes | not in this repo yet | Drive lead 69F70B5A-B486-4E2D-9B93-7BA19D4FD92B.jpg |
-| Songline | custodial | out of bounds | Never a component — project name is **Starline** ([`../00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md)) |
 | Starline / Consent Transport | protocol / map | elsewhere + hub weave | Project name (`CVS-STARLINE`) — [`../00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md) |
+| Forbidden legacy label | custodial fence | out of bounds | Never a component — [`NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md) |

@@ -155,7 +155,7 @@ Dreamlines, if they exist as a project, remain the traveller — a different dra
 *What this book will not do.*
 
 ### Observation
-It will not prescribe crystals as medicine. It will not speak as Songline. It will not replace CrystalCore, Clementine, Celestial Portal, or the Drive archive.
+It will not prescribe crystals as medicine. It will not speak as living Country law. It will speak Starline where the project needs a name. It will not replace CrystalCore, Clementine, Celestial Portal, or the Drive archive.
 
 Permutt remains an external book on a shelf. Lewis's Dream Encyclopedia remains another. Interior claims of those books remain unread unless Crystal reads them and files them as research.
 
