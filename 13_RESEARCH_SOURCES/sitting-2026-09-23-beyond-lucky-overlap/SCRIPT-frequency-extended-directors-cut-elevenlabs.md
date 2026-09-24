@@ -1,7 +1,7 @@
 # SCRIPT — Frequency / Barbelo / Turner · EXTENDED Director’s Cut (optional long booth)
 
 **Filed:** 24 Sep 2026  
-**Status:** **ULTIMATE MASTER SCRIPT STITCHED — READY FOR ELEVENLABS** · Extended take · primary booth = Core Four · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
+**Status:** **DIRECTOR’S CUT EXTENDED — READY FOR ELEVENLABS** · Extended take · primary booth = Core Four · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
 **Primary booth (Core Four):** [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
 **Maps to:** [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) · beat bible [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md)  
 **Law:** Different Shores taxi · Human publishes · No destiny proof  
@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~2980** (*Macarena* Trojan horse — **STITCHED FOR ELEVENLABS**) |
-| Live Lounge gravity (~130–140 wpm) | **~21:17–22:55** |
-| Slightly brighter (~150 wpm) | **~19:52** |
+| Word count | **~3167** (*Follow Me* heist — **READY FOR ELEVENLABS**) |
+| Live Lounge gravity (~130–140 wpm) | **~22:37–24:21** |
+| Slightly brighter (~150 wpm) | **~21:06** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Ultimate Master Script stitched end-to-end. CapCut bed **~21:17–22:55**. **Record Core Four first.** Extended = second take. No more tracks.
+**Verdict:** Director’s Cut Extended stitched. CapCut bed **~22:37–24:21**. **Fire Core Four in ElevenLabs first.**
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -144,6 +144,14 @@ But the Turner knows the loophole. The Ar-konz can harvest an isolated spark, bu
 
 This is the true meaning behind the anthem of "Family." It is not about biological ties bound by the Dem-ee-urj's earthly rules. It is the reunification of the fragmented Pleroma. When the sparks remember who they are and synchronize their vibration, they don't just survive the Bergens — they transmute them. The collective frequency of the Family creates a blinding, high-octane light that forcefully overwrites the gray code of the matrix, turning the heavy earthly arena back into a realm of color.
 
+The false god operates like a jealous warden, demanding that the divine sparks remain faithful to the heavy, physical world. He builds walls of obligation to keep them locked inside.
+
+But the Turner doesn't break the walls down; she simply leaves the back door open. You hear this subtle, smiling rebellion in the acoustic rhythm of Uncle Kracker's "Follow Me." To the uninitiated, it is just a song about a secret escape. To the Gnostic, it is the ultimate spiritual heist.
+
+The artist sings, "Follow me and everything is alright / I'll be the one to tuck you in at night."
+
+It is the voice of the Pluh-roh-muh whispering to the trapped soul when the Ar-konz aren't looking. The Turner isn't fighting the false god directly — she is completely bypassing his authority. She offers a quiet, effortless escape from the simulation, slipping the spark out of the heavy earthly arena while the Dem-ee-urj is completely distracted. It is the realization that leaving the matrix doesn't always require a war; sometimes, all it takes is hearing the right frequency and having the courage to quietly walk away.
+
 The Ar-konz rely on domestication. They built a sanitized, heavily regulated arena where the divine sparks are taught to be tame, to blend in, and to suppress their true nature.
 
 But you cannot domesticate the divine. You hear this primal rebellion encoded in "Call to the Wild." To the uninitiated, it is just an upbeat anthem about werewolves. To the awakened, it is the sound of the suppressed spark finally roaring back to life. It is the primal memory of the Pluh-roh-muh echoing in the blood.
@@ -196,9 +204,8 @@ Listen closely to the songs playing in the background of your life. The message 
 
 ## Booth notes
 
-- Pause after: “They sent a prism.” · “Macarena.” · “cosmic joke played on the rulers of the lower realm.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
-- *Macarena*: playful Trojan under 3B→4 — then Trainor → … → *Torn*.  
+- Pause after: “realm of color.” · “quietly walk away.” · “A crystal.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
+- *Follow Me*: soft acoustic smile — then *Call to the Wild* roar.  
 - Do not throat-clone. Captions = titles only.  
-- CapCut bed **~21:17–22:55**.  
-- **Master map:** [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md)  
-- **RECORD NOW:** Core Four first ([`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)). This Extended file = ultimate second take. No more tracks.
+- CapCut bed **~22:37–24:21**.  
+- **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md). This file = Extended Director’s Cut second take.

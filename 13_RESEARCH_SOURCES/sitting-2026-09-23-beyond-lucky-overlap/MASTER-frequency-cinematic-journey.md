@@ -32,16 +32,17 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 13. **Catalyst** — *Bang Bang* · Kill Bill · assassin of illusions  
 14. **Sovereignty** — *Let It Go* · Crystal fractal castle · cold never bothered her  
 15. **Collective** — *Family* · Trolls / Bergens = Archons harvesting sparks · Pleroma sync  
-16. **Primal** — *Call to the Wild* · domestication break · **Moonstone = Crystal**  
-17. **Timeline** — *Year 3000* · chronological prison break · hourglass sand→water · fluid light · 1991→eternity  
-18. **Leap** — *Geronimo* · battle cry · waterfall veil · splash into Pleroma  
-19. **Jailbreak** — *Green Green Grass* · death-fear break · party · spark returns to Pleroma  
-20. **Gnosis** — *Torn* · veil drops · illusion never changed into something real  
-21. **Breakout** — *Losing It* (Ren + FISHER) · chaos of waking · wall smash  
-22. **Close** — Celestial disruption; you are the frequency; listen again  
+16. **Heist** — *Follow Me* · back door open · quiet walk away · bypass the warden  
+17. **Primal** — *Call to the Wild* · domestication break · **Moonstone = Crystal**  
+18. **Timeline** — *Year 3000* · chronological prison break · hourglass sand→water · fluid light · 1991→eternity  
+19. **Leap** — *Geronimo* · battle cry · waterfall veil · splash into Pleroma  
+20. **Jailbreak** — *Green Green Grass* · death-fear break · party · spark returns to Pleroma  
+21. **Gnosis** — *Torn* · veil drops · illusion never changed into something real  
+22. **Breakout** — *Losing It* (Ren + FISHER) · chaos of waking · wall smash  
+23. **Close** — Celestial disruption; you are the frequency; listen again  
 
-**Primary take** runs beats 1–5 → Core Four ladder → *Torn* → close (no Extended layers).  
-**Extended take** = ultimate Master Script — **STITCHED FOR ELEVENLABS**.
+**Primary take** = Core Four Director’s Cut — **FIRE ELEVENLABS NOW**.  
+**Extended take** = ultimate Master Script (includes *Follow Me*).
 
 ---
 
@@ -51,10 +52,10 @@ Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-na
 
 ---
 
-## Next — RECORD
+## RECORD
 
-1. **ElevenLabs now** — paste [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) (Core Four, ~6–7 min)  
-2. Optional second take — paste Extended ultimate VO (~20–22 min)  
-3. T2V fire + CapCut Optical Flow  
+1. **ElevenLabs** — paste [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) (Core Four, ~6–7 min)  
+2. Optional — Extended ultimate ([`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md), ~22–24 min)  
+3. T2V + CapCut  
 
-**Ultimate Master Script stitched.** Ready to record. No more tracks required.
+**Director’s Cut ready.** Stitched. Record.
