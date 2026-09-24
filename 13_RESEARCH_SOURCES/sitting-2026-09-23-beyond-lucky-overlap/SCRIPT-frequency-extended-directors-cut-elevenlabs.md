@@ -49,7 +49,6 @@
 | *Stand by Me* Anchor | **5B** Anchor in the Dark |
 | *Bang Bang* / Kill Bill catalyst | **5B** late → **6A** (cold vengeance colour) |
 | *Let It Go* / Crystal sovereignty | **5** flash / fractal ice-castle · into **6A** |
-| *Dear Mr. President* / Demiurge interrogation | bypass Archons · chair · mirror · ego crumbles |
 | *Family* / Trolls–Bergens collective | colour overwrite · unified frequency |
 | *Follow Me* / spiritual heist | back door open · quiet walk away · bypass the warden |
 | *A Thousand Miles* / close the gap | cross any distance · no labyrinth · find the spark |
