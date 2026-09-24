@@ -92,6 +92,7 @@ Order roughly follows MASTER journey (some CapCut beds may reorder for music edi
 | **I Want You** | Savage Garden | Frantic Gnosis pulse |
 | **The Animal Song** | Savage Garden | Untamed · reject the cage · Tregear reverse |
 | **A Whole New World** | Disney (*Aladdin*) | Firmament breach · zero gravity · above Hebdomad |
+| **Colours of the Wind** (*Colors*) | Disney (*Pocahontas*) | Land alive · ownership fails · wind-frequency paint · Dreamtime honour neighbour |
 | **Conductor / unified chord** | (concept beat — all songs) | Every song = shattered Pleroma · acoustic grid sync · **PEAK** |
 | **Roots** (*No Roots*) | Alice Merton | Dig/hide Gnosis · home never on the ground · night road |
 | **Jerusalema** | Master KG ft. Nomcebo | Pleroma home city · global dance sync · shepherd / guard the walk |

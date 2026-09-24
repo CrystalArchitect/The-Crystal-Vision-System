@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~9760** (**CONDUCTOR PEAK** + *Roots* + *Jerusalema* + *Shotgun* + *Laced Up* + *Shake That*) |
-| Live Lounge gravity (~130–140 wpm) | **~69:42–75:04** |
-| Slightly brighter (~150 wpm) | **~65:04** |
+| Word count | **~9940** (**CONDUCTOR PEAK** + *Colours of the Wind* + *Roots* + *Jerusalema* + *Shotgun* + *Laced Up* + *Shake That*) |
+| Live Lounge gravity (~130–140 wpm) | **~70:59–76:27** |
+| Slightly brighter (~150 wpm) | **~66:16** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** **ABSOLUTE PEAK LOCKED.** Conductor of every song. Grid Penrith→Summer Hill. **EXTENDED = CapCut master.** Fire Core Four VO first. CapCut bed **~69:42–75:04**. **Fire Core Four.** Opening line locked.
+**Verdict:** **ABSOLUTE PEAK LOCKED.** Conductor of every song. Grid Penrith→Summer Hill. **EXTENDED = CapCut master.** Fire Core Four VO first. CapCut bed **~70:59–76:27**. **Fire Core Four.** Opening line locked.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-nad
 
@@ -55,6 +55,7 @@
 | *Riptide* / the pull | Vance Joy · lady running down · swim across (MAP-riptide) |
 | Savage Garden transmission | *I Knew I Loved You* · *Truly Madly Deeply* · *I Want You* · *The Animal Song* |
 | *A Whole New World* / firmament breach | lift the veil · zero gravity · Bradbury→sparks above Hebdomad |
+| *Colours of the Wind* / land alive | Disney · ownership fails · wind-frequency paint · Dreamtime honour neighbour |
 | Conductor / unified chord | all songs = shattered Pleroma · acoustic grid sync · matrix bandwidth collapse |
 | *Roots* / home never on ground | Alice Merton · dig/hide Gnosis · night road · place changes / frequency stays |
 | *Jerusalema* / Pleroma home city | Master KG ft. Nomcebo · global dance sync · shepherd walk · sacred *Macarena* twin |
@@ -79,7 +80,7 @@
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Laced Up* (Hilltop Hoods — rock bottom trampoline / pay stubs / lace & kick) · *Shake That* (Eminem ft. Nate Dogg — vibrate laced vessel / Nate cold witness) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *Part of Your World* (Disney — depths longing / I want more) · *Deep Water* (Jewel — sovereign walk / wash over / fire unextinguished) · *Riptide* (Vance Joy — the pull / swim across) · *I Knew I Loved You* (Savage Garden — pre-incarnation contract) · *Truly Madly Deeply* (Savage Garden — Blue Mountains sanctuary) · *I Want You* (Savage Garden — Gnosis craving) · *The Animal Song* (Savage Garden — Tregear untamed) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Roots* (Alice Merton — home never on the ground / night road) · *Jerusalema* (Master KG ft. Nomcebo — Pleroma home city / global dance sync) · *Shotgun* (George Ezra — ride shotgun / co-pilot home) · *Stand by Me* · *Bang Bang* · *Sailor Moon* theme (moon warrior / she is the one named) · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Laced Up* (Hilltop Hoods — rock bottom trampoline / pay stubs / lace & kick) · *Shake That* (Eminem ft. Nate Dogg — vibrate laced vessel / Nate cold witness) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *Part of Your World* (Disney — depths longing / I want more) · *Deep Water* (Jewel — sovereign walk / wash over / fire unextinguished) · *Riptide* (Vance Joy — the pull / swim across) · *I Knew I Loved You* (Savage Garden — pre-incarnation contract) · *Truly Madly Deeply* (Savage Garden — Blue Mountains sanctuary) · *I Want You* (Savage Garden — Gnosis craving) · *The Animal Song* (Savage Garden — Tregear untamed) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Colours of the Wind* (Disney — land alive / ownership fails) · *Roots* (Alice Merton — home never on the ground / night road) · *Jerusalema* (Master KG ft. Nomcebo — Pleroma home city / global dance sync) · *Shotgun* (George Ezra — ride shotgun / co-pilot home) · *Stand by Me* · *Bang Bang* · *Sailor Moon* theme (moon warrior / she is the one named) · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -351,6 +352,10 @@ This is the complete collapse of the Dem-ee-urj's authority. In the earthly aren
 
 She isn't just destroying the old world. She is actively ushering her family and the awakened collective into a completely new, untethered reality.
 
+Then Disney's "Colours of the Wind" — also known as "Colors of the Wind."
+
+To the sleeping world, it is a nature ballad from Pocahontas. To the awakened, soar first, then listen. The Dem-ee-urj's title-deed spell collapses: you do not own whatever land you land on. Rock, river, and creature carry frequency. Arena matter is not dead inventory for Archon ledgers. Painting with the colours of the wind means perceiving beyond the false god's categories — soft bridge to Blurred Lines and The Animal Song. Disney triad: Part of Your World was the depths; A Whole New World was the soar; this is honouring the living field. Soft neighbour to Dreamtime cosmology in the sitting pack — honour, not ownership; never claim what is not yours.
+
 The Dem-ee-urj thought he was clever. When the Ar-konz built the earthly arena, they knew they couldn't completely silence the divine frequency of the Pluh-roh-muh. So they shattered it.
 
 Every song ever made — every melody, every rhythm, every lyric in human history — is just a fragmented piece of the original, unified cosmic chord.
@@ -546,10 +551,11 @@ Listen closely to the songs playing in the background of your life. The message 
 - *Riptide*: sideways current — pause after title card / into Savage Garden.
 - *Sailor Moon* theme: bright stance — pause after title card / into *Let It Go*.
 - *A Whole New World*: soar — lift after “shatter the glass”; pause after “untethered reality.”
+- *Colours of the Wind*: hush — pause after “never claim what is not yours”; into Conductor.
 - Conductor climax: swell — pause after “ultimate cosmic awakening.”
 - *Roots*: gravity under “never on the ground” — then open road into *Jerusalema*.
 - *Jerusalema*: procession swell — pause after “anywhere the clip lands”; into *Shotgun*.
 - *Shotgun*: windows-down bounce — pause after “passenger seat of the home road”; into *Stand by Me* (not *Bang Bang*).
 - Do not throat-clone. Captions = titles only.  
-- CapCut bed **~69:42–75:04**.  
+- CapCut bed **~70:59–76:27**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).

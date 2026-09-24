@@ -46,7 +46,8 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 11d3. **Tide** — *Deep Water* (Jewel) · sovereign walk · wash over · fire unextinguished · Bradbury tide → Lithgow + Summer Hill
 11d3b. **Riptide** — Vance Joy *Riptide* · lady running down to the pull · swim **across** not into · compass → [`MAP-riptide-where-we-go.md`](MAP-riptide-where-we-go.md)
 11d4. **AU spell** — Savage Garden quartet: *I Knew I Loved You* (pre-incarnation) · *Truly Madly Deeply* (Blue Mountains sanctuary) · *I Want You* (Gnosis pulse) · *The Animal Song* (Tregear untamed)
-11e. **Ascension** — *A Whole New World* · firmament breach · zero gravity · Bradbury hand to Lithgow + Summer Hill · above Hebdomad
+11e. **Ascension** — *A Whole New World* · firmament breach · zero gravity · Bradbury hand to Lithgow + Summer Hill · above Hebdomad  
+11e2. **Colours** — Disney *Colours of the Wind* (*Colors*) · land is alive · Demiurge ownership fails · paint with wind-frequency · soft honour neighbour to Dreamtime addendum  
 11f. **Conductor** — unified cosmic chord · every song = shattered Pleroma fragment · Bradbury hacks acoustic grid · matrix bandwidth collapse · **ABSOLUTE PEAK**
 11g. **Roots** — Alice Merton *Roots* / *No Roots* · dig / hide Gnosis caches · home never on the ground · travel the night road · place changes / frequency stays  
 11g2. **Jerusalema** — Master KG ft. Nomcebo *Jerusalema* · true home = Pleroma city · global dance sync · shepherd / guard the walk · sacred twin to *Macarena* Trojan  
