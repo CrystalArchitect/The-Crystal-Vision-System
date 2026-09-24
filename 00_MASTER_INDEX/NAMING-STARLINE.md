@@ -26,7 +26,7 @@ Index: **`CVS-STARLINE`** in [`WORKING-INDEX.md`](WORKING-INDEX.md).
 
 ---
 
-## What stays out (do not spread the word)
+## What stays out (spread the bird, not the word)
 
 Living Indigenous Australian Country law and related custodial systems are **not** project modules, product names, or free metaphor stock. Homage only; never ownership; never runtime naming.
 

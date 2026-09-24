@@ -17,4 +17,5 @@ Crystal Arena-Turner is the authority. Drive/GitHub outrank chat. Do not collaps
 
 ## Naming
 **Starline** = project name (Consent Transport / Starlines).
+*Spread the bird, not the word.*
 Doc: `00_MASTER_INDEX/NAMING-STARLINE.md`
