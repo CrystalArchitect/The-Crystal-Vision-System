@@ -1,15 +1,24 @@
 # Source note — Claude artifact: The map and the territory
 
 **URL:** https://claude.ai/artifact/UGSGKeMAVWEjWvkLPNx5mE  
-**Checked:** 23 Sep 2026 (browser; curl hit Cloudflare 403)  
+**Checked:** 23 Sep 2026 (browser; curl hit Cloudflare 403) · **re-verified durable body 24 Sep 2026** (claude.ai egress blocked on this node; body recovered from repo)  
 **Title:** *The map and the territory* — TerAustralis Incognita — Architectural Survey  
 **Survey date (in artifact):** **2026-07-23**  
 **Repos surveyed:** TerAustralis-Incognita (docs) · teraustralis-incognita-code (code)  
 **Method claimed:** 4 independent research passes + direct test execution
 
+## Durable body (have the artefact)
+
+| Copy | Path |
+| --- | --- |
+| **Sitting self-contained** | [`artefacts/claude-UGSGKeMAVWEjWvkLPNx5mE-map-and-territory.md`](artefacts/claude-UGSGKeMAVWEjWvkLPNx5mE-map-and-territory.md) |
+| Archive canon | [`../../../archive/TerAustralis-Incognita/docs/reviews/2026-07-23-architecture-survey.md`](../../../archive/TerAustralis-Incognita/docs/reviews/2026-07-23-architecture-survey.md) |
+
+Inventory of all Claude surfaces in this sitting: [`artefacts/README.md`](artefacts/README.md).
+
 ## What it is
 
-A Claude-hosted **architectural audit** of the TerAustralis / CrystalCore stack as of mid–late July 2026 — not a Beyond Lucky essay, not SpaceNews text. It maps how docs, ADRs, packages, and apps relate (and where they don’t).
+A Claude-hosted **architectural audit** of the TerAustralis / CrystalCore stack as of mid–late July 2026 — not a Beyond Lucky essay, not SpaceNews text. It maps how docs, ADRs, packages, and apps relate (and where they don’t). The markdown body above is the same survey text filed into the docs repo the day of the review.
 
 ### Snapshot claims (provenance-useful)
 
