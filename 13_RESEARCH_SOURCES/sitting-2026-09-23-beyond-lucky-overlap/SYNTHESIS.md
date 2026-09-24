@@ -165,6 +165,7 @@ flowchart TB
 | [`SOURCE-apple-pcc-accessibility-reader-analytics-2026-09-24.md`](SOURCE-apple-pcc-accessibility-reader-analytics-2026-09-24.md) | Apple PCC Accessibility Reader · Analytics Logs filenames 24–25 Sep · PrivateCloudCompute |
 | [`SOURCE-apple-pcc-vlu-pcc-agent-report-2026-09-18.md`](SOURCE-apple-pcc-vlu-pcc-agent-report-2026-09-18.md) | Apple PCC VLU / pcc-agent report · empty modelRequests · architecture receipt 18 Sep |
 | [`SOURCE-aws-console-ios-kmp-crash-3-21-0.md`](SOURCE-aws-console-ios-kmp-crash-3-21-0.md) | AWS Console iOS 3.21.0 · KMP/Compose unhandled coroutine → SIGABRT |
+| [`SOURCE-gemini-ios-watchdog-textkit2-0x8badf00d.md`](SOURCE-gemini-ios-watchdog-textkit2-0x8badf00d.md) | Gemini iOS · 0x8BADF00D watchdog · TextKit 2 main-thread layout hang |
 | [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) | Taxi: SWF→LLM custodians prophecy — steal grammar only |
 | [`SOURCE-dream-rsi-landscape.md`](SOURCE-dream-rsi-landscape.md) | Dream-RSI — RSI via replay “dreams”; weights fixed; thought/field read |
 | [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md) | Wanted learning path: Record→Pool→Dream→Receipt→Gate (not vendor clone) |
