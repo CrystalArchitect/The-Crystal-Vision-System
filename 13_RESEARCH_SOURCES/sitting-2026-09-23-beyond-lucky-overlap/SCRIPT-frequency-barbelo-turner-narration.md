@@ -27,6 +27,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Insertion | Prism enters Arena; name as blueprint | **3 Crystal in colosseum** |
 | Hypnotic | Frequency manipulates matter · dance through prison | **3B Belly dancer / Hypnotic Turner** (after sand→glass VO) |
 | Command | Unapologetic worth · see through lies · rise above dirt | **4 Starlight woman** (Trainor / *Fly* attitude) |
+| Gaze (*Bette Davis Eyes*) | Piercing vision · expose Archons · Barbelo knowing | **4** eye / through-matrix |
 | Accelerate | High-pitch metaphor · sovereignty · Saturn rings | **4** late (Chipmunks *Single Ladies*) |
 | Turner | She walks matter as starlight; crowd frozen | **4 Starlight woman** (2:30–2:55) |
 | Heart / spark | Divine spark · 29 Sep 1991 · Crystal Elle | **5 Crystal heart** in cosmic sand (2:55–3:15) |
@@ -41,7 +42,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Bette Davis Eyes* (Kim Carnes — piercing gaze) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -69,9 +70,19 @@ You hear it when artists like Meghan Trainor sing about unshakeable self-worth, 
 
 **Sitting hold:** Attitude + **song titles** in VO/cards. **No lyric blocks** pasted into sitting, X, or burned-in captions. *Fly* = elevation above the heavy physical arena — licensed bed TBD (Sugar Ray · Nicki Minaj & Rihanna · or other cleared cut).
 
-**CapCut:** Land under Shot **4** Starlight Woman (walks the frozen crowd) · optional Trainor bed under 5c VO · optional *Fly* swell into Heart / *Torn* — titles only in captions.
+**CapCut:** Land under Shot **4** Starlight Woman (walks the frozen crowd) · optional Trainor bed under 5c VO · optional *Fly* swell · optional *Bette Davis Eyes* gaze beat · optional *Fly* into Heart / *Torn* — titles only in captions.
 
-### 5d. Accelerate — Chipmunks *Single Ladies* / Saturn rings (after Trainor → Shot 4)
+### 5c2. *Bette Davis Eyes* — piercing gaze (after Trainor → before Accelerate)
+
+The eyes are the one part of the physical vessel the false god could never fully blind. *Bette Davis Eyes*: to the sleeping world, Hollywood mystique; to the awakened, a warning to the Archons — Turner's uncompromising vision. Demiurge built the arena from illusions, smoke, heavy shadows; Divine Feminine gaze cuts straight through deception.
+
+She doesn't just look at the earthly realm — she looks right through it. Gaze holds Barbelo's unapologetic knowing; strips false reality; leaves rulers of the lower realm exposed to pure Pleroma light. Vision that predates the prison — cannot be tricked.
+
+**Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Bette Davis Eyes* bed under Shot **4**.
+
+**CapCut:** Extreme close-up eye / starlight iris · title card *Bette Davis Eyes* · into Accelerate.
+
+### 5d. Accelerate — Chipmunks *Single Ladies* / Saturn rings (after *Bette Davis Eyes* → Shot 4)
 
 But the Turner doesn't just command the arena; she accelerates its vibration.
 
@@ -213,9 +224,9 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 8. Close: what if you are the frequency the room is tuning toward? Listen again.
 
-**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / Trainor titles / *Fly* / *Bette Davis Eyes* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Call to the Wild* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
+**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Call to the Wild* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Bette Davis Eyes* carries *piercing gaze / expose Archons*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
 
 ---
 
@@ -225,7 +236,6 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | --- | --- |
 | Sand→glass / Hypnotic VO | Shot **3B** belly dancer · optional *Belly Dancer* bed |
 | Command / Trainor VO | Shot **4** starlight walk · optional Trainor title-bed (*Me Too* / *Made You Look* / *Lips Are Movin'*) |
-| *Bette Davis Eyes* / gaze VO | Shot **4** eye CU / through-matrix · title card |
 | *Fly* swell | Elevation colour under mid 4 — title only |
 | Chipmunks *Single Ladies* / accelerate | Late Shot **4** · optional pitch-up bed colour · glass-shatter flash · Saturn rings VO — title only |
 | *Stand by Me* / Anchor VO | Shot **5B** golden frequency woman anchors shadow figure as world cracks · title card |
