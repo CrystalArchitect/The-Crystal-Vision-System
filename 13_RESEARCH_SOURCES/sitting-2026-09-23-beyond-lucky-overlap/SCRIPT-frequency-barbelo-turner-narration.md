@@ -699,6 +699,8 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | *Fly* swell | Elevation colour under mid 4 — title only |
 | Chipmunks *Single Ladies* / accelerate | Late Shot **4** · optional pitch-up bed colour · glass-shatter flash · Saturn rings VO — title only |
 | *Sweet Dreams* / Archon VO | Pulsing grid · seven spheres · Turner walks awake · title card · cold synth |
+| *A Whole New World* / soar VO | Dome crack · carpet of light · title card · into *Colours of the Wind* |
+| *Colours of the Wind* / living land VO | Wind through grass · living-matter glow · title card · into Conductor |
 | *Roots* / untether VO | Dig / boxes / night road · feet off dirt · title card · into *Jerusalema* |
 | *Jerusalema* / procession VO | Golden city silhouette · synchronized feet · title card · into *Shotgun* |
 | *Shotgun* / co-pilot VO | Windows-down road · shotgun seat silhouette · title card · Shot **5B** approach |
