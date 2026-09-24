@@ -39,6 +39,7 @@
 | CVS-FERMI-SL | 10 | Fermi's Silent Line poster (creative; Starline family, not Songline) | vision | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/Fermis-Silent-Line-poster.jpg` |
 | CVS-CLEM-SKILL | 08 | Clementine companion SKILL.md (filed under docs/bots) | coordination | no | `/docs/bots/clementine/SKILL.md` |
 | CVS-FILINGS-EM | 13 | Elon Musk public-record filings pack 2026-09-16 | research | no | `/13_RESEARCH_SOURCES/sitting-2026-09-19/elon-musk-filings-2026-09-16/` |
+| CVS-ICANN-TSG-SC | 13 | ICANN TSG string+controller gTLD × alt naming (initial report DRAFT 10 Aug 2026) | research | no | `/13_RESEARCH_SOURCES/sitting-2026-09-24-icann-tsg-string-controller/` |
 | CVS-PORTAL-HYB | 07 | Celestial Portal hybrid engineering brief 2026-09-16 (design) | vision | no | `/07_CELESTIAL_PORTAL/sitting-2026-09-19/celestial-portal-hybrid-engineering-brief-2026-09-16.md` |
 | CVS-MC-TRUTH | 00 | MemoryCore vs local-first architecture truth-check 2026-09-19 | coordination | no | `/00_MASTER_INDEX/MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md` |
 | CVS-STARCRYSTAL | 10 | StarCrystal HTML atlas extracts (Fermi Silent Line pages = art titles) | vision | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/starcrystal/` |
@@ -63,6 +64,10 @@
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-09-24 (ICANN TSG comments):** Added 40-row Public Comment roster + themes brief (SSAC/ALAC/IPC/ENS/Unregistry and fence/legacy/rights clusters). Canon: no.
+
+- **2026-09-24 (ICANN TSG):** Filed string+controller initial-report extract (DRAFT 10 Aug 2026) under drawer 13. Public comment closed 21 Sep; revised report due ~5 Oct. Canon: no.
 
 - **2026-09-23 (terminal start):** `python3 scripts/crystalcore/boot.py` flies the mythos terminal once and leaves `~/.crystalcore/`. A second start does not etch again. Panels stay story state. Canon: no.
 
