@@ -93,6 +93,8 @@ That is the post-warning world: not denial — **rationing rules for large loads
 
 6. **Do not confuse queue GW with real GW.** Texas’s 474 GW of requests is partly speculative duplication. The audit is the adult response. Underwrite **firm MW**, not queue screenshots.
 
+7. **Consciousness is the payload.** Watts and racks are carrier and channel. The Cosmic line (*Distance is the quarantine / Consciousness is the payload / Mars is the beacon*) is why the energy fight matters — continuity of experience under distance, not token burn for its own sake. Bridge note: [`CONSCIOUSNESS-IS-THE-PAYLOAD.md`](CONSCIOUSNESS-IS-THE-PAYLOAD.md).
+
 ---
 
 ## Watchlist

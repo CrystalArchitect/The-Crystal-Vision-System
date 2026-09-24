@@ -5,6 +5,7 @@ Research reaction to the energy–AI bottleneck, sparked by [@XFreeze](https://x
 | File | Role |
 | --- | --- |
 | [`REACTION.md`](REACTION.md) | Stance + evidence check + Crystal reaction |
+| [`CONSCIOUSNESS-IS-THE-PAYLOAD.md`](CONSCIOUSNESS-IS-THE-PAYLOAD.md) | Bridge: watts = carrier; Cosmic payload line |
 | [`raw/SOURCE-xfreeze-2103155118426218919.txt`](raw/SOURCE-xfreeze-2103155118426218919.txt) | Trigger post text |
 | [`raw/IEA-Key-Questions-Energy-and-AI-exec-summary.txt`](raw/IEA-Key-Questions-Energy-and-AI-exec-summary.txt) | IEA exec-summary extract |
 
