@@ -60,12 +60,15 @@
 | CVS-GROK-FOUND-SFOS | 14 | Grok found Starfleet OS Vision archive — find ≠ build | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-GROK-FOUND-STARFLEET-OS.md` |
 | CVS-GROK-GATE-0923 | 14 | Grok share First Gate — chat weight zero; terminal replay checked | fact | no | `/14_AI_INTERACTIONS/2026-09-23-GROK-SHARE-FIRST-GATE.md` |
 | CVS-CC-BOOT | 00 | Mythos terminal start — `scripts/crystalcore/boot.py` opens First Gate once | fact | no | `/scripts/crystalcore/boot.py` |
+| CVS-AGREE | 00 | Agreement workflow — plain Needs-Your-Yes + ledger | coordination | no | `/00_MASTER_INDEX/NEEDS-YOUR-YES.md` · `AGREEMENT-WORKFLOW.md` · `/scripts/agreement/` |
 | CVS-AHS-LEMURIA | 10 | AHS Lemuria terminal sandbox (Devouring Deep; Portal framing narrative) | vision | no | `/10_ORIGINAL_CREATIVE/ahs-lemuria/` · `/scripts/portal/boot_lemuria.py` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
+- **2026-09-24 (agreement plain read):** Added `NEEDS-YOUR-YES.md` + `status.py --plain` so Crystal need not read YAML. Canon: no.
+- **2026-09-24 (agreement workflow):** Ledger + `status.py` so Crystal can `AGREE`/`REJECT`/`CANON`/`INTERIM` by id. Separates proposed / interim / crystal_confirmed / canon / vision_only. Canon: no.
 - **2026-09-24 (AHS Lemuria docs):** Filed Working Index `CVS-AHS-LEMURIA` + sitting log; Escape path verified and documented. Canon: no.
 - **2026-09-24 (ICANN TSG integrate):** SYNTHESIS compass rolls report + Public Comment fights; PC overlay on checklist; cross-link sibling `icann-tsg-gtld-ans-2026`; Bird corrected as transition-without-entitlement. Canon: no.
 - **2026-09-24 (ICANN TSG deep extracts):** Per-submitter Depth A–C extracts + tension map (Fights A–D); adds estmcmxci TLD Oracle, Bird transition-plan middle path, Circleid ISPCP/MeitY hardening. Canon: no.

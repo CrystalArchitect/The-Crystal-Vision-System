@@ -3,7 +3,9 @@
 **Canon:** **no**  
 **Updated:** 2026-09-19  
 **Role:** Decision packets only — agents do **not** execute Drive creates, deletes, or renames. Crystal stamps / acts.  
-**Related:** [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), [`WORKING-INDEX.md`](WORKING-INDEX.md), [`MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md`](MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md)
+**Related:** [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), [`WORKING-INDEX.md`](WORKING-INDEX.md), [`MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md`](MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md), [`NEEDS-YOUR-YES.md`](NEEDS-YOUR-YES.md) (plain confirm list)
+
+To stamp a packet, reply `AGREE DEC-A` / `REJECT DEC-C` / `CANON DEC-B` (etc.). Agents update `agreement-ledger.yaml` after your reply — you do not need to edit YAML.
 
 ---
 
