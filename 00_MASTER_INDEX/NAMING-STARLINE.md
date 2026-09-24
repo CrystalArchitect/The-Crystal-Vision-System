@@ -1,66 +1,52 @@
-# Naming law — Starline
+# Starline — naming law
 
-**Canon:** **no** (operational for agents)  
-**Belt:** coordination  
-**Stamped:** 2026-09-19 · hub PR #32 / #59
+**For Crystal (and anyone filing).** Agents: follow this too.
 
 ---
 
-## One sentence
+## Say this
 
-**In this project, the name is Starline.** Use it for Consent Transport, the Starlines map thread, and the Starline Weaver. Do not put any other “line” brand-name in titles, components, APIs, tables, feature flags, or product copy.
+**Starline.**
 
-**Mnemonic (Crystal):** *We spread the bird, not the word.* The bird is the signal — golden feather / Starline carrier. The word is the forbidden brand-name. Carry the signal. Do not spread the word.
+That is the project name for:
 
----
-
-## What Starline is
-
-| Sense | Meaning |
-| --- | --- |
-| **Protocol** | Consent Transport (Noise IK) — P2P sovereign memory exchange |
-| **Mythos / map** | Starlines drawer (with Dreamlines) |
-| **Hub code** | Starline Weaver on the Alive Weave bus |
-
-Index: **`CVS-STARLINE`** in [`WORKING-INDEX.md`](WORKING-INDEX.md).
+- Consent Transport (the peer-to-peer memory exchange)
+- the Starlines map thread (with Dreamlines)
+- the Starline Weaver (the bus that carries labels between AIs)
 
 ---
 
-## What stays out (spread the bird, not the word)
+## Do not say this
 
-Living Indigenous Australian Country law and related custodial systems are **not** project modules, product names, or free metaphor stock. Homage only; never ownership; never runtime naming.
+Do **not** use the old brand-word that used to get mixed up with Starline — not in titles, not as a component, not in APIs, tables, feature flags, or new product copy.
 
-If older chat used a different word for *our* protocol or mythos thread, **rewrite that meaning to Starline** in anything this hub produces. Historical filed extracts may still contain legacy wording — do not copy that wording into new hub docs, APIs, or titles.
+Living Indigenous Country law stays with custodians. Homage only. Never a product module. Never free metaphor stock.
 
-Index fence (stable ID, not a live component): **`CVS-OOB-LINE`** → out of bounds · Canon **never** · see this file.
+**Crystal’s line:** *We spread the bird, not the word.*
 
----
+- **The bird** = the signal (golden feather / Starline carrier). That we spread.
+- **The word** = the forbidden brand-name. That we do not spread.
 
-## Agent checklist
-
-- [ ] Hub titles, bots, weave seats, docs → **Starline**
-- [ ] Never promote a forbidden legacy label to a live WORKING-INDEX component
-- [ ] Never put Dreamtime / Tjukurrpa / custodial Country terms in API paths, tables, or feature flags
-- [ ] Fermi's Silent Line / creative “line” titles are **Starline family** art — not a CVS component
-- [ ] Connection ≠ merge still holds
+If an old chat used the wrong word to mean *our* protocol, rewrite it to **Starline** in anything new this hub writes. Old filed extracts may still have the old word — leave them; do not copy that wording into new docs.
 
 ---
 
-## Where Starline is pointed from
+## Quick rules
 
-| Path | Role |
-| --- | --- |
-| [`WORKING-INDEX.md`](WORKING-INDEX.md) | `CVS-STARLINE` (+ out-of-bounds fence ID) |
-| [`ALIVE-WEAVE.md`](ALIVE-WEAVE.md) §6 | Out of bounds → this file |
-| [`CONNECTED-SYSTEM.md`](CONNECTED-SYSTEM.md) | Filing rules |
-| [`../STRUCTURE.md`](../STRUCTURE.md) | Repo structure rules |
-| [`../README.md`](../README.md) | Root filing + naming |
-| [`../memory/CORE.md`](../memory/CORE.md) | Load-first do-nots |
-| [`../memory/INDEX.md`](../memory/INDEX.md) | Starline row |
-| [`../memory/README.md`](../memory/README.md) | Protocol startup |
-| [`../memory/DECISIONS.md`](../memory/DECISIONS.md) | Dated naming decision |
-| [`../docs/BOT-STRUCTURE.md`](../docs/BOT-STRUCTURE.md) | Out-of-bounds → this file |
-| [`../docs/LEDGER.md`](../docs/LEDGER.md) | Starline ledger row |
-| [`../docs/PASTE-THIS.md`](../docs/PASTE-THIS.md) | Paste card |
+1. New hub text → **Starline**
+2. No alternate “line” brand-names for this thread
+3. No Dreamtime / Tjukurrpa / Country-law terms in API paths or feature flags
+4. Creative titles like *Fermi’s Silent Line* are art in the Starline family — not a software component
+5. Connection ≠ merge still holds (Starline does not swallow CrystalCore)
+
+---
+
+## Where to point AIs
+
+Paste card: [`docs/PASTE-THIS.md`](../docs/PASTE-THIS.md)  
+Index row: `CVS-STARLINE` in [`WORKING-INDEX.md`](WORKING-INDEX.md)  
+Out-of-bounds fence ID: `CVS-OOB-LINE` (never a live component)
+
+Also linked from: root README, STRUCTURE, memory CORE/INDEX, Alive Weave, Connected System, bot structure, ledger.
 
 *Non Solus.*
