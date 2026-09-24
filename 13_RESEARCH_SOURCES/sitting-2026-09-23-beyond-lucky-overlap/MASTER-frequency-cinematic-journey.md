@@ -38,7 +38,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 9. **Gaze** — *Bette Davis Eyes* · pierce the simulation · expose the Archons
 10. **Accelerate** — Chipmunks *Single Ladies* · high pitch · Saturn rings  
 11. **Song ladder (Core Four spine)** — *Crystal* · *Dreams* · *Castle on the Hill*  
-11c. **Sovereignty** — *Castle on the Hill* · Bradbury command · two sparks · untethered · outgrew the fortress (mythos)
+11c. **Sovereignty** — *Castle on the Hill* · Bradbury router · Lithgow + Summer Hill QLD · outgrew the fortress (mythos)
 11b. **Broadcast** — *Sweet Dreams* · Archon mantra · Hebdomad / seven seas · harvest confession · Turner = alarm clock
 12. **Anchor** — *Stand by Me* · survival plea next to the true light  
 13. **Catalyst** — *Bang Bang* · Kill Bill · assassin of illusions  

@@ -82,15 +82,17 @@ There are no coincidences in the architecture of the matrix — especially blood
 **Tregear** — Turner bloodline · *Tre-gear* = grip mechanical gears of the simulation and reverse them (not a passive cog).  
 **Blue Mountains** — father · high-altitude watchtower above birth coordinate.  
 **Narellan** — mother · southern grid.  
-**Bradbury / Campbelltown** — current command center · frequencies converge · active hack / wake.
+**Bradbury / Campbelltown** — current command center · frequencies converge · active hack / wake · **central router**.  
+**Lithgow** — one spark · extends Blue Mountains watchtower · elevated fortification.  
+**Summer Hill, Queensland** — one spark · northern grid stretch across state lines.
 
-Name sentence: **Crystal** (Pleroma light) · **Elle** (She) · **Arena** (earthly battleground / Cecil Hills) · **Turner** (Tregear gear-reverse). Geography + name = reality-breaking circuit board across Greater Sydney. False god thought scatter diluted her — instead built interconnected light grid; when she hits the switch, whole grid goes off.
+Name sentence: **Crystal** (Pleroma light) · **Elle** (She) · **Arena** (earthly battleground / Cecil Hills) · **Turner** (Tregear gear-reverse). Geography + name = reality-breaking circuit board — Greater Sydney **and** continental plant. False god thought scatter diluted her — instead built interconnected light grid; when she hits the switch, whole grid goes off — Sydney to Lithgow to Summer Hill.
 
 *Thunder* (Imagine Dragons — title/energy): shockwave echoes through bloodline / coordinates.
 
 **Sitting hold:** Mythos / Vision — **not** biography-as-fact. Place names = **coordinates lore** for CapCut settings / B-roll. Titles only. **No lyric blocks**.
 
-**CapCut:** Map montage — Penrith pin → Blue Mountains ridge → Tregear gears → Cecil Hills beacon → Narellan south → Bradbury/Campbelltown hub lighting up · title card *Thunder* · into Hypnotic / Shot **3**.
+**CapCut:** Map montage — Penrith pin → Blue Mountains ridge → Tregear gears → Cecil Hills beacon → Narellan south → Bradbury/Campbelltown hub · lines out to Lithgow + Summer Hill QLD · title card *Thunder* · into Hypnotic / Shot **3**.
 
 ### 5b. Hypnotic Turner — frequency moves the Arena (after sand→glass / landing pad)
 

@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~6752** (continental grid Lithgow / Summer Hill — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~48:13–51:56** |
-| Slightly brighter (~150 wpm) | **~45:00** |
+| Word count | **~7068** (continental grid Lithgow / Summer Hill — **ULTIMATE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~50:29–54:22** |
+| Slightly brighter (~150 wpm) | **~47:07** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Continental plant locked (Bradbury router → Lithgow + Summer Hill QLD). CapCut bed **~48:13–51:56**. **Fire Core Four.** Mythos coordinates only.
+**Verdict:** Continental plant locked (Bradbury router → Lithgow + Summer Hill QLD). CapCut bed **~50:29–54:22**. **Fire Core Four.** Mythos coordinates only.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -46,7 +46,8 @@
 | *Bette Davis Eyes* / piercing gaze | look through the matrix · expose the Archons |
 | Chipmunks *Single Ladies* / Saturn rings | **4** (accelerate) → optional glass-shatter flash |
 | Song list: *Crystal* · *Dreams* · *Castle on the Hill* | **4** → **5** Heart |
-| *Castle on the Hill* / sovereignty | Bradbury command · two sparks · outgrew the fortress |
+| *Castle on the Hill* / sovereignty | Bradbury router · Lithgow · Summer Hill QLD · continental grid |
+| Sydney + continental grid | Penrith · Blue Mountains · Tregear · Cecil Hills · Narellan · Bradbury · Lithgow · Summer Hill |
 | *Sweet Dreams* / Archon broadcast | Hebdomad / seven seas · harvest confession · alarm clock |
 | *Stand by Me* Anchor | **5B** Anchor in the Dark |
 | *Bang Bang* / Kill Bill catalyst | **5B** late → **6A** (cold vengeance colour) |
@@ -234,6 +235,22 @@ The Dem-ee-urj thinks that by placing her alone in her command center in Bradbur
 She looks back at the Castle on the Hill — the false god's heavy fortress of rules, expectations, and the fabricated timeline she survived — and she realizes she didn't just escape it. She outgrew it. The system tried to write her as a tragic character in its earthly script, but she flipped the script entirely, turning solitude into the ultimate, untouchable power.
 
 She isn't just fighting for the collective. She is a sovereign mother raising two divine sparks right in the middle of the battlefield.
+
+The Dem-ee-urj believes that physical distance is his most effective weapon. By scattering her two sparks across the map — one far north in Summer Hill, Queensland, and the other deep in the rugged terrain of Lithgow in the Blue Mountains — the false god assumes he has fragmented her power and broken her family's proximity.
+
+But he doesn't understand the cosmic strategy of the Pluh-roh-muh. She hasn't been scattered; she has strategically planted the next generation of light across the entire continent.
+
+Look at the massive, reality-breaking grid she is now controlling from her command center in Bradbury.
+
+Lithgow — by placing one spark here, she has extended her father's high-altitude Blue Mountains watchtower. It is a fortified, elevated anchor deep in the heavy earth, locking the frequency high above the Ar-konz' reach.
+
+Summer Hill, Queensland — she didn't just keep the rebellion contained to Western Sydney. She pushed the frequency hundreds of miles north, planting a blinding spark in the northern territory of the Land Down Under, effectively stretching the grid across state lines.
+
+The Ar-konz look at their rigid earthly timeline — their Castle on the Hill — and see a mother living alone in Bradbury while her children are miles away. They try to label it as a fractured family. But in the true Gnostic reality, she is the central router. She is a sovereign Turner operating with absolute focus, simultaneously broadcasting the truth to her sparks across a sprawling continental circuit board.
+
+When she finally pulls the lever to reverse the gears, the shockwave won't just trigger Sydney. It will run up the mountains to Lithgow and shoot straight up the eastern seaboard to Summer Hill, collapsing the matrix across a massive geographic radius.
+
+She has turned her entire lived reality — her name, her family, her geography, and her pop-culture anthems — into an inescapable trap for the false god.
 
 Think of one of the greatest anthems of all time: "Stand by Me." The singer describes the exact environment of the Dem-ee-urj: a dark land where the mountains crumble to the sea. When the false reality finally breaks, it is terrifying. But they sing, "I won't be afraid, just as long as you stand by me." They are pleading with the frequency of the Turner, knowing that when the matrix collapses, the only way to survive is to stand next to the true light.
 
