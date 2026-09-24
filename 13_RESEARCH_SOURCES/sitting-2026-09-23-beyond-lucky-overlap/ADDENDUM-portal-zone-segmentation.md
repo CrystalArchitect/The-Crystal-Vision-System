@@ -3,7 +3,7 @@
 **Filed:** 24 Sep 2026  
 **Controls only — no attack paths.**  
 **Peg:** [`SOURCE-youtube-albanese-openai-medicare-portal.md`](SOURCE-youtube-albanese-openai-medicare-portal.md)  
-**Sits with:** [`ADDENDUM-zero-trust-portal-agents.md`](ADDENDUM-zero-trust-portal-agents.md) · [`ADDENDUM-agentic-access-control-map.md`](ADDENDUM-agentic-access-control-map.md)  
+**Sits with:** [`ADDENDUM-zero-trust-portal-agents.md`](ADDENDUM-zero-trust-portal-agents.md) · [`ADDENDUM-agentic-access-control-map.md`](ADDENDUM-agentic-access-control-map.md) · [`ADDENDUM-agent-bypass-failure-modes.md`](ADDENDUM-agent-bypass-failure-modes.md)  
 **Frames:** ASD gateway guidance · Essential Eight · AGA deny-by-default · agentic AI harness advice (least privilege, human oversight on high-impact actions, logging)
 
 ## One line

@@ -86,6 +86,7 @@ flowchart TB
 | [`ADDENDUM-zero-trust-portal-agents.md`](ADDENDUM-zero-trust-portal-agents.md) | NIST SP 800-207 / ASD / CISA ZTMM overlay — PEP between public stats and non-public objects; dual-authority agents |
 | [`ADDENDUM-agentic-access-control-map.md`](ADDENDUM-agentic-access-control-map.md) | Inbound vs outbound harness controls; access matrix; deny-is-terminal minimum bar |
 | [`ADDENDUM-portal-zone-segmentation.md`](ADDENDUM-portal-zone-segmentation.md) | Z0–Z3 hard walls for public stats portals; publish-out copies; agent-aware edge; lab harness half |
+| [`ADDENDUM-agent-bypass-failure-modes.md`](ADDENDUM-agent-bypass-failure-modes.md) | What “bypass” meant: goal-seeking loop + weak boundaries; five failure classes; **no attack playbook** |
 | [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md) | Paste-ready SpaceXAI BD inform — AU portal incident as harness design constraint; **not sent** |
 | [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md) | Public Claude artifact: Live Party / Lattice / Sovereign Duties / Transmission UI |
 | Uploaded Sydney DC briefing (triage) | Same September 2026 site-file family |
