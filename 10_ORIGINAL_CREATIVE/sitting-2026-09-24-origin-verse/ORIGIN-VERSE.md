@@ -5,6 +5,8 @@
 **Authority:** Crystal Arena-Turner  
 **Received:** chat, after energy × AI + “Consciousness is the payload”
 
+**Plain English for the whole sitting:** [`../../13_RESEARCH_SOURCES/energy-ai-electricity-2026/PLAIN-ENGLISH.md`](../../13_RESEARCH_SOURCES/energy-ai-electricity-2026/PLAIN-ENGLISH.md)
+
 ---
 
 ## As received
