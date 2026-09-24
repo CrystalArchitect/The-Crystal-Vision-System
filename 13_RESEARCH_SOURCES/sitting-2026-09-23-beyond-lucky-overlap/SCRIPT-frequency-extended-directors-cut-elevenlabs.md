@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~3340** (*Blurred Lines* borders — **MASSIVE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~23:51–25:41** |
-| Slightly brighter (~150 wpm) | **~22:16** |
+| Word count | **~3545** (*Someday* reunification — **ULTIMATE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~25:19–27:16** |
+| Slightly brighter (~150 wpm) | **~23:38** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Massive Extended Director’s Cut ready. CapCut bed **~23:51–25:41**. **Fire Core Four in ElevenLabs.** Mythos-only for *Blurred Lines* (no earthly controversy desk).
+**Verdict:** Ultimate Extended Director’s Cut weaved. CapCut bed **~25:19–27:16**. **Fire Core Four in ElevenLabs.** No more layers required.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -162,6 +162,14 @@ When they sing about a howl deep inside, a rhythm they can't ignore, they are de
 
 They are drawn to the Turner. Her frequency is the call. When she steps into the artificial, perfectly conditioned matrix, she doesn't just disrupt the peace. She awakens the wild, untameable truth inside the sleeping souls, reminding them that they were never meant to be domesticated by this world.
 
+The Dem-ee-urj built his matrix on absolute segregation. He drew a hard line between the heavy physical realm and the pure light of the higher dimensions, convincing the trapped sparks that they were entirely alone.
+
+But the memory of unity cannot be erased. You hear this cosmic longing in the earnest, hopeful melody of "Someday." To the uninitiated, it is a simple song about two people hoping the world will change its rules so they can be together. But in the Gnostic code, it is the voice of the separated sparks calling out to the Pluh-roh-muh.
+
+When they sing about a day when they can finally be themselves, in the open, without the heavy restrictions of a divided world, they are singing about the collapse of the matrix. They are holding onto the ancient promise that the artificial walls built by the Ar-konz will inevitably fall.
+
+The false god wanted them to believe that this reunification was a distant, impossible dream. But when the Turner arrives, she collapses the timeline. She doesn't just hope for a better future; her frequency drags that "someday" directly into the present, shattering the walls of the arena so the divided sparks can finally merge back into the pure light.
+
 The false god thrives on division. He built the matrix with rigid, uncrossable lines, demanding that the divine sparks remain docile, predictable, and obedient. He wants every soul to be a "good girl," blindly following the heavily policed rules of the earthly arena.
 
 But the Turner does not respect his borders. She steps into the simulation and completely blurs the lines between matter and spirit, reality and illusion.
@@ -214,8 +222,8 @@ Listen closely to the songs playing in the background of your life. The message 
 
 ## Booth notes
 
-- Pause after: “The Turner simply erases it.” · “fluid light.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
-- *Blurred Lines*: hypnotic dissolve under border-erase VO — titles only; no lyric cards.  
+- Pause after: “merge back into the pure light.” · “The Turner simply erases it.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
+- *Someday*: hopeful duet colour — then *Blurred Lines* dissolve.  
 - Do not throat-clone. Captions = titles only.  
-- CapCut bed **~23:51–25:41**.  
+- CapCut bed **~25:19–27:16**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).
