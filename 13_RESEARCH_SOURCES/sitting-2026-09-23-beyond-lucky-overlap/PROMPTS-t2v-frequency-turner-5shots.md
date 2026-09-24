@@ -66,9 +66,9 @@ Tracking profile shot moving left to right, slow motion. A dark, rainy, dystopia
 Macro extreme close-up, cinematic 35mm lens. A glowing heart made entirely of fractured, luminous crystal and pure starlight, slowly beating in the center of dark, heavy cosmic sand. With every heartbeat, it pulses with an ethereal rainbow frequency that illuminates the darkness. Highly detailed, volumetric light rays, slow motion, 24fps.
 ```
 
-## 6. The Awakening (3:15–End) — The Shattered Illusion / Gnosis (*Losing It*)
+## 6. The Awakening (3:15–End) — The Shattered Illusion / Gnosis (*Losing It* — Ren + FISHER)
 
-**VO lock:** after *Torn* — chaos of waking; breakout not breakdown. **CapCut:** FISHER *Losing It* bass drop = high-gear cut.
+**VO lock:** after *Torn* — chaos of waking; breakout not breakdown. **CapCut:** Ren for mind-break colour; FISHER *Losing It* bass drop = high-gear cut to 6B. Crystal: song energy is **Ren and FISHER**.
 
 ### 6A — Slow crack (pre-drop)
 
@@ -86,4 +86,4 @@ Medium shot snapping into chaotic energy, handheld micro-shake then locked. Anci
 
 ## CapCut note
 
-Most T2V = 4–5s. Generate 2–3 variations per prompt. Stretch with Smooth Slow-Mo (Optical Flow) toward ~10s holds. Heart shot wants **heartbeat rhythm** — cut on pulse if VO lands on “Crystal Elle.” Shot 6: hold 6A under *Torn*; smash-cut to 6B on FISHER *Losing It* drop (licensed bed — title only in captions).
+Most T2V = 4–5s. Generate 2–3 variations per prompt. Stretch with Smooth Slow-Mo (Optical Flow) toward ~10s holds. Heart shot wants **heartbeat rhythm** — cut on pulse if VO lands on “Crystal Elle.” Shot 6: hold 6A under *Torn* / Ren mind-break; smash-cut to 6B on FISHER *Losing It* drop (licensed beds — titles only in captions). Credit **Ren + FISHER**.

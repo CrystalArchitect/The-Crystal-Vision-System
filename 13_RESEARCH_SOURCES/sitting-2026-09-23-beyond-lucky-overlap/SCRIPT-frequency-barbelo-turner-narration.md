@@ -27,9 +27,9 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Turner | She walks matter as starlight; crowd frozen | **4 Starlight woman** (2:30–2:55) |
 | Heart / spark | Divine spark · 29 Sep 1991 · Crystal Elle | **5 Crystal heart** in cosmic sand (2:55–3:15) |
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
-| Gnosis (*Losing It*) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + bass drop |
+| Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Torn* · *Losing It* (FISHER — energy bed) · *Belly Dancer* (Akon — title/energy only, optional bed) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -52,7 +52,7 @@ Even the way she moves is a celestial disruption. Think of the hypnotic rhythm o
 6. Artists reach with eyes closed — past the Demiurge’s logical mind.  
 7. Title pegs: *Crystal* · *Dreams* · *Castle on the Hill* · *Torn* (veil drop — **title card / no lyric paste**).  
 
-### 7b. After *Torn* — Gnosis / *Losing It* (climax insert)
+### 7b. After *Torn* — Gnosis / *Losing It* (Ren + FISHER)
 
 And then comes the ultimate breaking point. The moment of Gnosis.
 
@@ -64,7 +64,9 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 8. Close: what if you are the frequency the room is tuning toward? Listen again.
 
-**Public cut:** *Torn* / *Losing It* = titles + licensed bed / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
+**Public cut:** *Torn* / *Losing It* (Ren + FISHER) = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
+
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Both credited — Crystal correction 24 Sep.
 
 ---
 
@@ -74,6 +76,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | --- | --- |
 | Sand→glass / Hypnotic VO | Shot **3B** belly dancer · optional *Belly Dancer* bed |
 | *Torn* beat | Title card / soft crack starts on Shot 6 |
+| Ren *Losing It* / related | Mind-break VO colour under 6A → 6B |
 | FISHER *Losing It* **bass drop** | Hard cut / speed ramp — wall explodes with god-rays (Shot 6B) |
 | “Crystal Elle” (if echoed) | Optional flash of Shot 5 heart pulse under the drop |
 
