@@ -55,6 +55,7 @@
 - YouTube Live — Rossen Reports apps spying / phone privacy hygiene: [`SOURCE-youtube-rossen-apps-spying-xa43v8ijdfi.md`](SOURCE-youtube-rossen-apps-spying-xa43v8ijdfi.md) · https://www.youtube.com/live/xa43V8iJDfI  
 - YouTube Live — Rossen Reports stop-doing-this-on-phone hygiene: [`SOURCE-youtube-rossen-stop-phone-yvupgso6lca.md`](SOURCE-youtube-rossen-stop-phone-yvupgso6lca.md) · https://www.youtube.com/live/YVupgSo6lCA  
 - X — XFreeze / Wells Fargo Starlink ~47M users by 2028 forecast: [`SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md`](SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md) · https://x.com/XFreeze/status/2103149628011217228  
+- X — HowToPrompt / IBM retriever vs RAG (65× claim — unverified): [`SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md`](SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md) · https://x.com/HowToPrompt__/status/2103153354755248489  
 - ABC IN FULL — Albanese announces OpenAI agent / Medicare stats portal (Jun 2026 → 24 Sep announce): [`SOURCE-youtube-albanese-openai-medicare-portal.md`](SOURCE-youtube-albanese-openai-medicare-portal.md)  
 - Zero Trust overlay (NIST / ASD / CISA → portal + agents): [`ADDENDUM-zero-trust-portal-agents.md`](ADDENDUM-zero-trust-portal-agents.md)  
 - Agentic access control map (inbound + outbound harness): [`ADDENDUM-agentic-access-control-map.md`](ADDENDUM-agentic-access-control-map.md)  
@@ -118,6 +119,7 @@
 - X / XFreeze Musk US–China trade “conjoined twins”: [`SOURCE-x-xfreeze-musk-trade-twins.md`](SOURCE-x-xfreeze-musk-trade-twins.md)
 - X / XFreeze Musk broad education in age of AI: [`SOURCE-x-xfreeze-musk-education-ai.md`](SOURCE-x-xfreeze-musk-education-ai.md)
 - X / XFreeze Wells Fargo Starlink ~47M users / $50B+ by 2028: [`SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md`](SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md)
+- X / HowToPrompt IBM retriever vs RAG hallucinations (claim unverified): [`SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md`](SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md) · https://x.com/HowToPrompt__/status/2103153354755248489
 - X / AIHegemonyMemes SWF→LLM prophecy + GHI remake draft: [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) · [`DRAFT-ghi-from-aihegemony-grammar.md`](DRAFT-ghi-from-aihegemony-grammar.md)
 - Dream-RSI (Google/DeepMind — dream = replay history, not sleep): [`SOURCE-dream-rsi-landscape.md`](SOURCE-dream-rsi-landscape.md)  
 - **Dream Learning capability draft** (wanted learning path): [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md)  
