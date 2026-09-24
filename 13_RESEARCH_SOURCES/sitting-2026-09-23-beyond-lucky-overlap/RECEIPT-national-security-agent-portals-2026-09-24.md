@@ -1,18 +1,24 @@
 # RECEIPT — National security: agent harnesses × government portals
 
-**Sent:** 24 Sep 2026 · ~05:14 UTC  
-**Desk:** one · national-security escalate (after protect-people)  
+**Desk:** national-security escalate  
 **Draft:** [`RELEASE-DRAFT-national-security-agent-portals.md`](RELEASE-DRAFT-national-security-agent-portals.md)  
 **Doctrine:** [`POSITION-national-security-agent-portals.md`](POSITION-national-security-agent-portals.md)
 
 ---
 
-## What went out
+## Send log
 
-**Channel:** Slack `#general` (TerAustralis Incognita)  
+### 1) Slack `#general` — ~05:14 UTC — **internal echo only**
+
+**Channel:** Slack `#general` (1 member = Crystal)  
 **Message link:** https://teraustralisincognita.slack.com/archives/C0C2A6FK3PZ/p1790226849922259  
 **message_ts:** `1790226849.922259`  
-**channel_id:** `C0C2A6FK3PZ`
+
+Not public. Not national distribution.
+
+### 2) Human Gmail — ~06:13 UTC — **self / own inboxes**
+
+**Path:** Crystal sent from Google Mail (Safari) to **own Gmail addresses** after Cursor MCP OAuth failed (`Error 400: invalid_request` on `cursor://anysphere.cursor-mcp/oauth/callback`; phone + Lockdown).
 
 **Text used:** X / single (primary)
 
@@ -28,24 +34,21 @@ Notify starts at access — not at the press conference.
 www.teraustralis.com.au
 ```
 
+**Scope:** left the agent echo — now in **Crystal’s email**. Still **not** public X, press, labs, ASD path, or SpaceXAI BD unless those addresses were on the To: line (confirm: self-inboxes).
+
 ---
 
-## Honest scope (corrected)
+## Still open
 
-**Audience reached:** **Crystal only.** Slack `#general` = 1 member. **Not** national distribution. Re-label: **internal echo only.**
-
-## Channels not used this send
-
-| Channel | Result |
+| Channel | Status |
 |---------|--------|
-| X (@XECrystal) | Still no create-post MCP; browser login wall |
-| Gmail | Prior auth timeout this sitting |
-| LinkedIn | no connector |
-| Public / press / labs / ASD path | **not reached** |
-| SpaceXAI BD inform | **held** — peer channel, not glued to public national-security desk |
+| X (@XECrystal) public post | **needed** for “everyone” / algorithm surface |
+| SpaceXAI peer inform | **held** — separate desk; use [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md) |
+| Cursor Gmail MCP | **blocked** — Google OAuth policy / mobile Safari redirect |
 
 ---
 
 ## After
 
-External send still required. SpaceXAI inform remains a separate human/email send when channel works.
+If X post goes up: paste link → file external public receipt.  
+Do not treat self-email alone as national distribution complete.
