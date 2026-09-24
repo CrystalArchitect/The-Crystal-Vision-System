@@ -30,7 +30,15 @@ A dated **status / prior-art ledger** under the Incognita Rule (“no dreamed li
 | Ask | Technical review / partnership; verify at proposal package, live site, **github.com/CrystalArchitect** |
 | Prior art | Concedes crowded local-first companion field; claims narrower runtime governance layer only |
 
-Screenshots:  
+## Durable body (have the artefact)
+
+| Copy | Path |
+| --- | --- |
+| Sitting MD | [`artefacts/claude-NtXjmL4yYGCDSosxgszjxA-what-is-built.md`](artefacts/claude-NtXjmL4yYGCDSosxgszjxA-what-is-built.md) |
+| Sitting HTML | [`artefacts/claude-NtXjmL4yYGCDSosxgszjxA-what-is-built.html`](artefacts/claude-NtXjmL4yYGCDSosxgszjxA-what-is-built.html) |
+| Proposal / publications | `archive/TerAustralis-Proposal/13-WHAT-IS-BUILT.md` · `12_PUBLICATIONS/sitting-2026-09-19/13-what-is-built.html` |
+
+Screenshots (prior agent VM — **absent on this node**):  
 `/opt/cursor/artifacts/screenshots/claude-artifact-ntxj-what-is-built.webp`  
 `/opt/cursor/artifacts/screenshots/claude-artifact-ntxj-what-is-built-stats.webp`
 

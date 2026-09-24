@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Protocol Omega — a personal boundaries practice and ledger.">
+<title>Protocol Omega</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    --paper: #ECE8DE;
+    --paper-raised: #F5F2E9;
+    --ink: #26281F;
+    --ink-soft: #5B5C4E;
+    --line: #C6C0AC;
+    --verdigris: #3F6E5B;
+    --verdigris-soft: #E1E9DF;
+    --ochre: #A6632E;
+    --ochre-soft: #F0E2D3;
+    --shadow: 0 1px 0 rgba(38,40,31,0.06);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #1C1E19;
+      --paper-raised: #24261F;
+      --ink: #E9E5D6;
+      --ink-soft: #A9A594;
+      --line: #3B3D33;
+      --verdigris: #74AC91;
+      --verdigris-soft: #23302A;
+      --ochre: #D08C52;
+      --ochre-soft: #332A20;
+      --shadow: 0 1px 0 rgba(0,0,0,0.3);
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #1C1E19;
+    --paper-raised: #24261F;
+    --ink: #E9E5D6;
+    --ink-soft: #A9A594;
+    --line: #3B3D33;
+    --verdigris: #74AC91;
+    --verdigris-soft: #23302A;
+    --ochre: #D08C52;
+    --ochre-soft: #332A20;
+    --shadow: 0 1px 0 rgba(0,0,0,0.3);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 16.5px;
+    line-height: 1.6;
+    padding-inline: 20px;
+    padding-block: 40px 80px;
+  }
+  .wrap { max-width: 700px; margin: 0 auto; }
+
+  .eyebrow {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 11.5px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--verdigris);
+    font-weight: 500;
+    margin: 0 0 6px;
+  }
+  h1, h2, h3 { font-family: 'Zilla Slab', Georgia, serif; text-wrap: balance; margin: 0; }
+  h1 { font-size: 30px; font-weight: 700; letter-spacing: -0.01em; }
+  h2 { font-size: 19px; font-weight: 600; }
+
+  header.masthead {
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  header.masthead .eyebrow { display: block; text-align: center; }
+  header.masthead p.sub {
+    color: var(--ink-soft);
+    font-size: 14.5px;
+    max-width: 46ch;
+    margin: 10px auto 0;
+  }
+
+  /* Benchmark plaque */
+  .plaque {
+    background: var(--paper-raised);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+    padding: 28px 30px;
+    margin-bottom: 44px;
+    position: relative;
+  }
+  .plaque::before {
+    content: '';
+    position: absolute;
+    inset: 8px;
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    pointer-events: none;
+    opacity: 0.6;
+  }
+  .plaque-inner { position: relative; }
+  .plaque .eyebrow { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+  .plaque .eyebrow span:last-child { color: var(--ink-soft); }
+  .statement {
+    font-size: 18px;
+    line-height: 1.7;
+    margin: 14px 0 22px;
+  }
+  .statement em { font-style: italic; color: var(--verdigris); }
+
+  .mark-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    padding-top: 18px;
+    border-top: 1px dashed var(--line);
+  }
+  button {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 12.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid var(--verdigris);
+    background: var(--verdigris);
+    color: var(--paper-raised);
+    padding: 10px 16px;
+  }
+  button:hover { filter: brightness(1.08); }
+  button:focus-visible, a:focus-visible, select:focus-visible, textarea:focus-visible, input:focus-visible {
+    outline: 2px solid var(--verdigris);
+    outline-offset: 2px;
+  }
+  button.witnessed {
+    background: transparent;
+    color: var(--verdigris);
+    cursor: default;
+  }
+  button.witnessed:hover { filter: none; }
+  button:disabled { opacity: 0.55; cursor: not-allowed; }
+  .streak {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 12.5px;
+    color: var(--ink-soft);
+  }
+  .streak b { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+  /* Sections */
+  .stations { margin-bottom: 40px; }
+  .station {
+    border-top: 1px solid var(--line);
+    padding-block: 22px;
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    gap: 4px 16px;
+  }
+  .station:last-child { border-bottom: 1px solid var(--line); }
+  .station .num {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 12px;
+    color: var(--ink-soft);
+    padding-top: 4px;
+  }
+  .station .body { min-width: 0; }
+  .station h2 { margin-bottom: 4px; }
+  .station .hint { color: var(--ink-soft); font-size: 14px; margin: 0 0 12px; max-width: 60ch; }
+
+  .field-row { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+  .field { flex: 1 1 160px; display: flex; flex-direction: column; gap: 5px; }
+  .field.wide { flex-basis: 100%; }
+  label.small {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  input[type="text"], select, textarea {
+    font-family: 'Source Serif 4', Georgia, serif;
+    font-size: 15px;
+    color: var(--ink);
+    background: var(--paper-raised);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 9px 11px;
+    width: 100%;
+  }
+  textarea { resize: vertical; min-height: 64px; line-height: 1.55; }
+  select { font-family: 'IBM Plex Mono', ui-monospace, monospace; font-size: 13px; }
+
+  .submit-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 6px;
+    flex-wrap: wrap;
+  }
+  .submit-note { font-size: 13px; color: var(--ink-soft); }
+  .submit-note.ok { color: var(--verdigris); }
+
+  /* Ledger */
+  .ledger-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 14px;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .ledger-empty {
+    color: var(--ink-soft);
+    font-size: 14.5px;
+    border: 1px dashed var(--line);
+    border-radius: 4px;
+    padding: 18px 20px;
+  }
+  .entry {
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    background: var(--paper-raised);
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .entry-row {
+    display: grid;
+    grid-template-columns: 14px 92px 1fr auto;
+    align-items: center;
+    gap: 14px;
+    padding: 13px 14px;
+    cursor: pointer;
+  }
+  .entry-row:hover { background: var(--verdigris-soft); }
+  .tab { width: 8px; height: 8px; border-radius: 50%; background: var(--ink-soft); }
+  .tab.lingering { background: var(--verdigris); }
+  .tab.core { background: var(--ochre); }
+  .entry-date {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 12px;
+    color: var(--ink-soft);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+  .entry-excerpt {
+    font-size: 14.5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-width: 0;
+  }
+  .entry-toggle {
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 11px;
+    color: var(--ink-soft);
+  }
+  .entry-detail {
+    border-top: 1px solid var(--line);
+    padding: 16px 18px 18px 46px;
+    display: none;
+  }
+  .entry.open .entry-detail { display: block; }
+  .entry.open .entry-toggle::before { content: '\2212\00A0close'; }
+  .entry-toggle::before { content: '\002B\00A0open'; }
+  .detail-block { margin-bottom: 14px; }
+  .detail-block:last-child { margin-bottom: 0; }
+  .detail-block .small { display: block; margin-bottom: 4px; }
+  .detail-block p { margin: 0; font-size: 14.5px; white-space: pre-wrap; }
+  .detail-meta { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 14px; font-size: 13px; color: var(--ink-soft); font-family: 'IBM Plex Mono', ui-monospace, monospace; }
+
+  .db-note {
+    font-size: 13px;
+    color: var(--ochre);
+    background: var(--ochre-soft);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 10px 14px;
+    margin-bottom: 20px;
+    display: none;
+  }
+  .db-note.show { display: block; }
+
+  footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 11.5px;
+    color: var(--ink-soft);
+    text-align: center;
+  }
+
+  @media (max-width: 480px) {
+    .station { grid-template-columns: 1fr; }
+    .station .num { padding-top: 0; }
+    .entry-row { grid-template-columns: 10px 1fr auto; }
+    .entry-date { display: none; }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .plaque { animation: settle 0.5s ease-out; }
+    @keyframes settle { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+  }
+</style>
+
+<script>
+/* Standalone localStorage adapter (replaces Claude artifact db capability) */
+window.__omegaLocalDb = (function () {
+  var PREFIX = 'protocol-omega:v1:';
+  function load(key, fallback) {
+    try {
+      var raw = localStorage.getItem(PREFIX + key);
+      return raw ? JSON.parse(raw) : fallback;
+    } catch (e) { return fallback; }
+  }
+  function save(key, val) {
+    localStorage.setItem(PREFIX + key, JSON.stringify(val));
+  }
+  function makeSnapDocs(items) {
+    return items.map(function (item) {
+      return {
+        id: item.id,
+        data: function () { return item.data; }
+      };
+    });
+  }
+  function collection(name) {
+    return {
+      orderBy: function (field, dir) {
+        return {
+          limit: function (n) {
+            return {
+              get: function () {
+                var items = load(name, []);
+                items = items.slice().sort(function (a, b) {
+                  var av = a.data[field], bv = b.data[field];
+                  if (av === bv) return 0;
+                  if (dir === 'desc') return av < bv ? 1 : -1;
+                  return av > bv ? 1 : -1;
+                }).slice(0, n);
+                return Promise.resolve({ docs: makeSnapDocs(items) });
+              },
+              onSnapshot: function (ok, err) {
+                try {
+                  var items = load(name, []);
+                  items = items.slice().sort(function (a, b) {
+                    var av = a.data[field], bv = b.data[field];
+                    if (av === bv) return 0;
+                    if (dir === 'desc') return av < bv ? 1 : -1;
+                    return av > bv ? 1 : -1;
+                  }).slice(0, n);
+                  ok({ docs: makeSnapDocs(items) });
+                } catch (e) { if (err) err(e); }
+                return function () {};
+              }
+            };
+          }
+        };
+      },
+      add: function (body) {
+        var items = load(name, []);
+        var id = 'e_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 8);
+        items.unshift({ id: id, data: body });
+        save(name, items);
+        // notify simple listeners by re-reading is fine for this page
+        return Promise.resolve({ id: id });
+      }
+    };
+  }
+  return {
+    collection: collection,
+    doc: function (path) {
+      var parts = path.split('/');
+      var col = parts[0], id = parts[1];
+      return {
+        set: function (body) {
+          var items = load(col, []);
+          var found = false;
+          for (var i = 0; i < items.length; i++) {
+            if (items[i].id === id) { items[i].data = body; found = true; break; }
+          }
+          if (!found) items.push({ id: id, data: body });
+          save(col, items);
+          return Promise.resolve();
+        }
+      };
+    }
+  };
+})();
+</script>
+
+</head>
+<body>
+<div class="wrap">
+
+  <header class="masthead">
+    <span class="eyebrow">A personal boundaries practice</span>
+    <h1>Protocol Omega</h1>
+    <p class="sub">A benchmark for the self: a fixed point to check against when something presses on who you are, and a ledger of what actually happened.</p>
+  </header>
+
+  <div id="db-note" class="db-note">Entries and daily marks are stored in this browser only (localStorage). They are not uploaded.</div>
+
+  <section class="plaque">
+    <div class="plaque-inner">
+      <div class="eyebrow"><span>Daily bearing</span><span id="today-label">&nbsp;</span></div>
+      <p class="statement">I know what I actually experienced. If something presses on who I am — not just my mood, but my sense of self — I'll notice it and name it instead of shrugging it off. I can tell the difference between what's true and what just <em>feels</em> true because someone said it with enough force. What isn't mine to carry, I put down. I don't carry it further, and I don't hand it to anyone else. My experience is real whether or not anyone else confirms it. I am the record of my own life.</p>
+      <div class="mark-row">
+        <button id="mark-btn" type="button">Mark today</button>
+        <span class="streak" id="streak-label">checking record&hellip;</span>
+      </div>
+    </div>
+  </section>
+
+  <form class="stations" id="entry-form">
+
+    <div class="station">
+      <div class="num">01</div>
+      <div class="body">
+        <h2>What's actually happening</h2>
+        <p class="hint">Targeted or drained — or just a bad day? Name it before deciding.</p>
+        <div class="field-row">
+          <div class="field wide">
+            <label class="small" for="f-situation">What happened, plainly</label>
+            <input type="text" id="f-situation" placeholder="e.g. a call that left me doubting my own memory of the meeting">
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label class="small" for="f-feeling">What I'm feeling</label>
+            <input type="text" id="f-feeling" placeholder="hollowed out, small, unsteady…">
+          </div>
+          <div class="field">
+            <label class="small" for="f-location">Where, in the body</label>
+            <input type="text" id="f-location" placeholder="chest, jaw, stomach…">
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label class="small" for="f-origin">Source</label>
+            <select id="f-origin">
+              <option value="external">External — came from an interaction</option>
+              <option value="internal">Internal — a loop I recognize</option>
+            </select>
+          </div>
+          <div class="field">
+            <label class="small" for="f-intensity">How deep it sits</label>
+            <select id="f-intensity">
+              <option value="passing">Passing — surface, will lift</option>
+              <option value="lingering">Lingering — sticking around</option>
+              <option value="core">Core — reaching for who I am</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="station">
+      <div class="num">02</div>
+      <div class="body">
+        <h2>Story vs. bearing</h2>
+        <p class="hint">The story is what's being told. The bearing is what's actually true, independent of how hard it's being pushed.</p>
+        <div class="field-row">
+          <div class="field wide">
+            <label class="small" for="f-story">The story being told (by them, or by my own head)</label>
+            <textarea id="f-story" placeholder="Write it exactly as it's being framed."></textarea>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field wide">
+            <label class="small" for="f-truth">What I actually know to be true, independent of that story</label>
+            <textarea id="f-truth" placeholder="What would I tell a friend in this exact situation?"></textarea>
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field wide">
+            <label class="small" for="f-evidence">Evidence for the story — or just insistence, guilt, repetition?</label>
+            <textarea id="f-evidence" placeholder="Name what's actually backing it up, if anything."></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="station">
+      <div class="num">03</div>
+      <div class="body">
+        <h2>Set the marker</h2>
+        <p class="hint">The record, so it can't be told later this didn't happen. Plain facts, in your own words.</p>
+        <div class="field-row">
+          <div class="field wide">
+            <label class="small" for="f-record">This happened. Here is the record.</label>
+            <textarea id="f-record" placeholder="I'm not asking anyone to agree with this before it counts as real."></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="station">
+      <div class="num">04</div>
+      <div class="body">
+        <h2>Close the boundary</h2>
+        <p class="hint">Name what isn't yours to hold. Set it down at your own edge — not amplified, not passed to anyone.</p>
+        <div class="field-row">
+          <div class="field wide">
+            <label class="small" for="f-notmine">What isn't mine to carry</label>
+            <textarea id="f-notmine" placeholder="This isn't mine to carry. I'm setting it down here. Whatever happens with it next isn't mine to manage, escalate, or chase."></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="submit-row">
+      <button type="submit" id="submit-btn">Log this entry</button>
+      <span class="submit-note" id="submit-note"></span>
+    </div>
+  </form>
+
+  <section>
+    <div class="ledger-head">
+      <h2>The ledger</h2>
+      <span class="streak" id="entry-count">&nbsp;</span>
+    </div>
+    <div id="ledger-list">
+      <div class="ledger-empty">Reading the record&hellip;</div>
+    </div>
+  </section>
+
+  <footer>Private record · not a diagnosis · not evidence of anything but your own day</footer>
+</div>
+
+<script>
+(function () {
+  var db = null;
+  var todayId = new Date().toISOString().slice(0, 10);
+  document.getElementById('today-label').textContent = todayId;
+
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function fmtDate(iso) {
+    var d = new Date(iso);
+    if (isNaN(d)) return iso;
+    return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' }) + ' ' +
+           d.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
+  }
+
+  // ---- daily mark / streak ----
+  var markBtn = document.getElementById('mark-btn');
+  var streakLabel = document.getElementById('streak-label');
+
+  function renderStreak(days, markedToday) {
+    if (markedToday) {
+      markBtn.textContent = 'Witnessed today';
+      markBtn.classList.add('witnessed');
+    } else {
+      markBtn.textContent = 'Mark today';
+      markBtn.classList.remove('witnessed');
+    }
+    if (days === null) {
+      streakLabel.textContent = '';
+    } else if (days <= 1) {
+      streakLabel.innerHTML = markedToday ? 'first mark on the record' : 'not yet marked today';
+    } else {
+      streakLabel.innerHTML = '<b>' + days + '</b>-day run';
+    }
+  }
+
+  function loadStreak() {
+    if (!db) { renderStreak(null, false); return; }
+    db.collection('checkins').orderBy('date', 'desc').limit(400).get().then(function (snap) {
+      var dates = snap.docs.map(function (d) { return d.id; }).sort().reverse();
+      var markedToday = dates.indexOf(todayId) !== -1;
+      var streak = 0;
+      var cursor = new Date(todayId + 'T00:00:00Z');
+      if (!markedToday) cursor.setUTCDate(cursor.getUTCDate() - 1);
+      for (var i = 0; i < dates.length; i++) {
+        var want = cursor.toISOString().slice(0, 10);
+        if (dates[i] === want) {
+          streak++;
+          cursor.setUTCDate(cursor.getUTCDate() - 1);
+        } else if (dates[i] < want) {
+          break;
+        }
+      }
+      renderStreak(streak, markedToday);
+    }).catch(function () { renderStreak(null, false); });
+  }
+
+  markBtn.addEventListener('click', function () {
+    if (!db) return;
+    markBtn.disabled = true;
+    db.doc('checkins/' + todayId).set({ date: todayId, at: new Date().toISOString() })
+      .then(function () { loadStreak(); })
+      .finally(function () { markBtn.disabled = false; });
+  });
+
+  // ---- entry form ----
+  var form = document.getElementById('entry-form');
+  var submitBtn = document.getElementById('submit-btn');
+  var submitNote = document.getElementById('submit-note');
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (!db) {
+      submitNote.textContent = "Can't save right now — this view has no write access.";
+      submitNote.className = 'submit-note';
+      return;
+    }
+    var situation = document.getElementById('f-situation').value.trim();
+    var record = document.getElementById('f-record').value.trim();
+    if (!situation && !record) {
+      submitNote.textContent = 'Fill in at least what happened, or the record — the rest can stay blank.';
+      submitNote.className = 'submit-note';
+      return;
+    }
+    var body = {
+      createdAt: new Date().toISOString(),
+      situation: situation,
+      feeling: document.getElementById('f-feeling').value.trim(),
+      location: document.getElementById('f-location').value.trim(),
+      origin: document.getElementById('f-origin').value,
+      intensity: document.getElementById('f-intensity').value,
+      story: document.getElementById('f-story').value.trim(),
+      truth: document.getElementById('f-truth').value.trim(),
+      evidence: document.getElementById('f-evidence').value.trim(),
+      record: record,
+      notMine: document.getElementById('f-notmine').value.trim()
+    };
+    submitBtn.disabled = true;
+    db.collection('entries').add(body).then(function () {
+      form.reset();
+      submitNote.textContent = 'Logged. It stands on the record now.';
+      submitNote.className = 'submit-note ok';
+      setTimeout(function () { submitNote.textContent = ''; }, 4000);
+      loadLedger();
+    }).catch(function (err) {
+      submitNote.textContent = 'Could not save (' + (err && err.code || 'unknown') + '). Nothing was lost from the form.';
+      submitNote.className = 'submit-note';
+    }).finally(function () {
+      submitBtn.disabled = false;
+    });
+  });
+
+  // ---- ledger ----
+  var ledgerList = document.getElementById('ledger-list');
+  var entryCount = document.getElementById('entry-count');
+
+  function excerptOf(d) {
+    return d.situation || d.record || d.story || '(no summary written)';
+  }
+
+  function renderLedger(docs) {
+    if (!docs.length) {
+      ledgerList.innerHTML = '<div class="ledger-empty">Nothing logged yet — the ledger is empty. That\'s fine; entries are for the moments that need them, not a daily quota.</div>';
+      entryCount.textContent = '';
+      return;
+    }
+    entryCount.innerHTML = '<b>' + docs.length + '</b> entr' + (docs.length === 1 ? 'y' : 'ies');
+    ledgerList.innerHTML = docs.map(function (snap) {
+      var d = snap.data() || {};
+      var tabClass = d.intensity === 'core' ? 'core' : (d.intensity === 'lingering' ? 'lingering' : '');
+      var rows = [
+        ['What happened', d.situation],
+        ['Feeling / body', [d.feeling, d.location].filter(Boolean).join(' — ')],
+        ['The story', d.story],
+        ['The truth', d.truth],
+        ['Evidence, or just insistence', d.evidence],
+        ['The record', d.record],
+        ['Not mine to carry', d.notMine]
+      ].filter(function (r) { return r[1]; });
+
+      return (
+        '<div class="entry" data-id="' + esc(snap.id) + '">' +
+          '<div class="entry-row">' +
+            '<span class="tab ' + tabClass + '"></span>' +
+            '<span class="entry-date">' + esc(fmtDate(d.createdAt || '')) + '</span>' +
+            '<span class="entry-excerpt">' + esc(excerptOf(d)) + '</span>' +
+            '<span class="entry-toggle"></span>' +
+          '</div>' +
+          '<div class="entry-detail">' +
+            '<div class="detail-meta">' +
+              '<span>' + esc(d.origin === 'internal' ? 'internal loop' : 'external') + '</span>' +
+              '<span>' + esc(d.intensity || 'passing') + '</span>' +
+            '</div>' +
+            rows.map(function (r) {
+              return '<div class="detail-block"><span class="small">' + esc(r[0]) + '</span><p>' + esc(r[1]) + '</p></div>';
+            }).join('') +
+          '</div>' +
+        '</div>'
+      );
+    }).join('');
+
+    Array.prototype.forEach.call(ledgerList.querySelectorAll('.entry-row'), function (row) {
+      row.addEventListener('click', function () {
+        row.closest('.entry').classList.toggle('open');
+      });
+    });
+  }
+
+  function loadLedger() {
+    if (!db) {
+      ledgerList.innerHTML = '<div class="ledger-empty">This view can\'t read the ledger right now.</div>';
+      return;
+    }
+    db.collection('entries').orderBy('createdAt', 'desc').limit(60).onSnapshot(function (snap) {
+      renderLedger(snap.docs);
+    }, function () {
+      ledgerList.innerHTML = '<div class="ledger-empty">The ledger couldn\'t be read just now. Reopening the page usually fixes it.</div>';
+    });
+  }
+
+  // ---- boot (standalone localStorage) ----
+  db = window.__omegaLocalDb;
+  document.getElementById('db-note').classList.remove('show');
+  loadStreak();
+  loadLedger();
+})();
+</script>
+</body>
+</html>
