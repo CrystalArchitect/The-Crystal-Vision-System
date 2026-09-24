@@ -37,6 +37,8 @@ Macro extreme close-up shot, 35mm film, ARRI Alexa. A vintage record player spin
 
 ## 2. The Prison (0:55–1:40) — The Demiurge's Hourglass
 
+**VO echo (Extended):** *Year 3000* — chronological prison; optional sand→water / flood variant for late Extended beat.
+
 ```
 Extreme wide shot, slow creeping push-in camera movement. A massive, brutalist stone hourglass suspended in a dark, terrifying cosmic void. Heavy, pitch-black sand pours continuously through the center in slow motion. Atmospheric fog, deep shadows, cinematic lighting, ominous and imposing.
 ```

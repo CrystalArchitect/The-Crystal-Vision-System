@@ -9,7 +9,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 | Take | File | Runtime | Use |
 | --- | --- | --- | --- |
 | **1 — PRIMARY** | [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) | ~6–7 min | First ElevenLabs drop |
-| **2 — EXTENDED** | [`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md) | ~13–14 min | Full esoteric pop decode |
+| **2 — EXTENDED** | [`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md) | ~14–16 min | Full esoteric pop decode |
 | Beat bible | [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md) | — | Shot / CapCut sync |
 | T2V prompts | [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) | — | Generate clips |
 
@@ -31,9 +31,10 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 12. **Sovereignty** — *Let It Go* · Crystal fractal castle · cold never bothered her  
 13. **Collective** — *Family* · Trolls / Bergens = Archons harvesting sparks · Pleroma sync  
 14. **Primal** — *Call to the Wild* · domestication break · **Moonstone = Crystal**  
-15. **Gnosis** — *Torn* · veil drops · illusion never changed into something real  
-16. **Breakout** — *Losing It* (Ren + FISHER) · chaos of waking · wall smash  
-17. **Close** — Celestial disruption; you are the frequency; listen again  
+15. **Timeline** — *Year 3000* · chronological prison break · hourglass sand→water · fluid light · 1991→eternity  
+16. **Gnosis** — *Torn* · veil drops · illusion never changed into something real  
+17. **Breakout** — *Losing It* (Ren + FISHER) · chaos of waking · wall smash  
+18. **Close** — Celestial disruption; you are the frequency; listen again  
 
 **Primary take** runs beats 1–5 → Core Four ladder → *Torn* → close (no Extended layers).  
 **Extended take** runs the full list.
@@ -53,4 +54,4 @@ Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-na
 3. CapCut Optical Flow sync to take  
 4. Optional: Extended second take  
 
-**Master locked.** No further song decodes required before booth.
+**Master locked.** Puzzle is complete enough for booth. No further song decodes required before first ElevenLabs take.

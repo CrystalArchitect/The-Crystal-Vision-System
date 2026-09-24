@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~1958** (*Call to the Wild* / Moonstone = Crystal in) |
-| Live Lounge gravity (~130–140 wpm) | **~13:59–15:03** |
-| Slightly brighter (~150 wpm) | **~13:03** |
+| Word count | **~2214** (*Year 3000* / timeline break in) |
+| Live Lounge gravity (~130–140 wpm) | **~15:48–17:01** |
+| Slightly brighter (~150 wpm) | **~14:45** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Extended journey complete. CapCut bed **~13:59–15:03**. Arc: … *Family* → *Call to the Wild* (Moonstone) → Gnosis. Primary booth remains Core Four. See [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md).
+**Verdict:** Extended journey re-locked. CapCut bed **~15:48–17:01**. Arc: … *Call to the Wild* → *Year 3000* (sand→water) → Gnosis. Primary = Core Four. Master map locked — **no further decodes required before booth.**
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -40,10 +40,11 @@
 | *Let It Go* / Crystal sovereignty | **5** flash / fractal ice-castle · into **6A** |
 | *Family* / Trolls–Bergens collective | colour overwrite · unified frequency |
 | *Call to the Wild* / Moonstone = Crystal | primal roar · wake the domesticated |
+| *Year 3000* / timeline break | hourglass dies · sand→water · fluid light |
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · Trainor titles · *Fly* · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* (Trolls — Pleroma reunification) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · Trainor titles · *Fly* · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* (Trolls — Pleroma reunification) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Year 3000* (Busted — chronological prison break) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -127,6 +128,18 @@ When they sing about a howl deep inside, a rhythm they can't ignore, they are de
 
 They are drawn to the Turner. Her frequency is the call. When she steps into the artificial, perfectly conditioned matrix, she doesn't just disrupt the peace. She awakens the wild, untameable truth inside the sleeping souls, reminding them that they were never meant to be domesticated by this world.
 
+The false god didn't just trap humanity in physical bodies; he trapped them in linear time. The ticking of the clock, the falling of the black sand in the hourglass — this is the ultimate mechanism of the matrix, designed to make the divine spark feel finite and rushed.
+
+But the Turner is not bound by linear time.
+
+This is the hidden code inside the pop-punk anthem "Year 3000" by Busted. To the sleeping mind, it is just a playful, high-energy song about a time machine. To the Gnostic, it is a manual for destroying the Ar-konz chronological prison. When the neighbor builds a machine that fractures the space-time continuum, they are bypassing the Dem-ee-urj's laws of physics entirely. They are tapping into the higher frequency of the Pluh-roh-muh to escape the timeline.
+
+And what is the great revelation when they finally reach the Year 3000? The artist sings: "Not much has changed, but they lived underwater."
+
+This isn't science fiction. It is alchemy. The heavy, dry, dead sand of the earthly arena has been completely submerged. Water is the ultimate esoteric symbol of pure, fluid frequency, emotion, and collective consciousness. The song is a prophecy that the rigid, concrete matrix of the false god will eventually be flooded by the divine source. The future isn't built of stone; it is built of fluid light.
+
+And who is at the center of this multi-platinum future? The Turner, whose frequency stretches from 1991 all the way into eternity, proving that the Dem-ee-urj's timeline was always an illusion.
+
 And then comes the ultimate breaking point. The moment of Gnosis.
 
 It starts with being "Torn." The veil drops, the illusion breaks, and the subject realizes the world they were told to believe in wasn't real. As the artist sings: "Illusion never changed into something real."
@@ -145,8 +158,9 @@ Listen closely to the songs playing in the background of your life. The message 
 
 ## Booth notes
 
-- Pause after: “They sent a prism.” · “Crystal Elle Arena-Turner.” · “realm of color.” · “A crystal.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
-- *Family*: choir-lift colour. *Call to the Wild*: primal roar / howl under — then *Torn* chaos.  
-- Do not throat-clone. Mythic reading only. Captions = titles only.  
-- CapCut bed **~13:59–15:03**.  
-- **Master map:** [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md) · Primary = Core Four first take.
+- Pause after: “They sent a prism.” · “Crystal Elle Arena-Turner.” · “A crystal.” · “fluid light.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
+- *Call to the Wild*: primal roar. *Year 3000*: pop-punk lift → hourglass flood. Then *Torn* chaos.  
+- Do not throat-clone. Captions = titles only.  
+- CapCut bed **~15:48–17:01**.  
+- **Master map:** [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md) · Primary = Core Four first take.  
+- **Lock:** puzzle complete enough for booth — no further song decodes required before first ElevenLabs take.
