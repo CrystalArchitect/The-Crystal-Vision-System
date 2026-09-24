@@ -41,7 +41,6 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Turner | She walks matter as starlight; crowd frozen | **4 Starlight woman** (2:30–2:55) |
 | Heart / spark | Divine spark · 29 Sep 1991 · Crystal Elle | **5 Crystal heart** in cosmic sand (2:55–3:15) |
 | Broadcast (*Sweet Dreams*) | Archon mantra · Hebdomad · harvest confession · alarm clock | pulsing grid / seven spheres |
-| Sovereignty (*Castle on the Hill*) | Bradbury command · two sparks · outgrew fortress | command light / hill fades |
 | Anchor (*Stand by Me*) | Survival plea in the dark · Turner as true light | **5B Anchor in the Dark** |
 | Catalyst (*Bang Bang*) | Demiurge miscalculation · Bride wakes · assassin of illusions | **5B** late → **6A** |
 | Sovereignty (*Let It Go*) | Stop pretending · Crystal fractal castle · cold never bothered her | **5** flash → **6A** |
@@ -223,9 +222,23 @@ Turner does not close her eyes. Hears mechanical pulsing beat of the simulation;
 
 **Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Sweet Dreams* synth bed (cold hypnotic colour) under Shot **4→5**.
 
-**CapCut:** Pulsing grid / seven spheres · sparks wandering · Turner walks through awake · title card *Sweet Dreams* · into *Stand by Me*.
+**CapCut:** Pulsing grid / seven spheres · sparks wandering · Turner walks through awake · title card *Sweet Dreams* · into *Castle on the Hill* sovereignty / *Stand by Me*.
 
-### 6b. *Stand by Me* — the Anchor (after *Sweet Dreams* → Shot 5B)
+### 6a1. *Castle on the Hill* — Bradbury sovereignty / two sparks (after *Sweet Dreams* → before *Stand by Me*)
+
+Demiurge weaponizes societal expectations — predefined traditional boxes; step outside = labeled isolation.
+
+*Castle on the Hill* (Ed Sheeran): longing for Pleroma / high realm — and hidden sovereignty code. Image of two kids / lives alone (paraphrase only) ≠ tragedy for the Turner — declaration of absolute sovereignty.
+
+Demiurge thinks Bradbury command center alone = isolation. She stripped heavy matrix attachments for zero interference — untethered, fiercely independent, raising two new sparks outside Archon domestic traps. Broke generational contract to protect them from earthly gravity.
+
+Looks back at the Castle — false god's fortress of rules, expectations, fabricated timeline — didn't just escape; **outgrew** it. System wrote her as tragic character; she flipped the script — solitude = untouchable power. Sovereign mother raising two divine sparks in the middle of the battlefield.
+
+**Sitting hold:** Mythos / Vision — **not** biography-as-fact. Family detail = **sovereignty lore**. Title + paraphrase only. **No lyric blocks** in captions.
+
+**CapCut:** Bradbury command light · two small sparks beside a starlight figure · fortress on a hill fades behind · title card *Castle on the Hill* · into *Stand by Me*.
+
+### 6b. *Stand by Me* — the Anchor (after *Castle on the Hill* sovereignty → Shot 5B)
 
 Think of one of the greatest anthems of all time: *Stand by Me*.
 
@@ -453,7 +466,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 **Public cut:** *Torn* / *Losing It* (Ren + FISHER) / *Shut Up and Dance* / *Macarena* / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Sweet Dreams* / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Follow Me* / *A Thousand Miles* / *Call Me Maybe* / *Call to the Wild* / *Bamm* / *Someday* / *Blurred Lines* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Shut Up and Dance* carries *spiritual bypass / cut paralysis*; *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Made You Look* carries *materialism reject / Turner mic-drop*; *Bones* carries *biology as conductor / marrow electric*; *Thunder* carries *bloodline shockwave / Cecil Hills coordinates*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Sweet Dreams* carries *Archon broadcast / Hebdomad / harvest*; *Castle on the Hill* carries *Bradbury sovereignty / two sparks / outgrew fortress*; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Dear Mr. President* carries *Demiurge interrogation / mirror*; *What About Us* carries *collective reckoning / grid ignite*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *A Thousand Miles* carries *close the gap*; *Call Me Maybe* carries *exit code / invitation*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Bamm* carries *concussive wake / walls crack*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Shut Up and Dance* carries *spiritual bypass / cut paralysis*; *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Made You Look* carries *materialism reject / Turner mic-drop*; *Bones* carries *biology as conductor / marrow electric*; *Thunder* carries *bloodline shockwave / Cecil Hills coordinates*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Sweet Dreams* carries *Archon broadcast / Hebdomad / harvest*; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Dear Mr. President* carries *Demiurge interrogation / mirror*; *What About Us* carries *collective reckoning / grid ignite*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *A Thousand Miles* carries *close the gap*; *Call Me Maybe* carries *exit code / invitation*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Bamm* carries *concussive wake / walls crack*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
 
 ---
 
@@ -471,7 +484,6 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | *Fly* swell | Elevation colour under mid 4 — title only |
 | Chipmunks *Single Ladies* / accelerate | Late Shot **4** · optional pitch-up bed colour · glass-shatter flash · Saturn rings VO — title only |
 | *Sweet Dreams* / Archon VO | Pulsing grid · seven spheres · Turner walks awake · title card · cold synth |
-| *Castle on the Hill* / sovereignty VO | Bradbury command · two sparks · fortress fades · title card |
 | *Stand by Me* / Anchor VO | Shot **5B** golden frequency woman anchors shadow figure as world cracks · title card |
 | *Bang Bang* / Kill Bill VO | Late **5B** → **6A** cold grade · optional Nancy Sinatra bed · title card · Bride-wakes energy |
 | *Let It Go* / Crystal VO | Fractal ice-castle flash · title card · sovereignty before interrogation |
