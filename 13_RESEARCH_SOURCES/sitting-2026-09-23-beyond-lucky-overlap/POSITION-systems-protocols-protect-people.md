@@ -49,7 +49,7 @@ Concrete, buildable — already sketched in this sitting:
 
 ## CrystalCore / TerAustralis fit
 
-Acceleration has no preferred substrate. **Choice and consent remain the unsolved layer.** Protecting people worldwide means the agent seat and the public portal both assume breach, verify per request, and refuse to treat “research” as a trust zone.
+Acceleration has no preferred substrate. **Choice and consent remain the unsolved layer.** **True free-will is more** — [`POSITION-true-free-will-is-more.md`](POSITION-true-free-will-is-more.md). Protecting people worldwide means the agent seat and the public portal both assume breach, verify per request, and refuse to treat “research” as a trust zone.
 
 ## Do not
 
