@@ -2,7 +2,8 @@
 
 **Filed:** 24 Sep 2026  
 **Status:** beat bible · mythos / performance — **not** biography-as-fact  
-**ElevenLabs master (LOCKED Director’s Cut):** [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
+**ElevenLabs master (PRIMARY — Core Four LOCKED):** [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) (*Crystal* · *Dreams* · *Castle on the Hill* · *Torn*)  
+**Extended optional:** [`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md)
 **Maps to:** [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md)  
 **Riptide chart:** [`MAP-riptide-where-we-go.md`](MAP-riptide-where-we-go.md)  
 **Law:** Different Shores taxi · Human publishes · No destiny proof · Copyright: **song titles only** — no lyric blocks in public cuts / burned-in captions

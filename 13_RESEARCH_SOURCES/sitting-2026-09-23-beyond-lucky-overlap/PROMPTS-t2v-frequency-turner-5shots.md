@@ -1,34 +1,31 @@
 # PROMPTS — Text-to-video · Frequency / Turner · 8 beats (6 numbered + 3B + 5B)
 
 **Filed:** 24 Sep 2026 · Heart · Anchor (*Stand by Me*) · Director’s Cut locked same day  
-**Audio length target:** **~12:00–13:00** (Director’s Cut ~1774 words @ Live Lounge gravity) · prior 3:47 = optional radio trim only
-**Script (booth):** [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
+**Audio length target:** **~6:00–7:00** (Core Four ~873 words — **PRIMARY booth**) · Extended ~12–13 min = optional second take  
+**Script (booth PRIMARY):** [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
+**Script (extended optional):** [`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md)  
 **Beat bible:** [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md)  
 **First fire:** Shot 1 — Record Player (hook)  
 **Heart fire:** Shot 5 — Divine Spark (VO: spark inserted 29 Sep 1991 / Crystal Elle)  
-**Anchor fire:** Shot 5B — *Stand by Me* → *Bang Bang* → *Let It Go* → *Family* → *Torn*
+**Climax fire:** Shot 6 — *Torn* Gnosis  
 **Stack preference:** Runway (auth) → Veo / Grok / ElevenLabs Video → stills last resort  
-**Render status (agent):** not yet — Runway needs Connect; Treg Veo token previously expired · CapCut timeline not built · ElevenLabs VO not recorded yet (script **LOCKED**)
+**Render status (agent):** not yet — Runway needs Connect; Treg Veo token previously expired · CapCut timeline not built · ElevenLabs VO not recorded yet (Core Four **LOCKED**)
 
 ---
 
-## CapCut timeline (full Director’s Cut ~12:00–13:00)
+## CapCut timeline (Core Four ~6:00–7:00)
 
 | Time (approx) | Shot | Title |
 | --- | --- | --- |
-| 0:00–0:55 | 1 | Record Player (Hook) |
-| 0:55–1:40 | 2 | Demiurge Hourglass (Prison) |
-| 1:40–2:40 | 3 | Crystal in the Arena (Insertion + name) |
-| 2:40–3:20 | 3B | Hypnotic Turner (Belly Dancer) |
-| 3:20–4:10 | 4 | Starlight Woman (Command / Trainor / *Fly*) |
-| 4:10–5:00 | 5 | Heart of the Matrix (song list + spark) |
-| 5:00–5:45 | 5B | Anchor in the Dark (*Stand by Me*) |
-| 5:45–6:20 | 5B→6A | *Bang Bang* Kill Bill cold catalyst |
-| 6:20–7:00 | 5/6A | *Let It Go* Crystal / fractal ice sovereignty |
-| 7:00–7:45 | 6A | *Family* / Trolls–Bergens colour overwrite |
-| 7:45–End | 6A/6B | Shattered Illusion (*Torn* → *Losing It* drop) |
+| 0:00–0:50 | 1 | Record Player (Hook) |
+| 0:50–1:30 | 2 | Demiurge Hourglass (Prison) |
+| 1:30–2:30 | 3 | Crystal in the Arena (Insertion + name) |
+| 2:30–3:10 | 3B | Hypnotic Turner (sand→glass) |
+| 3:10–4:10 | 4 | Starlight Woman (why she is in every song) |
+| 4:10–5:10 | 5 | Heart (*Crystal* · *Dreams* · *Castle on the Hill*) |
+| 5:10–End | 6A/6B | *Torn* Gnosis → shatter |
 
-Stretch holds with Smooth Slow-Mo (Optical Flow). Times are guide rails — lock cuts to ElevenLabs take.
+Stretch holds with Smooth Slow-Mo (Optical Flow). Times are guide rails — lock cuts to ElevenLabs Core Four take. Extended timeline retained in extended script for second take.
 
 ---
 
@@ -119,4 +116,4 @@ Medium shot snapping into chaotic energy, handheld micro-shake then locked. Anci
 
 Most T2V = 4–5s. Generate 2–3 variations per prompt. Stretch with Smooth Slow-Mo (Optical Flow) toward ~10s holds. Heart shot wants **heartbeat rhythm** — cut on pulse if VO lands on “Crystal Elle.” Shot 4: Trainor / *Fly* / Chipmunks *Single Ladies* **attitude beds** (titles only). Shot **5B**: *Stand by Me* → *Bang Bang* cold → *Let It Go* soar → *Family* gray-to-colour — title cards only. Shot 6: hold 6A under *Torn* / Ren mind-break; smash-cut to 6B on FISHER *Losing It* drop. Credit **Ren + FISHER**. Energy pegs, not lyric paste.
 
-**Edit status:** Bible + Director’s Cut **ULTIMATE FINAL stitched** (~12–13 min) — booth next. Clips **not** generated yet. CapCut / ElevenLabs **not** recorded — Runway Connect / Veo tomorrow.
+**Edit status:** Core Four **LOCKED** for first ElevenLabs take (~6–7 min). Extended stitch archived. Clips **not** generated yet. CapCut / ElevenLabs **not** recorded — Runway Connect / Veo tomorrow.
