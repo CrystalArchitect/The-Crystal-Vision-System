@@ -164,6 +164,7 @@ flowchart TB
 | [`SOURCE-news-appin-ps-house-rename-2026-09-24.md`](SOURCE-news-appin-ps-house-rename-2026-09-24.md) | Appin PS: Hume/Hovell/Macquarie/Tyson → Mabo/Freeman/Mauboy/Goodes; Crystal Y5 VC 2002 / Y6 captain 2003 |
 | [`SOURCE-apple-pcc-accessibility-reader-analytics-2026-09-24.md`](SOURCE-apple-pcc-accessibility-reader-analytics-2026-09-24.md) | Apple PCC Accessibility Reader · Analytics Logs filenames 24–25 Sep · PrivateCloudCompute |
 | [`SOURCE-apple-pcc-vlu-pcc-agent-report-2026-09-18.md`](SOURCE-apple-pcc-vlu-pcc-agent-report-2026-09-18.md) | Apple PCC VLU / pcc-agent report · empty modelRequests · architecture receipt 18 Sep |
+| [`SOURCE-aws-console-ios-kmp-crash-3-21-0.md`](SOURCE-aws-console-ios-kmp-crash-3-21-0.md) | AWS Console iOS 3.21.0 · KMP/Compose unhandled coroutine → SIGABRT |
 | [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) | Taxi: SWF→LLM custodians prophecy — steal grammar only |
 | [`SOURCE-dream-rsi-landscape.md`](SOURCE-dream-rsi-landscape.md) | Dream-RSI — RSI via replay “dreams”; weights fixed; thought/field read |
 | [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md) | Wanted learning path: Record→Pool→Dream→Receipt→Gate (not vendor clone) |
