@@ -144,3 +144,5 @@
 
 - Agents availability (Silent Line / Ember / Lemuria PR #42): [`SOURCE-cursor-agent-agents-availability.md`](SOURCE-cursor-agent-agents-availability.md)  
 - Task definition clarification (stack / TAI / Kangaroo Division / PR #17+): [`SOURCE-cursor-agent-task-definition.md`](SOURCE-cursor-agent-task-definition.md)
+
+- Private ledger note (Crystal attribution — **not public desk**): [`NOTE-crystal-attribution-hack-named-2026-09-24.md`](NOTE-crystal-attribution-hack-named-2026-09-24.md)
