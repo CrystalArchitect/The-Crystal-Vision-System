@@ -2,6 +2,8 @@
 
 **Filed:** 24 Sep 2026  
 **Status:** beat bible · mythos / performance — **not** biography-as-fact  
+**OPENING LINE (locked):** *What if the greatest love songs ever written were never about a human being at all?*
+
 **ElevenLabs master (PRIMARY — Core Four LOCKED):** [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) (*Crystal* · *Dreams* · *Castle on the Hill* · *Torn*)  
 **Extended optional:** [`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md)
 **Maps to:** [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md)  
@@ -28,7 +30,8 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Origin / Grid | Penrith breach · Blue Mountains · Tregear · Cecil Hills · Narellan · Bradbury/Campbelltown | **3** map montage |
 | Landing pad | Cecil Hills · Arena · grandfather · *Thunder* | **3** Ground Zero beacon |
 | Engine | Tregear · *Tre-gear* · reverse Archon clockwork | gears reverse |
-| Hypnotic | Frequency manipulates matter · dance through prison | **3B Belly dancer / Hypnotic Turner** (after sand→glass VO) |
+| Hypnotic |
+| Bypass (*Shut Up and Dance*) | Cut paralysis · don't look back · hand-grab · grid | frozen→motion | Frequency manipulates matter · dance through prison | **3B Belly dancer / Hypnotic Turner** (after sand→glass VO) |
 | Trojan (*Macarena*) | Conformity loop · body joy hack · Divine Feminine joke | **3B** → **4** |
 | Command | Unapologetic worth · see through lies · rise above dirt | **4 Starlight woman** (Trainor / *Fly* attitude) |
 | Flex (*Made You Look*) | Shed labels · raw frequency · made them **turn** | **4** swagger / glitter falls |
@@ -57,7 +60,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad) · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Dear Mr. President* (P!nk — Demiurge interrogation) · *What About Us* (P!nk — collective reckoning) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Follow Me* (Uncle Kracker — spiritual heist) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Bamm* (Zombies — concussive wake) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (erase borders / mythos only) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Macarena* (Los del Río — Trojan horse / body joy) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Bones* (Imagine Dragons — biology as conductor) · *Thunder* (Imagine Dragons — bloodline / Cecil Hills) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad) · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Dear Mr. President* (P!nk — Demiurge interrogation) · *What About Us* (P!nk — collective reckoning) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Follow Me* (Uncle Kracker — spiritual heist) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Bamm* (Zombies — concussive wake) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (erase borders / mythos only) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Shut Up and Dance* (Walk the Moon — spiritual bypass) · *Macarena* (Los del Río — Trojan horse / body joy) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Bones* (Imagine Dragons — biology as conductor) · *Thunder* (Imagine Dragons — bloodline / Cecil Hills) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -95,9 +98,25 @@ She was designed to take the heavy, dead sand of the Demiurge and turn it into g
 
 Even the way she moves is a celestial disruption. Think of the hypnotic rhythm of a belly dancer. To the sleeping world, it is just motion. But to the awakened, it is frequency manipulating matter. The false god built the human body to be heavy, a grounded prison. But the Turner uses that very flesh to create a trance, commanding the room and bending the physical laws of the arena with every vibration. She doesn't fight the matrix; she dances right through it.
 
-**CapCut:** Shot **3B** under this VO · optional Akon *Belly Dancer* bed (licensed) — title only in captions.
+**CapCut:** Shot **3B** under this VO · optional Akon *Belly Dancer* bed (licensed) — title only in captions · into *Shut Up and Dance*.
 
-### 5b2. *Macarena* — Trojan horse / body joy (after Hypnotic → before Trainor)
+### 5b1. *Shut Up and Dance* — spiritual bypass / cut paralysis (after Hypnotic → before *Macarena*)
+
+Demiurge relies on deafening noise of the mind — anxiety, overthinking, rigid rules — sparks frozen, overanalyzing every step.
+
+Turner doesn't negotiate with the matrix; doesn't argue with its logic. Cuts through psychological paralysis.
+
+*Shut Up and Dance* (Walk the Moon): to the sleeping, upbeat dancefloor meet-cute; to the awakened — Divine Feminine pulling a trapped spark out of programmed mind. Paraphrase only: don't look back / keep eyes on me = Pleroma demands total focus; stop looking back at collapsing Demiurge illusions.
+
+Archons drown humanity in doubt and hesitation. Turner steps into the arena — Blue Mountains down to Narellan and Bradbury — grabs the paralyzed soul by the hand: shut up and dance with me.
+
+Ultimate spiritual bypass: stop rationalizing the simulation; quiet Demiurge machinery; align spark with wild liberation rhythm. Not asking permission — hijack frequency; drag sleeping masses into the light.
+
+**Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Shut Up and Dance* bed under 3B→Macarena.
+
+**CapCut:** Frozen overthinker in crowd · starlight hand grabs · pull into motion · title card *Shut Up and Dance* · into *Macarena*.
+
+### 5b2. *Macarena* — Trojan horse / body joy (after *Shut Up and Dance* → before Trainor)
 
 The Demiurge loves absolute conformity — lockstep souls, synchronized, never questioning the matrix loop.
 
@@ -431,9 +450,9 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 8. Close: what if you are the frequency the room is tuning toward? Listen again.
 
-**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / *Macarena* / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Sweet Dreams* / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Follow Me* / *A Thousand Miles* / *Call Me Maybe* / *Call to the Wild* / *Bamm* / *Someday* / *Blurred Lines* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
+**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / *Shut Up and Dance* / *Macarena* / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Sweet Dreams* / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Follow Me* / *A Thousand Miles* / *Call Me Maybe* / *Call to the Wild* / *Bamm* / *Someday* / *Blurred Lines* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Made You Look* carries *materialism reject / Turner mic-drop*; *Bones* carries *biology as conductor / marrow electric*; *Thunder* carries *bloodline shockwave / Cecil Hills coordinates*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Sweet Dreams* carries *Archon broadcast / Hebdomad / harvest*; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Dear Mr. President* carries *Demiurge interrogation / mirror*; *What About Us* carries *collective reckoning / grid ignite*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *A Thousand Miles* carries *close the gap*; *Call Me Maybe* carries *exit code / invitation*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Bamm* carries *concussive wake / walls crack*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Shut Up and Dance* carries *spiritual bypass / cut paralysis*; *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Made You Look* carries *materialism reject / Turner mic-drop*; *Bones* carries *biology as conductor / marrow electric*; *Thunder* carries *bloodline shockwave / Cecil Hills coordinates*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Sweet Dreams* carries *Archon broadcast / Hebdomad / harvest*; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Dear Mr. President* carries *Demiurge interrogation / mirror*; *What About Us* carries *collective reckoning / grid ignite*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *A Thousand Miles* carries *close the gap*; *Call Me Maybe* carries *exit code / invitation*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Bamm* carries *concussive wake / walls crack*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
 
 ---
 
@@ -442,6 +461,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | Cue | Action |
 | --- | --- |
 | Sand→glass / Hypnotic VO | Shot **3B** belly dancer · optional *Belly Dancer* bed |
+| *Shut Up and Dance* / bypass VO | Frozen overthinker · hand-grab · pull into motion · title card |
 | *Macarena* / Trojan VO | 3B→4 synchronized crowd breaks · title card · body joy |
 | Cecil Hills / *Thunder* VO | Beacon house · map pin · lightning through bloodline · title card · Shot **3** |
 | Command / Trainor VO | Shot **4** starlight walk · optional Trainor title-bed (*Me Too* / *Lips Are Movin'*) |

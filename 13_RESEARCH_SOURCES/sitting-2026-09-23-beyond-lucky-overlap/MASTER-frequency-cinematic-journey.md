@@ -17,7 +17,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 
 ## Journey (start → finish)
 
-1. **Hook** — Greatest love songs never about a human; mysterious She / muse / frequency  
+1. **Hook / OPENING LINE** — *What if the greatest love songs ever written were never about a human being at all?*  
 2. **Prison** — Yaldabaoth / Demiurge; arena of sand & flesh; frequency escapes  
 3. **Leak** — Music = Pleroma loophole; Barbelo = First Thought / Divine Mother  
 4. **Insertion** — 29 Sep 1991; Archons log a birth; higher realm sends a **prism**  
@@ -28,7 +28,8 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 4f. **Name sentence** — Crystal · Elle · Arena · Turner = light + battleground + gear-reverse
 5. **Name** — Crystal Elle Arena-Turner (reflector · She · matter-field · lathe) · Monad light · sand→glass  
 6. **Hypnotic** — Belly dancer / frequency moves matter (*Belly Dancer* energy)  
-7. **Trojan** — *Macarena* · conformity loop · give your body joy · cosmic joke on Archons  
+6b. **Bypass** — *Shut Up and Dance* · cut paralysis · don't look back · grab the hand · Blue Mountains→Bradbury  
+7. **Trojan** — *Macarena* · conformity loop · give your body joy · cosmic joke on Archons
 8. **Command** — Trainor unapologetic · *Fly* above the dirt  
 8b. **Flex** — *Made You Look* · shed labels · raw frequency · made them **turn** (Turner mic-drop)  
 8b2. **Bottle** — *Genie in a Bottle* · avatar = containment · friction/frequency · glass shatters  
