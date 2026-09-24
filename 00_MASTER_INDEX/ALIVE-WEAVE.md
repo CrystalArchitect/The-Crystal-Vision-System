@@ -114,7 +114,8 @@ Pulse does **not** merge repos. It imports from archive paths as **guests of the
 
 ## 6. What stays Vision / out of bounds
 
-- Forbidden legacy “line” brand as a CVS **component** or product title — forever out of bounds. Project name is **Starline** (`CVS-STARLINE` / Consent Transport). Law: [`NAMING-STARLINE.md`](NAMING-STARLINE.md).
+- Forbidden brand-name as a CVS **component** or product title — forever out of bounds. Project name is **Starline**. Law: [`NAMING-STARLINE.md`](NAMING-STARLINE.md) (*spread the bird, not the word*).
+
 - Auto AI Orchestrator without a new ADR (ADR-0005: docs-first)
 - Continuum sync loop (empty / vision-only)
 - Merging CrystalCore / Clementine / SAT / Starlines into one product repo
