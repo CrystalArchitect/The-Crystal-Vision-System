@@ -1,0 +1,29 @@
+PROVENANCE: Text extract — estmcmxci.eth (Mark "Marcus" Martinez) TSG Public Comment
+URL: https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/estmcmxcieth-21-09-2026
+Captured: 2026-09-24 via Cursor WebSearch (Public Comment Summary of Submission page)
+Depth: B (summary page; attachment PDF binary not fetched — egress blocked)
+Canon: no
+---
+
+## Summary of Submission (reconstructed from search crawl)
+
+Personal capacity — not on behalf of ENS Labs or the ENS Foundation.
+
+Submits **TLD Oracle**, a prototype authored by the submitter, as one way to address the TSG Report’s TLD-level requirements with a working mechanism.
+
+How it works: a gTLD’s registry operator publishes a DNSSEC-signed record at `_ens.nic.{tld}` naming an Ethereum address, and the contract assigns that TLD in ENS to the address.
+
+### Mapping to Report sections
+
+§4.2 (The Integrating TLD): the ENS string is the DNS TLD’s own label (e.g. .paris), and its controller is the registry operator, through the address it publishes at `_ens.nic.`. Specification 5 of the Registry Agreement reserves nic for the registry operator.
+
+§4.6 (Establishing Registry Control of Alternative Systems): a binding requires a DNSSEC-signed record in the nic zone, which Specification 5 §3.1 requires to be a zone cut allocated only to the registry operator — one of the “change authorizations that can be issued only by the registry operator” the Report describes.
+
+§10 (Additional Security and Stability Considerations): the Report asks what data-integrity assurance an alt-name offers in place of DNSSEC. For the TLD binding, the answer is DNSSEC itself: the binding is a DNSSEC proof validated on-chain from the root trust anchor, so it rests on the DNSSEC signing the Registry Agreement already requires of the TLD zone (Specification 6 §1.3), extended to the operator’s nic zone. Records resolved within ENS rely on Ethereum’s consensus instead.
+
+### Stated claims (from summary)
+
+1. TLD Oracle binds a gTLD in ENS to its registry operator only on a DNSSEC-signed record at `_ens.nic.`, verified on-chain from the root trust anchor.
+2. It addresses §4.2 (same string; the registry operator as controller), §4.6 (a change authorization only the operator can issue, since Specification 5 §3.1 allocates the nic zone cut only to the operator) and §10 (integrity resting on the DNSSEC signing the Registry Agreement already requires).
+
+NOTE: Related ENS DAO / TLDMinter allowlist discussion (post-2012 gTLDs only; nic not reserved for pre-2012/ccTLDs) is secondary context — see extracts/DEEP-EXTRACTS.md §16. Do not conflate with this ICANN filing.

@@ -63,7 +63,8 @@ Legend: **Support** = endorses string+controller baseline · **Conditional** = y
 | ISP / infra | **ISPCP**, **Netnod** (listed) | Conditional | Stronger explicit risk/assurance framework before go-live |
 | Abuse / ops | **CleanDNS** (listed) | (text not retrieved this sitting) | Expect abuse / sync / suspension themes |
 | Government | **MeitY India** (listed) | (text not retrieved this sitting) | — |
-| Prior-claim camp | **APlusDomains.Crypto**, **Sayed**, **Manoratana**, **Darwin**, parts of **Bird** | Prior-claim | Protect existing `.crypto` / `.nft` / ANS holders before DNS delegation of same string |
+| Prior-claim camp | **APlusDomains.Crypto**, **Sayed**, **Manoratana**, **Darwin** | Prior-claim | Protect existing `.crypto` / `.nft` / ANS holders before DNS delegation of same string |
+| Transition (no entitlement) | **Bird** | Middle path | Mandatory pre-launch transition plan for populated ANS; **no** automatic DNS entitlement |
 
 ---
 
@@ -185,7 +186,7 @@ PDF: https://itp.cdn.icann.org/public-comment/proceeding/Initial%20Report%20of%2
 | APlusDomains.Crypto (Jonathon Browne) | Protect 1M+ `.crypto` ANS names before any ICANN `.crypto` DNS registry |
 | Manoratana | Similar for `.nft` (~800k+) |
 | Darwin | Structured: ANS inventory snapshot, cutoff, reservation, proof of control, disputes |
-| Bird | New report section + mandatory pre-launch transition plan for pre-existing populations |
+| Bird | **Middle path:** new report section + mandatory pre-launch transition plan; existing ANS shows demand but creates **no automatic DNS entitlement** |
 | Nguyen family / related individuals | Continuous controller proof (not one-time) |
 | Clowes / ENS | Explicit counter: refuse prior-claim as DNS entitlement |
 
@@ -207,5 +208,7 @@ PDF: https://itp.cdn.icann.org/public-comment/proceeding/Initial%20Report%20of%2
 - Positions for **Netnod, CleanDNS, WIPO, RySG, MeitY** are **roster-confirmed** from the user index; body digests incomplete pending allowlist or offline PDF drop.
 - Retracted submissions listed but not analyzed.
 - Connection ≠ merge: this is research filing only — not Canon, not a product decision.
+
+**Integrated compass (deep pass):** see sibling sitting [`../sitting-2026-09-24-icann-tsg-string-controller/SYNTHESIS.md`](../sitting-2026-09-24-icann-tsg-string-controller/SYNTHESIS.md) + `extracts/` (Fights A–D, Depth A–C digests, PC overlay on checklist). Bird corrected there as transition-without-entitlement.
 
 *Non Solus.*
