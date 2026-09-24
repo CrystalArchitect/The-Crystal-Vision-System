@@ -14,8 +14,8 @@
 | CVS-LWYMMD | 13 | Swift lyric vs Crystal recall | interpretation | no | `/13_RESEARCH_SOURCES/LWYMMD-lyric.md` |
 | CVS-PORTAL-A | 07 | Portal export partial | fact | no | `/handoff/celestial-portal/` |
 | CVS-Q32K | 99 | Quartz as timeline grid | speculation | no | `/99_UNRESOLVED/QUARTZ-TIMELINE-METAPHOR.md` |
-| CVS-OOB-LINE | -- | Forbidden legacy label (not a project name) | out of bounds | never | Use **Starline** — [`NAMING-STARLINE.md`](NAMING-STARLINE.md) |
-| CVS-STARLINE | 04 | Starline / Consent Transport | coordination | no | [`NAMING-STARLINE.md`](NAMING-STARLINE.md) · Consent Transport in Code archive |
+| CVS-OOB-LINE | -- | Forbidden brand-name (not used in this project) | out of bounds | never | Use **Starline** — [`NAMING-STARLINE.md`](NAMING-STARLINE.md) |
+| CVS-STARLINE | 04 | Starline — Consent Transport / Starlines / Weaver | coordination | no | [`NAMING-STARLINE.md`](NAMING-STARLINE.md) |
 | CVS-MEMORY | 00 | memory/ umbrella protocol (DECISIONS/MILESTONES/OPEN-QUESTIONS/PRIVACY) | fact | no | `/memory/` |
 | CVS-AISAFE-16 | 16 | AI Safety Research Drawer | coordination | no | `/16_AI_SAFETY_RESEARCH/INDEX.md` |
 | CVS-PHYSICS-17 | 17 | Physics Simulation Drawer | coordination | no | `/17_PHYSICS_SIMULATION/INDEX.md` |

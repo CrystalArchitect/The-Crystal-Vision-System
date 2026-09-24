@@ -11,15 +11,13 @@ decision gets a new entry that says so.
 
 ## 2026-09-19 — Naming: Starline
 
-Decision (Crystal): the project name for Consent Transport / Starlines /
-Starline Weaver is **Starline**. Do not invent alternate brand-names for that
-thread in hub titles, components, APIs, or product copy. Living Indigenous
-Country law remains custodial — homage only, never ownership or runtime naming.
-Forbidden legacy label stays out of bounds (see naming law).
+Decision (Crystal): the name is **Starline** (Consent Transport, Starlines map, Starline Weaver).
+*Spread the bird, not the word* — carry the signal; do not spread the forbidden brand-name.
+Living Indigenous Country law stays with custodians (homage only).
 
-- Law doc: [`00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md)
-- Index: `CVS-STARLINE` in [`WORKING-INDEX.md`](../00_MASTER_INDEX/WORKING-INDEX.md)
-- Hub PR: #32 / #59
+Plain-language law: [`00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md)  
+Index: `CVS-STARLINE` · fence: `CVS-OOB-LINE`  
+Hub PR: #32 / #59
 
 ## 2026-09-19 — Alive Weave: CrystalBridge ConsentGate in the pulse/weave path
 
