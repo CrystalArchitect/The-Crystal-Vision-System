@@ -1,6 +1,6 @@
 # RELEASE DRAFT — True free-will is more (public desk)
 
-**Status:** ready for human X send · 24 Sep 2026  
+**Status:** free-will line **SENT via QT** · https://x.com/XECrystal/status/2103035258002395292 · standalone paste still optional
 **Doctrine:** [`POSITION-true-free-will-is-more.md`](POSITION-true-free-will-is-more.md)  
 **Why this desk:** Crystal wants to be **seen** — public surface, not Slack echo / self-inbox.  
 **Brand:** www.teraustralis.com.au  

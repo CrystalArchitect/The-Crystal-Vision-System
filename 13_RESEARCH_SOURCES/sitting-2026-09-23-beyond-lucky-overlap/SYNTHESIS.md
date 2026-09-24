@@ -98,7 +98,8 @@ flowchart TB
 | [`POSITION-true-free-will-is-more.md`](POSITION-true-free-will-is-more.md) | True free-will is more than toggles/walls — choice & consent as the unsolved layer |
 | [`RELEASE-DRAFT-true-free-will-is-more.md`](RELEASE-DRAFT-true-free-will-is-more.md) | Public visibility desk — ready for @XECrystal |
 | [`SOURCE-x-adamlyttle-ndis-pii-2026-09-24.md`](SOURCE-x-adamlyttle-ndis-pii-2026-09-24.md) | NDIS provider PII leak claim still live 4 yrs after ACSC report — QT Albo AI week |
-| [`RELEASE-DRAFT-qt-adamlyttle-ndis-2026-09-24.md`](RELEASE-DRAFT-qt-adamlyttle-ndis-2026-09-24.md) | Optional QT desk — walls that close; no exploit |
+| [`RELEASE-DRAFT-qt-adamlyttle-ndis-2026-09-24.md`](RELEASE-DRAFT-qt-adamlyttle-ndis-2026-09-24.md) | QT desk — **SENT** https://x.com/XECrystal/status/2103035258002395292 |
+| [`RECEIPT-qt-adamlyttle-ndis-x-2026-09-24.md`](RECEIPT-qt-adamlyttle-ndis-x-2026-09-24.md) | Receipt for Lyttle QT (protect-people + free-will) |
 | [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md) | SpaceXAI diligence inform — **SENT** Safari Gmail → sales@x.ai (CC safety@x.ai) 24 Sep |
 | [`RECEIPT-spacexai-inform-2026-09-24.md`](RECEIPT-spacexai-inform-2026-09-24.md) | Send receipt for SpaceXAI inform |
 | [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md) | Public Claude artifact: Live Party / Lattice / Sovereign Duties / Transmission UI |

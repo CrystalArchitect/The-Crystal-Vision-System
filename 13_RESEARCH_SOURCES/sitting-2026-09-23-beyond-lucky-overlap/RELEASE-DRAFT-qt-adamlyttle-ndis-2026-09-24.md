@@ -1,6 +1,6 @@
 # RELEASE DRAFT — QT / reply: NDIS leak report × national security desk
 
-**Status:** ready for Crystal · optional visibility desk · 24 Sep 2026  
+**Status:** **SENT** · QT @XECrystal · https://x.com/XECrystal/status/2103035258002395292 · 08:14 UTC
 **Peg:** [`SOURCE-x-adamlyttle-ndis-pii-2026-09-24.md`](SOURCE-x-adamlyttle-ndis-pii-2026-09-24.md)  
 **Parent:** https://x.com/adamlyttleapps/status/2102958488658104365  
 **Stacks:** national-security X already live · free-will desk open  
