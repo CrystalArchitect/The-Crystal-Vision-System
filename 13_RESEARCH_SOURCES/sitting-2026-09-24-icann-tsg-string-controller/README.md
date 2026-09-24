@@ -13,8 +13,11 @@
 
 1. [`EXTRACT-BRIEF.md`](EXTRACT-BRIEF.md) — what string+controller requires (load-bearing rules)  
 2. [`REQUIREMENTS-CHECKLIST.md`](REQUIREMENTS-CHECKLIST.md) — MUST/SHOULD checklist for reading applicants / observers  
-3. [`RECEIPT-chat-paste-2026-09-24.md`](RECEIPT-chat-paste-2026-09-24.md) — how this sitting got the text  
-4. [`SOURCE-official-pdf-text-extract.txt`](SOURCE-official-pdf-text-extract.txt) — text extract of the official PDF (via search fetch; PDF binary download blocked in this environment)
+3. [`THEMES-public-comments.md`](THEMES-public-comments.md) — Public Comment theme map (38 active + 2 retracted)  
+4. [`SOURCE-public-comment-roster.csv`](SOURCE-public-comment-roster.csv) — full submission roster + links  
+5. [`RECEIPT-chat-paste-2026-09-24.md`](RECEIPT-chat-paste-2026-09-24.md) — how this sitting got the report text  
+6. [`SOURCE-official-pdf-text-extract.txt`](SOURCE-official-pdf-text-extract.txt) — text extract of the official PDF (via search fetch; PDF binary download blocked in this environment)  
+7. [`SOURCE-unregistry-comment-text-extract.txt`](SOURCE-unregistry-comment-text-extract.txt) — Unregistry comment PDF text (sample primary)
 
 ---
 
@@ -31,6 +34,8 @@
 **Timeline (UTC, from Public Comment page):** open 10 Aug 2026 · closed for submissions **21 Sep 2026 23:59** · report due **05 Oct 2026 23:59**.
 
 This sitting is **after** the comment window. Do not invent a late filing unless Crystal stamps an out-of-band path.
+
+**Public Comment roster (filed 24 Sep):** 40 submissions in CSV (2 retracted). Theme extract prioritizes SSAC/ALAC/IPC/RrSG/ENS/Unregistry/ISPCP/MeitY; other org PDFs linked but not all extracted this pass.
 
 ---
 
