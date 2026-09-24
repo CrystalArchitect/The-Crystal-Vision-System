@@ -9,6 +9,18 @@ this repo; nothing here is invented.
 dated row. Do not silently overwrite an existing entry — a reversed
 decision gets a new entry that says so.
 
+## 2026-09-19 — Naming: Starline, not Songline
+
+Decision (Crystal): **we call songline Starline.** In this project, **Starline**
+is the name for Consent Transport / Starlines / Starline Weaver. **Songline**
+is never a CVS title, component, API, table, or product name (`CVS-SONGLINE`
+out of bounds). Living Indigenous Songlines remain custodial — homage only,
+never ownership or runtime naming.
+
+- Law doc: [`00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md)
+- Index: `CVS-STARLINE` / `CVS-SONGLINE` in [`WORKING-INDEX.md`](../00_MASTER_INDEX/WORKING-INDEX.md)
+- Hub PR: #32
+
 ## 2026-09-19 — Alive Weave: CrystalBridge ConsentGate in the pulse/weave path
 
 Decision: guests speak on the Alive Weave only after the real CrystalBridge
@@ -31,7 +43,8 @@ collapsing named systems into one product.
   `signal.bus_message` domain in
   [`archive/TheCrystalVision/services/decode.py`](../archive/TheCrystalVision/services/decode.py)
   and hub `weave.py` — hub titles stay Starline / labeled-bus only;
-  `CVS-SONGLINE` remains out of bounds.
+  `CVS-SONGLINE` remains out of bounds (see naming decision 2026-09-19 /
+  [`NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md)).
 
 Does **not** repeal connection ≠ merge, ADR-0005 (human recommend-then-approve
 orchestrator stays docs-first), or LEAF human veto. Celestial Portal docker

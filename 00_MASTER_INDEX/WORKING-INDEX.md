@@ -14,8 +14,8 @@
 | CVS-LWYMMD | 13 | Swift lyric vs Crystal recall | interpretation | no | `/13_RESEARCH_SOURCES/LWYMMD-lyric.md` |
 | CVS-PORTAL-A | 07 | Portal export partial | fact | no | `/handoff/celestial-portal/` |
 | CVS-Q32K | 99 | Quartz as timeline grid | speculation | no | `/99_UNRESOLVED/QUARTZ-TIMELINE-METAPHOR.md` |
-| CVS-SONGLINE | -- | **Songline** (wrong name for this project) | out of bounds | never | Use **Starline** — see `CVS-STARLINE` |
-| CVS-STARLINE | 04 | Starline / Consent Transport (project name; ≠ Songline) | coordination | no | Starlines drawer · Consent Transport in Code archive |
+| CVS-SONGLINE | -- | **Songline** (wrong name for this project) | out of bounds | never | Use **Starline** — [`NAMING-STARLINE.md`](NAMING-STARLINE.md) |
+| CVS-STARLINE | 04 | Starline / Consent Transport (project name; ≠ Songline) | coordination | no | [`NAMING-STARLINE.md`](NAMING-STARLINE.md) · Consent Transport in Code archive |
 | CVS-MEMORY | 00 | memory/ umbrella protocol (DECISIONS/MILESTONES/OPEN-QUESTIONS/PRIVACY) | fact | no | `/memory/` |
 | CVS-AISAFE-16 | 16 | AI Safety Research Drawer | coordination | no | `/16_AI_SAFETY_RESEARCH/INDEX.md` |
 | CVS-PHYSICS-17 | 17 | Physics Simulation Drawer | coordination | no | `/17_PHYSICS_SIMULATION/INDEX.md` |
@@ -95,7 +95,7 @@ Canon stays **no** until Crystal stamps it.
 
 - **2026-09-20 (stack):** Foundational platform contracts — `STACK-SURFACE.md` + `crystal_platform/` (Core ≠ agent; TAI acts; providers pluggable) + iOS App Intent scaffold + Portal `/v1/gateway/ask`. Canon: no.
 
-- **2026-09-19 (naming):** Project term is **Starline** (Consent Transport / Starlines). **Songline** is never a CVS title or component (`CVS-SONGLINE` out of bounds). Canon: no.
+- **2026-09-19 (naming):** Project term is **Starline** (Consent Transport / Starlines). **Songline** is never a CVS title or component (`CVS-SONGLINE` out of bounds). Law: [`NAMING-STARLINE.md`](NAMING-STARLINE.md). Canon: no.
 
 - **2026-09-19 (architecture):** MemoryCore discrepancy truth-checked — local-first Clementine (Track A) vs optional cloud/archive vault (Track B). Interim = separate tracks (packet E1). Doc: `MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md`. Nag Hammadi BookItems / infra map parked until labels held. Canon: no.
 
