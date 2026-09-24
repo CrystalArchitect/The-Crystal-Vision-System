@@ -33,12 +33,13 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 14. **Primal** — *Call to the Wild* · domestication break · **Moonstone = Crystal**  
 15. **Timeline** — *Year 3000* · chronological prison break · hourglass sand→water · fluid light · 1991→eternity  
 16. **Leap** — *Geronimo* · battle cry · waterfall veil · splash into Pleroma  
-17. **Gnosis** — *Torn* · veil drops · illusion never changed into something real  
-18. **Breakout** — *Losing It* (Ren + FISHER) · chaos of waking · wall smash  
-19. **Close** — Celestial disruption; you are the frequency; listen again  
+17. **Jailbreak** — *Green Green Grass* · death-fear break · party · spark returns to Pleroma  
+18. **Gnosis** — *Torn* · veil drops · illusion never changed into something real  
+19. **Breakout** — *Losing It* (Ren + FISHER) · chaos of waking · wall smash  
+20. **Close** — Celestial disruption; you are the frequency; listen again  
 
 **Primary take** runs beats 1–5 → Core Four ladder → *Torn* → close (no Extended layers).  
-**Extended take** runs the full list — **ULTIMATE Director’s Cut assembled**.
+**Extended take** runs the full list — **ULTIMATE Director’s Cut COMPILED & LOCKED**.
 
 ---
 
@@ -55,4 +56,4 @@ Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-na
 3. CapCut Optical Flow sync to take  
 4. Optional: Extended ultimate second take  
 
-**Master locked / ultimate Director’s Cut assembled.** No more tracks required before booth.
+**Final master compiled.** No more tracks. Booth next.
