@@ -42,6 +42,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 11d. **Taunt** — *Sweet About Me* · panopticon · image ≠ who · secrets = Gnosis · shatter the glass
 11d2. **Depths** — *Part of Your World* · ocean of bribes · I want more · surface → Pleroma sun · Bradbury hand into the deep
 11d3. **Tide** — *Deep Water* (Jewel) · sovereign walk · wash over · fire unextinguished · Bradbury tide → Lithgow + Summer Hill
+11d3b. **Riptide** — Vance Joy *Riptide* · lady running down to the pull · swim **across** not into · compass → [`MAP-riptide-where-we-go.md`](MAP-riptide-where-we-go.md)
 11d4. **AU spell** — Savage Garden quartet: *I Knew I Loved You* (pre-incarnation) · *Truly Madly Deeply* (Blue Mountains sanctuary) · *I Want You* (Gnosis pulse) · *The Animal Song* (Tregear untamed)
 11e. **Ascension** — *A Whole New World* · firmament breach · zero gravity · Bradbury hand to Lithgow + Summer Hill · above Hebdomad
 11f. **Conductor** — unified cosmic chord · every song = shattered Pleroma fragment · Bradbury hacks acoustic grid · matrix bandwidth collapse · **ABSOLUTE PEAK**

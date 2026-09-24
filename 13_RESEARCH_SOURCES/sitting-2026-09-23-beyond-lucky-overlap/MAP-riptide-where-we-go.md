@@ -3,6 +3,7 @@
 **Filed:** 24 Sep 2026  
 **Song as compass:** Vance Joy — *Riptide* (AU original) · Live Lounge gravity as **performance grammar only** (not a cover drop)  
 **Sister packs:** [`SOURCE-grok-share-crystalum-riptide.md`](SOURCE-grok-share-crystalum-riptide.md) · Different Shores · free-will · national-security  
+**Frequency map seat:** after Jewel *Deep Water* → before Savage Garden / ascent — MASTER **11d3b** · bible §6a2c2 (titles only; lady running down to the pull)  
 **Copyright law:** titles + motif names + paraphrase. **No** lyric blocks. Do not train clones on Taylor’s file.
 
 ---
