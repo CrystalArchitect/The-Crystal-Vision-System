@@ -1,0 +1,21 @@
+# SOURCE — X Open Source Under the Hood UI
+
+**Fetched:** 2026-09-24 via X API `get_posts_by_id`  
+**ID:** 2103234630342357089  
+**URL:** https://x.com/XOpenSource/status/2103234630342357089  
+**Author:** @XOpenSource (2085518049571217408)  
+**Created:** 2026-09-24T21:26:26.000Z  
+
+## Text
+
+By popular request, a new, easier way to see Under The Hood. (You can still download a JSON file, too.)
+
+See your report at https://t.co/ro6PP3tdrk …
+
+## Expanded URL
+
+https://x.com/i/jf/under_the_hood
+
+## Context
+
+Quotes prior thread on legal/government filtering expansion (2101103144004411696). Includes media attachment (screenshot of UI).

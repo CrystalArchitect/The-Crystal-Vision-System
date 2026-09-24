@@ -12,6 +12,7 @@
 | CVS-PERMUTT | 13 | Permutt, Ancient Power of Crystals | research | no | `/13_RESEARCH_SOURCES/` |
 | CVS-MILD | 13 | Night drill / MILD | research | no | `/13_RESEARCH_SOURCES/MILD.md` |
 | CVS-LWYMMD | 13 | Swift lyric vs Crystal recall | interpretation | no | `/13_RESEARCH_SOURCES/LWYMMD-lyric.md` |
+| CVS-X-ALGO | 13 | X For You algorithm + Under the Hood (open source / withheld map) | research | no | `/13_RESEARCH_SOURCES/sitting-2026-09-24-x-algorithm/` |
 | CVS-PORTAL-A | 07 | Portal export partial | fact | no | `/handoff/celestial-portal/` |
 | CVS-Q32K | 99 | Quartz as timeline grid | speculation | no | `/99_UNRESOLVED/QUARTZ-TIMELINE-METAPHOR.md` |
 | CVS-OOB-LINE | -- | Forbidden brand-name (not used in this project) | out of bounds | never | Use **Starline** — [`NAMING-STARLINE.md`](NAMING-STARLINE.md) |
