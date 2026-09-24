@@ -44,6 +44,8 @@
 | *Let It Go* / Crystal sovereignty | **5** flash / fractal ice-castle · into **6A** |
 | *Family* / Trolls–Bergens collective | colour overwrite · unified frequency |
 | *Follow Me* / spiritual heist | back door open · quiet walk away · bypass the warden |
+| *A Thousand Miles* / close the gap | cross any distance · no labyrinth · find the spark |
+| *Call Me Maybe* / exit code invitation | slip the lifeline · your choice · make the call |
 | *Call to the Wild* / Moonstone = Crystal | primal roar · wake the domesticated |
 | *Bamm* / concussive wake | sterile silence → shockwave · spiritually dead roar |
 | *Someday* / reunification prophecy | segregation falls · someday → now · sparks merge |
@@ -54,7 +56,7 @@
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
