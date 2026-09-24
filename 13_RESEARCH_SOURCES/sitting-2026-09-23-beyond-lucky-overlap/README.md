@@ -54,6 +54,7 @@
 - YouTube peg — Big Tech does the ban (jawboning / proxy censorship): [`SOURCE-youtube-big-tech-ban-proxy-xkzg2g9qcve.md`](SOURCE-youtube-big-tech-ban-proxy-xkzg2g9qcve.md) · https://youtu.be/XKzG2G9qCvE  
 - YouTube Live — Rossen Reports apps spying / phone privacy hygiene: [`SOURCE-youtube-rossen-apps-spying-xa43v8ijdfi.md`](SOURCE-youtube-rossen-apps-spying-xa43v8ijdfi.md) · https://www.youtube.com/live/xa43V8iJDfI  
 - YouTube Live — Rossen Reports stop-doing-this-on-phone hygiene: [`SOURCE-youtube-rossen-stop-phone-yvupgso6lca.md`](SOURCE-youtube-rossen-stop-phone-yvupgso6lca.md) · https://www.youtube.com/live/YVupgSo6lCA  
+- X — XFreeze / Wells Fargo Starlink ~47M users by 2028 forecast: [`SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md`](SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md) · https://x.com/XFreeze/status/2103149628011217228  
 - ABC IN FULL — Albanese announces OpenAI agent / Medicare stats portal (Jun 2026 → 24 Sep announce): [`SOURCE-youtube-albanese-openai-medicare-portal.md`](SOURCE-youtube-albanese-openai-medicare-portal.md)  
 - Zero Trust overlay (NIST / ASD / CISA → portal + agents): [`ADDENDUM-zero-trust-portal-agents.md`](ADDENDUM-zero-trust-portal-agents.md)  
 - Agentic access control map (inbound + outbound harness): [`ADDENDUM-agentic-access-control-map.md`](ADDENDUM-agentic-access-control-map.md)  
