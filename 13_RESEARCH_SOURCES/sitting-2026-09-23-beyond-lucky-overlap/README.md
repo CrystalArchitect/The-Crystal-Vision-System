@@ -55,6 +55,7 @@
 - Zero Trust overlay (NIST / ASD / CISA → portal + agents): [`ADDENDUM-zero-trust-portal-agents.md`](ADDENDUM-zero-trust-portal-agents.md)  
 - Agentic access control map (inbound + outbound harness): [`ADDENDUM-agentic-access-control-map.md`](ADDENDUM-agentic-access-control-map.md)  
 - Public stats portal Z0–Z3 segmentation (controls only): [`ADDENDUM-portal-zone-segmentation.md`](ADDENDUM-portal-zone-segmentation.md)  
+- **SpaceXAI inform draft** (one-desk BD note — not sent): [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md)  
 - Grok share CrystalCore.OS source/release audit + freeze pack trail (11 Sep frame): [`SOURCE-grok-share-crystalcore-os-audit.md`](SOURCE-grok-share-crystalcore-os-audit.md)  
 - Grok share Boot CrystalCore.OS (playable deck 0.9.11; preview expired): [`SOURCE-grok-share-boot-crystalcore-os.md`](SOURCE-grok-share-boot-crystalcore-os.md)  
 - Claude artifact CrystalCore.OS Live Party shell (public): [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md)  

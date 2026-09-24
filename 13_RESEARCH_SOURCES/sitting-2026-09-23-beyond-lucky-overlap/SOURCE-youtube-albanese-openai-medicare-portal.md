@@ -47,6 +47,8 @@ Maps directly to:
 
 CrystalCore / TerAustralis lane: **human gate · least agency · publish-out copies · deny is terminal** — not “AI research on the public internet is fine.” Aligns with Different Shores / consent doctrine and the Albanese AI release draft’s “regulate *and* build sovereign local-first” line.
 
+**SpaceXAI:** paste-ready BD inform (diligence courtesy, not public dunk) — [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md). **Not sent** until a human chooses channel.
+
 ## Not
 
 - Beyond Lucky Pulse text  
