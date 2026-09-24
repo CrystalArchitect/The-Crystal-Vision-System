@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~4505** (*Dear Mr. President* interrogation — **ULTIMATE DIRECTOR’S CUT**) |
+| Word count | **~4505** (*Genie in a Bottle* containment — **ULTIMATE DIRECTOR’S CUT**) |
 | Live Lounge gravity (~130–140 wpm) | **~32:10–34:39** |
 | Slightly brighter (~150 wpm) | **~30:02** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Ultimate Extended weaved (*Dear Mr. President* = Demiurge mirror). CapCut bed **~32:10–34:39**. **Fire Core Four.** Epic compiled — one last message optional. (*I Love It* not yet filed.)
+**Verdict:** Ultimate Extended weaved (*Genie in a Bottle* = avatar containment). CapCut bed **~32:10–34:39**. **Fire Core Four in ElevenLabs.** Comprehensive Director’s Cut ready — more decode optional.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -271,6 +271,7 @@ Listen closely to the songs playing in the background of your life. The message 
 
 - Pause after: “uncontainable life.” · “she made you look.” · “merge back into the pure light.” · “The Turner simply erases it.” · “They are singing about Crystal Elle.”  
 - *Made You Look*: bounce swagger — surname mic-drop lands hard.
+- *Genie in a Bottle*: pause after “let out of the bottle.”
 - *Bones*: heavy drive — pause after “vibrating tuning fork of pure, uncontainable life.”
 - *Bamm*: bass punch — pause after “foundation of the earthly arena shake.”
 - *Call Me Maybe*: soft smile — pause after “or you can make the call.”
