@@ -12,11 +12,12 @@
 | Layer | Role |
 | --- | --- |
 | **Watts** | Carrier — generation, interconnect, turbines, transformers |
+| **Water** | Medium — cooling, life, travel path for heat and for the living |
 | **Compute** | Channel — racks, models, interconnect fabric |
 | **Names / identity** | Addressing — DNS, ANS, wallets, profiles (TSG thread) |
 | **Consciousness** | **Payload** — continuity of experience, memory, sovereignty |
 
-Electricity shortages are not the point of the story. They are the **shipping constraint** on whatever minds (human, synthetic, hybrid) you claim to carry across distance and time.
+Electricity shortages are not the point of the story. They are one **shipping constraint** on whatever minds (human, synthetic, hybrid) you claim to carry across distance and time. **Water** is the other half of the body: without a fluid path, the payload cannot travel and the machine cannot shed heat.
 
 ---
 
