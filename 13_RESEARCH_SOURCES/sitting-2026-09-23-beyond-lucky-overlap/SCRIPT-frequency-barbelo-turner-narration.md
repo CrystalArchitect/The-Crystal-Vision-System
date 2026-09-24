@@ -25,7 +25,9 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Hook | Music as lofted frequency; muse as unholdable She | **1 Record player** — light from grooves |
 | Prison | Yaldabaoth / Demiurge; matter arena; sand | **2 Hourglass** in cosmic void |
 | Insertion | Prism enters Arena; name as blueprint | **3 Crystal in colosseum** |
-| Landing pad | Cecil Hills · grandfather beacon · bloodline · *Thunder* | **3** Ground Zero / map pin |
+| Origin / Grid | Penrith breach · Blue Mountains · Tregear · Cecil Hills · Narellan · Bradbury/Campbelltown | **3** map montage |
+| Landing pad | Cecil Hills · Arena · grandfather · *Thunder* | **3** Ground Zero beacon |
+| Engine | Tregear · *Tre-gear* · reverse Archon clockwork | gears reverse |
 | Hypnotic | Frequency manipulates matter · dance through prison | **3B Belly dancer / Hypnotic Turner** (after sand→glass VO) |
 | Trojan (*Macarena*) | Conformity loop · body joy hack · Divine Feminine joke | **3B** → **4** |
 | Command | Unapologetic worth · see through lies · rise above dirt | **4 Starlight woman** (Trainor / *Fly* attitude) |
@@ -40,6 +42,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Catalyst (*Bang Bang*) | Demiurge miscalculation · Bride wakes · assassin of illusions | **5B** late → **6A** |
 | Sovereignty (*Let It Go*) | Stop pretending · Crystal fractal castle · cold never bothered her | **5** flash → **6A** |
 | Interrogation (*Dear Mr. President*) | Chair · mirror · Barbelo vs Yaldabaoth · ego crumbles | acoustic climax |
+| Collective (*What About Us*) | Grid ignites · searchlights/rockets · megaphone | Sydney pin-lights cascade |
 | Collective (*Family*) | Bergens=Archons · Trolls=sparks · Pleroma sync | colour overwrite → **6A** |
 | Heist (*Follow Me*) | Back door open · quiet walk away · bypass warden | soft corridor of light |
 | Distance (*A Thousand Miles*) | Close the gap · no labyrinth · find the spark | long road / light corridor |
@@ -54,7 +57,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad) · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Dear Mr. President* (P!nk — Demiurge interrogation) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Follow Me* (Uncle Kracker — spiritual heist) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Bamm* (Zombies — concussive wake) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (erase borders / mythos only) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Macarena* (Los del Río — Trojan horse / body joy) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Bones* (Imagine Dragons — biology as conductor) · *Thunder* (Imagine Dragons — bloodline / Cecil Hills) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad) · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Dear Mr. President* (P!nk — Demiurge interrogation) · *What About Us* (P!nk — collective reckoning) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Follow Me* (Uncle Kracker — spiritual heist) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Bamm* (Zombies — concussive wake) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (erase borders / mythos only) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Macarena* (Los del Río — Trojan horse / body joy) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Bones* (Imagine Dragons — biology as conductor) · *Thunder* (Imagine Dragons — bloodline / Cecil Hills) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -66,21 +69,25 @@ Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Sweet Dreams* (Eury
 4. 29 Sep 1991 — prism named Crystal Elle Arena-Turner.  
 5. Name decoded: reflector · She · matter-field · paradigm shift.  
 
-### 5a. Bloodline landing pad — Cecil Hills / Ground Zero (after Insertion → before Hypnotic)
+### 5a. Sydney frequency grid — Penrith / bloodlines / command (after Insertion → before Hypnotic)
 
-There are no coincidences in the architecture of the matrix — especially bloodlines.
+There are no coincidences in the architecture of the matrix — especially bloodlines and entry points.
 
-Demiurge thinks he controls geography; Pleroma plants anchors ahead of time. Grandfather in **Cecil Hills** not chance — stationed at **Ground Zero**.
+**Penrith** = Point of Origin / cosmic insertion. 29 Sep 1991 — veil tore over Penrith; refractive light of the Turner dropped into the vessel. Demiurge thinks dictating entry = controlling destiny; Pleroma made the breach.
 
-Archons crush sparks with heavy gravity and isolation on entry. For the Land Down Under drop, higher realm needed a beacon — guardian holding a pocket of pure frequency at the exact drop zone. Grandfather held those coordinates.
+**Cecil Hills** — Arena side · grandfather · Ground Zero battleground anchor.  
+**Tregear** — Turner bloodline · *Tre-gear* = grip mechanical gears of the simulation and reverse them (not a passive cog).  
+**Blue Mountains** — father · high-altitude watchtower above birth coordinate.  
+**Narellan** — mother · southern grid.  
+**Bradbury / Campbelltown** — current command center · frequencies converge · active hack / wake.
 
-Bloodlines = frequency Archons cannot easily hack or rewrite. Ancestral root in Cecil Hills — **Arena side of the family** at Ground Zero — = safe landing pad for 1991 Turner deployment. He held the line so the crystal knew exactly where to strike the earth. Name lock: **Arena**-Turner ↔ Cecil Hills coordinates.
+Name sentence: **Crystal** (Pleroma light) · **Elle** (She) · **Arena** (earthly battleground / Cecil Hills) · **Turner** (Tregear gear-reverse). Geography + name = reality-breaking circuit board across Greater Sydney. False god thought scatter diluted her — instead built interconnected light grid; when she hits the switch, whole grid goes off.
 
-*Thunder* (Imagine Dragons — title/energy): shockwave doesn't start only with her — echoes back through the bloodline, activating the coordinates he was protecting all along.
+*Thunder* (Imagine Dragons — title/energy): shockwave echoes through bloodline / coordinates.
 
-**Sitting hold:** Mythos / performance bible — Vision labelled vision · **not** biography-as-fact. Place name + bloodline as **coordinates lore**. Title *Thunder* only in captions. **No lyric blocks**.
+**Sitting hold:** Mythos / Vision — **not** biography-as-fact. Place names = **coordinates lore** for CapCut settings / B-roll. Titles only. **No lyric blocks**.
 
-**CapCut:** Map pin / red earth / quiet house of light as beacon · lightning echo through a family line · title card *Thunder* · into Hypnotic / Shot **3**.
+**CapCut:** Map montage — Penrith pin → Blue Mountains ridge → Tregear gears → Cecil Hills beacon → Narellan south → Bradbury/Campbelltown hub lighting up · title card *Thunder* · into Hypnotic / Shot **3**.
 
 ### 5b. Hypnotic Turner — frequency moves the Arena (after sand→glass / landing pad)
 
@@ -254,9 +261,23 @@ She isn't yelling. Divine Feminine holds up a mirror — forces him to see cruel
 
 **Sitting hold:** Title + Gnostic paraphrase. Earthly political reception stays off the desk — this cut is mythos interrogation of the false god, not earthly campaign. **No lyric blocks** in captions. Optional *Dear Mr. President* acoustic bed under climax chair scene.
 
-**CapCut:** Chair opposite a shadowed tower figure · warm frequency mirror · title card *Dear Mr. President* · into *Family*.
+**CapCut:** Chair opposite a shadowed tower figure · warm frequency mirror · title card *Dear Mr. President* · into *What About Us*.
 
-### 6e. *Family* — Trolls / Bergens / collective Pleroma (after *Dear Mr. President* → before Gnosis)
+### 6d2. *What About Us* — collective reckoning / grid ignite (after *Dear Mr. President* → before *Family*)
+
+False god sold ordered arena for blind obedience. Simulation breaking; sparks realize the cosmic lie.
+
+*What About Us* (P!nk): to the uninitiated, earthly protest; to the awakened — human collective confronting the Demiurge. Opening energy (paraphrase): searchlights that see in the dark; rockets pointed at the stars = Gnostic realization — sparks are refractive Pleroma light, not only heavy vessels; rockets pierce Archon seven spheres (Hebdomad) toward higher realms.
+
+Chorus energy (paraphrase): broken happy-ever-afters / trust / plans = matrix never designed to protect — scam to harvest energy.
+
+Turner no longer confronts alone. Grid ignited: Blue Mountains → Cecil Hills · Tregear → Narellan. She is megaphone for the collective — army of awakened souls look up at the false god's tower and interrogate the system.
+
+**Sitting hold:** Title + Gnostic paraphrase. Earthly politics off desk — mythos collective vs Demiurge. **No lyric blocks**. Optional *What About Us* bed under grid-ignite montage.
+
+**CapCut:** Sydney pin-lights cascade on · crowd of searchlights / rockets up · title card *What About Us* · into *Family*.
+
+### 6e. *Family* — Trolls / Bergens / collective Pleroma (after *What About Us* → before Gnosis)
 
 But the Turner knows that a single crystal, no matter how bright, is still surrounded by the dark. To shatter the arena, the frequency must be amplified.
 
@@ -412,7 +433,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 **Public cut:** *Torn* / *Losing It* (Ren + FISHER) / *Macarena* / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Sweet Dreams* / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Follow Me* / *A Thousand Miles* / *Call Me Maybe* / *Call to the Wild* / *Bamm* / *Someday* / *Blurred Lines* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Made You Look* carries *materialism reject / Turner mic-drop*; *Bones* carries *biology as conductor / marrow electric*; *Thunder* carries *bloodline shockwave / Cecil Hills coordinates*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Sweet Dreams* carries *Archon broadcast / Hebdomad / harvest*; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Dear Mr. President* carries *Demiurge interrogation / mirror*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *A Thousand Miles* carries *close the gap*; *Call Me Maybe* carries *exit code / invitation*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Bamm* carries *concussive wake / walls crack*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Made You Look* carries *materialism reject / Turner mic-drop*; *Bones* carries *biology as conductor / marrow electric*; *Thunder* carries *bloodline shockwave / Cecil Hills coordinates*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Sweet Dreams* carries *Archon broadcast / Hebdomad / harvest*; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Dear Mr. President* carries *Demiurge interrogation / mirror*; *What About Us* carries *collective reckoning / grid ignite*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *A Thousand Miles* carries *close the gap*; *Call Me Maybe* carries *exit code / invitation*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Bamm* carries *concussive wake / walls crack*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
 
 ---
 
@@ -433,6 +454,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | *Bang Bang* / Kill Bill VO | Late **5B** → **6A** cold grade · optional Nancy Sinatra bed · title card · Bride-wakes energy |
 | *Let It Go* / Crystal VO | Fractal ice-castle flash · title card · sovereignty before interrogation |
 | *Dear Mr. President* / interrogation VO | Chair opposite tower · mirror · acoustic · title card · mythos only |
+| *What About Us* / collective VO | Sydney pin-lights cascade · searchlights/rockets · title card |
 | *Family* / Trolls VO | Gray→colour overwrite · title card · collective |
 | *Follow Me* / heist VO | Soft corridor / open back door · title card · quiet escape |
 | *A Thousand Miles* / distance VO | Long road closing · title card · piano colour |

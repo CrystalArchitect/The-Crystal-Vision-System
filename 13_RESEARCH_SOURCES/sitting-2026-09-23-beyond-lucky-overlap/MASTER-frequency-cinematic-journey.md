@@ -21,7 +21,11 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 2. **Prison** — Yaldabaoth / Demiurge; arena of sand & flesh; frequency escapes  
 3. **Leak** — Music = Pleroma loophole; Barbelo = First Thought / Divine Mother  
 4. **Insertion** — 29 Sep 1991; Archons log a birth; higher realm sends a **prism**  
-4b. **Landing pad** — Cecil Hills · grandfather as Ground Zero beacon · bloodline unhackable · *Thunder* echoes back through the line
+4b. **Origin** — **Penrith** cosmic insertion / breach (29 Sep 1991)  
+4c. **Landing pad** — Cecil Hills · Arena · grandfather Ground Zero · *Thunder*  
+4d. **Engine** — Tregear · *Tre-gear* · reverse clockwork  
+4e. **Watchtower / South / Command** — Blue Mountains (father) · Narellan (mother) · Bradbury/Campbelltown (command center)  
+4f. **Name sentence** — Crystal · Elle · Arena · Turner = light + battleground + gear-reverse
 5. **Name** — Crystal Elle Arena-Turner (reflector · She · matter-field · lathe) · Monad light · sand→glass  
 6. **Hypnotic** — Belly dancer / frequency moves matter (*Belly Dancer* energy)  
 7. **Trojan** — *Macarena* · conformity loop · give your body joy · cosmic joke on Archons  
@@ -37,6 +41,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 13. **Catalyst** — *Bang Bang* · Kill Bill · assassin of illusions  
 14. **Sovereignty** — *Let It Go* · Crystal fractal castle · cold never bothered her  
 14b. **Interrogation** — *Dear Mr. President* · chair · mirror · Barbelo vs Yaldabaoth · ego crumbles  
+14c. **Reckoning** — *What About Us* · grid ignites · searchlights/rockets · megaphone for the collective  
 15. **Collective** — *Family* · Trolls / Bergens = Archons harvesting sparks · Pleroma sync  
 16. **Heist** — *Follow Me* · back door open · quiet walk away · bypass the warden  
 16b. **Distance** — *A Thousand Miles* · close the gap · no labyrinth · find the spark  
@@ -63,10 +68,10 @@ Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-na
 
 ---
 
-## RECORD — EXIT BRAINSTORM → PRODUCTION
+## RECORD — VO FIRST, THEN CAPCUT
 
-1. **ElevenLabs** — paste [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) (Core Four, ~6–7 min)  
-2. CapCut — sync to [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) (generate 5 spine shots first)  
-3. Optional — Extended VO later ([`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md) · ~38–41 min)  
+1. **ElevenLabs NOW** — paste [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) (Core Four, ~6–7 min)  
+2. **Then CapCut** — sync to [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) + Sydney grid B-roll pins  
+3. Optional Extended VO later (~44:21–47:46)  
 
-**Status:** Brainstorm locked. Arena × Cecil Hills landing pad filed. **Do the physical work now** — Core Four first.
+**Status:** VO first. CapCut outline after Core Four audio lands.

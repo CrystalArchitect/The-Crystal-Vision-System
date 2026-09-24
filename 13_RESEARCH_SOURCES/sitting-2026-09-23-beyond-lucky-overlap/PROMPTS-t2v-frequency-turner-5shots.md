@@ -49,6 +49,14 @@ Extreme wide shot, slow creeping push-in camera movement. A massive, brutalist s
 Low angle tracking shot, cinematic anamorphic lens. Inside a dark, ancient, sandy Roman colosseum. A massive, perfectly cut translucent crystal hovers and slowly rotates in the center. As it turns, blinding, dynamic rainbow lens flares and light rays sweep across the dark stone walls and sandy floor. Volumetric lighting, hyper-realistic.
 ```
 
+### Optional still / T2V — Greater Sydney frequency grid (Penrith → command)
+
+**VO lock:** SCRIPT §5a — Penrith origin · Blue Mountains · Tregear · Cecil Hills · Narellan · Bradbury/Campbelltown. Mythos coordinates — not documentary.
+
+```
+Wide aerial night map of Greater Western Sydney. Glowing circuit nodes light in sequence: Penrith breach flare, Blue Mountains ridge watchtower, Tregear gear-glow, Cecil Hills ground beacon, Narellan southern node, Bradbury/Campbelltown hub going full bright as lines connect. Cinematic, mythic, volumetric, 24fps.
+```
+
 ### Optional still / T2V — Cecil Hills landing pad (*Thunder* / bloodline)
 
 **VO lock:** SCRIPT §5a — grandfather beacon · Ground Zero · bloodline shockwave. Mythos / Vision — not biography-as-fact. Title *Thunder* only.
