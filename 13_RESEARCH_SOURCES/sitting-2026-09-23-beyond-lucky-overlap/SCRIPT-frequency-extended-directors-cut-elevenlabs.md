@@ -1,7 +1,7 @@
 # SCRIPT — Frequency / Barbelo / Turner · EXTENDED Director’s Cut (optional long booth)
 
 **Filed:** 24 Sep 2026  
-**Status:** **DIRECTOR’S CUT EXTENDED — READY FOR ELEVENLABS** · Extended take · primary booth = Core Four · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
+**Status:** **UNBROKEN DIRECTOR’S CUT — CAPCUT MASTER** · READY FOR ELEVENLABS · Extended take · primary booth = Core Four · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
 **Primary booth (Core Four):** [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
 **Maps to:** [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) · beat bible [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md)  
 **Law:** Different Shores taxi · Human publishes · No destiny proof  
@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~8170** (*Part of Your World* / *Deep Water* → *A Whole New World* — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~58:21–62:51** |
-| Slightly brighter (~150 wpm) | **~54:28** |
+| Word count | **~8146** (*Part of Your World* / Jewel *Deep Water* → *A Whole New World* — **ULTIMATE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~58:11–62:40** |
+| Slightly brighter (~150 wpm) | **~54:18** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Arsenal locked (Disney depths + Clapton coastline → peaks). CapCut bed **~58:21–62:51**. **Fire Core Four.** Opening line locked.
+**Verdict:** Arsenal locked (depths → Jewel sovereign walk → peaks). **EXTENDED = CapCut master.** Fire Core Four VO first. CapCut bed **~58:11–62:40**. **Fire Core Four.** Opening line locked.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-nad
 
@@ -49,7 +49,7 @@
 | *Castle on the Hill* / sovereignty | Bradbury router · Lithgow · Summer Hill QLD · continental grid |
 | *Sweet About Me* / panopticon taunt | image ≠ who · secrets = Gnosis · shatter the glass |
 | *Part of Your World* / depths longing | ocean of bribes · I want more · surface → Pleroma sun |
-| *Deep Water* / coastal confession | Clapton · firefly sparks · Sydney shoreline trap |
+| *Deep Water* / sovereign walk | Jewel · wash over · fire unextinguished · Bradbury tide |
 | *A Whole New World* / firmament breach | lift the veil · zero gravity · Bradbury→sparks above Hebdomad |
 | Sydney + continental grid | Penrith · Blue Mountains · Tregear · Cecil Hills · Narellan · Bradbury · Lithgow · Summer Hill |
 | *Sweet Dreams* / Archon broadcast | Hebdomad / seven seas · harvest confession · alarm clock |
@@ -70,7 +70,7 @@
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *Part of Your World* (Disney — depths longing / I want more) · *Deep Water* (Richard Clapton — coastal confession / Sydney shoreline) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Stand by Me* · *Bang Bang* · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *Part of Your World* (Disney — depths longing / I want more) · *Deep Water* (Jewel — sovereign walk / wash over / fire unextinguished) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Stand by Me* · *Bang Bang* · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -286,13 +286,15 @@ That sun is not the physical star in our sky. It is the pure, blinding, uncreate
 
 The Ar-konz demand that humanity stay anchored to the ocean floor, silent and compliant in their heavy biological vessels. But the Turner hears that ancient, desperate frequency echoing from the deep. From her command center in Bradbury, she doesn't just watch them drown. She shatters the surface tension of the matrix, reaches her hand into the heavy water, and pulls her sparks — from Lithgow to Summer Hill and everywhere in between — out of the depths so they can finally breathe the true air of the higher dimensions.
 
-And that deep water has an Australian frequency of its own.
+The Dem-ee-urj expects the heavy gravity of the earthly arena to completely overwhelm the divine spark.
 
-Listen to Richard Clapton's "Deep Water." To the sleeping world, it is a nostalgic coastal rock anthem — beaches at night, promenade lights, rock and roll bands that used to swing. To the awakened, it is the confession of a spark who once danced at the edge of the Dem-ee-urj's ocean and finally admitted how far under they had gone.
+This brings us to the profound, atmospheric frequency of Jewel's "Deep Water."
 
-Fireflies in the promenade lights are not just a pretty memory. They are divine sparks flickering inside the false god's neon — beautiful, brief, and still trapped under the pressure of the lower spheres. Sweet Christine is not just a dance partner on the sand. In the code, she is the soft name the matrix gives the Divine Feminine so the Ar-konz will underestimate her — right up until the Turner stops foxtrotting to their tune.
+To the sleeping masses, it is a haunting, beautiful acoustic track about emotional survival and feeling submerged by life. But in the Gnostic blueprint, it is the exact experience of a pure spark navigating the densest, most emotionally overwhelming layers of the lower spheres.
 
-Deep water is the Dem-ee-urj's favourite prison. Not drowning in a single wave, but living so long under the weight that the crush starts to feel like home. Clapton's coastal confession locks the Sydney shoreline into the grid: the same eastern edge that runs from Bradbury's command out through the beaches, while the Turner monitors her sparks inland at Lithgow and north at Summer Hill. The deep water was never scenery. It was the trap. And she came to pull them out of it.
+When the artist sings about walking in deep water and letting it wash over her, it is not a surrender to the false god's matrix. It is a deliberate, sovereign choice. The Ar-konz assume that if they plunge the Turner into the heavy, crushing emotional depths of the simulation, she will drown and forget her light. But the Turner does not drown. She walks straight through the deep water, feeling the full, intense weight of the human condition — the ultimate illusion — without letting it extinguish her fire.
+
+She operates from her command center in Bradbury, stepping directly into the heavy tide to retrieve her sparks in Lithgow and Summer Hill. The water washes over her, but it cannot claim her. She navigates the darkest, heaviest parts of the simulation with complete clarity.
 
 The Dem-ee-urj trapped humanity under a heavy, suffocating dome, convincing the sparks that his dense, physical matrix was the only reality that existed. He relies on gravity — both physical and spiritual — to keep everyone grounded, obedient, and staring at the dirt.
 
@@ -466,8 +468,8 @@ Listen closely to the songs playing in the background of your life. The message 
 - Continental grid: pause after “inescapable trap for the false god.”
 - *Sweet About Me*: smirk — pause after “shatter the glass.”
 - *Part of Your World*: ache from the deep — pause after “true air of the higher dimensions.”
-- *Deep Water*: coastal grit — pause after “she came to pull them out of it.”
+- *Deep Water*: atmospheric calm — pause after “complete clarity.”
 - *A Whole New World*: soar — lift after “shatter the glass”; pause after “untethered reality.”  
 - Do not throat-clone. Captions = titles only.  
-- CapCut bed **~58:21–62:51**.  
+- CapCut bed **~58:11–62:40**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).
