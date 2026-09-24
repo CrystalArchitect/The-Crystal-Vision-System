@@ -101,6 +101,8 @@ Canon stays **no** until Crystal stamps it.
 
 - **2026-09-20 (stack):** Foundational platform contracts — `STACK-SURFACE.md` + `crystal_platform/` (Core ≠ agent; TAI acts; providers pluggable) + iOS App Intent scaffold + Portal `/v1/gateway/ask`. Canon: no.
 
+- **2026-09-24 (naming sitting archived):** Starline naming sitting closed. Law stays live at [`NAMING-STARLINE.md`](NAMING-STARLINE.md). Archive note: [`15_ARCHIVE_HISTORY/starline-naming-sitting-2026-09-19-closed/`](../15_ARCHIVE_HISTORY/starline-naming-sitting-2026-09-19-closed/). Canon: no.
+
 - **2026-09-19 (naming):** Name is **Starline**. *Spread the bird, not the word.* Law: [`NAMING-STARLINE.md`](NAMING-STARLINE.md). Canon: no.
 
 - **2026-09-19 (architecture):** MemoryCore discrepancy truth-checked — local-first Clementine (Track A) vs optional cloud/archive vault (Track B). Interim = separate tracks (packet E1). Doc: `MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md`. Nag Hammadi BookItems / infra map parked until labels held. Canon: no.
