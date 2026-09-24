@@ -95,6 +95,7 @@ Order roughly follows MASTER journey (some CapCut beds may reorder for music edi
 | **Conductor / unified chord** | (concept beat — all songs) | Every song = shattered Pleroma · acoustic grid sync · **PEAK** |
 | **Roots** (*No Roots*) | Alice Merton | Dig/hide Gnosis · home never on the ground · night road |
 | **Jerusalema** | Master KG ft. Nomcebo | Pleroma home city · global dance sync · shepherd / guard the walk |
+| **Shotgun** | George Ezra | Ride shotgun / co-pilot home · windows down · Ezra pair → *Green Green Grass* |
 | **Sweet Dreams** | Eurythmics | Archon broadcast · harvest · Turner = alarm clock |
 | **Stand by Me** | Ben E. King | Anchor · stand next to the true light |
 | **Bang Bang** | Nancy Sinatra / Kill Bill energy | Assassin of illusions |
@@ -112,7 +113,7 @@ Order roughly follows MASTER journey (some CapCut beds may reorder for music edi
 | **Blurred Lines** | Robin Thicke | Erase Demiurge borders |
 | **Year 3000** | Busted / Jonas | Chronological prison break · 1991 → eternity |
 | **Geronimo** | Sheppard | Leap of faith · waterfall into Pleroma |
-| **Green Green Grass** | George Ezra | Jailbreak celebration |
+| **Green Green Grass** | George Ezra | Jailbreak celebration · Ezra pair with *Shotgun* |
 | **Torn** | Natalie Imbruglia | Gnosis climax |
 | **Losing It** | Ren + FISHER | Chaos of waking · wall smash |
 

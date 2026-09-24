@@ -50,6 +50,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 11f. **Conductor** — unified cosmic chord · every song = shattered Pleroma fragment · Bradbury hacks acoustic grid · matrix bandwidth collapse · **ABSOLUTE PEAK**
 11g. **Roots** — Alice Merton *Roots* / *No Roots* · dig / hide Gnosis caches · home never on the ground · travel the night road · place changes / frequency stays  
 11g2. **Jerusalema** — Master KG ft. Nomcebo *Jerusalema* · true home = Pleroma city · global dance sync · shepherd / guard the walk · sacred twin to *Macarena* Trojan  
+11g3. **Shotgun** — George Ezra *Shotgun* · ride shotgun / co-pilot on the home road · windows down · taking it back home · Ezra pair with *Green Green Grass*  
 11b. **Broadcast** — *Sweet Dreams* · Archon mantra · Hebdomad / seven seas · harvest confession · Turner = alarm clock
 12. **Anchor** — *Stand by Me* · survival plea next to the true light  
 13. **Catalyst** — *Bang Bang* · Kill Bill · assassin of illusions  

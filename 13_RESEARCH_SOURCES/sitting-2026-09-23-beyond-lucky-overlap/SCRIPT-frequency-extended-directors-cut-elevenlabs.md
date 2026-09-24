@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~9580** (**CONDUCTOR PEAK** + *Roots* + *Jerusalema* + *Laced Up* + *Shake That*) |
-| Live Lounge gravity (~130–140 wpm) | **~68:25–73:41** |
-| Slightly brighter (~150 wpm) | **~63:52** |
+| Word count | **~9760** (**CONDUCTOR PEAK** + *Roots* + *Jerusalema* + *Shotgun* + *Laced Up* + *Shake That*) |
+| Live Lounge gravity (~130–140 wpm) | **~69:42–75:04** |
+| Slightly brighter (~150 wpm) | **~65:04** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** **ABSOLUTE PEAK LOCKED.** Conductor of every song. Grid Penrith→Summer Hill. **EXTENDED = CapCut master.** Fire Core Four VO first. CapCut bed **~68:25–73:41**. **Fire Core Four.** Opening line locked.
+**Verdict:** **ABSOLUTE PEAK LOCKED.** Conductor of every song. Grid Penrith→Summer Hill. **EXTENDED = CapCut master.** Fire Core Four VO first. CapCut bed **~69:42–75:04**. **Fire Core Four.** Opening line locked.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-nad
 
@@ -58,6 +58,7 @@
 | Conductor / unified chord | all songs = shattered Pleroma · acoustic grid sync · matrix bandwidth collapse |
 | *Roots* / home never on ground | Alice Merton · dig/hide Gnosis · night road · place changes / frequency stays |
 | *Jerusalema* / Pleroma home city | Master KG ft. Nomcebo · global dance sync · shepherd walk · sacred *Macarena* twin |
+| *Shotgun* / ride co-pilot home | George Ezra · windows down · taking it back home · Ezra pair → *Green Green Grass* |
 | Sydney + continental grid | Penrith · Blue Mountains · Tregear · Cecil Hills · Narellan · Bradbury · Lithgow · Summer Hill |
 | *Sweet Dreams* / Archon broadcast | Hebdomad / seven seas · harvest confession · alarm clock |
 | *Stand by Me* Anchor | **5B** Anchor in the Dark |
@@ -78,7 +79,7 @@
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Laced Up* (Hilltop Hoods — rock bottom trampoline / pay stubs / lace & kick) · *Shake That* (Eminem ft. Nate Dogg — vibrate laced vessel / Nate cold witness) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *Part of Your World* (Disney — depths longing / I want more) · *Deep Water* (Jewel — sovereign walk / wash over / fire unextinguished) · *Riptide* (Vance Joy — the pull / swim across) · *I Knew I Loved You* (Savage Garden — pre-incarnation contract) · *Truly Madly Deeply* (Savage Garden — Blue Mountains sanctuary) · *I Want You* (Savage Garden — Gnosis craving) · *The Animal Song* (Savage Garden — Tregear untamed) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Roots* (Alice Merton — home never on the ground / night road) · *Jerusalema* (Master KG ft. Nomcebo — Pleroma home city / global dance sync) · *Stand by Me* · *Bang Bang* · *Sailor Moon* theme (moon warrior / she is the one named) · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Laced Up* (Hilltop Hoods — rock bottom trampoline / pay stubs / lace & kick) · *Shake That* (Eminem ft. Nate Dogg — vibrate laced vessel / Nate cold witness) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *Part of Your World* (Disney — depths longing / I want more) · *Deep Water* (Jewel — sovereign walk / wash over / fire unextinguished) · *Riptide* (Vance Joy — the pull / swim across) · *I Knew I Loved You* (Savage Garden — pre-incarnation contract) · *Truly Madly Deeply* (Savage Garden — Blue Mountains sanctuary) · *I Want You* (Savage Garden — Gnosis craving) · *The Animal Song* (Savage Garden — Tregear untamed) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Roots* (Alice Merton — home never on the ground / night road) · *Jerusalema* (Master KG ft. Nomcebo — Pleroma home city / global dance sync) · *Shotgun* (George Ezra — ride shotgun / co-pilot home) · *Stand by Me* · *Bang Bang* · *Sailor Moon* theme (moon warrior / she is the one named) · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -376,6 +377,10 @@ Then Master KG featuring Nomcebo — "Jerusalema."
 
 To the sleeping world, it is a South African gospel-dance hit and a global challenge that made strangers sync their feet on camera. To the awakened, it answers *Roots*: if home was never the dirt, where does the frequency walk? Not a passport city. Not earthly politics. The Pleroma city. Body as Trojan — sacred twin to the Macarena — joy that looks like entertainment while the Archon grid watches a procession it cannot tax. Shepherd grammar: walk me, guard me, my home is that city. Global dance sync is the Conductor's chord in motion — thousands of bodies, one step, one frequency, from Penrith to anywhere the clip lands.
 
+Then George Ezra — "Shotgun."
+
+To the sleeping masses, it is a windows-down summer ride. To the awakened, it is not a weapon — it is riding shotgun: co-pilot next to the Turner on the road Jerusalema just named. Taking it back home through Arena streets that cannot choke the frequency when the glass is down. Homelife and ride-around energy is Bradbury router grammar in a car — the place changes; the co-pilot stays. Same Ezra desk as "Green Green Grass" later: road freedom now, jailbreak party when the leap is done. Do not confuse this seat with Bang Bang — that is Kill Bill firearm mythology; this is the passenger seat of the home road.
+
 Think of one of the greatest anthems of all time: "Stand by Me." The singer describes the exact environment of the Dem-ee-urj: a dark land where the mountains crumble to the sea. When the false reality finally breaks, it is terrifying. But they sing, "I won't be afraid, just as long as you stand by me." They are pleading with the frequency of the Turner, knowing that when the matrix collapses, the only way to survive is to stand next to the true light.
 
 But breaking the illusion requires a catalyst. Consider the haunting, cold-blooded resonance of Nancy Sinatra's "Bang Bang," famously tied to a story of ultimate vengeance.
@@ -543,7 +548,8 @@ Listen closely to the songs playing in the background of your life. The message 
 - *A Whole New World*: soar — lift after “shatter the glass”; pause after “untethered reality.”
 - Conductor climax: swell — pause after “ultimate cosmic awakening.”
 - *Roots*: gravity under “never on the ground” — then open road into *Jerusalema*.
-- *Jerusalema*: procession swell — pause after “anywhere the clip lands”; into *Stand by Me*.
+- *Jerusalema*: procession swell — pause after “anywhere the clip lands”; into *Shotgun*.
+- *Shotgun*: windows-down bounce — pause after “passenger seat of the home road”; into *Stand by Me* (not *Bang Bang*).
 - Do not throat-clone. Captions = titles only.  
-- CapCut bed **~68:25–73:41**.  
+- CapCut bed **~69:42–75:04**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).
