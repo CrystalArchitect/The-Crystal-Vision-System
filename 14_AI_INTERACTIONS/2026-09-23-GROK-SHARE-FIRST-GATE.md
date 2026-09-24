@@ -34,7 +34,7 @@ The same public terminal **does** run. Replayed here from [`crystalcore_os.py`](
 | Grok's save at `artifacts/crystalcore-state/` and snapshot `SNAP-2026-09-06-FIRST-GATE-OPEN` | Not in this repo. Their session date, not this replay |
 | "47 systems" / galactic mesh as a measurement | Scripted boot lines. Freeze pack §C: do not put these on a product slide as features |
 | Mikhail Protocol and Hellfire Gala are absent from the repos | **Wrong as a blanket.** They are comic panels in [`10_ORIGINAL_CREATIVE/sitting-2026-09-19/2026-09-05-krystallos-and-the-silent-line.md`](../10_ORIGINAL_CREATIVE/sitting-2026-09-19/2026-09-05-krystallos-and-the-silent-line.md) and the TerAustralis narrative copies. They are not CrystalCore.OS modules and not commands |
-| "collusos" gate | Spelling is **Colossus**. The word is already in the mythos: card VII, The Unfinished Colossus, and the launch-map node after Alpha Centauri. It is not a terminal command. Memphis Colossus in the Sydney notes is a separate industrial label |
+| Colossus gate | Spelling is **Colossus**. The share typed it wrong. The word is already in the mythos: card VII, The Unfinished Colossus, and the launch-map node after Alpha Centauri. It is not a terminal command. Memphis Colossus in the Sydney notes is a separate industrial label |
 | Chat became the OS | Refused by the project's own rule: an AI reply to `Boot CrystalCore.OS` has authority weight zero |
 
 ## What the replay left
