@@ -28,6 +28,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Hypnotic | Frequency manipulates matter · dance through prison | **3B Belly dancer / Hypnotic Turner** (after sand→glass VO) |
 | Trojan (*Macarena*) | Conformity loop · body joy hack · Divine Feminine joke | **3B** → **4** |
 | Command | Unapologetic worth · see through lies · rise above dirt | **4 Starlight woman** (Trainor / *Fly* attitude) |
+| Flex (*Made You Look*) | Shed labels · raw frequency · made them **turn** | **4** swagger / glitter falls |
 | Gaze (*Bette Davis Eyes*) | Piercing vision · expose Archons · Barbelo knowing | **4** eye / through-matrix |
 | Accelerate | High-pitch metaphor · sovereignty · Saturn rings | **4** late (Chipmunks *Single Ladies*) |
 | Turner | She walks matter as starlight; crowd frozen | **4 Starlight woman** (2:30–2:55) |
@@ -278,7 +279,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 **Public cut:** *Torn* / *Losing It* (Ren + FISHER) / *Macarena* / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Follow Me* / *Call to the Wild* / *Someday* / *Blurred Lines* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Made You Look* carries *materialism reject / Turner mic-drop*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
 
 ---
 
@@ -288,7 +289,8 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | --- | --- |
 | Sand→glass / Hypnotic VO | Shot **3B** belly dancer · optional *Belly Dancer* bed |
 | *Macarena* / Trojan VO | 3B→4 synchronized crowd breaks · title card · body joy |
-| Command / Trainor VO | Shot **4** starlight walk · optional Trainor title-bed (*Me Too* / *Made You Look* / *Lips Are Movin'*) |
+| Command / Trainor VO | Shot **4** starlight walk · optional Trainor title-bed (*Me Too* / *Lips Are Movin'*) |
+| *Made You Look* / Turner mic-drop | Labels/glitter fall · crowd turns · title card · Shot **4** swagger |
 | *Fly* swell | Elevation colour under mid 4 — title only |
 | Chipmunks *Single Ladies* / accelerate | Late Shot **4** · optional pitch-up bed colour · glass-shatter flash · Saturn rings VO — title only |
 | *Stand by Me* / Anchor VO | Shot **5B** golden frequency woman anchors shadow figure as world cracks · title card |
