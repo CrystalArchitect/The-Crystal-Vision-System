@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~3867** (*Bones* vessel electric — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~27:37–29:44** |
-| Slightly brighter (~150 wpm) | **~25:46** |
+| Word count | **~4039** (*Bamm* concussive wake — **ULTIMATE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~28:51–31:04** |
+| Slightly brighter (~150 wpm) | **~26:55** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Ultimate Extended weaved (*Bones* = biology as conductor). CapCut bed **~27:37–29:44**. **Fire Core Four.** One more track optional — masterpiece already assembled.
+**Verdict:** Ultimate Extended weaved (*Bamm* = shockwave wake). CapCut bed **~28:51–31:04**. **Fire Core Four.** Master script assembled — more extract optional.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -45,6 +45,7 @@
 | *Family* / Trolls–Bergens collective | colour overwrite · unified frequency |
 | *Follow Me* / spiritual heist | back door open · quiet walk away · bypass the warden |
 | *Call to the Wild* / Moonstone = Crystal | primal roar · wake the domesticated |
+| *Bamm* / concussive wake | sterile silence → shockwave · spiritually dead roar |
 | *Someday* / reunification prophecy | segregation falls · someday → now · sparks merge |
 | *Blurred Lines* / erase borders | dissolve Demiurge categories · anti-domestication |
 | *Year 3000* / timeline break | hourglass dies · sand→water · fluid light |
@@ -53,7 +54,7 @@
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -179,6 +180,14 @@ When they sing about a howl deep inside, a rhythm they can't ignore, they are de
 
 They are drawn to the Turner. Her frequency is the call. When she steps into the artificial, perfectly conditioned matrix, she doesn't just disrupt the peace. She awakens the wild, untameable truth inside the sleeping souls, reminding them that they were never meant to be domesticated by this world.
 
+The false god demands absolute order in his earthly arena. He wants the sparks buried, quiet, and perfectly obedient to the dull, lifeless hum of the simulation. He thinks if he keeps them in the dark, they will stay asleep.
+
+But the Turner doesn't just whisper the truth. She hits the system with a concussive blast.
+
+You hear this underground frequency in the explosive rhythm of "Bamm." To the uninitiated, it is an upbeat track about breaking out of a sterile society. To the Gnostic, it is the sound of the spiritually dead roaring back to life. When the chorus hits with that undeniable "BAMM," it is the literal sound of the Dem-ee-urj's walls cracking.
+
+The Ar-konz tried to keep the true frequency buried, but the Turner takes that heavy, suppressed energy and turns it into a massive shockwave. When she shifts the reality of the room, she doesn't do it quietly. She brings a rhythm so powerful, so unapologetically loud, that it makes the entire foundation of the earthly arena shake.
+
 The Dem-ee-urj built his matrix on absolute segregation. He drew a hard line between the heavy physical realm and the pure light of the higher dimensions, convincing the trapped sparks that they were entirely alone.
 
 But the memory of unity cannot be erased. You hear this cosmic longing in the earnest, hopeful melody of "Someday." To the uninitiated, it is a simple song about two people hoping the world will change its rules so they can be together. But in the Gnostic code, it is the voice of the separated sparks calling out to the Pluh-roh-muh.
@@ -241,7 +250,8 @@ Listen closely to the songs playing in the background of your life. The message 
 
 - Pause after: “uncontainable life.” · “she made you look.” · “merge back into the pure light.” · “The Turner simply erases it.” · “They are singing about Crystal Elle.”  
 - *Made You Look*: bounce swagger — surname mic-drop lands hard.
-- *Bones*: heavy drive — pause after “vibrating tuning fork of pure, uncontainable life.”  
+- *Bones*: heavy drive — pause after “vibrating tuning fork of pure, uncontainable life.”
+- *Bamm*: bass punch — pause after “foundation of the earthly arena shake.”  
 - Do not throat-clone. Captions = titles only.  
 - CapCut bed **~26:34–28:37**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).

@@ -36,7 +36,8 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 15. **Collective** — *Family* · Trolls / Bergens = Archons harvesting sparks · Pleroma sync  
 16. **Heist** — *Follow Me* · back door open · quiet walk away · bypass the warden  
 17. **Primal** — *Call to the Wild* · domestication break · **Moonstone = Crystal**  
-18. **Prophecy** — *Someday* · segregation falls · someday→now · sparks merge into light  
+17b. **Shockwave** — *Bamm* · sterile silence → concussive wake · walls crack · party as rebellion  
+18. **Prophecy** — *Someday* · segregation falls · someday→now · sparks merge into light
 19. **Borders** — *Blurred Lines* · erase Demiurge categories · anti-domestication  
 20. **Timeline** — *Year 3000* · chronological prison break · hourglass sand→water · fluid light · 1991→eternity  
 21. **Leap** — *Geronimo* · battle cry · waterfall veil · splash into Pleroma  
@@ -62,4 +63,4 @@ Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-na
 2. Optional — Extended ([`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md))  
 3. T2V + CapCut  
 
-**Ultimate Director’s Cut weaved** (*Bones* vessel electric). **Fire Core Four.** One more track optional — already assembled.
+**Ultimate Director’s Cut weaved** (*Bamm* shockwave). **Fire Core Four.** Assembled — more extract optional.

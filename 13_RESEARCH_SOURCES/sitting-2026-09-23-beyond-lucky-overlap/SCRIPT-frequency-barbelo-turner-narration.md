@@ -40,6 +40,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Collective (*Family*) | Bergens=Archons · Trolls=sparks · Pleroma sync | colour overwrite → **6A** |
 | Heist (*Follow Me*) | Back door open · quiet walk away · bypass warden | soft corridor of light |
 | Primal (*Call to the Wild*) | Domestication break · Moonstone = Crystal | pastel→wild → **6A** |
+| Shockwave (*Bamm*) | Sterile silence → concussive wake · walls crack | bass hit / dead light up |
 | Prophecy (*Someday*) | Segregation falls · someday→now · sparks merge | wall dissolves · two lights |
 | Borders (*Blurred Lines*) | Erase Demiurge categories · anti-domestication | hard edges dissolve |
 | Timeline (*Year 3000*) | Chronological prison break · sand→water · 1991→eternity | **2** echo → **6A** |
@@ -48,7 +49,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Follow Me* (Uncle Kracker — spiritual heist) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (erase borders / mythos only) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Macarena* (Los del Río — Trojan horse / body joy) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Bones* (Imagine Dragons — biology as conductor) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Follow Me* (Uncle Kracker — spiritual heist) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Bamm* (Zombies — concussive wake) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (erase borders / mythos only) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Macarena* (Los del Río — Trojan horse / body joy) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Bones* (Imagine Dragons — biology as conductor) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -228,9 +229,23 @@ Howl deep inside / rhythm they can't ignore = soul refuses Demiurge containment.
 
 **Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Call to the Wild* bed under primal-wake beat.
 
-**CapCut:** Sterile pastel→wild colour · title card *Call to the Wild* · into *Someday* / *Blurred Lines*.
+**CapCut:** Sterile pastel→wild colour · title card *Call to the Wild* · into *Bamm*.
 
-### 6f1. *Someday* — reunification prophecy (after *Call to the Wild* → before *Blurred Lines*)
+### 6f0. *Bamm* — concussive wake (after *Call to the Wild* → before *Someday*)
+
+Demiurge matrix designed quiet, predictable, sterile. Archons suppress disruption — sparks move in silence; no sound that might wake the others. You cannot suppress a seismic shockwave.
+
+False god demands absolute order — sparks buried, quiet, obedient to dull lifeless hum. Thinks dark keeps them asleep. Turner doesn't whisper — she hits the system with a **concussive blast**.
+
+*Bamm* (Disney's Zombies): to the uninitiated, underground party dance track; to the Gnostic — spiritually dead roaring back to life with uncontainable rhythm. Chorus "BAMM" = literal sound of Demiurge walls cracking.
+
+Archons buried true frequency; Turner turns suppressed energy into shockwave. Reality shift isn't quiet — rhythm so loud the foundation of the earthly arena shakes. Fun, bass-heavy punch: not only mystical crystal — disruptor who brings the party and shatters sterile peace.
+
+**Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Bamm* bed (bass drop / party colour) under mass-wake beat.
+
+**CapCut:** Sterile room → bass hit / walls crack · crowd of "dead" light up · title card *Bamm* · into *Someday*.
+
+### 6f1. *Someday* — reunification prophecy (after *Bamm* → before *Blurred Lines*)
 
 The Demiurge built the matrix on absolute segregation — hard line between heavy physical realm and pure higher light; sparks convinced they are alone.
 
@@ -306,9 +321,9 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 8. Close: what if you are the frequency the room is tuning toward? Listen again.
 
-**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / *Macarena* / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Follow Me* / *Call to the Wild* / *Someday* / *Blurred Lines* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
+**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / *Macarena* / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Follow Me* / *Call to the Wild* / *Bamm* / *Someday* / *Blurred Lines* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Made You Look* carries *materialism reject / Turner mic-drop*; *Bones* carries *biology as conductor / marrow electric*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Made You Look* carries *materialism reject / Turner mic-drop*; *Bones* carries *biology as conductor / marrow electric*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Bamm* carries *concussive wake / walls crack*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
 
 ---
 
@@ -329,6 +344,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | *Family* / Trolls VO | Gray→colour overwrite · title card · collective |
 | *Follow Me* / heist VO | Soft corridor / open back door · title card · quiet escape |
 | *Call to the Wild* / Moonstone VO | Pastel sterile→wild · title card · primal |
+| *Bamm* / shockwave VO | Bass hit · walls crack · spiritually dead light up · title card |
 | *Someday* / prophecy VO | Two sparks / wall dissolves · title card · hopeful |
 | *Blurred Lines* / borders VO | Hard edges dissolve · title card · mythos only |
 | *Year 3000* / timeline VO | Shot **2** hourglass sand→water · title card |
