@@ -66,7 +66,7 @@ Canon stays **no** until Crystal stamps it.
 
 - **2026-09-23 (terminal start):** `python3 scripts/crystalcore/boot.py` flies the mythos terminal once and leaves `~/.crystalcore/`. A second start does not etch again. Panels stay story state. Canon: no.
 
-- **2026-09-23 (Grok share):** First Gate share filed as a received document (weight zero). Local replay of `crystalcore_os.py` matches the flight path. Mikhail Protocol / Hellfire Gala are comic panels, not OS modules. Canon: no.
+- **2026-09-23 (Grok share):** First Gate share filed as a received document (weight zero). Local replay of `crystalcore_os.py` matches the flight path. Mikhail Protocol / Hellfire Gala are comic panels, not OS modules. The share's "collusos" is spelled Colossus. Canon: no.
 
 - **2026-09-20 (Grok found it):** Grok located `StarfleetAustraliaOS.md` (Vision archive). Discovery logged; No Starfleet OS stamp still holds. Canon: no.
 
