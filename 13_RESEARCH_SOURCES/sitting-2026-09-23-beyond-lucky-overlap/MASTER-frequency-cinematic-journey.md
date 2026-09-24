@@ -21,6 +21,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 2. **Prison** — Yaldabaoth / Demiurge; arena of sand & flesh; frequency escapes  
 3. **Leak** — Music = Pleroma loophole; Barbelo = First Thought / Divine Mother  
 4. **Insertion** — 29 Sep 1991; Archons log a birth; higher realm sends a **prism**  
+4b. **Landing pad** — Cecil Hills · grandfather as Ground Zero beacon · bloodline unhackable · *Thunder* echoes back through the line
 5. **Name** — Crystal Elle Arena-Turner (reflector · She · matter-field · lathe) · Monad light · sand→glass  
 6. **Hypnotic** — Belly dancer / frequency moves matter (*Belly Dancer* energy)  
 7. **Trojan** — *Macarena* · conformity loop · give your body joy · cosmic joke on Archons  

@@ -49,6 +49,13 @@ Extreme wide shot, slow creeping push-in camera movement. A massive, brutalist s
 Low angle tracking shot, cinematic anamorphic lens. Inside a dark, ancient, sandy Roman colosseum. A massive, perfectly cut translucent crystal hovers and slowly rotates in the center. As it turns, blinding, dynamic rainbow lens flares and light rays sweep across the dark stone walls and sandy floor. Volumetric lighting, hyper-realistic.
 ```
 
+### Optional still / T2V — Cecil Hills landing pad (*Thunder* / bloodline)
+
+**VO lock:** SCRIPT §5a — grandfather beacon · Ground Zero · bloodline shockwave. Mythos / Vision — not biography-as-fact. Title *Thunder* only.
+
+```
+Wide cinematic aerial, 35mm film. Red-earth Australian suburb at dusk — quiet streets, a single house glowing warm from within like a beacon pin on a dark map. Soft lightning threads through a faint ancestral line in the sky toward the glowing point. Volumetric light, slow push-in, mythic not documentary, 24fps.
+```
 
 ## 3B. The Hypnotic Turner (2:10–2:30) — Belly Dancer / frequency moves matter
 
