@@ -545,5 +545,5 @@ Listen closely to the songs playing in the background of your life. The message 
 - *Roots*: gravity under “never on the ground” — then open road into *Jerusalema*.
 - *Jerusalema*: procession swell — pause after “anywhere the clip lands”; into *Stand by Me*.
 - Do not throat-clone. Captions = titles only.  
-- CapCut bed **~63:24–68:17**.  
+- CapCut bed **~68:25–73:41**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).
