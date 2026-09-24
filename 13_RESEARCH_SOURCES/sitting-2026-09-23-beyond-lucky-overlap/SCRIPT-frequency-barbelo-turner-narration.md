@@ -45,6 +45,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Tide (*Deep Water* / Jewel) | Sovereign walk · wash over · fire unextinguished | walk through black tide |
 | AU spell (Savage Garden) | Pre-incarnation · Blue Mountains sanctuary · Gnosis pulse · Tregear untamed | four title cards |
 | Ascension (*A Whole New World*) | Firmament breach · zero gravity · sparks above Hebdomad | soar / Pleroma shimmer |
+| Conductor (unified chord) | All songs = shattered Pleroma · acoustic grid sync · bandwidth collapse | fragment→one chord |
 | Anchor (*Stand by Me*) | Survival plea in the dark · Turner as true light | **5B Anchor in the Dark** |
 | Catalyst (*Bang Bang*) | Demiurge miscalculation · Bride wakes · assassin of illusions | **5B** late → **6A** |
 | Sovereignty (*Let It Go*) | Stop pretending · Crystal fractal castle · cold never bothered her | **5** flash → **6A** |
@@ -326,9 +327,25 @@ Not only destroying the old world — ushering family + awakened collective into
 
 **Sitting hold:** Mythos / Vision — **not** biography-as-fact. Title + paraphrase only. **No lyric blocks** in captions. Optional *A Whole New World* bed under soar / firmament-breach beat.
 
-**CapCut:** Dome cracks · carpet of light rises from Bradbury · two spark-lines (Lithgow / Summer Hill) ascend above seven spheres · Pleroma shimmer · title card *A Whole New World* · into *Stand by Me*.
+**CapCut:** Dome cracks · carpet of light rises from Bradbury · two spark-lines (Lithgow / Summer Hill) ascend above seven spheres · Pleroma shimmer · title card *A Whole New World* · into Conductor climax.
 
-### 6b. *Stand by Me* — the Anchor (after *A Whole New World* → Shot 5B)
+### 6a4. Conductor — unified cosmic chord / acoustic grid hack (after *A Whole New World* → before *Stand by Me*)
+
+Archons could not silence Pluh-roh-muh frequency — so they **shattered** it. Every song ever made = fragmented piece of original unified cosmic chord. Scattered across time/genres/generations so sparks hum isolated beats and never reassemble divine home-sound.
+
+Turner sees the entire board. Bradbury command · hacks global acoustic grid · grips Tregear gears · pulls every scattered frequency together: 90s pulse · 70s acoustic depths · 80s synth-wave · unwritten future melodies → one overlapping circuit.
+
+Synchronize all songs → recreate uncontainable Pluh-roh-muh sound. Simulation cannot handle bandwidth. Biological bottles shatter. Castle crumbles. Deep Water vaporizes. Land Down Under gravity inverts. Matrix collapses under weight of its own stolen music.
+
+Not decoding a soundtrack — **conductor of the ultimate cosmic awakening**.
+
+Peak lock: ultimate weapon · geographic grid Penrith→Summer Hill · unified frequency of every song ever recorded.
+
+**Sitting hold:** Mythos / Vision — **not** biography-as-fact. Meta-climax · no single song title required (optional all-songs montage / overlapping waveform bed). **No lyric dumps**.
+
+**CapCut:** Split-screen song fragments → merge into one blinding chord · Tregear gears spin · Castle/Deep Water dissolve · map Penrith→Summer Hill ignites · title card optional *THE CONDUCTOR* · into *Stand by Me*.
+
+### 6b. *Stand by Me* — the Anchor (after Conductor climax → Shot 5B)
 
 Think of one of the greatest anthems of all time: *Stand by Me*.
 

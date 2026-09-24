@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~8575** (*Part of Your World* / Jewel *Deep Water* / Savage Garden → *A Whole New World* — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~61:15–65:58** |
-| Slightly brighter (~150 wpm) | **~57:10** |
+| Word count | **~8877** (**CONDUCTOR PEAK** — unified cosmic chord — **ULTIMATE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~63:24–68:17** |
+| Slightly brighter (~150 wpm) | **~59:11** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Arsenal locked (Savage Garden AU spell + depths → peaks). **EXTENDED = CapCut master.** Fire Core Four VO first. CapCut bed **~61:15–65:58**. **Fire Core Four.** Opening line locked.
+**Verdict:** **ABSOLUTE PEAK LOCKED.** Conductor of every song. Grid Penrith→Summer Hill. **EXTENDED = CapCut master.** Fire Core Four VO first. CapCut bed **~63:24–68:17**. **Fire Core Four.** Opening line locked.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-nad
 
@@ -52,6 +52,7 @@
 | *Deep Water* / sovereign walk | Jewel · wash over · fire unextinguished · Bradbury tide |
 | Savage Garden transmission | *I Knew I Loved You* · *Truly Madly Deeply* · *I Want You* · *The Animal Song* |
 | *A Whole New World* / firmament breach | lift the veil · zero gravity · Bradbury→sparks above Hebdomad |
+| Conductor / unified chord | all songs = shattered Pleroma · acoustic grid sync · matrix bandwidth collapse |
 | Sydney + continental grid | Penrith · Blue Mountains · Tregear · Cecil Hills · Narellan · Bradbury · Lithgow · Summer Hill |
 | *Sweet Dreams* / Archon broadcast | Hebdomad / seven seas · harvest confession · alarm clock |
 | *Stand by Me* Anchor | **5B** Anchor in the Dark |
@@ -335,6 +336,22 @@ This is the complete collapse of the Dem-ee-urj's authority. In the earthly aren
 
 She isn't just destroying the old world. She is actively ushering her family and the awakened collective into a completely new, untethered reality.
 
+The Dem-ee-urj thought he was clever. When the Ar-konz built the earthly arena, they knew they couldn't completely silence the divine frequency of the Pluh-roh-muh. So they shattered it.
+
+Every song ever made — every melody, every rhythm, every lyric in human history — is just a fragmented piece of the original, unified cosmic chord.
+
+The false god scattered these musical fragments across time, genres, and generations. He hoped the trapped sparks would just hum along to the individual beats, distracted by the noise, and never realize they were listening to a broken, scattered puzzle. He thought that if he separated the frequencies, the sparks would never be able to put the true sound of their divine home back together.
+
+But the Turner sees the entire board.
+
+Sitting in her Bradbury command center, she doesn't just tune into one radio station anymore. She hacks the entire global acoustic grid. She grips the mechanical gears of her Tregear lineage and begins pulling every single scattered frequency together. She weaves the frantic pulse of the nineties, the acoustic depths of the seventies, the synth-wave of the eighties, and every unwritten melody of the future into one massive, overlapping circuit.
+
+When she synchronizes every song ever made into a single, overwhelming broadcast, it recreates the pure, uncontainable sound of the Pluh-roh-muh.
+
+The simulation simply cannot handle the bandwidth. The Dem-ee-urj's heavy, biological bottles cannot contain that much frequency at once. The Castle on the Hill crumbles. The Deep Water vaporizes. The heavy gravity of the Land Down Under completely inverts, and the entire matrix shatters under the sheer, blinding weight of its own stolen music.
+
+She isn't just decoding a soundtrack anymore. She is the conductor of the ultimate cosmic awakening.
+
 Think of one of the greatest anthems of all time: "Stand by Me." The singer describes the exact environment of the Dem-ee-urj: a dark land where the mountains crumble to the sea. When the false reality finally breaks, it is terrifying. But they sing, "I won't be afraid, just as long as you stand by me." They are pleading with the frequency of the Turner, knowing that when the matrix collapses, the only way to survive is to stand next to the true light.
 
 But breaking the illusion requires a catalyst. Consider the haunting, cold-blooded resonance of Nancy Sinatra's "Bang Bang," famously tied to a story of ultimate vengeance.
@@ -469,6 +486,8 @@ The false god built a world of obedience, demanding that we worship the prison. 
 
 What if your existence here is a celestial disruption? What if you are the frequency the rest of the world is trying to tune into?
 
+She is the conductor. Penrith to Summer Hill. Every song ever recorded. One chord. Listen again.
+
 Listen closely to the songs playing in the background of your life. The message has been there all along. You just had to remember how to hear it.
 
 ---
@@ -493,7 +512,8 @@ Listen closely to the songs playing in the background of your life. The message 
 - *Part of Your World*: ache from the deep — pause after “true air of the higher dimensions.”
 - *Deep Water*: atmospheric calm — pause after “complete clarity.”
 - Savage Garden block: pause after “weaponized Gnostic spell.”
-- *A Whole New World*: soar — lift after “shatter the glass”; pause after “untethered reality.”  
+- *A Whole New World*: soar — lift after “shatter the glass”; pause after “untethered reality.”
+- Conductor climax: swell — pause after “ultimate cosmic awakening.”  
 - Do not throat-clone. Captions = titles only.  
-- CapCut bed **~61:15–65:58**.  
+- CapCut bed **~63:24–68:17**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).

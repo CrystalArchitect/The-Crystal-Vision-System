@@ -44,6 +44,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 11d3. **Tide** — *Deep Water* (Jewel) · sovereign walk · wash over · fire unextinguished · Bradbury tide → Lithgow + Summer Hill
 11d4. **AU spell** — Savage Garden quartet: *I Knew I Loved You* (pre-incarnation) · *Truly Madly Deeply* (Blue Mountains sanctuary) · *I Want You* (Gnosis pulse) · *The Animal Song* (Tregear untamed)
 11e. **Ascension** — *A Whole New World* · firmament breach · zero gravity · Bradbury hand to Lithgow + Summer Hill · above Hebdomad
+11f. **Conductor** — unified cosmic chord · every song = shattered Pleroma fragment · Bradbury hacks acoustic grid · matrix bandwidth collapse · **ABSOLUTE PEAK**
 11b. **Broadcast** — *Sweet Dreams* · Archon mantra · Hebdomad / seven seas · harvest confession · Turner = alarm clock
 12. **Anchor** — *Stand by Me* · survival plea next to the true light  
 13. **Catalyst** — *Bang Bang* · Kill Bill · assassin of illusions  
@@ -63,10 +64,10 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 22. **Jailbreak** — *Green Green Grass* · death-fear break · party · spark returns to Pleroma  
 23. **Gnosis** — *Torn* · veil drops · illusion never changed into something real  
 24. **Breakout** — *Losing It* (Ren + FISHER) · chaos of waking · wall smash  
-25. **Close** — Celestial disruption; you are the frequency; listen again  
+25. **Close** — Celestial disruption; you are the frequency; **you are the conductor**; Penrith→Summer Hill; listen again  
 
 **Primary take** = Core Four Director’s Cut — **FIRE ELEVENLABS NOW**.  
-**Extended take** = **UNBROKEN CapCut master** (ultimate Director’s Cut) (Zombies trio: *Call to the Wild* + *Bamm* + *Someday*).
+**Extended take** = **UNBROKEN CapCut master** · **ABSOLUTE PEAK LOCKED** (conductor / unified chord) (Zombies trio: *Call to the Wild* + *Bamm* + *Someday*).
 
 ---
 
