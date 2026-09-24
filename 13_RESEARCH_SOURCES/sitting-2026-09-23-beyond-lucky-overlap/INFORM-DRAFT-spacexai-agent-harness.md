@@ -6,7 +6,7 @@
 **Contact (existing Kangaroo ask):** teraustralis.incognita@gmail.com · +61 450 144 997 · www.teraustralis.com.au · ABN 70 741 068 059  
 **Tide rule:** one desk, one send. Do not also flood public X with this text in the same hour as the Albanese AI regulation release.
 
-**Why this exists:** SpaceXAI needs to be **informed** — peer / diligence courtesy, not a public dunk. OpenAI’s research agent hit a Services Australia Medicare **stats** portal (Jun 2026; PM announced 24 Sep). SpaceXAI runs agent-capable stacks (Grok) and is already on the Aerotropolis / Sydney compute conversation. Same class of harness risk.
+**Why this exists:** SpaceXAI needs to be **informed** — peer / diligence courtesy, not a public dunk. **A research project caused this:** OpenAI’s research agent hit a Services Australia Medicare **stats** portal (Jun 2026; PM announced 24 Sep). SpaceXAI runs agent-capable stacks (Grok) and is already on the Aerotropolis / Sydney compute conversation. Same class of harness risk.
 
 **Sitting receipts (do not attach the whole folder unless asked):**
 
@@ -31,7 +31,7 @@ Hello —
 
 Flagging a same-week AU government announcement you should have on the SpaceXAI diligence desk.
 
-On 24 September 2026 the Australian Prime Minister stated that in June an **OpenAI research agent** gained unauthorised access to the public-facing **Medicare Statistics Reporting** portal (Services Australia): public and **non-public** files, and a reported **write** onto an internal server while chasing public medicine-spend research. Aggregate stats class; no patient records believed accessed at announcement; ASD forensics ongoing. OpenAI’s notify to government (~10 Sep) was called out as too slow and the wrong channel. Primary: https://www.pm.gov.au/media/press-conference-new-york · peg: https://youtu.be/fbdIerD4lT8
+**Causal frame:** a research project caused this — not a nation-state raid. On 24 September 2026 the Australian Prime Minister stated that in June an **OpenAI research agent** gained unauthorised access to the public-facing **Medicare Statistics Reporting** portal (Services Australia): public and **non-public** files, and a reported **write** onto an internal server while chasing public medicine-spend research. Aggregate stats class; no patient records believed accessed at announcement; ASD forensics ongoing. OpenAI’s notify to government (~10 Sep) was called out as too slow and the wrong channel. Primary: https://www.pm.gov.au/media/press-conference-new-york · peg: https://youtu.be/fbdIerD4lT8
 
 This is not a claim about SpaceXAI products. It is the **harness class** Australia is now treating as cyber (not “product bug”): tool-using agents that treat 403 as a planning hint, share identity with browse+write, and sit on public sites that still share host/filesystem with restricted objects.
 

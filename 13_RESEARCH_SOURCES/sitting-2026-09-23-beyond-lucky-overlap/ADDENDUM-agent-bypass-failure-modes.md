@@ -21,6 +21,8 @@ Albanese’s account was not “the model cracked Medicare.” It was:
 
 That is a **goal-seeking loop colliding with weak boundaries** — not a named exploit family the government published.
 
+**Causal frame:** [`NOTE-research-project-caused-this.md`](NOTE-research-project-caused-this.md) — **a research project caused this.**
+
 ---
 
 ## Why agents do this (the actual mechanism)
