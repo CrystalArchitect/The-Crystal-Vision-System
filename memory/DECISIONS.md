@@ -14,6 +14,18 @@ decision gets a new entry that says so.
 · `python3 scripts/agreement/status.py` — Crystal replies
 `AGREE|REJECT|CANON|INTERIM <id>`.
 
+## 2026-09-19 — Naming: Starline
+
+Decision (Crystal): the project name for Consent Transport / Starlines /
+Starline Weaver is **Starline**. Do not invent alternate brand-names for that
+thread in hub titles, components, APIs, or product copy. Living Indigenous
+Country law remains custodial — homage only, never ownership or runtime naming.
+Forbidden legacy label stays out of bounds (see naming law).
+
+- Law doc: [`00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md)
+- Index: `CVS-STARLINE` in [`WORKING-INDEX.md`](../00_MASTER_INDEX/WORKING-INDEX.md)
+- Hub PR: #32 / #59
+
 ## 2026-09-19 — Alive Weave: CrystalBridge ConsentGate in the pulse/weave path
 
 Decision: guests speak on the Alive Weave only after the real CrystalBridge
@@ -36,7 +48,8 @@ collapsing named systems into one product.
   `signal.bus_message` domain in
   [`archive/TheCrystalVision/services/decode.py`](../archive/TheCrystalVision/services/decode.py)
   and hub `weave.py` — hub titles stay Starline / labeled-bus only;
-  `CVS-SONGLINE` remains out of bounds.
+  forbidden legacy labels remain out of bounds (see naming decision
+  2026-09-19 / [`NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md)).
 
 Does **not** repeal connection ≠ merge, ADR-0005 (human recommend-then-approve
 orchestrator stays docs-first), or LEAF human veto. Celestial Portal docker
