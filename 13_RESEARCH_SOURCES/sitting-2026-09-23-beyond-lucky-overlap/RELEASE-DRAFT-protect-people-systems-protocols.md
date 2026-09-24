@@ -1,6 +1,6 @@
 # RELEASE DRAFT — Protect people: systems and protocols (worldwide)
 
-**Status:** **SENT** · 24 Sep 2026 · Slack `#general`  
+**Status:** **INTERNAL ECHO ONLY** (Slack 1-member — not public) · 24 Sep 2026 · Slack `#general`  
 **Receipt:** [`RECEIPT-protect-people-systems-protocols-2026-09-24.md`](RECEIPT-protect-people-systems-protocols-2026-09-24.md)  
 **Live:** https://teraustralisincognita.slack.com/archives/C0C2A6FK3PZ/p1790225846396529  
 **Doctrine:** [`POSITION-systems-protocols-protect-people.md`](POSITION-systems-protocols-protect-people.md)  

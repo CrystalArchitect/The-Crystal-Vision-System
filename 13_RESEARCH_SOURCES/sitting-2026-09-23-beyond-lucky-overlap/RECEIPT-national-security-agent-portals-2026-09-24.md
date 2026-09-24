@@ -30,6 +30,10 @@ www.teraustralis.com.au
 
 ---
 
+## Honest scope (corrected)
+
+**Audience reached:** **Crystal only.** Slack `#general` = 1 member. **Not** national distribution. Re-label: **internal echo only.**
+
 ## Channels not used this send
 
 | Channel | Result |
@@ -37,10 +41,11 @@ www.teraustralis.com.au
 | X (@XECrystal) | Still no create-post MCP; browser login wall |
 | Gmail | Prior auth timeout this sitting |
 | LinkedIn | no connector |
+| Public / press / labs / ASD path | **not reached** |
 | SpaceXAI BD inform | **held** — peer channel, not glued to public national-security desk |
 
 ---
 
 ## After
 
-Vanish. SpaceXAI inform remains a separate human/email send when channel works.
+External send still required. SpaceXAI inform remains a separate human/email send when channel works.

@@ -29,6 +29,10 @@ www.teraustralis.com.au
 
 ---
 
+## Honest scope (corrected)
+
+**Audience reached:** **Crystal only.** Slack `#general` has **1 member** (`U0C2PJT36S2` · @teraustralis.incognit). This was an **internal echo**, not a public release. Re-label: **not externally sent.**
+
 ## Channels not used this send
 
 | Channel | Result |
@@ -36,11 +40,11 @@ www.teraustralis.com.au
 | X (@XECrystal) | MCP has no create-post; Playwright hit login wall (no session) |
 | Gmail | `mcp_auth` timed out |
 | LinkedIn | no connector this run |
+| Public / press / labs | **not reached** |
 | SpaceXAI BD inform | **held** — tide rule: not same-hour |
 
 ---
 
 ## After
 
-Vanish. One clean reply may point at the position note / teraustralis.com.au.  
-Do not attach SpaceXAI inform to this thread.
+Do **not** treat this Slack post as “everyone informed.” Need X post (logged-in browser or API write) and/or authenticated Gmail for external desks.
