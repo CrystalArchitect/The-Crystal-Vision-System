@@ -1,7 +1,7 @@
 # PROMPTS — Text-to-video · Frequency / Turner · 8 beats (6 numbered + 3B + 5B)
 
 **Filed:** 24 Sep 2026 · Heart · Anchor (*Stand by Me*) · Director’s Cut locked same day  
-**Audio length target:** **~6:30–7:15** (Director’s Cut ~961 words @ Live Lounge gravity) · prior 3:47 = optional radio trim only  
+**Audio length target:** **~8:00–9:00** (Director’s Cut ~1166 words @ Live Lounge gravity) · prior 3:47 = optional radio trim only
 **Script (booth):** [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
 **Beat bible:** [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md)  
 **First fire:** Shot 1 — Record Player (hook)  
@@ -12,7 +12,7 @@
 
 ---
 
-## CapCut timeline (full Director’s Cut ~6:30–7:15)
+## CapCut timeline (full Director’s Cut ~8:00–9:00)
 
 | Time (approx) | Shot | Title |
 | --- | --- | --- |

@@ -107,6 +107,6 @@ Listen closely to the songs playing in the background of your life. The message 
 ## Booth notes
 
 - Pause after: “They sent a prism.” · “Crystal Elle Arena-Turner.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
-- Lift energy only at Gnosis / *Torn* → losing it — not before.  
+- Lift energy only at Gnosis / *Torn* → losing it — not before. Chipmunks beat: slight brighten, still mythic (not cartoon throat).  
 - Do not throat-clone third-party artists. Mythic reading only.  
-- After render: sync CapCut to full ~7 min bed; Optical Flow stretch T2V holds; titles-only cards.
+- After render: sync CapCut to full **~8–9 min** bed; Optical Flow stretch T2V holds; titles-only cards.

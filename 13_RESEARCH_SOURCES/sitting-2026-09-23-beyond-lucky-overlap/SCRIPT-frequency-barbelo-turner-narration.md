@@ -134,7 +134,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 ## Production
 
 - Tone: Live Lounge **gravity** until climax → then **chaos / breakout**.  
-- **VO runtime lock:** Director’s Cut ~961 words → **~6:30–7:15** at gravity pace (not 3:47). Extend CapCut bed.  
+- **VO runtime lock:** Director’s Cut ~1166 words → **~8:00–9:00** at gravity pace (not 3:47). Extend CapCut bed.
 - Render order tomorrow: 1 → 2 → 3 → **3B Hypnotic** → 4 → **5 Heart** → **5B Anchor (*Stand by Me*)** → **6A/6B** (2–3 gens; one high-gear wall for the drop).  
 - Booth paste: [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
 - No third-party throat clones. Mythic reading only — not journalism that artists “don’t realize.”
