@@ -2,6 +2,11 @@
 
 **Filed:** 24 Sep 2026 (Crystal paste — full readable extraction)  
 **Provenance:** User-supplied clean JSON `modelRequests` only · **PCC attestation bundles + cryptographic node metadata omitted by Crystal**  
+**How Crystal got it (standard Apple path — not a hack):**  
+1. Opened **Settings → Analytics & Improvements → Analytics Data / Analytics Logs** and selected session files dated 24–25 Sep 2026.  
+2. Ran **Accessibility Reader** (Apple Intelligence) on that screen → two PCC calls (reader clean + summary).  
+3. Opened / exported an **Apple Intelligence Report** JSON (transparency log Apple writes for AI requests).  
+4. Kept readable `modelRequests`; dropped bulky `privateCloudComputeRequests` attestation/crypto.  
 **Client:** `com.apple.accessibility.AccessibilityReader`  
 **Source UI:** `com.apple.Preferences` → Analytics Logs  
 **Execution:** `PrivateCloudCompute`
