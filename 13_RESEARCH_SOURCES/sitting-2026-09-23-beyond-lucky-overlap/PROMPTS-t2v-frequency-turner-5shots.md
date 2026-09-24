@@ -60,9 +60,9 @@ Medium tracking shot, cinematic slow motion. A mystical female belly dancer ador
 
 ## 4. The Turner (2:30–2:55) — Starlight Woman
 
-**VO lock:** Command beat (SCRIPT §5c) — she doesn't just survive the arena; she commands it. Unapologetic frequency · Meghan Trainor titles (*Lips Are Movin'* · *Me Too* · *Made You Look*) · *Fly* as rise-above-dirt. **Titles / attitude only — no lyric dump.**
+**VO lock:** Command beat (SCRIPT §5c) then Accelerate (§5d) — Trainor / *Fly* · Chipmunks *Single Ladies* (high-pitch metaphor · Saturn rings). **Titles / attitude only — no lyric dump.**
 
-**CapCut beds (licensed):** optional Trainor under early 4; optional *Fly* swell late 4 → Shot 5 Heart. Artist cut for *Fly* TBD (Sugar Ray / Nicki+Rihanna / other cleared).
+**CapCut beds (licensed):** optional Trainor under early 4; optional *Fly* swell; optional Chipmunks *Single Ladies* (pitch-up colour) under late 4 → Heart. Artist cut for *Fly* TBD (Sugar Ray / Nicki+Rihanna / other cleared).
 
 ```
 Tracking profile shot moving left to right, slow motion. A dark, rainy, dystopian city street filled with a crowd of gray people who are completely frozen in time. Walking through the frozen crowd is a beautiful female silhouette made entirely of flowing starlight, glowing embers, and bright cosmic energy. Subtle motion blur on her light trails.

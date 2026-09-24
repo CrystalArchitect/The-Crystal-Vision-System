@@ -26,13 +26,14 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Insertion | Prism enters Arena; name as blueprint | **3 Crystal in colosseum** |
 | Hypnotic | Frequency manipulates matter · dance through prison | **3B Belly dancer / Hypnotic Turner** (after sand→glass VO) |
 | Command | Unapologetic worth · see through lies · rise above dirt | **4 Starlight woman** (Trainor / *Fly* attitude) |
+| Accelerate | High-pitch metaphor · sovereignty · Saturn rings | **4** late (Chipmunks *Single Ladies*) |
 | Turner | She walks matter as starlight; crowd frozen | **4 Starlight woman** (2:30–2:55) |
 | Heart / spark | Divine spark · 29 Sep 1991 · Crystal Elle | **5 Crystal heart** in cosmic sand (2:55–3:15) |
 | Anchor (*Stand by Me*) | Survival plea in the dark · Turner as true light | **5B Anchor in the Dark** |
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -61,6 +62,22 @@ You hear it when artists like Meghan Trainor sing about unshakeable self-worth, 
 **Sitting hold:** Attitude + **song titles** in VO/cards. **No lyric blocks** pasted into sitting, X, or burned-in captions. *Fly* = elevation above the heavy physical arena — licensed bed TBD (Sugar Ray · Nicki Minaj & Rihanna · or other cleared cut).
 
 **CapCut:** Land under Shot **4** Starlight Woman (walks the frozen crowd) · optional Trainor bed under 5c VO · optional *Fly* swell into Heart / *Torn* — titles only in captions.
+
+### 5d. Accelerate — Chipmunks *Single Ladies* / Saturn rings (after Trainor → Shot 4)
+
+But the Turner doesn't just command the arena; she accelerates its vibration.
+
+Think about the literal mechanics of the Chipmunks' version of *Single Ladies*. To the sleeping world, it is just a playful pop cover. Scientifically: a standard human voice accelerated — shifted to a much higher, piercing frequency. Sonic metaphor for the Turner: she takes the heavy vibration of the earthly arena and speeds it up until it shatters the glass.
+
+The anthem is total sovereignty. The false god wants the soul bound to matter; the Divine Feminine remains untethered — belongs to no ruler of this lower realm.
+
+That famous demand to put a ring on it? In esoteric lore the physical matrix is held by the rings of Saturn — Demiurge control over time and space. The Turner isn't asking for jewelry. She is commanding the rings of the matrix itself, daring the false god to recognize her sovereign power.
+
+Even the lightest pop artifacts can carry matrix code.
+
+**Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional Chipmunks *Single Ladies* bed (licensed) under late Shot **4** — pitch-up as edit colour, not throat clone.
+
+**CapCut:** Optional micro-cut / glass-shatter flash on “accelerates” · title card *Single Ladies* only.
 
 6. Artists reach with eyes closed — past the Demiurge’s logical mind.  
 
@@ -92,9 +109,9 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 8. Close: what if you are the frequency the room is tuning toward? Listen again.
 
-**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / Trainor titles / *Fly* / *Stand by Me* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
+**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena* into Heart; *Stand by Me* carries *anchor-to-the-light* under Shot 5B as the world collapses. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B. All credited by title — no lyric dump.
 
 ---
 
@@ -104,7 +121,8 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | --- | --- |
 | Sand→glass / Hypnotic VO | Shot **3B** belly dancer · optional *Belly Dancer* bed |
 | Command / Trainor VO | Shot **4** starlight walk · optional Trainor title-bed (*Me Too* / *Made You Look* / *Lips Are Movin'*) |
-| *Fly* swell | Elevation colour under late 4 → 5 Heart — title only |
+| *Fly* swell | Elevation colour under mid 4 — title only |
+| Chipmunks *Single Ladies* / accelerate | Late Shot **4** · optional pitch-up bed colour · glass-shatter flash · Saturn rings VO — title only |
 | *Stand by Me* / Anchor VO | Shot **5B** golden frequency woman anchors shadow figure as world cracks · title card |
 | *Torn* beat | Title card / soft crack starts on Shot 6 |
 | Ren *Losing It* / related | Mind-break VO colour under 6A → 6B |
