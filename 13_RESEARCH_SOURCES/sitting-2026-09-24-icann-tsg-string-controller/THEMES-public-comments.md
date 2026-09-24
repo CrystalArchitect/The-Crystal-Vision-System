@@ -4,7 +4,8 @@
 **Roster:** [`SOURCE-public-comment-roster.csv`](SOURCE-public-comment-roster.csv) — 40 rows (38 active + 2 retracted) from chat paste  
 **Proceeding:** closed 21 Sep 2026 · report due ~5 Oct 2026  
 **Canon:** **no**  
-**Limit:** Institutional / published positions summarized from Public Comment pages, SAC134 PDF snippets, ENS/Unregistry/IPC/RrSG/ALAC/Circleid secondary coverage. Individual comments not all read end-to-end (icann.org binary fetch blocked on this host).
+**Limit:** Institutional / published positions summarized from Public Comment pages, SAC134 PDF snippets, ENS/Unregistry/IPC/RrSG/ALAC/Circleid secondary coverage. Individual comments not all read end-to-end (icann.org binary fetch blocked on this host).  
+**Deep pass:** [`extracts/DEEP-EXTRACTS.md`](extracts/DEEP-EXTRACTS.md) · [`extracts/TENSION-MAP.md`](extracts/TENSION-MAP.md) (v2 — adds estmcmxci, Bird, Manoratana/Darwin, Circleid ISPCP/MeitY hardening).
 
 ---
 
@@ -53,11 +54,13 @@ String+controller (same string / same controller or exclusive withhold) is treat
 
 **MeitY India** (via Circleid): measurable requirements for failure handling, independent security testing, collision measures.
 
-**Netnod / CleanDNS / RySG / .ART / Tucows / D3:** rostered; full extracts not completed this pass — follow links in CSV before citing specifics.
+**Netnod / CleanDNS:** rostered; PDF/summary not recovered this pass — follow links in CSV before citing. **RySG / WIPO:** positions known via ENS cite; primary PDFs still open. **.ART / Tucows / D3:** Circleid/Domainera + submission summaries.
 
 ### 7. Individual / alt-name operator cluster
 
-Many individual and Web3-facing comments (APlusDomains.Crypto, estmcmxci.eth, regional individuals). Secondary coverage notes recurring ask that holders of strings like `.crypto` / `.nft` / `.wallet` get protections if those strings enter DNS — a **boundary** the TSG said it was not answering (threshold technical safety for registry-operated same-string integration, not general alt-root politics).
+Many individual and Web3-facing comments (APlusDomains.Crypto, Barrett, Manoratana, Darwin, estmcmxci.eth, Clowes, Bird, regional individuals). Recurring ask: holders of strings like `.crypto` / `.nft` / `.wallet` get protections if those strings enter DNS — a **boundary** the TSG said it was not answering (threshold technical safety for registry-operated same-string integration, not general alt-root politics).
+
+**Internal split:** APlus/Barrett/Manoratana/Darwin push prior-claim/grandfathering; Clowes rejects that framing; Bird asks for a **pre-launch transition plan without automatic DNS entitlement**; estmcmxci offers a DNSSEC `_ens.nic.` TLD-binding prototype (personal, not ENS Foundation).
 
 ---
 
@@ -65,14 +68,16 @@ Many individual and Web3-facing comments (APlusDomains.Crypto, estmcmxci.eth, re
 
 | Actor | Stance (this pass) | Primary ask |
 | --- | --- | --- |
-| SSAC (SAC134) | Support Draft conclusions **if** DNS ops independent of alt failure | Measurement, independence, EBERO+continuity, URS/UDRP parity, post-launch review |
+| SSAC (SAC134) | Support Draft conclusions **if** DNS ops independent of alt failure | Measurement, independence, EBERO+continuity, URS/UDRP parity, post-launch review, IDN/EPP clarity |
 | ALAC | Cautious; end-user frame | Prefer SRS-plugin; contactability; continuous monitoring; SSAC collision study; COI transparency |
 | IPC | Rights-first brake | Community process before approvals; legacy enrollment controls (inventory, data, TMCH, challenge) |
-| RrSG | Process / fence caution | Don’t harden advisory into unexamined requirements; close implementation gaps |
+| RrSG | Process / fence caution | Don’t harden advisory into unexamined requirements; multi-system RSEP; IDN-EPDP reuse |
+| RySG | (via ENS cite) | No rights for independent alt namespaces; no new duties on non-integrating ROs |
 | ENS Foundation | Support root unity; carve reverse path | Final Report: registrant-elected DNSSEC import out of scope |
 | Unregistry | Support principle; user-side model | DNSSEC association records ≠ registry service; IETF path |
-| ISPCP / MeitY | Hardening | Measurable risk, monitoring, failure/collision tests |
+| ISPCP / MeitY | Hardening | Measurable risk, controller assurance, sync/failure tests, continuity/shutdown |
 | WIPO | Rights enforcement | Cybersquatting / RPM applicability (read PDF before quoting) |
+| CleanDNS / Netnod | Thin this pass | Roster links only — fetch PDFs before citing |
 
 ---
 

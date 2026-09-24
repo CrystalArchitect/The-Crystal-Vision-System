@@ -89,3 +89,20 @@ Legend: **M** = MUST / SHALL · **S** = SHOULD / RECOMMENDED · **O** = MAY / OP
 - Query-less “use” of DNS strings inside apps  
 - Business-model viability of alt naming  
 - Competition / policy fitness reviews beyond RSEP security & stability framing
+
+---
+
+## Public Comment overlay (observer watch-list)
+
+Not in the Draft’s RFC 2119 table as written — commenters treat these as load-bearing for Final Report / RA reading. See [`SYNTHESIS.md`](SYNTHESIS.md) · [`extracts/TENSION-MAP.md`](extracts/TENSION-MAP.md).
+
+| # | Overlay | Level (comment pressure) | Who |
+| --- | --- | --- | --- |
+| PC1 | DNS create/renew/update/transfer/resolve MUST NOT depend on alt failure/partition/consensus | **M** (SSAC) | SSAC |
+| PC2 | Ongoing measurement that RO still controls alt change path | **M**/eval | SSAC |
+| PC3 | Turn-down plan elevated from RECOMMENDED → REQUIRED | **M** | Unregistry, Clowes, ISPCP |
+| PC4 | Functioning URS/UDRP (or equivalent) when only alt-name is live | **M**/RSEP condition | SSAC §9.3, IPC |
+| PC5 | Prefer SRS-plugin when consumer contactability is required | soft preference | ALAC, IPC |
+| PC6 | Legacy ANS enroll: inventory + controller data + TMCH + challenge *or* explicit community deferral | policy gate | IPC; Bird (transition, no entitlement) |
+| PC7 | Each additional integrated system: clarify whether new RSEP / how registrars notified | open | RrSG |
+| PC8 | Registrant DNSSEC TXT / reverse DNSSEC import ≠ this Registry Service | scope bright line | Unregistry, ENS |

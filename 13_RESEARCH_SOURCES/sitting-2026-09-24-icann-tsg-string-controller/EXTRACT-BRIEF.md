@@ -150,3 +150,18 @@ Shadow alt operation that tracks ICANN strings without integration is flagged as
 | Agent / portal Zero Trust work | Adjacent only: **same-controller / unified truth** as a coherence metaphor — do not collapse ICANN RSEP into portal Z-zones |
 
 No stamp that Crystal should apply for a gTLD or build an alt-name registry.
+
+---
+
+## 12. Public Comment overlay (integrated)
+
+Comment window closed 21 Sep 2026. Full compass: [`SYNTHESIS.md`](SYNTHESIS.md).
+
+| Fight | One-line |
+| --- | --- |
+| A — Safety | Baseline accepted if DNS independent of alt + measurement + RPM equivalents |
+| B — Fence | Advisory vs binding; PDP-before-RSEP vs don’t-overreach |
+| C — Legacy | Prior-claim vs no-rights vs Bird transition-without-entitlement vs IPC machinery |
+| D — Direction | RSEP registry→alt ≠ registrant associations ≠ ENS reverse import ≠ `_ens.nic.` TLD bind |
+
+Do not read the Draft alone as the political settlement.
