@@ -24,4 +24,4 @@ Load CORE, then only the row you need.
 | Photos | not connected | UNKNOWN here |
 | Piper / Noise in Portal zip | not seen | UNKNOWN |
 | Songline | out of bounds | never a component — say **Starline** ([`../00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md)) |
-| Starline | Consent Transport / Starlines | project name (`CVS-STARLINE`) |
+| Starline | Consent Transport / Starlines | project name (`CVS-STARLINE`) — [`../00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md) |

@@ -190,7 +190,7 @@ Pending infra from research status: Drive mirrors for 16–20, multi-domain vali
 - **Canon remains Crystal stamp.**  
 - This connection document is **coordination** only.  
 - **Canon: no** for this file, for Protocol Omega, and for science drawer indexes until Crystal stamps otherwise.  
-- Filing rules from root README still apply: one collector, one working index, extracts not chat dumps, **Songline** never a component (say **Starline**), **connection ≠ merge**.
+- Filing rules from root README still apply: one collector, one working index, extracts not chat dumps, **Songline** never a component (say **Starline** — [`NAMING-STARLINE.md`](NAMING-STARLINE.md)), **connection ≠ merge**.
 
 ---
 
