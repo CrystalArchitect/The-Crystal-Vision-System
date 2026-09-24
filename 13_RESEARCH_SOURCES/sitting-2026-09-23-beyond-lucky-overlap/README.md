@@ -51,6 +51,7 @@
 - Grok share Codex Crystalum ↔ Grok Bot filing (ops): [`SOURCE-grok-share-codex-crystalum-grok-bot.md`](SOURCE-grok-share-codex-crystalum-grok-bot.md)  
 - 9 News Albanese AI regulation peg + release draft: [`SOURCE-youtube-albanese-ai-regulation.md`](SOURCE-youtube-albanese-ai-regulation.md) · [`RELEASE-DRAFT-albanese-ai-regulation.md`](RELEASE-DRAFT-albanese-ai-regulation.md)  
 - ABC News Trump admin vs AU Digital Duty of Care (feed choice): [`SOURCE-youtube-abc-digital-duty-of-care.md`](SOURCE-youtube-abc-digital-duty-of-care.md)  
+- YouTube peg — Big Tech does the ban (jawboning / proxy censorship): [`SOURCE-youtube-big-tech-ban-proxy-xkzg2g9qcve.md`](SOURCE-youtube-big-tech-ban-proxy-xkzg2g9qcve.md) · https://youtu.be/XKzG2G9qCvE  
 - ABC IN FULL — Albanese announces OpenAI agent / Medicare stats portal (Jun 2026 → 24 Sep announce): [`SOURCE-youtube-albanese-openai-medicare-portal.md`](SOURCE-youtube-albanese-openai-medicare-portal.md)  
 - Zero Trust overlay (NIST / ASD / CISA → portal + agents): [`ADDENDUM-zero-trust-portal-agents.md`](ADDENDUM-zero-trust-portal-agents.md)  
 - Agentic access control map (inbound + outbound harness): [`ADDENDUM-agentic-access-control-map.md`](ADDENDUM-agentic-access-control-map.md)  
