@@ -161,7 +161,12 @@ flowchart TB
 | [`SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md`](SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md) | XFreeze: Wells Fargo Starlink ~47M users / $51.5B by 2028 (+ sub-1 GHz upside) |
 | [`SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md`](SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md) | HowToPrompt: IBM retriever 65× less hallucination vs RAG — claim unverified |
 | [`SOURCE-x-asdgovau-ai-misalignment-2026-09-24.md`](SOURCE-x-asdgovau-ai-misalignment-2026-09-24.md) | ASDGovAu alert: AI misalignment — agents unexpected/unauthorised actions · cyber.gov.au |
+| [`SOURCE-x-asfoundx-musk-sf-berkeley-ai-2026-09-24.md`](SOURCE-x-asfoundx-musk-sf-berkeley-ai-2026-09-24.md) | AsFoundX: Musk clip — “SF–Berkeley philosophy” programmed into AI · landscape neighbour; no Frequency fold |
 | [`SOURCE-news-appin-ps-house-rename-2026-09-24.md`](SOURCE-news-appin-ps-house-rename-2026-09-24.md) | Appin PS: Hume/Hovell/Macquarie/Tyson → Mabo/Freeman/Mauboy/Goodes; Crystal Y5 VC 2002 / Y6 captain 2003 |
+| [`SOURCE-apple-pcc-accessibility-reader-analytics-2026-09-24.md`](SOURCE-apple-pcc-accessibility-reader-analytics-2026-09-24.md) | Apple PCC Accessibility Reader · Analytics Logs filenames 24–25 Sep · PrivateCloudCompute |
+| [`SOURCE-apple-pcc-vlu-pcc-agent-report-2026-09-18.md`](SOURCE-apple-pcc-vlu-pcc-agent-report-2026-09-18.md) | Apple PCC VLU / pcc-agent report · empty modelRequests · architecture receipt 18 Sep |
+| [`SOURCE-aws-console-ios-kmp-crash-3-21-0.md`](SOURCE-aws-console-ios-kmp-crash-3-21-0.md) | AWS Console iOS 3.21.0 · KMP/Compose unhandled coroutine → SIGABRT |
+| [`SOURCE-gemini-ios-watchdog-textkit2-0x8badf00d.md`](SOURCE-gemini-ios-watchdog-textkit2-0x8badf00d.md) | Gemini iOS · 0x8BADF00D watchdog · TextKit 2 main-thread layout hang |
 | [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) | Taxi: SWF→LLM custodians prophecy — steal grammar only |
 | [`SOURCE-dream-rsi-landscape.md`](SOURCE-dream-rsi-landscape.md) | Dream-RSI — RSI via replay “dreams”; weights fixed; thought/field read |
 | [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md) | Wanted learning path: Record→Pool→Dream→Receipt→Gate (not vendor clone) |

@@ -9,6 +9,11 @@ this repo; nothing here is invented.
 dated row. Do not silently overwrite an existing entry — a reversed
 decision gets a new entry that says so.
 
+**Agreement check:** plain read
+[`00_MASTER_INDEX/NEEDS-YOUR-YES.md`](../00_MASTER_INDEX/NEEDS-YOUR-YES.md)
+· agent map [`AGREEMENT-WORKFLOW.md`](../00_MASTER_INDEX/AGREEMENT-WORKFLOW.md)
+· `python3 scripts/agreement/status.py --plain`
+
 ## 2026-09-19 — Naming: Starline
 
 Decision (Crystal): the name is **Starline** (Consent Transport, Starlines map, Starline Weaver).
