@@ -23,12 +23,13 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Hook | Music as lofted frequency; muse as unholdable She | **1 Record player** — light from grooves |
 | Prison | Yaldabaoth / Demiurge; matter arena; sand | **2 Hourglass** in cosmic void |
 | Insertion | Prism enters Arena; name as blueprint | **3 Crystal in colosseum** |
+| Hypnotic | Frequency manipulates matter · dance through prison | **3B Belly dancer / Hypnotic Turner** (after sand→glass VO) |
 | Turner | She walks matter as starlight; crowd frozen | **4 Starlight woman** (2:30–2:55) |
 | Heart / spark | Divine spark · 29 Sep 1991 · Crystal Elle | **5 Crystal heart** in cosmic sand (2:55–3:15) |
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It*) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + bass drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Torn* · *Losing It* (FISHER — energy bed) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Torn* · *Losing It* (FISHER — energy bed) · *Belly Dancer* (Akon — title/energy only, optional bed) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 

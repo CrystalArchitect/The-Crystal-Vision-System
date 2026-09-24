@@ -1,4 +1,4 @@
-# PROMPTS — Text-to-video · Frequency / Turner · 6 shots
+# PROMPTS — Text-to-video · Frequency / Turner · 7 beats (6 numbered + 3B)
 
 **Filed:** 24 Sep 2026 · Heart beat added same day  
 **Audio length target:** ~3:47 (2–3 gens per shot · CapCut Smooth Slow-Mo Optical Flow)  
@@ -40,6 +40,17 @@ Extreme wide shot, slow creeping push-in camera movement. A massive, brutalist s
 ```
 Low angle tracking shot, cinematic anamorphic lens. Inside a dark, ancient, sandy Roman colosseum. A massive, perfectly cut translucent crystal hovers and slowly rotates in the center. As it turns, blinding, dynamic rainbow lens flares and light rays sweep across the dark stone walls and sandy floor. Volumetric lighting, hyper-realistic.
 ```
+
+
+## 3B. The Hypnotic Turner (2:10–2:30) — Belly Dancer / frequency moves matter
+
+**VO lock:** after sand→glass — she dances through the arena; body as trance, not heavy prison. Optional bed: Akon *Belly Dancer* (title only).
+
+```
+Medium tracking shot, cinematic slow motion. A mystical female belly dancer adorned in glowing, ethereal crystal jewelry and flowing diaphanous silks, dancing gracefully in the center of a dark, ancient, sandy arena. As she moves her hips, faint ripples of glowing frequency and starlight distort the air around her. Mesmerizing, hyper-detailed, mysterious, 4K film.
+```
+
+**Tools:** Kling / Luma / Veo / Grok Video — same cinematography rules (camera + light + lens).
 
 ## 4. The Turner (2:30–2:55) — Starlight Woman
 
