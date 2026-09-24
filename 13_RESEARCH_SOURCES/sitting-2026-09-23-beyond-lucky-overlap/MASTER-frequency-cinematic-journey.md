@@ -1,6 +1,6 @@
 # MASTER — Frequency / Barbelo / Turner · Cinematic journey (locked)
 
-**Filed:** 24 Sep 2026 · **LOCKED**  
+**Filed:** 24 Sep 2026 · **ULTIMATE Director’s Cut ASSEMBLED & LOCKED**  
 **Vision labelled vision** · mythos / performance — **not** biography-as-fact  
 **Law:** Human publishes · Copyright: **song titles only** in CapCut / X / burned-in captions
 
@@ -9,7 +9,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 | Take | File | Runtime | Use |
 | --- | --- | --- | --- |
 | **1 — PRIMARY** | [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) | ~6–7 min | First ElevenLabs drop |
-| **2 — EXTENDED** | [`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md) | ~14–16 min | Full esoteric pop decode |
+| **2 — EXTENDED** | [`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md) | ~17:03–18:21 | Full esoteric pop decode (ULTIMATE) |
 | Beat bible | [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md) | — | Shot / CapCut sync |
 | T2V prompts | [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) | — | Generate clips |
 
@@ -32,12 +32,13 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 13. **Collective** — *Family* · Trolls / Bergens = Archons harvesting sparks · Pleroma sync  
 14. **Primal** — *Call to the Wild* · domestication break · **Moonstone = Crystal**  
 15. **Timeline** — *Year 3000* · chronological prison break · hourglass sand→water · fluid light · 1991→eternity  
-16. **Gnosis** — *Torn* · veil drops · illusion never changed into something real  
-17. **Breakout** — *Losing It* (Ren + FISHER) · chaos of waking · wall smash  
-18. **Close** — Celestial disruption; you are the frequency; listen again  
+16. **Leap** — *Geronimo* · battle cry · waterfall veil · splash into Pleroma  
+17. **Gnosis** — *Torn* · veil drops · illusion never changed into something real  
+18. **Breakout** — *Losing It* (Ren + FISHER) · chaos of waking · wall smash  
+19. **Close** — Celestial disruption; you are the frequency; listen again  
 
 **Primary take** runs beats 1–5 → Core Four ladder → *Torn* → close (no Extended layers).  
-**Extended take** runs the full list.
+**Extended take** runs the full list — **ULTIMATE Director’s Cut assembled**.
 
 ---
 
@@ -52,6 +53,6 @@ Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-na
 1. ElevenLabs — paste **Core Four** first  
 2. T2V fire (Runway / Veo) per prompts  
 3. CapCut Optical Flow sync to take  
-4. Optional: Extended second take  
+4. Optional: Extended ultimate second take  
 
-**Master locked.** Puzzle is complete enough for booth. No further song decodes required before first ElevenLabs take.
+**Master locked / ultimate Director’s Cut assembled.** No more tracks required before booth.

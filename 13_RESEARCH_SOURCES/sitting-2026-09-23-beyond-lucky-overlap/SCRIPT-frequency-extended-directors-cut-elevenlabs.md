@@ -1,7 +1,7 @@
 # SCRIPT — Frequency / Barbelo / Turner · EXTENDED Director’s Cut (optional long booth)
 
 **Filed:** 24 Sep 2026  
-**Status:** EXTENDED optional · layers retained · primary booth = Core Four · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
+**Status:** **ULTIMATE Director’s Cut ASSEMBLED** · Extended take · primary booth = Core Four · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
 **Primary booth (Core Four):** [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
 **Maps to:** [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) · beat bible [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md)  
 **Law:** Different Shores taxi · Human publishes · No destiny proof  
@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~2214** (*Year 3000* / timeline break in) |
-| Live Lounge gravity (~130–140 wpm) | **~15:48–17:01** |
-| Slightly brighter (~150 wpm) | **~14:45** |
+| Word count | **~2387** (*Geronimo* leap in — **ULTIMATE assembled**) |
+| Live Lounge gravity (~130–140 wpm) | **~17:03–18:21** |
+| Slightly brighter (~150 wpm) | **~15:54** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Extended journey re-locked. CapCut bed **~15:48–17:01**. Arc: … *Call to the Wild* → *Year 3000* (sand→water) → Gnosis. Primary = Core Four. Master map locked — **no further decodes required before booth.**
+**Verdict:** Ultimate Extended Director’s Cut assembled. CapCut bed **~17:03–18:21**. Arc: … *Year 3000* → *Geronimo* (leap) → Gnosis. Primary booth = Core Four. **No more tracks required before booth.**
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -41,10 +41,11 @@
 | *Family* / Trolls–Bergens collective | colour overwrite · unified frequency |
 | *Call to the Wild* / Moonstone = Crystal | primal roar · wake the domesticated |
 | *Year 3000* / timeline break | hourglass dies · sand→water · fluid light |
+| *Geronimo* / leap of faith | battle cry · waterfall veil · splash into Pleroma |
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · Trainor titles · *Fly* · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* (Trolls — Pleroma reunification) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Year 3000* (Busted — chronological prison break) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · Trainor titles · *Fly* · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* (Trolls — Pleroma reunification) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -140,6 +141,14 @@ This isn't science fiction. It is alchemy. The heavy, dry, dead sand of the eart
 
 And who is at the center of this multi-platinum future? The Turner, whose frequency stretches from 1991 all the way into eternity, proving that the Dem-ee-urj's timeline was always an illusion.
 
+But escaping the timeline requires more than just realization; it requires action. The sparks have to be willing to jump.
+
+You hear this exact celestial battle cry in the explosive rhythm of "Geronimo." The Ar-konz rely on the heavy gravity of fear to keep humanity frozen at the edge, afraid of what happens if they let go of the physical world. But the Turner's frequency completely overwrites that fear. When the artist commands you to say Geronimo, it is not a pop lyric. It is the command to finally leap out of the Dem-ee-urj's constructed reality.
+
+The lyrics speak of plunging through the curtain of the waterfall. That is the veil of the matrix. By taking the leap, the awakened souls aren't falling onto the hard dirt of the earthly arena; they are breaking through the heavy, dead sand and splashing directly into the fluid, pure frequency of the higher realm.
+
+When the illusion shatters, you don't brace for impact. You trust the Turner's light, you take the leap, and you yell Geronimo.
+
 And then comes the ultimate breaking point. The moment of Gnosis.
 
 It starts with being "Torn." The veil drops, the illusion breaks, and the subject realizes the world they were told to believe in wasn't real. As the artist sings: "Illusion never changed into something real."
@@ -158,9 +167,9 @@ Listen closely to the songs playing in the background of your life. The message 
 
 ## Booth notes
 
-- Pause after: “They sent a prism.” · “Crystal Elle Arena-Turner.” · “A crystal.” · “fluid light.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
-- *Call to the Wild*: primal roar. *Year 3000*: pop-punk lift → hourglass flood. Then *Torn* chaos.  
+- Pause after: “They sent a prism.” · “Crystal Elle Arena-Turner.” · “fluid light.” · “you yell Geronimo.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
+- *Year 3000*: pop-punk lift / flood. *Geronimo*: explosive leap — then *Torn* weight.  
 - Do not throat-clone. Captions = titles only.  
-- CapCut bed **~15:48–17:01**.  
-- **Master map:** [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md) · Primary = Core Four first take.  
-- **Lock:** puzzle complete enough for booth — no further song decodes required before first ElevenLabs take.
+- CapCut bed **~17:03–18:21**.  
+- **Master map:** [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md)  
+- **ULTIMATE lock:** Extended assembled. Core Four = first ElevenLabs take. No more tracks required before booth.
