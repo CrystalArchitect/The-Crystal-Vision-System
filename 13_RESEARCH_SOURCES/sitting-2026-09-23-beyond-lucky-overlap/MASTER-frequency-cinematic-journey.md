@@ -35,7 +35,9 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 14. **Sovereignty** — *Let It Go* · Crystal fractal castle · cold never bothered her  
 15. **Collective** — *Family* · Trolls / Bergens = Archons harvesting sparks · Pleroma sync  
 16. **Heist** — *Follow Me* · back door open · quiet walk away · bypass the warden  
-17. **Primal** — *Call to the Wild* · domestication break · **Moonstone = Crystal**  
+16b. **Distance** — *A Thousand Miles* · close the gap · no labyrinth · find the spark  
+16c. **Invitation** — *Call Me Maybe* · slip the exit code · your choice · make the call  
+17. **Primal** — *Call to the Wild* · domestication break · **Moonstone = Crystal**
 17b. **Shockwave** — *Bamm* · sterile silence → concussive wake · walls crack · party as rebellion  
 18. **Prophecy** — *Someday* · segregation falls · someday→now · sparks merge into light
 19. **Borders** — *Blurred Lines* · erase Demiurge categories · anti-domestication  
@@ -63,4 +65,4 @@ Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-na
 2. Optional — Extended ([`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md))  
 3. T2V + CapCut  
 
-**Ultimate Director’s Cut weaved** (*Bamm* shockwave). **Fire Core Four.** Assembled — more extract optional.
+**Ultimate Director’s Cut weaved** (*Call Me Maybe* invitation). **Fire Core Four.** Compiled — more Trojan horses optional.

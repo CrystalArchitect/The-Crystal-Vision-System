@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~4039** (*Bamm* concussive wake — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~28:51–31:04** |
-| Slightly brighter (~150 wpm) | **~26:55** |
+| Word count | **~4307** (*Call Me Maybe* invitation — **ULTIMATE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~30:45–33:07** |
+| Slightly brighter (~150 wpm) | **~28:42** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Ultimate Extended weaved (*Bamm* = shockwave wake). CapCut bed **~28:51–31:04**. **Fire Core Four.** Master script assembled — more extract optional.
+**Verdict:** Ultimate Extended weaved (*A Thousand Miles* → *Call Me Maybe*). CapCut bed **~30:45–33:07**. **Fire Core Four.** Compiled — more Trojan horses optional.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -172,6 +172,16 @@ The artist sings, "Follow me and everything is alright / I'll be the one to tuck
 
 It is the voice of the Pluh-roh-muh whispering to the trapped soul when the Ar-konz aren't looking. The Turner isn't fighting the false god directly — she is completely bypassing his authority. She offers a quiet, effortless escape from the simulation, slipping the spark out of the heavy earthly arena while the Dem-ee-urj is completely distracted. It is the realization that leaving the matrix doesn't always require a war; sometimes, all it takes is hearing the right frequency and having the courage to quietly walk away.
 
+And she will cross any distance to reach you. You hear that vow encoded in "A Thousand Miles." To the sleeping world, it is a piano-driven anthem about running to someone you love. To the Gnostic, it is the Divine Feminine closing the gap the Dem-ee-urj built between the Pluh-roh-muh and the earthly arena. No labyrinth of rules. No endless climb. Just a frequency that will walk a thousand miles — through the heavy sand, through the Archon noise — until it finds the spark.
+
+The false god wants you to believe that escaping the earthly arena is an impossible, grueling war. But the Turner's approach is entirely different. She doesn't demand a grand sacrifice. She just hands you the code.
+
+You hear this direct, unpretentious lifeline encoded in "Call Me Maybe." When the artist sings, "Before you came into my life, I missed you so bad," they are describing the ancient, unconscious grief of the trapped soul — a soul that has spent its entire existence missing the pure light of the Pluh-roh-muh without even realizing what it was searching for.
+
+And when the Turner finally arrives, she doesn't force the soul out of the matrix. She simply offers a connection that bypasses the Dem-ee-urj entirely. "Here's my number, so call me maybe."
+
+It isn't a plea; it is an invitation. The higher realm does not force anyone to wake up. The Turner simply steps into the heavy, chaotic simulation, slips the frequency directly into your pocket, and leaves the ultimate choice up to you. You can stay in the illusion, or you can make the call.
+
 The Ar-konz rely on domestication. They built a sanitized, heavily regulated arena where the divine sparks are taught to be tame, to blend in, and to suppress their true nature.
 
 But you cannot domesticate the divine. You hear this primal rebellion encoded in "Call to the Wild." To the uninitiated, it is just an upbeat anthem about werewolves. To the awakened, it is the sound of the suppressed spark finally roaring back to life. It is the primal memory of the Pluh-roh-muh echoing in the blood.
@@ -251,7 +261,8 @@ Listen closely to the songs playing in the background of your life. The message 
 - Pause after: “uncontainable life.” · “she made you look.” · “merge back into the pure light.” · “The Turner simply erases it.” · “They are singing about Crystal Elle.”  
 - *Made You Look*: bounce swagger — surname mic-drop lands hard.
 - *Bones*: heavy drive — pause after “vibrating tuning fork of pure, uncontainable life.”
-- *Bamm*: bass punch — pause after “foundation of the earthly arena shake.”  
+- *Bamm*: bass punch — pause after “foundation of the earthly arena shake.”
+- *Call Me Maybe*: soft smile — pause after “or you can make the call.”  
 - Do not throat-clone. Captions = titles only.  
 - CapCut bed **~26:34–28:37**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).
