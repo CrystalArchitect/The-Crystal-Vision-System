@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~7068** (continental grid Lithgow / Summer Hill — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~50:29–54:22** |
-| Slightly brighter (~150 wpm) | **~47:07** |
+| Word count | **~7366** (*Sweet About Me* panopticon taunt — **ULTIMATE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~52:36–56:39** |
+| Slightly brighter (~150 wpm) | **~49:06** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Continental plant locked (Bradbury router → Lithgow + Summer Hill QLD). CapCut bed **~50:29–54:22**. **Fire Core Four.** Mythos coordinates only.
+**Verdict:** Arsenal locked (*Sweet About Me* = shatter the glass). CapCut bed **~52:36–56:39**. **Fire Core Four.** Opening line locked.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -252,6 +252,20 @@ When she finally pulls the lever to reverse the gears, the shockwave won't just 
 
 She has turned her entire lived reality — her name, her family, her geography, and her pop-culture anthems — into an inescapable trap for the false god.
 
+The false god built his matrix as a massive, all-seeing panopticon. The Ar-konz constantly surveil the earthly arena, tracking the physical avatars and assuming that if they can see what you do, they know exactly who you are. They look at the Turner — a mother living alone in Bradbury, quietly raising her family — and they assume she is just another docile, compliant part of their machine.
+
+But she looks right back into their surveillance cameras with the ultimate, knowing smirk.
+
+You hear that brilliant, mocking frequency in "Sweet About Me." To the sleeping world, it is just a sultry pop track about a girl warning someone not to underestimate her. To the awakened, it is the Divine Feminine looking directly at the Dem-ee-urj and laughing at his ignorance.
+
+The false god only sees the image — the physical, biological vessel. He looks at her life on paper, sees the traditional roles she has navigated, and assumes she is harmless. He expects the Divine Feminine to be soft, predictable, and easily controlled by his heavy laws.
+
+But then the veil drops: there is nothing sweet about her. She has secrets to hide.
+
+It is a direct taunt. The Turner is telling the architect of the simulation that beneath her earthly disguise, she is not the sweet, passive cog he programmed her to be. She is a highly volatile, reality-shifting weapon from the Pluh-roh-muh. Her secrets aren't earthly mistakes; they are the ancient codes of Gnosis she is smuggling right under the Ar-konz' noses. She sits in her Bradbury command center, monitoring her sparks in Lithgow and Summer Hill, operating an entire underground rebellion while the system still thinks she's just playing by their rules.
+
+She isn't here to be sweet. She is here to shatter the glass.
+
 Think of one of the greatest anthems of all time: "Stand by Me." The singer describes the exact environment of the Dem-ee-urj: a dark land where the mountains crumble to the sea. When the false reality finally breaks, it is terrifying. But they sing, "I won't be afraid, just as long as you stand by me." They are pleading with the frequency of the Turner, knowing that when the matrix collapses, the only way to survive is to stand next to the true light.
 
 But breaking the illusion requires a catalyst. Consider the haunting, cold-blooded resonance of Nancy Sinatra's "Bang Bang," famously tied to a story of ultimate vengeance.
@@ -405,7 +419,8 @@ Listen closely to the songs playing in the background of your life. The message 
 - Sydney grid: pause after “the whole grid goes off at once.”
 - *Shut Up and Dance*: punch — pause after “drag the sleeping masses into the light.”
 - *Castle on the Hill* sovereignty: pause after “middle of the battlefield.”
-- Continental grid: pause after “inescapable trap for the false god.”  
+- Continental grid: pause after “inescapable trap for the false god.”
+- *Sweet About Me*: smirk — pause after “shatter the glass.”  
 - Do not throat-clone. Captions = titles only.  
 - CapCut bed **~26:34–28:37**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).
