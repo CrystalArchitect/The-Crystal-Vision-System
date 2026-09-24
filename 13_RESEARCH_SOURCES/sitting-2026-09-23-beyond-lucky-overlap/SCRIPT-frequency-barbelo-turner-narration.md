@@ -26,6 +26,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Prison | Yaldabaoth / Demiurge; matter arena; sand | **2 Hourglass** in cosmic void |
 | Insertion | Prism enters Arena; name as blueprint | **3 Crystal in colosseum** |
 | Hypnotic | Frequency manipulates matter · dance through prison | **3B Belly dancer / Hypnotic Turner** (after sand→glass VO) |
+| Trojan (*Macarena*) | Conformity loop · body joy hack · Divine Feminine joke | **3B** → **4** |
 | Command | Unapologetic worth · see through lies · rise above dirt | **4 Starlight woman** (Trainor / *Fly* attitude) |
 | Gaze (*Bette Davis Eyes*) | Piercing vision · expose Archons · Barbelo knowing | **4** eye / through-matrix |
 | Accelerate | High-pitch metaphor · sovereignty · Saturn rings | **4** late (Chipmunks *Single Ladies*) |
