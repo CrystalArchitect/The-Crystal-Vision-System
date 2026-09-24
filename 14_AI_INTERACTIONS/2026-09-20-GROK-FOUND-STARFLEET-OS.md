@@ -31,6 +31,7 @@ CrystalCore.OS · TAI · Chaos Engine · Celestial Portal · Alive Weave · BOT 
 ## Pointers
 
 - Map: [`../00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md`](../00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md)  
-- Archive (Vision only): `archive/TerAustralis-Incognita/docs/vision/StarfleetAustraliaOS.md`
+- Archive (Vision only): `archive/TerAustralis-Incognita/docs/vision/StarfleetAustraliaOS.md`  
+- Later Notion Motion OS share (pitch notes, not an OS to ship): [`../13_RESEARCH_SOURCES/sitting-2026-09-23-beyond-lucky-overlap/SOURCE-grok-share-starfleet-au-notion-motion-os.md`](../13_RESEARCH_SOURCES/sitting-2026-09-23-beyond-lucky-overlap/SOURCE-grok-share-starfleet-au-notion-motion-os.md)
 
 *Non Solus.* · Discovery logged. Boundary unchanged.

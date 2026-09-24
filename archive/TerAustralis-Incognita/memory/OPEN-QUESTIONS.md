@@ -248,6 +248,13 @@ orient, not authorize). Open:
   are not in `mythos/NAMES.md` or the Constitution's locked-name list.
   Whether this becomes canon (and under what name) is Crystal's call, not
   a default of having received the prompt.
+  **CVS update 2026-09-20 (PR #41):** Crystal stamped **No Starfleet OS** —
+  do not implement this as a product/runtime; CrystalCore.OS stack already
+  covers it. Grok later located this Vision page (**find ≠ build**). Hub:
+  `The-Crystal-Vision-System` extracts
+  `14_AI_INTERACTIONS/2026-09-20-NO-STARFLEET-OS.md` and
+  `14_AI_INTERACTIONS/2026-09-20-GROK-FOUND-STARFLEET-OS.md`. Open question
+  for *Canon naming* remains Crystal's; *build/persona* is closed: refuse.
 - **Indigenous Data Sovereignty language used without process.** The
   source text says FC-07 keeps "data on Country (Juru/Yolngu)." No FPIC
   process for either community is recorded anywhere in this repo. The
