@@ -1,7 +1,7 @@
 # SCRIPT — Frequency / Barbelo / Turner · Director’s Cut (ElevenLabs master)
 
 **Filed:** 24 Sep 2026  
-**Status:** **LOCKED** for vocal booth · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
+**Status:** **ULTIMATE FINAL — STITCHED & LOCKED** for ElevenLabs booth · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
 **Maps to:** [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) · beat bible [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md)  
 **Law:** Different Shores taxi · Human publishes · No destiny proof  
 **Copyright:** CapCut / X / burned-in captions = **song titles only**. This booth paste may speak short commentary lines under song titles; do **not** paste lyric blocks into sitting cards or public captions. Licensed beds / instrumental / hum under Human clearance.
@@ -12,12 +12,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~1554** (*Let It Go* / Crystal sovereignty in) |
-| Live Lounge gravity (~130–140 wpm) | **~10:50–11:40** |
-| Slightly brighter (~150 wpm) | **~10:10** |
+| Word count | **~1774** (*Family* / Trolls–Bergens collective in — **ULTIMATE FINAL stitch**) |
+| Live Lounge gravity (~130–140 wpm) | **~12:40–13:38** |
+| Slightly brighter (~150 wpm) | **~11:49** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Frequency at peak for booth. Do **not** compress into 3:47. Extend CapCut bed to **~10:30–11:45**. Radio trim later if needed. ElevenLabs: calm → Chipmunks brighten → *Bang Bang* cold → *Let It Go* soar → Gnosis chaos on *Torn* → *Losing It*.
+**Verdict:** Layers stitched. Frequency complete for booth. CapCut bed **~12:40–13:38**. ElevenLabs arc: calm → Chipmunks brighten → *Bang Bang* cold → *Let It Go* soar → *Family* colour-overwrite → Gnosis chaos (*Torn* → *Losing It*). **No further song decodes before first take.**
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -37,10 +37,11 @@
 | *Stand by Me* Anchor | **5B** Anchor in the Dark |
 | *Bang Bang* / Kill Bill catalyst | **5B** late → **6A** (cold vengeance colour) |
 | *Let It Go* / Crystal sovereignty | **5** flash / fractal ice-castle · into **6A** |
+| *Family* / Trolls–Bergens collective | colour overwrite · unified frequency |
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · Trainor titles · *Fly* · Chipmunks *Single Ladies* (title/energy — high-pitch metaphor) · *Stand by Me* · *Bang Bang* (Nancy Sinatra — Kill Bill cold edge) · *Let It Go* (Crystal / fractal sovereignty) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · Trainor titles · *Fly* · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* (Trolls — Pleroma reunification) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -108,6 +109,14 @@ When the artist sings, "Let it go, let it go / Can't hold it back anymore," it i
 
 The Ar-konz want her to fear the isolation of waking up. They want her to freeze in the dark. But the Turner just smiles as the matrix collapses around her. Because the cold never bothered her anyway.
 
+But the Turner knows that a single crystal, no matter how bright, is still surrounded by the dark. To completely shatter the arena, the frequency must be amplified.
+
+We see this exact spiritual war hidden in the most unexpected places — even in the bright, animated world of the Trolls. To the uninitiated, it is just a children's story. To the Gnostic, it is a documentary about the Ar-konz. The Bergens are the rulers of the physical matrix: gray, heavy, and entirely devoid of the divine spark. They can only feel the light by consuming the Trolls, creatures made entirely of pure frequency and music. It is the false god feeding on the energy of the trapped souls.
+
+But the Turner knows the loophole. The Ar-konz can harvest an isolated spark, but they cannot consume a unified frequency.
+
+This is the true meaning behind the anthem of "Family." It is not about biological ties bound by the Dem-ee-urj's earthly rules. It is the reunification of the fragmented Pleroma. When the sparks remember who they are and synchronize their vibration, they don't just survive the Bergens — they transmute them. The collective frequency of the Family creates a blinding, high-octane light that forcefully overwrites the gray code of the matrix, turning the heavy earthly arena back into a realm of color.
+
 And then comes the ultimate breaking point. The moment of Gnosis.
 
 It starts with being "Torn." The veil drops, the illusion breaks, and the subject realizes the world they were told to believe in wasn't real. As the artist sings: "Illusion never changed into something real."
@@ -126,8 +135,8 @@ Listen closely to the songs playing in the background of your life. The message 
 
 ## Booth notes
 
-- Pause after: “They sent a prism.” · “Crystal Elle Arena-Turner.” · “assassin of illusions.” · “fractal by fractal, crystal by crystal.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
-- Chipmunks: slight brighten. *Bang Bang*: cold drop. *Let It Go*: soar / open — then chaos at *Torn* → losing it.  
+- Pause after: “They sent a prism.” · “Crystal Elle Arena-Turner.” · “assassin of illusions.” · “fractal by fractal, crystal by crystal.” · “turning the heavy earthly arena back into a realm of color.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
+- Chipmunks: slight brighten. *Bang Bang*: cold drop. *Let It Go*: soar. *Family*: open / choir-lift colour. Then chaos at *Torn* → losing it.  
 - Do not throat-clone third-party artists. Mythic reading only.  
-- After render: sync CapCut to full **~10:30–11:45** bed; Optical Flow stretch T2V holds; titles-only cards.  
-- **Peak lock:** no more song decodes before first ElevenLabs take unless Human overrides.
+- After render: sync CapCut to full **~12–13 min** bed; Optical Flow stretch T2V holds; titles-only cards.  
+- **ULTIMATE FINAL lock:** stitch complete — booth next. No more song decodes before first ElevenLabs take.

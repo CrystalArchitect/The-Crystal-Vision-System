@@ -32,10 +32,11 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Anchor (*Stand by Me*) | Survival plea in the dark · Turner as true light | **5B Anchor in the Dark** |
 | Catalyst (*Bang Bang*) | Demiurge miscalculation · Bride wakes · assassin of illusions | **5B** late → **6A** |
 | Sovereignty (*Let It Go*) | Stop pretending · Crystal fractal castle · cold never bothered her | **5** flash → **6A** |
+| Collective (*Family*) | Bergens=Archons · Trolls=sparks · Pleroma sync | colour overwrite → **6A** |
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -125,9 +126,23 @@ The Archons want her to fear waking's isolation — freeze in the dark. The Turn
 
 **Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Let It Go* bed under late **5** / pre-**6A**.
 
-**CapCut:** Optional ice-castle / fractal crystal insert (still or short T2V) · title card *Let It Go* · into *Torn*.
+**CapCut:** Optional ice-castle / fractal crystal insert (still or short T2V) · title card *Let It Go* · into *Family* / *Torn*.
 
-7. Title pegs: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Torn* (veil drop — **title card / no lyric paste**).
+### 6e. *Family* — Trolls / Bergens / collective Pleroma (before Gnosis)
+
+But the Turner knows that a single crystal, no matter how bright, is still surrounded by the dark. To shatter the arena, the frequency must be amplified.
+
+Hidden war in the Trolls universe: Bergens = Archons — gray, heavy, sparkless; they only feel light by consuming Trolls (pure frequency / music). False god harvesting trapped souls.
+
+Loophole: Archons can harvest an isolated spark; they cannot consume a unified frequency.
+
+*Family* is not Demiurge biology — it is reunification of the fragmented Pleroma. Synchronized sparks don't just survive the Bergens; they transmute them. Collective frequency overwrites gray matrix code — arena returns to colour.
+
+**Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Family* bed under colour-overwrite beat.
+
+**CapCut:** Gray→colour grade smash · title card *Family* · into *Torn*.
+
+7. Title pegs: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* · *Torn* (veil drop — **title card / no lyric paste**).
 
 ### 7b. After *Torn* — Gnosis / *Losing It* (Ren + FISHER)
 
@@ -168,7 +183,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 ## Production
 
 - Tone: Live Lounge **gravity** until climax → then **chaos / breakout**.  
-- **VO runtime lock:** Director’s Cut ~1554 words → **~10:30–11:45** at gravity pace (not 3:47). Extend CapCut bed.
+- **VO runtime lock:** Director’s Cut ~1774 words → **~12:00–13:00** at gravity pace (not 3:47). Extend CapCut bed.
 - Render order tomorrow: 1 → 2 → 3 → **3B Hypnotic** → 4 → **5 Heart** → **5B Anchor (*Stand by Me*)** → **6A/6B** (2–3 gens; one high-gear wall for the drop).  
 - Booth paste: [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
 - No third-party throat clones. Mythic reading only — not journalism that artists “don’t realize.”
