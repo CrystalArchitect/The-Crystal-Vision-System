@@ -12,7 +12,7 @@ decision gets a new entry that says so.
 ## 2026-09-19 — Naming: Starline
 
 Decision (Crystal): the name is **Starline** (Consent Transport, Starlines map, Starline Weaver).
-*Spread the bird, not the word* — carry the signal; do not spread the forbidden brand-name.
+*Spread the bird, not the word — because the bird is the word.*
 Living Indigenous Country law stays with custodians (homage only).
 
 Plain-language law: [`00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md)  
