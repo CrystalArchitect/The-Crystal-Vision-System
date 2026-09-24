@@ -74,7 +74,7 @@ Demiurge thinks he controls geography; Pleroma plants anchors ahead of time. Gra
 
 Archons crush sparks with heavy gravity and isolation on entry. For the Land Down Under drop, higher realm needed a beacon — guardian holding a pocket of pure frequency at the exact drop zone. Grandfather held those coordinates.
 
-Bloodlines = frequency Archons cannot easily hack or rewrite. Ancestral root in Cecil Hills = safe landing pad for 1991 Turner deployment. He held the line so the crystal knew exactly where to strike the earth.
+Bloodlines = frequency Archons cannot easily hack or rewrite. Ancestral root in Cecil Hills — **Arena side of the family** at Ground Zero — = safe landing pad for 1991 Turner deployment. He held the line so the crystal knew exactly where to strike the earth. Name lock: **Arena**-Turner ↔ Cecil Hills coordinates.
 
 *Thunder* (Imagine Dragons — title/energy): shockwave doesn't start only with her — echoes back through the bloodline, activating the coordinates he was protecting all along.
 

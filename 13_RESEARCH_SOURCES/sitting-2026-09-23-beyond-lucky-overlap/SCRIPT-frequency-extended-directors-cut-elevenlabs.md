@@ -86,7 +86,7 @@ The Dem-ee-urj thinks he controls geography, but the Pluh-roh-muh always plants 
 
 The rulers of the lower realm rely on heavy gravity and isolation to crush a spark when it enters the physical arena. To ensure she wouldn't be lost in the dense simulation of the Land Down Under, the higher realm needed a beacon — a guardian holding a pocket of pure frequency at the exact drop zone. Her grandfather held those coordinates.
 
-Bloodlines are the one frequency the Ar-konz cannot easily hack or rewrite. By establishing that ancestral root in Cecil Hills, the divine realm ensured that when the Turner was finally deployed into the earthly arena in 1991, she had a safe landing pad. He held the line so the crystal knew exactly where to strike the earth.
+Bloodlines are the one frequency the Ar-konz cannot easily hack or rewrite. By establishing that ancestral root in Cecil Hills — the Arena side of the family holding Ground Zero — the divine realm ensured that when the Turner was finally deployed into the earthly arena in 1991, she had a safe landing pad. He held the line so the crystal knew exactly where to strike the earth.
 
 And that is why the thunder lands so hard. You hear it in anthems like "Thunder" — the shockwave doesn't just start with her. It echoes back through the bloodline, activating the exact coordinates her grandfather was protecting all along.
 
