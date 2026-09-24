@@ -42,10 +42,11 @@
 | *Call to the Wild* / Moonstone = Crystal | primal roar · wake the domesticated |
 | *Year 3000* / timeline break | hourglass dies · sand→water · fluid light |
 | *Geronimo* / leap of faith | battle cry · waterfall veil · splash into Pleroma |
+| *Green Green Grass* / jailbreak | death-fear break · party · spark returns to Pleroma |
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · Trainor titles · *Fly* · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* (Trolls — Pleroma reunification) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · Trainor titles · *Fly* · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* (Trolls — Pleroma reunification) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 

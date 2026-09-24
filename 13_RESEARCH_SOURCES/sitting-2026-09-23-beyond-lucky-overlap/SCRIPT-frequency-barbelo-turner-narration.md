@@ -37,6 +37,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Primal (*Call to the Wild*) | Domestication break · Moonstone = Crystal | pastel→wild → **6A** |
 | Timeline (*Year 3000*) | Chronological prison break · sand→water · 1991→eternity | **2** echo → **6A** |
 | Leap (*Geronimo*) | Fear-gravity break · waterfall veil · splash into Pleroma | **6A** pre-*Torn* |
+| Jailbreak (*Green Green Grass*) | Death-fear break · party · spark returns to Pleroma | **6A** celebration |
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
@@ -184,9 +185,21 @@ Curtain of the waterfall = veil of the matrix. Leap is not onto hard dirt — br
 
 **Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Geronimo* bed under leap beat (high-energy into *Torn*).
 
-**CapCut:** Edge / waterfall / freefall splash · title card *Geronimo* · into *Torn*.
+**CapCut:** Edge / waterfall / freefall splash · title card *Geronimo* · into *Green Green Grass* / *Torn*.
 
-7. Title pegs: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* · *Call to the Wild* · *Year 3000* · *Geronimo* · *Torn* (veil drop — **title card / no lyric paste**).
+### 6i. *Green Green Grass* — jailbreak celebration (after *Geronimo* → before Gnosis)
+
+The Demiurge uses fear of the end to keep sparks obedient — mourn the biological vessel; treat leaving the arena as tragedy.
+
+Turner's frequency shatters the illusion of death. *Green Green Grass* (George Ezra): cosmic rebellion in upbeat rhythm. Title energy — green green grass, blue blue sky; throw a party on the day that I die.
+
+Why a party? Leaving the physical prison is not tragedy — ultimate jailbreak. False god wants tears over a temporary biological suit; awakened soul celebrates the spark's return to pure light of the Pleroma. Death in the matrix isn't the end — final illusion shattering, last door swinging open.
+
+**Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Green Green Grass* bed under celebration beat.
+
+**CapCut:** Bright celebration colour under freefall aftermath · title card *Green Green Grass* · into *Torn*.
+
+7. Title pegs: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Family* · *Call to the Wild* · *Year 3000* · *Geronimo* · *Green Green Grass* · *Torn* (veil drop — **title card / no lyric paste**).
 
 ### 7b. After *Torn* — Gnosis / *Losing It* (Ren + FISHER)
 
