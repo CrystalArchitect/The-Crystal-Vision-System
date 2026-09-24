@@ -14,3 +14,8 @@ GitHub: https://github.com/CrystalArchitect/The-Crystal-Vision-System
 This sitting: https://drive.google.com/drive/folders/1Je5IpBRqEXAR8b6uAkGEpCUR3NVcAy6f
 
 Crystal Arena-Turner is the authority. Drive/GitHub outrank chat. Do not collapse projects. Do not treat Vision as Built.
+
+## Naming
+**Starline** = project name (Consent Transport / Starlines).
+*Spread the bird, not the word.*
+Doc: `00_MASTER_INDEX/NAMING-STARLINE.md`

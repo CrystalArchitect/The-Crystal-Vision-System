@@ -14,6 +14,8 @@ Builds a **STARFLEET AUSTRALIA — Notion Motion OS** pack: floating-city module
 
 **Naming tension:** Sibling Cursor task definition already flags **“No Starfleet OS”** ([`SOURCE-cursor-agent-task-definition.md`](SOURCE-cursor-agent-task-definition.md)). This share uses Starfleet branding explicitly. File as creative/ops pack receipt; do not treat Starfleet naming as settled CrystalCore product law.
 
+**Hub law (already stamped):** [`../../14_AI_INTERACTIONS/2026-09-20-NO-STARFLEET-OS.md`](../../14_AI_INTERACTIONS/2026-09-20-NO-STARFLEET-OS.md) · Grok also located the Incognita Vision page earlier the same sitting — [`../../14_AI_INTERACTIONS/2026-09-20-GROK-FOUND-STARFLEET-OS.md`](../../14_AI_INTERACTIONS/2026-09-20-GROK-FOUND-STARFLEET-OS.md) (**find ≠ build**). Notion Motion OS here = pitch planning notes only, not an OS to ship.
+
 Hard constraints Grok claims held: no warp, no dilithium, no fake suppliers; masses labelled Concept placeholders.
 
 ## Turn map

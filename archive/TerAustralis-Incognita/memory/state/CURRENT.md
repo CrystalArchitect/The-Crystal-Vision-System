@@ -69,6 +69,15 @@ concept, not built or funded); the FC-07 hardware named — BrainChip Akida,
 NVIDIA Jetson Orin — is real, existing product, checked only for
 existence, not for this deployment.**
 
+**Hub follow-up 2026-09-20 (CVS, PR #41):** Crystal stamp **No Starfleet OS** —
+CrystalCore.OS + Chaos + Portal + TAI already cover the runtime job;
+Kangaroo Division is pitch pack only. Same sitting: **Grok found**
+`StarfleetAustraliaOS.md` — find ≠ build. CVS extracts:
+[`../../../../14_AI_INTERACTIONS/2026-09-20-NO-STARFLEET-OS.md`](../../../../14_AI_INTERACTIONS/2026-09-20-NO-STARFLEET-OS.md),
+[`../../../../14_AI_INTERACTIONS/2026-09-20-GROK-FOUND-STARFLEET-OS.md`](../../../../14_AI_INTERACTIONS/2026-09-20-GROK-FOUND-STARFLEET-OS.md).
+Banner added on the Vision page itself. **Label: coordination / Vision
+boundary; still not Canon.**
+
 ## Now
 
 | Item | Label | Source |
