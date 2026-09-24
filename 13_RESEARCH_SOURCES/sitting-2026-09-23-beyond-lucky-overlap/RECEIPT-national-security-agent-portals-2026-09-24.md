@@ -42,13 +42,12 @@ www.teraustralis.com.au
 
 | Channel | Status |
 |---------|--------|
-| X (@XECrystal) public post | **needed** for “everyone” / algorithm surface |
-| SpaceXAI peer inform | **held** — separate desk; use [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md) |
+| X (@XECrystal) public post | **SENT** — https://x.com/XECrystal/status/2102999905262526741 · [`RECEIPT-national-security-x-2026-09-24.md`](RECEIPT-national-security-x-2026-09-24.md) |
+| SpaceXAI peer inform | **SENT** Safari Gmail → sales@x.ai (CC safety@x.ai) — [`RECEIPT-spacexai-inform-2026-09-24.md`](RECEIPT-spacexai-inform-2026-09-24.md) |
 | Cursor Gmail MCP | **blocked** — Google OAuth policy / mobile Safari redirect |
 
 ---
 
 ## After
 
-If X post goes up: paste link → file external public receipt.  
-Do not treat self-email alone as national distribution complete.
+Public X filed. Self-email was prelude only.

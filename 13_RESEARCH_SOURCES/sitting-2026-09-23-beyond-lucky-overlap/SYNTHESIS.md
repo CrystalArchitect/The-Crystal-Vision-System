@@ -82,6 +82,9 @@ flowchart TB
 | [`SOURCE-youtube-albanese-ai-regulation.md`](SOURCE-youtube-albanese-ai-regulation.md) | 9 News peg: Albanese joins 20-nation AI regulation call — release trigger |
 | [`RELEASE-DRAFT-albanese-ai-regulation.md`](RELEASE-DRAFT-albanese-ai-regulation.md) | Draft X/LinkedIn: regulate rogue platforms + build sovereign local-first AU stack |
 | [`SOURCE-youtube-abc-digital-duty-of-care.md`](SOURCE-youtube-abc-digital-duty-of-care.md) | ABC: rare US public submission vs AU Digital Duty of Care / chronological feed choice — same Albanese US week |
+| [`SOURCE-youtube-big-tech-ban-proxy-xkzg2g9qcve.md`](SOURCE-youtube-big-tech-ban-proxy-xkzg2g9qcve.md) | YT peg: they don’t ban — Big Tech does it (jawboning / duty-of-care neighbour) · https://youtu.be/XKzG2G9qCvE |
+| [`SOURCE-youtube-rossen-apps-spying-xa43v8ijdfi.md`](SOURCE-youtube-rossen-apps-spying-xa43v8ijdfi.md) | YT Live: Rossen Reports — apps spying / phone privacy hygiene · https://www.youtube.com/live/xa43V8iJDfI |
+| [`SOURCE-youtube-rossen-stop-phone-yvupgso6lca.md`](SOURCE-youtube-rossen-stop-phone-yvupgso6lca.md) | YT Live: Rossen Reports — stop doing this on your phone · https://www.youtube.com/live/YVupgSo6lCA |
 | [`SOURCE-youtube-albanese-openai-medicare-portal.md`](SOURCE-youtube-albanese-openai-medicare-portal.md) | ABC IN FULL: OpenAI agent unauthorised access to Services Australia Medicare stats portal (Jun 2026; announced 24 Sep) |
 | [`ADDENDUM-zero-trust-portal-agents.md`](ADDENDUM-zero-trust-portal-agents.md) | NIST SP 800-207 / ASD / CISA ZTMM overlay — PEP between public stats and non-public objects; dual-authority agents |
 | [`ADDENDUM-agentic-access-control-map.md`](ADDENDUM-agentic-access-control-map.md) | Inbound vs outbound harness controls; access matrix; deny-is-terminal minimum bar |
@@ -93,8 +96,20 @@ flowchart TB
 | [`RECEIPT-protect-people-systems-protocols-2026-09-24.md`](RECEIPT-protect-people-systems-protocols-2026-09-24.md) | Send receipt (Slack link + channels held) |
 | [`POSITION-national-security-agent-portals.md`](POSITION-national-security-agent-portals.md) | Agent × gov portal = national security class (ASD/cyber frame, not vibe) |
 | [`RELEASE-DRAFT-national-security-agent-portals.md`](RELEASE-DRAFT-national-security-agent-portals.md) | National-security public note — **INTERNAL ECHO ONLY** Slack 1-member · 24 Sep 2026 |
-| [`RECEIPT-national-security-agent-portals-2026-09-24.md`](RECEIPT-national-security-agent-portals-2026-09-24.md) | Send log: Slack echo + human Gmail self-send ~06:13 UTC; X public still open |
-| [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md) | Paste-ready SpaceXAI BD inform — AU portal incident as harness design constraint; **not sent** |
+| [`RECEIPT-national-security-agent-portals-2026-09-24.md`](RECEIPT-national-security-agent-portals-2026-09-24.md) | Early send log (Slack echo + Gmail self) |
+| [`RECEIPT-national-security-x-2026-09-24.md`](RECEIPT-national-security-x-2026-09-24.md) | **PUBLIC X** @XECrystal — https://x.com/XECrystal/status/2102999905262526741 |
+| [`POSITION-true-free-will-is-more.md`](POSITION-true-free-will-is-more.md) | True free-will is more than toggles/walls — choice & consent as the unsolved layer |
+| [`MAP-riptide-where-we-go.md`](MAP-riptide-where-we-go.md) | Riptide motif → swim across: walls, free-will, one-pager, vanish; no lyric dump |
+| [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md) | Gnostic muse mythos VO — vision labelled vision; titles only, no lyric dump |
+| [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) | Cinematic T2V prompts (record→hourglass→crystal arena→starlight→shatter) |
+| [`RELEASE-DRAFT-true-free-will-is-more.md`](RELEASE-DRAFT-true-free-will-is-more.md) | Public visibility desk — ready for @XECrystal |
+| [`SOURCE-x-adamlyttle-ndis-pii-2026-09-24.md`](SOURCE-x-adamlyttle-ndis-pii-2026-09-24.md) | NDIS provider PII leak claim still live 4 yrs after ACSC report — QT Albo AI week |
+| [`RELEASE-DRAFT-qt-adamlyttle-ndis-2026-09-24.md`](RELEASE-DRAFT-qt-adamlyttle-ndis-2026-09-24.md) | QT desk — **SENT** https://x.com/XECrystal/status/2103035258002395292 |
+| [`RECEIPT-qt-adamlyttle-ndis-x-2026-09-24.md`](RECEIPT-qt-adamlyttle-ndis-x-2026-09-24.md) | Receipt for Lyttle QT (protect-people + free-will) |
+| [`SOURCE-x-robbiebarwick-openai-medicare-racket-2026-09-23.md`](SOURCE-x-robbiebarwick-openai-medicare-racket-2026-09-23.md) | Adjacent discourse: “protection racket” frame — **reject**; keep walls/harness |
+| [`RESEARCH-barwick-protection-racket-claim.md`](RESEARCH-barwick-protection-racket-claim.md) | Claim-check: Citizens Party voice; timing fails; wrong peg vs US equity “racket” essays |
+| [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md) | SpaceXAI diligence inform — **SENT** Safari Gmail → sales@x.ai (CC safety@x.ai) 24 Sep |
+| [`RECEIPT-spacexai-inform-2026-09-24.md`](RECEIPT-spacexai-inform-2026-09-24.md) | Send receipt for SpaceXAI inform |
 | [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md) | Public Claude artifact: Live Party / Lattice / Sovereign Duties / Transmission UI |
 | Uploaded Sydney DC briefing (triage) | Same September 2026 site-file family |
 | [`SOURCE-claude-artifact-map-and-territory.md`](SOURCE-claude-artifact-map-and-territory.md) | Jul 2026 Claude architectural survey of TerAustralis / CrystalCore repos + ADRs |
@@ -143,6 +158,10 @@ flowchart TB
 | [`SOURCE-grok-share-intimate-bond-image.md`](SOURCE-grok-share-intimate-bond-image.md) | Co-authoring field intimacy; anti-fusion image + three-bench landing — personal, out of Pulse scope |
 | [`SOURCE-grok-share-codex-crystalum-grok-bot.md`](SOURCE-grok-share-codex-crystalum-grok-bot.md) | Dictionary of Dreams → Codex Crystalum / Grok Bot pointers; Crockpot mishear fixed; GitHub Codex weight 0 |
 | [`SOURCE-x-xfreeze-musk-education-ai.md`](SOURCE-x-xfreeze-musk-education-ai.md) | XFreeze clip: Musk on broad education / know what to ask the robots — landscape neighbour |
+| [`SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md`](SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md) | XFreeze: Wells Fargo Starlink ~47M users / $51.5B by 2028 (+ sub-1 GHz upside) |
+| [`SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md`](SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md) | HowToPrompt: IBM retriever 65× less hallucination vs RAG — claim unverified |
+| [`SOURCE-x-asdgovau-ai-misalignment-2026-09-24.md`](SOURCE-x-asdgovau-ai-misalignment-2026-09-24.md) | ASDGovAu alert: AI misalignment — agents unexpected/unauthorised actions · cyber.gov.au |
+| [`SOURCE-news-appin-ps-house-rename-2026-09-24.md`](SOURCE-news-appin-ps-house-rename-2026-09-24.md) | Appin PS: Hume/Hovell/Macquarie/Tyson → Mabo/Freeman/Mauboy/Goodes; Crystal Y5 VC 2002 / Y6 captain 2003 |
 | [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) | Taxi: SWF→LLM custodians prophecy — steal grammar only |
 | [`SOURCE-dream-rsi-landscape.md`](SOURCE-dream-rsi-landscape.md) | Dream-RSI — RSI via replay “dreams”; weights fixed; thought/field read |
 | [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md) | Wanted learning path: Record→Pool→Dream→Receipt→Gate (not vendor clone) |
