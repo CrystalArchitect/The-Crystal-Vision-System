@@ -49,6 +49,7 @@ export interface Realm {
   genres: string[];
   mood: string;
   bpmRange: { min: number; max: number };
+  region?: string;
 }
 
 export interface SearchResult {

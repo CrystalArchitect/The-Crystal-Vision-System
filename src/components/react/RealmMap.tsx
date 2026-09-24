@@ -28,6 +28,16 @@ export default function RealmMap({ realms, tracks }: RealmMapProps) {
     return regions;
   }, [realms, tracks]);
 
+  // Largest per-realm track count, used to normalize the distribution bars.
+  const maxRealmTrackCount = useMemo(() => {
+    let max = 1;
+    realms.forEach(realm => {
+      const count = tracks.filter(t => t.realm === realm.id).length;
+      if (count > max) max = count;
+    });
+    return max;
+  }, [realms, tracks]);
+
   const regionOrder = ["Oceania", "Asia", "Europe", "North America", "Global"];
 
   const sortedRegions = Array.from(realmsByRegion.entries())
@@ -105,10 +115,7 @@ export default function RealmMap({ realms, tracks }: RealmMapProps) {
                   <div className="bg-ink-700 rounded h-2 overflow-hidden">
                     <div
                       className="bg-gradient-to-r from-accent-500 to-accent-400 h-full"
-                      style={{width: `${(realmTracks.length / Math.max(...tracks.map(t => t.realm).filter(Boolean).reduce((acc, r) => {
-                        const count = tracks.filter(t => t.realm === r).length;
-                        return Math.max(acc, count);
-                      }, 1))) * 100}%`}}
+                      style={{width: `${(realmTracks.length / maxRealmTrackCount) * 100}%`}}
                     />
                   </div>
                 </div>

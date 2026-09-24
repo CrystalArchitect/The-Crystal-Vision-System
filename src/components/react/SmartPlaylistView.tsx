@@ -116,9 +116,10 @@ function evaluateRule(track: Track, rule: PlaylistRule, meta: any): boolean {
       } catch {
         return false;
       }
-    case "in":
+    case "in": {
       const values = Array.isArray(rule.value) ? rule.value : String(rule.value).split(",");
       return values.includes(value);
+    }
     default:
       return false;
   }

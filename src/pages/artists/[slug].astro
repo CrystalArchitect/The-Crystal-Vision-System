@@ -4,26 +4,25 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import type { Track } from "../../types";
 
-let tracks: Track[] = [];
-let allArtists: string[] = [];
+// getStaticPaths runs in its own build-time scope, so load the data here and
+// pass each artist's tracks through props rather than relying on module-level
+// state populated elsewhere in the frontmatter.
+export async function getStaticPaths() {
+  let tracks: Track[] = [];
+  try {
+    tracks = await import("../../data/tracks.json").then((m) => m.default);
+  } catch {
+    console.warn("Could not load tracks.json");
+  }
 
-try {
-  tracks = await import("../../data/tracks.json").then((m) => m.default);
-  const artistSet = new Set(tracks.map((t) => t.artist));
-  allArtists = Array.from(artistSet);
-} catch {
-  console.warn("Could not load tracks.json");
-}
-
-export function getStaticPaths() {
+  const allArtists = Array.from(new Set(tracks.map((t) => t.artist)));
   return allArtists.map((artist) => ({
     params: { slug: artist.toLowerCase().replace(/\s+/g, "-").replace(/[^\w-]/g, "") },
-    props: { artist },
+    props: { artist, artistTracks: tracks.filter((t) => t.artist === artist) },
   }));
 }
 
-const { artist } = Astro.props;
-const artistTracks = tracks.filter((t) => t.artist === artist);
+const { artist, artistTracks } = Astro.props as { artist: string; artistTracks: Track[] };
 ---
 
 <BaseLayout>
