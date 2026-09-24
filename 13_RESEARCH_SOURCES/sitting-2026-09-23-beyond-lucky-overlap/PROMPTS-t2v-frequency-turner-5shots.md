@@ -62,7 +62,7 @@ Medium tracking shot, cinematic slow motion. A mystical female belly dancer ador
 
 ## 4. The Turner (2:30–2:55) — Starlight Woman
 
-**VO lock:** Command beat (SCRIPT §5c) then Accelerate (§5d) — Trainor / *Fly* · Chipmunks *Single Ladies* (high-pitch metaphor · Saturn rings). **Titles / attitude only — no lyric dump.**
+**VO lock:** Command (§5c) → *Bette Davis Eyes* gaze (§5c2) → Accelerate (§5d) — Trainor / *Fly* · Chipmunks *Single Ladies* (high-pitch metaphor · Saturn rings). **Titles / attitude only — no lyric dump.**
 
 **CapCut beds (licensed):** optional Trainor under early 4; optional *Fly* swell; optional Chipmunks *Single Ladies* (pitch-up colour) under late 4 → Heart. Artist cut for *Fly* TBD (Sugar Ray / Nicki+Rihanna / other cleared).
 

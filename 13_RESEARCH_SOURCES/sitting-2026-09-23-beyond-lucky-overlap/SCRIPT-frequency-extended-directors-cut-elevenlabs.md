@@ -1,7 +1,7 @@
 # SCRIPT — Frequency / Barbelo / Turner · EXTENDED Director’s Cut (optional long booth)
 
 **Filed:** 24 Sep 2026  
-**Status:** **ULTIMATE Director’s Cut COMPILED & LOCKED** · Extended take · primary booth = Core Four · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
+**Status:** **FINAL UNBROKEN MASTER WEAVED & LOCKED** · Extended take · primary booth = Core Four · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
 **Primary booth (Core Four):** [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)  
 **Maps to:** [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) · beat bible [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md)  
 **Law:** Different Shores taxi · Human publishes · No destiny proof  
@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~2530** (*Green Green Grass* jailbreak — **COMPILED & LOCKED**) |
-| Live Lounge gravity (~130–140 wpm) | **~18:04–19:27** |
-| Slightly brighter (~150 wpm) | **~16:52** |
+| Word count | **~2717** (*Bette Davis Eyes* — **FINAL UNBROKEN MASTER**) |
+| Live Lounge gravity (~130–140 wpm) | **~19:24–20:54** |
+| Slightly brighter (~150 wpm) | **~18:06** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Final Extended master compiled. CapCut bed **~18:04–19:27**. Arc: … *Geronimo* → *Green Green Grass* (party / jailbreak) → Gnosis. Primary = Core Four. **No more tracks. Booth next.**
+**Verdict:** Unbroken Extended master weaved end-to-end. CapCut bed **~19:24–20:54**. Primary booth = Core Four. **No last artist. Booth next.**
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -75,6 +75,12 @@ She willingly descended into the Arena — the physical world of dirt, survival,
 Even the way she moves is a celestial disruption. Think of the hypnotic rhythm of a belly dancer. To the sleeping world, it is just motion. But to the awakened, it is frequency manipulating matter. The false god built the human body to be heavy, a grounded prison. But the Turner uses that very flesh to create a trance, commanding the room and bending the physical laws of the arena with every vibration. She doesn't fight the matrix. She dances right through it.
 
 She doesn't just survive the arena; she commands it. You feel this exact unapologetic frequency in the music of artists like Meghan Trainor — anthems of unshakeable self-worth, of seeing straight through the deception, and making the whole room look. It is the realization that you were never meant to be trapped in the dirt. You were meant to fly above it.
+
+The eyes are the one part of the physical vessel that the false god could never fully blind. This is the ancient, piercing truth hidden inside the legendary synth-pop track "Bette Davis Eyes."
+
+To the sleeping world, it is simply a song about a dangerously captivating woman with an old-school Hollywood mystique. But to the awakened, it is a direct warning to the Ar-konz about the Turner's uncompromising vision. The Dem-ee-urj built this earthly arena using illusions, smoke, and heavy shadows, assuming humanity would just blindly accept the simulation. But the Divine Feminine possesses a gaze that cuts straight through the deception.
+
+When the lyrics warn that she will expose you, and that she knows exactly what it takes to dismantle the pride of the physical world, they are describing the exact moment the Turner locks eyes with the architects of the matrix. She doesn't just look at the earthly realm; she looks right through it. Her gaze holds the ancient, unapologetic knowing of Bar-bell-oh, stripping away the false reality and leaving the rulers of the lower realm completely exposed to the pure light of the Pluh-roh-muh.
 
 But the Turner doesn't just command the arena; she accelerates its vibration.
 
@@ -174,9 +180,9 @@ Listen closely to the songs playing in the background of your life. The message 
 
 ## Booth notes
 
-- Pause after: “They sent a prism.” · “you yell Geronimo.” · “the last door swinging open.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
-- *Geronimo*: explosive leap. *Green Green Grass*: bright celebration — then *Torn* weight.  
+- Pause after: “They sent a prism.” · “Bette Davis Eyes.” · “you yell Geronimo.” · “the last door swinging open.” · “The moment of Gnosis.” · “They are singing about Crystal Elle.”  
+- *Bette Davis Eyes*: cold knowing gaze under Shot 4. Then Chipmunks brighten → … → *Torn*.  
 - Do not throat-clone. Captions = titles only.  
-- CapCut bed **~18:04–19:27**.  
+- CapCut bed **~19:24–20:54**.  
 - **Master map:** [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md)  
-- **FINAL COMPILE LOCK:** Extended complete. Core Four = first ElevenLabs take. No more tracks.
+- **FINAL UNBROKEN LOCK:** Extended VO is the complete weave. Core Four = first ElevenLabs take. No more artists.
