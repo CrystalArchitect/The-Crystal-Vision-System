@@ -82,6 +82,19 @@ flowchart TB
 | [`SOURCE-youtube-albanese-ai-regulation.md`](SOURCE-youtube-albanese-ai-regulation.md) | 9 News peg: Albanese joins 20-nation AI regulation call — release trigger |
 | [`RELEASE-DRAFT-albanese-ai-regulation.md`](RELEASE-DRAFT-albanese-ai-regulation.md) | Draft X/LinkedIn: regulate rogue platforms + build sovereign local-first AU stack |
 | [`SOURCE-youtube-abc-digital-duty-of-care.md`](SOURCE-youtube-abc-digital-duty-of-care.md) | ABC: rare US public submission vs AU Digital Duty of Care / chronological feed choice — same Albanese US week |
+| [`SOURCE-youtube-albanese-openai-medicare-portal.md`](SOURCE-youtube-albanese-openai-medicare-portal.md) | ABC IN FULL: OpenAI agent unauthorised access to Services Australia Medicare stats portal (Jun 2026; announced 24 Sep) |
+| [`ADDENDUM-zero-trust-portal-agents.md`](ADDENDUM-zero-trust-portal-agents.md) | NIST SP 800-207 / ASD / CISA ZTMM overlay — PEP between public stats and non-public objects; dual-authority agents |
+| [`ADDENDUM-agentic-access-control-map.md`](ADDENDUM-agentic-access-control-map.md) | Inbound vs outbound harness controls; access matrix; deny-is-terminal minimum bar |
+| [`ADDENDUM-portal-zone-segmentation.md`](ADDENDUM-portal-zone-segmentation.md) | Z0–Z3 hard walls for public stats portals; publish-out copies; agent-aware edge; lab harness half |
+| [`ADDENDUM-agent-bypass-failure-modes.md`](ADDENDUM-agent-bypass-failure-modes.md) | What “bypass” meant: goal-seeking loop + weak boundaries; five failure classes; **no attack playbook** |
+| [`NOTE-research-project-caused-this.md`](NOTE-research-project-caused-this.md) | Sitting law: **a research project caused this** — harness class, not nation-state / patient-record drama |
+| [`POSITION-systems-protocols-protect-people.md`](POSITION-systems-protocols-protect-people.md) | Worldwide protection = systems + protocols (ZT, Z0≠Z2, harness, notify) — not slogans |
+| [`RELEASE-DRAFT-protect-people-systems-protocols.md`](RELEASE-DRAFT-protect-people-systems-protocols.md) | Protect-people public note — **INTERNAL ECHO ONLY** Slack 1-member · 24 Sep 2026 |
+| [`RECEIPT-protect-people-systems-protocols-2026-09-24.md`](RECEIPT-protect-people-systems-protocols-2026-09-24.md) | Send receipt (Slack link + channels held) |
+| [`POSITION-national-security-agent-portals.md`](POSITION-national-security-agent-portals.md) | Agent × gov portal = national security class (ASD/cyber frame, not vibe) |
+| [`RELEASE-DRAFT-national-security-agent-portals.md`](RELEASE-DRAFT-national-security-agent-portals.md) | National-security public note — **INTERNAL ECHO ONLY** Slack 1-member · 24 Sep 2026 |
+| [`RECEIPT-national-security-agent-portals-2026-09-24.md`](RECEIPT-national-security-agent-portals-2026-09-24.md) | Send log: Slack echo + human Gmail self-send ~06:13 UTC; X public still open |
+| [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md) | Paste-ready SpaceXAI BD inform — AU portal incident as harness design constraint; **not sent** |
 | [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md) | Public Claude artifact: Live Party / Lattice / Sovereign Duties / Transmission UI |
 | Uploaded Sydney DC briefing (triage) | Same September 2026 site-file family |
 | [`SOURCE-claude-artifact-map-and-territory.md`](SOURCE-claude-artifact-map-and-territory.md) | Jul 2026 Claude architectural survey of TerAustralis / CrystalCore repos + ADRs |
@@ -162,11 +175,14 @@ flowchart TB
 | May 2026 | Phase-1 geography briefs; **SpaceNews Opinion 22 May**; ISS Tracker republish + SpaceDaily adjacent rewrite **23 May** |
 | **21–24 Jul 2026** | Claude **share** TerAustralis site design (CrystalCore palette / Incognita Rule) + map-and-territory survey + **“Boot CrystalCore.OS @m13crystalat”** invoke share |
 | **Aug 2026** | Claude artifact Document 13 *What Is Built* — surveyed CrystalCore / site / OTS / ABN ledger (public) |
+| **18 Jun 2026** | OpenAI research agent activity on Services Australia Medicare stats portal (later announced) |
 | Jun–Aug 2026 | Full Stack densifies; Catch / Multi-node; **Sydney Station invitation 13 Aug** |
 | 3–4 Sep 2026 | *After the radar* — “Exmouth eyes / Aerotropolis hands” |
+| **~10 Sep 2026** | OpenAI notifies AU government of portal incident (Albanese: delay unacceptable) |
 | Sep 2026 | Grok Sydney Hall / CrystalCore.OS site pack live |
 | 21 Sep 2026 | Richardson *Beyond Lucky* |
 | 23 Sep 2026 | This sitting (brief + addenda + surface notes) |
+| **24 Sep 2026** | Albanese announces OpenAI/Medicare portal incident (UNGA NY); Zero Trust + agentic access maps filed |
 
 ---
 
