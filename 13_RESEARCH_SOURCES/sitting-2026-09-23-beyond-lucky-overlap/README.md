@@ -51,6 +51,13 @@
 - Grok share Codex Crystalum ↔ Grok Bot filing (ops): [`SOURCE-grok-share-codex-crystalum-grok-bot.md`](SOURCE-grok-share-codex-crystalum-grok-bot.md)  
 - 9 News Albanese AI regulation peg + release draft: [`SOURCE-youtube-albanese-ai-regulation.md`](SOURCE-youtube-albanese-ai-regulation.md) · [`RELEASE-DRAFT-albanese-ai-regulation.md`](RELEASE-DRAFT-albanese-ai-regulation.md)  
 - ABC News Trump admin vs AU Digital Duty of Care (feed choice): [`SOURCE-youtube-abc-digital-duty-of-care.md`](SOURCE-youtube-abc-digital-duty-of-care.md)  
+- YouTube peg — Big Tech does the ban (jawboning / proxy censorship): [`SOURCE-youtube-big-tech-ban-proxy-xkzg2g9qcve.md`](SOURCE-youtube-big-tech-ban-proxy-xkzg2g9qcve.md) · https://youtu.be/XKzG2G9qCvE  
+- YouTube Live — Rossen Reports apps spying / phone privacy hygiene: [`SOURCE-youtube-rossen-apps-spying-xa43v8ijdfi.md`](SOURCE-youtube-rossen-apps-spying-xa43v8ijdfi.md) · https://www.youtube.com/live/xa43V8iJDfI  
+- YouTube Live — Rossen Reports stop-doing-this-on-phone hygiene: [`SOURCE-youtube-rossen-stop-phone-yvupgso6lca.md`](SOURCE-youtube-rossen-stop-phone-yvupgso6lca.md) · https://www.youtube.com/live/YVupgSo6lCA  
+- X — XFreeze / Wells Fargo Starlink ~47M users by 2028 forecast: [`SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md`](SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md) · https://x.com/XFreeze/status/2103149628011217228  
+- X — HowToPrompt / IBM retriever vs RAG (65× claim — unverified): [`SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md`](SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md) · https://x.com/HowToPrompt__/status/2103153354755248489  
+- X — ASDGovAu AI misalignment alert (agent unexpected/unauthorised actions): [`SOURCE-x-asdgovau-ai-misalignment-2026-09-24.md`](SOURCE-x-asdgovau-ai-misalignment-2026-09-24.md) · https://x.com/ASDGovAu/status/2102937481377354047  
+- news.com.au — Appin PS house rename + Class of 2003 leadership alumni: [`SOURCE-news-appin-ps-house-rename-2026-09-24.md`](SOURCE-news-appin-ps-house-rename-2026-09-24.md)  
 - ABC IN FULL — Albanese announces OpenAI agent / Medicare stats portal (Jun 2026 → 24 Sep announce): [`SOURCE-youtube-albanese-openai-medicare-portal.md`](SOURCE-youtube-albanese-openai-medicare-portal.md)  
 - Zero Trust overlay (NIST / ASD / CISA → portal + agents): [`ADDENDUM-zero-trust-portal-agents.md`](ADDENDUM-zero-trust-portal-agents.md)  
 - Agentic access control map (inbound + outbound harness): [`ADDENDUM-agentic-access-control-map.md`](ADDENDUM-agentic-access-control-map.md)  
@@ -58,8 +65,14 @@
 - Agent “bypass” = goal-loop vs weak boundaries (architecture only, no playbook): [`ADDENDUM-agent-bypass-failure-modes.md`](ADDENDUM-agent-bypass-failure-modes.md)  
 - **Causal frame:** a research project caused this: [`NOTE-research-project-caused-this.md`](NOTE-research-project-caused-this.md)  
 - **Position:** systems + protocols to protect people worldwide: [`POSITION-systems-protocols-protect-people.md`](POSITION-systems-protocols-protect-people.md) · [`RELEASE-DRAFT-protect-people-systems-protocols.md`](RELEASE-DRAFT-protect-people-systems-protocols.md) (**internal echo only** — Slack 1-member · 24 Sep) · [`RECEIPT-protect-people-systems-protocols-2026-09-24.md`](RECEIPT-protect-people-systems-protocols-2026-09-24.md)  
-- **National security escalate:** agent × government portal is cyber/national-security class — [`POSITION-national-security-agent-portals.md`](POSITION-national-security-agent-portals.md) · [`RELEASE-DRAFT-national-security-agent-portals.md`](RELEASE-DRAFT-national-security-agent-portals.md) (**internal echo only** — Slack 1-member · 24 Sep) · [`RECEIPT-national-security-agent-portals-2026-09-24.md`](RECEIPT-national-security-agent-portals-2026-09-24.md)  
-- **SpaceXAI inform draft** (one-desk BD note — not sent): [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md)  
+- **National security escalate:** agent × government portal is cyber/national-security class — [`POSITION-national-security-agent-portals.md`](POSITION-national-security-agent-portals.md) · [`RELEASE-DRAFT-national-security-agent-portals.md`](RELEASE-DRAFT-national-security-agent-portals.md) (**internal echo only** — Slack 1-member · 24 Sep) · [`RECEIPT-national-security-agent-portals-2026-09-24.md`](RECEIPT-national-security-agent-portals-2026-09-24.md) · **public X:** [`RECEIPT-national-security-x-2026-09-24.md`](RECEIPT-national-security-x-2026-09-24.md)  
+- **SpaceXAI inform** (**sent** Safari Gmail → sales@x.ai / CC safety@x.ai 24 Sep): [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md) · [`RECEIPT-spacexai-inform-2026-09-24.md`](RECEIPT-spacexai-inform-2026-09-24.md)  
+- **True free-will is more:** walls protect the room; free-will is the person in it — [`POSITION-true-free-will-is-more.md`](POSITION-true-free-will-is-more.md) · [`RELEASE-DRAFT-true-free-will-is-more.md`](RELEASE-DRAFT-true-free-will-is-more.md) (**desk open — visibility**)
+- **Riptide chart** (where we go next — across the pull): [`MAP-riptide-where-we-go.md`](MAP-riptide-where-we-go.md)
+- **Frequency MASTER journey (LOCKED):** [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md) · Core Four + Extended CapCut master (**CONDUCTOR PEAK** · *Sailor Moon* · *Riptide* mapped) — **FIRE ELEVENLABS**
+- Frequency / Barbelo / Turner · **Core Four LOCKED** for ElevenLabs (~6–7 min: *Crystal* · *Dreams* · *Castle on the Hill* · *Torn*) + Extended optional: [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) · [`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md) · [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md)
+- NDIS PII still leaking 4 years after ACSC report (@adamlyttleapps QT Albo): [`SOURCE-x-adamlyttle-ndis-pii-2026-09-24.md`](SOURCE-x-adamlyttle-ndis-pii-2026-09-24.md) · optional QT: [`RELEASE-DRAFT-qt-adamlyttle-ndis-2026-09-24.md`](RELEASE-DRAFT-qt-adamlyttle-ndis-2026-09-24.md) (**sent**) · [`RECEIPT-qt-adamlyttle-ndis-x-2026-09-24.md`](RECEIPT-qt-adamlyttle-ndis-x-2026-09-24.md)
+- Ambient counter-narrative (OpenAI–Medicare as “racket” — **do not adopt**): [`SOURCE-x-robbiebarwick-openai-medicare-racket-2026-09-23.md`](SOURCE-x-robbiebarwick-openai-medicare-racket-2026-09-23.md) · research: [`RESEARCH-barwick-protection-racket-claim.md`](RESEARCH-barwick-protection-racket-claim.md)
 - Grok share CrystalCore.OS source/release audit + freeze pack trail (11 Sep frame): [`SOURCE-grok-share-crystalcore-os-audit.md`](SOURCE-grok-share-crystalcore-os-audit.md)  
 - Grok share Boot CrystalCore.OS (playable deck 0.9.11; preview expired): [`SOURCE-grok-share-boot-crystalcore-os.md`](SOURCE-grok-share-boot-crystalcore-os.md)  
 - Claude artifact CrystalCore.OS Live Party shell (public): [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md)  
@@ -107,6 +120,10 @@
 - LinkedIn lunar regolith / ISRU (Al-Aseeri): [`SOURCE-linkedin-lunar-regolith-al-aseeri.md`](SOURCE-linkedin-lunar-regolith-al-aseeri.md)  
 - X / XFreeze Musk US–China trade “conjoined twins”: [`SOURCE-x-xfreeze-musk-trade-twins.md`](SOURCE-x-xfreeze-musk-trade-twins.md)
 - X / XFreeze Musk broad education in age of AI: [`SOURCE-x-xfreeze-musk-education-ai.md`](SOURCE-x-xfreeze-musk-education-ai.md)
+- X / XFreeze Wells Fargo Starlink ~47M users / $50B+ by 2028: [`SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md`](SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md)
+- X / HowToPrompt IBM retriever vs RAG hallucinations (claim unverified): [`SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md`](SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md) · https://x.com/HowToPrompt__/status/2103153354755248489
+- X / ASDGovAu AI misalignment alert (agents unexpected/unauthorised actions): [`SOURCE-x-asdgovau-ai-misalignment-2026-09-24.md`](SOURCE-x-asdgovau-ai-misalignment-2026-09-24.md) · https://x.com/ASDGovAu/status/2102937481377354047 · [cyber.gov.au alert](https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories/risks-of-ai-misalignment-to-australian-organisations)
+- news.com.au — Appin PS house rename + Crystal Class of 2003 house captain / Hume·Hovell·Macquarie·Tyson alumni: [`SOURCE-news-appin-ps-house-rename-2026-09-24.md`](SOURCE-news-appin-ps-house-rename-2026-09-24.md)
 - X / AIHegemonyMemes SWF→LLM prophecy + GHI remake draft: [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) · [`DRAFT-ghi-from-aihegemony-grammar.md`](DRAFT-ghi-from-aihegemony-grammar.md)
 - Dream-RSI (Google/DeepMind — dream = replay history, not sleep): [`SOURCE-dream-rsi-landscape.md`](SOURCE-dream-rsi-landscape.md)  
 - **Dream Learning capability draft** (wanted learning path): [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md)  
@@ -139,3 +156,5 @@
 
 - Agents availability (Silent Line / Ember / Lemuria PR #42): [`SOURCE-cursor-agent-agents-availability.md`](SOURCE-cursor-agent-agents-availability.md)  
 - Task definition clarification (stack / TAI / Kangaroo Division / PR #17+): [`SOURCE-cursor-agent-task-definition.md`](SOURCE-cursor-agent-task-definition.md)
+
+- Private ledger note (Crystal attribution — **not public desk**): [`NOTE-crystal-attribution-hack-named-2026-09-24.md`](NOTE-crystal-attribution-hack-named-2026-09-24.md)

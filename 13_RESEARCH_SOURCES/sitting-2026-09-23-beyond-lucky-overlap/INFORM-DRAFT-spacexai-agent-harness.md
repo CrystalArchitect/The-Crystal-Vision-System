@@ -1,7 +1,8 @@
 # INFORM DRAFT — SpaceXAI BD: agent harness / AU portal incident
 
-**Status:** **human send now** · 24 Sep 2026 · paste below via Safari Gmail  
-**Audience:** SpaceX / **SpaceXAI** — `sales@x.ai` (+ CC `safety@x.ai` if room)  
+**Status:** **SENT** · 24 Sep 2026 · human Safari Gmail  
+**Receipt:** [`RECEIPT-spacexai-inform-2026-09-24.md`](RECEIPT-spacexai-inform-2026-09-24.md)  
+**Audience:** SpaceX / **SpaceXAI** — `sales@x.ai` (+ CC `safety@x.ai`)  
 **From face:** Crystal Elle Arena-Turner · Chief Engineer · TerAustralis · Sydney  
 **Contact (existing Kangaroo ask):** teraustralis.incognita@gmail.com · +61 450 144 997 · www.teraustralis.com.au · ABN 70 741 068 059  
 **Tide rule:** one desk, one send. Do not also flood public X with this text in the same hour.  
@@ -75,9 +76,9 @@ File receipt (time, channel, who) in this sitting as `RECEIPT-spacexai-inform-YY
 
 | Field | Value |
 | --- | --- |
-| Sent? | **Awaiting Crystal Safari Gmail confirm** |
-| Channel | Gmail → `sales@x.ai` (CC `safety@x.ai`) |
-| When | |
-| Who received | |
+| Sent? | **Yes** |
+| Channel | Safari Gmail → `sales@x.ai` (CC `safety@x.ai`) |
+| When | 24 Sep 2026 · confirmed ~06:56 UTC |
+| Who received | SpaceXAI sales (+ safety CC) |
 
-After you hit Send: reply here with time + To/CC → file `RECEIPT-spacexai-inform-2026-09-24.md`.
+Receipt: [`RECEIPT-spacexai-inform-2026-09-24.md`](RECEIPT-spacexai-inform-2026-09-24.md).
