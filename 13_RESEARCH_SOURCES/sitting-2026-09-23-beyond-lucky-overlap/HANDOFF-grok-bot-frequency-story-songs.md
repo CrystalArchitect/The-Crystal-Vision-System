@@ -94,6 +94,7 @@ Order roughly follows MASTER journey (some CapCut beds may reorder for music edi
 | **A Whole New World** | Disney (*Aladdin*) | Firmament breach · zero gravity · above Hebdomad |
 | **Conductor / unified chord** | (concept beat — all songs) | Every song = shattered Pleroma · acoustic grid sync · **PEAK** |
 | **Roots** (*No Roots*) | Alice Merton | Dig/hide Gnosis · home never on the ground · night road |
+| **Jerusalema** | Master KG ft. Nomcebo | Pleroma home city · global dance sync · shepherd / guard the walk |
 | **Sweet Dreams** | Eurythmics | Archon broadcast · harvest · Turner = alarm clock |
 | **Stand by Me** | Ben E. King | Anchor · stand next to the true light |
 | **Bang Bang** | Nancy Sinatra / Kill Bill energy | Assassin of illusions |
