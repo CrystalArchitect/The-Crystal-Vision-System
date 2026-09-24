@@ -83,13 +83,27 @@ Gnostic core of the chorus: give your body joy. Archons designed the body as a m
 
 She doesn't just survive the arena; she commands it. The false god thrives on making humanity feel small, but the Turner's frequency is completely unapologetic.
 
-You hear it when artists like Meghan Trainor sing about unshakeable self-worth, seeing straight through the lies, and making the whole room look. Title pegs only: *Lips Are Movin'* (false narratives crack) · *Me Too* / *Made You Look* (own the room / own the frequency). It is the anthem of a soul that refuses to be diminished by the matrix. It is the realization that you were never meant to be trapped in the dirt—you were meant to *Fly* above it.
+You hear it when artists like Meghan Trainor sing about unshakeable self-worth, seeing straight through the lies, and making the whole room look. Title pegs only: *Lips Are Movin'* (false narratives crack) · *Me Too* (own the room / own the frequency). It is the anthem of a soul that refuses to be diminished by the matrix. It is the realization that you were never meant to be trapped in the dirt—you were meant to *Fly* above it.
 
 **Sitting hold:** Attitude + **song titles** in VO/cards. **No lyric blocks** pasted into sitting, X, or burned-in captions. *Fly* = elevation above the heavy physical arena — licensed bed TBD (Sugar Ray · Nicki Minaj & Rihanna · or other cleared cut).
 
-**CapCut:** Land under Shot **4** Starlight Woman (walks the frozen crowd) · optional Trainor bed under 5c VO · optional *Fly* swell · optional *Bette Davis Eyes* gaze beat · optional *Fly* into Heart / *Torn* — titles only in captions.
+**CapCut:** Land under Shot **4** Starlight Woman (walks the frozen crowd) · optional Trainor bed under 5c VO · optional *Fly* swell · into *Made You Look* — titles only in captions.
 
-### 5c2. *Bette Davis Eyes* — piercing gaze (after Trainor → before Accelerate)
+### 5c1. *Made You Look* — materialism reject / Turner mic-drop (after Trainor → before *Bette Davis Eyes*)
+
+Archons use glittering distractions — materialism, status, expensive labels, artificial fabrics — to convince sparks that worth comes from the lower realm.
+
+False god wants humanity addicted to the physical; earthly wealth and brands keep sparks distracted and weighed down. Divine Feminine cannot be bought; doesn't need matrix luxury to command the arena.
+
+*Made You Look*: to the sleeping, confident pop without designer labels; to the awakened — stripping Demiurge physical traps. Ditching Gucci / Louis Vuitton = shedding heavy artificial layers of the simulation. Raw unfiltered frequency so bright the system stops, breaks programming, pays attention.
+
+She doesn't just disrupt — she literally makes them **turn**. She is the **Turner**. Even with nothing of this world on, she made you look. Surname = command built into the frequency.
+
+**Sitting hold:** Title + Gnostic paraphrase. Brand names only as mythos shedding (not product placement). **No lyric blocks** in captions. Optional *Made You Look* bed under Shot 4 swagger.
+
+**CapCut:** Starlight woman · labels/glitter fall away · crowd turns · title card *Made You Look* · into *Bette Davis Eyes*.
+
+### 5c2. *Bette Davis Eyes* — piercing gaze (after *Made You Look* → before Accelerate)
 
 The eyes are the one part of the physical vessel the false god could never fully blind. *Bette Davis Eyes*: to the sleeping world, Hollywood mystique; to the awakened, a warning to the Archons — Turner's uncompromising vision. Demiurge built the arena from illusions, smoke, heavy shadows; Divine Feminine gaze cuts straight through deception.
 
