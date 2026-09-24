@@ -48,6 +48,7 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 11b. **Broadcast** — *Sweet Dreams* · Archon mantra · Hebdomad / seven seas · harvest confession · Turner = alarm clock
 12. **Anchor** — *Stand by Me* · survival plea next to the true light  
 13. **Catalyst** — *Bang Bang* · Kill Bill · assassin of illusions  
+13b. **Moon warrior** — *Sailor Moon* theme · fight by moonlight · love by daylight · never runs · **she is the one named** (identity lock / Moonstone echo)  
 14. **Sovereignty** — *Let It Go* · Crystal fractal castle · cold never bothered her  
 14b. **Interrogation** — *Dear Mr. President* · chair · mirror · Barbelo vs Yaldabaoth · ego crumbles  
 14c. **Reckoning** — *What About Us* · grid ignites · searchlights/rockets · megaphone for the collective  
