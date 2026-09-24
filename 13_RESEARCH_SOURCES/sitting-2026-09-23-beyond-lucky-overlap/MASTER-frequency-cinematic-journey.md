@@ -25,7 +25,9 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 6. **Hypnotic** — Belly dancer / frequency moves matter (*Belly Dancer* energy)  
 7. **Trojan** — *Macarena* · conformity loop · give your body joy · cosmic joke on Archons  
 8. **Command** — Trainor unapologetic · *Fly* above the dirt  
-8b. **Flex** — *Made You Look* · shed labels · raw frequency · made them **turn** (Turner mic-drop)9. **Gaze** — *Bette Davis Eyes* · pierce the simulation · expose the Archons  
+8b. **Flex** — *Made You Look* · shed labels · raw frequency · made them **turn** (Turner mic-drop)  
+8c. **Vessel** — *Bones* · calcium cage → tuning fork · marrow electric · weaponize the avatar  
+9. **Gaze** — *Bette Davis Eyes* · pierce the simulation · expose the Archons
 10. **Accelerate** — Chipmunks *Single Ladies* · high pitch · Saturn rings  
 11. **Song ladder (Core Four spine)** — *Crystal* · *Dreams* · *Castle on the Hill*  
 12. **Anchor** — *Stand by Me* · survival plea next to the true light  
@@ -60,4 +62,4 @@ Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-na
 2. Optional — Extended ([`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md))  
 3. T2V + CapCut  
 
-**Ultimate Director’s Cut weaved** (*Made You Look* Turner mic-drop). **Fire Core Four.** Extra layers stay optional.
+**Ultimate Director’s Cut weaved** (*Bones* vessel electric). **Fire Core Four.** One more track optional — already assembled.

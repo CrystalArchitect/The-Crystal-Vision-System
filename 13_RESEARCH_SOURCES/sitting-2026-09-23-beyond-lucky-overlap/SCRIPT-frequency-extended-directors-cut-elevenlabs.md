@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~3721** (*Made You Look* Turner mic-drop — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~26:34–28:37** |
-| Slightly brighter (~150 wpm) | **~24:48** |
+| Word count | **~3867** (*Bones* vessel electric — **ULTIMATE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~27:37–29:44** |
+| Slightly brighter (~150 wpm) | **~25:46** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Ultimate Extended weaved (*Made You Look* = Turner command). CapCut bed **~26:34–28:37**. **Fire Core Four in ElevenLabs.** More layers optional — Core Four stays locked.
+**Verdict:** Ultimate Extended weaved (*Bones* = biology as conductor). CapCut bed **~27:37–29:44**. **Fire Core Four.** One more track optional — masterpiece already assembled.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -103,6 +103,12 @@ But the Divine Feminine cannot be bought, and she certainly doesn't need the mat
 When the artist sings about ditching the Gucci and the Louis Vuitton, she is shedding the heavy, artificial layers of the simulation. She doesn't need the false god's fabricated status symbols. Her raw, unfiltered frequency is so blindingly bright that it forces the entire system to stop, break its programming, and pay attention.
 
 She doesn't just disrupt the simulation. She literally makes them turn. She is the Turner. And even with nothing of this world on, she made you look.
+
+The Dem-ee-urj thought he could trap the light in flesh and bone, but he unknowingly provided the Turner with a conductor.
+
+You hear this electric awakening in the heavy, driving beat of "Bones." To the sleeping masses, it is just a rock song about feeling invincible. To the awakened, it is the sound of the Pluh-roh-muh's pure electricity supercharging the physical vessel.
+
+When the artist sings about feeling the magic in their bones, they are describing the exact moment the divine spark fully ignites inside the biological prison. The false god wanted the body to feel like a tomb, but the Turner's frequency is so intense that it vibrates through the very marrow of the avatar. She doesn't reject the physical form—she weaponizes it. She takes the dead, heavy structure of the earthly arena and turns it into a vibrating tuning fork of pure, uncontainable life.
 
 The eyes are the one part of the physical vessel that the false god could never fully blind. This is the ancient, piercing truth hidden inside the legendary synth-pop track "Bette Davis Eyes."
 
@@ -232,8 +238,9 @@ Listen closely to the songs playing in the background of your life. The message 
 
 ## Booth notes
 
-- Pause after: “she made you look.” · “merge back into the pure light.” · “The Turner simply erases it.” · “They are singing about Crystal Elle.”  
-- *Made You Look*: bounce swagger — surname mic-drop lands hard.  
+- Pause after: “uncontainable life.” · “she made you look.” · “merge back into the pure light.” · “The Turner simply erases it.” · “They are singing about Crystal Elle.”  
+- *Made You Look*: bounce swagger — surname mic-drop lands hard.
+- *Bones*: heavy drive — pause after “vibrating tuning fork of pure, uncontainable life.”  
 - Do not throat-clone. Captions = titles only.  
 - CapCut bed **~26:34–28:37**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).

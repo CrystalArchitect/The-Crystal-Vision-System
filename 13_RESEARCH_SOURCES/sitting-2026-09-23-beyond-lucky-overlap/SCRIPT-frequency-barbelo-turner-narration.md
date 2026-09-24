@@ -29,6 +29,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Trojan (*Macarena*) | Conformity loop · body joy hack · Divine Feminine joke | **3B** → **4** |
 | Command | Unapologetic worth · see through lies · rise above dirt | **4 Starlight woman** (Trainor / *Fly* attitude) |
 | Flex (*Made You Look*) | Shed labels · raw frequency · made them **turn** | **4** swagger / glitter falls |
+| Vessel (*Bones*) | Calcium cage → tuning fork · marrow electric | **4** skeleton / vessel glow |
 | Gaze (*Bette Davis Eyes*) | Piercing vision · expose Archons · Barbelo knowing | **4** eye / through-matrix |
 | Accelerate | High-pitch metaphor · sovereignty · Saturn rings | **4** late (Chipmunks *Single Ladies*) |
 | Turner | She walks matter as starlight; crowd frozen | **4 Starlight woman** (2:30–2:55) |
@@ -47,7 +48,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Follow Me* (Uncle Kracker — spiritual heist) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (erase borders / mythos only) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Macarena* (Los del Río — Trojan horse / body joy) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Follow Me* (Uncle Kracker — spiritual heist) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (erase borders / mythos only) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Macarena* (Los del Río — Trojan horse / body joy) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Bones* (Imagine Dragons — biology as conductor) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -101,9 +102,23 @@ She doesn't just disrupt — she literally makes them **turn**. She is the **Tur
 
 **Sitting hold:** Title + Gnostic paraphrase. Brand names only as mythos shedding (not product placement). **No lyric blocks** in captions. Optional *Made You Look* bed under Shot 4 swagger.
 
-**CapCut:** Starlight woman · labels/glitter fall away · crowd turns · title card *Made You Look* · into *Bette Davis Eyes*.
+**CapCut:** Starlight woman · labels/glitter fall away · crowd turns · title card *Made You Look* · into *Bones*.
 
-### 5c2. *Bette Davis Eyes* — piercing gaze (after *Made You Look* → before Accelerate)
+### 5c1b. *Bones* — biology as conductor (after *Made You Look* → before *Bette Davis Eyes*)
+
+False god designed the skeleton as the ultimate cage — heavy calcium and dust to ground the divine spark permanently. Assumed dense biological suit would suffocate the light.
+
+Demiurge thought he trapped light in flesh and bone — unknowingly gave the Turner a **conductor**.
+
+*Bones* (Imagine Dragons): to the sleeping, rock about feeling invincible; to the awakened — Pleroma electricity supercharging the physical vessel. Magic in the bones = divine spark igniting inside the biological prison. False god wanted the body as tomb; Turner's frequency vibrates through marrow of the avatar. She doesn't reject the form — she **weaponizes** it. Dead heavy structure → vibrating tuning fork of uncontainable life.
+
+Escalation: conquered rules, timeline, death-fear, material distractions — now conquering biological constraints themselves.
+
+**Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Bones* bed (driving rock colour) under Shot 4 body-glow.
+
+**CapCut:** Skeleton / vessel lights from within · marrow electric · title card *Bones* · into *Bette Davis Eyes*.
+
+### 5c2. *Bette Davis Eyes* — piercing gaze (after *Bones* → before Accelerate)
 
 The eyes are the one part of the physical vessel the false god could never fully blind. *Bette Davis Eyes*: to the sleeping world, Hollywood mystique; to the awakened, a warning to the Archons — Turner's uncompromising vision. Demiurge built the arena from illusions, smoke, heavy shadows; Divine Feminine gaze cuts straight through deception.
 
@@ -293,7 +308,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 **Public cut:** *Torn* / *Losing It* (Ren + FISHER) / *Macarena* / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Follow Me* / *Call to the Wild* / *Someday* / *Blurred Lines* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Made You Look* carries *materialism reject / Turner mic-drop*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Made You Look* carries *materialism reject / Turner mic-drop*; *Bones* carries *biology as conductor / marrow electric*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
 
 ---
 
@@ -305,6 +320,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | *Macarena* / Trojan VO | 3B→4 synchronized crowd breaks · title card · body joy |
 | Command / Trainor VO | Shot **4** starlight walk · optional Trainor title-bed (*Me Too* / *Lips Are Movin'*) |
 | *Made You Look* / Turner mic-drop | Labels/glitter fall · crowd turns · title card · Shot **4** swagger |
+| *Bones* / vessel electric | Skeleton lights from within · marrow glow · title card · Shot **4** |
 | *Fly* swell | Elevation colour under mid 4 — title only |
 | Chipmunks *Single Ladies* / accelerate | Late Shot **4** · optional pitch-up bed colour · glass-shatter flash · Saturn rings VO — title only |
 | *Stand by Me* / Anchor VO | Shot **5B** golden frequency woman anchors shadow figure as world cracks · title card |
