@@ -91,6 +91,9 @@ flowchart TB
 | [`POSITION-systems-protocols-protect-people.md`](POSITION-systems-protocols-protect-people.md) | Worldwide protection = systems + protocols (ZT, Z0≠Z2, harness, notify) — not slogans |
 | [`RELEASE-DRAFT-protect-people-systems-protocols.md`](RELEASE-DRAFT-protect-people-systems-protocols.md) | Protect-people public note — **SENT** Slack `#general` 24 Sep 2026 |
 | [`RECEIPT-protect-people-systems-protocols-2026-09-24.md`](RECEIPT-protect-people-systems-protocols-2026-09-24.md) | Send receipt (Slack link + channels held) |
+| [`POSITION-national-security-agent-portals.md`](POSITION-national-security-agent-portals.md) | Agent × gov portal = national security class (ASD/cyber frame, not vibe) |
+| [`RELEASE-DRAFT-national-security-agent-portals.md`](RELEASE-DRAFT-national-security-agent-portals.md) | National-security public note — **SENT** Slack `#general` 24 Sep 2026 |
+| [`RECEIPT-national-security-agent-portals-2026-09-24.md`](RECEIPT-national-security-agent-portals-2026-09-24.md) | Send receipt for national-security escalate |
 | [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md) | Paste-ready SpaceXAI BD inform — AU portal incident as harness design constraint; **not sent** |
 | [`SOURCE-claude-artifact-b7fc-crystalcore-os.md`](SOURCE-claude-artifact-b7fc-crystalcore-os.md) | Public Claude artifact: Live Party / Lattice / Sovereign Duties / Transmission UI |
 | Uploaded Sydney DC briefing (triage) | Same September 2026 site-file family |

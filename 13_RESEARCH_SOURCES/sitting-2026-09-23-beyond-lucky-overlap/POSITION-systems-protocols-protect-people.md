@@ -58,6 +58,10 @@ Acceleration has no preferred substrate. **Choice and consent remain the unsolve
 - Replace Essential Eight / patching / backups with Zero Trust branding alone  
 - Ship intrusion how-to under the banner of protection  
 
+## National security escalate
+
+Same sitting: agent × government portal is **national security** class — [`POSITION-national-security-agent-portals.md`](POSITION-national-security-agent-portals.md).
+
 ## Next artefacts (optional)
 
 - One-page **global minimum bar** checklist (translate Z0–Z3 + harness into non-AU language)  
