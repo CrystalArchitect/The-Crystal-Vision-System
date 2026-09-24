@@ -24,7 +24,8 @@ working inside `archive/TerAustralis-Incognita/` (or any other subtree)
 should follow *that* subtree's own memory protocol, not this one. A session
 working on the monorepo itself (this file's level: consolidation state,
 cross-subtree pointers, the `/generate` endpoint work, drawer structure)
-reads and writes here.
+reads and writes here. Naming law: [`../00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md)
+(**Starline**).
 
 ## Protocol
 

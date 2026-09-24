@@ -118,6 +118,7 @@ Python matches the Portal backend. iOS keeps App Intents in Swift. Living satell
 - Promoting Vision plates / “lattice lock” to Built OS  
 - Hard-wiring a single LLM vendor into Core  
 - Auto-posting or auto-spending without human / steward gate  
+- Building **Starfleet OS** / FC-01–08 runtime / NCC-992-AU persona — Vision archive only; stack above already covers OS needs (`14_AI_INTERACTIONS/2026-09-20-NO-STARFLEET-OS.md`; Grok find logged, find ≠ build)  
 
 ---
 

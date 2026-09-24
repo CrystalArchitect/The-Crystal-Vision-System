@@ -43,14 +43,14 @@ Listed in [`15_ARCHIVE_HISTORY/sitting-2026-09-19-held/HELD-BINARIES.txt`](../15
 
 ## Honesty (Incognita Rule)
 
-AI-SYSTEM-BRIEF remains the verified 2026-09-10 Portal/MemoryCore contract. AERIS Manus URL and MemoryCore Vercel notes inside extracts are **session claims** — verify before treating as Built. Hybrid Portal brief is **design**, not live hybrid. Alive Weave is hub coordination, not hosted Portal. **Fermi's Silent Line** is a creative poster title in the **Starline** family — **Songline** is never a CVS title/component. Filings dossier is public-record research with A/B/C labels — not gossip and not a product merge. **MemoryCore cloud vault ≠ local-first Clementine** — see [`00_MASTER_INDEX/MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md`](../00_MASTER_INDEX/MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md). Vision ≠ Built.
+AI-SYSTEM-BRIEF remains the verified 2026-09-10 Portal/MemoryCore contract. AERIS Manus URL and MemoryCore Vercel notes inside extracts are **session claims** — verify before treating as Built. Hybrid Portal brief is **design**, not live hybrid. Alive Weave is hub coordination, not hosted Portal. **Fermi's Silent Line** is a creative poster title in the **Starline** family — not a CVS component. Filings dossier is public-record research with A/B/C labels — not gossip and not a product merge. **MemoryCore cloud vault ≠ local-first Clementine** — see [`00_MASTER_INDEX/MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md`](../00_MASTER_INDEX/MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md). Naming: [`NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md). Vision ≠ Built.
 
 ## Not done this sitting
 
 - No Drive upload (Drive MCP / Crystal stamps Drive folders)
 - No Portal / AERIS hosting or merge
 - No merge of SAT Science home over `archive/Synthetic-Affect-Theory/`
-- No **Songline** title / component (project name is **Starline**)
+- No alternate brand-name for **Starline** as a title / component (see [`NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md))
 - No unpack of memorycore-repo / library / clementine-starter zips
 - No unpack of odyssey-engine tarball / visual atlas seven / continuing chart
 

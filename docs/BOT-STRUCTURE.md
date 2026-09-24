@@ -159,7 +159,7 @@ Physics / math / philosophy satellites stay drawer pointers (17–19); add a `BO
 | Meta AI | Contributor credit / panel subject |
 | Crystal Weaver (mythos) | Story role, not software ID |
 | Studio Lead / Crystal | Human authority |
-| Songline | Out of bounds — never a component (project name: **Starline**) |
+| Forbidden legacy label | Out of bounds — never a component (use **Starline**; [`../00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md)) |
 | Seven Sisters paths | Mythos / demo lines on the bus |
 | Decode → Ingest → Twin | Metering pipeline (Alive Weave island), not an agent seat |
 | CrystalCore.OS | OS product island, not a bot ID |

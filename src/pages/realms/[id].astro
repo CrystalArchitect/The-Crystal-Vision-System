@@ -2,49 +2,44 @@
 // SPDX-License-Identifier: MIT
 
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import type { Realm } from "../../types";
+import type { Realm, Track } from "../../types";
 
-interface Props {
-  params: { id: string };
-}
+// getStaticPaths runs in its own build-time scope, so load the data here and
+// pass each realm plus its tracks and position through props.
+export async function getStaticPaths() {
+  let realms: Realm[] = [];
+  let tracks: Track[] = [];
 
-let realms: Realm[] = [];
-let tracks: any[] = [];
-let indexes: any = {};
+  try {
+    realms = (await import("../../data/realms.json")).default;
+  } catch {
+    console.warn("Could not load realms.json");
+  }
 
-try {
-  const realmsJson = await import("../../data/realms.json");
-  realms = realmsJson.default;
-} catch {
-  console.warn("Could not load realms.json");
-}
+  try {
+    tracks = await import("../../data/tracks.json").then((m) => m.default);
+  } catch {
+    console.warn("Could not load tracks.json");
+  }
 
-try {
-  tracks = await import("../../data/tracks.json").then((m) => m.default);
-} catch {
-  console.warn("Could not load tracks.json");
-}
-
-try {
-  indexes = await import("../../data/indexes.json").then((m) => m.default);
-} catch {
-  console.warn("Could not load indexes.json");
-}
-
-export function getStaticPaths() {
-  return realms.map((realm) => ({
+  return realms.map((realm, index) => ({
     params: { id: realm.id },
+    props: {
+      realm,
+      realmTracks: tracks.filter((t) => t.realm === realm.id),
+      realmIndex: index,
+      totalRealms: realms.length,
+    },
   }));
 }
 
-const { id } = Astro.props.params as Props["params"];
-const realm = realms.find((r) => r.id === id);
+const { realm, realmTracks, realmIndex, totalRealms } = Astro.props as {
+  realm: Realm;
+  realmTracks: Track[];
+  realmIndex: number;
+  totalRealms: number;
+};
 
-if (!realm) {
-  return Astro.redirect("/realms");
-}
-
-const realmTracks = tracks.filter((t) => t.realm === realm.id);
 const artists = [...new Set(realmTracks.map((t) => t.artist))];
 const years = [...new Set(realmTracks.map(t => t.year))].sort((a, b) => a - b);
 const genres = [...new Set(realmTracks.map(t => t.genres[0]))];
@@ -232,7 +227,7 @@ const yearDistribution = years.map(year => ({
         ← Back to All Realms
       </a>
       <div class="text-neutral-400 text-sm">
-        Realm {realms.findIndex(r => r.id === realm.id) + 1} of {realms.length}
+        Realm {realmIndex + 1} of {totalRealms}
       </div>
     </div>
   </div>

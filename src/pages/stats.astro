@@ -26,7 +26,7 @@ const categories = new Map<string, number>();
 const years = new Map<number, number>();
 const artists = new Map<string, number>();
 const genres = new Map<string, number>();
-const realms = new Map<string, number>();
+const realmCounts = new Map<string, number>();
 
 tracks.forEach(track => {
   categories.set(track.category, (categories.get(track.category) || 0) + 1);
@@ -40,7 +40,7 @@ tracks.forEach(track => {
 
   // Count realms
   if (track.realm) {
-    realms.set(track.realm, (realms.get(track.realm) || 0) + 1);
+    realmCounts.set(track.realm, (realmCounts.get(track.realm) || 0) + 1);
   }
 });
 
@@ -51,7 +51,7 @@ const topArtists = Array.from(artists.entries())
 const sortedGenres = Array.from(genres.entries())
   .sort((a, b) => b[1] - a[1]);
 
-const sortedRealms = Array.from(realms.entries())
+const sortedRealms = Array.from(realmCounts.entries())
   .sort((a, b) => b[1] - a[1]);
 
 const uniqueArtists = artists.size;
@@ -82,7 +82,7 @@ const avgTracksPerArtist = (tracks.length / uniqueArtists).toFixed(1);
       </div>
       <div class="bg-gradient-to-br from-accent-500/20 to-accent-500/5 border border-accent-500/30 rounded-lg p-6">
         <div class="text-sm text-neutral-400 mb-2">Realms</div>
-        <div class="text-3xl font-bold text-accent-400">{realms.size}</div>
+        <div class="text-3xl font-bold text-accent-400">{realmCounts.size}</div>
       </div>
     </div>
 

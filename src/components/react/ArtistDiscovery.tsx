@@ -50,8 +50,9 @@ export default function ArtistDiscovery({ tracks }: ArtistDiscoveryProps) {
         artistData.remixCount++;
       }
 
-      // Track featured artists as collaborators
-      if (track.featured) {
+      // Track featured artists as collaborators. Guard against non-array
+      // values, since some data sources set `featured` to a boolean flag.
+      if (Array.isArray(track.featured)) {
         track.featured.forEach(featured => {
           artistData.collaborators.add(featured);
         });

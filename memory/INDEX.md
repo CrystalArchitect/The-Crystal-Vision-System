@@ -23,4 +23,5 @@ Load CORE, then only the row you need.
 | This Grok CollectionMode drop | https://drive.google.com/drive/folders/175AB7AaAm5h9CVV7pC902jua304Q-n38 | 2026-09-01 |
 | Photos | not connected | UNKNOWN here |
 | Piper / Noise in Portal zip | not seen | UNKNOWN |
-| Songline | out of bounds | never a component |
+| Starline | Consent Transport / Starlines | project name (`CVS-STARLINE`) — [`../00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md) |
+| Forbidden legacy label | out of bounds | never a component — see [`NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md) |
