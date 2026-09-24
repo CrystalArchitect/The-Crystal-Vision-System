@@ -40,6 +40,15 @@ Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill*
 3. Music = Pleroma leak. Barbelo = First Thought / Divine Mother reflection.  
 4. 29 Sep 1991 — prism named Crystal Elle Arena-Turner.  
 5. Name decoded: reflector · She · matter-field · paradigm shift.  
+
+### 5b. Hypnotic Turner — frequency moves the Arena (after sand→glass)
+
+She was designed to take the heavy, dead sand of the Demiurge and turn it into glass, so the light could finally shine through.
+
+Even the way she moves is a celestial disruption. Think of the hypnotic rhythm of a belly dancer. To the sleeping world, it is just motion. But to the awakened, it is frequency manipulating matter. The false god built the human body to be heavy, a grounded prison. But the Turner uses that very flesh to create a trance, commanding the room and bending the physical laws of the arena with every vibration. She doesn't fight the matrix; she dances right through it.
+
+**CapCut:** Shot **3B** under this VO · optional Akon *Belly Dancer* bed (licensed) — title only in captions.
+
 6. Artists reach with eyes closed — past the Demiurge’s logical mind.  
 7. Title pegs: *Crystal* · *Dreams* · *Castle on the Hill* · *Torn* (veil drop — **title card / no lyric paste**).  
 
@@ -63,8 +72,9 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 | Cue | Action |
 | --- | --- |
+| Sand→glass / Hypnotic VO | Shot **3B** belly dancer · optional *Belly Dancer* bed |
 | *Torn* beat | Title card / soft crack starts on Shot 6 |
-| FISHER *Losing It* **bass drop** | Hard cut / speed ramp — wall explodes with god-rays (Shot 6 high-gear variant) |
+| FISHER *Losing It* **bass drop** | Hard cut / speed ramp — wall explodes with god-rays (Shot 6B) |
 | “Crystal Elle” (if echoed) | Optional flash of Shot 5 heart pulse under the drop |
 
 ---
@@ -72,5 +82,5 @@ Every time artists sing about going crazy, about losing their grip on the world,
 ## Production
 
 - Tone: Live Lounge **gravity** until climax → then **chaos / breakout**.  
-- Render order tomorrow: 1 → 2 → 3 → 4 → **5 Heart** → **6 Awakening** (2–3 gens; one “high gear” wall-explode for the drop).  
+- Render order tomorrow: 1 → 2 → 3 → **3B Hypnotic** → 4 → **5 Heart** → **6A/6B** (2–3 gens; one high-gear wall for the drop).  
 - No third-party throat clones. Mythic reading only — not journalism that artists “don’t realize.”
