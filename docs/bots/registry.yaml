@@ -258,7 +258,7 @@ bots:
     secrets: []
     allowed:
       - local_first_companion
-      - songline_starline_bus_persona
+      - starline_bus_persona
     forbidden:
       - claim_canon
       - scrape
