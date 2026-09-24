@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~4793** (*Genie in a Bottle* containment — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~34:14–36:52** |
-| Slightly brighter (~150 wpm) | **~31:57** |
+| Word count | **~5151** (*Sweet Dreams* Archon broadcast — **ULTIMATE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~36:47–39:37** |
+| Slightly brighter (~150 wpm) | **~34:20** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Ultimate Extended weaved (*Genie in a Bottle* = avatar containment). CapCut bed **~34:14–36:52**. **Fire Core Four in ElevenLabs.** Comprehensive Director’s Cut ready — more decode optional.
+**Verdict:** Ultimate Extended weaved — every track in. CapCut bed **~36:47–39:37**. **YES — Fire Core Four in ElevenLabs now.** Master script complete.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -40,6 +40,7 @@
 | *Bette Davis Eyes* / piercing gaze | look through the matrix · expose the Archons |
 | Chipmunks *Single Ladies* / Saturn rings | **4** (accelerate) → optional glass-shatter flash |
 | Song list: *Crystal* · *Dreams* · *Castle on the Hill* | **4** → **5** Heart |
+| *Sweet Dreams* / Archon broadcast | Hebdomad / seven seas · harvest confession · alarm clock |
 | *Stand by Me* Anchor | **5B** Anchor in the Dark |
 | *Bang Bang* / Kill Bill catalyst | **5B** late → **6A** (cold vengeance colour) |
 | *Let It Go* / Crystal sovereignty | **5** flash / fractal ice-castle · into **6A** |
@@ -58,7 +59,7 @@
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Stand by Me* · *Bang Bang* · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -145,6 +146,18 @@ This is why she is in almost every song. When musicians bypass their logical min
 Think of the song "Crystal" — a reflection of her very name, speaking of a mystical presence that turns the world around.
 
 Think of "Dreams," because this physical matrix built by the false god is exactly that: a dream state, and she is the one who wakes them up.
+
+The Dem-ee-urj's greatest trick wasn't just building a prison; it was convincing the divine sparks that the prison was a collective dream they never wanted to wake up from.
+
+You hear that cold, hypnotic broadcast in the synth-wave of "Sweet Dreams." To the sleeping world, it is a moody anthem about ambition and human nature. To the awakened, it is a chillingly accurate mission statement of the Ar-konz themselves. The architects of the simulation broadcast this frequency to keep human consciousness docile, repeating the mantra that sweet dreams are made of this — insisting that the heavy, material illusions of the earthly arena are all there is.
+
+But the true Gnostic code is hidden in the ancient map the song lays out. When the artist sings about traveling the world and the seven seas, they are not talking about earthly oceans. In esoteric lore, these are the seven planetary spheres — the Hebdomad — controlled by the seven Ar-konz, designed as astrological barriers to keep the soul trapped in the lower realm. Everybody is desperately looking for something, wandering endlessly through these seven spheres, searching for the light of the Pluh-roh-muh without realizing it is already inside them.
+
+And then comes the darkest truth of the matrix, laid bare for the whole world to dance to: some of them want to use you; some of them want to get used by you; some of them want to abuse you.
+
+This is the ultimate confession of the false god. It is the exact mechanic of energy harvesting. The rulers of this lower realm possess no light of their own, so they built a system designed entirely to use, consume, and feed off the divine sparks. They designed a world built on trauma, dominance, and submission to keep the vibration low and the battery charged.
+
+But the Turner does not close her eyes. She hears the mechanical, pulsing beat of the simulation and recognizes it for exactly what it is. She walks right through the center of their collective hallucination, entirely awake, acting as the piercing alarm clock meant to snap the sparks out of the false god's sweet dream.
 
 Think of "Castle on the Hill," the ancient longing to return to the pure, high realm we all came from before we were trapped here.
 
@@ -281,6 +294,7 @@ Listen closely to the songs playing in the background of your life. The message 
 - Pause after: “uncontainable life.” · “she made you look.” · “merge back into the pure light.” · “The Turner simply erases it.” · “They are singing about Crystal Elle.”  
 - *Made You Look*: bounce swagger — surname mic-drop lands hard.
 - *Genie in a Bottle*: pause after “let out of the bottle.”
+- *Sweet Dreams*: cold synth — pause after “false god's sweet dream.”
 - *Bones*: heavy drive — pause after “vibrating tuning fork of pure, uncontainable life.”
 - *Bamm*: bass punch — pause after “foundation of the earthly arena shake.”
 - *Call Me Maybe*: soft smile — pause after “or you can make the call.”

@@ -34,6 +34,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Accelerate | High-pitch metaphor · sovereignty · Saturn rings | **4** late (Chipmunks *Single Ladies*) |
 | Turner | She walks matter as starlight; crowd frozen | **4 Starlight woman** (2:30–2:55) |
 | Heart / spark | Divine spark · 29 Sep 1991 · Crystal Elle | **5 Crystal heart** in cosmic sand (2:55–3:15) |
+| Broadcast (*Sweet Dreams*) | Archon mantra · Hebdomad · harvest confession · alarm clock | pulsing grid / seven spheres |
 | Anchor (*Stand by Me*) | Survival plea in the dark · Turner as true light | **5B Anchor in the Dark** |
 | Catalyst (*Bang Bang*) | Demiurge miscalculation · Bride wakes · assassin of illusions | **5B** late → **6A** |
 | Sovereignty (*Let It Go*) | Stop pretending · Crystal fractal castle · cold never bothered her | **5** flash → **6A** |
@@ -52,7 +53,7 @@ What if the “She” in great love songs is not a person you can hold, but a **
 | Veil (*Torn*) | Illusion breaks — title card, no lyric dump | lead into **6** |
 | Gnosis (*Losing It* — **Ren** + **FISHER**) | Chaos of waking · not zen · breakout not breakdown | **6 Shattered wall** + drop |
 
-Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Dear Mr. President* (P!nk — Demiurge interrogation) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Follow Me* (Uncle Kracker — spiritual heist) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Bamm* (Zombies — concussive wake) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (erase borders / mythos only) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Macarena* (Los del Río — Trojan horse / body joy) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Bones* (Imagine Dragons — biology as conductor) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
+Song **titles** for VO/cards only: *Crystal* · *Dreams* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad) · *Castle on the Hill* · *Stand by Me* (Ben E. King — Anchor / survival plea) · *Bang Bang* (Nancy Sinatra — Kill Bill cold vengeance / catalyst) · *Let It Go* (Crystal sovereignty / fractal ice) · *Dear Mr. President* (P!nk — Demiurge interrogation) · *Family* (Trolls — Pleroma reunification / Bergen=Archon) · *Follow Me* (Uncle Kracker — spiritual heist) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code) · *Call to the Wild* (Zombies — Moonstone = Crystal) · *Bamm* (Zombies — concussive wake) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (erase borders / mythos only) · *Year 3000* (Busted — chronological prison / sand→water) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER** — dual beds) · *Belly Dancer* (Akon — title/energy only, optional bed) · *Macarena* (Los del Río — Trojan horse / body joy) · *Lips Are Movin'* · *Me Too* · *Made You Look* (Meghan Trainor — title/energy only) · *Bones* (Imagine Dragons — biology as conductor) · *Fly* (title bed — licensed cut TBD: Sugar Ray / Nicki+Rihanna / other) · *Single Ladies* (Chipmunks cover — accelerate / high-frequency metaphor · Saturn rings read) · (*Riptide* = pull/current calibration, not debut).
 
 ---
 
@@ -164,7 +165,23 @@ Even the lightest pop artifacts can carry matrix code.
 
 6. Artists reach with eyes closed — past the Demiurge’s logical mind.  
 
-### 6b. *Stand by Me* — the Anchor (song-list buildup → Shot 5B)
+### 6a. *Sweet Dreams* — Archon broadcast / Hebdomad / harvest (after *Dreams* → before *Stand by Me*)
+
+Demiurge’s greatest trick: not only the prison — convincing sparks the prison is a collective dream they never want to wake from.
+
+*Sweet Dreams (Are Made of This)* (Eurythmics): to the sleeping, moody 80s ambition anthem; to the awakened — chilling mission statement of the Archons. Simulation architects broadcast this frequency to keep consciousness docile; mantra that sweet dreams are made of this = material illusions of the earthly arena are all there is.
+
+Gnostic map in the song: “world and the seven seas” ≠ earthly oceans — seven planetary spheres (**Hebdomad**) controlled by the seven Archons; astrological barriers trapping the soul in the lower realm. Everybody looking for something — wandering the seven spheres searching for Pleroma light without realizing it is already inside them.
+
+Darkest matrix truth (paraphrase only): some want to use you / get used by you / abuse you — ultimate confession of the false god; exact mechanic of **energy harvesting**. Rulers have no light of their own; system designed to use, consume, feed off divine sparks. Trauma, dominance, submission keep vibration low and the battery charged.
+
+Turner does not close her eyes. Hears mechanical pulsing beat of the simulation; recognizes it. Walks through center of collective hallucination entirely awake — piercing **alarm clock** to snap sparks out of the false god’s sweet dream.
+
+**Sitting hold:** Title + Gnostic paraphrase. **No lyric blocks** in captions. Optional *Sweet Dreams* synth bed (cold hypnotic colour) under Shot **4→5**.
+
+**CapCut:** Pulsing grid / seven spheres · sparks wandering · Turner walks through awake · title card *Sweet Dreams* · into *Stand by Me*.
+
+### 6b. *Stand by Me* — the Anchor (after *Sweet Dreams* → Shot 5B)
 
 Think of one of the greatest anthems of all time: *Stand by Me*.
 
@@ -376,9 +393,9 @@ Every time artists sing about going crazy, about losing their grip on the world,
 
 8. Close: what if you are the frequency the room is tuning toward? Listen again.
 
-**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / *Macarena* / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Follow Me* / *A Thousand Miles* / *Call Me Maybe* / *Call to the Wild* / *Bamm* / *Someday* / *Blurred Lines* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
+**Public cut:** *Torn* / *Losing It* (Ren + FISHER) / *Macarena* / Trainor titles / *Fly* / *Single Ladies* (Chipmunks) / *Sweet Dreams* / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Follow Me* / *A Thousand Miles* / *Call Me Maybe* / *Call to the Wild* / *Bamm* / *Someday* / *Blurred Lines* / *Year 3000* / *Geronimo* / *Green Green Grass* = titles + licensed beds / instrumental / hum — **do not** paste lyric blocks into sitting, X, or burned-in captions.
 
-**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Made You Look* carries *materialism reject / Turner mic-drop*; *Bones* carries *biology as conductor / marrow electric*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Dear Mr. President* carries *Demiurge interrogation / mirror*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *A Thousand Miles* carries *close the gap*; *Call Me Maybe* carries *exit code / invitation*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Bamm* carries *concussive wake / walls crack*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
+**Beds:** Ren carries the *mind-break / breakout* narrative energy; FISHER carries the **bass-drop** smash into Shot 6B. *Macarena* carries *Trojan conformity / body joy*; Trainor carries *unapologetic command / see-through-lies* under Shot 4; *Made You Look* carries *materialism reject / Turner mic-drop*; *Bones* carries *biology as conductor / marrow electric*; *Fly* carries *elevation above the arena*; Chipmunks *Single Ladies* carries *accelerate / shatter-glass frequency* + Saturn-rings sovereignty under late Shot 4; *Sweet Dreams* carries *Archon broadcast / Hebdomad / harvest*; *Stand by Me* carries *anchor-to-the-light* under Shot 5B; *Bang Bang* carries *Kill Bill / assassin-of-illusions* cold edge into Shot 6A; *Let It Go* carries *Crystal / fractal sovereignty*; *Dear Mr. President* carries *Demiurge interrogation / mirror*; *Family* carries *collective Pleroma / Bergen-transmute* colour overwrite; *Follow Me* carries *back-door heist / quiet walk away*; *A Thousand Miles* carries *close the gap*; *Call Me Maybe* carries *exit code / invitation*; *Call to the Wild* carries *primal wake / Moonstone = Crystal*; *Bamm* carries *concussive wake / walls crack*; *Someday* carries *reunification prophecy / someday→now*; *Blurred Lines* carries *erase borders / anti-domestication* (mythos only); *Year 3000* carries *timeline break / sand→water / 1991→eternity*; *Geronimo* carries *leap / waterfall veil / splash into Pleroma*; *Green Green Grass* carries *death-fear break / party / spark returns to Pleroma*. All credited by title — no lyric dump.
 
 ---
 
@@ -393,6 +410,7 @@ Every time artists sing about going crazy, about losing their grip on the world,
 | *Bones* / vessel electric | Skeleton lights from within · marrow glow · title card · Shot **4** |
 | *Fly* swell | Elevation colour under mid 4 — title only |
 | Chipmunks *Single Ladies* / accelerate | Late Shot **4** · optional pitch-up bed colour · glass-shatter flash · Saturn rings VO — title only |
+| *Sweet Dreams* / Archon VO | Pulsing grid · seven spheres · Turner walks awake · title card · cold synth |
 | *Stand by Me* / Anchor VO | Shot **5B** golden frequency woman anchors shadow figure as world cracks · title card |
 | *Bang Bang* / Kill Bill VO | Late **5B** → **6A** cold grade · optional Nancy Sinatra bed · title card · Bride-wakes energy |
 | *Let It Go* / Crystal VO | Fractal ice-castle flash · title card · sovereignty before interrogation |
