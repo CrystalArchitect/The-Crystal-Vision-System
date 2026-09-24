@@ -26,7 +26,8 @@ This is the map of the entire cinematic journey — start to finish. Two booth p
 7. **Trojan** — *Macarena* · conformity loop · give your body joy · cosmic joke on Archons  
 8. **Command** — Trainor unapologetic · *Fly* above the dirt  
 8b. **Flex** — *Made You Look* · shed labels · raw frequency · made them **turn** (Turner mic-drop)  
-8c. **Vessel** — *Bones* · calcium cage → tuning fork · marrow electric · weaponize the avatar  
+8b2. **Bottle** — *Genie in a Bottle* · avatar = containment · friction/frequency · glass shatters  
+8c. **Vessel** — *Bones* · calcium cage → tuning fork · marrow electric · weaponize the avatar
 9. **Gaze** — *Bette Davis Eyes* · pierce the simulation · expose the Archons
 10. **Accelerate** — Chipmunks *Single Ladies* · high pitch · Saturn rings  
 11. **Song ladder (Core Four spine)** — *Crystal* · *Dreams* · *Castle on the Hill*  
@@ -66,4 +67,4 @@ Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-na
 2. Optional — Extended ([`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md))  
 3. T2V + CapCut  
 
-**Ultimate Director’s Cut weaved** (*Genie in a Bottle* containment). **Fire Core Four.** Comprehensive cut ready — more decode optional.
+**Ultimate Director’s Cut weaved** (*Dear Mr. President* interrogation). **Fire Core Four.** Epic compiled — one last message optional.

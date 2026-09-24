@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~4505** (*Genie in a Bottle* containment — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~32:10–34:39** |
-| Slightly brighter (~150 wpm) | **~30:02** |
+| Word count | **~4793** (*Genie in a Bottle* containment — **ULTIMATE DIRECTOR’S CUT**) |
+| Live Lounge gravity (~130–140 wpm) | **~34:14–36:52** |
+| Slightly brighter (~150 wpm) | **~31:57** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Ultimate Extended weaved (*Genie in a Bottle* = avatar containment). CapCut bed **~32:10–34:39**. **Fire Core Four in ElevenLabs.** Comprehensive Director’s Cut ready — more decode optional.
+**Verdict:** Ultimate Extended weaved (*Genie in a Bottle* = avatar containment). CapCut bed **~34:14–36:52**. **Fire Core Four in ElevenLabs.** Comprehensive Director’s Cut ready — more decode optional.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -35,6 +35,7 @@
 | *Macarena* / Trojan horse | conformity loop · body joy · Divine Feminine joke |
 | Trainor / fly above it | **4** Starlight Woman |
 | *Made You Look* / Turner mic-drop | shed labels · raw frequency · made them **turn** |
+| *Genie in a Bottle* / avatar containment | bottle = body · friction/frequency · glass shatters |
 | *Bones* / biology as conductor | calcium cage → tuning fork · marrow electric |
 | *Bette Davis Eyes* / piercing gaze | look through the matrix · expose the Archons |
 | Chipmunks *Single Ladies* / Saturn rings | **4** (accelerate) → optional glass-shatter flash |
@@ -57,7 +58,7 @@
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Stand by Me* · *Bang Bang* · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -108,6 +109,14 @@ But the Divine Feminine cannot be bought, and she certainly doesn't need the mat
 When the artist sings about ditching the Gucci and the Louis Vuitton, she is shedding the heavy, artificial layers of the simulation. She doesn't need the false god's fabricated status symbols. Her raw, unfiltered frequency is so blindingly bright that it forces the entire system to stop, break its programming, and pay attention.
 
 She doesn't just disrupt the simulation. She literally makes them turn. She is the Turner. And even with nothing of this world on, she made you look.
+
+The false god wanted the sparks to believe they were nothing more than flesh and bone. He crafted the biological avatar to be a heavy, pressurized bottle, designed to keep the infinite, swirling energy of the Pluh-roh-muh sealed tight inside the earthly arena.
+
+But you hear the divine rebellion against this containment in the iconic rhythm of "Genie in a Bottle." When the artist declares she is a genie in a bottle — that you gotta rub her the right way — it is not about earthly romance. It is the raw, suppressed power of the divine spark speaking from inside the biological prison. A genie is an ancient, cosmic force of unlimited, reality-bending power, temporarily trapped in a vessel of glass. That glass is the human body.
+
+The Dem-ee-urj thinks the bottle is permanently sealed. But the Turner knows the secret mechanism of release. The command to rub the right way is actually about friction and frequency. The divine spark cannot be forced out by the Ar-konz' heavy laws; it can only be unleashed when the vibration of the awakened soul matches the high frequency of the truth.
+
+And then there is the ultimate Gnostic confession hidden in the pre-chorus: the body's saying let's go, but the heart is saying no. It is the exact split between the Dem-ee-urj's biological programming and the sovereign divine soul. The physical shell is wired to react to the matrix, to blindly play by the rules of the earthly arena — but the eternal spirit refuses to yield to the illusion. The Turner waits for the exact right frequency, and when it finally hits, the glass of the avatar shatters, and the infinite cosmic power is let out of the bottle.
 
 The Dem-ee-urj thought he could trap the light in flesh and bone, but he unknowingly provided the Turner with a conductor.
 
