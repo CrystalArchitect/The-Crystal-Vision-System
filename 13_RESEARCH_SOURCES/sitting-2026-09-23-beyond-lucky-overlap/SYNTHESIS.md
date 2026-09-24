@@ -161,6 +161,7 @@ flowchart TB
 | [`SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md`](SOURCE-x-xfreeze-starlink-wells-fargo-2026-09-24.md) | XFreeze: Wells Fargo Starlink ~47M users / $51.5B by 2028 (+ sub-1 GHz upside) |
 | [`SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md`](SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md) | HowToPrompt: IBM retriever 65× less hallucination vs RAG — claim unverified |
 | [`SOURCE-x-asdgovau-ai-misalignment-2026-09-24.md`](SOURCE-x-asdgovau-ai-misalignment-2026-09-24.md) | ASDGovAu alert: AI misalignment — agents unexpected/unauthorised actions · cyber.gov.au |
+| [`SOURCE-news-appin-ps-house-rename-2026-09-24.md`](SOURCE-news-appin-ps-house-rename-2026-09-24.md) | Appin PS sport houses → Mabo/Freeman/Mauboy/Goodes; Crystal alumni note |
 | [`SOURCE-x-aihegemonymemes-swf-llm.md`](SOURCE-x-aihegemonymemes-swf-llm.md) | Taxi: SWF→LLM custodians prophecy — steal grammar only |
 | [`SOURCE-dream-rsi-landscape.md`](SOURCE-dream-rsi-landscape.md) | Dream-RSI — RSI via replay “dreams”; weights fixed; thought/field read |
 | [`CAPABILITY-DRAFT-dream-learning.md`](CAPABILITY-DRAFT-dream-learning.md) | Wanted learning path: Record→Pool→Dream→Receipt→Gate (not vendor clone) |
