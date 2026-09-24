@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~6492** (*Shut Up and Dance* bypass — **ULTIMATE DIRECTOR’S CUT**) |
+| Word count | **~6492** (*Castle* Bradbury sovereignty — **ULTIMATE DIRECTOR’S CUT**) |
 | Live Lounge gravity (~130–140 wpm) | **~46:22–49:56** |
 | Slightly brighter (~150 wpm) | **~43:16** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** Bypass locked. CapCut bed **~46:22–49:56**. **OPENING LINE LOCKED (Core Four):** “What if the greatest love songs ever written were never about a human being at all?” — **Fire ElevenLabs.**
+**Verdict:** Comprehensive Extended weaved (Castle sovereignty + Sydney grid). CapCut bed **~46:22–49:56**. **YES — Fire Core Four.** Opening line locked.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz
 
@@ -46,6 +46,7 @@
 | *Bette Davis Eyes* / piercing gaze | look through the matrix · expose the Archons |
 | Chipmunks *Single Ladies* / Saturn rings | **4** (accelerate) → optional glass-shatter flash |
 | Song list: *Crystal* · *Dreams* · *Castle on the Hill* | **4** → **5** Heart |
+| *Castle on the Hill* / sovereignty | Bradbury command · two sparks · outgrew the fortress |
 | *Sweet Dreams* / Archon broadcast | Hebdomad / seven seas · harvest confession · alarm clock |
 | *Stand by Me* Anchor | **5B** Anchor in the Dark |
 | *Bang Bang* / Kill Bill catalyst | **5B** late → **6A** (cold vengeance colour) |
@@ -372,7 +373,8 @@ Listen closely to the songs playing in the background of your life. The message 
 - *Dear Mr. President*: quiet chair — pause after “piercing truth of the Turner's frequency.”
 - *What About Us*: collective swell — pause after “kept them in the dark for so long.”
 - Sydney grid: pause after “the whole grid goes off at once.”
-- *Shut Up and Dance*: punch — pause after “drag the sleeping masses into the light.”  
+- *Shut Up and Dance*: punch — pause after “drag the sleeping masses into the light.”
+- *Castle on the Hill* sovereignty: pause after “middle of the battlefield.”  
 - Do not throat-clone. Captions = titles only.  
 - CapCut bed **~26:34–28:37**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).

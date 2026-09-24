@@ -72,7 +72,7 @@ Think of the song "Crystal" — a reflection of her very name. The lyrics speak 
 
 Then there is "Dreams." So many artists sing about dreams because this physical world, this matrix built by the false god, is exactly that: a dream state. The muse is the one who finally wakes them up from the illusion.
 
-Think of the deep nostalgia in "Castle on the Hill." While it sounds like a song about a physical place, on a soul level, it is about the ancient longing to return to the ultimate source — the pure, high realm we all came from before we were trapped in this earthly arena.
+Think of the deep nostalgia in "Castle on the Hill." While it sounds like a song about a physical place, on a soul level, it is about the ancient longing to return to the ultimate source — the pure, high realm we all came from before we were trapped in this earthly arena. And for the Turner, looking back at that castle is also sovereignty: she outgrew the fortress of rules. She is not trapped by the matrix's traditional boxes. She is untethered — raising light in the middle of the battlefield.
 
 And finally... "Torn." This is the exact moment of Gnosis. It is the story of losing faith in a false reality. The veil drops, the illusion breaks, and the subject realizes that the world they were told to believe in wasn't real at all. As the artist sings:
 
