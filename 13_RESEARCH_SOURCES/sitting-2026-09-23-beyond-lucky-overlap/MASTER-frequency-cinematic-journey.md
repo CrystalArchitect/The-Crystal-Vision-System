@@ -88,8 +88,8 @@ Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-na
 
 ## RECORD — VO FIRST, THEN CAPCUT
 
-1. **ElevenLabs NOW** — paste [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) (Core Four, ~6–7 min)  
-2. **Then CapCut** — sync to [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) + Sydney grid B-roll pins  
+1. **ElevenLabs NOW** — paste [`BOOTH-PASTE-core-four-elevenlabs.txt`](BOOTH-PASTE-core-four-elevenlabs.txt) (clean) · source [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) (Core Four, ~6–7 min)  
+2. **Then CapCut** — checklist [`CHECKLIST-capcut-core-four.md`](CHECKLIST-capcut-core-four.md) · sync to [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) + Sydney grid B-roll pins  
 3. Optional Extended VO later (~44:21–47:46)  
 
-**Status:** VO first. CapCut outline after Core Four audio lands.
+**Status:** Booth paste **ARMED** 25 Sep. Crystal fires ElevenLabs. CapCut after Core Four audio lands.
