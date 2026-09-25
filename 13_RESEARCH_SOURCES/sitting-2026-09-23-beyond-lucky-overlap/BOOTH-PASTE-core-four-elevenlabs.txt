@@ -1,49 +1,3 @@
-# SCRIPT — Frequency / Barbelo / Turner · Core Four (ElevenLabs master)
-
-**Filed:** 24 Sep 2026  
-**Status:** **PRIMARY BOOTH — LOCKED** · Vision labelled vision · mythos / performance bible — **not** biography-as-fact  
-**Song ladder:** *Crystal* · *Dreams* · *Castle on the Hill* · *Torn*  
-**Full journey map:** [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md)  
-**Extended (optional):** [`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md) — Trainor / Chipmunks / *Stand by Me* / *Bang Bang* / *Let It Go* / *Family* / *Losing It*  
-**Maps to:** [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) · beat bible [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md)  
-**Law:** Different Shores taxi · Human publishes · No destiny proof  
-**Copyright:** CapCut / X / burned-in captions = **song titles only**. Booth may speak short commentary under titles; do **not** paste lyric blocks into sitting cards or public captions. Human clears licensed beds. Do not dump full lyrics from Google into the cut.
-
----
-
-## Pacing lock (measure twice)
-
-| Measure | Value |
-| --- | --- |
-| Word count | **~873** |
-| Live Lounge gravity (~130–140 wpm) | **~6:15–6:45** |
-| Slightly brighter (~150 wpm) | **~5:50** |
-
-**Verdict:** Core Four is the **first ElevenLabs take**. CapCut bed **~6:00–7:00**. Extended cut = optional second take only.
-
-**Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-nad
-
----
-
-## CapCut beat sync (Core Four)
-
-| VO region | Shot |
-| --- | --- |
-| Hook — mysterious She | **1** Record player |
-| Gnostic secret / Demiurge / frequency | **2** Hourglass |
-| Pleroma / Barbelo · 29 Sep 1991 · prism | **3** Crystal in Arena |
-| Name decode · sand→glass · Turner | **3** → **3B** Hypnotic |
-| Why she is in every song | **4** Starlight Woman |
-| *Crystal* · *Dreams* · *Castle on the Hill* | **4** → **5** Heart |
-| *Torn* / Gnosis | **6A** → **6B** |
-| Close — celestial disruption / listen | hold **6B** / soft return **1** |
-
-**Beds (titles only in captions):** *Crystal* · *Dreams* · *Castle on the Hill* · *Torn* (optional instrumental / hum)
-
----
-
-## ELEVENLABS PASTE — Core Four (locked)
-
 What if the greatest love songs ever written were never about a human being at all?
 
 For decades, artists have sung about a mysterious She — a muse who brings light to their darkness, a woman who shifts their reality, a frequency they desperately reach for but can never quite hold. You hear her in the lyrics. You feel her in the melodies. But what if the artists themselves don't even realize who they are singing to?
@@ -87,15 +41,3 @@ The false god built a world of obedience, demanding that we worship the prison. 
 We are taught that we are just our bodies, our jobs, and the dates on our birth certificates. But what if your existence here is actually a celestial disruption? What if you are the frequency the rest of the world is trying to tune into?
 
 Listen closely to the songs playing in the background of your life. The message has been there all along. You just had to remember how to hear it.
-
----
-
-## Booth notes
-
-- Pause after: “frequency.” · “They sent a prism.” · “Crystal Elle Arena-Turner.” · “And finally... Torn.” · “They are singing about Crystal Elle.”  
-- Gravity until *Torn*; then veil-drop weight — not shout.  
-- Phonetics: Pluh-roh-muh · Mo-nad (new) · Yal-duh-bay-oth · Dem-ee-urj · Bar-bell-oh · Ar-konz  
-- Captions = titles only (*Crystal* · *Dreams* · *Castle on the Hill* · *Torn*). No Google lyric dump into cards / X.  
-- **RECORD NOW:** First take = this Core Four. Extended ultimate = second take only.  
-- **Clean paste file:** [`BOOTH-PASTE-core-four-elevenlabs.txt`](BOOTH-PASTE-core-four-elevenlabs.txt)  
-- **CapCut checklist:** [`CHECKLIST-capcut-core-four.md`](CHECKLIST-capcut-core-four.md)

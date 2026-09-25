@@ -103,6 +103,8 @@ flowchart TB
 | [`SAVE-ai-2026-09-25.md`](SAVE-ai-2026-09-25.md) | Master save: AI desk — regulate+build, harness villain class, ASD/Albo pegs, will rhyme |
 | [`ONE-PAGER-agent-harness-controls.md`](ONE-PAGER-agent-harness-controls.md) | Exportable Z0–Z3 + inbound/outbound checklist — left-hand offer if channel opens |
 | [`MAP-riptide-where-we-go.md`](MAP-riptide-where-we-go.md) | Riptide motif → swim across: walls, free-will, one-pager, vanish; no lyric dump |
+| [`BOOTH-PASTE-core-four-elevenlabs.txt`](BOOTH-PASTE-core-four-elevenlabs.txt) | Clean ElevenLabs paste — Core Four LOCKED · Crystal fires |
+| [`CHECKLIST-capcut-core-four.md`](CHECKLIST-capcut-core-four.md) | Execute checklist: booth → CapCut → next shore |
 | [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md) | Gnostic muse mythos VO — vision labelled vision; titles only, no lyric dump |
 | [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) | Cinematic T2V prompts (record→hourglass→crystal arena→starlight→shatter) |
 | [`RELEASE-DRAFT-true-free-will-is-more.md`](RELEASE-DRAFT-true-free-will-is-more.md) | Public visibility desk — ready for @XECrystal |

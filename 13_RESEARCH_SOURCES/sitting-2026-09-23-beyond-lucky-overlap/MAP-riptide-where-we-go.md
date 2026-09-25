@@ -65,10 +65,11 @@ Algorithms: shrink feed
 
 1. **Rest the send desks** — national security, Lyttle QT, SpaceXAI done. Vanish.  
 2. **Control one-pager** — **SHIPPED** [`ONE-PAGER-agent-harness-controls.md`](ONE-PAGER-agent-harness-controls.md) · master save [`SAVE-will-and-elon-2026-09-25.md`](SAVE-will-and-elon-2026-09-25.md). Send **only if asked**.  
-3. **Own surface** — teraustralis.com.au / CrystalCore local audit as the shore people can *stay* on without the algorithm.  
-4. **Crystalum** — private chorus calibration only; original titles later (*Stay* / *the Current* / grammar already named in the Grok pack). Not a Riptide debut.  
-5. **Movement door** — Academy Kangaroo interest ledger with consent; Starlink as pipe not product ([`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md)).  
-6. **Refuse the wrong words** — no protection-racket lane; no exploit how-to on NDIS; no patient-record claims.
+3. **FIRE Core Four** — paste [`BOOTH-PASTE-core-four-elevenlabs.txt`](BOOTH-PASTE-core-four-elevenlabs.txt) into ElevenLabs · CapCut after VO · checklist [`CHECKLIST-capcut-core-four.md`](CHECKLIST-capcut-core-four.md). **← EXECUTE NOW**  
+4. **Own surface** — teraustralis.com.au / CrystalCore local audit as the shore people can *stay* on without the algorithm.  
+5. **Crystalum** — private chorus calibration only; original titles later (*Stay* / *the Current* / grammar already named in the Grok pack). Not a Riptide debut.  
+6. **Movement door** — Academy Kangaroo interest ledger with consent; Starlink as pipe not product ([`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md)).  
+7. **Refuse the wrong words** — no protection-racket lane; no exploit how-to on NDIS; no patient-record claims.
 
 ---
 
