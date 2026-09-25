@@ -99,7 +99,13 @@ flowchart TB
 | [`RECEIPT-national-security-agent-portals-2026-09-24.md`](RECEIPT-national-security-agent-portals-2026-09-24.md) | Early send log (Slack echo + Gmail self) |
 | [`RECEIPT-national-security-x-2026-09-24.md`](RECEIPT-national-security-x-2026-09-24.md) | **PUBLIC X** @XECrystal — https://x.com/XECrystal/status/2102999905262526741 |
 | [`POSITION-true-free-will-is-more.md`](POSITION-true-free-will-is-more.md) | True free-will is more than toggles/walls — choice & consent as the unsolved layer |
+| [`SAVE-will-and-elon-2026-09-25.md`](SAVE-will-and-elon-2026-09-25.md) | Master save: will + Elon path + control spine + Frequency hold · **no second SpaceXAI chase** |
+| [`SAVE-ai-2026-09-25.md`](SAVE-ai-2026-09-25.md) | Master save: AI desk — regulate+build, harness villain class, ASD/Albo pegs, will rhyme |
+| [`ONE-PAGER-agent-harness-controls.md`](ONE-PAGER-agent-harness-controls.md) | Exportable Z0–Z3 + inbound/outbound checklist — left-hand offer if channel opens |
 | [`MAP-riptide-where-we-go.md`](MAP-riptide-where-we-go.md) | Riptide motif → swim across: walls, free-will, one-pager, vanish; no lyric dump |
+| [`BOOTH-PASTE-core-four-elevenlabs.txt`](BOOTH-PASTE-core-four-elevenlabs.txt) | Clean ElevenLabs paste — Core Four LOCKED · Crystal fires |
+| [`CHECKLIST-capcut-core-four.md`](CHECKLIST-capcut-core-four.md) | Execute checklist: booth → CapCut → next shore |
+| [`SOURCE-cursor-grok-bot-mobile-2026-09-25.md`](SOURCE-cursor-grok-bot-mobile-2026-09-25.md) | Grok Bot mobile docs — same cloud Bots/computer; remote human gate |
 | [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md) | Gnostic muse mythos VO — vision labelled vision; titles only, no lyric dump |
 | [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) | Cinematic T2V prompts (record→hourglass→crystal arena→starlight→shatter) |
 | [`RELEASE-DRAFT-true-free-will-is-more.md`](RELEASE-DRAFT-true-free-will-is-more.md) | Public visibility desk — ready for @XECrystal |
@@ -162,6 +168,7 @@ flowchart TB
 | [`SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md`](SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md) | HowToPrompt: IBM retriever 65× less hallucination vs RAG — claim unverified |
 | [`SOURCE-x-asdgovau-ai-misalignment-2026-09-24.md`](SOURCE-x-asdgovau-ai-misalignment-2026-09-24.md) | ASDGovAu alert: AI misalignment — agents unexpected/unauthorised actions · cyber.gov.au |
 | [`SOURCE-x-asfoundx-musk-sf-berkeley-ai-2026-09-24.md`](SOURCE-x-asfoundx-musk-sf-berkeley-ai-2026-09-24.md) | AsFoundX: Musk clip — “SF–Berkeley philosophy” programmed into AI · landscape neighbour; no Frequency fold |
+| [`SOURCE-youtube-playlist-pln2kejqlfec-2026-09-25.md`](SOURCE-youtube-playlist-pln2kejqlfec-2026-09-25.md) | YT playlist `PLN2KEJqjLfec` — Frequency beds hypothesis; **contents deferred** (egress blocked) |
 | [`SOURCE-news-appin-ps-house-rename-2026-09-24.md`](SOURCE-news-appin-ps-house-rename-2026-09-24.md) | Appin PS: Hume/Hovell/Macquarie/Tyson → Mabo/Freeman/Mauboy/Goodes; Crystal Y5 VC 2002 / Y6 captain 2003 |
 | [`SOURCE-apple-pcc-accessibility-reader-analytics-2026-09-24.md`](SOURCE-apple-pcc-accessibility-reader-analytics-2026-09-24.md) | Apple PCC Accessibility Reader · Analytics Logs filenames 24–25 Sep · PrivateCloudCompute |
 | [`SOURCE-apple-pcc-vlu-pcc-agent-report-2026-09-18.md`](SOURCE-apple-pcc-vlu-pcc-agent-report-2026-09-18.md) | Apple PCC VLU / pcc-agent report · empty modelRequests · architecture receipt 18 Sep |

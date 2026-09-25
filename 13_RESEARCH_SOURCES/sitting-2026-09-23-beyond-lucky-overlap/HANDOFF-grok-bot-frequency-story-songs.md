@@ -151,8 +151,24 @@ Order roughly follows MASTER journey (some CapCut beds may reorder for music edi
 
 - `MASTER-frequency-cinematic-journey.md`  
 - `SCRIPT-frequency-directors-cut-elevenlabs.md` (Core Four VO)  
+- `BOOTH-PASTE-core-four-elevenlabs.txt` (clean ElevenLabs paste)  
+- `CHECKLIST-capcut-core-four.md` (booth → CapCut)  
 - `SCRIPT-frequency-extended-directors-cut-elevenlabs.md`  
 - `SCRIPT-frequency-barbelo-turner-narration.md` (beat bible)  
-- `MAP-riptide-where-we-go.md`
+- `MAP-riptide-where-we-go.md`  
+- `SOURCE-cursor-grok-bot-mobile-2026-09-25.md` (mobile app ops)
 
 Repo: CrystalArchitect / The-Crystal-Vision-System · sitting folder `13_RESEARCH_SOURCES/sitting-2026-09-23-beyond-lucky-overlap/`
+
+---
+
+## Mobile (Grok Bot app — same cloud computer)
+
+**Peg:** [`SOURCE-cursor-grok-bot-mobile-2026-09-25.md`](SOURCE-cursor-grok-bot-mobile-2026-09-25.md)  
+**Downloads:** App Store `id6794501026` · Google Play `ai.x.grok.bot`
+
+Crystal can start work, dictate, voice-chat, attach photos/files (iOS share sheet), watch the shared computer, take over 2FA/CAPTCHA, and approve Email/Slack cards **away from the desk**. Work continues in the cloud when the app is closed.
+
+**Needs:** iOS 18+ / Android 9+ · paid Cursor or linked SuperGrok · internet.  
+**Desktop still required for:** editing routine schedule/instruction · testing routines · teach-by-demonstration.  
+**Tide:** one desk, one send — mobile does not mint a second SpaceXAI chase or auto-post to X.

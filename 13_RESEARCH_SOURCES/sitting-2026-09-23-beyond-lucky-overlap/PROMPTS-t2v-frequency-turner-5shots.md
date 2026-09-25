@@ -9,7 +9,7 @@
 **Heart fire:** Shot 5 — Divine Spark (VO: spark inserted 29 Sep 1991 / Crystal Elle)  
 **Climax fire:** Shot 6 — *Torn* Gnosis  
 **Stack preference:** Runway (auth) → Veo / Grok / ElevenLabs Video → stills last resort  
-**Render status (agent):** not yet — Runway needs Connect; Treg Veo token previously expired · CapCut timeline not built · ElevenLabs VO not recorded yet (Core Four **LOCKED**)
+**Render status (agent):** booth paste + CapCut checklist **ARMED** 25 Sep · ElevenLabs VO not recorded yet (Crystal fires) · CapCut timeline not built · Runway needs Connect; Treg Veo token previously expired
 
 ---
 
