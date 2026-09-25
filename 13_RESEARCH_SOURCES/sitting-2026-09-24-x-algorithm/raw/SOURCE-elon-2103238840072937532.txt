@@ -1,0 +1,19 @@
+# SOURCE — Elon Musk post pointing to Under the Hood
+
+**Fetched:** 2026-09-24 via X API `get_posts_by_id`  
+**ID:** 2103238840072937532  
+**URL:** https://x.com/elonmusk/status/2103238840072937532  
+**Author:** @elonmusk (44196397)  
+**Created:** 2026-09-24T21:43:10.000Z  
+
+## Text
+
+Easy way to see how the 𝕏 algorithm works https://t.co/BUl8ZVwBLS
+
+## Metrics (at fetch)
+
+impressions ~732718 · likes 2452 · replies 629 · retweets 454 · quotes 46 · bookmarks 382
+
+## Context
+
+Quotes XOpenSource status 2103234630342357089 (Under the Hood UI).

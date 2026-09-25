@@ -219,4 +219,14 @@ All findings carry explicit evidence chains and statistical correction methods. 
 
 ---
 
+## Related platform sittings (Drawer 13 — not Domains 1–5)
+
+External platform literacy packs live under `13_RESEARCH_SOURCES/` (compass). Connection ≠ merge with Drawer 16.
+
+| Sitting | Peg |
+| --- | --- |
+| [`sitting-2026-09-24-x-algorithm/`](../13_RESEARCH_SOURCES/sitting-2026-09-24-x-algorithm/) | X For You open-source + Under the Hood; withheld/missing map (24 Sep 2026) |
+
+---
+
 <!-- topics: research-status, cross-domain, integration, baseline -->

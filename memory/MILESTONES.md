@@ -7,6 +7,13 @@ tracks that project; this file tracks this repo).
 **Write-back:** when monorepo-level work lands, add a dated entry here and,
 if it changes "now," update the relevant row in [`INDEX.md`](INDEX.md).
 
+## 2026-09-24 — Starline naming sitting archived
+
+- Plain-language law live: [`00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md)
+- Paste card: [`docs/PASTE-THIS.md`](../docs/PASTE-THIS.md)
+- Sitting closed: [`15_ARCHIVE_HISTORY/starline-naming-sitting-2026-09-19-closed/`](../15_ARCHIVE_HISTORY/starline-naming-sitting-2026-09-19-closed/)
+- PRs: #32 · #59 · #65. Law stays live; sitting archived. *Spread the bird, not the word.*
+
 ## 2026-09-19 — Alive Weave: ConsentGate before bus speech
 
 - `scripts/alive/bridge_gate.py` — real ConsentGate probes (allow / refuse).

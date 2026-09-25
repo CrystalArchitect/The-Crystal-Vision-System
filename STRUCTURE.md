@@ -42,6 +42,6 @@ Rules already locked:
 
 - One collector file. One working index. Extracts, not chat dumps.
 - Duplicate Drive root stays flagged. Do not merge.
-- **Starline** is the project name. Law: [`00_MASTER_INDEX/NAMING-STARLINE.md`](00_MASTER_INDEX/NAMING-STARLINE.md). *Spread the bird, not the word.*
+- **Starline** is the project name. Law: [`00_MASTER_INDEX/NAMING-STARLINE.md`](00_MASTER_INDEX/NAMING-STARLINE.md). *The bird is the word.*
 - Connection ≠ merge.
 - Collection Mode v0.2.0: https://drive.google.com/file/d/1I4n2n3uYMJ3oaHJwGIirfekaprq6A7Hg/view

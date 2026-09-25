@@ -1,0 +1,17 @@
+# SOURCE — X Open Source legal filtering expansion (UTH)
+
+**Fetched:** 2026-09-24 via X API `get_posts_by_id`  
+**ID:** 2101103144004411696  
+**URL:** https://x.com/XOpenSource/status/2101103144004411696  
+**Author:** @XOpenSource  
+**Created:** 2026-09-19T00:16:40.000Z  
+
+## Text (truncated by API; note_tweet may hold full)
+
+We’ve expanded Under The Hood after seeing people’s appreciation of more transparency into government-required content filtering.
+
+In addition to showing labels applied to your account and posts in the prior month, Under The Hood now shows if your account or posts had their …
+
+## Public coverage note
+
+Secondary press (e.g. India Today 22 Sep 2026): report can identify posts withheld in a country following a legal demand; eligibility still age + post-count gates.

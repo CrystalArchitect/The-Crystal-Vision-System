@@ -269,7 +269,7 @@ Plagiarism allegation. Evidence does not support it.
 2. Outreach log check: did Richardson / Aurecon appear in pathway tracker?  
 3. Ship option B (comment or short LinkedIn / steward post).  
 4. If desired: one steward page that is literally this synthesis for humans (not the research folder).  
-5. Ungate or paste Claude artifacts currently sign-in only (12) — see `SOURCE-claude-artifact-*-gated.md`. Also gated: Claude **Code** sessions `019o7YXk6zpYLXrm8WyuJe3G`, `01PMZGfgRze3szCpBqaWanGp`. Prefer `/share/` or known-public artifacts (Doc 13 *What Is Built*, *Clementine*).
+5. Ungate or paste Claude artifacts currently sign-in only (12) — see `SOURCE-claude-artifact-*-gated.md`. Also gated: Claude **Code** sessions `019o7YXk6zpYLXrm8WyuJe3G`, `01PMZGfgRze3szCpBqaWanGp`. Prefer `/share/` or known-public artifacts (Doc 13 *What Is Built*, *Clementine*). **Inventory:** [`artefacts/README.md`](artefacts/README.md) — map-and-territory / What Is Built / Protocol Omega now have durable bodies; 23 cited screenshots + 48/56 visual-dump frames still missing on this node.
 
 ---
 
