@@ -75,6 +75,7 @@
 - **ONE-PAGER agent harness controls** (Z0–Z3 + inbound/outbound · left-hand offer if channel opens): [`ONE-PAGER-agent-harness-controls.md`](ONE-PAGER-agent-harness-controls.md)  
 - **Riptide chart** (where we go next — across the pull): [`MAP-riptide-where-we-go.md`](MAP-riptide-where-we-go.md)
 - **Grok Bot handoff** (story of me + full song list — paste into Grok): [`HANDOFF-grok-bot-frequency-story-songs.md`](HANDOFF-grok-bot-frequency-story-songs.md)
+- **Grok Bot mobile** (iOS/Android · same cloud computer · approve away from desk): [`SOURCE-cursor-grok-bot-mobile-2026-09-25.md`](SOURCE-cursor-grok-bot-mobile-2026-09-25.md) · App Store `id6794501026` · Google Play `ai.x.grok.bot`
 - **Grok EVERYTHING dump** (full pack for Grok to structure into bots · ~28k words): [`HANDOFF-GROK-EVERYTHING-structure-me.md`](HANDOFF-GROK-EVERYTHING-structure-me.md)
 - **Frequency MASTER journey (LOCKED):** [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md) · Core Four + Extended CapCut master (**CONDUCTOR PEAK** · *Sailor Moon* · *Riptide* · *Colours of the Wind* · *I Am Australian* · *Roots* · *Jerusalema* · *Shotgun* · *Laced Up* · *Shake That* mapped) — **FIRE ELEVENLABS**
 - **Core Four booth armed:** clean paste [`BOOTH-PASTE-core-four-elevenlabs.txt`](BOOTH-PASTE-core-four-elevenlabs.txt) · CapCut checklist [`CHECKLIST-capcut-core-four.md`](CHECKLIST-capcut-core-four.md) · script [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)
