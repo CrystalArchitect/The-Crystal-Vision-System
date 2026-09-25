@@ -162,6 +162,7 @@ flowchart TB
 | [`SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md`](SOURCE-x-howtoprompt-ibm-retriever-2026-09-24.md) | HowToPrompt: IBM retriever 65× less hallucination vs RAG — claim unverified |
 | [`SOURCE-x-asdgovau-ai-misalignment-2026-09-24.md`](SOURCE-x-asdgovau-ai-misalignment-2026-09-24.md) | ASDGovAu alert: AI misalignment — agents unexpected/unauthorised actions · cyber.gov.au |
 | [`SOURCE-x-asfoundx-musk-sf-berkeley-ai-2026-09-24.md`](SOURCE-x-asfoundx-musk-sf-berkeley-ai-2026-09-24.md) | AsFoundX: Musk clip — “SF–Berkeley philosophy” programmed into AI · landscape neighbour; no Frequency fold |
+| [`SOURCE-youtube-playlist-pln2kejqlfec-2026-09-25.md`](SOURCE-youtube-playlist-pln2kejqlfec-2026-09-25.md) | YT playlist `PLN2KEJqjLfec` — Frequency beds hypothesis; **contents deferred** (egress blocked) |
 | [`SOURCE-news-appin-ps-house-rename-2026-09-24.md`](SOURCE-news-appin-ps-house-rename-2026-09-24.md) | Appin PS: Hume/Hovell/Macquarie/Tyson → Mabo/Freeman/Mauboy/Goodes; Crystal Y5 VC 2002 / Y6 captain 2003 |
 | [`SOURCE-apple-pcc-accessibility-reader-analytics-2026-09-24.md`](SOURCE-apple-pcc-accessibility-reader-analytics-2026-09-24.md) | Apple PCC Accessibility Reader · Analytics Logs filenames 24–25 Sep · PrivateCloudCompute |
 | [`SOURCE-apple-pcc-vlu-pcc-agent-report-2026-09-18.md`](SOURCE-apple-pcc-vlu-pcc-agent-report-2026-09-18.md) | Apple PCC VLU / pcc-agent report · empty modelRequests · architecture receipt 18 Sep |
