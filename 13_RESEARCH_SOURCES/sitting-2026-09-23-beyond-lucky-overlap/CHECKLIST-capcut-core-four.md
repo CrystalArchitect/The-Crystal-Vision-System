@@ -22,6 +22,7 @@
 | 6 | Target runtime **~6:00–7:00** (~873 words) | ☐ |
 | 7 | Export WAV/MP3 · filename `frequency-core-four-YYYY-MM-DD.wav` | ☐ |
 | 8 | File receipt in sitting: `RECEIPT-elevenlabs-core-four-YYYY-MM-DD.md` (time · voice · runtime · link/path) | ☐ |
+| 9 | Optional: confirm steps / attach stills via **Grok Bot mobile** (same cloud computer) — [`SOURCE-cursor-grok-bot-mobile-2026-09-25.md`](SOURCE-cursor-grok-bot-mobile-2026-09-25.md) | ☐ |
 
 **Do not:** fire Extended booth same hour · dump Google lyrics into CapCut cards · claim biography-as-fact.
 
