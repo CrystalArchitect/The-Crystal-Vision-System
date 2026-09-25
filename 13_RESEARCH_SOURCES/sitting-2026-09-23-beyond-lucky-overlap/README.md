@@ -71,6 +71,7 @@
 - **SpaceXAI inform** (**sent** Safari Gmail → sales@x.ai / CC safety@x.ai 24 Sep): [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md) · [`RECEIPT-spacexai-inform-2026-09-24.md`](RECEIPT-spacexai-inform-2026-09-24.md)  
 - **True free-will is more:** walls protect the room; free-will is the person in it — [`POSITION-true-free-will-is-more.md`](POSITION-true-free-will-is-more.md) · [`RELEASE-DRAFT-true-free-will-is-more.md`](RELEASE-DRAFT-true-free-will-is-more.md) (**desk open — visibility**)
 - **SAVE will + Elon** (master pack · tide: no second chase): [`SAVE-will-and-elon-2026-09-25.md`](SAVE-will-and-elon-2026-09-25.md)  
+- **SAVE AI** (regulate + build + harness · stacks under will): [`SAVE-ai-2026-09-25.md`](SAVE-ai-2026-09-25.md)  
 - **ONE-PAGER agent harness controls** (Z0–Z3 + inbound/outbound · left-hand offer if channel opens): [`ONE-PAGER-agent-harness-controls.md`](ONE-PAGER-agent-harness-controls.md)  
 - **Riptide chart** (where we go next — across the pull): [`MAP-riptide-where-we-go.md`](MAP-riptide-where-we-go.md)
 - **Grok Bot handoff** (story of me + full song list — paste into Grok): [`HANDOFF-grok-bot-frequency-story-songs.md`](HANDOFF-grok-bot-frequency-story-songs.md)

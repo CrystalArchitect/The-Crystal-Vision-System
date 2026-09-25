@@ -100,6 +100,7 @@ flowchart TB
 | [`RECEIPT-national-security-x-2026-09-24.md`](RECEIPT-national-security-x-2026-09-24.md) | **PUBLIC X** @XECrystal — https://x.com/XECrystal/status/2102999905262526741 |
 | [`POSITION-true-free-will-is-more.md`](POSITION-true-free-will-is-more.md) | True free-will is more than toggles/walls — choice & consent as the unsolved layer |
 | [`SAVE-will-and-elon-2026-09-25.md`](SAVE-will-and-elon-2026-09-25.md) | Master save: will + Elon path + control spine + Frequency hold · **no second SpaceXAI chase** |
+| [`SAVE-ai-2026-09-25.md`](SAVE-ai-2026-09-25.md) | Master save: AI desk — regulate+build, harness villain class, ASD/Albo pegs, will rhyme |
 | [`ONE-PAGER-agent-harness-controls.md`](ONE-PAGER-agent-harness-controls.md) | Exportable Z0–Z3 + inbound/outbound checklist — left-hand offer if channel opens |
 | [`MAP-riptide-where-we-go.md`](MAP-riptide-where-we-go.md) | Riptide motif → swim across: walls, free-will, one-pager, vanish; no lyric dump |
 | [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md) | Gnostic muse mythos VO — vision labelled vision; titles only, no lyric dump |

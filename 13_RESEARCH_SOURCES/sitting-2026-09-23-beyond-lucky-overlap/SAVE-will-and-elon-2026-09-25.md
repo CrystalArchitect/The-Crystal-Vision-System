@@ -4,6 +4,7 @@
 **Status:** master save pack · swim-across shore · **not** a second SpaceXAI chase  
 **Ask that caused this:** “Give me everything, I want to save the wi and Elon”  
 **Read:** **wi** = **will** (true free-will) · **Elon** = SpaceXAI / Grok harness diligence path already opened  
+**Sister pack:** [`SAVE-ai-2026-09-25.md`](SAVE-ai-2026-09-25.md) · [`ONE-PAGER-agent-harness-controls.md`](ONE-PAGER-agent-harness-controls.md)  
 
 ---
 
