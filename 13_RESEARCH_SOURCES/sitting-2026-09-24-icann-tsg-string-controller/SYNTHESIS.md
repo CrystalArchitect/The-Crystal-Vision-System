@@ -142,8 +142,8 @@ No stamp that Crystal applies for a gTLD or builds an alt-name registry.
 
 ## Honesty
 
-- Egress to `icann.org` / `itp.cdn.icann.org` blocked in this environment; Depth A–C labeled in DEEP-EXTRACTS.  
-- Primary PDFs still thin: RySG, WIPO, CleanDNS, Netnod (and full MeitY/ISPCP/.ART/D3).  
+- Egress to `icann.org` / `itp.cdn.icann.org` blocked for direct curl; Depth A–C labeled in DEEP-EXTRACTS.  
+- **Thin-PDF pass 25 Sep 2026:** RySG / WIPO / CleanDNS / Netnod primaries still unrecovered (CDN search miss + no Circleid paraphrase for CleanDNS/Netnod). Tucows upgraded to Depth B via indexed PDF. MeitY/ISPCP/.ART remain Circleid B-lite only.  
 - Do not invent quotes for thin rows.  
 - Sibling SYNTHESIS at `icann-tsg-gtld-ans-2026/` covers the same proceeding; **Bird** is middle-path (transition, no entitlement), not prior-claim — corrected here and in that pack’s pointer.
 

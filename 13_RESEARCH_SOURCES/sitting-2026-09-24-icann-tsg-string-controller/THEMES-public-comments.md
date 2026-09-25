@@ -54,7 +54,7 @@ String+controller (same string / same controller or exclusive withhold) is treat
 
 **MeitY India** (via Circleid): measurable requirements for failure handling, independent security testing, collision measures.
 
-**Netnod / CleanDNS:** rostered; PDF/summary not recovered this pass — follow links in CSV before citing. **RySG / WIPO:** positions known via ENS cite; primary PDFs still open. **.ART / Tucows / D3:** Circleid/Domainera + submission summaries.
+**Netnod / CleanDNS:** rostered; PDF/summary still unrecovered after thin-PDF pass 25 Sep — follow links in CSV before citing. **RySG / WIPO:** positions known via ENS cite only; primaries still open. **Tucows:** Depth B (CDN PDF crawl). **.ART / D3 / MeitY / ISPCP:** Circleid B-lite or list summary only.
 
 ### 7. Individual / alt-name operator cluster
 
@@ -77,7 +77,8 @@ Many individual and Web3-facing comments (APlusDomains.Crypto, Barrett, Manorata
 | Unregistry | Support principle; user-side model | DNSSEC association records ≠ registry service; IETF path |
 | ISPCP / MeitY | Hardening | Measurable risk, controller assurance, sync/failure tests, continuity/shutdown |
 | WIPO | Rights enforcement | Cybersquatting / RPM applicability (read PDF before quoting) |
-| CleanDNS / Netnod | Thin this pass | Roster links only — fetch PDFs before citing |
+| Tucows | Picket Fence / support RrSG | DNS-side OK; don’t regulate ANS internals; advisory ≠ binding |
+| CleanDNS / Netnod | Thin (25 Sep pass) | Roster links only — fetch PDFs before citing |
 
 ---
 
