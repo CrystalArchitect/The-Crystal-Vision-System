@@ -25,9 +25,16 @@
 | [`raw/*.txt`](raw/) | Post receipts |
 | [`extracts/SOURCE-INDEX.md`](extracts/SOURCE-INDEX.md) | URL index |
 
+## Addendum 2026-09-25 (“Go”)
+
+| Step | What |
+| --- | --- |
+| Sparse clone | `git clone --filter=blob:none --sparse` of `xai-org/x-algorithm` @ `bf7db1b` → `under-the-hood/strato/lib/underTheHoodLabels.strato` |
+| Filed | [`CHECKLIST-UTH-LABELS.md`](CHECKLIST-UTH-LABELS.md) + verbatim extract [`extracts/SOURCE-underTheHoodLabels.strato`](extracts/SOURCE-underTheHoodLabels.strato) |
+
 ## Not done
 
-- No clone of `xai-org/x-algorithm` into this monorepo (licensing / size; extract only)  
+- No full vendor of `xai-org/x-algorithm` into this monorepo (extract only)  
 - No live Under the Hood JSON from a Crystal account (no credentials)  
 - No Canon stamp  
 
