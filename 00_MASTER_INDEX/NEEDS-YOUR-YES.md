@@ -57,6 +57,7 @@ Siri to Portal to CrystalCore.OS to TAI is on disk as the layer map. Not Canon y
 - This repo is the filing hub  
 - Chaos Engine is a go (counts are not verdicts)  
 - Do not build Starfleet OS  
+- **AGR-ICANN-TSG-GROK** — Grok Bot may use the ICANN TSG paste card as a **research desk** only (26 Sep `Ok stamp`; Canon still no)  
 
 ## Story only (not a decision)
 
