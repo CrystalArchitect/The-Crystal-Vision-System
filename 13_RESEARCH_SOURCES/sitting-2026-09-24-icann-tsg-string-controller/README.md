@@ -41,7 +41,7 @@
 
 This sitting is **after** the comment window. Do not invent a late filing unless Crystal stamps an out-of-band path.
 
-**Public Comment roster (filed 24 Sep):** 40 submissions in CSV (2 retracted). Deep pass v2 covers Unregistry (A), SSAC/ALAC/IPC/ENS/RrSG/Clowes/Bird/estmcmxci (B), ISPCP/MeitY/.ART via Circleid, RySG/WIPO via ENS cite; CleanDNS/Netnod still open.
+**Public Comment roster (filed 24 Sep):** 40 submissions in CSV (2 retracted). Deep pass v2 + thin-PDF pass 25 Sep: Unregistry (A); SSAC/ALAC/IPC/ENS/RrSG/Tucows/Clowes/Bird/estmcmxci (B); ISPCP/MeitY/.ART via Circleid; RySG/WIPO via ENS cite; CleanDNS/Netnod/D3 primary still open.
 
 ---
 

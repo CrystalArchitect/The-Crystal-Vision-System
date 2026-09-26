@@ -20,7 +20,7 @@ Ingest and synthesize the closed Public Comment corpus on the **Initial Report o
 
 - 40 submissions indexed from user CSV (2 retracted).
 - Full digests for SSAC, ALAC, IPC, RrSG, Tucows, ENS Foundation, Unregistry, Clowes, Martinez, D3, ISPCP themes; deep pass adds Bird middle path, Circleid MeitY/ISPCP hardening, PC overlay on checklist.
-- Netnod / CleanDNS / WIPO / RySG / MeitY bodies not fully retrieved this sitting (egress); roster links preserved.
+- **Thin-PDF pass 25 Sep 2026:** Tucows upgraded via indexed CDN PDF. RySG / WIPO / CleanDNS / Netnod primaries still miss (CDN search + curl egress). MeitY / ISPCP / .ART remain Circleid paraphrase only. Roster links preserved; no invented quotes.
 - Vision ≠ Built. Connection ≠ merge. Two sittings cross-linked; do not triplicate.
 
 ## Not done

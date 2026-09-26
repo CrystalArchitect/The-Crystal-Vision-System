@@ -70,6 +70,7 @@ Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
+- **2026-09-25 (ICANN TSG thin-PDF pass):** Attempted RySG/WIPO/CleanDNS/Netnod primaries — still Depth C (ENS cite / links only). Tucows upgraded C→B via CDN PDF crawl; Circleid URL pinned for ISPCP/MeitY/.ART. Canon: no.
 - **2026-09-25 (energy × Cosmic plain read):** Indexed `CVS-ENERGY-AI` + `CVS-ORIGIN-VERSE`; drawer READMEs point at `PLAIN-ENGLISH.md` first so the sitting is readable. Canon: no.
 - **2026-09-24 (agreement plain read):** Added `NEEDS-YOUR-YES.md` + `status.py --plain` so Crystal need not read YAML. Canon: no.
 - **2026-09-24 (agreement workflow):** Ledger + `status.py` so Crystal can `AGREE`/`REJECT`/`CANON`/`INTERIM` by id. Separates proposed / interim / crystal_confirmed / canon / vision_only. Canon: no.
