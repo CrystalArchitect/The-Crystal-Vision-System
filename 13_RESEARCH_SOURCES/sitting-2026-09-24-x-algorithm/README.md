@@ -13,9 +13,11 @@
 
 1. [`SYNTHESIS.md`](SYNTHESIS.md) — full algorithm analysis (architecture, weights, playbook, UTH)  
 2. [`WITHHELD-MAP.md`](WITHHELD-MAP.md) — **published vs withheld vs falsified vs out-of-scope**  
-3. [`RECEIPT-agent-sitting-2026-09-24.md`](RECEIPT-agent-sitting-2026-09-24.md) — how this sitting was built  
-4. [`raw/`](raw/) — source receipts (posts, repo pointers)  
-5. [`extracts/SOURCE-INDEX.md`](extracts/SOURCE-INDEX.md) — URL / claim index
+3. [`CHECKLIST-UTH-LABELS.md`](CHECKLIST-UTH-LABELS.md) — run your UTH JSON against the public label catalog  
+4. [`RECEIPT-agent-sitting-2026-09-24.md`](RECEIPT-agent-sitting-2026-09-24.md) — how this sitting was built  
+5. [`raw/`](raw/) — source receipts (posts, repo pointers)  
+6. [`extracts/SOURCE-INDEX.md`](extracts/SOURCE-INDEX.md) — URL / claim index  
+7. [`extracts/SOURCE-underTheHoodLabels.strato`](extracts/SOURCE-underTheHoodLabels.strato) — verbatim label allowlist (repo extract)
 
 ---
 

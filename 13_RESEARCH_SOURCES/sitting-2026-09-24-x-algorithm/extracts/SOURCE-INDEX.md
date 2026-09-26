@@ -17,5 +17,7 @@
 | S13 | Article | https://ppc.land/x-gives-copy-link-shares-a-feed-weight-of-20-against-0-5-for-likes/ | Weight table secondary |
 | S14 | Article | https://www.ryanlenk.com/blogs/articles/x-algorithm-real-ranking-weights | Weight misconception / ratios |
 | S15 | Article | https://techcrunch.com/2026/08/13/x-open-sources-its-ranking-algorithm-letting-users-see-if-theyve-been-shadowbanned/ | Aug 13 launch context (fetch blocked here; via search) |
+| S16 | Code extract | [`SOURCE-underTheHoodLabels.strato`](SOURCE-underTheHoodLabels.strato) | Full post/account/takedown about+effect allowlist (`bf7db1b` sparse clone 2026-09-25) |
+| S17 | Checklist | [`../CHECKLIST-UTH-LABELS.md`](../CHECKLIST-UTH-LABELS.md) | Operator worksheet over S16 |
 
 Local receipts under [`../raw/`](../raw/).
