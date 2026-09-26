@@ -47,26 +47,29 @@ Crystalum *Riptide* cover remains **calibration**, not the debut single ([`SOURC
 ```
 HERE (this sitting)                    ACROSS (do next)                 SHORE (hold)
 ─────────────────                      ─────────────────                ────────────
-OpenAI portal peg                      Global minimum bar checklist     No Starfleet OS
-National-security X  ✓                 (Z0–Z3 + harness) one-pager      No racket QT
-Lyttle QT / free-will ✓                Portal owners / AU agencies      No lyric dump
-SpaceXAI inform ✓                      only if channel opens            Tide: vanish
-Barwick researched → reject            Academy / Kangaroo as movement   Human publishes
-Algorithms: shrink feed                door — consent ledger            Local audit
+OpenAI portal peg                      Portal owners / AU agencies      No Starfleet OS
+National-security X  ✓                 only if channel opens            No racket QT
+Lyttle QT / free-will ✓                Own surface / consent ledger     No lyric dump
+SpaceXAI inform ✓                      Academy Kangaroo door            Tide: vanish
+Control one-pager ✓                    (shipped 25 Sep)                 Human publishes
+SAVE will+Elon ✓                       wait — do not re-chase           Local audit
+Barwick researched → reject
+Algorithms: shrink feed
 ```
 
-**Swim across = build and file the one-pager; keep public voice on walls + free-will; do not dive into every submerged thread.**
+**Swim across = one-pager + SAVE pack filed; keep public voice on walls + free-will; do not dive into every submerged thread.**
 
 ---
 
 ## Ordered next moves (the current)
 
 1. **Rest the send desks** — national security, Lyttle QT, SpaceXAI done. Vanish.  
-2. **Ship the control one-pager** (non-AU language) — exportable walls: Z0≠Z2, dual authority, deny terminal, notify SLA. That’s the left-hand offer if SpaceXAI or anyone asks.  
-3. **Own surface** — teraustralis.com.au / CrystalCore local audit as the shore people can *stay* on without the algorithm.  
-4. **Crystalum** — private chorus calibration only; original titles later (*Stay* / *the Current* / grammar already named in the Grok pack). Not a Riptide debut.  
-5. **Movement door** — Academy Kangaroo interest ledger with consent; Starlink as pipe not product ([`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md)).  
-6. **Refuse the wrong words** — no protection-racket lane; no exploit how-to on NDIS; no patient-record claims.
+2. **Control one-pager** — **SHIPPED** [`ONE-PAGER-agent-harness-controls.md`](ONE-PAGER-agent-harness-controls.md) · master save [`SAVE-will-and-elon-2026-09-25.md`](SAVE-will-and-elon-2026-09-25.md). Send **only if asked**.  
+3. **FIRE Core Four** — paste [`BOOTH-PASTE-core-four-elevenlabs.txt`](BOOTH-PASTE-core-four-elevenlabs.txt) into ElevenLabs · CapCut after VO · checklist [`CHECKLIST-capcut-core-four.md`](CHECKLIST-capcut-core-four.md). **← EXECUTE NOW**  
+4. **Own surface** — teraustralis.com.au / CrystalCore local audit as the shore people can *stay* on without the algorithm.  
+5. **Crystalum** — private chorus calibration only; original titles later (*Stay* / *the Current* / grammar already named in the Grok pack). Not a Riptide debut.  
+6. **Movement door** — Academy Kangaroo interest ledger with consent; Starlink as pipe not product ([`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md)).  
+7. **Refuse the wrong words** — no protection-racket lane; no exploit how-to on NDIS; no patient-record claims.
 
 ---
 

@@ -79,7 +79,7 @@ effective permission = min(invoking user, agent task scope)
 
 A staff member with admin rights who launches a “summarise public spend” agent does **not** mint an admin agent.
 
-**Apple Intelligence / PCC.** Zero Trust-shaped for inference: phone attests PCC node, encrypts to that node, node is stateless, software on a public ledger. ChatGPT as opt-in third party = different trust domain. Mixing them in one Siri utterance without a PEP (user confirm + separate policy) would violate the model. Apple’s confirm-before-ChatGPT sheet is a **crude PEP**.
+**Apple Intelligence / PCC.** Zero Trust-shaped for inference: phone attests PCC node, encrypts to that node, node is stateless, software on a public ledger. ChatGPT as opt-in third party = different trust domain. Mixing them in one Siri utterance without a PEP (user confirm + separate policy) would violate the model. Apple’s confirm-before-ChatGPT sheet is a **crude PEP**. Live receipts in this sitting: Accessibility Reader `modelRequests` ([`SOURCE-apple-pcc-accessibility-reader-analytics-2026-09-24.md`](SOURCE-apple-pcc-accessibility-reader-analytics-2026-09-24.md)) vs VLU `pcc-agent` cloud-only slice ([`SOURCE-apple-pcc-vlu-pcc-agent-report-2026-09-18.md`](SOURCE-apple-pcc-vlu-pcc-agent-report-2026-09-18.md)) — architecture neighbour only; no attestation RE tooling.
 
 ## Zero Trust for agents (2026 extension)
 

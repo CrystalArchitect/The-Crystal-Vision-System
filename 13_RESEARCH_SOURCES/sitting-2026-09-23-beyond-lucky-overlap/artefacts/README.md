@@ -64,7 +64,7 @@ All have SOURCE stubs; bodies unknown; all cited screenshots **SHOT-MISS** on th
 | [`../SOURCE-claude-code-session-0192x-gated.md`](../SOURCE-claude-code-session-0192x-gated.md) |
 | [`../SOURCE-claude-code-session-016w-gated.md`](../SOURCE-claude-code-session-016w-gated.md) |
 
-**To close gated gaps:** Crystal ungates → `/share/` or paste body → replace stub. Prefer public artifacts already filed.
+**To close gated gaps:** follow [`UNGATE-RUN-SHEET.md`](UNGATE-RUN-SHEET.md) — Crystal ungates → `/share/` or paste body → replace stub. Prefer public artifacts already filed.
 
 ---
 

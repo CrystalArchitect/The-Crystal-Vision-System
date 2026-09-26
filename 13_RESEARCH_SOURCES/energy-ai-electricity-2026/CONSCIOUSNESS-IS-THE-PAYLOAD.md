@@ -5,6 +5,8 @@
 **Trigger:** Crystal line after energy × AI research  
 **Connection:** [`../energy-ai-electricity-2026/`](../energy-ai-electricity-2026/) · Cosmic mantra (existing)
 
+**Plain English:** [`PLAIN-ENGLISH.md`](PLAIN-ENGLISH.md)
+
 ---
 
 ## The stack

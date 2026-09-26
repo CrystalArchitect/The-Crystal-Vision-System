@@ -47,6 +47,8 @@ We already have an open exploratory ask with SpaceX / SpaceXAI on Kangaroo-class
 
 Happy to send a one-page control checklist (Z0–Z3 + inbound/outbound) under NDA or on the 30-min exploratory. Not asking you to comment on OpenAI. Asking you to treat this as a **design constraint** for any AU public-sector or allied-gov facing agent path.
 
+**One-pager now filed (send only if asked):** [`ONE-PAGER-agent-harness-controls.md`](ONE-PAGER-agent-harness-controls.md) · master save: [`SAVE-will-and-elon-2026-09-25.md`](SAVE-will-and-elon-2026-09-25.md)
+
 Crystal Elle Arena-Turner  
 Chief Engineer · TerAustralis  
 teraustralis.incognita@gmail.com · +61 450 144 997  

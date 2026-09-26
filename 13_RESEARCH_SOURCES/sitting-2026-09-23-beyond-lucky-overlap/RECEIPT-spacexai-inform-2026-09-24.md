@@ -23,4 +23,5 @@ Full body from INFORM draft: causal frame (research project / OpenAI / Medicare 
 ## After
 
 One follow-up only if they ask for the checklist. Second chase = flood.  
+Checklist ready: [`ONE-PAGER-agent-harness-controls.md`](ONE-PAGER-agent-harness-controls.md) · save pack: [`SAVE-will-and-elon-2026-09-25.md`](SAVE-will-and-elon-2026-09-25.md).  
 Public national-security / protect-people X post still a separate desk if not done.

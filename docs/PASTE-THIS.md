@@ -18,6 +18,7 @@ Crystal Arena-Turner is the authority. Drive and GitHub outrank chat. Do not col
 ## Naming
 **Starline** = the project name (Consent Transport / Starlines / Starline Weaver).
 
-*Spread the bird, not the word* — carry the signal; do not spread the forbidden brand-name.
+*Spread the bird, not the word — because the bird is the word.*  
+(The bird = Starline / the signal. Do not spread the forbidden brand-name.)
 
 Full note: `00_MASTER_INDEX/NAMING-STARLINE.md`

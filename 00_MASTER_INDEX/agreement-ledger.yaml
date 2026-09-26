@@ -1,0 +1,102 @@
+# Agreement ledger — hub coordination
+# Canon: no until status: canon
+# Workflow: 00_MASTER_INDEX/AGREEMENT-WORKFLOW.md
+# Update only when Crystal replies AGREE / REJECT / CANON / INTERIM <id>
+version: 1
+updated: "2026-09-24"
+authority: Crystal Arena-Turner
+
+items:
+  # --- Pending Crystal packets (CRYSTAL-DECISIONS-PENDING) ---
+  - id: DEC-A
+    title: Drive folders 16–20 create + paste URLs into STRUCTURE
+    status: proposed
+    source: 00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md#A
+    confirmed: null
+    note: "MCP Drive auth timed out; Crystal creates folders"
+
+  - id: DEC-B
+    title: memory/ vs 00_MEMORY/ naming (options 1–3)
+    status: interim
+    source: 00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md#B
+    confirmed: "2026-09-18"
+    note: "Option 1 keep-both documented as interim; rename needs stamp"
+
+  - id: DEC-C
+    title: Confirm stub/UK/CrystalCore* repos GONE was intentional
+    status: proposed
+    source: 00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md#C
+    confirmed: null
+    note: "Live inventory 0 private; need Crystal yes"
+
+  - id: DEC-D
+    title: Appoint domain stewards drawers 16–20 + Product
+    status: proposed
+    source: 00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md#D
+    confirmed: null
+    note: "MAINTAINERS.md TBD — Crystal names only"
+
+  - id: DEC-E
+    title: MemoryCore Track A/B (options E1–E4)
+    status: interim
+    source: 00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md#E
+    confirmed: "2026-09-19"
+    note: "Agents operate as E1 separate tracks until Crystal stamps"
+
+  # --- Coordination already treated as Crystal-confirmed (still Canon no) ---
+  - id: AGR-ALIVE-WEAVE
+    title: Alive Weave — connect islands; do not merge
+    status: crystal_confirmed
+    source: memory/DECISIONS.md
+    confirmed: "2026-09-18"
+    note: "Connection ≠ merge; pulse/weave on hub"
+
+  - id: AGR-CONSENTGATE
+    title: ConsentGate before Alive Weave guest speech
+    status: crystal_confirmed
+    source: memory/DECISIONS.md
+    confirmed: "2026-09-19"
+    note: "Fail-closed; default on"
+
+  - id: AGR-MONOREPO-BASE
+    title: Use The-Crystal-Vision-System as monorepo filing hub
+    status: crystal_confirmed
+    source: memory/DECISIONS.md
+    confirmed: "2026-09-09"
+    note: "Subtree custody ≠ project merge"
+
+  - id: AGR-CHAOS-ENGINE
+    title: Chaos Engine GO — multi-seat fan-out Built
+    status: crystal_confirmed
+    source: 00_MASTER_INDEX/CHAOS-ENGINE.md
+    confirmed: "2026-09-20"
+    note: "Counts ≠ verdicts; Canon still no"
+
+  - id: AGR-NO-STARFLEET-OS
+    title: Do not build Starfleet OS — stack already covers it
+    status: crystal_confirmed
+    source: 14_AI_INTERACTIONS/2026-09-20-NO-STARFLEET-OS.md
+    confirmed: "2026-09-20"
+    note: "Kangaroo Division = pitch pack only"
+
+  - id: AGR-STACK-SURFACE
+    title: Siri→Portal→CrystalCore.OS→TAI layer contracts
+    status: interim
+    source: 00_MASTER_INDEX/STACK-SURFACE.md
+    confirmed: "2026-09-20"
+    note: "Contracts on disk; Core ≠ agent; Canon no"
+
+  # --- Vision filings (not agreement gates) ---
+  - id: VIS-AHS-LEMURIA
+    title: AHS Lemuria terminal sandbox (Devouring Deep)
+    status: vision_only
+    source: 10_ORIGINAL_CREATIVE/ahs-lemuria/
+    confirmed: "2026-09-22"
+    note: "Playable Vision; FX fan-fiction disclaimer; not Canon"
+
+  - id: VIS-FERMI-SILENT-LINE
+    title: Fermi's Silent Line poster / song (Starline family)
+    status: vision_only
+    source: 10_ORIGINAL_CREATIVE/sitting-2026-09-19/
+    confirmed: "2026-09-19"
+    note: "Creative; Songline remains out of bounds"

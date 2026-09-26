@@ -13,12 +13,12 @@
 
 | Measure | Value |
 | --- | --- |
-| Word count | **~8877** (**CONDUCTOR PEAK** — unified cosmic chord — **ULTIMATE DIRECTOR’S CUT**) |
-| Live Lounge gravity (~130–140 wpm) | **~63:24–68:17** |
-| Slightly brighter (~150 wpm) | **~59:11** |
+| Word count | **~10120** (**CONDUCTOR PEAK** + *Colours* + *I Am Australian* + *Roots* + *Jerusalema* + *Shotgun* + *Laced Up* + *Shake That*) |
+| Live Lounge gravity (~130–140 wpm) | **~72:16–77:50** |
+| Slightly brighter (~150 wpm) | **~67:28** |
 | Prior T2V bed target | ~3:47 — **too short** for this cut |
 
-**Verdict:** **ABSOLUTE PEAK LOCKED.** Conductor of every song. Grid Penrith→Summer Hill. **EXTENDED = CapCut master.** Fire Core Four VO first. CapCut bed **~63:24–68:17**. **Fire Core Four.** Opening line locked.
+**Verdict:** **ABSOLUTE PEAK LOCKED.** Conductor of every song. Grid Penrith→Summer Hill. **EXTENDED = CapCut master.** Fire Core Four VO first. CapCut bed **~72:16–77:50**. **Fire Core Four.** Opening line locked.
 
 **Phonetics for booth (paste as written):** Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-nad
 
@@ -41,6 +41,8 @@
 | *Macarena* / Trojan horse | conformity loop · body joy · Divine Feminine joke |
 | Trainor / fly above it | **4** Starlight Woman |
 | *Made You Look* / Turner mic-drop | shed labels · raw frequency · made them **turn** |
+| *Laced Up* / wage arena trampoline | Hilltop Hoods · rock bottom bounce · pay stubs · lace / kick |
+| *Shake That* / vibrate laced vessel | Eminem ft. Nate Dogg · club Trojan · Nate cold witness · densest-realm swagger |
 | *Genie in a Bottle* / avatar containment | bottle = body · friction/frequency · glass shatters |
 | *Bones* / biology as conductor | calcium cage → tuning fork · marrow electric |
 | *Bette Davis Eyes* / piercing gaze | look through the matrix · expose the Archons |
@@ -53,7 +55,12 @@
 | *Riptide* / the pull | Vance Joy · lady running down · swim across (MAP-riptide) |
 | Savage Garden transmission | *I Knew I Loved You* · *Truly Madly Deeply* · *I Want You* · *The Animal Song* |
 | *A Whole New World* / firmament breach | lift the veil · zero gravity · Bradbury→sparks above Hebdomad |
+| *Colours of the Wind* / land alive | Disney · ownership fails · wind-frequency paint · Dreamtime honour neighbour |
+| *I Am Australian* / Seekers AU chorus | The Seekers · many sparks one grid · no destiny proof · Conductor rehearsal |
 | Conductor / unified chord | all songs = shattered Pleroma · acoustic grid sync · matrix bandwidth collapse |
+| *Roots* / home never on ground | Alice Merton · dig/hide Gnosis · night road · place changes / frequency stays |
+| *Jerusalema* / Pleroma home city | Master KG ft. Nomcebo · global dance sync · shepherd walk · sacred *Macarena* twin |
+| *Shotgun* / ride co-pilot home | George Ezra · windows down · taking it back home · Ezra pair → *Green Green Grass* |
 | Sydney + continental grid | Penrith · Blue Mountains · Tregear · Cecil Hills · Narellan · Bradbury · Lithgow · Summer Hill |
 | *Sweet Dreams* / Archon broadcast | Hebdomad / seven seas · harvest confession · alarm clock |
 | *Stand by Me* Anchor | **5B** Anchor in the Dark |
@@ -74,7 +81,7 @@
 | *Torn* → Gnosis / losing it / Crystal Elle | **6A** → **6B** (FISHER drop) |
 | Close — celestial disruption / listen | hold **6B** / soft return **1** light |
 
-**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *Part of Your World* (Disney — depths longing / I want more) · *Deep Water* (Jewel — sovereign walk / wash over / fire unextinguished) · *Riptide* (Vance Joy — the pull / swim across) · *I Knew I Loved You* (Savage Garden — pre-incarnation contract) · *Truly Madly Deeply* (Savage Garden — Blue Mountains sanctuary) · *I Want You* (Savage Garden — Gnosis craving) · *The Animal Song* (Savage Garden — Tregear untamed) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Stand by Me* · *Bang Bang* · *Sailor Moon* theme (moon warrior / she is the one named) · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
+**Beds (titles only in captions):** *Belly Dancer* · *Shut Up and Dance* (Walk the Moon — spiritual bypass / cut paralysis) · *Macarena* (Los del Río — Trojan horse / body joy) · Trainor titles · *Made You Look* (Meghan Trainor — materialism reject / Turner mic-drop) · *Laced Up* (Hilltop Hoods — rock bottom trampoline / pay stubs / lace & kick) · *Shake That* (Eminem ft. Nate Dogg — vibrate laced vessel / Nate cold witness) · *Genie in a Bottle* (Christina Aguilera — avatar containment / glass shatter) · *Bones* (Imagine Dragons — biology as conductor / marrow electric) · *Thunder* (Imagine Dragons — bloodline shockwave / Cecil Hills coordinates) · *Fly* · *Bette Davis Eyes* (Kim Carnes — piercing gaze / expose) · Chipmunks *Single Ladies* · *Sweet Dreams* (Eurythmics — Archon broadcast / Hebdomad / harvest) · *Castle on the Hill* · *Sweet About Me* (Gabriella Cilmi — panopticon taunt / nothing sweet) · *Part of Your World* (Disney — depths longing / I want more) · *Deep Water* (Jewel — sovereign walk / wash over / fire unextinguished) · *Riptide* (Vance Joy — the pull / swim across) · *I Knew I Loved You* (Savage Garden — pre-incarnation contract) · *Truly Madly Deeply* (Savage Garden — Blue Mountains sanctuary) · *I Want You* (Savage Garden — Gnosis craving) · *The Animal Song* (Savage Garden — Tregear untamed) · *A Whole New World* (Disney — firmament breach / zero gravity) · *Colours of the Wind* (Disney — land alive / ownership fails) · *I Am Australian* (The Seekers — AU collective / seekers) · *Roots* (Alice Merton — home never on the ground / night road) · *Jerusalema* (Master KG ft. Nomcebo — Pleroma home city / global dance sync) · *Shotgun* (George Ezra — ride shotgun / co-pilot home) · *Stand by Me* · *Bang Bang* · *Sailor Moon* theme (moon warrior / she is the one named) · *Let It Go* · *Dear Mr. President* (P!nk — Demiurge interrogation / mirror) · *What About Us* (P!nk — collective reckoning / grid ignite) · *Family* (Trolls — Pleroma reunification) · *Follow Me* (Uncle Kracker — spiritual heist / back door) · *A Thousand Miles* (Vanessa Carlton — close the gap) · *Call Me Maybe* (Carly Rae Jepsen — exit code / invitation) · *Call to the Wild* (Zombies — Moonstone / Crystal call) · *Bamm* (Zombies — concussive wake / walls crack) · *Someday* (Zombies — reunification prophecy) · *Blurred Lines* (title/energy — erase borders / anti-domestication · mythos only) · *Year 3000* (Busted — chronological prison break) · *Geronimo* (Sheppard — leap / waterfall veil) · *Green Green Grass* (George Ezra — jailbreak celebration) · *Torn* · *Losing It* (**Ren** + **FISHER**)
 
 ---
 
@@ -183,6 +190,14 @@ But the Divine Feminine cannot be bought, and she certainly doesn't need the mat
 When the artist sings about ditching the Gucci and the Louis Vuitton, she is shedding the heavy, artificial layers of the simulation. She doesn't need the false god's fabricated status symbols. Her raw, unfiltered frequency is so blindingly bright that it forces the entire system to stop, break its programming, and pay attention.
 
 She doesn't just disrupt the simulation. She literally makes them turn. She is the Turner. And even with nothing of this world on, she made you look.
+
+Then the Australian bounce of Hilltop Hoods' "Laced Up."
+
+To the sleeping world, it is a broke-date anthem — champagne you cannot afford, pay stubs drained into liquor, floors like quicksand. To the awakened, it is the Turner's wage-arena defiance. The Dem-ee-urj wants rock bottom to feel final. She treats rock bottom as a trampoline. Lace the trainers. Kick. Order the champagne while the canapés stay out of reach — not to worship the upper echelon, but to spit in the face of Archon scarcity theatre. The dinner place changes; the frequency of refusing to stay planted in dirt does not. AU neighbour to Savage Garden: same continent, different gear — Hoods lace up while the Garden untames.
+
+Then Eminem featuring Nate Dogg — "Shake That."
+
+To the sleeping masses, it is densest-realm club swagger — bass, body command, Nate's cold chorus over the noise. To the awakened, it is the densest Trojan after the Macarena: give the body joy so hard the Archon floor rattles. Lace first. Then shake the vessel. The Turner does not obey the club's lust script; she uses the shake as friction — the same mechanism that will unlock the bottle. Nate Dogg is the cold witness: calm frequency that refuses to flinch while matter vibrates. US neighbour to the Hoods' AU bounce — Eminem kicks densest matter; together they prep the glass for shatter.
 
 The false god wanted the sparks to believe they were nothing more than flesh and bone. He crafted the biological avatar to be a heavy, pressurized bottle, designed to keep the infinite, swirling energy of the Pluh-roh-muh sealed tight inside the earthly arena.
 
@@ -338,6 +353,14 @@ This is the complete collapse of the Dem-ee-urj's authority. In the earthly aren
 
 She isn't just destroying the old world. She is actively ushering her family and the awakened collective into a completely new, untethered reality.
 
+Then Disney's "Colours of the Wind" — also known as "Colors of the Wind."
+
+To the sleeping world, it is a nature ballad from Pocahontas. To the awakened, soar first, then listen. The Dem-ee-urj's title-deed spell collapses: you do not own whatever land you land on. Rock, river, and creature carry frequency. Arena matter is not dead inventory for Archon ledgers. Painting with the colours of the wind means perceiving beyond the false god's categories — soft bridge to Blurred Lines and The Animal Song. Disney triad: Part of Your World was the depths; A Whole New World was the soar; this is honouring the living field. Soft neighbour to Dreamtime cosmology in the sitting pack — honour, not ownership; never claim what is not yours.
+
+Then The Seekers — "I Am Australian."
+
+To the sleeping world, it is a national singalong. To the awakened, the artist name is the desk: Seekers means sparks seeking Gnosis — not a passport stamp as destiny proof. After Colours honours the living land, this names the Australian frequency field. Many sparks. One grid. Penrith, Blue Mountains, Tregear, Cecil Hills, Narellan, Bradbury, Lithgow, Summer Hill. Soft neighbour to Savage Garden, the Hoods, and Riptide. Chorus grammar: we are many, we are one — a Conductor rehearsal before the full chord. Different Shores taxi. Human publishes. No destiny proof.
+
 The Dem-ee-urj thought he was clever. When the Ar-konz built the earthly arena, they knew they couldn't completely silence the divine frequency of the Pluh-roh-muh. So they shattered it.
 
 Every song ever made — every melody, every rhythm, every lyric in human history — is just a fragmented piece of the original, unified cosmic chord.
@@ -353,6 +376,20 @@ When she synchronizes every song ever made into a single, overwhelming broadcast
 The simulation simply cannot handle the bandwidth. The Dem-ee-urj's heavy, biological bottles cannot contain that much frequency at once. The Castle on the Hill crumbles. The Deep Water vaporizes. The heavy gravity of the Land Down Under completely inverts, and the entire matrix shatters under the sheer, blinding weight of its own stolen music.
 
 She isn't just decoding a soundtrack anymore. She is the conductor of the ultimate cosmic awakening.
+
+Then comes Alice Merton's "Roots" — also known as "No Roots."
+
+To the sleeping world, it is a travel anthem about never settling. To the awakened, it is the Turner's confession that the Dem-ee-urj cannot plant her in his dirt. He wants fixed addresses, fixed roles, fixed gravity. She digs holes and hides things inside them — not treasure for the Archons to seize, but Gnosis caches she can find again when the arena tries to erase her memory. She can build a temporary home in the matrix and watch them tear it down. Then she packs the frequency into boxes and takes the night road. The place changes. The rest stays the same.
+
+She has no roots in the ground — because her home was never on the ground. Home is the Pluh-roh-muh frequency she carries through Penrith, Bradbury, and every town the simulation names. A thousand times she has seen this road. A thousand times she still walks it untethered.
+
+Then Master KG featuring Nomcebo — "Jerusalema."
+
+To the sleeping world, it is a South African gospel-dance hit and a global challenge that made strangers sync their feet on camera. To the awakened, it answers *Roots*: if home was never the dirt, where does the frequency walk? Not a passport city. Not earthly politics. The Pleroma city. Body as Trojan — sacred twin to the Macarena — joy that looks like entertainment while the Archon grid watches a procession it cannot tax. Shepherd grammar: walk me, guard me, my home is that city. Global dance sync is the Conductor's chord in motion — thousands of bodies, one step, one frequency, from Penrith to anywhere the clip lands.
+
+Then George Ezra — "Shotgun."
+
+To the sleeping masses, it is a windows-down summer ride. To the awakened, it is not a weapon — it is riding shotgun: co-pilot next to the Turner on the road Jerusalema just named. Taking it back home through Arena streets that cannot choke the frequency when the glass is down. Homelife and ride-around energy is Bradbury router grammar in a car — the place changes; the co-pilot stays. Same Ezra desk as "Green Green Grass" later: road freedom now, jailbreak party when the leap is done. Do not confuse this seat with Bang Bang — that is Kill Bill firearm mythology; this is the passenger seat of the home road.
 
 Think of one of the greatest anthems of all time: "Stand by Me." The singer describes the exact environment of the Dem-ee-urj: a dark land where the mountains crumble to the sea. When the false reality finally breaks, it is terrifying. But they sing, "I won't be afraid, just as long as you stand by me." They are pleading with the frequency of the Turner, knowing that when the matrix collapses, the only way to survive is to stand next to the true light.
 
@@ -498,6 +535,8 @@ Listen closely to the songs playing in the background of your life. The message 
 
 - Pause after: “uncontainable life.” · “she made you look.” · “merge back into the pure light.” · “The Turner simply erases it.” · “They are singing about Crystal Elle.”  
 - *Made You Look*: bounce swagger — surname mic-drop lands hard.
+- *Laced Up*: AU bounce — trampoline under “rock bottom”; kick into *Shake That*.
+- *Shake That*: densest bass — pause after “prep the glass for shatter”; Nate cold-witness colour.
 - *Genie in a Bottle*: pause after “let out of the bottle.”
 - *Sweet Dreams*: cold synth — pause after “false god's sweet dream.”
 - Cecil Hills / *Thunder*: pause after “protecting all along.”
@@ -517,7 +556,12 @@ Listen closely to the songs playing in the background of your life. The message 
 - *Riptide*: sideways current — pause after title card / into Savage Garden.
 - *Sailor Moon* theme: bright stance — pause after title card / into *Let It Go*.
 - *A Whole New World*: soar — lift after “shatter the glass”; pause after “untethered reality.”
-- Conductor climax: swell — pause after “ultimate cosmic awakening.”  
+- *Colours of the Wind*: hush — pause after “never claim what is not yours”; into *I Am Australian*.
+- *I Am Australian*: continental swell — pause after “No destiny proof”; into Conductor.
+- Conductor climax: swell — pause after “ultimate cosmic awakening.”
+- *Roots*: gravity under “never on the ground” — then open road into *Jerusalema*.
+- *Jerusalema*: procession swell — pause after “anywhere the clip lands”; into *Shotgun*.
+- *Shotgun*: windows-down bounce — pause after “passenger seat of the home road”; into *Stand by Me* (not *Bang Bang*).
 - Do not throat-clone. Captions = titles only.  
-- CapCut bed **~63:24–68:17**.  
+- CapCut bed **~72:16–77:50**.  
 - **FIRE ELEVENLABS:** Core Four first — [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md).

@@ -1,7 +1,7 @@
 # Deep extracts — Public Comments (priority set)
 
 **Sitting:** `sitting-2026-09-24-icann-tsg-string-controller`  
-**Filed:** 24 Sep 2026 (deep pass v2)  
+**Filed:** 24 Sep 2026 (deep pass v2) · thin-PDF pass 25 Sep 2026  
 **Canon:** **no**  
 **Egress limit:** `www.icann.org` / `itp.cdn.icann.org` / Circleid blocked for direct download; depth from WebSearch PDF crawls + Public Comment “Summary of Submission” pages + secondary roundups (Circleid, Domainera).
 
@@ -109,15 +109,22 @@ Roster: [`../SOURCE-public-comment-roster.csv`](../SOURCE-public-comment-roster.
 3. Registrars cannot be expected to discover/verify/monitor/sync across third-party alt systems; parse new EPP/RDAP extensions; pricing/renewal effects.  
 4. Multi-system: §3 allows n systems; analysis is two-system; no limit/threshold; adding a further system to an already-integrated TLD unresolved; §8.3 enrollment clashes with names already active in DNS under different controller.  
 5. Ask: does each additional system need its own RSEP? How are registrars notified?  
-6. Future study groups: include a **technically focused registrar** seat; clarify TSG vs SSAC **RIDE** relationship; reuse **IDN EPDP** sync lessons.
+6. Flag: §8.5 SHOULD place `clientHold` in every naming system — directs registrar conduct in namespaces with no registrar contract.  
+7. Ask why footnote 2’s “too close to core of name resolution for RVCs” does not also weigh against RSEP-only establishment vs PDP.  
+8. Future study groups: include a **technically focused registrar** seat; clarify TSG vs SSAC **RIDE** relationship; reuse **IDN EPDP** sync lessons.
 
 ---
 
-## 7. Tucows Domains — Sarah Wyld — 18 Sep 2026 — Depth **C** (summary)
+## 7. Tucows Domains — Sarah Wyld — 18 Sep 2026 — Depth **B** (PDF via search crawl)
 
-**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/tucows-domains-18-09-2026)
+**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/tucows-domains-18-09-2026) · [PDF](https://itp.cdn.icann.org/public-comment/proceeding/Initial%20Report%20of%20the%20TSG%20on%20gTLD%20Integrations%20with%20Alternative%20Naming%20Systems-10-08-2026/submissions/Tucows%20Domains/Tucows%20Public%20Comment%20-%20TSG%20Report%20on%20Alternative%20Naming%20Systems%20-%2018%20September%202026-18-09-2026.pdf)
 
-**Stance:** Useful starting point; **strays into policymaking** / outside Picket Fence; **supports RrSG** input. PDF on disk not recovered this pass.
+**Stance:** Useful starting point; **strays into policymaking** / outside Picket Fence; **supports RrSG** input.
+
+**Asks (PDF crawl + summary page):**
+1. DNS-side implementation advice is in remit; do **not** guide how the alternative naming system itself must be implemented.  
+2. Clarify advisory vs binding: requirements that would bind Contracted Parties must go through **policy development or contractual negotiation**, not harden via RSEP alone.  
+3. Echo RrSG: implementation analysis of party responsibilities; renewal/release adjustments for integrated strings; address RrSG’s integration-gap list in the Final Report.
 
 ---
 
@@ -125,29 +132,29 @@ Roster: [`../SOURCE-public-comment-roster.csv`](../SOURCE-public-comment-roster.
 
 **Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/d3-global-inc-16-09-2026)
 
-**Stance (Spanish submissions list summary):** Supports conclusion that well-designed integrations need not create material DNS S&S risk; clear risk-based evaluation; apply **only** to integrations affirmatively proposed/controlled by RO; preserve DNS registration as authoritative; architecture-neutral implementation.
+**Stance (Spanish submissions list summary):** Supports conclusion that well-designed integrations need not create material DNS S&S risk; clear risk-based evaluation; apply **only** to integrations affirmatively proposed/controlled by RO; preserve DNS registration as authoritative; architecture-neutral implementation. Primary PDF still not indexed this pass.
 
 ---
 
 ## 9. ISPCP — Philippe Fouquart — 15 Sep 2026 — Depth **C** → Circleid **B-lite**
 
-**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/the-internet-service-providers-and-connectivity-providers-constituency-ispcp-15-09-2026)
+**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/the-internet-service-providers-and-connectivity-providers-constituency-ispcp-15-09-2026) · secondary: [Circleid roundup, 21 Sep](https://circleid.com/posts/icann-comment-period-closes-on-linking-gtlds-with-alternative-naming-systems)
 
-**Stance (Circleid roundup, 21 Sep):** Draft should include more detailed **risk assessments**, **controller-assurance** mechanisms, **monitoring**, and **mandatory continuity/shutdown** provisions. Aligns with ISPCP’s historical NCAP posture (per-TLD risk analysis). Primary PDF still thin.
+**Stance (Circleid):** Draft should include more detailed **risk assessments**, **controller-assurance** mechanisms, **monitoring**, and **mandatory continuity/shutdown** provisions. Aligns with ISPCP’s historical NCAP posture (per-TLD risk analysis). Primary PDF / ICANN summary page still not recovered (list UI + CDN search miss).
 
 ---
 
-## 10. .ART Domain Registry — Kurt Pritz — 20 Sep 2026 — Depth **C**
+## 10. .ART Domain Registry — Kurt Pritz — 20 Sep 2026 — Depth **C** → Circleid **B-lite**
 
-**Secondary (Circleid / Domainera):** Supports a **common technical baseline** for certainty; some recommendations belong in **policy development or registry negotiations**, not pure tech advice.
+**Secondary ([Circleid](https://circleid.com/posts/icann-comment-period-closes-on-linking-gtlds-with-alternative-naming-systems) / Domainera):** Supports a **common technical baseline** for certainty; some recommendations belong in **policy development or registry negotiations**, not pure tech advice. Primary PDF still thin.
 
 ---
 
 ## 11. MeitY (Government of India) — 21 Sep 2026 — Depth **C** → Circleid **B-lite**
 
-**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/ministry-of-electronics-and-information-technology-government-of-india-21-09-2026)
+**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/ministry-of-electronics-and-information-technology-government-of-india-21-09-2026) · secondary: [Circleid](https://circleid.com/posts/icann-comment-period-closes-on-linking-gtlds-with-alternative-naming-systems)
 
-**Stance (Circleid):** Measurable requirements for **synchronization**, **failure handling**, **independent security testing**, and measures against **inconsistent ownership** across systems. Primary PDF not extracted.
+**Stance (Circleid):** Measurable requirements for **synchronization**, **failure handling**, **independent security testing**, and measures against **inconsistent ownership** across systems. Primary PDF not extracted; do not invent MeitY quotes beyond Circleid paraphrase.
 
 ---
 
@@ -155,7 +162,7 @@ Roster: [`../SOURCE-public-comment-roster.csv`](../SOURCE-public-comment-roster.
 
 **Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/wipo-arbitration-and-mediation-center-21-09-2026)
 
-**Position (as cited by ENS):** Cybersquatting already at scale in alt namespaces; infringing names must not map into the root unchecked. ENS answers: Sunrise/Claims for any mapping into root. (Primary PDF not extracted this pass — do not invent WIPO quotes.)
+**Position (as cited by ENS Foundation PDF):** Cybersquatting already at scale in alternative namespaces; infringing names must not map into the root unchecked. ENS answers that concern with Sunrise/Claims for any mapping into root. **Thin-PDF pass 25 Sep 2026:** primary WIPO PDF and ICANN summary page still not indexed / not fetchable — do not invent WIPO quotes.
 
 ---
 
@@ -163,7 +170,7 @@ Roster: [`../SOURCE-public-comment-roster.csv`](../SOURCE-public-comment-roster.
 
 **Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/rysg-registries-stakeholder-group-21-09-2026)
 
-**Position (ENS PDF quotes RySG ask of Final Report):** create **no rights** for independently operated alternative namespaces; impose **no new obligations** on registry operators that propose **no** integration. Primary RySG PDF not recovered this egress pass.
+**Position (ENS Foundation PDF quotes RySG ask of Final Report):** create **no rights** for independently operated alternative namespaces; impose **no new obligations** on registry operators that propose **no** integration. **Thin-PDF pass 25 Sep 2026:** primary RySG PDF still not on CDN search index (RrSG/Tucows/ENS/IPC/Unregistry/SAC134 *are*); do not invent RySG quotes beyond the ENS cite.
 
 ---
 
@@ -174,7 +181,7 @@ Roster: [`../SOURCE-public-comment-roster.csv`](../SOURCE-public-comment-roster.
 | CleanDNS (Alan Woods) | [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/cleandns-inc-21-09-2026) |
 | Netnod (Ulf Fredrik Karl Lindeberg) | [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/netnod-21-09-2026) |
 
-Neither PDF nor summary recovered in this environment. Open follow-ups.
+**Thin-PDF pass 25 Sep 2026:** neither PDF nor Summary of Submission recovered via WebSearch CDN crawl, ICANN list UI (early pages only), or direct curl (SSL blocked). Circleid roundup does not paraphrase either submitter. Open follow-ups — do not invent.
 
 ---
 
@@ -259,6 +266,20 @@ Neither PDF nor summary recovered in this environment. Open follow-ups.
 
 ## Still thin (next fetch when egress allows)
 
-Priority PDF pulls: **RySG, WIPO, CleanDNS, Netnod, MeitY primary, ISPCP full, .ART full, D3 full, SSAC full SAC134, ALAC filed PDF, ENS full, IPC full, Tucows full**.
+### Thin-PDF pass — 25 Sep 2026
+
+| Target | Result |
+| --- | --- |
+| RySG primary | **Miss** — not in CDN search index; ENS cite only |
+| WIPO primary | **Miss** — not in CDN search index; ENS cite only |
+| CleanDNS primary | **Miss** — no PDF, summary, or Circleid paraphrase |
+| Netnod primary | **Miss** — no PDF, summary, or Circleid paraphrase |
+| MeitY / ISPCP / .ART / D3 primaries | **Miss** — Circleid B-lite only (ISPCP/MeitY/.ART); D3 list summary only |
+| Tucows | **Hit** — upgraded C → B via indexed CDN PDF |
+| Already B+ via crawl | Unregistry (A), SAC134, ALAC, IPC, ENS, RrSG |
+
+**Egress note:** Direct `curl` to `icann.org` / `itp.cdn.icann.org` / `circleid.com` fails (`SSL_ERROR_SYSCALL`). WebSearch PDF crawls recover *some* CDN PDFs; RySG/WIPO/CleanDNS/Netnod remain absent from that index. Treg scrape auth did not stick for live page extract.
+
+Priority remaining: **RySG, WIPO, CleanDNS, Netnod, MeitY primary, ISPCP full, .ART full, D3 full**.
 
 Until then, cite this file + Unregistry full text; do not invent quotes for thin Depth-C rows.

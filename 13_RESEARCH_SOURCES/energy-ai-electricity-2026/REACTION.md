@@ -5,6 +5,8 @@
 **Trigger:** [@XFreeze](https://x.com/XFreeze/status/2103155118426218919) clipping Musk’s electricity warning  
 **Canon:** no
 
+**Plain English:** [`PLAIN-ENGLISH.md`](PLAIN-ENGLISH.md)
+
 ---
 
 ## Reaction (short)

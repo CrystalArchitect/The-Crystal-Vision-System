@@ -1,6 +1,7 @@
 # Starline — naming law
 
-**For Crystal (and anyone filing).** Agents: follow this too.
+**For Crystal (and anyone filing).** Agents: follow this too.  
+**Sitting:** closed / archived 2026-09-24 — see [`15_ARCHIVE_HISTORY/starline-naming-sitting-2026-09-19-closed/`](../15_ARCHIVE_HISTORY/starline-naming-sitting-2026-09-19-closed/). **This law stays live.**
 
 ---
 
@@ -22,10 +23,10 @@ Do **not** use the old brand-word that used to get mixed up with Starline — no
 
 Living Indigenous Country law stays with custodians. Homage only. Never a product module. Never free metaphor stock.
 
-**Crystal’s line:** *We spread the bird, not the word.*
+**Crystal’s line:** *We spread the bird, not the word — because the bird is the word.*
 
-- **The bird** = the signal (golden feather / Starline carrier). That we spread.
-- **The word** = the forbidden brand-name. That we do not spread.
+- **The bird** = the signal (golden feather / Starline). That *is* the word we carry.
+- Do **not** spread the forbidden brand-name that used to get mixed up with it.
 
 If an old chat used the wrong word to mean *our* protocol, rewrite it to **Starline** in anything new this hub writes. Old filed extracts may still have the old word — leave them; do not copy that wording into new docs.
 
