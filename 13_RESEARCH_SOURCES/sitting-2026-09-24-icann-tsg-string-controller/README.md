@@ -11,17 +11,19 @@
 
 ## Start here
 
-1. [`SYNTHESIS.md`](SYNTHESIS.md) — **integrated compass** (report + comment fights)  
-2. [`EXTRACT-BRIEF.md`](EXTRACT-BRIEF.md) — what string+controller requires (load-bearing rules)  
-3. [`REQUIREMENTS-CHECKLIST.md`](REQUIREMENTS-CHECKLIST.md) — MUST/SHOULD + Public Comment overlay  
-4. [`THEMES-public-comments.md`](THEMES-public-comments.md) — Public Comment theme map (38 active + 2 retracted)  
-5. [`extracts/DEEP-EXTRACTS.md`](extracts/DEEP-EXTRACTS.md) — per-submitter deep extracts (Depth A–C)  
-6. [`extracts/TENSION-MAP.md`](extracts/TENSION-MAP.md) — Fights A–D (safety / fence / legacy / direction)  
-7. [`SOURCE-public-comment-roster.csv`](SOURCE-public-comment-roster.csv) — full submission roster + links  
-8. [`RECEIPT-chat-paste-2026-09-24.md`](RECEIPT-chat-paste-2026-09-24.md) — how this sitting got the report text  
-9. [`SOURCE-official-pdf-text-extract.txt`](SOURCE-official-pdf-text-extract.txt) — text extract of the official PDF (via search fetch; PDF binary download blocked in this environment)  
-10. [`SOURCE-unregistry-comment-text-extract.txt`](SOURCE-unregistry-comment-text-extract.txt) — Unregistry comment PDF text (sample primary)  
-11. [`SOURCE-estmcmxci-comment-summary-extract.txt`](SOURCE-estmcmxci-comment-summary-extract.txt) — estmcmxci.eth / TLD Oracle submission summary
+1. [`PLAIN-ENGLISH.md`](PLAIN-ENGLISH.md) — **Crystal-first** plain read  
+2. [`HANDOFF-grok-bot-icann-tsg.md`](HANDOFF-grok-bot-icann-tsg.md) — **Grok Bot paste card** (research desk · crystal_confirmed 26 Sep 2026 · Canon no)  
+3. [`SYNTHESIS.md`](SYNTHESIS.md) — integrated compass (report + comment fights)  
+4. [`EXTRACT-BRIEF.md`](EXTRACT-BRIEF.md) — what string+controller requires (load-bearing rules)  
+5. [`REQUIREMENTS-CHECKLIST.md`](REQUIREMENTS-CHECKLIST.md) — MUST/SHOULD + Public Comment overlay  
+6. [`THEMES-public-comments.md`](THEMES-public-comments.md) — Public Comment theme map (38 active + 2 retracted)  
+7. [`extracts/DEEP-EXTRACTS.md`](extracts/DEEP-EXTRACTS.md) — per-submitter deep extracts (Depth A–C)  
+8. [`extracts/TENSION-MAP.md`](extracts/TENSION-MAP.md) — Fights A–D (safety / fence / legacy / direction)  
+9. [`SOURCE-public-comment-roster.csv`](SOURCE-public-comment-roster.csv) — full submission roster + links  
+10. [`RECEIPT-chat-paste-2026-09-24.md`](RECEIPT-chat-paste-2026-09-24.md) — how this sitting got the report text  
+11. [`SOURCE-official-pdf-text-extract.txt`](SOURCE-official-pdf-text-extract.txt) — text extract of the official PDF (via search fetch; PDF binary download blocked in this environment)  
+12. [`SOURCE-unregistry-comment-text-extract.txt`](SOURCE-unregistry-comment-text-extract.txt) — Unregistry comment PDF text (sample primary)  
+13. [`SOURCE-estmcmxci-comment-summary-extract.txt`](SOURCE-estmcmxci-comment-summary-extract.txt) — estmcmxci.eth / TLD Oracle submission summary
 
 **Sibling sitting (same proceeding):** [`../icann-tsg-gtld-ans-2026/`](../icann-tsg-gtld-ans-2026/) — parallel Collection Mode pack; cross-linked from SYNTHESIS.
 
