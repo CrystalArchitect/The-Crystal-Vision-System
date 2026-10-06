@@ -28,3 +28,7 @@ Serial/DTG chrome: `ODO/DPDA/2140/26` · `2303042 SEP 26` (specimen fiction date
 No SpaceNews, Richardson, Aerotropolis, CrystalCore architecture, minerals, or AUKUS content. Thematic rhyme at most: precision / naming / “allied nodes” voice — same authorial humour lane as other Crystal creative skins, not industrial prior art.
 
 Do not cite against *Beyond Lucky*.
+
+## Durable extract
+
+[`artefacts/extract-YHaJcQn5rsTwLnZVL9Gyoe-discursive-ops.md`](artefacts/extract-YHaJcQn5rsTwLnZVL9Gyoe-discursive-ops.md) — from this SOURCE note (2026-10-06); not live HTML.

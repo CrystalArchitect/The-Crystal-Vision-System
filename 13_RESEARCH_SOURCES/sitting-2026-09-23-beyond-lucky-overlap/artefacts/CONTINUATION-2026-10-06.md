@@ -28,3 +28,23 @@ Follow [`UNGATE-RUN-SHEET.md`](UNGATE-RUN-SHEET.md):
 - Jul `teraustralis-artefacts/` zip (or `GONE`)
 
 Paste an **UNGATED PACK** into chat to unblock filing of gated IDs.
+
+---
+
+## Pass 2 — same day (Continue again)
+
+Still no Crystal ungated pack / uploads.
+
+Added:
+
+| File | Role |
+| --- | --- |
+| [`adjacent-a364-jul17-site-snapshot/`](adjacent-a364-jul17-site-snapshot/) | Jul-17 site HTML neighbourhood for a364 design share |
+| [`adjacent-NtXjm-STATUS-umbrella.md`](adjacent-NtXjm-STATUS-umbrella.md) | STATUS ledger named by Doc 13 |
+| [`adjacent-NtXjm-STATUS-crystalcore-os-archive.md`](adjacent-NtXjm-STATUS-crystalcore-os-archive.md) | CrystalCore.OS Archive STATUS |
+| [`adjacent-crystalcore-os-omega-bootable.html`](adjacent-crystalcore-os-omega-bootable.html) | Related bootable shell |
+| [`extract-YHaJcQn5rsTwLnZVL9Gyoe-discursive-ops.md`](extract-YHaJcQn5rsTwLnZVL9Gyoe-discursive-ops.md) | Discursive Ops extract |
+| [`extract-PiiKNJsLJq2sDKUVCbMNKX-crystalcore-os-console.md`](extract-PiiKNJsLJq2sDKUVCbMNKX-crystalcore-os-console.md) | Console v1.7.9 extract |
+
+**Hard stop without Crystal:** gated 12+4, true Claude HTML for Discursive/Console/Clementine page, `teraustralis-artefacts/` zip, visual 48/56, screenshots.
+

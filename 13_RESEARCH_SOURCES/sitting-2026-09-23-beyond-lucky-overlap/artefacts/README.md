@@ -1,49 +1,50 @@
 # Claude artefacts — durable body inventory
 
-**Sitting:** Beyond Lucky overlap · 23–24 Sep 2026  
-**Trigger URL this pass:** https://claude.ai/artifact/UGSGKeMAVWEjWvkLPNx5mE (*The map and the territory*)  
-**Checked:** 24 Sep 2026 (this cloud node)  
+**Sitting:** Beyond Lucky overlap · 23–24 Sep 2026 · continued **6 Oct 2026**  
+**Trigger URL:** https://claude.ai/artifact/UGSGKeMAVWEjWvkLPNx5mE (*The map and the territory*)  
 **Canon:** no (provenance inventory — not a merge of products)
 
 ## Why this folder exists
 
 SOURCE notes under `../SOURCE-claude-*.md` are **receipts**. This folder holds **durable bodies** (or honest gaps) so the sitting does not depend on:
 
-- live `claude.ai` egress (blocked / Cloudflare on this node), or  
+- live `claude.ai` egress (blocked on this node), or  
 - ephemeral `/opt/cursor/artifacts/screenshots/` from a prior agent VM.
 
 ## Status legend
 
 | Tag | Meaning |
 | --- | --- |
-| **BODY** | Full text/HTML filed here or linked as on-disk canon |
-| **NOTE** | SOURCE note only (summary from prior browser pass) |
+| **BODY** | Full text/HTML filed here matching the Claude artefact |
+| **EXTRACT** | Content rebuilt from SOURCE note (not live HTML export) |
+| **ADJACENT** | On-disk product/UI from same neighbourhood — not claimed byte-identical to Claude page |
+| **NOTE** | SOURCE note only |
 | **GATED** | Sign-in wall — contents unknown until Crystal ungates / pastes |
-| **SHOT-MISS** | Screenshot path cited in SOURCE note; file absent on this node |
+| **SHOT-MISS** | Screenshot path cited; file absent on this node |
 
 ---
 
 ## Public / readable Claude surfaces
 
-| ID / URL slug | Title | SOURCE note | Durable body |
+| ID / URL slug | Title | SOURCE note | Durable status |
 | --- | --- | --- | --- |
-| `UGSGKeMAVWEjWvkLPNx5mE` | *The map and the territory* (23 Jul 2026 survey) | [`../SOURCE-claude-artifact-map-and-territory.md`](../SOURCE-claude-artifact-map-and-territory.md) | **BODY** [`claude-UGSGKeMAVWEjWvkLPNx5mE-map-and-territory.md`](claude-UGSGKeMAVWEjWvkLPNx5mE-map-and-territory.md) · also `archive/TerAustralis-Incognita/docs/reviews/2026-07-23-architecture-survey.md` |
-| `NtXjmL4yYGCDSosxgszjxA` | *What Is Built* (Doc 13, Aug 2026) | [`../SOURCE-claude-artifact-ntxj-what-is-built.md`](../SOURCE-claude-artifact-ntxj-what-is-built.md) | **BODY** [`claude-NtXjmL4yYGCDSosxgszjxA-what-is-built.md`](claude-NtXjmL4yYGCDSosxgszjxA-what-is-built.md) · [`…html`](claude-NtXjmL4yYGCDSosxgszjxA-what-is-built.html) · also Proposal + `12_PUBLICATIONS/` |
-| `Dyhq3oN217iAaVAVPAhqkV` | Protocol Omega | [`../SOURCE-claude-artifact-protocol-omega.md`](../SOURCE-claude-artifact-protocol-omega.md) | **BODY** [`claude-Dyhq3oN217iAaVAVPAhqkV-protocol-omega.html`](claude-Dyhq3oN217iAaVAVPAhqkV-protocol-omega.html) · also `10_ORIGINAL_CREATIVE/protocol-omega/` |
-| `YHaJcQn5rsTwLnZVL9Gyoe` | Discursive Ops | [`../SOURCE-claude-artifact-discursive-ops.md`](../SOURCE-claude-artifact-discursive-ops.md) | **NOTE** only — no full HTML on disk |
-| `T5RGKzZwsScR7wfyPxd51Q` | Remaining Work matrix | [`../SOURCE-claude-artifact-remaining-work.md`](../SOURCE-claude-artifact-remaining-work.md) | **EXTRACT** [`extract-T5RGKzZwsScR7wfyPxd51Q-remaining-work.md`](extract-T5RGKzZwsScR7wfyPxd51Q-remaining-work.md) (from SOURCE note; not live HTML) |
-| `7tTJBfqX6UMVXY17zuNATE` | aeon-atlas roadmap | [`../SOURCE-claude-artifact-aeon-atlas-roadmap.md`](../SOURCE-claude-artifact-aeon-atlas-roadmap.md) | **EXTRACT** [`extract-7tTJBfqX6UMVXY17zuNATE-aeon-atlas-roadmap.md`](extract-7tTJBfqX6UMVXY17zuNATE-aeon-atlas-roadmap.md) (from SOURCE note; not live HTML) |
-| `PiiKNJsLJq2sDKUVCbMNKX` | CrystalCore.OS console v1.7.9 | [`../SOURCE-claude-artifact-crystalcore-os-console.md`](../SOURCE-claude-artifact-crystalcore-os-console.md) | **NOTE** only · adjacent UI [`adjacent-crystalcore-os-v4-shell.html`](adjacent-crystalcore-os-v4-shell.html) (Portal sitting — not claimed identical) |
-| `b7fc01e4-…` (code artifact) | CrystalCore.OS Live Party shell | [`../SOURCE-claude-artifact-b7fc-crystalcore-os.md`](../SOURCE-claude-artifact-b7fc-crystalcore-os.md) | **NOTE** only · **SHOT-MISS** · same adjacent shell pointer as above |
-| `UkFksTnUyjNCumHWDdTsdv` | Clementine product page | [`../SOURCE-claude-artifact-ukfk-clementine.md`](../SOURCE-claude-artifact-ukfk-clementine.md) | **NOTE** (Claude page HTML absent) · **ADJACENT BODY** live app [`adjacent-UkFksTnUyjNCumHWDdTsdv-clementine-voice-app.html`](adjacent-UkFksTnUyjNCumHWDdTsdv-clementine-voice-app.html) + [README](adjacent-UkFksTnUyjNCumHWDdTsdv-clementine-voice-README.md) |
-| `/share/a364bfde-…` | TerAustralis site design (Jul 21–23) | [`../SOURCE-claude-share-a364-teraustralis-design.md`](../SOURCE-claude-share-a364-teraustralis-design.md) | **NOTE** only · **SHOT-MISS** · in-chat folder `teraustralis-artefacts/` **never landed in this monorepo** |
-| `/share/4e12…` | Boot CrystalCore.OS invoke | [`../SOURCE-claude-share-4e12-crystalcore-boot.md`](../SOURCE-claude-share-4e12-crystalcore-boot.md) | **NOTE** only · **SHOT-MISS** |
+| `UGSGKeMAVWEjWvkLPNx5mE` | *The map and the territory* | [`../SOURCE-claude-artifact-map-and-territory.md`](../SOURCE-claude-artifact-map-and-territory.md) | **BODY** [`claude-UGSGKeMAVWEjWvkLPNx5mE-map-and-territory.md`](claude-UGSGKeMAVWEjWvkLPNx5mE-map-and-territory.md) |
+| `NtXjmL4yYGCDSosxgszjxA` | *What Is Built* (Doc 13) | [`../SOURCE-claude-artifact-ntxj-what-is-built.md`](../SOURCE-claude-artifact-ntxj-what-is-built.md) | **BODY** [`claude-NtXjm…md`](claude-NtXjmL4yYGCDSosxgszjxA-what-is-built.md) · [`…html`](claude-NtXjmL4yYGCDSosxgszjxA-what-is-built.html) · **ADJACENT** STATUS [`adjacent-NtXjm-STATUS-umbrella.md`](adjacent-NtXjm-STATUS-umbrella.md) · [`adjacent-NtXjm-STATUS-crystalcore-os-archive.md`](adjacent-NtXjm-STATUS-crystalcore-os-archive.md) |
+| `Dyhq3oN217iAaVAVPAhqkV` | Protocol Omega | [`../SOURCE-claude-artifact-protocol-omega.md`](../SOURCE-claude-artifact-protocol-omega.md) | **BODY** [`claude-Dyhq…html`](claude-Dyhq3oN217iAaVAVPAhqkV-protocol-omega.html) |
+| `YHaJcQn5rsTwLnZVL9Gyoe` | Discursive Ops | [`../SOURCE-claude-artifact-discursive-ops.md`](../SOURCE-claude-artifact-discursive-ops.md) | **EXTRACT** [`extract-YHaJc…discursive-ops.md`](extract-YHaJcQn5rsTwLnZVL9Gyoe-discursive-ops.md) |
+| `T5RGKzZwsScR7wfyPxd51Q` | Remaining Work matrix | [`../SOURCE-claude-artifact-remaining-work.md`](../SOURCE-claude-artifact-remaining-work.md) | **EXTRACT** [`extract-T5RG…remaining-work.md`](extract-T5RGKzZwsScR7wfyPxd51Q-remaining-work.md) |
+| `7tTJBfqX6UMVXY17zuNATE` | aeon-atlas roadmap | [`../SOURCE-claude-artifact-aeon-atlas-roadmap.md`](../SOURCE-claude-artifact-aeon-atlas-roadmap.md) | **EXTRACT** [`extract-7tTJ…aeon-atlas-roadmap.md`](extract-7tTJBfqX6UMVXY17zuNATE-aeon-atlas-roadmap.md) |
+| `PiiKNJsLJq2sDKUVCbMNKX` | CrystalCore.OS console v1.7.9 | [`../SOURCE-claude-artifact-crystalcore-os-console.md`](../SOURCE-claude-artifact-crystalcore-os-console.md) | **EXTRACT** [`extract-PiiKN…console.md`](extract-PiiKNJsLJq2sDKUVCbMNKX-crystalcore-os-console.md) · **ADJACENT** [`adjacent-crystalcore-os-v4-shell.html`](adjacent-crystalcore-os-v4-shell.html) · [`adjacent-crystalcore-os-omega-bootable.html`](adjacent-crystalcore-os-omega-bootable.html) |
+| `b7fc01e4-…` | CrystalCore.OS Live Party | [`../SOURCE-claude-artifact-b7fc-crystalcore-os.md`](../SOURCE-claude-artifact-b7fc-crystalcore-os.md) | **NOTE** · **SHOT-MISS** · same adjacent shells as `PiiKN` |
+| `UkFksTnUyjNCumHWDdTsdv` | Clementine product page | [`../SOURCE-claude-artifact-ukfk-clementine.md`](../SOURCE-claude-artifact-ukfk-clementine.md) | **NOTE** (Claude page HTML absent) · **ADJACENT** voice app [`adjacent-UkFk…app.html`](adjacent-UkFksTnUyjNCumHWDdTsdv-clementine-voice-app.html) |
+| `/share/a364bfde-…` | TerAustralis site design | [`../SOURCE-claude-share-a364-teraustralis-design.md`](../SOURCE-claude-share-a364-teraustralis-design.md) | **NOTE** · **SHOT-MISS** · **ADJACENT** Jul-17 site [`adjacent-a364-jul17-site-snapshot/`](adjacent-a364-jul17-site-snapshot/) · `teraustralis-artefacts/` zip **still missing** |
+| `/share/4e12…` | Boot CrystalCore.OS invoke | [`../SOURCE-claude-share-4e12-crystalcore-boot.md`](../SOURCE-claude-share-4e12-crystalcore-boot.md) | **NOTE** · **SHOT-MISS** |
 
 ---
 
 ## Gated (12 `/artifact/` + 4 Claude Code sessions)
 
-All have SOURCE stubs; bodies unknown; all cited screenshots **SHOT-MISS** on this node.
+All SOURCE stubs; bodies unknown; screenshots **SHOT-MISS**. Run sheet: [`UNGATE-RUN-SHEET.md`](UNGATE-RUN-SHEET.md).
 
 | Stub |
 | --- |
@@ -64,32 +65,28 @@ All have SOURCE stubs; bodies unknown; all cited screenshots **SHOT-MISS** on th
 | [`../SOURCE-claude-code-session-0192x-gated.md`](../SOURCE-claude-code-session-0192x-gated.md) |
 | [`../SOURCE-claude-code-session-016w-gated.md`](../SOURCE-claude-code-session-016w-gated.md) |
 
-**To close gated gaps:** follow [`UNGATE-RUN-SHEET.md`](UNGATE-RUN-SHEET.md) — Crystal ungates → `/share/` or paste body → replace stub. Prefer public artifacts already filed.
+---
+
+## Related visual dump
+
+[`../visual-corpus/`](../visual-corpus/) — **8 / 56** frames durable. Re-upload required for the rest.
 
 ---
 
-## Related visual dump (not Claude, same sitting)
-
-[`../visual-corpus/`](../visual-corpus/) holds **8** durable receipts of a **56**-frame CrystalCore.OS mythos dump.  
-[`../visual-corpus/ASSET-INDEX.txt`](../visual-corpus/ASSET-INDEX.txt) lists all 56 original ephemeral paths under `~/.cursor/projects/workspace/assets/` — **0/56 present on this node**. Re-upload if full set must be durable.
-
----
-
-## Counts (this pass · updated 2026-10-06)
+## Counts (6 Oct 2026)
 
 | Bucket | Count |
 | --- | --- |
-| Claude SOURCE files total | 27 |
-| Public/readable notes | 11 |
-| Gated stubs | 16 |
-| Full Claude bodies filed (`claude-*`) | 3 IDs (map-and-territory · What Is Built · Protocol Omega) |
-| Extracts from SOURCE notes | 2 (Remaining Work · aeon-atlas roadmap) |
-| Adjacent product/UI bodies | Clementine voice app + CrystalCore.OS v4 shell |
-| Screenshot paths cited vs present | 23 cited · **0 present** |
-| Visual dump durable / indexed | 8 / 56 |
+| Claude SOURCE files | 27 |
+| Full Claude bodies (`claude-*`) | 3 |
+| Extracts from SOURCE notes | 4 |
+| Adjacent product/UI / STATUS / site snapshot | yes (see table) |
+| Gated stubs remaining | 16 |
+| Screenshots present | 0 / 23 cited |
+| Visual dump | 8 / 56 |
 
-Latest continuation: [`CONTINUATION-2026-10-06.md`](CONTINUATION-2026-10-06.md) · Ungate: [`UNGATE-RUN-SHEET.md`](UNGATE-RUN-SHEET.md)
+Receipts: [`CONTINUATION-2026-10-06.md`](CONTINUATION-2026-10-06.md) · this pass append in git history · [`UNGATE-RUN-SHEET.md`](UNGATE-RUN-SHEET.md)
 
 ---
 
-*Inventory only. Does not ungate private Claude shares. Does not regenerate mythos stills.*
+*Inventory only. Does not ungate private Claude shares.*
