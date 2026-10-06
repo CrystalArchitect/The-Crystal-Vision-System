@@ -1,0 +1,45 @@
+# .ART Domain Registry — Kurt Pritz — 20 Sep 2026
+# CDN PDF: https://itp.cdn.icann.org/public-comment/proceeding/Initial%20Report%20of%20the%20TSG%20on%20gTLD%20Integrations%20with%20Alternative%20Naming%20Systems-10-08-2026/submissions/.ART%20Domain%20Registry/dotART_comment%20to_TSG_Report-20-09-2026.pdf
+# ICANN submission: https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/art-domain-registry-20-09-2026
+# Recovery: WebSearch PDF crawl + ICANN Summary of Submission · 6 Oct 2026 (second pass) · byte PDF not on disk (egress)
+# Depth: B
+
+---
+
+UK Creative Ideas Ltd • 11-13 Hill St., Douglas • Isle of Man • British Isles · https://art.art
+
+Summary of Submission (ICANN docket):
+A common technical baseline guiding gTLD integrations with alternative naming systems could reduce repetitive review, give registry operators greater certainty, and avoid marketplace confusion and risk to DNS security or stability.
+The presently offered .ART integration of DNS and alternative naming systems (i.e., Web2 and Web3 names) will serve as a useful example as this discussion evolves.
+The Report strays into areas reserved for either the ICANN policy development process or ICANN-gTLD negotiation. There are alternative mechanisms to some recommendations that might result in better policy outcomes vis-à-vis the goals of the report. There should be additional public discussion before an implementation model is developed to test the recommendations.
+
+From PDF crawl:
+
+A common technical baseline could reduce repetitive review, avoid unnecessary RSEP expense and give registry operators greater certainty regarding the information needed to demonstrate that a proposed service will not create marketplace confusion or a material risk to DNS security or stability.
+
+.ART implemented such a Web2-Web3 integration service in 2023 after proposing the integration details to ICANN and receiving ICANN’s go-ahead (without requesting an RSEP).
+
+• As the TSG report recommends, the .ART system limits each second-level domain in the DNS and its companion in the alternate naming system to only one controller (one registrant).
+• If a DNS registrant wished to claim a Web3 name, they would validate their eligibility through the insertion of a txt record in the Web2 DNS. Only then could they claim the matching Web3 name.
+• It matters not if the DNS or alternate naming system name is registered first (with the caveat that if the registrant starts on the Web3 side, they can only claim a Web3 name for an unregistered matching DNS name).
+  o If someone starts with registering a Web3 domain that's operated by .ART, then .ART registers the matching DNS name. (The cost the registry incurs in registering the Web2 name is built into the cost of registering the Web3 name.)
+  o No one can use that registered DNS domain, and only the person who has registered the Web3 matching domain could take possession of and start using the DNS name, should they desire to do so.
+  o At the point when the Web3 user takes possession of the corresponding DNS .ART name, they are required to provide DNS registration data in accordance with the RDAP.
+• The .ART Use Policy provides that if the DNS name expires, or is forfeited due to DNS abuse or rights infringement, the registrant also forfeits control over the alternate naming system (Web3) name.
+
+Remit / policy critique (crawl):
+In certain instances, the TSG Report veers into recommendations more suitable for ICANN-RySG negotiation, or potentially the jurisdiction of ICANN’s bottom-up, multistakeholder, transparent processes. There are alternatives to some of the recommendations, which might or might not have better policy outcomes for the stability and security of naming systems.
+
+In one example, in cases where a controller registers an alternative system name but not its DNS equivalent (and both systems are controlled by a Registry Operator), the Report appears to require that the Registry Operator must extend existing protocols (EPP, RDAP) to support alternative naming systems and ensure data consistency. This seemingly extends ICANN’s remit and effectively amends the Registration Agreement, which cannot be done absent broader discussion.
+
+The report should identify as unresolved for later negotiation or community discussion:
+• [what alternative-system data must be collected];
+• whether the data is maintained by the registry operator, registrar or …;
+• whether an opaque identifier or … address is sufficient;
+• what information, if any, must be published through RDAP;
+• whether existing disclosure mechanisms apply; and
+• … privacy and data-minimization requirements will be addressed.
+
+Therefore, policy outcomes must be appropriately considered. The issues posed in this and other recommendations specified in the report would benefit from (and ICANN Bylaws require) a multistakeholder discussion of desired policy outcomes and a debate on how to achieve them.
+
+(End of recovered extract.)

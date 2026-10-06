@@ -1,7 +1,7 @@
 # Read this first (plain English)
 
 **Canon:** no  
-**Sitting:** 2026-09-24 · Grok handoff stamped 26 Sep 2026 · thin-PDF recovery 6 Oct 2026  
+**Sitting:** 2026-09-24 · Grok handoff stamped 26 Sep 2026 · thin-PDF recovery 6 Oct 2026 · pass 2 (D3/ISPCP/.ART) 6 Oct 2026  
 **For:** Crystal  
 **Grok paste card:** [`HANDOFF-grok-bot-icann-tsg.md`](HANDOFF-grok-bot-icann-tsg.md)
 
@@ -24,7 +24,7 @@ This sitting is **research**. It is not Canon. It is not a product plan. Crystal
 1. Most commenters accept the technical idea (**string+controller**).  
 2. They fight about four other things: how hard to harden the rules, who decides policy, what happens to names that already exist off the DNS root, and which “integration” people even mean.  
 3. Several “integrations” get mixed up — registry service vs registrant DNS records vs ENS reverse import. Keep them separate.  
-4. **6 Oct 2026 recovery:** RySG, CleanDNS, Netnod, MeitY, and WIPO (summary) are now filed at Depth A/B in [`extracts/DEEP-EXTRACTS.md`](extracts/DEEP-EXTRACTS.md). Netnod’s cut: control equivalence ≠ resolution equivalence. Still thin: WIPO attachment PDF bytes, ISPCP/.ART/D3 full PDFs, and byte-faithful CDN archives (egress).
+4. **6 Oct 2026 recovery:** RySG, CleanDNS, Netnod, MeitY, WIPO (summary), **D3 (Depth A)**, **ISPCP/.ART (Depth B)** are filed in [`extracts/DEEP-EXTRACTS.md`](extracts/DEEP-EXTRACTS.md). Netnod’s cut: control equivalence ≠ resolution equivalence. Still thin: WIPO attachment PDF bytes, public Final Report PDF, and byte-faithful CDN archives (egress).
 
 ---
 
@@ -44,7 +44,10 @@ This sitting is **research**. It is not Canon. It is not a product plan. Crystal
 - **WIPO:** don’t mechanically import altroot cybersquatting into the root; brands need a challenge path.  
 - **CleanDNS:** reciprocal takedown needs real abuse reporting + evidence across both systems.  
 - **Netnod:** same controller ≠ same answer when you query.  
-- **MeitY:** turn soft assurances into checkable RSEP gates (including mandatory turn-down).
+- **MeitY:** turn soft assurances into checkable RSEP gates (including mandatory turn-down).  
+- **D3:** same RO-only frame as RySG/ENS — plus DNS-first for new names; don’t hard-code §8.2; no retroactive 2026 Round hit.  
+- **ISPCP:** yes to string+controller, but measure divergence risk — continuous monitoring + mandatory turn-down.  
+- **.ART:** already shipped a one-controller TXT+forfeit model in 2023 (no RSEP); keep tech baseline, move data/RDAP fights to PDP.
 
 ---
 

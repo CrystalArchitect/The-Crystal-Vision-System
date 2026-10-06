@@ -1,7 +1,7 @@
 # Deep extracts — Public Comments (priority set)
 
 **Sitting:** `sitting-2026-09-24-icann-tsg-string-controller`  
-**Filed:** 24 Sep 2026 (deep pass v2) · thin-PDF pass 25 Sep 2026 · recovery pass 6 Oct 2026  
+**Filed:** 24 Sep 2026 (deep pass v2) · thin-PDF pass 25 Sep 2026 · recovery pass 6 Oct 2026 · recovery pass 2 (D3 / ISPCP / .ART) 6 Oct 2026  
 **Canon:** **no**  
 **Egress limit:** `www.icann.org` / `itp.cdn.icann.org` still blocked for direct download/WebFetch; depth from WebSearch PDF crawls + Public Comment “Summary of Submission” pages + secondary roundups (Circleid, Domainera).
 
@@ -128,25 +128,58 @@ Roster: [`../SOURCE-public-comment-roster.csv`](../SOURCE-public-comment-roster.
 
 ---
 
-## 8. D3 Global, Inc. — Kevin Kreuser — 16 Sep 2026 — Depth **C**
+## 8. D3 Global, Inc. — Kevin Kreuser / Inder Singh — 16 Sep 2026 — Depth **A** (CDN crawl · 6 Oct 2026 pass 2)
 
-**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/d3-global-inc-16-09-2026)
+**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/d3-global-inc-16-09-2026) · [CDN PDF](https://itp.cdn.icann.org/public-comment/proceeding/Initial%20Report%20of%20the%20TSG%20on%20gTLD%20Integrations%20with%20Alternative%20Naming%20Systems-10-08-2026/submissions/D3%20Global,%20Inc./D3%20Global,%20Inc.%20Comment%20on%20Initial%20TSG%20Report-16-09-2026.pdf) · raw: [`../raw/SOURCE-d3-global-16-09-2026-extract.txt`](../raw/SOURCE-d3-global-16-09-2026-extract.txt)
 
-**Stance (Spanish submissions list summary):** Supports conclusion that well-designed integrations need not create material DNS S&S risk; clear risk-based evaluation; apply **only** to integrations affirmatively proposed/controlled by RO; preserve DNS registration as authoritative; architecture-neutral implementation. Primary PDF still not indexed this pass.
+**Stance:** Supports TSG conclusion that appropriately designed integrations can avoid material DNS S&S risk; wants a clear, **narrow, risk-based, architecture-neutral** evaluation framework. Draft risks overreaching into policy / contract / product architecture outside charter.
+
+**Asks (primary):**
+1. Scope = **only** integrations **affirmatively proposed and controlled by the RO** — independently operated same-string systems create **no claim** on DNS inventory or rights against RO/applicant; commercial proximity ≠ control; string overlap ≠ integration.
+2. Reject automatic alt→DNS entitlement / grandfathering / priority for unrelated ROs (permissionless mint, colliding ANS brands, manufactured claims, unverifiable controllers). Voluntary RO integration of *its own* populated ANS may need a **service-specific transition plan**.
+3. Prefer **DNS-first** for new integrated names (register DNS via existing channels, then issue onchain token/identifier) — do **not** treat §8.2 alt-while-DNS-withheld SRS model as required default; mark it optional + separate policy/contract analysis.
+4. Distinguish three service types: (a) RO Registry Service integrating a TLD with ANS; (b) registrar tokenization of an existing DNS registration without RO-operated ANS; (c) independent ANS — only (a) is in TSG/RSEP scope. Token ≠ second namespace; wallet/token holder ≠ automatic DNS registrant.
+5. Do not convert policy questions (SRS enrollment, RDAP extensions, registration data, URS/UDRP, fees, allocation) into technical MUSTs via RFC 2119 language; binding force only via RA / Consensus Policy / agreed RSEP conditions justified by demonstrated DNS S&S risk.
+6. Registration-data and RPM questions remain unresolved — identify as such; don’t auto-apply every DNS policy to non-DNS identifiers.
+7. Technical baseline = measurable outcomes (RO control, no parallel ownership system, lifecycle/reconciliation, auditability, proportionate turn-down) — not one mandated architecture.
+8. **No retroactive effect** on 2026 Round applicants who did not propose an integration.
+
+**Honesty:** Near-full PDF text via WebSearch CDN crawl → raw extract on disk. Direct byte download still egress-blocked.
 
 ---
 
-## 9. ISPCP — Philippe Fouquart — 15 Sep 2026 — Depth **C** → Circleid **B-lite**
+## 9. ISPCP — Philippe Fouquart — 15 Sep 2026 — Depth **B** (memberclicks PDF crawl · 6 Oct 2026 pass 2)
 
-**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/the-internet-service-providers-and-connectivity-providers-constituency-ispcp-15-09-2026) · secondary: [Circleid roundup, 21 Sep](https://circleid.com/posts/icann-comment-period-closes-on-linking-gtlds-with-alternative-naming-systems)
+**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/the-internet-service-providers-and-connectivity-providers-constituency-ispcp-15-09-2026) · [constituency PDF](https://ispcp.memberclicks.net/assets/docs/PolicyStatements/2026_PolicyStatements/ISPCP%20-%20Public%20Comment%20input%20-%20TSG%20on%20gTLD%20Integrations%20with%20Alternative%20Naming%20Systems.pdf) · raw: [`../raw/SOURCE-ispcp-15-09-2026-extract.txt`](../raw/SOURCE-ispcp-15-09-2026-extract.txt)
 
-**Stance (Circleid):** Draft should include more detailed **risk assessments**, **controller-assurance** mechanisms, **monitoring**, and **mandatory continuity/shutdown** provisions. Aligns with ISPCP’s historical NCAP posture (per-TLD risk analysis). Primary PDF / ICANN summary page still not recovered (list UI + CDN search miss).
+**Stance:** Supports technical direction and string+controller / USoT foundations, but says the report under-develops **risk assessment of divergence**; wants a substantially stronger assurance framework before approval / contractual incorporation. Aligns with ISPCP’s historical NCAP posture (per-TLD risk analysis).
+
+**Asks (primary crawl):**
+1. Equivalent security / integrity / authenticity assurance for every integrated ANS (DNSSEC-equivalent where applicable).
+2. URS/UDRP-equivalent dispute and abuse mechanisms as **precondition** for approval (not left open).
+3. Turn-down / continuity / recovery elevated from RECOMMENDED → **REQUIRED** (EBERO gap).
+4. Explicit max **convergence/consistency window**, divergence detection, and fail-safe behaviour for eventually-consistent USoT.
+5. More attention to **multi-ANS** complexity as USoT proof burden grows.
+6. Reliable **thin-registry / controller-identity** mechanism when RO lacks registrant data.
+7. **Continuous conformance monitoring** + auditability (thresholds, incident notification, remediation timelines, consequences) — not one-time approval assessment.
+
+**Honesty:** Substantive body recovered from ISPCP memberclicks PDF crawl (CDN/ICANN primary still egress-thin). Not page-faithful OCR; cite raw extract.
 
 ---
 
-## 10. .ART Domain Registry — Kurt Pritz — 20 Sep 2026 — Depth **C** → Circleid **B-lite**
+## 10. .ART Domain Registry — Kurt Pritz — 20 Sep 2026 — Depth **B** (CDN crawl + ICANN summary · 6 Oct 2026 pass 2)
 
-**Secondary ([Circleid](https://circleid.com/posts/icann-comment-period-closes-on-linking-gtlds-with-alternative-naming-systems) / Domainera):** Supports a **common technical baseline** for certainty; some recommendations belong in **policy development or registry negotiations**, not pure tech advice. Primary PDF still thin.
+**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/art-domain-registry-20-09-2026) · [CDN PDF](https://itp.cdn.icann.org/public-comment/proceeding/Initial%20Report%20of%20the%20TSG%20on%20gTLD%20Integrations%20with%20Alternative%20Naming%20Systems-10-08-2026/submissions/.ART%20Domain%20Registry/dotART_comment%20to_TSG_Report-20-09-2026.pdf) · raw: [`../raw/SOURCE-art-domain-registry-20-09-2026-extract.txt`](../raw/SOURCE-art-domain-registry-20-09-2026-extract.txt)
+
+**Stance:** Supports a **common technical baseline** (less repetitive review / RSEP expense / marketplace confusion). Offers .ART’s live Web2–Web3 integration as an existence proof. Argues the Report **strays into PDP / RA negotiation**; wants more public discussion before hardening an implementation model.
+
+**Asks / facts (primary):**
+1. .ART ran a one-controller DNS↔Web3 pairing in **2023** after ICANN go-ahead **without an RSEP**.
+2. Eligibility via **TXT** proof in DNS before claiming matching Web3 name; Web3-first path: .ART registers matching DNS name (cost in Web3 fee), holds until registrant takes possession + supplies RDAP data.
+3. Use Policy: DNS expiry / forfeiture for abuse or rights infringement → **forfeit matching Web3 control**.
+4. Flag EPP/RDAP extension + registration-data requirements for alt-only names as remit stretch — identify data collection / ownership / RDAP publication / privacy as **unresolved** for multistakeholder or negotiation track.
+
+**Honesty:** Depth B from CDN crawl + official Summary of Submission. Full page OCR still incomplete; byte PDF egress-blocked.
 
 ---
 
@@ -308,13 +341,16 @@ Roster: [`../SOURCE-public-comment-roster.csv`](../SOURCE-public-comment-roster.
 | No rights for independent alt TLDs | ENS, RySG (primary) |
 | Registrant DNSSEC association ≠ RSEP | Unregistry, ENS (reverse import out of scope) |
 | TLD-level DNSSEC binding prototype | estmcmxci (TLD Oracle / `_ens.nic.`) |
-| Picket Fence / don’t harden advisory | RrSG, Tucows, .ART (partial), Circleid roundup |
-| Stronger risk/assurance framework | ISPCP, MeitY (primary), SSAC measurement |
-| Multi-system / add-a-network RSEP | RrSG, Netnod (nth system = new RSEP) |
-| Turn-down MUST + EBERO user story | Unregistry, Clowes, SSAC continuity, MeitY, Netnod |
+| Picket Fence / don’t harden advisory | RrSG, Tucows, **.ART (primary)**, Circleid roundup |
+| Stronger risk/assurance framework | **ISPCP (primary)**, MeitY (primary), SSAC measurement |
+| Multi-system / add-a-network RSEP | RrSG, Netnod (nth system = new RSEP), **ISPCP (multi-ANS USoT complexity)** |
+| Turn-down MUST + EBERO user story | Unregistry, Clowes, SSAC continuity, MeitY, Netnod, **ISPCP** |
 | Control ≠ resolution equivalence | Netnod |
 | Reciprocal abuse plumbing / evidencing | CleanDNS |
-| Working prototypes cited | Clowes (altname-platform), estmcmxci (TLD Oracle), Unregistry (ops perspective) |
+| Only RO-proposed / RO-controlled integrations; no independent ANS claims | ENS, RySG, **D3 (primary)** |
+| DNS-first / architecture-neutral; §8.2 optional | **D3** |
+| Live one-controller existence proof (TXT + forfeit; 2023 no-RSEP) | **.ART** |
+| Working prototypes cited | Clowes (altname-platform), estmcmxci (TLD Oracle), Unregistry (ops perspective), .ART (production) |
 
 ---
 
@@ -335,11 +371,22 @@ Roster: [`../SOURCE-public-comment-roster.csv`](../SOURCE-public-comment-roster.
 | CleanDNS primary | **Hit — Depth B** (CDN crawl + ICANN summary) |
 | MeitY primary | **Hit — Depth B** (CDN crawl + ICANN summary) |
 | WIPO primary | **Hit — Depth B** (ICANN Summary of Submission; attachment PDF still thin) |
-| ISPCP / .ART / D3 primaries | Still Circleid B-lite / list summary only |
+| ISPCP / .ART / D3 primaries | Still Circleid B-lite / list summary only (pass 1) |
 | Full PDF bytes on disk | Still blocked — `itp.cdn.icann.org` / `www.icann.org` not on egress allowlist; WebFetch rejected |
 
-**Egress note:** Direct `curl` / WebFetch to ICANN hosts still fail. WebSearch PDF crawls now recover RySG/CleanDNS/Netnod/MeitY; WIPO attachment text still missing beyond the official Summary of Submission.
+### Recovery pass 2 — 6 Oct 2026 (D3 / ISPCP / .ART)
 
-Priority remaining: **WIPO attachment PDF full text · ISPCP full · .ART full · D3 full · allowlist `itp.cdn.icann.org` + `www.icann.org` for byte-faithful archives**.
+| Target | Result |
+| --- | --- |
+| D3 Global primary | **Hit — Depth A** (near-full CDN crawl → `raw/SOURCE-d3-global-16-09-2026-extract.txt`) |
+| ISPCP primary | **Hit — Depth B** (memberclicks constituency PDF crawl → `raw/SOURCE-ispcp-15-09-2026-extract.txt`) |
+| .ART Domain Registry primary | **Hit — Depth B** (CDN crawl + ICANN summary → `raw/SOURCE-art-domain-registry-20-09-2026-extract.txt`) |
+| Public Final / revised TSG report | **Still thin** — Sullivan 30 Sep / 1 Oct updated report on TSG shared Drive (clean + redline); public ICANN.org Final PDF not confirmed |
+| WIPO attachment PDF full text | Still thin beyond Summary of Submission |
+| Byte-faithful CDN archives | Still egress-blocked |
 
-Until then, cite this file + Netnod raw extract; do not invent quotes beyond Depth A/B rows above.
+**Egress note:** Direct `curl` / WebFetch to ICANN hosts still fail. WebSearch PDF crawls now recover D3 (A), ISPCP/.ART (B) alongside prior RySG/CleanDNS/Netnod/MeitY hits.
+
+Priority remaining: **WIPO attachment PDF full text · public Final Report when published · allowlist `itp.cdn.icann.org` + `www.icann.org` + `ispcp.memberclicks.net` for byte-faithful archives**.
+
+Until then, cite this file + raw extracts; do not invent quotes beyond Depth A/B rows above.

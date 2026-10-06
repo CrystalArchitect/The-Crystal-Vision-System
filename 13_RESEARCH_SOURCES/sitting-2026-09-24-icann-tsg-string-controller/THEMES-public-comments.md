@@ -5,7 +5,7 @@
 **Proceeding:** closed 21 Sep 2026 · report due ~5 Oct 2026  
 **Canon:** **no**  
 **Limit:** Institutional / published positions summarized from Public Comment pages, SAC134 PDF snippets, ENS/Unregistry/IPC/RrSG/ALAC/Circleid secondary coverage. Individual comments not all read end-to-end (icann.org binary fetch blocked on this host).  
-**Deep pass:** [`extracts/DEEP-EXTRACTS.md`](extracts/DEEP-EXTRACTS.md) · [`extracts/TENSION-MAP.md`](extracts/TENSION-MAP.md) (v2 + **6 Oct 2026 recovery:** RySG / WIPO / CleanDNS / Netnod / MeitY upgraded off thin).
+**Deep pass:** [`extracts/DEEP-EXTRACTS.md`](extracts/DEEP-EXTRACTS.md) · [`extracts/TENSION-MAP.md`](extracts/TENSION-MAP.md) (v2 + **6 Oct 2026 recovery** + **pass 2:** D3 Depth A; ISPCP/.ART Depth B).
 
 ---
 
@@ -54,7 +54,7 @@ String+controller (same string / same controller or exclusive withhold) is treat
 
 ### 6. Operators / connectivity / states want measurable risk controls
 
-**ISPCP** (via Circleid): deeper risk assessment, controller-assurance, monitoring, mandatory continuity/shutdown.
+**ISPCP (primary):** string+controller / USoT useful but insufficient — DNSSEC-equivalent assurance, URS/UDRP-equivalent as precondition, mandatory turn-down, max consistency window + fail-safes, multi-ANS complexity, thin-registry controller identity, continuous conformance monitoring (thresholds / notification / remediation / consequences).
 
 **MeitY India (primary):** technology-neutral checkable conditions before RSEP — control assurance, mandatory pre-tested turn-down (EBERO gap), deterministic transfers/locking, objective §10 acceptance criteria (audits, stress tests, anti-abuse SLAs, stop-work).
 
@@ -62,7 +62,9 @@ String+controller (same string / same controller or exclusive withhold) is treat
 
 **Netnod (primary):** see §2 — nine Final Report additions (convergence, crypto control proof, USoT SPOF, collision framework update, partition behaviour, dispute-aftermath convergence).
 
-**.ART / D3 / ISPCP full PDFs:** still Circleid B-lite / list summary only after 6 Oct recovery.
+**.ART (primary):** common technical baseline yes; live 2023 one-controller TXT+forfeit model (ICANN go-ahead, no RSEP); Report strays into PDP/RA negotiation — data/RDAP questions unresolved for multistakeholder track.
+
+**D3 (primary):** only RO-proposed/controlled integrations; reject independent ANS claims on DNS inventory; prefer DNS-first for new names; architecture-neutral; no retroactive effect on 2026 Round applicants.
 
 ### 7. Individual / alt-name operator cluster
 
@@ -83,7 +85,9 @@ Many individual and Web3-facing comments (APlusDomains.Crypto, Barrett, Manorata
 | RySG | Support voluntary tech baseline | Affirmative RO proposal + control only; no rights for independent ANS; no duties on non-integrating ROs |
 | ENS Foundation | Support root unity; carve reverse path | Final Report: registrant-elected DNSSEC import out of scope |
 | Unregistry | Support principle; user-side model | DNSSEC association records ≠ registry service; IETF path |
-| ISPCP | Hardening (Circleid B-lite) | Measurable risk, controller assurance, sync/failure tests, continuity/shutdown |
+| ISPCP | Hardening (primary Depth B) | Measurable risk, DNSSEC-eq, URS/UDRP precondition, multi-ANS, thin-registry ID, continuous monitoring, mandatory turn-down |
+| .ART | Baseline + existence proof (Depth B) | 2023 one-controller TXT+forfeit (no RSEP); PDP/RA for data/RDAP |
+| D3 Global | Narrow RO-only frame (Depth A) | Affirmative RO control only; DNS-first; no independent ANS claims; no retroactive Round hit |
 | MeitY | Support explore; harden before RSEP | Checkable controls; mandatory turn-down; objective acceptance criteria |
 | WIPO | Rights enforcement | No mechanical import of altroot cybersquatting; brand challenge → withhold |
 | Tucows | Picket Fence / support RrSG | DNS-side OK; don’t regulate ANS internals; advisory ≠ binding |
@@ -99,7 +103,8 @@ Many individual and Web3-facing comments (APlusDomains.Crypto, Barrett, Manorata
 3. Whether Final Report adopts ENS “reverse direction out of scope” and Unregistry “association records ≠ RSEP” clarifications.  
 4. Whether legacy-alt enrollment rules move from “policy beyond this report” into GNSO / ICANN org work before any RSEP green light.  
 5. Whether Netnod’s control≠resolution cut and CleanDNS abuse-plumbing conditions land in the Final Report.  
-6. Egress allowlist for `itp.cdn.icann.org` + `www.icann.org` so WIPO attachment + ISPCP/.ART/D3 primaries can be archived byte-faithful.
+6. Egress allowlist for `itp.cdn.icann.org` + `www.icann.org` + `ispcp.memberclicks.net` so WIPO attachment + byte-faithful D3/ISPCP/.ART archives land on disk.
+7. Public Final / revised TSG report (Sullivan shared-Drive update ~30 Sep–1 Oct still not on ICANN.org PDF as of this pass).
 
 ---
 
