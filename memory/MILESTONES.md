@@ -7,6 +7,14 @@ tracks that project; this file tracks this repo).
 **Write-back:** when monorepo-level work lands, add a dated entry here and,
 if it changes "now," update the relevant row in [`INDEX.md`](INDEX.md).
 
+## 2026-09-25 — Energy × AI + Cosmic stack (plain read)
+
+- Research reaction + Cosmic bridge (watts / water / consciousness) under
+  [`13_RESEARCH_SOURCES/energy-ai-electricity-2026/`](../13_RESEARCH_SOURCES/energy-ai-electricity-2026/).
+- **Start here:** [`PLAIN-ENGLISH.md`](../13_RESEARCH_SOURCES/energy-ai-electricity-2026/PLAIN-ENGLISH.md).
+- Origin verse: [`10_ORIGINAL_CREATIVE/sitting-2026-09-24-origin-verse/`](../10_ORIGINAL_CREATIVE/sitting-2026-09-24-origin-verse/).
+- Working Index: `CVS-ENERGY-AI` · `CVS-ORIGIN-VERSE`. Canon: no. PRs #62 · #66 · #75.
+
 ## 2026-09-24 — Starline naming sitting archived
 
 - Plain-language law live: [`00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md)
