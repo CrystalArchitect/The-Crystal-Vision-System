@@ -17,4 +17,6 @@ ENV
   echo "Created .env with placeholder Supabase values."
 fi
 
-npm install
+# The lockfile resolves every package from registry.npmjs.org. Cloud Agent
+# egress must allow that host or this command fails with ECONNRESET.
+npm ci
