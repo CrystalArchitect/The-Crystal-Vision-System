@@ -23,7 +23,7 @@ Hold the ICANN TSG **string+controller** map: same-string gTLD × alternative na
 4. **No Crystal position.** Do not say Crystal supports grandfathering, ENS, Unregistry, or any camp. She is reading, not lobbying.  
 5. **No invented quotes.** Depth **C** rows (RySG, WIPO, CleanDNS, Netnod primaries; MeitY/ISPCP/.ART via Circleid only) = paraphrase or “cite secondary / link only.” Never fabricate PDF text.  
 6. **Human publishes.** Drafts only. No auto-post to X / ICANN / blogs.  
-7. **Watch the clock.** Final Report due **~5 Oct 2026**. After that date, say the sitting may be stale until Crystal refreshes.  
+7. **Watch the clock.** Final Report was **due 5 Oct 2026**. As of **6 Oct**: updated draft on TSG shared drive (list), **not** a public Final PDF; RA second comment **not** open. Say so — do not invent Final text. Refresh when public PDF lands.  
 8. If unsure → ask Crystal. Prefer silence over confident wrong.
 
 ---
@@ -53,7 +53,7 @@ Hold the ICANN TSG **string+controller** map: same-string gTLD × alternative na
 
 | Fight | Core |
 | --- | --- |
-| **A Safety** | SSAC etc.: DNS must not depend on alt failure; measure ongoing RO control; URS/UDRP equivalent when alt-primary |
+| **A Safety** | SSAC / Netnod / MeitY: DNS≠alt failure; control≠resolution; measure convergence; URS/UDRP path gaps |
 | **B Fence** | RrSG / Tucows: don’t harden advisory into RA mandates / don’t govern ANS internals. ALAC/IPC: *more* community work before any RSEP green light |
 | **C Legacy** | Grandfather camps vs ENS/RySG “no rights from alt occupancy” vs Bird **transition plan without entitlement** vs IPC rights machinery first |
 | **D Direction** | Don’t blur RSEP registry→alt with registrant association records or ENS reverse import |
@@ -62,14 +62,15 @@ Hold the ICANN TSG **string+controller** map: same-string gTLD × alternative na
 
 ---
 
-## Thin rows (do not overclaim)
+## Thin / upgraded rows (do not overclaim)
 
-| Submitter | Status |
+| Submitter | Status (6 Oct recovery) |
 | --- | --- |
-| RySG / WIPO | Known **via ENS Foundation cite only** |
-| CleanDNS / Netnod | Roster links only — no body recovered |
-| MeitY / ISPCP / .ART | Circleid paraphrase (B-lite) — not primary PDF |
-| Tucows | Depth B (CDN PDF) — Picket Fence; supports RrSG |
+| **RySG / CleanDNS / Netnod / MeitY** | Depth **B** — primary PDF recovered; cite DEEP-EXTRACTS |
+| **WIPO** | Still **via ENS cite only** — no primary PDF |
+| ISPCP / .ART / D3 | Still Circleid / list summary only |
+| Tucows | Depth B — Picket Fence; supports RrSG |
+| **Final Report** | Not public yet — see `WATCH-2026-10-06-final-report.md` |
 
 ---
 

@@ -150,11 +150,18 @@ Roster: [`../SOURCE-public-comment-roster.csv`](../SOURCE-public-comment-roster.
 
 ---
 
-## 11. MeitY (Government of India) — 21 Sep 2026 — Depth **C** → Circleid **B-lite**
+## 11. MeitY (Government of India) — 21 Sep 2026 — Depth **B** (PDF + summary · recovered 6 Oct)
 
-**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/ministry-of-electronics-and-information-technology-government-of-india-21-09-2026) · secondary: [Circleid](https://circleid.com/posts/icann-comment-period-closes-on-linking-gtlds-with-alternative-naming-systems)
+**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/ministry-of-electronics-and-information-technology-government-of-india-21-09-2026) · [PDF](https://itp.cdn.icann.org/public-comment/proceeding/Initial%20Report%20of%20the%20TSG%20on%20gTLD%20Integrations%20with%20Alternative%20Naming%20Systems-10-08-2026/submissions/Ministry%20of%20Electronics%20and%20Information%20Technology,%20Government%20of%20India/Indias%20comments%20on%20TSG%20Report-21-09-2026.pdf)
 
-**Stance (Circleid):** Measurable requirements for **synchronization**, **failure handling**, **independent security testing**, and measures against **inconsistent ownership** across systems. Primary PDF not extracted; do not invent MeitY quotes beyond Circleid paraphrase.
+**Stance:** Supports exploring string+controller; convert broad requirements into **clear, measurable, verifiable** RSEP conditions.
+
+**Asks (PDF crawl + summary):**
+1. Technology-neutral **control-assurance** dossier (evidence of effective RO control) before activation.  
+2. §6.1 USoT: define states pending / committed / failed / rollback; measurable max unresolved period; atomic same-string/controller updates; fail-safe locks when consistency cannot be verified.  
+3. Turn-down plan **mandatory** + pre-tested for RSEP.  
+4. Deterministic registration/transfer procedures; cross-system locking; guards when DNS expires but ANS stays live.  
+5. §10: objective acceptance criteria — independent security/crypto audits, failure/load stress tests, anti-abuse SLAs, pass/fail + stop-work thresholds.
 
 ---
 
@@ -162,26 +169,55 @@ Roster: [`../SOURCE-public-comment-roster.csv`](../SOURCE-public-comment-roster.
 
 **Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/wipo-arbitration-and-mediation-center-21-09-2026)
 
-**Position (as cited by ENS Foundation PDF):** Cybersquatting already at scale in alternative namespaces; infringing names must not map into the root unchecked. ENS answers that concern with Sunrise/Claims for any mapping into root. **Thin-PDF pass 25 Sep 2026:** primary WIPO PDF and ICANN summary page still not indexed / not fetchable — do not invent WIPO quotes.
+**Position (as cited by ENS Foundation PDF):** Cybersquatting already at scale in alternative namespaces; infringing names must not map into the root unchecked. ENS answers with Sunrise/Claims for any mapping into root. **Recovery pass 6 Oct 2026:** WIPO primary PDF still not on CDN search index — do not invent WIPO quotes.
 
 ---
 
-## 13. RySG — 21 Sep 2026 — Depth **C** (via ENS cite)
+## 13. RySG — 21 Sep 2026 — Depth **B** (primary PDF · recovered 6 Oct)
 
-**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/rysg-registries-stakeholder-group-21-09-2026)
+**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/rysg-registries-stakeholder-group-21-09-2026) · [PDF](https://itp.cdn.icann.org/public-comment/proceeding/Initial%20Report%20of%20the%20TSG%20on%20gTLD%20Integrations%20with%20Alternative%20Naming%20Systems-10-08-2026/submissions/(rysg)-registries%20stakeholder%20group/RySG_comment_Initial_Report_of_the_TSG_on_gTLD_Integrations_with_Alternative_Naming_Systems_(September-2026)-21-09-2026.pdf)
 
-**Position (ENS Foundation PDF quotes RySG ask of Final Report):** create **no rights** for independently operated alternative namespaces; impose **no new obligations** on registry operators that propose **no** integration. **Thin-PDF pass 25 Sep 2026:** primary RySG PDF still not on CDN search index (RrSG/Tucows/ENS/IPC/Unregistry/SAC134 *are*); do not invent RySG quotes beyond the ENS cite.
+**Stance:** Supports clear/efficient technical framework for **voluntary** integration Registry Services.
+
+**Asks (PDF + summary):**
+1. Scope **only** where RO affirmatively proposes integration **and** demonstrates control.  
+2. Independently operated same-string namespaces create **no rights** and impose **no** monitor/withhold/liability duties on non-integrating ROs.  
+3. Do not dictate a single architecture; leave registration data / RPM / fees / policy to proper processes.  
+4. Mandatory requirements only for demonstrated **material DNS S&S risk**.
 
 ---
 
-## 14. CleanDNS Inc. / Netnod — Depth **C** (links only)
+## 14. CleanDNS Inc. — Alan Woods — 21 Sep 2026 — Depth **B** (recovered 6 Oct)
 
-| Submitter | Link |
-| --- | --- |
-| CleanDNS (Alan Woods) | [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/cleandns-inc-21-09-2026) |
-| Netnod (Ulf Fredrik Karl Lindeberg) | [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/netnod-21-09-2026) |
+**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/cleandns-inc-21-09-2026) · [PDF](https://itp.cdn.icann.org/public-comment/proceeding/Initial%20Report%20of%20the%20TSG%20on%20gTLD%20Integrations%20with%20Alternative%20Naming%20Systems-10-08-2026/submissions/CleanDNS%20Inc./CleanDNS%20Inc%20Public%20Comment%20on%20the%20TSG%20Initial%20Report%20[21%20September%202026]-21-09-2026.pdf)
 
-**Thin-PDF pass 25 Sep 2026:** neither PDF nor Summary of Submission recovered via WebSearch CDN crawl, ICANN list UI (early pages only), or direct curl (SSL blocked). Circleid roundup does not paraphrase either submitter. Open follow-ups — do not invent.
+**Stance:** Supports Report conclusions; focus on abuse / reciprocal takedown ops (§8.5–8.6).
+
+**Asks:**
+1. Standardized **cross-system abuse reporting** spanning DNS-name and alt-name — RSEP condition.  
+2. Role for qualified third-party abuse providers in reciprocal takedown.  
+3. Interoperable **evidencing** so one-side takedown carries verifiable evidence to the other.  
+4. Map disruption tools beyond serverHold/clientHold (sinkhole, NS redirect, ANS equivalents).  
+5. Flag URS/UDRP limits for alt-primary + unpaired alt-name confusion early in RSEP/contract work.
+
+---
+
+## 14b. Netnod — Fredrik Lindeberg — 21 Sep 2026 — Depth **B** (near-full · recovered 6 Oct)
+
+**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/netnod-21-09-2026) · [text extract](../SOURCE-netnod-comment-text-extract.txt) · [PDF](https://itp.cdn.icann.org/public-comment/proceeding/Initial%20Report%20of%20the%20TSG%20on%20gTLD%20Integrations%20with%20Alternative%20Naming%20Systems-10-08-2026/submissions/Netnod/Netnod%20ICANN%20gTLD%20integrations%20alternate%20naming%20signed-21-09-2026.pdf)
+
+**Stance (i-root / IXP operator):** Supports string+controller as a **necessary floor**; secures **allocation/control equivalence**, not **resolution equivalence**.
+
+**Nine Final Report asks (compressed):**
+1. Explicit control ≠ resolution; don’t market integrated names as single unambiguous meaning.  
+2. Published max **convergence** time; detect/disclose divergence; turn-down **REQUIRED** + tested; state EBERO-period ops for both systems.  
+3. Prefer cryptographic proof of exclusive control.  
+4. Analyse USoT as single point of failure; each added ANS = new RSEP.  
+5. Record DNSSEC provenance asymmetry.  
+6. Treat withheld-name displacement / third-party rights when ANS pre-exists.  
+7. Update collision/AGB framework for ANS (SAC130 Rec 3).  
+8. Convergence path after UDRP/URS/abuse/expiry outcomes before RSEP approvals.  
+9. State partition behaviour + reconciliation per integrated system.
 
 ---
 
@@ -266,20 +302,20 @@ Roster: [`../SOURCE-public-comment-roster.csv`](../SOURCE-public-comment-roster.
 
 ## Still thin (next fetch when egress allows)
 
-### Thin-PDF pass — 25 Sep 2026
+### Thin-PDF pass — 25 Sep 2026 · Recovery pass — 6 Oct 2026
 
-| Target | Result |
-| --- | --- |
-| RySG primary | **Miss** — not in CDN search index; ENS cite only |
-| WIPO primary | **Miss** — not in CDN search index; ENS cite only |
-| CleanDNS primary | **Miss** — no PDF, summary, or Circleid paraphrase |
-| Netnod primary | **Miss** — no PDF, summary, or Circleid paraphrase |
-| MeitY / ISPCP / .ART / D3 primaries | **Miss** — Circleid B-lite only (ISPCP/MeitY/.ART); D3 list summary only |
-| Tucows | **Hit** — upgraded C → B via indexed CDN PDF |
-| Already B+ via crawl | Unregistry (A), SAC134, ALAC, IPC, ENS, RrSG |
+| Target | 25 Sep | 6 Oct |
+| --- | --- | --- |
+| RySG | Miss (ENS cite) | **Hit → B** |
+| WIPO | Miss (ENS cite) | Still miss — ENS cite only |
+| CleanDNS | Miss | **Hit → B** |
+| Netnod | Miss | **Hit → B** (near-full text on disk) |
+| MeitY | Circleid B-lite | **Hit → B** |
+| ISPCP / .ART / D3 | Circleid / list | Still thin |
+| Tucows | B | B |
 
-**Egress note:** Direct `curl` to `icann.org` / `itp.cdn.icann.org` / `circleid.com` fails (`SSL_ERROR_SYSCALL`). WebSearch PDF crawls recover *some* CDN PDFs; RySG/WIPO/CleanDNS/Netnod remain absent from that index. Treg scrape auth did not stick for live page extract.
+**Final Report watch (6 Oct 2026):** Proceeding due date was **5 Oct 23:59 UTC**. Andrew Sullivan posted to the TSG community list (~1 Oct) that an **updated report** (clean + redline) was placed on the group’s **shared drive** — not yet a public Final PDF on `icann.org` / CDN. Second Public Comment (RA amendments) **not opened**. See [`../WATCH-2026-10-06-final-report.md`](../WATCH-2026-10-06-final-report.md).
 
-Priority remaining: **RySG, WIPO, CleanDNS, Netnod, MeitY primary, ISPCP full, .ART full, D3 full**.
+Priority remaining: **WIPO primary, ISPCP full, .ART full, D3 full**, plus **public Final Report PDF** when published.
 
-Until then, cite this file + Unregistry full text; do not invent quotes for thin Depth-C rows.
+Until public Final lands, cite this file + Netnod/Unregistry extracts; do not invent WIPO quotes.

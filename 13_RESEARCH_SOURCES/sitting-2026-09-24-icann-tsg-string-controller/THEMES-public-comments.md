@@ -54,7 +54,7 @@ String+controller (same string / same controller or exclusive withhold) is treat
 
 **MeitY India** (via Circleid): measurable requirements for failure handling, independent security testing, collision measures.
 
-**Netnod / CleanDNS:** rostered; PDF/summary still unrecovered after thin-PDF pass 25 Sep — follow links in CSV before citing. **RySG / WIPO:** positions known via ENS cite only; primaries still open. **Tucows:** Depth B (CDN PDF crawl). **.ART / D3 / MeitY / ISPCP:** Circleid B-lite or list summary only.
+**Recovery 6 Oct:** RySG / CleanDNS / Netnod / MeitY → Depth B. **WIPO** still ENS-cite only. **Tucows** B. **ISPCP / .ART / D3** still Circleid/list. **Final Report** not public yet (TSG Drive update only).
 
 ### 7. Individual / alt-name operator cluster
 
@@ -72,13 +72,15 @@ Many individual and Web3-facing comments (APlusDomains.Crypto, Barrett, Manorata
 | ALAC | Cautious; end-user frame | Prefer SRS-plugin; contactability; continuous monitoring; SSAC collision study; COI transparency |
 | IPC | Rights-first brake | Community process before approvals; legacy enrollment controls (inventory, data, TMCH, challenge) |
 | RrSG | Process / fence caution | Don’t harden advisory into unexamined requirements; multi-system RSEP; IDN-EPDP reuse |
-| RySG | (via ENS cite) | No rights for independent alt namespaces; no new duties on non-integrating ROs |
+| RySG | Support voluntary RSEP framework (B) | No rights for independent alt namespaces; scope only RO-proposed+controlled |
 | ENS Foundation | Support root unity; carve reverse path | Final Report: registrant-elected DNSSEC import out of scope |
 | Unregistry | Support principle; user-side model | DNSSEC association records ≠ registry service; IETF path |
-| ISPCP / MeitY | Hardening | Measurable risk, controller assurance, sync/failure tests, continuity/shutdown |
-| WIPO | Rights enforcement | Cybersquatting / RPM applicability (read PDF before quoting) |
+| ISPCP | Hardening (Circleid) | Risk assessment, controller assurance, monitoring, continuity/shutdown |
+| MeitY | Hardening (B) | Measurable USoT states, control dossier, mandatory turn-down, audits/SLAs |
+| WIPO | Rights (ENS cite only) | Cybersquatting / RPM — primary PDF still missing |
 | Tucows | Picket Fence / support RrSG | DNS-side OK; don’t regulate ANS internals; advisory ≠ binding |
-| CleanDNS / Netnod | Thin (25 Sep pass) | Roster links only — fetch PDFs before citing |
+| CleanDNS | Abuse ops (B) | Cross-system abuse reporting + reciprocal takedown evidence |
+| Netnod | Control≠resolution (B) | Convergence bounds; USoT SPOF; UDRP/expiry path gaps; collision AGB update |
 
 ---
 

@@ -2,7 +2,7 @@
 
 **Companion to:** [`DEEP-EXTRACTS.md`](DEEP-EXTRACTS.md) · [`../THEMES-public-comments.md`](../THEMES-public-comments.md)  
 **Canon:** **no**  
-**Updated:** 24 Sep 2026 (deep pass v2)
+**Updated:** 24 Sep 2026 (deep pass v2) · recovery 6 Oct 2026
 
 Four fights dominate the closed Public Comment. They are not the same question. A fifth cluster is implementation prototypes, not a fight.
 
@@ -13,7 +13,7 @@ Four fights dominate the closed Public Comment. They are not the same question. 
 **TSG claim:** string+controller + operational controls → unlikely significant RSEP S&S harm.
 
 **Amplifiers:** SSAC (conditional), Unregistry, D3, Clowes, estmcmxci, many individuals.  
-**Hardening:** SSAC independence of DNS from alt failure; continuous control measurement; URS/UDRP equivalent for alt-primary; post-launch review; IDN/LGR/EPP provisioning clarity; ISPCP/MeitY want sharper measurable risk/assurance (sync, failure, independent testing, ownership consistency).
+**Hardening:** SSAC independence of DNS from alt failure; continuous control measurement; URS/UDRP equivalent for alt-primary; post-launch review; IDN/LGR/EPP clarity. **MeitY (B):** measurable USoT states + control dossier + mandatory turn-down. **Netnod (B):** control≠resolution; bounded convergence; USoT as SPOF; dispute/expiry path gaps. **CleanDNS (B):** cross-system abuse reporting for reciprocal takedown.
 
 **Likely Final Report move:** keep threshold yes; add independence + measurement + post-launch review + terminology (enabled/disabled) language.
 
@@ -35,7 +35,7 @@ Four fights dominate the closed Public Comment. They are not the same question. 
 | Camp | Position |
 | --- | --- |
 | **Prior-claim / grandfather** | APlusDomains.Crypto, Barrett, Manoratana (.nft), Darwin — existing ANS holders must get first crack / protection before DNS delegation |
-| **No rights from alt occupancy** | ENS (+ cites RySG) — alt namespace ≠ DNS entitlement; collision = risk assessment; anything entering root still does Sunrise/Claims |
+| **No rights from alt occupancy** | ENS + **RySG primary (B)** — alt namespace ≠ DNS entitlement; framework only for RO-proposed+controlled integrations |
 | **Process deferral** | Unregistry — open §8.3 discussion now; don’t pretend the installed base is empty |
 | **Anti–prior-claim** | Clowes — decline prior-claim framing (permissionless mint, colliding ANS brands, §4.6 control prerequisite); §8.3 already protects when *that operator* integrates its own namespace; keep §11 (profile ≠ second namespace) |
 | **Transition plan, no entitlement** | Bird — pre-launch plan for populated ANS (inventory, verify, withhold, activate path) but **no automatic DNS entitlement** |
@@ -74,7 +74,7 @@ Useful as existence proofs that Report requirements are implementable — not as
 
 ## Watch list for Crystal (research only)
 
-1. Final / revised TSG report (~5 Oct 2026 due).  
+1. **Public** Final / revised TSG report (Drive update ~1 Oct; public PDF still pending as of 6 Oct).  
 2. Whether Final Report adopts ENS out-of-scope carve + Unregistry “association ≠ RSEP.”  
 3. Whether RA draft requires SRS contactability (ALAC/IPC) or allows thin/bearer models with demonstrated RPM equivalents (SSAC §9.3).  
 4. Collision / NCAP interaction with 2026 Round strings that already exist in ANS.  

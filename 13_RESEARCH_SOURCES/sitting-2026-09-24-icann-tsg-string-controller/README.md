@@ -13,7 +13,8 @@
 
 1. [`PLAIN-ENGLISH.md`](PLAIN-ENGLISH.md) — **Crystal-first** plain read  
 2. [`HANDOFF-grok-bot-icann-tsg.md`](HANDOFF-grok-bot-icann-tsg.md) — **Grok Bot paste card** (research desk · crystal_confirmed 26 Sep 2026 · Canon no)  
-3. [`SYNTHESIS.md`](SYNTHESIS.md) — integrated compass (report + comment fights)  
+3. [`WATCH-2026-10-06-final-report.md`](WATCH-2026-10-06-final-report.md) — Final Report watch (updated Drive draft ≠ public Final)  
+4. [`SYNTHESIS.md`](SYNTHESIS.md) — integrated compass (report + comment fights)  
 4. [`EXTRACT-BRIEF.md`](EXTRACT-BRIEF.md) — what string+controller requires (load-bearing rules)  
 5. [`REQUIREMENTS-CHECKLIST.md`](REQUIREMENTS-CHECKLIST.md) — MUST/SHOULD + Public Comment overlay  
 6. [`THEMES-public-comments.md`](THEMES-public-comments.md) — Public Comment theme map (38 active + 2 retracted)  
@@ -43,7 +44,7 @@
 
 This sitting is **after** the comment window. Do not invent a late filing unless Crystal stamps an out-of-band path.
 
-**Public Comment roster (filed 24 Sep):** 40 submissions in CSV (2 retracted). Deep pass v2 + thin-PDF pass 25 Sep: Unregistry (A); SSAC/ALAC/IPC/ENS/RrSG/Tucows/Clowes/Bird/estmcmxci (B); ISPCP/MeitY/.ART via Circleid; RySG/WIPO via ENS cite; CleanDNS/Netnod/D3 primary still open.
+**Public Comment roster (filed 24 Sep):** 40 submissions in CSV (2 retracted). Recovery **6 Oct:** RySG/CleanDNS/Netnod/MeitY → B; WIPO still ENS-cite; ISPCP/.ART/D3 thin. Final Report: TSG Drive update ~1 Oct, **not public** — [`WATCH-2026-10-06-final-report.md`](WATCH-2026-10-06-final-report.md).
 
 ---
 

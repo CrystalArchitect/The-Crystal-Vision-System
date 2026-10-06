@@ -52,7 +52,7 @@ Full rules: EXTRACT-BRIEF · REQUIREMENTS-CHECKLIST.
 | --- | --- |
 | Conditional yes | SSAC (SAC134), Unregistry, D3, Clowes, many individuals |
 | Harden | SSAC: DNS independent of alt failure; continuous control measurement; URS/UDRP equivalent for alt-primary; post-launch review; IDN/EPP clarity |
-| Measurable assurance | ISPCP, MeitY (Circleid): sync, failure handling, independent testing, ownership consistency, continuity/shutdown |
+| Measurable assurance | ISPCP (Circleid); **MeitY (B)**: USoT states, control-assurance dossier, mandatory turn-down, audits/SLAs; **Netnod (B)**: control≠resolution, convergence bounds |
 
 **Likely Final Report move:** keep threshold yes; add independence + measurement + terminology + post-launch language.
 
@@ -70,7 +70,7 @@ Full rules: EXTRACT-BRIEF · REQUIREMENTS-CHECKLIST.
 | Camp | Position |
 | --- | --- |
 | Prior-claim / grandfather | APlusDomains.Crypto, Barrett, Manoratana (.nft), Darwin |
-| No rights from alt occupancy | ENS + RySG (via ENS cite) — collision ≠ property; Sunrise/Claims if entering root |
+| No rights from alt occupancy | ENS + **RySG (B primary)** — collision ≠ property; Sunrise/Claims if entering root |
 | Process deferral | Unregistry — open §8.3 now; installed base is not empty |
 | Anti–prior-claim | Clowes — permissionless mint / colliding ANS brands; §4.6 control prerequisite |
 | Transition plan, **no entitlement** | **Bird** — pre-launch inventory/verify/withhold/activate path; no automatic DNS right |
@@ -132,7 +132,7 @@ No stamp that Crystal applies for a gTLD or builds an alt-name registry.
 
 ## Watch next
 
-1. TSG Final Report (~5 Oct 2026) + comment-response summary.  
+1. **Public** TSG Final Report (updated draft exists on TSG Drive as of ~1 Oct; not public yet) + comment-response summary.  
 2. Second Public Comment on **Registry Agreement** amendments.  
 3. Whether Final Report adopts ENS out-of-scope carve + Unregistry “association ≠ RSEP.”  
 4. Whether Bird-style transition plans land between grandfather and no-rights camps.  
@@ -142,10 +142,11 @@ No stamp that Crystal applies for a gTLD or builds an alt-name registry.
 
 ## Honesty
 
-- Egress to `icann.org` / `itp.cdn.icann.org` blocked for direct curl; Depth A–C labeled in DEEP-EXTRACTS.  
-- **Thin-PDF pass 25 Sep 2026:** RySG / WIPO / CleanDNS / Netnod primaries still unrecovered (CDN search miss + no Circleid paraphrase for CleanDNS/Netnod). Tucows upgraded to Depth B via indexed PDF. MeitY/ISPCP/.ART remain Circleid B-lite only.  
-- Do not invent quotes for thin rows.  
-- Sibling SYNTHESIS at `icann-tsg-gtld-ans-2026/` covers the same proceeding; **Bird** is middle-path (transition, no entitlement), not prior-claim — corrected here and in that pack’s pointer.
+- Egress to `icann.org` / CDN still blocked for direct curl; Depth A–C in DEEP-EXTRACTS.  
+- **Recovery pass 6 Oct 2026:** RySG, CleanDNS, Netnod, MeitY primaries upgraded to Depth **B** (CDN PDFs now indexed). WIPO still ENS-cite only. ISPCP/.ART/D3 still thin.  
+- **Final Report:** due 5 Oct — updated draft on TSG shared drive (list post ~1 Oct); **no public Final PDF** yet; RA second PC not open. See [`WATCH-2026-10-06-final-report.md`](WATCH-2026-10-06-final-report.md).  
+- Do not invent Final Report or WIPO quotes.  
+- Sibling pack `icann-tsg-gtld-ans-2026/`; **Bird** = transition without entitlement.
 
 **Grok Bot:** Crystal stamped research-desk paste card 26 Sep 2026 — [`HANDOFF-grok-bot-icann-tsg.md`](HANDOFF-grok-bot-icann-tsg.md) · ledger `AGR-ICANN-TSG-GROK` · Canon still **no**.
 
