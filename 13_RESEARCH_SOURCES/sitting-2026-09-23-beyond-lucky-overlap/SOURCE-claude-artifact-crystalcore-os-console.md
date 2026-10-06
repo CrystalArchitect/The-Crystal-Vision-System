@@ -29,3 +29,12 @@ Genre: **mythos / ceremony UI** over CrystalCore.OS branding — same family as 
 | Consent / multi-sig / collective ratification echoes protocol hygiene from sibling Cursor runs | Treat realm-node list as foreign-policy claim |
 
 Place under **mythos / OS provenance** beside [`ADDENDUM-visual-crystalcore-mythos.md`](ADDENDUM-visual-crystalcore-mythos.md) and Grok Hall — not in the Pulse paraphrase matrix.
+
+## Durable extract + adjacent UI
+
+| Kind | Path |
+| --- | --- |
+| Extract | [`artefacts/extract-PiiKNJsLJq2sDKUVCbMNKX-crystalcore-os-console.md`](artefacts/extract-PiiKNJsLJq2sDKUVCbMNKX-crystalcore-os-console.md) |
+| Adjacent shells | [`artefacts/adjacent-crystalcore-os-v4-shell.html`](artefacts/adjacent-crystalcore-os-v4-shell.html) · [`artefacts/adjacent-crystalcore-os-omega-bootable.html`](artefacts/adjacent-crystalcore-os-omega-bootable.html) |
+
+Adjacent shells are **related** Portal-sitting UI — not claimed identical to this Claude artefact.

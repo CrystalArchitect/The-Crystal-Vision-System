@@ -24,11 +24,11 @@ Canon is a Crystal stamp, not a folder.
 | 13_RESEARCH_SOURCES | [folder](https://drive.google.com/drive/folders/1SSUF0jfCVFvv-oZvKD4OoQueC6wvHLv-) | Permutt = research, not Codex |
 | 14_AI_INTERACTIONS | [folder](https://drive.google.com/drive/folders/1WJMWSdgPEVxjMOhW_vWAEJrAbV3o2G48) | `14_AI_INTERACTIONS/` |
 | 15_ARCHIVE_HISTORY | [folder](https://drive.google.com/drive/folders/11WKhsG0G74H7JPAIEUU21-KMw8QQO9QV) | pointer |
-| 16_AI_SAFETY_RESEARCH | [folder](https://drive.google.com/drive/folders/TBD) | `16_AI_SAFETY_RESEARCH/` + pointers to swarm, automaton, agency-os |
-| 17_PHYSICS_SIMULATION | [folder](https://drive.google.com/drive/folders/TBD) | `17_PHYSICS_SIMULATION/` + pointers to mars-cybertruck-sim |
-| 18_MATHEMATICAL_FOUNDATIONS | [folder](https://drive.google.com/drive/folders/TBD) | `18_MATHEMATICAL_FOUNDATIONS/` + pointers to navier-stokes-lean-check, circle-squaring |
-| 19_PHILOSOPHICAL_FOUNDATIONS | [folder](https://drive.google.com/drive/folders/TBD) | `19_PHILOSOPHICAL_FOUNDATIONS/` + pointers to AI-Foundations-*, Consciousness-Is-Subjectivity |
-| 20_ECONOMIC_MODELS | [folder](https://drive.google.com/drive/folders/TBD) | `20_ECONOMIC_MODELS/` + pointers to MiroShark |
+| 16_AI_SAFETY_RESEARCH | [folder](https://drive.google.com/drive/folders/1cz_xOzvrf-cAaDlDQ6gATS3QUSCk8tVZ) | `16_AI_SAFETY_RESEARCH/` + pointers to swarm, automaton, agency-os |
+| 17_PHYSICS_SIMULATION | [folder](https://drive.google.com/drive/folders/1dncvYQaJpeoOtHUKe3h36GBZ-P_yi1rJ) | `17_PHYSICS_SIMULATION/` + pointers to mars-cybertruck-sim |
+| 18_MATHEMATICAL_FOUNDATIONS | [folder](https://drive.google.com/drive/folders/1mtDhwtfIWuuw6ugsCXa1vRCY3sef2XS7) | `18_MATHEMATICAL_FOUNDATIONS/` + pointers to navier-stokes-lean-check, circle-squaring |
+| 19_PHILOSOPHICAL_FOUNDATIONS | [folder](https://drive.google.com/drive/folders/1kqH2q0HfbnDIFh0-nPSFjjrG7sun2f8U) | `19_PHILOSOPHICAL_FOUNDATIONS/` + pointers to AI-Foundations-*, Consciousness-Is-Subjectivity |
+| 20_ECONOMIC_MODELS | [folder](https://drive.google.com/drive/folders/1PwikNE5NhlHZr0qAvME_oS_GiASJajpC) | `20_ECONOMIC_MODELS/` + pointers to MiroShark |
 | 99_UNRESOLVED | [folder](https://drive.google.com/drive/folders/11f7yOpROMH5DI81NFaEFG1ceVRyS-Zcu) | UNKNOWN stays here |
 
 **`memory/` vs `00_MEMORY/` (interim, Canon: no):**  
@@ -36,7 +36,7 @@ Canon is a Crystal stamp, not a folder.
 - `memory/` = monorepo protocol (DECISIONS / OPEN-QUESTIONS / …), not a second science drawer.  
 Crystal may stamp packet B in [`00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md`](00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md) to rename or merge later. Do not invent a third memory tree.
 
-**Drive 16–20:** folder links still `TBD` — create per packet A in the same decisions file. Google Drive MCP was unauthenticated in agent sessions that tried; Crystal creates folders and pastes URLs here.
+**Drive 16–20:** created 2026-10-06 under CVSC root via Google Drive MCP (packet A). One-line README Doc in each folder.
 
 Rules already locked:
 

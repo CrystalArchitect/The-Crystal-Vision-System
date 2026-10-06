@@ -1,40 +1,27 @@
 # Crystal decisions pending (hub packets)
 
 **Canon:** **no**  
-**Updated:** 2026-09-19  
-**Role:** Decision packets only — agents do **not** execute Drive creates, deletes, or renames. Crystal stamps / acts.  
+**Updated:** 2026-10-06  
+**Role:** Decision packets only — agents do **not** execute Drive creates, deletes, or renames without Crystal yes. Crystal stamps / acts.  
 **Related:** [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), [`WORKING-INDEX.md`](WORKING-INDEX.md), [`MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md`](MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md), [`NEEDS-YOUR-YES.md`](NEEDS-YOUR-YES.md) (plain confirm list)
 
 To stamp a packet, reply `AGREE DEC-A` / `REJECT DEC-C` / `CANON DEC-B` (etc.). Agents update `agreement-ledger.yaml` after your reply — you do not need to edit YAML.
 
 ---
 
-## A. Drive folders 16–20 (OPEN)
+## A. Drive folders 16–20 (DONE — 2026-10-06)
 
-[`STRUCTURE.md`](../STRUCTURE.md) still has `TBD` Drive folder links for drawers 16–20. Repo drawers already exist with INDEX pointers.
+Created under Drive root `1mc0RvTCg3d94WcYIot2pLKoiHQb8nBnX` via Google Drive MCP (Crystal: Continue). [`STRUCTURE.md`](../STRUCTURE.md) rows 16–20 now link live folders. One-line README Doc in each.
 
-### What Crystal does in Drive
-
-Under Drive root `1mc0RvTCg3d94WcYIot2pLKoiHQb8nBnX` (same as other CVSC drawers), create five folders named exactly:
-
-| Folder name | Matches repo path |
+| Folder name | Drive URL |
 | --- | --- |
-| `16_AI_SAFETY_RESEARCH` | `/16_AI_SAFETY_RESEARCH/` |
-| `17_PHYSICS_SIMULATION` | `/17_PHYSICS_SIMULATION/` |
-| `18_MATHEMATICAL_FOUNDATIONS` | `/18_MATHEMATICAL_FOUNDATIONS/` |
-| `19_PHILOSOPHICAL_FOUNDATIONS` | `/19_PHILOSOPHICAL_FOUNDATIONS/` |
-| `20_ECONOMIC_MODELS` | `/20_ECONOMIC_MODELS/` |
+| `16_AI_SAFETY_RESEARCH` | https://drive.google.com/drive/folders/1cz_xOzvrf-cAaDlDQ6gATS3QUSCk8tVZ |
+| `17_PHYSICS_SIMULATION` | https://drive.google.com/drive/folders/1dncvYQaJpeoOtHUKe3h36GBZ-P_yi1rJ |
+| `18_MATHEMATICAL_FOUNDATIONS` | https://drive.google.com/drive/folders/1mtDhwtfIWuuw6ugsCXa1vRCY3sef2XS7 |
+| `19_PHILOSOPHICAL_FOUNDATIONS` | https://drive.google.com/drive/folders/1kqH2q0HfbnDIFh0-nPSFjjrG7sun2f8U |
+| `20_ECONOMIC_MODELS` | https://drive.google.com/drive/folders/1PwikNE5NhlHZr0qAvME_oS_GiASJajpC |
 
-### After create — paste back
-
-1. Copy each folder’s Drive URL.  
-2. Replace the five `TBD` cells in [`STRUCTURE.md`](../STRUCTURE.md) (rows 16–20).  
-3. Optional: drop a one-line `README` in each Drive folder: “Staging for drawer N; Canon = Crystal stamp; GitHub = kept trail.”  
-4. Do **not** dump satellite git trees into Drive — pointers + extracts only (Connection ≠ merge).
-
-### Agent note
-
-Google Drive MCP auth **timed out** in the 2026-09-18 agent session that tried. No agent pass can complete A without Crystal (or successful Drive auth + explicit yes to create).
+Do **not** dump satellite git trees into Drive — pointers + extracts only (Connection ≠ merge).
 
 ---
 

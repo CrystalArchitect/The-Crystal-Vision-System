@@ -48,6 +48,10 @@ Screenshots (session):
 
 Place beside [`SOURCE-claude-artifact-map-and-territory.md`](SOURCE-claude-artifact-map-and-territory.md) and Manus TerAustralis.com.au / CrystalCore.OS notes — **OS/site provenance**, not Pulse paraphrase matrix.
 
+## Durable adjacent (not `teraustralis-artefacts/`)
+
+Jul-17 local site snapshot filed under [`artefacts/adjacent-a364-jul17-site-snapshot/`](artefacts/adjacent-a364-jul17-site-snapshot/) — same design month; **not** the missing Claude `teraustralis-artefacts/` folder.
+
 ## Note on gated `/artifact/` links
 
 Earlier gated artifact IDs in this sitting may be private siblings of mockups from this or related design threads. This `/share/` URL is the readable receipt; gated URLs remain uncitable until ungated.

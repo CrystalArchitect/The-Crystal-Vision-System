@@ -49,6 +49,9 @@
 | CVS-CICH | 16 | CICH Framework v1 (Cognitive Immune Complex) | research | no | `/16_AI_SAFETY_RESEARCH/sitting-2026-09-19/CICH-Framework-v1.md` |
 | CVS-SAT-03 | 03 | SAT drawer + sitting-2026-09-19 extracts | research | no | `/03_SYNTHETIC_AFFECT_THEORY/` |
 | CVS-MUSIC-TREE | 10 | Music Theory Tree plate (C major modes) | research | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/music-theory-tree-C-major-modes.jpg` |
+| CVS-CODEX-PRIV | 10 | Codex Crystalum Private Structure Master (locked fields stay private) | vision | no | `/10_ORIGINAL_CREATIVE/sitting-2026-09-19/Codex-Crystalum-Private-Structure-Master-EXTRACT.md` |
+| CVS-LUMENIA | 11 | Lumenia droplet setup extract (no secrets in PDF) | coordination | no | `/11_CORRESPONDENCE/sitting-2026-09-19/Lumenia-Setup-Details-EXTRACT.md` |
+| CVS-HELD-ABSENT | 15 | Sitting 2026-09-19 held binaries — most bytes ABSENT | fact | no | `/15_ARCHIVE_HISTORY/sitting-2026-09-19-held/HELD-BINARIES.txt` |
 | CVS-LATTICE-PLATE | 10 | Vision plate — Lattice lock / NON SOLUS (2026-09-19) | vision | no | `/10_ORIGINAL_CREATIVE/vision-plates/2026-09-19-LATTICE-LOCK-EXTRACT.md` |
 | CVS-STACK | 00 | Stack surface — Siri → Portal → CrystalCore.OS → TAI → Intelligence/MCP | coordination | no | `/00_MASTER_INDEX/STACK-SURFACE.md` · `/crystal_platform/` |
 | CVS-CHAOS-0920 | 14 | Chaos opening — weave seat check (Claude/GPT/Grok/DeepSeek/Kimi/Manus/Gemini; keys unset) | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-OPENING-WEAVE-CHECK.md` |
@@ -113,6 +116,8 @@ Canon stays **no** until Crystal stamps it.
 
 - **2026-09-20 (stack):** Foundational platform contracts — `STACK-SURFACE.md` + `crystal_platform/` (Core ≠ agent; TAI acts; providers pluggable) + iOS App Intent scaffold + Portal `/v1/gateway/ask`. Canon: no.
 
+- **2026-10-06 (collection continue):** Cleared `99` sitting binaries — Codex Private Master → 10, Lumenia → 11; TaskMarket SKILL extract → 20; held manifest marked **ABSENT BYTES**. Canon: no.
+
 - **2026-09-24 (naming sitting archived):** Starline naming sitting closed. Law stays live at [`NAMING-STARLINE.md`](NAMING-STARLINE.md). Archive note: [`15_ARCHIVE_HISTORY/starline-naming-sitting-2026-09-19-closed/`](../15_ARCHIVE_HISTORY/starline-naming-sitting-2026-09-19-closed/). Canon: no.
 
 - **2026-09-19 (naming):** Name is **Starline**. *The bird is the word.* Law: [`NAMING-STARLINE.md`](NAMING-STARLINE.md). Canon: no.
@@ -140,6 +145,8 @@ Canon stays **no** until Crystal stamps it.
 - **2026-09-18 (decisions):** Live inventory shows stubs + `UK-MonoRepo` **gone** (0 private). Filed [`CRYSTAL-DECISIONS-PENDING.md`](CRYSTAL-DECISIONS-PENDING.md) packets A–C (Drive, naming, confirm-gone). Canon: no.
 
 - **2026-09-18 (cont.):** Hub extracts for Threads 1, 2 (stub), 4, 5 — clears remaining cross-domain bead gaps without rewriting forks. Drive/naming still Crystal-gated. Canon: no.
+
+- **2026-10-06:** Packet A done — Drive folders 16–20 created under CVSC root; `STRUCTURE.md` URLs live; DEC-A crystal_confirmed. Canon: no.
 
 - **2026-09-18:** Backlog pick = Thread 3 (Drive 16–20 / stubs still Crystal-blocked). Filed [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), Thread 3 extract, cross-links on drawers 16/19/20, refreshed Thread 3 status in `CROSS-DOMAIN-THREADS.md`. Canon: no.
 

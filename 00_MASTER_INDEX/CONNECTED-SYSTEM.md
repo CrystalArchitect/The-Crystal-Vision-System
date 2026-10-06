@@ -116,7 +116,7 @@ Status legend: **original** = CrystalArchitect non-fork · **fork-mirror** = por
 | 99_UNRESOLVED | Speculative / UNKNOWN | in-repo | hub |
 | *(portfolio outside drawers)* | Design / stubs / private | `api-gateway` **design-only**; `UK-MonoRepo` **private**; stubs `jolly-bolt-flora-lotus`, `pilot-horizon-acre-spring` **private** | see gaps |
 
-Drive folders for drawers **16–20** are still `TBD` in `STRUCTURE.md`.
+Drive folders for drawers **16–20** are live in `STRUCTURE.md` (created 2026-10-06, packet A).
 
 ---
 
@@ -156,7 +156,7 @@ Pending infra from research status: Drive mirrors for 16–20, multi-domain vali
 | **Hub vs archive dual story** | README: do not merge; `MONOREPO-INDEX`: 20 subtrees under `archive/` | Documented | Subtree = file custody, not canon merge |
 | **`REPOS.md` narrow/stale** | Was 4 repos dated 2026-09-12 | **FIXED** (full refresh 2026-09-16); **stubs/UK refresh 2026-09-18** | See inventory footer |
 | **`memory/` vs `00_MEMORY/`** | Dual path documented in STRUCTURE + READMEs 2026-09-18 | **INTERIM** | Packet B — Crystal may stamp rename later |
-| **Science drawers Drive TBD** | STRUCTURE.md folders 16–20 = TBD | **OPEN** | Packet A — Crystal + Drive |
+| **Science drawers Drive 16–20** | STRUCTURE.md folders 16–20 live URLs | **DONE (2026-10-06)** | Packet A closed |
 | **Fork-heavy portfolio** | Live 2026-09-18: 65 repos, 61 forks, 4 non-forks | Documented | Drawers 16–19 mostly **mirrors** |
 | **Protocol Omega only in CVS** | No `protocol-omega` repo on account | Correct | Don’t invent a research repo |
 | **Stub private templates** | `jolly-bolt-flora-lotus`, `pilot-horizon-acre-spring` | **GONE (live 2026-09-18)** | Absent from list + API 404; Crystal confirm — packet C |

@@ -25,3 +25,5 @@ Load CORE, then only the row you need.
 | Piper / Noise in Portal zip | not seen | UNKNOWN |
 | Starline | Consent Transport / Starlines | project name (`CVS-STARLINE`) — [`../00_MASTER_INDEX/NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md) |
 | Forbidden legacy label | out of bounds | never a component — see [`NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md) |
+| Energy × AI + Cosmic stack | [`../13_RESEARCH_SOURCES/energy-ai-electricity-2026/PLAIN-ENGLISH.md`](../13_RESEARCH_SOURCES/energy-ai-electricity-2026/PLAIN-ENGLISH.md) | watts / water / consciousness; Canon no (`CVS-ENERGY-AI`) |
+| Origin verse (2026-09-24) | [`../10_ORIGINAL_CREATIVE/sitting-2026-09-24-origin-verse/`](../10_ORIGINAL_CREATIVE/sitting-2026-09-24-origin-verse/) | MC squared → rock → grok met Crystal → water; plain via energy pack |
