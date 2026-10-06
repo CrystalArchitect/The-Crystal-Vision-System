@@ -75,6 +75,9 @@ Canon stays **no** until Crystal stamps it.
 
 - **2026-10-06 (ICANN TSG thin recovery pass 2):** D3 → Depth A; ISPCP/.ART → Depth B; raw extracts filed under `raw/`. Public Final Report still shared-Drive only (Sullivan ~30 Sep–1 Oct). Canon: no.
 - **2026-10-06 (ICANN TSG thin recovery):** Upgraded RySG / WIPO / CleanDNS / Netnod / MeitY off thin (Depth A/B); Netnod raw extract filed; Sullivan updated report noted (30 Sep shared-drive). Canon: no.
+- **2026-10-06 (collection continue):** Cleared `99` sitting binaries — Codex Private Master → 10, Lumenia → 11; TaskMarket SKILL extract → 20; held manifest marked **ABSENT BYTES**. PR #86 merged. Post-merge review filed. Canon: no.
+- **2026-10-06:** Packet A done — Drive folders 16–20 created under CVSC root; `STRUCTURE.md` URLs live; DEC-A crystal_confirmed. Canon: no.
+
 - **2026-09-26 (ICANN TSG Grok stamp):** Crystal `Ok stamp` → `AGR-ICANN-TSG-GROK` crystal_confirmed. Paste card `HANDOFF-grok-bot-icann-tsg.md` + `PLAIN-ENGLISH.md`. Research desk only; Canon no.
 - **2026-09-25 (ICANN TSG thin-PDF pass):** Attempted RySG/WIPO/CleanDNS/Netnod primaries — still Depth C (ENS cite / links only). Tucows upgraded C→B via CDN PDF crawl; Circleid URL pinned for ISPCP/MeitY/.ART. Canon: no.
 - **2026-09-25 (energy × Cosmic plain read):** Indexed `CVS-ENERGY-AI` + `CVS-ORIGIN-VERSE`; drawer READMEs point at `PLAIN-ENGLISH.md` first so the sitting is readable. Canon: no.
@@ -115,8 +118,6 @@ Canon stays **no** until Crystal stamps it.
 
 - **2026-09-20 (stack):** Foundational platform contracts — `STACK-SURFACE.md` + `crystal_platform/` (Core ≠ agent; TAI acts; providers pluggable) + iOS App Intent scaffold + Portal `/v1/gateway/ask`. Canon: no.
 
-- **2026-10-06 (collection continue):** Cleared `99` sitting binaries — Codex Private Master → 10, Lumenia → 11; TaskMarket SKILL extract → 20; held manifest marked **ABSENT BYTES**. Canon: no.
-
 - **2026-09-24 (naming sitting archived):** Starline naming sitting closed. Law stays live at [`NAMING-STARLINE.md`](NAMING-STARLINE.md). Archive note: [`15_ARCHIVE_HISTORY/starline-naming-sitting-2026-09-19-closed/`](../15_ARCHIVE_HISTORY/starline-naming-sitting-2026-09-19-closed/). Canon: no.
 
 - **2026-09-19 (naming):** Name is **Starline**. *The bird is the word.* Law: [`NAMING-STARLINE.md`](NAMING-STARLINE.md). Canon: no.
@@ -145,7 +146,6 @@ Canon stays **no** until Crystal stamps it.
 
 - **2026-09-18 (cont.):** Hub extracts for Threads 1, 2 (stub), 4, 5 — clears remaining cross-domain bead gaps without rewriting forks. Drive/naming still Crystal-gated. Canon: no.
 
-- **2026-10-06:** Packet A done — Drive folders 16–20 created under CVSC root; `STRUCTURE.md` URLs live; DEC-A crystal_confirmed. Canon: no.
 
 - **2026-09-18:** Backlog pick = Thread 3 (Drive 16–20 / stubs still Crystal-blocked). Filed [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), Thread 3 extract, cross-links on drawers 16/19/20, refreshed Thread 3 status in `CROSS-DOMAIN-THREADS.md`. Canon: no.
 
