@@ -74,9 +74,11 @@ Useful as existence proofs that Report requirements are implementable — not as
 
 ## Watch list for Crystal (research only)
 
-1. Final / revised TSG report (~5 Oct 2026 due).  
+1. Final / revised TSG report — Sullivan posted an **updated report** to TSG shared drive **30 Sep 2026** (clean + redline); public ICANN.org PDF not confirmed here; proceeding due date was **5 Oct 2026**.  
 2. Whether Final Report adopts ENS out-of-scope carve + Unregistry “association ≠ RSEP.”  
 3. Whether RA draft requires SRS contactability (ALAC/IPC) or allows thin/bearer models with demonstrated RPM equivalents (SSAC §9.3).  
 4. Collision / NCAP interaction with 2026 Round strings that already exist in ANS.  
 5. Whether Bird-style transition plans land between grandfather camps and ENS/RySG.  
-6. No CVS product claim — compass for decentralized naming notes only.
+6. Whether Netnod control≠resolution + CleanDNS abuse plumbing + MeitY mandatory turn-down land.  
+7. Egress allowlist for `itp.cdn.icann.org` / `www.icann.org` (WIPO attachment + ISPCP/.ART/D3 byte archives).  
+8. No CVS product claim — compass for decentralized naming notes only.
