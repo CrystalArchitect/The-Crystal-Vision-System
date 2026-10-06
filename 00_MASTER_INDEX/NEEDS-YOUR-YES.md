@@ -20,11 +20,6 @@ Saying **yes** to coordination is not the same as making something **Canon**.
 
 ## Waiting on you
 
-### DEC-A — Drive folders 16 to 20
-Create Drive folders for drawers 16-20 and paste the links into `STRUCTURE.md`?
-
-Reply: `AGREE DEC-A — …` or `REJECT DEC-A — …`
-
 ### DEC-C — Gone repos
 Confirm those missing stub / UK / CrystalCore private repos were deleted on purpose?
 
@@ -52,6 +47,7 @@ Siri to Portal to CrystalCore.OS to TAI is on disk as the layer map. Not Canon y
 
 ## You already said yes (still not Canon)
 
+- **DEC-A** — Drive folders 16–20 created 2026-10-06; URLs in `STRUCTURE.md`  
 - Alive Weave: connect islands; do not merge  
 - ConsentGate before guest speech  
 - This repo is the filing hub  
@@ -68,7 +64,6 @@ Siri to Portal to CrystalCore.OS to TAI is on disk as the layer map. Not Canon y
 
 ```
 AGREE DEC-C — yes, intentional
-REJECT DEC-A — not yet
 CANON DEC-B — keep both memory folders
 INTERIM DEC-E — stay on E1
 ```

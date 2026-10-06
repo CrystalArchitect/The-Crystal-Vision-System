@@ -138,6 +138,8 @@ Canon stays **no** until Crystal stamps it.
 
 - **2026-09-18 (cont.):** Hub extracts for Threads 1, 2 (stub), 4, 5 — clears remaining cross-domain bead gaps without rewriting forks. Drive/naming still Crystal-gated. Canon: no.
 
+- **2026-10-06:** Packet A done — Drive folders 16–20 created under CVSC root; `STRUCTURE.md` URLs live; DEC-A crystal_confirmed. Canon: no.
+
 - **2026-09-18:** Backlog pick = Thread 3 (Drive 16–20 / stubs still Crystal-blocked). Filed [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), Thread 3 extract, cross-links on drawers 16/19/20, refreshed Thread 3 status in `CROSS-DOMAIN-THREADS.md`. Canon: no.
 
 - **2026-09-16:** Hub hygiene pass — refreshed `REPOS.md` (58-repo live inventory), Continuum vision-only (`06_CMX_CONTINUUM` + seeded `Continuum-sync-loop` README), SECURITY Advisories (placeholder email removed), MAINTAINERS steward named, science drawer indexes 16–20 with concrete GitHub URLs, TOOLING-NOTES for api-gateway design-only. Still open: Drive 16–20 TBD, stub delete/adopt, UK-MonoRepo private, research thread extracts (1–2/4–5), memory/ naming.
