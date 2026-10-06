@@ -17,6 +17,7 @@ ENV
   echo "Created .env with placeholder Supabase values."
 fi
 
-# Install the committed lockfile. Audit hits the same registry host and is
-# not required for a reproducible environment install.
-npm ci --no-audit --no-fund
+# Lockfile install. Recurring builds reach only registry.npmjs.org for these
+# packages; `npm ci` keeps that tree reproducible and exits if the lockfile
+# and package.json disagree.
+npm ci

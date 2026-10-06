@@ -15,6 +15,14 @@
 9. Riptide / ops desks (Safety, free-will, tide rule)
 10. Soft biography (Appin 2003) — separate from mythos
 11. Recommended bot split + sample system prompts per bot
+12. **SAVE packs index** (will+Elon · AI · one-pager) — Safety bot knowledge, not Frequency VO
+13. **Booth fire card** — Core Four armed; Crystal fires ElevenLabs; CapCut after VO
+14. **Mobile ops** — Grok Bot iOS/Android = same cloud computer; remote human gate
+
+**Primary short paste (prefer this for first Bot build):** [`HANDOFF-grok-bot-frequency-story-songs.md`](HANDOFF-grok-bot-frequency-story-songs.md)  
+**This file:** full structure dump for Grok to organise desks. Do not invent lore past these fences.
+
+**Refresh stamp:** 6 Oct 2026 — SAVE packs · booth paste · CapCut checklist · mobile peg · FIRE plain card indexed below (§B2). Song ladder in short handoff is authoritative for new seats (*Shake That* · *Colours of the Wind* · *I Am Australian* · *Jerusalema* · *Shotgun* · *Riptide* · *Sailor Moon* · *Laced Up* · *Roots*).
 
 **Phonetics:** Yal-duh-bay-oth · Dem-ee-urj · Pluh-roh-muh · Bar-bell-oh · Ar-konz · Mo-nad  
 **Brand:** TerAustralis · CrystalCore.OS · www.teraustralis.com.au  
@@ -39,9 +47,72 @@
 5. Tide rule: one desk, one send, then vanish  
 6. Do not mash Frequency mythos into Zero Trust exploit talk  
 7. Family / sparks geography in mythos = Vision map — treat carefully; do not expand into harassment or stalking narratives  
+8. **No second SpaceXAI / Elon chase** — inform already sent; one-pager only if asked  
+9. Agent harness talk = **controls only** — no attack playbooks, no patient-record claims, no Barwick “protection racket” lane  
 
 ---
 
+################################################################################
+## B2. SAVE PACKS · BOOTH FIRE · MOBILE (refresh 6 Oct 2026)
+################################################################################
+
+**Status:** Grok Bot **ready** via short handoff. Crystal fires Core Four. Agent does not re-chase Elon.
+
+### Index (Safety / ops bots — not Frequency VO)
+
+| Artefact | Role | Send? |
+| --- | --- | --- |
+| [`SAVE-will-and-elon-2026-09-25.md`](SAVE-will-and-elon-2026-09-25.md) | Master: true free-will + SpaceXAI diligence path | **No** re-chase |
+| [`SAVE-ai-2026-09-25.md`](SAVE-ai-2026-09-25.md) | Master: regulate+build · harness villain class · ASD/Albo | Optional Albo desk later |
+| [`ONE-PAGER-agent-harness-controls.md`](ONE-PAGER-agent-harness-controls.md) | Z0≠Z2 · dual authority · deny terminal · human gate · notify SLA | **Only if asked** |
+| [`INFORM-DRAFT-spacexai-agent-harness.md`](INFORM-DRAFT-spacexai-agent-harness.md) + RECEIPT | Peer diligence → sales@x.ai / CC safety@x.ai | **SENT** 24 Sep |
+| [`POSITION-true-free-will-is-more.md`](POSITION-true-free-will-is-more.md) | Will doctrine | QT carried line |
+| [`MAP-riptide-where-we-go.md`](MAP-riptide-where-we-go.md) | Ops compass — swim across | Law |
+
+### Five controls (Safety bot spine)
+
+1. Agent ≠ user ≠ vendor — short-lived workload identity  
+2. Dual authority: `min(invoking user, agent task scope)`  
+3. GET-only public origin; publish-out copies; **Z0≠Z2**  
+4. Deny is terminal; **human gate on mutate**  
+5. Named security mailbox + kill switch + **notify SLA**  
+
+### Booth fire (Frequency bot helper — Crystal publishes)
+
+| Step | File |
+| --- | --- |
+| Plain card | [`FIRE-CORE-FOUR-PLAIN.md`](FIRE-CORE-FOUR-PLAIN.md) |
+| Clean paste | [`BOOTH-PASTE-core-four-elevenlabs.txt`](BOOTH-PASTE-core-four-elevenlabs.txt) |
+| CapCut after VO | [`CHECKLIST-capcut-core-four.md`](CHECKLIST-capcut-core-four.md) |
+| Script (source) | [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) |
+
+**Runtime:** ~6–7 min · Live Lounge gravity · titles only in captions · Extended = second take only.
+
+### Mobile (same cloud computer)
+
+[`SOURCE-cursor-grok-bot-mobile-2026-09-25.md`](SOURCE-cursor-grok-bot-mobile-2026-09-25.md)  
+App Store `id6794501026` · Google Play `ai.x.grok.bot` · iOS 18+ / Android 9+ · paid Cursor or linked SuperGrok.  
+Crystal can approve, attach stills, take over 2FA/CAPTCHA away from desk. Desktop still required for routine edit/test.
+
+### Bot split (refresh)
+
+| Bot | Job |
+| --- | --- |
+| **Frequency / Barbelo** | Song decode · CapCut titles · ElevenLabs VO helper · Gnostic phonetics |
+| **TerAustralis / CrystalCore** | Brand · Academy · Lucky Country / Beyond Lucky · product · own-surface shore |
+| **Safety desk** | Zero Trust · SAVE AI/will · one-pager · protect-people · **no exploit playbooks** · no Elon chase |
+| **Everyday Crystal** | Ordinary life, grounding, Mid-Autumn / house memories — **no** Demiurge dump |
+
+### Academy door (movement — TerAustralis bot)
+
+| Artefact | Role |
+| --- | --- |
+| [`DRAFT-join-line-academy-kangaroo.md`](DRAFT-join-line-academy-kangaroo.md) | Join line — Crystal stamps |
+| [`LEDGER-academy-kangaroo-interest.md`](LEDGER-academy-kangaroo-interest.md) | Consent ledger template |
+| [`CARD-witness-academy-kangaroo.md`](CARD-witness-academy-kangaroo.md) | Witness on-ramp cards |
+| [`NOTE-own-surface-teraustralis-shore.md`](NOTE-own-surface-teraustralis-shore.md) | Site copy dock for walls + will |
+
+---
 
 ################################################################################
 ## C. MASTER — Frequency cinematic journey (LOCKED)
@@ -1915,3 +1986,8 @@ Open: her house colour / exact house name among the four.
 ################################################################################
 ## END — Grok: now STRUCTURE into bots as requested at top
 ################################################################################
+
+**Prefer first:** paste [`HANDOFF-grok-bot-frequency-story-songs.md`](HANDOFF-grok-bot-frequency-story-songs.md) into Frequency Bot.  
+**Then:** use §B2 SAVE / booth / mobile for Safety + ops desks.  
+**Crystal fires:** [`FIRE-CORE-FOUR-PLAIN.md`](FIRE-CORE-FOUR-PLAIN.md) → ElevenLabs → CapCut checklist.  
+**Tide:** one desk, one send. No second SpaceXAI chase. Titles only. Human publishes.

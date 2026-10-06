@@ -25,7 +25,18 @@ User-facing **companion product page** under the Incognita Rule (solid = runs; d
 
 Screenshots:  
 `/opt/cursor/artifacts/screenshots/claude-artifact-ukfk-clementine.webp`  
-`/opt/cursor/artifacts/screenshots/claude-artifact-ukfk-clementine-ledger.webp`
+`/opt/cursor/artifacts/screenshots/claude-artifact-ukfk-clementine-ledger.webp`  
+(**SHOT-MISS** on cloud nodes — ephemeral prior VM.)
+
+## Durable adjacent body (product named by this artifact)
+
+| Copy | Path |
+| --- | --- |
+| Live voice app HTML | [`artefacts/adjacent-UkFksTnUyjNCumHWDdTsdv-clementine-voice-app.html`](artefacts/adjacent-UkFksTnUyjNCumHWDdTsdv-clementine-voice-app.html) |
+| App README | [`artefacts/adjacent-UkFksTnUyjNCumHWDdTsdv-clementine-voice-README.md`](artefacts/adjacent-UkFksTnUyjNCumHWDdTsdv-clementine-voice-README.md) |
+| Archive origin | `archive/TerAustralis-Incognita-Code/vision/apps/clementine-voice/` |
+
+The Claude **product page** HTML itself is still not on disk (NOTE only until Crystal exports it).
 
 ## Relevance to Beyond Lucky sitting
 

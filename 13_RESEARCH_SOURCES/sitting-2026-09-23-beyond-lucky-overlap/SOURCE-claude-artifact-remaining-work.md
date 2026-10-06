@@ -30,6 +30,10 @@ Framing: blocks/unblocks autonomous agent workflow; clarifying repo strategy; fu
 
 Place with software/protocol provenance (map-and-territory, task-definition Cursor run), not with the SpaceNews ↔ Richardson comparison.
 
+## Durable extract
+
+[`artefacts/extract-T5RGKzZwsScR7wfyPxd51Q-remaining-work.md`](artefacts/extract-T5RGKzZwsScR7wfyPxd51Q-remaining-work.md) — rebuilt from this SOURCE note (2026-10-06); not a live Claude HTML export.
+
 ## Repo cross-check (this monorepo)
 
 `aeon-atlas` is already inventoried as a CrystalArchitect **fork-mirror** of `swarm-ai-research/aeon-atlas` (see `REPOS.md`, `docs/BOT-STRUCTURE.md` BOT-RES-AEON, `16_AI_SAFETY_RESEARCH/INDEX.md`). Artifact backlog aligns with that seat — still not Beyond Lucky theme evidence.

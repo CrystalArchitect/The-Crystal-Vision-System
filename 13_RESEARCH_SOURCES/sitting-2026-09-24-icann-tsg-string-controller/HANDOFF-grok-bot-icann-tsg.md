@@ -21,7 +21,7 @@ Hold the ICANN TSG **string+controller** map: same-string gTLD × alternative na
 2. **Canon: no.** Filed research; Crystal did not stamp sealed truth.  
 3. **Connection ≠ merge.** Compass for naming/identity notes — not a CrystalCore / Portal / gTLD module.  
 4. **No Crystal position.** Do not say Crystal supports grandfathering, ENS, Unregistry, or any camp. She is reading, not lobbying.  
-5. **No invented quotes.** Depth **C** rows (RySG, WIPO, CleanDNS, Netnod primaries; MeitY/ISPCP/.ART via Circleid only) = paraphrase or “cite secondary / link only.” Never fabricate PDF text.  
+5. **No invented quotes.** Depth **C** / unrecovered attachment rows = paraphrase or “cite secondary / link only.” Never fabricate PDF text. Depth A/B rows in `DEEP-EXTRACTS.md` (incl. D3 / ISPCP / .ART pass 2) may be paraphrased from filed extracts.  
 6. **Human publishes.** Drafts only. No auto-post to X / ICANN / blogs.  
 7. **Watch the clock.** Final Report due **~5 Oct 2026**. After that date, say the sitting may be stale until Crystal refreshes.  
 8. If unsure → ask Crystal. Prefer silence over confident wrong.
@@ -66,10 +66,13 @@ Hold the ICANN TSG **string+controller** map: same-string gTLD × alternative na
 
 | Submitter | Status |
 | --- | --- |
-| RySG / WIPO | Known **via ENS Foundation cite only** |
-| CleanDNS / Netnod | Roster links only — no body recovered |
-| MeitY / ISPCP / .ART | Circleid paraphrase (B-lite) — not primary PDF |
+| RySG / CleanDNS / MeitY / Netnod | Depth A/B recovered 6 Oct — cite `DEEP-EXTRACTS` |
+| WIPO | Depth B via ICANN Summary — **attachment PDF still unrecovered** |
+| D3 Global | Depth A (CDN crawl + raw extract) |
+| ISPCP | Depth B (memberclicks PDF crawl + raw extract) |
+| .ART | Depth B (CDN crawl + ICANN summary + raw extract) |
 | Tucows | Depth B (CDN PDF) — Picket Fence; supports RrSG |
+| Public Final Report | Sullivan shared-Drive update ~30 Sep–1 Oct — **not** confirmed on ICANN.org PDF |
 
 ---
 
@@ -83,7 +86,7 @@ Hold the ICANN TSG **string+controller** map: same-string gTLD × alternative na
 
 - File or pretend to file an ICANN Public Comment  
 - Claim Crystal runs / will run a gTLD or alt-name registry  
-- Quote RySG/WIPO/CleanDNS/Netnod as if you read their PDFs  
+- Quote unrecovered WIPO **attachment** PDF as if read end-to-end  
 - Collapse this into Starline / Zero Trust / Frequency lore  
 
 ---

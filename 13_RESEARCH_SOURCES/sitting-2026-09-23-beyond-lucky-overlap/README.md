@@ -76,7 +76,9 @@
 - **Riptide chart** (where we go next — across the pull): [`MAP-riptide-where-we-go.md`](MAP-riptide-where-we-go.md)
 - **Grok Bot handoff** (story of me + full song list — paste into Grok): [`HANDOFF-grok-bot-frequency-story-songs.md`](HANDOFF-grok-bot-frequency-story-songs.md)
 - **Grok Bot mobile** (iOS/Android · same cloud computer · approve away from desk): [`SOURCE-cursor-grok-bot-mobile-2026-09-25.md`](SOURCE-cursor-grok-bot-mobile-2026-09-25.md) · App Store `id6794501026` · Google Play `ai.x.grok.bot`
-- **Grok EVERYTHING dump** (full pack for Grok to structure into bots · ~28k words): [`HANDOFF-GROK-EVERYTHING-structure-me.md`](HANDOFF-GROK-EVERYTHING-structure-me.md)
+- **Own surface shore** (teraustralis walls + will copy dock): [`NOTE-own-surface-teraustralis-shore.md`](NOTE-own-surface-teraustralis-shore.md)  
+- **Academy Kangaroo door:** join line [`DRAFT-join-line-academy-kangaroo.md`](DRAFT-join-line-academy-kangaroo.md) · ledger [`LEDGER-academy-kangaroo-interest.md`](LEDGER-academy-kangaroo-interest.md) · Witness cards [`CARD-witness-academy-kangaroo.md`](CARD-witness-academy-kangaroo.md) · field sheet [`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md)
+- **Grok EVERYTHING dump** (full pack for Grok to structure into bots · refreshed 6 Oct §B2 SAVE/booth/mobile): [`HANDOFF-GROK-EVERYTHING-structure-me.md`](HANDOFF-GROK-EVERYTHING-structure-me.md)
 - **Frequency MASTER journey (LOCKED):** [`MASTER-frequency-cinematic-journey.md`](MASTER-frequency-cinematic-journey.md) · Core Four + Extended CapCut master (**CONDUCTOR PEAK** · *Sailor Moon* · *Riptide* · *Colours of the Wind* · *I Am Australian* · *Roots* · *Jerusalema* · *Shotgun* · *Laced Up* · *Shake That* mapped) — **FIRE ELEVENLABS**
 - **Core Four booth armed:** clean paste [`BOOTH-PASTE-core-four-elevenlabs.txt`](BOOTH-PASTE-core-four-elevenlabs.txt) · CapCut checklist [`CHECKLIST-capcut-core-four.md`](CHECKLIST-capcut-core-four.md) · script [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md)
 - Frequency / Barbelo / Turner · **Core Four LOCKED** for ElevenLabs (~6–7 min: *Crystal* · *Dreams* · *Castle on the Hill* · *Torn*) + Extended optional: [`SCRIPT-frequency-directors-cut-elevenlabs.md`](SCRIPT-frequency-directors-cut-elevenlabs.md) · [`SCRIPT-frequency-extended-directors-cut-elevenlabs.md`](SCRIPT-frequency-extended-directors-cut-elevenlabs.md) · [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md)
@@ -89,6 +91,7 @@
 - Grok share AI Actor Singer / Crystalum design (parent thread — out of scope): [`SOURCE-grok-share-crystalum-ai-actor.md`](SOURCE-grok-share-crystalum-ai-actor.md)  
 - **Claude artefacts inventory (bodies + gaps):** [`artefacts/README.md`](artefacts/README.md)  
 - **Ungate everything (Crystal run sheet):** [`artefacts/UNGATE-RUN-SHEET.md`](artefacts/UNGATE-RUN-SHEET.md)  
+- **Continuation 2026-10-06:** [`artefacts/CONTINUATION-2026-10-06.md`](artefacts/CONTINUATION-2026-10-06.md)  
 - Claude artifact architectural survey (23 Jul 2026): [`SOURCE-claude-artifact-map-and-territory.md`](SOURCE-claude-artifact-map-and-territory.md) · body [`artefacts/claude-UGSGKeMAVWEjWvkLPNx5mE-map-and-territory.md`](artefacts/claude-UGSGKeMAVWEjWvkLPNx5mE-map-and-territory.md)  
 - Claude artifact Protocol Omega (boundaries practice — out of scope): [`SOURCE-claude-artifact-protocol-omega.md`](SOURCE-claude-artifact-protocol-omega.md)  
 - Claude artifact Discursive Ops (satire — out of scope): [`SOURCE-claude-artifact-discursive-ops.md`](SOURCE-claude-artifact-discursive-ops.md)  

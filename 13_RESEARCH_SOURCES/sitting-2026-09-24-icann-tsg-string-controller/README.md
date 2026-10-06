@@ -23,7 +23,11 @@
 10. [`RECEIPT-chat-paste-2026-09-24.md`](RECEIPT-chat-paste-2026-09-24.md) — how this sitting got the report text  
 11. [`SOURCE-official-pdf-text-extract.txt`](SOURCE-official-pdf-text-extract.txt) — text extract of the official PDF (via search fetch; PDF binary download blocked in this environment)  
 12. [`SOURCE-unregistry-comment-text-extract.txt`](SOURCE-unregistry-comment-text-extract.txt) — Unregistry comment PDF text (sample primary)  
-13. [`SOURCE-estmcmxci-comment-summary-extract.txt`](SOURCE-estmcmxci-comment-summary-extract.txt) — estmcmxci.eth / TLD Oracle submission summary
+13. [`SOURCE-estmcmxci-comment-summary-extract.txt`](SOURCE-estmcmxci-comment-summary-extract.txt) — estmcmxci.eth / TLD Oracle submission summary  
+14. [`raw/SOURCE-netnod-26-030-extract.txt`](raw/SOURCE-netnod-26-030-extract.txt) — Netnod Depth A  
+15. [`raw/SOURCE-d3-global-16-09-2026-extract.txt`](raw/SOURCE-d3-global-16-09-2026-extract.txt) — D3 Depth A  
+16. [`raw/SOURCE-ispcp-15-09-2026-extract.txt`](raw/SOURCE-ispcp-15-09-2026-extract.txt) — ISPCP Depth B  
+17. [`raw/SOURCE-art-domain-registry-20-09-2026-extract.txt`](raw/SOURCE-art-domain-registry-20-09-2026-extract.txt) — .ART Depth B
 
 **Sibling sitting (same proceeding):** [`../icann-tsg-gtld-ans-2026/`](../icann-tsg-gtld-ans-2026/) — parallel Collection Mode pack; cross-linked from SYNTHESIS.
 
@@ -43,7 +47,7 @@
 
 This sitting is **after** the comment window. Do not invent a late filing unless Crystal stamps an out-of-band path.
 
-**Public Comment roster (filed 24 Sep):** 40 submissions in CSV (2 retracted). Deep pass v2 + thin-PDF pass 25 Sep: Unregistry (A); SSAC/ALAC/IPC/ENS/RrSG/Tucows/Clowes/Bird/estmcmxci (B); ISPCP/MeitY/.ART via Circleid; RySG/WIPO via ENS cite; CleanDNS/Netnod/D3 primary still open.
+**Public Comment roster (filed 24 Sep):** 40 submissions in CSV (2 retracted). **6 Oct recovery + pass 2:** Unregistry + **D3** (A); SSAC/ALAC/IPC/ENS/RrSG/Tucows/Clowes/Bird/estmcmxci/RySG/CleanDNS/MeitY/WIPO-summary/**ISPCP**/**.ART**/Netnod (B). Still thin: WIPO attachment PDF bytes · public Final Report PDF · byte-faithful CDN archives.
 
 ---
 

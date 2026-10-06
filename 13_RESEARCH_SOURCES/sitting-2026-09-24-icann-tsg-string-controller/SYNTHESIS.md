@@ -52,7 +52,7 @@ Full rules: EXTRACT-BRIEF · REQUIREMENTS-CHECKLIST.
 | --- | --- |
 | Conditional yes | SSAC (SAC134), Unregistry, D3, Clowes, many individuals |
 | Harden | SSAC: DNS independent of alt failure; continuous control measurement; URS/UDRP equivalent for alt-primary; post-launch review; IDN/EPP clarity |
-| Measurable assurance | ISPCP, MeitY (Circleid): sync, failure handling, independent testing, ownership consistency, continuity/shutdown |
+| Measurable assurance | **ISPCP (primary)**, MeitY (primary): sync, failure handling, independent testing, ownership consistency, continuity/shutdown, continuous monitoring |
 
 **Likely Final Report move:** keep threshold yes; add independence + measurement + terminology + post-launch language.
 
@@ -60,7 +60,8 @@ Full rules: EXTRACT-BRIEF · REQUIREMENTS-CHECKLIST.
 
 | Camp | Ask |
 | --- | --- |
-| RrSG, Tucows, .ART (partial) | Don’t harden advisory into RA mandates; map each requirement to Bylaws §1.1(a)(i); don’t govern ANS internals |
+| RrSG, Tucows, **.ART (primary)** | Don’t harden advisory into RA mandates; map each requirement to Bylaws §1.1(a)(i); don’t govern ANS internals; .ART: data/RDAP → PDP/negotiation |
+| **D3 (primary)** | Affirmative RO control only; DNS-first preferred; §8.2 optional; no retroactive 2026 Round obligations |
 | ALAC, IPC | *More* community / GNSO work **before** any RSEP green light |
 
 **Likely process move:** Final Report + later **RA amendment** Public Comment; separate tracks for legacy + RPMs.
@@ -143,8 +144,9 @@ No stamp that Crystal applies for a gTLD or builds an alt-name registry.
 ## Honesty
 
 - Egress to `icann.org` / `itp.cdn.icann.org` blocked for direct curl; Depth A–C labeled in DEEP-EXTRACTS.  
-- **Thin-PDF pass 25 Sep 2026:** RySG / WIPO / CleanDNS / Netnod primaries still unrecovered (CDN search miss + no Circleid paraphrase for CleanDNS/Netnod). Tucows upgraded to Depth B via indexed PDF. MeitY/ISPCP/.ART remain Circleid B-lite only.  
-- Do not invent quotes for thin rows.  
+- **Recovery 6 Oct 2026:** RySG / CleanDNS / Netnod / MeitY / WIPO-summary upgraded; **pass 2:** D3 Depth A + ISPCP/.ART Depth B with raw extracts.  
+- Still thin: WIPO attachment PDF bytes · public Final Report (Sullivan shared-Drive only) · byte-faithful CDN archives.  
+- Do not invent quotes beyond Depth A/B rows.  
 - Sibling SYNTHESIS at `icann-tsg-gtld-ans-2026/` covers the same proceeding; **Bird** is middle-path (transition, no entitlement), not prior-claim — corrected here and in that pack’s pointer.
 
 **Grok Bot:** Crystal stamped research-desk paste card 26 Sep 2026 — [`HANDOFF-grok-bot-icann-tsg.md`](HANDOFF-grok-bot-icann-tsg.md) · ledger `AGR-ICANN-TSG-GROK` · Canon still **no**.
