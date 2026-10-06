@@ -3,7 +3,7 @@
 # Workflow: 00_MASTER_INDEX/AGREEMENT-WORKFLOW.md
 # Update only when Crystal replies AGREE / REJECT / CANON / INTERIM <id>
 version: 1
-updated: "2026-09-24"
+updated: "2026-09-26"
 authority: Crystal Arena-Turner
 
 items:
@@ -100,3 +100,11 @@ items:
     source: 10_ORIGINAL_CREATIVE/sitting-2026-09-19/
     confirmed: "2026-09-19"
     note: "Creative; Songline remains out of bounds"
+
+  - id: AGR-ICANN-TSG-GROK
+    title: Grok Bot may use ICANN TSG sitting as research-desk paste handoff
+    status: crystal_confirmed
+    source: 13_RESEARCH_SOURCES/sitting-2026-09-24-icann-tsg-string-controller/HANDOFF-grok-bot-icann-tsg.md
+    confirmed: "2026-09-26"
+    note: "Ok stamp — research desk only; Canon no; no invented Depth-C quotes; human publishes"
+

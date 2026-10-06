@@ -147,4 +147,6 @@ No stamp that Crystal applies for a gTLD or builds an alt-name registry.
 - Do not invent quotes for thin rows.  
 - Sibling SYNTHESIS at `icann-tsg-gtld-ans-2026/` covers the same proceeding; **Bird** is middle-path (transition, no entitlement), not prior-claim — corrected here and in that pack’s pointer.
 
+**Grok Bot:** Crystal stamped research-desk paste card 26 Sep 2026 — [`HANDOFF-grok-bot-icann-tsg.md`](HANDOFF-grok-bot-icann-tsg.md) · ledger `AGR-ICANN-TSG-GROK` · Canon still **no**.
+
 *Non Solus.*
