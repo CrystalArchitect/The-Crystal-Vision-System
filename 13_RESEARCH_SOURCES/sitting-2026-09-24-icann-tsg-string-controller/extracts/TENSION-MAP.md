@@ -2,7 +2,7 @@
 
 **Companion to:** [`DEEP-EXTRACTS.md`](DEEP-EXTRACTS.md) · [`../THEMES-public-comments.md`](../THEMES-public-comments.md)  
 **Canon:** **no**  
-**Updated:** 24 Sep 2026 (deep pass v2)
+**Updated:** 24 Sep 2026 (deep pass v2) · 6 Oct 2026 (thin-PDF recovery)
 
 Four fights dominate the closed Public Comment. They are not the same question. A fifth cluster is implementation prototypes, not a fight.
 
@@ -13,9 +13,9 @@ Four fights dominate the closed Public Comment. They are not the same question. 
 **TSG claim:** string+controller + operational controls → unlikely significant RSEP S&S harm.
 
 **Amplifiers:** SSAC (conditional), Unregistry, D3, Clowes, estmcmxci, many individuals.  
-**Hardening:** SSAC independence of DNS from alt failure; continuous control measurement; URS/UDRP equivalent for alt-primary; post-launch review; IDN/LGR/EPP provisioning clarity; ISPCP/MeitY want sharper measurable risk/assurance (sync, failure, independent testing, ownership consistency).
+**Hardening:** SSAC independence of DNS from alt failure; continuous control measurement; URS/UDRP equivalent for alt-primary; post-launch review; IDN/LGR/EPP provisioning clarity; **MeitY primary** wants checkable RSEP gates (audits, stress tests, SLAs, stop-work); **Netnod** adds control≠resolution, convergence bounds, partition behaviour, USoT as SPOF, cryptographic control proof; **CleanDNS** wants reciprocal-takedown plumbing (cross-system abuse reporting + evidence).
 
-**Likely Final Report move:** keep threshold yes; add independence + measurement + post-launch review + terminology (enabled/disabled) language.
+**Likely Final Report move:** keep threshold yes; add independence + measurement + post-launch review + terminology (enabled/disabled) language; watch whether Netnod’s resolution cut and MeitY’s mandatory turn-down land.
 
 ---
 
@@ -23,7 +23,7 @@ Four fights dominate the closed Public Comment. They are not the same question. 
 
 **Claim:** Draft already regulates *how alt systems operate* and may harden into RA mandates without PDP.
 
-**Amplifiers:** RrSG, Tucows, .ART (partial), Circleid synthesis.  
+**Amplifiers:** RrSG, Tucows, .ART (partial), Circleid synthesis; **RySG primary** — don’t smuggle policy/contract answers into tech language; don’t blanket every ANS overlap as RSEP.  
 **Opposite pull:** ALAC/IPC want *more* policy process *before* any approval — not less community work.
 
 **Likely process move:** later Public Comment pairing Final Report with **contract language**; GNSO/community tracks for legacy + RPMs; RrSG wants IDN-EPDP lessons + registrar seat next time.
@@ -35,11 +35,11 @@ Four fights dominate the closed Public Comment. They are not the same question. 
 | Camp | Position |
 | --- | --- |
 | **Prior-claim / grandfather** | APlusDomains.Crypto, Barrett, Manoratana (.nft), Darwin — existing ANS holders must get first crack / protection before DNS delegation |
-| **No rights from alt occupancy** | ENS (+ cites RySG) — alt namespace ≠ DNS entitlement; collision = risk assessment; anything entering root still does Sunrise/Claims |
+| **No rights from alt occupancy** | ENS + **RySG primary** — alt namespace ≠ DNS entitlement; collision = risk assessment; anything entering root still does Sunrise/Claims |
 | **Process deferral** | Unregistry — open §8.3 discussion now; don’t pretend the installed base is empty |
 | **Anti–prior-claim** | Clowes — decline prior-claim framing (permissionless mint, colliding ANS brands, §4.6 control prerequisite); §8.3 already protects when *that operator* integrates its own namespace; keep §11 (profile ≠ second namespace) |
 | **Transition plan, no entitlement** | Bird — pre-launch plan for populated ANS (inventory, verify, withhold, activate path) but **no automatic DNS entitlement** |
-| **Rights machinery first** | IPC — inventory + TMCH + challenge before legacy enrollment |
+| **Rights machinery first** | IPC — inventory + TMCH + challenge before legacy enrollment; **WIPO (ICANN summary)** — brand challenge → withhold / integration-prohibited for infringing altroot labels; no mechanical cybersquatting import |
 
 **Market signal (secondary):** Unstoppable withdrew ICANN apps for `.crypto` and siblings, citing rules that would force DNS registration/payment/disclosure for millions of on-chain-only names — raises the political cost of treating installed ANS bases as empty.
 
