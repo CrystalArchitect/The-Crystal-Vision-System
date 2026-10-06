@@ -25,20 +25,22 @@ Documents and artifacts dropped into the agent session without an explicit build
 | 16 AI safety | [`16_AI_SAFETY_RESEARCH/sitting-2026-09-19/`](../16_AI_SAFETY_RESEARCH/sitting-2026-09-19/) — FC07, **CICH Framework**, xAI frontier framework PDF |
 | 17 Physics | [`17_PHYSICS_SIMULATION/sitting-2026-09-19/`](../17_PHYSICS_SIMULATION/sitting-2026-09-19/) — BUILT gem/sonic plates, stellar fusion/CMB notes |
 | 19 Philosophy | [`19_PHILOSOPHICAL_FOUNDATIONS/sitting-2026-09-19/`](../19_PHILOSOPHICAL_FOUNDATIONS/sitting-2026-09-19/) — Chrome Ascendance + ONE BUT MANY Field Book |
-| 20 Economic | [`20_ECONOMIC_MODELS/sitting-2026-09-19/`](../20_ECONOMIC_MODELS/sitting-2026-09-19/) — TaskMarket skill pointer (binary held) |
-| 99 Unresolved | [`99_UNRESOLVED/sitting-2026-09-19/`](../99_UNRESOLVED/sitting-2026-09-19/) |
+| 20 Economic | [`20_ECONOMIC_MODELS/sitting-2026-09-19/`](../20_ECONOMIC_MODELS/sitting-2026-09-19/) — TaskMarket skill pointer + `taskmarket-SKILL.md` extract |
+| 99 Unresolved | [`99_UNRESOLVED/sitting-2026-09-19/`](../99_UNRESOLVED/sitting-2026-09-19/) — **cleared 2026-10-06** (Codex Private Master → 10; Lumenia → 11) |
 
 ## Held (not unpacked into living tree)
 
 Listed in [`15_ARCHIVE_HISTORY/sitting-2026-09-19-held/HELD-BINARIES.txt`](../15_ARCHIVE_HISTORY/sitting-2026-09-19-held/HELD-BINARIES.txt):
 
+**2026-10-06 honesty:** Most held zip/torrent/large-file **bytes are ABSENT** from the repo. Only the three `.skill` packages + the manifest remain on disk. Re-drop uploads to re-read.
+
 - Whole-repo / build **zips** (Vision System, memorycore-repo, continuum, freeze zip, three-bills, remix, clementine-starter, library-*, discord-ai-agent, dimensional-telephone) — list-only; do not unpack over living tree
-- **Elon Musk evidence zips** (LITE + FILINGS) — reports filed under `13/.../elon-musk-filings-2026-09-16/`; large SEC HTML stays in held zips (verify via EDGAR + SHA256SUMS)
-- **Bundles** (clementine, discord-dual-engine) + **`.skill` packages** (clementine / taskmarket / web-os-easter-eggs) filed as binaries under held/
-- **Torrents** + UK DnB **sqlite**
+- **Elon Musk evidence zips** (LITE + FILINGS) — reports filed under `13/.../elon-musk-filings-2026-09-16/`; large SEC HTML was session-held (verify via EDGAR + SHA256SUMS)
+- **Bundles** (clementine, discord-dual-engine) + **`.skill` packages** (clementine / taskmarket / web-os-easter-eggs) — skills present under held/; markdown extracts filed
+- **Torrents** + UK DnB **sqlite** — names only
 - Node **_stream_*.js** polyfills
 - React_Artifact_* / Artifact_* extras (selected CrystalCore HTML + AERIS UI extracts filed under Portal; piles not triplicated)
-- Large creative HTML/PDF held: `continuing_chart` (~1.1MB), `visual_atlas_seven` (~2.3MB), Sovereign Lattice Proxy Sheet (~2.9MB), odyssey-engine tarball, extra React_Artifact_*
+- Large creative HTML/PDF held: `continuing_chart` (~1.1MB), `visual_atlas_seven` (~2.3MB), Sovereign Lattice Proxy Sheet (~2.9MB), odyssey-engine tarball, extra React_Artifact_* — **ABSENT bytes**
 - Tooling scraps
 
 ## Honesty (Incognita Rule)
@@ -53,5 +55,12 @@ AI-SYSTEM-BRIEF remains the verified 2026-09-10 Portal/MemoryCore contract. AERI
 - No alternate brand-name for **Starline** as a title / component (see [`NAMING-STARLINE.md`](../00_MASTER_INDEX/NAMING-STARLINE.md))
 - No unpack of memorycore-repo / library / clementine-starter zips
 - No unpack of odyssey-engine tarball / visual atlas seven / continuing chart
+- Held zip **bytes** not restored (need Crystal re-drop)
+
+## Continue pass — 2026-10-06
+
+- Triaged `99_UNRESOLVED/sitting-2026-09-19/`: Codex Private Master → drawer 10 (+ extract); Lumenia setup → drawer 11 (+ extract)
+- TaskMarket root `SKILL.md` extract under drawer 20
+- Marked held manifest **ABSENT BYTES**
 
 *Non Solus.*
