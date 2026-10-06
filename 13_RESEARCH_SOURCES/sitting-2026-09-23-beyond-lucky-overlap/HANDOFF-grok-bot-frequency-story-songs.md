@@ -2,7 +2,9 @@
 
 **Paste this whole file into Grok** when building / updating Crystal bots.  
 **Filed:** 24 Sep 2026 · from locked Frequency cinema pack  
-**Law for bots:** Vision / mythos labelled **vision** — not biography-as-fact · public captions = **song titles only** (no lyric dumps) · human publishes
+**Refresh:** 6 Oct 2026 — mobile ops + booth paths · EVERYTHING dump §B2 now indexes SAVE packs  
+**Law for bots:** Vision / mythos labelled **vision** — not biography-as-fact · public captions = **song titles only** (no lyric dumps) · human publishes  
+**Sister dump:** [`HANDOFF-GROK-EVERYTHING-structure-me.md`](HANDOFF-GROK-EVERYTHING-structure-me.md) (structure into desks) · plain fire [`FIRE-CORE-FOUR-PLAIN.md`](FIRE-CORE-FOUR-PLAIN.md)
 
 ---
 
