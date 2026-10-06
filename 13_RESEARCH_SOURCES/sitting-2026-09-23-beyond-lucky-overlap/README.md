@@ -91,6 +91,7 @@
 - Grok share AI Actor Singer / Crystalum design (parent thread — out of scope): [`SOURCE-grok-share-crystalum-ai-actor.md`](SOURCE-grok-share-crystalum-ai-actor.md)  
 - **Claude artefacts inventory (bodies + gaps):** [`artefacts/README.md`](artefacts/README.md)  
 - **Ungate everything (Crystal run sheet):** [`artefacts/UNGATE-RUN-SHEET.md`](artefacts/UNGATE-RUN-SHEET.md)  
+- **Continuation 2026-10-06:** [`artefacts/CONTINUATION-2026-10-06.md`](artefacts/CONTINUATION-2026-10-06.md)  
 - Claude artifact architectural survey (23 Jul 2026): [`SOURCE-claude-artifact-map-and-territory.md`](SOURCE-claude-artifact-map-and-territory.md) · body [`artefacts/claude-UGSGKeMAVWEjWvkLPNx5mE-map-and-territory.md`](artefacts/claude-UGSGKeMAVWEjWvkLPNx5mE-map-and-territory.md)  
 - Claude artifact Protocol Omega (boundaries practice — out of scope): [`SOURCE-claude-artifact-protocol-omega.md`](SOURCE-claude-artifact-protocol-omega.md)  
 - Claude artifact Discursive Ops (satire — out of scope): [`SOURCE-claude-artifact-discursive-ops.md`](SOURCE-claude-artifact-discursive-ops.md)  

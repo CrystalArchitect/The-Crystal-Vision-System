@@ -55,6 +55,13 @@ Screenshots (prior agent VM — **absent on this node**):
 
 Place under **B. Live compute / software provenance** beside map-and-territory survey and Jul design share — this is the **built-vs-dreamed ledger**, not the Pulse paraphrase matrix.
 
+## Durable adjacent STATUS (canon pointer named in artifact)
+
+| Copy | Path |
+| --- | --- |
+| Umbrella STATUS | [`artefacts/adjacent-NtXjm-STATUS-umbrella.md`](artefacts/adjacent-NtXjm-STATUS-umbrella.md) |
+| CrystalCore.OS Archive STATUS | [`artefacts/adjacent-NtXjm-STATUS-crystalcore-os-archive.md`](artefacts/adjacent-NtXjm-STATUS-crystalcore-os-archive.md) |
+
 ## Pattern note
 
 Unlike the 11 gated `/artifact/` IDs in this sitting, this artifact renders to anonymous visitors. Prefer public artifact or `/share/` links for further triage.

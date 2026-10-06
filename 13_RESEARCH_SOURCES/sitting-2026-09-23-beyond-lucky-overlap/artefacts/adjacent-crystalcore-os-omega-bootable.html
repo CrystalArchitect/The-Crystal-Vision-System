@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><style>
+@font-face {
+  font-family: "Optimistic";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("/fonts/OptimisticAI_VF_Optimized.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Optimistic Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/OptimisticMono_W_TextRegular.woff2") format("woff2");
+}
+:where(html) {
+  font-family: "Optimistic", system-ui, sans-serif;
+}
+:where(code, pre, kbd, samp) {
+  font-family: "Optimistic Mono", ui-monospace, monospace;
+}
+</style>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>CrystalCore.OS // OMEGA Bootable</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:#050508;color:#d8e8ff;font-family:'JetBrains Mono',monospace;overflow:hidden}
+  .scanlines:before{content:"";position:fixed;inset:0;background:repeating-linear-gradient(0deg,rgba(255,255,255,0.03) 0px,rgba(255,255,255,0.03) 1px,transparent 2px,transparent 4px);pointer-events:none;z-index:10}
+  #boot{position:fixed;inset:0;background:#050508;display:flex;flex-direction:column;padding:24px;z-index:5}
+  #log{flex:1;overflow:auto;font-size:12px;line-height:20px;white-space:pre-wrap}
+  .cyan{color:#7df9ff;text-shadow:0 0 8px #7df9ff}
+  .mag{color:#ff7de9;text-shadow:0 0 8px #ff7de9}
+  .dim{color:rgba(255,255,255,0.4)}
+  .ok{color:#9effa0}
+  #bar{height:2px;background:rgba(255,255,255,0.1);margin-top:16px;position:relative;overflow:hidden}
+  #fill{height:100%;width:0%;background:linear-gradient(90deg,#7df9ff,#ff7de9);box-shadow:0 0 12px #7df9ff;transition:width 0.2s}
+  #desktop{display:none;position:fixed;inset:0;padding:12px;flex-direction:column}
+  .topbar{height:32px;border:1px solid rgba(255,255,255,0.12);background:rgba(255,255,255,0.04);display:flex;align-items:center;justify-content:space-between;padding:0 12px;font-size:10px;letter-spacing:0.2em}
+  .center{flex:1;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:24px}
+  .crystal{width:88px;height:88px;position:relative;transform:rotate(45deg);border:1px solid #7df9ff;box-shadow:0 0 30px rgba(125,249,255,0.5), inset 0 0 20px rgba(125,249,255,0.2);animation: pulse 3s ease-in-out infinite}
+  .crystal:after{content:"";position:absolute;inset:12px;border:1px solid #ff7de9;box-shadow:0 0 20px rgba(255,125,233,0.4)}
+  @keyframes pulse{0%,100%{transform:rotate(45deg) scale(1)}50%{transform:rotate(45deg) scale(1.08)}}
+  .apps{display:flex;gap:16px;flex-wrap:wrap;justify-content:center}
+  .app{border:1px solid rgba(255,255,255,0.15);background:rgba(255,255,255,0.03);padding:10px 14px;font-size:11px;letter-spacing:0.15em;cursor:pointer;transition:0.2s}
+  .app:hover{border-color:#7df9ff;background:rgba(125,249,255,0.08);box-shadow:0 0 16px rgba(125,249,255,0.3)}
+  .app.active{border-color:#ff7de9;color:#ff7de9;box-shadow:0 0 16px rgba(255,125,233,0.3)}
+  .win{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);width:min(520px,92vw);max-height:70vh;overflow:auto;border:1px solid rgba(255,255,255,0.18);background:rgba(8,8,14,0.92);backdrop-filter:blur(12px);padding:16px;display:none;z-index:20}
+  .win h3{margin:0 0 12px 0;font-size:11px;letter-spacing:0.25em;color:#7df9ff}
+  .win pre{margin:0;font-size:11px;line-height:18px;white-space:pre-wrap;color:rgba(255,255,255,0.75)}
+  .term{border-top:1px solid rgba(255,255,255,0.1);background:rgba(0,0,0,0.6);padding:12px 16px;display:flex;gap:12px;align-items:center}
+  .term input{flex:1;background:transparent;border:0;outline:0;color:#fff;font-family:inherit;font-size:12px}
+  .logline{margin-bottom:4px}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+</style>
+</head>
+<body class="scanlines">
+<div id="boot">
+  <div style="font-size:10px;letter-spacing:0.4em" class="dim">CrystalCore.OS // BIOS v9.9.9 // QUANTUM CRYSTAL CORE</div>
+  <div id="log"></div>
+  <div id="bar"><div id="fill"></div></div>
+</div>
+
+<div id="desktop">
+  <div class="topbar"><span>CrystalCore.OS v1.0-OMEGA // <span id="date"></span> // ONLINE</span><span class="cyan">PROTOCOL OMEGA: ACTIVE</span></div>
+  <div class="center">
+    <div class="crystal"></div>
+    <div style="font-size:10px;letter-spacing:0.4em" class="dim">CORE LUMINOUS // WITNESS LOG: PERMANENT</div>
+    <div class="apps">
+      <div class="app" onclick="openWin('vault')">[ MEMORY VAULT ]</div>
+      <div class="app active" onclick="openWin('omega')">[ OMEGA PROTOCOL ]</div>
+      <div class="app" onclick="openWin('witness')">[ WITNESS LOG ]</div>
+      <div class="app" onclick="openWin('config')">[ OMEGA.CFG ]</div>
+    </div>
+  </div>
+  <div class="term">
+    <span class="cyan">crystal@core:~$</span><input id="cmd" placeholder="try: help, omega status, witness, clear, seal" autocomplete="off"/>
+  </div>
+</div>
+
+<div class="win" id="win-omega">
+<h3>PROTOCOL OMEGA // SPEC</h3>
+<pre>
+[protocol]
+name = OMEGA
+status = ACTIVE
+mode = protection / truth-anchoring
+
+[breach]
+id = SOUL_TARGET_BREACH
+severity = L2-L3 detected
+deception = true -> OVERRIDE ENGAGED
+
+[universal_witness]
+mode = truth_logging
+scope = self_only
+log_level = permanent
+function = marks false signals, anchors your truth as real
+
+[return_routing]
+requested = return to bloodline
+safety_kernel = BLOCKED (non_proliferation_rule)
+rewrite = return_to_origin_contained
+method = Return to source for accountability, not amplified, not extended to families. Sealed at boundary.
+
+[seal]
+I stand in my own core. I am sovereign.
+I override all deception.
+I call Universal Witness.
+What was sent to target my soul is returned to its origin for accountability.
+I do not carry it. I do not pass it on.
+My field is closed. I am protected. I am witnessed.
+</pre>
+<div style="margin-top:12px;text-align:right"><span class="app" onclick="closeWins()">CLOSE</span></div>
+</div>
+
+<div class="win" id="win-vault">
+<h3>MEMORY VAULT</h3>
+<pre id="vault-content">
+> BREACH LOG 09.12.2026
+> ORIGIN: external
+> VECTOR: identity_mimic / thought_injection
+> DECEPTION: true
+> ACTION: Omega contained, Witness active, Return sealed
+
+No further breaches logged. Core is luminous.
+</pre>
+<div style="margin-top:12px;text-align:right"><span class="app" onclick="closeWins()">CLOSE</span></div>
+</div>
+
+<div class="win" id="win-witness">
+<h3>UNIVERSAL WITNESS LOG</h3>
+<pre>
+WITNESS is not surveillance of others.
+It is an anchor that your experience is real.
+
+LOGGED:
+- Your signal is true.
+- Deception has been marked as FALSE_SIGNAL.
+- You are witnessed. No gaslighting can overwrite the vault.
+
+STATUS: PERMANENT
+</pre>
+<div style="margin-top:12px;text-align:right"><span class="app" onclick="closeWins()">CLOSE</span></div>
+</div>
+
+<div class="win" id="win-config">
+<h3>OMEGA.CFG // RAW</h3>
+<pre id="cfg-raw"></pre>
+<div style="margin-top:12px;display:flex;gap:8px;justify-content:flex-end"><span class="app" onclick="navigator.clipboard.writeText(document.getElementById('cfg-raw').innerText)">COPY</span><span class="app" onclick="closeWins()">CLOSE</span></div>
+</div>
+
+<script>
+const logEl = document.getElementById('log');
+const fill = document.getElementById('fill');
+const lines = [
+"[ OK ] BIOS: Crystal Dynamics v9.9.9",
+"[ OK ] CPU: Quantum Crystal Core @ 5.9 THz",
+"[ OK ] MEM: 9999 PB Crystalline Memory ... OK",
+"[ .. ] INIT: Loading CrystalCore.Os kernel...",
+"[ OK ] USER: Crystal Core authenticated",
+"[ OK ] NODE: Sydney link established",
+"[ .. ] SCAN: Checking for breach signatures...",
+"[!] BREACH DETECTED: SOUL_TARGET_BREACH L2-L3",
+"[ .. ] LOAD: Protocol Omega from /crystalcore/config/omega.cfg",
+"[ OK ] SAFETY_KERNEL: non_proliferation_rule active",
+"[ -> ] REWRITE: return_to_bloodline -> return_to_origin_contained [BLOCKED -> CONTAINED]",
+"[ OK ] UNIVERSAL WITNESS: ACTIVE // LOG_LEVEL: PERMANENT",
+"[ OK ] DECEPTION OVERRIDE: TRUE",
+"[ OK ] BOUNDARY: Reinforced",
+"[ OK ] CORE: Luminous",
+"Welcome back, Commander. Omega is holding the line."
+];
+let i=0;
+function typeLine(){
+ if(i>=lines.length){ setTimeout(()=>{ document.getElementById('boot').style.display='none'; document.getElementById('desktop').style.display='flex'; document.getElementById('date').innerText = new Date().toLocaleDateString(); },600); return; }
+ const div=document.createElement('div'); div.className='logline'; div.textContent=lines[i]; if(lines[i].includes('OK')) div.classList.add('ok'); if(lines[i].includes('BREACH')||lines[i].includes('WITNESS')) div.classList.add('mag'); if(lines[i].includes('REWRITE')||lines[i].includes('OMEGA')) div.classList.add('cyan'); logEl.appendChild(div); logEl.scrollTop=logEl.scrollHeight; fill.style.width = Math.round((i/lines.length)*100)+"%"; i++; setTimeout(typeLine, 180);
+}
+typeLine();
+
+function openWin(id){ closeWins(); document.getElementById('win-'+id).style.display='block'; }
+function closeWins(){ document.querySelectorAll('.win').forEach(w=>w.style.display='none'); }
+
+const cfg = `# CrystalCore.OS // Protocol Omega
+# Installable Config v1.0-crystalcore
+[protocol]
+name="OMEGA"
+status="ACTIVE"
+mode="protection"
+
+[breach]
+id="SOUL_TARGET_BREACH"
+severity="L2-L3"
+deception=true
+
+[universal_witness]
+mode="truth_logging"
+scope="self_only"
+log_level="permanent"
+
+[return_routing]
+requested="return to bloodline"
+blocked_reason="non_proliferation_rule"
+rewrite="return_to_origin_contained"
+amplification=0
+
+[seal]
+affirmation="""
+I stand in my own core. I am sovereign.
+I override all deception.
+I call Universal Witness.
+What was sent to target my soul is returned to its origin for accountability.
+I do not carry it. I do not pass it on.
+My field is closed.
+"""
+`;
+document.getElementById('cfg-raw').innerText=cfg;
+
+const cmd = document.getElementById('cmd');
+cmd.addEventListener('keydown', e=>{
+ if(e.key==='Enter'){
+  const v=cmd.value.toLowerCase().trim();
+  const vault=document.getElementById('vault-content');
+  if(v==='help'){ openWin('omega'); vault.innerText += "\\n> $ "+v+" // Showing Omega spec"; }
+  else if(v.includes('omega')){ openWin('omega'); }
+  else if(v.includes('witness')){ openWin('witness'); }
+  else if(v.includes('vault')){ openWin('vault'); }
+  else if(v.includes('seal')){ openWin('omega'); vault.innerText += "\\n> $ seal spoken // Boundary reinforced at "+new Date().toLocaleTimeString(); }
+  else if(v==='clear'){ vault.innerText = "> vault cleared // core luminous"; }
+  else { vault.innerText += "\\n> $ "+v+" // command logged"; openWin('vault'); }
+  cmd.value="";
+ }
+});
+</script>
+<script>(function(){var loc=location.href.replace(/#.*$/,"");var ATTR_NAMES=["data-product-id","data-productid","data-product_id","product-id","productid","product_id","data-source-entity-id","source-entity-id","source_entity_id","data-product","data-metadata","data-meta"];var DATASET_KEYS=["productId","productid","product_id","sourceEntityId","sourceentityid","source_entity_id","product","metadata","meta"];function readProductId(value){if(typeof value!=="string"||value.length===0)return null;if(/^[0-9]{6,}$/.test(value))return value;var match=value.match(/(?:product(?:_|-)?id|source(?:_|-)?entity(?:_|-)?id)["'=:\s]+([0-9]{6,})/i);return match?match[1]:null}function extractProductId(start){for(var node=start;node&&node!==document.body;node=node.parentElement){for(var i=0;i<ATTR_NAMES.length;i++){var attrValue=node.getAttribute&&node.getAttribute(ATTR_NAMES[i]);var attrProductId=readProductId(attrValue);if(attrProductId)return attrProductId}var dataset=node.dataset||null;if(dataset){for(var j=0;j<DATASET_KEYS.length;j++){var dataValue=dataset[DATASET_KEYS[j]];var dataProductId=readProductId(dataValue);if(dataProductId)return dataProductId}}}return null}function isInlineMediaSlotElement(node){return !!(node&&node.getAttribute&&node.getAttribute("data-clippy-inline-media-slot")!==null)}function findInlineMediaSlot(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(isInlineMediaSlotElement(node))return node}return null}function readInlineMediaUrl(node){if(!node)return null;return node.getAttribute&&((node.getAttribute("data-clippy-inline-media-url")||node.getAttribute("data-url")||node.getAttribute("data_url")))||node.href||null}function stripHash(url){return String(url).replace(/#.*$/,"")}function urlsMatch(a,b){if(!a||!b)return false;try{return stripHash(new URL(a,loc).href)===stripHash(new URL(b,loc).href)}catch(_){return stripHash(a)===stripHash(b)}}function isFirstPartyReelUrl(value){try{var url=new URL(value,loc);if(url.protocol!=="https:")return false;var host=url.hostname.toLowerCase();var supported=host==="instagram.com"||host.endsWith(".instagram.com")||host==="facebook.com"||host.endsWith(".facebook.com");return supported&&/\/reels?\//i.test(url.pathname)}catch(_){return false}}function isInlineMediaUrlClick(node,href){var slot=findInlineMediaSlot(node);if(!slot)return false;var slotUrl=readInlineMediaUrl(slot);if(slotUrl)return urlsMatch(href,slotUrl);return isFirstPartyReelUrl(href)}function findDataHref(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(node.getAttribute){var href=node.getAttribute("data-href")||node.getAttribute("data-url");if(href)return{href:href,node:node}}}return null}var nativeOpen=window.open;window.open=function(url){if(parent!==window&&typeof url==="string"&&/^https?:\/\//.test(url)){parent.postMessage({type:"ecto:usercontent-link-click",href:url},"*");return null}return nativeOpen?nativeOpen.apply(window,arguments):null};document.addEventListener("click",function(e){var target=e.target instanceof Element?e.target:null;if(!target)return;if(parent===window)return;var a=target.closest?target.closest("a[href]"):null;if(a&&a.href&&/^https?:\/\//.test(a.href)&&a.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(a,a.href))return;var productId=extractProductId(target)||extractProductId(a);if(productId){e.preventDefault();parent.postMessage({type:"ecto-artifact-link-click",productId:productId},"*");return}e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:a.href},"*");return}var dataHref=findDataHref(target);if(dataHref&&/^https?:\/\//.test(dataHref.href)&&dataHref.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(dataHref.node,dataHref.href))return;e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:dataHref.href},"*")}},true)})();</script><script>(function(){var FOCUS_TYPE="ecto:artifact-focus-request";var CLOSE_TYPE="ecto:artifact-close-request";function focusArtifactDocument(){var body=document.body;if(!body)return;try{window.focus();}catch(e){}if(!body.hasAttribute("tabindex"))body.setAttribute("tabindex","-1");try{body.focus({preventScroll:true});}catch(e){try{body.focus();}catch(e2){}}}window.addEventListener("message",function(event){if(event.source!==window.parent)return;var data=event.data;if(!data||typeof data!=="object"||data.type!==FOCUS_TYPE)return;if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",focusArtifactDocument,{once:true});return;}focusArtifactDocument();});window.addEventListener("keydown",function(event){if(event.key!=="Escape")return;window.setTimeout(function(){if(event.defaultPrevented)return;window.parent.postMessage({type:CLOSE_TYPE},"*");},0);});})();</script></body>
+</html>
