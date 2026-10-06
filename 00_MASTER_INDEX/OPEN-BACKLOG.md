@@ -1,7 +1,7 @@
 # Open backlog (hub coordination)
 
 **Canon:** **no**  
-**Updated:** 2026-10-06 (packet A Drive 16–20 done)  
+**Updated:** 2026-10-06 (packet A done; packet C inventory recheck)  
 **Role:** Single list of what remains open. IDs in [`WORKING-INDEX.md`](WORKING-INDEX.md).  
 **Decision packets:** [`CRYSTAL-DECISIONS-PENDING.md`](CRYSTAL-DECISIONS-PENDING.md)  
 **Agreement check:** [`NEEDS-YOUR-YES.md`](NEEDS-YOUR-YES.md) (plain) · [`AGREEMENT-WORKFLOW.md`](AGREEMENT-WORKFLOW.md) · `python3 scripts/agreement/status.py --plain`
@@ -12,9 +12,9 @@
 
 | Item | Status | Blocker |
 | --- | --- | --- |
-| Drive folders 16–20 + STRUCTURE TBD | **DONE (2026-10-06)** | — packet A closed; URLs in [`STRUCTURE.md`](../STRUCTURE.md) |
+| Drive folders 16–20 + STRUCTURE TBD | **DONE (2026-10-06)** | — packet A closed; URLs in [`STRUCTURE.md`](../STRUCTURE.md); PR #85 merged |
 | `memory/` vs `00_MEMORY/` naming | **Interim documented** (keep both) | Optional Crystal stamp — packet B |
-| Stubs / UK-MonoRepo / auth-blocked CrystalCore* | **GONE (live)** | Confirm — packet C |
+| Stubs / UK-MonoRepo / auth-blocked CrystalCore* | **GONE (live)** — recheck 2026-10-06 (84 / 0 private) | Confirm — packet C · `AGREE DEC-C` |
 | Cross-domain thread extracts | **DONE (hub)** | Satellite execution remains |
 
 ---

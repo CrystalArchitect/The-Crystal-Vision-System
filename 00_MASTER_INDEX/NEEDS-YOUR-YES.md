@@ -23,6 +23,8 @@ Saying **yes** to coordination is not the same as making something **Canon**.
 ### DEC-C — Gone repos
 Confirm those missing stub / UK / CrystalCore private repos were deleted on purpose?
 
+**Recheck 2026-10-06:** still GONE (84 public repos, 0 private; API 404).
+
 Reply: `AGREE DEC-C — yes, intentional` or `REJECT DEC-C — …`
 
 ### DEC-D — Stewards

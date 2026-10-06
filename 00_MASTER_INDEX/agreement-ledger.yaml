@@ -27,7 +27,7 @@ items:
     status: proposed
     source: 00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md#C
     confirmed: null
-    note: "Live inventory 0 private; need Crystal yes"
+    note: "Recheck 2026-10-06: 84 public / 0 private; targets still 404 — need Crystal yes"
 
   - id: DEC-D
     title: Appoint domain stewards drawers 16–20 + Product

@@ -145,7 +145,7 @@ Canon stays **no** until Crystal stamps it.
 
 - **2026-09-18 (cont.):** Hub extracts for Threads 1, 2 (stub), 4, 5 — clears remaining cross-domain bead gaps without rewriting forks. Drive/naming still Crystal-gated. Canon: no.
 
-- **2026-10-06:** Packet A done — Drive folders 16–20 created under CVSC root; `STRUCTURE.md` URLs live; DEC-A crystal_confirmed. Canon: no.
+- **2026-10-06:** Packet A done — Drive folders 16–20 created under CVSC root; `STRUCTURE.md` URLs live; DEC-A crystal_confirmed. PR #85 merged. Packet C inventory recheck: 84 public / 0 private; stub/UK/CrystalCore* targets still 404. Canon: no.
 
 - **2026-09-18:** Backlog pick = Thread 3 (Drive 16–20 / stubs still Crystal-blocked). Filed [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), Thread 3 extract, cross-links on drawers 16/19/20, refreshed Thread 3 status in `CROSS-DOMAIN-THREADS.md`. Canon: no.
 

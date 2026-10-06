@@ -5,7 +5,7 @@
 **Role:** Decision packets only — agents do **not** execute Drive creates, deletes, or renames without Crystal yes. Crystal stamps / acts.  
 **Related:** [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), [`WORKING-INDEX.md`](WORKING-INDEX.md), [`MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md`](MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md), [`NEEDS-YOUR-YES.md`](NEEDS-YOUR-YES.md) (plain confirm list)
 
-To stamp a packet, reply `AGREE DEC-A` / `REJECT DEC-C` / `CANON DEC-B` (etc.). Agents update `agreement-ledger.yaml` after your reply — you do not need to edit YAML.
+To stamp a packet, reply `AGREE DEC-C` / `CANON DEC-B` / `AGREE DEC-D` (etc.). Agents update `agreement-ledger.yaml` after your reply — you do not need to edit YAML.
 
 ---
 
@@ -46,21 +46,23 @@ Silence is not permission for options 2–3 — do not rename until Crystal pick
 
 ## C. Stub repos + UK-MonoRepo + former auth-blocked privates (GONE on live — confirm)
 
-Live `gh repo list CrystalArchitect` (2026-09-18): **65** repos, **0** private.
+Live `gh repo list CrystalArchitect` **recheck 2026-10-06:** **84** repos, **0** private (was 65 / 0 on 2026-09-18). API 404 for each name below.
 
-| Name (earlier inventory / open questions) | Live status 2026-09-18 |
+| Name (earlier inventory / open questions) | Live status 2026-10-06 |
 | --- | --- |
-| `jolly-bolt-flora-lotus` | **Not found** |
-| `pilot-horizon-acre-spring` | **Not found** |
-| `UK-MonoRepo` | **Not found** |
-| `CrystalCore.OS-Aeris-Vault12` | **Not found** |
-| `CrystalCore-AERIS` | **Not found** |
-| `CrystalCore` | **Not found** |
-| `TerAustralis-Incognita-` (trailing hyphen) | **Not found** |
+| `jolly-bolt-flora-lotus` | **GONE** (404) |
+| `pilot-horizon-acre-spring` | **GONE** (404) |
+| `UK-MonoRepo` | **GONE** (404) |
+| `CrystalCore.OS-Aeris-Vault12` | **GONE** (404) |
+| `CrystalCore-AERIS` | **GONE** (404) |
+| `CrystalCore` | **GONE** (404) |
+| `TerAustralis-Incognita-` (trailing hyphen) | **GONE** (404) |
+
+**Also still GONE (imported into `archive/`):** `CrystalCore.OS`, `TheCrystalVision`, `discord-ai-agent`, `Clementine-ai-companion`, `TerAustralis-Incognita` (no trailing hyphen), `Synthetic-Affect-Theory` / `Synthetic-Affect-Theory-` — matches deletion checklist “files preserved in archive”; originals no longer on GitHub.
 
 **Implication:** Stub/UK “delete or adopt” and “import auth-blocked privates” gates are **not actionable** on live inventory.  
 
-**Crystal confirm:** Reply yes if absence was intentional. Hub cannot restore deleted repos.
+**Crystal confirm:** Reply `AGREE DEC-C — yes, intentional` if absence was intentional. Hub cannot restore deleted repos.
 
 Until confirmed, hub docs mark these **GONE (live)**. Do not invent recreated stubs or private imports.
 
@@ -94,6 +96,5 @@ Agents operate as **E1** until Crystal stamps. Do not rebuild or delete either t
 - Satellite Thread 1–5 experiments (swarm / MiroShark / mars / Lean)
 - Import of formerly auth-blocked private CrystalCore* trees (credentials)
 - Per-repo deletion of the 20 `archive/` sources ([`../memory/repo-deletion-checklist.md`](../memory/repo-deletion-checklist.md))
-- Drive MCP auth without Crystal request
 - Further cloud MemoryCore deploys until packet **E** is stamped
 - Portal Nag Hammadi BookItem PRs into foreign `/home/claude/...` trees from this hub without Crystal directing the Portal repo

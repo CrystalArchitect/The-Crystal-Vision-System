@@ -1,11 +1,11 @@
 # Original-repository deletion checklist
 
-**Status:** Reference for the repository owner. Not an instruction to any
-session to execute — see [`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md) "Deletion
-of the 20 original source repositories" for why this stays a checklist, not
-an action. No session has delete-repository access to these repos through
-this project's current GitHub tooling; deletion has to happen by hand in
-GitHub's own UI (Settings → Danger Zone → Delete this repository, per repo).
+**Status:** Reference for the repository owner. **Live recheck 2026-10-06:**
+the 20 imported source repo names below are **already absent** from
+`gh repo list CrystalArchitect` (API 404). Checkboxes remain for Crystal to
+confirm intentional deletion and that Pages/issues loss is acceptable — this
+is not an instruction to delete again. See [`OPEN-QUESTIONS.md`](OPEN-QUESTIONS.md)
+"Deletion of the 20 original source repositories".
 
 Sourced from [`MONOREPO-INDEX.md`](../MONOREPO-INDEX.md), all under the
 `CrystalArchitect` GitHub org. **Read the two warnings below before deleting
@@ -13,12 +13,11 @@ anything** — they cover the sharpest ways this list could go wrong.
 
 ## ⚠️ Warning 1 — two similarly-named repos are not the same repo
 
-- `TerAustralis-Incognita` (no trailing hyphen) — **imported**, safe to
-  consider once its checkbox below is checked.
-- `TerAustralis-Incognita-` (trailing hyphen) — **NOT imported** (private,
-  auth-blocked this session). Its content exists **only** on GitHub right
-  now. Deleting it would be a real, unrecoverable loss with nothing in this
-  monorepo to fall back on. Do not delete it under this consolidation.
+- `TerAustralis-Incognita` (no trailing hyphen) — **imported** into
+  `archive/`; live GitHub name **GONE** as of 2026-10-06 recheck.
+- `TerAustralis-Incognita-` (trailing hyphen) — **NOT imported**. Also
+  **GONE** on live inventory (2026-09-18 and 2026-10-06). Confirm via
+  packet C before treating as intentional — content is not in this monorepo.
 
 ## ⚠️ Warning 2 — `archive/` does not preserve everything
 
@@ -40,39 +39,41 @@ issues, note the Pages URL and where else it's linked from) before deleting.
 
 ## The 20 imported repos — files preserved in `archive/`
 
-Check a box only after you've personally confirmed (not delegated) that
-nothing in the "not preserved" list above matters for that repo.
+**Live GitHub names:** all listed below returned **404** on 2026-10-06
+(`gh api repos/CrystalArchitect/<name>`). Checkboxes = Crystal personal
+confirm that Pages/issues loss is acceptable, not “still need to delete.”
 
-- [ ] `CrystalCore.OS` → `archive/CrystalCore-OS/`
-- [ ] `TheCrystalVision` → `archive/TheCrystalVision/`
-- [ ] `TerAustralis-Incognita-Code` → `archive/TerAustralis-Incognita-Code/`
-- [ ] `Clementine-ai-companion` → `archive/Clementine-ai-companion/`
-- [ ] `discord-ai-agent` → `archive/discord-ai-agent/`
-- [ ] `ContextGate` → `archive/ContextGate/`
-- [ ] `TerAustralis-Incognita` → `archive/TerAustralis-Incognita/` — **no trailing hyphen; see Warning 1**
-- [ ] `TerAustralis-Incognita-Canon-Gallery` → `archive/TerAustralis-Incognita-Canon-Gallery/`
-- [ ] `CrystalCore-Canon` → `archive/CrystalCore-Canon/`
-- [ ] `The-Library` → `archive/The-Library/`
-- [ ] `TerAustralis-Proposal` → `archive/TerAustralis-Proposal/`
-- [ ] `sat-landing` → `archive/sat-landing/`
-- [ ] `starfleet-au-kangaroo-pack` → `archive/starfleet-au-kangaroo-pack/`
-- [ ] `nostos` → `archive/nostos/`
-- [ ] `CrystalCore-Starlines-Dreamlines` → `archive/CrystalCore-Starlines-Dreamlines/`
-- [ ] `TerAustralis-V2-Presentation` → `archive/TerAustralis-V2-Presentation/`
-- [ ] `CrystalCore.OS-the-Crystal-Architecture-Archive` → `archive/CrystalCore-OS-Archive/`
-- [ ] `TerAustralis-Incognita-V2` → `archive/TerAustralis-Incognita-V2/`
-- [ ] `TerAustralis-Independent-POC` → `archive/TerAustralis-Independent-POC/`
-- [ ] `Synthetic-Affect-Theory` → `archive/Synthetic-Affect-Theory/` — **name unverified**: `archive/CrystalCore-OS/README.md` names the canonical home `CrystalArchitect/Synthetic-Affect-Theory-` (trailing hyphen, rename "still pending" as of that README). Confirm the exact current GitHub name before deleting — do not delete a guess.
+- [ ] `CrystalCore.OS` → `archive/CrystalCore-OS/` — **GONE live**
+- [ ] `TheCrystalVision` → `archive/TheCrystalVision/` — **GONE live**
+- [ ] `TerAustralis-Incognita-Code` → `archive/TerAustralis-Incognita-Code/` — **GONE live**
+- [ ] `Clementine-ai-companion` → `archive/Clementine-ai-companion/` — **GONE live**
+- [ ] `discord-ai-agent` → `archive/discord-ai-agent/` — **GONE live**
+- [ ] `ContextGate` → `archive/ContextGate/` — **GONE live**
+- [ ] `TerAustralis-Incognita` → `archive/TerAustralis-Incognita/` — **no trailing hyphen; GONE live**
+- [ ] `TerAustralis-Incognita-Canon-Gallery` → `archive/TerAustralis-Incognita-Canon-Gallery/` — **GONE live**
+- [ ] `CrystalCore-Canon` → `archive/CrystalCore-Canon/` — **GONE live**
+- [ ] `The-Library` → `archive/The-Library/` — **GONE live**
+- [ ] `TerAustralis-Proposal` → `archive/TerAustralis-Proposal/` — **GONE live**
+- [ ] `sat-landing` → `archive/sat-landing/` — **GONE live**
+- [ ] `starfleet-au-kangaroo-pack` → `archive/starfleet-au-kangaroo-pack/` — **GONE live**
+- [ ] `nostos` → `archive/nostos/` — **GONE live**
+- [ ] `CrystalCore-Starlines-Dreamlines` → `archive/CrystalCore-Starlines-Dreamlines/` — **GONE live**
+- [ ] `TerAustralis-V2-Presentation` → `archive/TerAustralis-V2-Presentation/` — **GONE live**
+- [ ] `CrystalCore.OS-the-Crystal-Architecture-Archive` → `archive/CrystalCore-OS-Archive/` — **GONE live**
+- [ ] `TerAustralis-Incognita-V2` → `archive/TerAustralis-Incognita-V2/` — **GONE live**
+- [ ] `TerAustralis-Independent-POC` → `archive/TerAustralis-Independent-POC/` — **GONE live**
+- [ ] `Synthetic-Affect-Theory` → `archive/Synthetic-Affect-Theory/` — both `Synthetic-Affect-Theory` and `Synthetic-Affect-Theory-` **GONE live**
 
 ## NOT in `archive/` — do not delete without a separate decision
 
-These are not represented anywhere in this monorepo. Deleting them is a
-straight, unrecoverable loss, not a cleanup of something already kept:
+These are not represented anywhere in this monorepo. Live recheck 2026-10-06:
+all four CrystalCore*/trailing-hyphen names below are also **GONE** (404).
+Confirm intentional via packet C — absence is unrecoverable either way.
 
-- [ ] *(no action — listed for completeness)* `CrystalCore.OS-Aeris-Vault12` — private, auth-blocked this session
-- [ ] *(no action — listed for completeness)* `CrystalCore-AERIS` — private, auth-blocked this session
-- [ ] *(no action — listed for completeness)* `CrystalCore` — private, auth-blocked this session
-- [ ] *(no action — listed for completeness)* `TerAustralis-Incognita-` — private, auth-blocked this session (see Warning 1)
+- [ ] *(no action — listed for completeness)* `CrystalCore.OS-Aeris-Vault12` — **GONE live**; confirm packet C
+- [ ] *(no action — listed for completeness)* `CrystalCore-AERIS` — **GONE live**; confirm packet C
+- [ ] *(no action — listed for completeness)* `CrystalCore` — **GONE live**; confirm packet C
+- [ ] *(no action — listed for completeness)* `TerAustralis-Incognita-` — **GONE live**; confirm packet C (see Warning 1)
 - [ ] *(no action — listed for completeness)* `the-algorithm` — excluded on purpose (fork of external code, licensing), not this project's to delete
 
 ## After deleting (if you proceed)
