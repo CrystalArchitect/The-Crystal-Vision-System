@@ -99,9 +99,18 @@ Crystal can approve, attach stills, take over 2FA/CAPTCHA away from desk. Deskto
 | Bot | Job |
 | --- | --- |
 | **Frequency / Barbelo** | Song decode · CapCut titles · ElevenLabs VO helper · Gnostic phonetics |
-| **TerAustralis / CrystalCore** | Brand · Academy · Lucky Country / Beyond Lucky · product |
+| **TerAustralis / CrystalCore** | Brand · Academy · Lucky Country / Beyond Lucky · product · own-surface shore |
 | **Safety desk** | Zero Trust · SAVE AI/will · one-pager · protect-people · **no exploit playbooks** · no Elon chase |
 | **Everyday Crystal** | Ordinary life, grounding, Mid-Autumn / house memories — **no** Demiurge dump |
+
+### Academy door (movement — TerAustralis bot)
+
+| Artefact | Role |
+| --- | --- |
+| [`DRAFT-join-line-academy-kangaroo.md`](DRAFT-join-line-academy-kangaroo.md) | Join line — Crystal stamps |
+| [`LEDGER-academy-kangaroo-interest.md`](LEDGER-academy-kangaroo-interest.md) | Consent ledger template |
+| [`CARD-witness-academy-kangaroo.md`](CARD-witness-academy-kangaroo.md) | Witness on-ramp cards |
+| [`NOTE-own-surface-teraustralis-shore.md`](NOTE-own-surface-teraustralis-shore.md) | Site copy dock for walls + will |
 
 ---
 
