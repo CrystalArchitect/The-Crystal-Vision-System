@@ -17,4 +17,7 @@ ENV
   echo "Created .env with placeholder Supabase values."
 fi
 
-npm install
+# Lockfile install. Recurring builds reach only registry.npmjs.org for these
+# packages; `npm ci` keeps that tree reproducible and exits if the lockfile
+# and package.json disagree.
+npm ci

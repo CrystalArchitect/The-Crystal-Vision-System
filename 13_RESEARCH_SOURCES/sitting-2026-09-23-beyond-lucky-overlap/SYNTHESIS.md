@@ -106,6 +106,10 @@ flowchart TB
 | [`BOOTH-PASTE-core-four-elevenlabs.txt`](BOOTH-PASTE-core-four-elevenlabs.txt) | Clean ElevenLabs paste — Core Four LOCKED · Crystal fires |
 | [`CHECKLIST-capcut-core-four.md`](CHECKLIST-capcut-core-four.md) | Execute checklist: booth → CapCut → next shore |
 | [`SOURCE-cursor-grok-bot-mobile-2026-09-25.md`](SOURCE-cursor-grok-bot-mobile-2026-09-25.md) | Grok Bot mobile docs — same cloud Bots/computer; remote human gate |
+| [`NOTE-own-surface-teraustralis-shore.md`](NOTE-own-surface-teraustralis-shore.md) | Owned shore copy dock — will / walls / regulate+build / Academy CTA |
+| [`LEDGER-academy-kangaroo-interest.md`](LEDGER-academy-kangaroo-interest.md) | Consent interest ledger template — not public |
+| [`CARD-witness-academy-kangaroo.md`](CARD-witness-academy-kangaroo.md) | First three Witness cards — read / watch / don’t claim |
+| [`DRAFT-join-line-academy-kangaroo.md`](DRAFT-join-line-academy-kangaroo.md) | Join line draft — Crystal stamps |
 | [`SCRIPT-frequency-barbelo-turner-narration.md`](SCRIPT-frequency-barbelo-turner-narration.md) | Gnostic muse mythos VO — vision labelled vision; titles only, no lyric dump |
 | [`PROMPTS-t2v-frequency-turner-5shots.md`](PROMPTS-t2v-frequency-turner-5shots.md) | Cinematic T2V prompts (record→hourglass→crystal arena→starlight→shatter) |
 | [`RELEASE-DRAFT-true-free-will-is-more.md`](RELEASE-DRAFT-true-free-will-is-more.md) | Public visibility desk — ready for @XECrystal |
