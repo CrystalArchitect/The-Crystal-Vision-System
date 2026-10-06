@@ -29,3 +29,7 @@ Phased ops roadmap for **aeon-atlas** autonomous agent:
 | Pairs with Remaining Work matrix as same sitting’s agent backlog | Treat “ecosystem map” as national inheritance thesis |
 
 Place with software/protocol provenance only.
+
+## Durable extract
+
+[`artefacts/extract-7tTJBfqX6UMVXY17zuNATE-aeon-atlas-roadmap.md`](artefacts/extract-7tTJBfqX6UMVXY17zuNATE-aeon-atlas-roadmap.md) — rebuilt from this SOURCE note (2026-10-06); not a live Claude HTML export.

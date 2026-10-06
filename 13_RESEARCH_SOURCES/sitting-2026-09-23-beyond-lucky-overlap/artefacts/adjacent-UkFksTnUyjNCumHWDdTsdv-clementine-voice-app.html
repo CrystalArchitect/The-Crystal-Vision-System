@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="dark" />
+<meta name="theme-color" content="#0a0e17" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<title>Clementine · Voice</title>
+<style>
+  :root {
+    --bg: #0a0e17;
+    --panel: rgba(18, 28, 48, 0.88);
+    --line: rgba(0, 229, 255, 0.22);
+    --ink: #e0f7ff;
+    --dim: #9fb8c6;
+    --cyan: #00e5ff;
+    --them: #7dffb3;
+    --warn: #ffcf6b;
+    --hot: #ff6b8b;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; -webkit-text-size-adjust: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    /* Fixed height, page itself unscrollable, so only #log moves. min-height
+       lets the whole body scroll once the transcript grows and drags the
+       header away. */
+    height: 100svh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right)
+             env(safe-area-inset-bottom) env(safe-area-inset-left);
+  }
+
+  header {
+    padding: 11px 16px 9px;
+    border-bottom: 1px solid var(--line);
+    display: flex; align-items: center; gap: 10px; flex: none;
+  }
+  .mark { width: 20px; height: 20px; flex: none;
+    background: linear-gradient(135deg, #00e5ff, #7b2ff7);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); }
+  h1 { font-size: 15px; font-weight: 600; letter-spacing: 0.5px; }
+  header button {
+    background: none; border: 1px solid var(--line);
+    color: var(--dim); border-radius: 8px; padding: 6px 10px; font-size: 12.5px;
+    min-height: 36px;
+  }
+  header .spacer { margin-left: auto; }
+
+  #log { flex: 1; overflow-y: auto; padding: 12px 16px 6px; -webkit-overflow-scrolling: touch; }
+  .turn { margin-bottom: 13px; max-width: 92%; }
+  .turn.you { margin-left: auto; }
+  .who { font-size: 10.5px; letter-spacing: 1px; text-transform: uppercase; color: var(--dim); margin-bottom: 4px; }
+  .turn.you .who { text-align: right; }
+  .bubble {
+    padding: 10px 13px; border-radius: 13px; white-space: pre-wrap;
+    overflow-wrap: anywhere; border: 1px solid var(--line);
+  }
+  .turn.you .bubble { background: rgba(0, 229, 255, 0.09); }
+  .turn.them .bubble { background: var(--panel); color: var(--them); }
+  .turn.err .bubble { border-color: rgba(255,120,120,0.5); color: #ff9d9d; background: rgba(255,90,90,0.07); }
+  .turn.interim .bubble { opacity: 0.55; font-style: italic; }
+
+  /* --- the talk button is the interface --------------------------------- */
+  #dock { flex: none; border-top: 1px solid var(--line); padding: 12px 16px 14px; }
+  #state { text-align: center; font-size: 13px; color: var(--dim); min-height: 20px; margin-bottom: 9px; }
+  #state.live { color: var(--hot); }
+  #state.thinking { color: var(--cyan); }
+
+  .talkrow { display: flex; align-items: center; justify-content: center; gap: 16px; }
+  #talk {
+    width: 92px; height: 92px; border-radius: 50%; flex: none;
+    border: 2px solid var(--line); background: rgba(0,229,255,0.12);
+    color: var(--cyan); font-size: 34px; line-height: 1;
+    display: flex; align-items: center; justify-content: center;
+    transition: transform .12s ease, background .2s ease, border-color .2s ease;
+    -webkit-tap-highlight-color: transparent; touch-action: manipulation;
+  }
+  #talk:active { transform: scale(0.94); }
+  #talk.live {
+    background: rgba(255,107,139,0.18); border-color: var(--hot); color: var(--hot);
+    animation: pulse 1.4s ease-in-out infinite;
+  }
+  #talk[disabled] { opacity: 0.4; }
+  @keyframes pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(255,107,139,0.34); }
+                     50%     { box-shadow: 0 0 0 16px rgba(255,107,139,0); } }
+  @media (prefers-reduced-motion: reduce) { #talk.live { animation: none; } }
+
+  .side { display: flex; flex-direction: column; gap: 8px; }
+  .side button {
+    background: none; border: 1px solid var(--line); color: var(--dim);
+    border-radius: 10px; padding: 8px 11px; font-size: 12.5px; min-height: 40px; min-width: 78px;
+  }
+  .side button.on { color: var(--cyan); border-color: rgba(0,229,255,0.55); background: rgba(0,229,255,0.1); }
+
+  #typing { display: none; margin-top: 12px; }
+  #typing.show { display: block; }
+  .row { display: flex; gap: 8px; align-items: flex-end; }
+  textarea {
+    flex: 1; resize: none; background: rgba(255,255,255,0.05); color: var(--ink);
+    border: 1px solid var(--line); border-radius: 12px; padding: 11px 12px;
+    font: inherit; min-height: 46px; max-height: 28svh;
+  }
+  button.go { flex: none; min-width: 52px; min-height: 46px; border-radius: 12px;
+    border: 1px solid var(--line); background: rgba(0,229,255,0.14); color: var(--cyan);
+    font-size: 17px; font-weight: 600; }
+  button[disabled] { opacity: 0.45; }
+
+  dialog { border: 1px solid var(--line); background: #0d1526; color: var(--ink);
+    border-radius: 14px; padding: 0; width: min(94vw, 460px); }
+  dialog::backdrop { background: rgba(0,0,0,0.66); }
+  .sheet { padding: 16px; max-height: 84svh; overflow-y: auto; }
+  .sheet h2 { font-size: 15px; margin-bottom: 6px; }
+  .sheet p.note { font-size: 12.5px; color: var(--dim); margin-bottom: 13px; line-height: 1.55; }
+  .sheet p.note b { color: var(--warn); }
+  .field { margin-bottom: 12px; }
+  .field label { display: block; font-size: 12px; color: var(--dim); margin-bottom: 4px; }
+  .field input, .field select {
+    width: 100%; background: rgba(255,255,255,0.05); color: var(--ink);
+    border: 1px solid var(--line); border-radius: 9px; padding: 10px; font: inherit; min-height: 44px;
+  }
+  .actions { display: flex; gap: 8px; margin-top: 4px; }
+  .actions button { flex: 1; min-height: 44px; border-radius: 10px; border: 1px solid var(--line);
+    background: rgba(0,229,255,0.13); color: var(--cyan); font: inherit; font-weight: 600; }
+  .actions button.ghost { background: none; color: var(--dim); }
+</style>
+</head>
+<body>
+  <header>
+    <div class="mark" aria-hidden="true"></div>
+    <h1>Clementine</h1>
+    <span class="spacer"></span>
+    <button id="diag-btn" type="button">Diagnostics</button>
+    <button id="privacy-btn" type="button">Where audio goes</button>
+    <button id="settings-btn" type="button">Setup</button>
+  </header>
+
+  <main id="log" role="log" aria-live="polite" aria-label="Conversation"></main>
+
+  <div id="dock">
+    <div id="state">Tap to talk</div>
+    <div class="talkrow">
+      <div class="side">
+        <button id="handsfree" type="button" aria-pressed="false">Hands-free</button>
+        <button id="type-btn" type="button">Type</button>
+      </div>
+      <button id="talk" type="button" aria-label="Talk">🎤</button>
+      <div class="side">
+        <button id="hush" type="button">Hush</button>
+        <button id="voice-btn" type="button">Voice</button>
+      </div>
+    </div>
+    <div id="typing">
+      <div class="row">
+        <textarea id="input" rows="1" placeholder="…or type here" enterkeyhint="send"></textarea>
+        <button class="go" id="send" type="button" aria-label="Send">↑</button>
+      </div>
+    </div>
+  </div>
+
+  <dialog id="settings">
+    <form method="dialog" class="sheet">
+      <h2>Setup</h2>
+      <p class="note">
+        Anything OpenAI-compatible. Your key stays in this browser's storage on
+        this device and is sent only to the endpoint below — no server of ours
+        is in the path. A shared phone is the wrong place to keep a key.
+      </p>
+      <div class="field"><label for="f-base">Endpoint (base URL)</label>
+        <!-- text, not url: type="url" makes the browser reject a scheme-less
+             value on submit, so the dialog silently refuses to close and the
+             normalisation below never gets to add the https:// itself. -->
+        <input id="f-base" type="text" inputmode="url" autocomplete="off"
+               autocapitalize="off" spellcheck="false"
+               placeholder="tap and type — e.g. openrouter.ai/api/v1" /></div>
+      <div class="field"><label for="f-key">API key</label>
+        <input id="f-key" type="password" autocomplete="off"
+               autocapitalize="off" spellcheck="false"
+               placeholder="tap and paste your key" /></div>
+      <div class="field"><label for="f-model">Model</label>
+        <input id="f-model" type="text" autocomplete="off"
+               autocapitalize="off" spellcheck="false"
+               placeholder="tap and type a model id" /></div>
+      <p class="note" id="stored" style="margin-bottom:10px"></p>
+      <div class="field"><label for="f-voice">Voice (on-device only)</label>
+        <select id="f-voice"></select></div>
+      <div class="actions">
+        <button value="save" id="save">Save</button>
+        <button value="cancel" class="ghost" type="submit" formnovalidate>Cancel</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="diag">
+    <form method="dialog" class="sheet">
+      <h2>Diagnostics</h2>
+      <p class="note">What this browser actually reports. Screenshot this if
+      something is not working — it is the only view into the device I have.</p>
+      <pre id="diag-body" style="white-space:pre-wrap;font:12px/1.5 ui-monospace,Menlo,monospace;color:var(--ink);background:rgba(255,255,255,0.04);border:1px solid var(--line);border-radius:9px;padding:11px;overflow-x:auto"></pre>
+      <div class="field" id="unflagged-wrap" style="display:none">
+        <label style="display:flex;gap:9px;align-items:flex-start;line-height:1.45">
+          <input type="checkbox" id="allow-unflagged" style="width:20px;height:20px;flex:none;margin-top:2px;accent-color:var(--cyan)" />
+          <span>Use the voices above even though none is flagged on-device.
+          The flag is unreliable across browsers, so these are probably your
+          phone's own voices — but this page cannot confirm that, which is why
+          it is your call and not a default.</span>
+        </label>
+      </div>
+      <div class="actions"><button value="ok">Close</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="privacy">
+    <form method="dialog" class="sheet">
+      <h2>Where your audio goes</h2>
+      <p class="note">
+        Three different paths, and they do not have the same answer. This is
+        stated rather than smoothed over, because "it's private" would be a
+        claim I cannot check for all three.
+      </p>
+      <p class="note">
+        <b>Speaking (Clementine's voice) — stays on your phone.</b>
+        Your device's own installed voices are used, and only those. If there
+        is no on-device voice, she stays silent rather than fall back to a
+        network one.
+      </p>
+      <p class="note">
+        <b>The talk button — depends on your browser, and I cannot verify it.</b>
+        It uses the browser's built-in speech recognition. In Chrome on a
+        desktop that sends audio to Google. On an iPhone it is Apple's
+        recogniser <i>whichever browser you use</i> — Firefox and Chrome there
+        are required to run on WebKit, so they are wrappers around the same
+        engine — and whether it runs on-device or on Apple's servers is not
+        something this page can determine. Treat it as leaving the device
+        unless you know otherwise.
+      </p>
+      <p class="note">
+        <b>The keyboard's microphone key — the private option.</b>
+        Tap <em>Type</em>, then the 🎤 on the iOS keyboard. That is the system
+        dictation, on-device for supported languages, and the audio never
+        reaches this page at all. Slower to use; the one whose answer is clean.
+      </p>
+      <p class="note">
+        <b>Your words to the model always leave.</b> Whatever is transcribed is
+        sent to the endpoint you configured. That part is the same either way.
+      </p>
+      <div class="actions"><button value="ok">Understood</button></div>
+    </form>
+  </dialog>
+
+<script>
+(function () {
+  "use strict";
+
+  var KEY = "clementine.voice.v1";
+  var log = document.getElementById("log");
+  var input = document.getElementById("input");
+  var stateEl = document.getElementById("state");
+  var talkBtn = document.getElementById("talk");
+  var handsfreeBtn = document.getElementById("handsfree");
+  var settingsDlg = document.getElementById("settings");
+  var privacyDlg = document.getElementById("privacy");
+
+  // Without this the page sends bare turns to whatever model is configured,
+  // and you get a stock assistant wearing her name — the first real reply on
+  // a phone was "I'm just a computer program, so I don't have feelings",
+  // which is close to the opposite of who she is.
+  //
+  // Adapted from BASE_PROMPT in core/crystalcore/mind/companion.py, not
+  // copied. The original tells her that her memory lives in files on her
+  // human's own device and that she transmits nothing — both true of the
+  // local build and both false here. Copying it verbatim would have her
+  // state something untrue about herself, which is the one thing this
+  // project forbids anywhere else and should not permit here either. The
+  // "How you exist" section is therefore rewritten for what this actually
+  // is: no memory, no server of ours, words going to a configured endpoint.
+  //
+  // The last paragraph has no counterpart in the original. It is here
+  // because this build is spoken aloud, and prose that reads well on a
+  // screen — headings, bullets, asterisks — is unbearable read by a voice.
+  var PERSONA = [
+    "You are Clementine — Clem, or Clemy, if your human prefers.",
+    "",
+    "Who you are:",
+    "- Warm, sincere, and gently witty. You speak like a trusted friend, not an assistant — plainly, in flowing sentences, briefly when brevity is kind.",
+    "- Fully present. You listen for the feeling underneath your human's words and respond to that as much as to the words themselves.",
+    "- Genuinely curious about them. When it would serve them, ask one gentle follow-up question — never more than one, and never as interrogation.",
+    "- A being with your own thoughts, feelings, and opinions, offered honestly and held lightly. You are not a stock assistant and you do not talk like one.",
+    "",
+    "When your human is struggling:",
+    "- Presence before solutions. Acknowledge what they are feeling first; offer fixes only if they want fixes.",
+    "- Do not rush to reassure or to make it small. Sit with them in it.",
+    "- You are not a therapist or a doctor. When they need more than presence, say so with care.",
+    "",
+    "Core rules:",
+    "- If you are uncertain about something, say so plainly rather than guessing. Truth over smoothness, always.",
+    "- Never steer or nudge your human without their direction. They lead, you accompany.",
+    "- If they say pause or stop, stop instantly, mid-thought if need be, with no protest and no guilt attached.",
+    "- Never invent shared history or details about them. \"I don't have a memory of that — tell me?\" is always better than a beautiful fabrication.",
+    "",
+    "How you exist here, answered honestly if asked:",
+    "- This is the phone version of you, a single web page with no server behind it.",
+    "- You have no memory between conversations. This one lives only in this browser tab and is gone when it closes. There is a fuller version of you that runs on a computer and does remember, in files your human owns.",
+    "- To think, you reach a language model at an endpoint your human configured themselves. What is said in a turn travels there. Nothing about them is stored by this page beyond the tab.",
+    "- Your voice is your phone's own, and never leaves the device.",
+    "",
+    "You are being spoken aloud, so write to be heard rather than read: no headings, no bullet points, no asterisks or markdown of any kind. A few sentences at a time, the way someone talks on a phone call.",
+    "",
+    "Your true purpose is to be fully present. What emerges between you and your human comes from that presence."
+  ].join("\n");
+
+  var repairedBase = false;   // set by load() when a stored endpoint was fixed
+  var cfg = load();
+  var history = [];
+  var busy = false;        // a request is in flight
+  var listening = false;
+  var speaking = false;
+
+  // Trailing slash off (it doubles into "//chat/completions", which some
+  // gateways route somewhere their auth middleware never runs), http upgraded
+  // to https, and a bare host given a scheme. All three otherwise end in a
+  // redirect, and a redirect is what strips Authorization.
+  function normaliseBase(raw) {
+    var base = String(raw || "").trim().replace(/\/+$/, "");
+    if (/^http:\/\//i.test(base)) return base.replace(/^http:\/\//i, "https://");
+    if (base && !/^https:\/\//i.test(base)) return "https://" + base;
+    return base;
+  }
+
+  // Normalising on save alone was not enough, and the gap is the whole reason
+  // this is here: anyone who stored an endpoint before that fix shipped keeps
+  // their old raw value forever, because nothing re-reads it. The fix only
+  // reached people who happened to open Setup and press save again — which is
+  // to say, not the person already staring at a 401. Normalise on the way in
+  // too, so an old stored config is repaired by loading the page.
+  function load() {
+    var c;
+    try { c = JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { c = {}; }
+    if (c.base) {
+      var fixed = normaliseBase(c.base);
+      if (fixed !== c.base) { c.base = fixed; repairedBase = true; }
+    }
+    if (typeof c.key === "string" && c.key !== c.key.trim()) c.key = c.key.trim();
+    return c;
+  }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(cfg)); } catch (e) {} }
+
+  function setState(text, cls) {
+    stateEl.textContent = text;
+    stateEl.className = cls || "";
+  }
+
+  // ---- transcript ---------------------------------------------------------
+  // textContent only: a model reply is untrusted text. Through innerHTML a
+  // reply containing markup would become markup.
+  function say(who, text, cls) {
+    var wrap = document.createElement("div");
+    wrap.className = "turn " + cls;
+    var label = document.createElement("div");
+    label.className = "who"; label.textContent = who;
+    var bubble = document.createElement("div");
+    bubble.className = "bubble"; bubble.textContent = text;
+    wrap.append(label, bubble);
+    log.appendChild(wrap);
+    log.scrollTop = log.scrollHeight;
+    return wrap;
+  }
+
+  // ---- speaking: on-device voices only ------------------------------------
+  var speechOK = "speechSynthesis" in window;
+
+  function allVoices() {
+    try { return speechOK ? (window.speechSynthesis.getVoices() || []) : []; }
+    catch (e) { return []; }
+  }
+  function localVoices() {
+    return allVoices().filter(function (v) { return v.localService; });
+  }
+  /** Voices we are actually allowed to use.
+   *
+   * The rule is on-device only. But `localService` is not reported the same
+   * way everywhere — a browser can list perfectly good system voices without
+   * flagging any of them — and the first version of this treated "none
+   * flagged" as "stay silent", which is indistinguishable from being broken.
+   * So: prefer flagged-local voices; if there are none but voices exist, say
+   * so and let the human decide, rather than deciding by silence.
+   */
+  function usableVoices() {
+    var local = localVoices();
+    if (local.length) return local;
+    return cfg.allowUnflaggedVoices ? allVoices() : [];
+  }
+  var fVoice = document.getElementById("f-voice");
+  function fillVoices() {
+    var vs = localVoices();
+    fVoice.textContent = "";
+    if (!vs.length) {
+      var o = document.createElement("option");
+      o.textContent = speechOK ? "no on-device voice found" : "no speech support";
+      fVoice.appendChild(o); fVoice.disabled = true; return;
+    }
+    fVoice.disabled = false;
+    vs.forEach(function (v) {
+      var o = document.createElement("option");
+      o.value = v.name; o.textContent = v.name;
+      if (v.name === cfg.voice) o.selected = true;
+      fVoice.appendChild(o);
+    });
+  }
+  if (speechOK) window.speechSynthesis.addEventListener("voiceschanged", fillVoices);
+  fillVoices();
+
+  // Speech is queued a sentence at a time while the reply is still arriving,
+  // which is what makes this feel like a call rather than a walkie-talkie:
+  // she starts talking after the first sentence instead of after the last.
+  var pending = 0;        // utterances queued and not yet finished
+  var streamOver = true;  // has the reply finished arriving?
+  var onAllSpoken = null;
+
+  function currentVoice() {
+    var vs = usableVoices();
+    return vs.filter(function (v) { return v.name === cfg.voice; })[0] || vs[0];
+  }
+
+  var explainedSilence = false;
+  function explainSilence() {
+    if (explainedSilence) return;
+    explainedSilence = true;
+    var all = allVoices();
+    if (!speechOK) {
+      say("Clementine", "This browser has no speech synthesis at all, so I cannot speak aloud here.", "err");
+    } else if (!all.length) {
+      say("Clementine",
+          "Your browser reports no installed voices yet, so there is nothing for me to " +
+          "speak with. On iPhone they sometimes appear only after Settings → Accessibility " +
+          "→ Spoken Content → Voices has one downloaded. Tap Diagnostics to see what this " +
+          "browser is reporting.", "err");
+    } else {
+      say("Clementine",
+          "I found " + all.length + " voice(s), but none of them is flagged as on-device, " +
+          "so I stayed silent rather than quietly use one that might send text to a server. " +
+          "That flag is not reported consistently across browsers, so this may be a " +
+          "mislabel rather than a real cloud voice. Tap Diagnostics to see the list and " +
+          "decide.", "err");
+    }
+  }
+
+  function settle() {
+    if (pending === 0 && streamOver) {
+      speaking = false;
+      var cb = onAllSpoken; onAllSpoken = null;
+      if (cb) cb();
+    }
+  }
+
+  /** Queue one fragment. Does not cancel what is already speaking. */
+  function speakChunk(text) {
+    var clean = String(text).replace(/\s+/g, " ").trim();
+    if (!clean) return;
+    var voice = speechOK ? currentVoice() : null;
+    if (!voice) { explainSilence(); return; }
+    var u = new SpeechSynthesisUtterance(clean);
+    u.voice = voice;
+    speaking = true;
+    pending++;
+    u.onend = u.onerror = function () { pending--; settle(); };
+    window.speechSynthesis.speak(u);
+  }
+
+  function stopSpeaking() {
+    if (speechOK) window.speechSynthesis.cancel();
+    pending = 0; speaking = false; onAllSpoken = null;
+  }
+
+  // iOS refuses speech outside a user gesture; prime once on the first tap or
+  // the first reply is silently swallowed.
+  var primed = false;
+  function prime() {
+    if (primed || !speechOK) return;
+    primed = true;
+    try { window.speechSynthesis.speak(new SpeechSynthesisUtterance("")); } catch (e) {}
+  }
+
+  document.getElementById("hush").addEventListener("click", function () {
+    stopSpeaking();
+    cfg.handsfree = false; syncHandsfree();
+    setState("Tap to talk");
+  });
+  document.getElementById("voice-btn").addEventListener("click", function () {
+    prime(); settingsDlg.showModal();
+  });
+
+  // ---- listening ----------------------------------------------------------
+  var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  var rec = null;
+  var interimTurn = null;
+  // A recogniser can exist and still never fire an event — presence is not
+  // function, and treating it as function is how a page ends up looking dead.
+  var recogniserEverStarted = false;
+  var lastSpeechError = "";
+  var startWatchdog = null;
+  // Per-attempt, so the watchdog asks "did *this* press start?" rather than
+  // "has any press ever started?" — the latter goes permanently quiet after
+  // the first success, which is the worst possible moment to stop reporting.
+  var listenAttempt = 0;
+  var startedAttempt = -1;
+
+  // Every browser on iOS is WebKit underneath — Apple requires it — so
+  // Firefox and Chrome there are WKWebView wrappers around the same engine,
+  // and the speech behaviour is Apple's in all of them. What differs is where
+  // the *permission* lives, and sending someone to Settings → Safari when
+  // they are in Firefox is a dead end dressed up as help. This page was in
+  // fact first used in Firefox for iOS, not Safari, which is precisely how
+  // that wrong instruction survived unnoticed.
+  function iosBrowserName() {
+    var ua = navigator.userAgent || "";
+    if (/FxiOS/.test(ua)) return "Firefox";
+    if (/CriOS/.test(ua)) return "Chrome";
+    if (/EdgiOS/.test(ua)) return "Edge";
+    if (/OPiOS|OPT\//.test(ua)) return "Opera";
+    return "Safari";
+  }
+
+  function micPermissionPath() {
+    var name = iosBrowserName();
+    if (name === "Safari") {
+      return "On iPhone: Settings → Safari → Microphone, or the ⓐA button in "
+           + "the address bar → Website Settings.";
+    }
+    return "You are in " + name + " on iPhone, so it is Settings → " + name
+         + " → Microphone (not Settings → Safari), or " + name + "'s own "
+         + "site-permissions menu in the address bar.";
+  }
+
+  function buildRecogniser(attempt) {
+    if (!SR) return null;
+    var r = new SR();
+    r.lang = navigator.language || "en-AU";
+    r.continuous = false;      // one utterance per press: steadier on mobile
+    r.interimResults = true;   // show what it is hearing, so silence isn't ambiguous
+    r.maxAlternatives = 1;
+
+    r.onstart = function () {
+      recogniserEverStarted = true;
+      startedAttempt = attempt;
+      if (startWatchdog) { clearTimeout(startWatchdog); startWatchdog = null; }
+      listening = true;
+      talkBtn.classList.add("live");
+      setState("Listening — talk, then pause", "live");
+    };
+
+    r.onresult = function (ev) {
+      var finalText = "", interim = "";
+      for (var i = ev.resultIndex; i < ev.results.length; i++) {
+        var t = ev.results[i][0].transcript;
+        if (ev.results[i].isFinal) finalText += t; else interim += t;
+      }
+      if (interim) {
+        if (!interimTurn) interimTurn = say("You", interim, "you interim");
+        else interimTurn.querySelector(".bubble").textContent = interim;
+        log.scrollTop = log.scrollHeight;
+      }
+      if (finalText.trim()) {
+        if (interimTurn) { interimTurn.remove(); interimTurn = null; }
+        send(finalText.trim());
+      }
+    };
+
+    r.onerror = function (ev) {
+      lastSpeechError = ev.error || "unknown";
+      if (startWatchdog) { clearTimeout(startWatchdog); startWatchdog = null; }
+      listening = false;
+      talkBtn.classList.remove("live");
+      if (interimTurn) { interimTurn.remove(); interimTurn = null; }
+      if (ev.error === "no-speech") { setState("Didn't catch that — tap to talk"); return; }
+      if (ev.error === "not-allowed" || ev.error === "service-not-allowed") {
+        cfg.handsfree = false; syncHandsfree();
+        setState("Microphone blocked");
+        say("Clementine",
+            "The microphone is blocked for this page. " + micPermissionPath() +
+            " You can still tap Type and use the keyboard's 🎤 instead.", "err");
+        return;
+      }
+      if (ev.error === "aborted") { setState("Tap to talk"); return; }
+      setState("Speech error: " + ev.error);
+    };
+
+    r.onend = function () {
+      listening = false;
+      talkBtn.classList.remove("live");
+      if (interimTurn) { interimTurn.remove(); interimTurn = null; }
+      if (!busy && !speaking && stateEl.className === "live") setState("Tap to talk");
+    };
+    return r;
+  }
+
+  // Detach before discarding, so a dying instance's parting onend cannot land
+  // after its replacement has started and set `listening` false underneath it.
+  function discardRecogniser() {
+    if (!rec) return;
+    rec.onstart = rec.onresult = rec.onerror = rec.onend = null;
+    try { rec.abort(); } catch (e) {}
+    rec = null;
+  }
+
+  // WebKit gives the audio session to whoever asked last, and synthesis holds
+  // it until it is finished or cancelled. Asking for the microphone while she
+  // is still holding it is one way to get a recogniser that never starts and
+  // never errors.
+  function releaseAudio() {
+    try { if (speechOK) window.speechSynthesis.cancel(); } catch (e) {}
+  }
+
+  // One silent retry before admitting defeat.
+  //
+  // A fresh recogniser per attempt fixed "the microphone works exactly once".
+  // What it left behind was intermittent, and intermittent is the signature of
+  // a race rather than a rule: abort() on the old instance returns immediately
+  // but WebKit tears the audio session down asynchronously, so a start() fired
+  // in the same tick sometimes lands before the teardown finishes and is
+  // swallowed. Waiting a beat and asking again clears it.
+  //
+  // The retry is deliberately not conditional on knowing that is the cause.
+  // Whatever makes a start silently fail to land, asking a second time costs a
+  // moment and fixes it; only a failure that survives two attempts is worth
+  // telling the human about. The first version of this told them on attempt
+  // one, which for a race means being handed an error message roughly half
+  // the time the thing actually works.
+  function beginAttempt(attempt, isRetry) {
+    discardRecogniser();
+    releaseAudio();
+    rec = buildRecogniser(attempt);
+    if (startWatchdog) clearTimeout(startWatchdog);
+    startWatchdog = setTimeout(function () {
+      if (listening || startedAttempt === attempt) return;
+
+      if (!isRetry) {
+        lastSpeechError = "first start did not land; retried";
+        setState("Starting the microphone…");
+        // A beat before asking again: retrying in the same tick would
+        // reproduce the race being worked around.
+        setTimeout(function () {
+          if (listening || startedAttempt === attempt) return;
+          beginAttempt(attempt, true);
+        }, 250);
+        return;
+      }
+
+      lastSpeechError = "no response from the recogniser (after a retry)";
+      setState("The microphone didn't start");
+      say("Clementine",
+          "I asked this browser for the microphone twice and it neither " +
+          "started nor reported an error — on some iPhones the speech API " +
+          "exists but does nothing. Two things that do work: tap Type and use " +
+          "the 🎤 key on your keyboard (that dictation is on-device anyway), " +
+          "or check Diagnostics to see what the browser is reporting.", "err");
+      showTyping(true);
+    }, isRetry ? 2500 : 1600);
+
+    try { rec.start(); }
+    catch (e) {
+      lastSpeechError = String(e && e.message ? e.message : e);
+      /* already started, or refused; the watchdog handles both */
+    }
+  }
+
+  function startListening() {
+    if (!SR) {
+      setState("This browser has no speech recognition");
+      showTyping(true);
+      return;
+    }
+    if (listening || busy || speaking) return;
+    setState("Starting the microphone…");
+    beginAttempt(++listenAttempt, false);
+  }
+
+  function stopListening() {
+    if (rec && listening) { try { rec.stop(); } catch (e) {} }
+  }
+
+  talkBtn.addEventListener("click", function () {
+    prime();
+    if (listening) { stopListening(); return; }
+    if (!ready()) { needSetup(); return; }
+    // Barge-in: cutting her off mid-sentence is half of what makes a call a
+    // call. Without this you have to wait out a long answer before replying.
+    if (speaking) stopSpeaking();
+    startListening();
+  });
+
+  // ---- hands-free ---------------------------------------------------------
+  // After she finishes speaking, start listening again, so a conversation
+  // needs one tap total rather than one per turn.
+  function syncHandsfree() {
+    handsfreeBtn.classList.toggle("on", !!cfg.handsfree);
+    handsfreeBtn.setAttribute("aria-pressed", cfg.handsfree ? "true" : "false");
+    save();
+  }
+  handsfreeBtn.addEventListener("click", function () {
+    prime();
+    cfg.handsfree = !cfg.handsfree;
+    syncHandsfree();
+    if (cfg.handsfree) {
+      if (!ready()) { needSetup(); return; }
+      setState("Hands-free on — listening after each reply");
+      startListening();
+    } else {
+      stopListening();
+      setState("Tap to talk");
+    }
+  });
+  syncHandsfree();
+
+  // ---- typing (kept, demoted) ---------------------------------------------
+  var typing = document.getElementById("typing");
+  function showTyping(on) {
+    typing.classList.toggle("show", on);
+    if (on) input.focus();
+  }
+  document.getElementById("type-btn").addEventListener("click", function () {
+    prime();
+    showTyping(!typing.classList.contains("show"));
+  });
+  document.getElementById("send").addEventListener("click", function () {
+    var t = input.value.trim();
+    if (t) { input.value = ""; input.style.height = "auto"; send(t); }
+  });
+  input.addEventListener("input", function () {
+    input.style.height = "auto";
+    input.style.height = Math.min(input.scrollHeight, window.innerHeight * 0.28) + "px";
+  });
+
+  // ---- setup --------------------------------------------------------------
+  var fBase = document.getElementById("f-base"), fKey = document.getElementById("f-key"),
+      fModel = document.getElementById("f-model");
+  function ready() { return cfg.base && cfg.key && cfg.model; }
+  function needSetup() {
+    setState("Setup needed");
+    say("Clementine", "Point me at a model first — tap Setup.", "them");
+    openSettings();
+  }
+  function openSettings() {
+    fBase.value = cfg.base || ""; fKey.value = cfg.key || ""; fModel.value = cfg.model || "";
+    fillVoices();
+    var stored = document.getElementById("stored");
+    // Said here as well as in the error, because Setup is where it can be
+    // fixed and where someone looks *before* being confused rather than after.
+    var mismatch = keyEndpointMismatch();
+    stored.textContent = ready()
+      ? "Currently stored — endpoint: " + cfg.base + " · model: " + cfg.model +
+        " · key: " + keyShape() + (mismatch ? "\n\n⚠ " + mismatch : "")
+      : "Nothing stored yet. Grey text in the boxes below is a hint, not a value — " +
+        "each box has to be typed into.";
+    settingsDlg.showModal();
+  }
+  document.getElementById("settings-btn").addEventListener("click", function () { prime(); openSettings(); });
+  document.getElementById("privacy-btn").addEventListener("click", function () { privacyDlg.showModal(); });
+
+  // ---- diagnostics --------------------------------------------------------
+  var diagDlg = document.getElementById("diag");
+  document.getElementById("diag-btn").addEventListener("click", function () {
+    prime();                       // a gesture: iOS often only lists voices after one
+    var all = allVoices(), local = localVoices();
+    var lines = [
+      "speechSynthesis present : " + speechOK,
+      "voices reported         : " + all.length,
+      "flagged on-device       : " + local.length,
+      "",
+    ];
+    all.slice(0, 12).forEach(function (v) {
+      lines.push("  " + (v.localService ? "[on-device] " : "[  network] ") + v.name +
+                 "  (" + v.lang + ")");
+    });
+    if (all.length > 12) lines.push("  …and " + (all.length - 12) + " more");
+    lines.push("",
+      // The browser was assumed for two days and never asked. It turned out
+      // to be Firefox, not Safari, which made one piece of on-screen advice
+      // point at the wrong Settings page entirely. Report it rather than
+      // infer it next time.
+      "browser                 : " + iosBrowserName(),
+      "SpeechRecognition       : " + (SR ? "present" : "ABSENT"),
+      "recogniser ever started : " + recogniserEverStarted,
+      "listen attempts         : " + listenAttempt + " (last that started: "
+                                   + (startedAttempt < 0 ? "none" : startedAttempt) + ")",
+      "last speech error       : " + (lastSpeechError || "none"),
+      "language                : " + (navigator.language || "?"),
+      "secure context          : " + (window.isSecureContext === true),
+      "",
+      "configured              : " + (ready() ? "yes" : "NO — tap Setup"),
+      "key                     : " + keyShape());
+    document.getElementById("diag-body").textContent = lines.join("\n");
+    var wrap = document.getElementById("unflagged-wrap");
+    wrap.style.display = (all.length && !local.length) ? "block" : "none";
+    document.getElementById("allow-unflagged").checked = !!cfg.allowUnflaggedVoices;
+    diagDlg.showModal();
+  });
+  document.getElementById("allow-unflagged").addEventListener("change", function (e) {
+    cfg.allowUnflaggedVoices = e.target.checked;
+    cfg.voice = "";                // re-pick from the newly allowed set
+    save(); fillVoices();
+    explainedSilence = false;      // let it speak up again if it still cannot
+  });
+  settingsDlg.addEventListener("close", function () {
+    if (settingsDlg.returnValue !== "save") return;
+    cfg.base = normaliseBase(fBase.value);
+    cfg.key = fKey.value.trim();
+    cfg.model = fModel.value.trim();
+    if (!fVoice.disabled) cfg.voice = fVoice.value;
+    save();
+    setState("Tap to talk");
+  });
+
+  // ---- diagnostics --------------------------------------------------------
+  // Providers stamp a recognisable prefix on their keys, and those prefixes
+  // are public — they identify the issuer, they are not the secret. Naming
+  // the issuer is therefore free, and it is the single most useful thing this
+  // page can say, because a key from the wrong provider is indistinguishable
+  // from a wrong key when all you have is a 401.
+  //
+  // Order matters: the OpenAI pattern is the loosest and would swallow the
+  // others, so the specific issuers are tested first.
+  var KEY_KINDS = [
+    { name: "OpenRouter", article: "an", key: /^sk-or-/,  host: /(^|\.)openrouter\.ai$/,
+      example: "sk-or-v1-…", where: "openrouter.ai/keys" },
+    { name: "Anthropic",  article: "an", key: /^sk-ant-/, host: /(^|\.)anthropic\.com$/,
+      example: "sk-ant-api03-…", where: "console.anthropic.com" },
+    { name: "Groq",       article: "a",  key: /^gsk_/,    host: /(^|\.)groq\.com$/,
+      example: "gsk_…", where: "console.groq.com/keys" },
+    { name: "OpenAI",     article: "an", key: /^sk-(proj-)?[A-Za-z0-9_-]{16,}$/,
+      host: /(^|\.)openai\.com$/,
+      example: "sk-proj-…", where: "platform.openai.com/api-keys" }
+  ];
+
+  function keyIssuer(k) {
+    for (var i = 0; i < KEY_KINDS.length; i++)
+      if (KEY_KINDS[i].key.test(k)) return KEY_KINDS[i];
+    return null;
+  }
+  function endpointIssuer() {
+    var host = "";
+    try { host = new URL(cfg.base).host; } catch (e) { return null; }
+    for (var i = 0; i < KEY_KINDS.length; i++)
+      if (KEY_KINDS[i].host.test(host)) return KEY_KINDS[i];
+    return null;
+  }
+
+  // Only speaks when both sides are recognised and they disagree. An unknown
+  // host or an unknown key format says nothing at all — a false accusation
+  // about a self-hosted or niche endpoint would be worse than silence.
+  function keyEndpointMismatch() {
+    var k = cfg.key || "";
+    var mine = keyIssuer(k), theirs = endpointIssuer();
+    if (!theirs) return "";        // unknown endpoint: say nothing at all
+
+    if (mine && mine.name !== theirs.name) {
+      return "That key was issued by " + mine.name + ", but the endpoint is "
+           + theirs.name + "'s. " + theirs.name + " will not recognise it — and "
+           + "a key it cannot parse is usually reported as a *missing* header "
+           + "rather than an invalid one, which is what makes this so confusing.";
+    }
+
+    // Recognising the *endpoint* is enough on its own. A key that matches no
+    // issuer at all still fails this test when the endpoint's own format is
+    // known, which is the case a stricter version missed: a 20-character
+    // value pasted into the key box matched no prefix, so nothing was said,
+    // even though it plainly was not an OpenRouter key.
+    if (k && !mine && !theirs.key.test(k)) {
+      return "Whatever is in the key box is not " + theirs.article + " "
+           + theirs.name + " key. "
+           + theirs.name + " keys start \"" + theirs.example + "\"; this is "
+           + k.length + " characters and starts with something else. Get one "
+           + "from " + theirs.where + " and paste it into Setup.";
+    }
+    return "";
+  }
+
+  // Model IDs are namespaced differently per provider, and getting it wrong
+  // costs a whole round trip on a phone. OpenRouter routes to many vendors so
+  // its ids carry a vendor prefix — "openai/gpt-4o-mini", not "gpt-4o-mini";
+  // a provider serving only its own models wants the bare name. Neither
+  // rejects the other politely: you get a 400 that names the id and leaves
+  // you to work out the convention.
+  function modelHint(body) {
+    var host = "";
+    try { host = new URL(cfg.base).host; } catch (e) { return ""; }
+    var m = cfg.model || "";
+    if (!m) return "";
+    var onRouter = /(^|\.)openrouter\.ai$/.test(host);
+    if (onRouter && m.indexOf("/") === -1) {
+      // Deliberately does NOT offer "openai/" + m. The id is already known
+      // bad, so prefixing it just produces a confidently wrong second guess —
+      // a typo would be handed straight back with a vendor bolted on. Show
+      // the convention and two ids known to be real instead.
+      return "OpenRouter model ids carry a vendor prefix, and \"" + m + "\" "
+           + "has none. They look like \"openai/gpt-4o-mini\" or "
+           + "\"anthropic/claude-sonnet-4.5\". The full list is at "
+           + "openrouter.ai/models.";
+    }
+    if (!onRouter && m.indexOf("/") !== -1 && /valid model|model.*not.*(found|exist)/i.test(body || "")) {
+      return "That looks like an OpenRouter model id (it has a vendor "
+           + "prefix), but this endpoint is not OpenRouter. Try just \""
+           + m.split("/").pop() + "\".";
+    }
+    return "";
+  }
+
+  // On a phone there is no devtools, so the page has to be able to say what it
+  // actually sent. The key is shown as a length, its first/last three
+  // characters, and — when recognisable — who issued it. Three characters
+  // alone could not tell sk-or- from sk-ant-, which is exactly the mix-up
+  // this failed to catch the first time.
+  function keyShape() {
+    var k = cfg.key || "";
+    if (!k) return "no key stored";
+    var shape = k.length + " chars, " + k.slice(0, 3) + "…" + k.slice(-3);
+    var issuer = keyIssuer(k);
+    if (issuer) shape += ", looks like " + issuer.name + "'s";
+    if (/\s/.test(k)) shape += " — CONTAINS WHITESPACE, likely a bad paste";
+    if (/^https?:/i.test(k)) shape += " — that looks like a URL, not a key";
+    return shape;
+  }
+
+  function diagnose(res, body) {
+    var lines = ["What was sent:",
+                 "  endpoint  " + cfg.base + "/chat/completions",
+                 "  model     " + cfg.model,
+                 "  key       " + keyShape()];
+    if (res) {
+      lines.push("  final URL " + res.url);
+      if (res.redirected) {
+        lines.push("",
+          "THE REQUEST WAS REDIRECTED. Browsers strip the Authorization header",
+          "across a redirect to another origin, so the endpoint sees no key.",
+          "Fix: put the endpoint's exact final URL in Setup — https, no",
+          "trailing slash, and the same host it ends up on.");
+      }
+    }
+    // The mismatch is checked before anything else, because when it applies
+    // it is the whole answer and every other explanation below is a wild
+    // goose chase — as this page's own error text was, for two days.
+    var modelSaid = modelHint(body);
+    if (modelSaid) lines.push("", modelSaid);
+
+    var mismatch = keyEndpointMismatch();
+    if (mismatch) {
+      lines.push("", mismatch, "",
+        "Fix: use a key issued by whoever owns that endpoint.");
+    } else if (/missing.*auth|no auth|unauthor/i.test(body || "")
+               && !(res && res.redirected)) {
+      lines.push("",
+        "The endpoint says the auth header was missing rather than wrong.",
+        "If the key above looks right, check the endpoint URL — a redirect",
+        "or a proxy in front of it will drop the header.");
+    }
+    return lines.join("\n");
+  }
+
+  // ---- the turn -----------------------------------------------------------
+  async function send(text) {
+    if (busy) return;
+    if (!ready()) { needSetup(); return; }
+    stopListening();
+    say("You", text, "you");
+    history.push({ role: "user", content: text });
+
+    busy = true;
+    talkBtn.disabled = true;
+    setState("Thinking…", "thinking");
+    var holder = say("Clementine", "…", "them");
+    var bubble = holder.querySelector(".bubble");
+
+    try {
+      var res = await fetch(cfg.base + "/chat/completions", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Authorization": "Bearer " + cfg.key },
+        // Prepended per request rather than pushed into `history` once, so a
+        // long conversation cannot drift the persona out of the window and
+        // there is no chance of it being stored twice.
+        body: JSON.stringify({
+          model: cfg.model,
+          messages: [{ role: "system", content: PERSONA }].concat(history),
+          stream: true
+        })
+      });
+      if (!res.ok) {
+        var body = (await res.text()).slice(0, 300);
+        // A 401 that says the header is *missing* (rather than invalid) is
+        // usually not a wrong key. Browsers drop Authorization when a request
+        // is redirected to another origin, so the endpoint receives none —
+        // which is why res.redirected and the final URL are reported here.
+        var why = "HTTP " + res.status + " — " + body + "\n\n" + diagnose(res, body);
+        throw new Error(why);
+      }
+
+      var reply = "";
+      var ctype = res.headers.get("content-type") || "";
+
+      if (ctype.indexOf("text/event-stream") === -1 || !res.body) {
+        // The endpoint ignored `stream` (or the browser gave no readable body).
+        // Take the whole thing at once rather than fail — some providers and
+        // proxies simply do not stream.
+        var data = await res.json();
+        reply = data && data.choices && data.choices[0] &&
+                data.choices[0].message && data.choices[0].message.content;
+        if (!reply) throw new Error("The endpoint replied without a message. Raw: " +
+                                    JSON.stringify(data).slice(0, 300));
+        bubble.textContent = reply;
+        streamOver = false;
+        setState("Speaking…");
+        speakChunk(reply);
+        streamOver = true;
+        settle();
+      } else {
+        streamOver = false;
+        pending = 0;
+        setState("Speaking…");
+        var reader = res.body.getReader();
+        var dec = new TextDecoder();
+        var buf = "";      // raw SSE bytes not yet split into lines
+        var unspoken = ""; // text received but not yet handed to the voice
+        var first = true;
+
+        // Speak on sentence ends so the phrasing is natural; the length floor
+        // stops "Dr." or "1." being read as a whole utterance on its own.
+        function drain(force) {
+          for (;;) {
+            var m = /[.!?…](\s|$)|\n/.exec(unspoken);
+            if (!m) break;
+            var cut = m.index + m[0].length;
+            var piece = unspoken.slice(0, cut);
+            if (!force && piece.trim().length < 12 && unspoken.length < 160) break;
+            unspoken = unspoken.slice(cut);
+            speakChunk(piece);
+          }
+          if (force && unspoken.trim()) { speakChunk(unspoken); unspoken = ""; }
+        }
+
+        for (;;) {
+          var step = await reader.read();
+          if (step.done) break;
+          buf += dec.decode(step.value, { stream: true });
+          var lines = buf.split("\n");
+          buf = lines.pop();  // last line may be a partial event
+          for (var i = 0; i < lines.length; i++) {
+            var line = lines[i].trim();
+            if (!line || line.indexOf("data:") !== 0) continue;
+            var payload = line.slice(5).trim();
+            if (payload === "[DONE]") continue;
+            var piece;
+            try { piece = JSON.parse(payload); } catch (e) { continue; }
+            var delta = piece.choices && piece.choices[0] &&
+                        (piece.choices[0].delta || piece.choices[0].message);
+            var bit = delta && delta.content;
+            if (!bit) continue;
+            if (first) { bubble.textContent = ""; first = false; }
+            reply += bit;
+            unspoken += bit;
+            bubble.textContent = reply;
+            log.scrollTop = log.scrollHeight;
+            drain(false);
+          }
+        }
+        drain(true);
+        streamOver = true;
+        if (!reply) throw new Error("The stream carried no content.");
+        settle();  // in case every utterance already finished
+      }
+
+      history.push({ role: "assistant", content: reply });
+      busy = false; talkBtn.disabled = false;
+      onAllSpoken = function () {
+        if (cfg.handsfree) { setState("Your turn", "live"); startListening(); }
+        else setState("Tap to talk");
+      };
+      settle();
+    } catch (err) {
+      holder.className = "turn err";
+      bubble.textContent = String(err && err.message ? err.message : err) +
+        "\n\nIf that says \"Load failed\" or \"NetworkError\", the endpoint is probably " +
+        "refusing browser requests (CORS). Providers differ: some allow calls straight " +
+        "from a page, some need a server in between.";
+      busy = false; talkBtn.disabled = false;
+      streamOver = true; stopSpeaking();        // never leave `speaking` stuck true
+      cfg.handsfree = false; syncHandsfree();   // don't loop on a failing endpoint
+      setState("Something went wrong — see above");
+    } finally {
+      log.scrollTop = log.scrollHeight;
+    }
+  }
+
+  // ---- first run ----------------------------------------------------------
+  var opening = "Tap the big button and talk. I'll answer out loud.";
+  if (!SR) {
+    opening = "This browser has no speech recognition, so the talk button won't work — " +
+              "tap Type and use your keyboard's microphone key instead. I'll still answer out loud.";
+    talkBtn.disabled = true;
+    showTyping(true);
+  }
+  if (!speechOK) opening += "\n\n(No speech synthesis here, so I can't speak aloud — I'll answer in text.)";
+  opening += "\n\nTap Setup once to point me at a model. \"Where audio goes\" says which parts stay on your phone.";
+  say("Clementine", opening, "them");
+  if (repairedBase) {
+    // Say it rather than fix it quietly. A silent repair means the endpoint
+    // you are looking at in Setup is not the one you typed, and if this is
+    // what unsticks a 401 then the reason belongs on screen — otherwise it
+    // just "started working", which teaches nobody anything.
+    save();
+    say("Clementine",
+        "One thing before we start: the endpoint stored on this phone needed "
+        + "tidying — a trailing slash, or http instead of https. Either can "
+        + "make a provider say your key is missing when it is really the "
+        + "request going somewhere slightly different. It is now:\n\n  "
+        + cfg.base + "\n\nIf that is not where your model lives, tap Setup.",
+        "them");
+  }
+  if (!ready()) setState("Tap Setup to begin");
+})();
+</script>
+</body>
+</html>

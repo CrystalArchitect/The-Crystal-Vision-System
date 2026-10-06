@@ -31,11 +31,11 @@ SOURCE notes under `../SOURCE-claude-*.md` are **receipts**. This folder holds *
 | `NtXjmL4yYGCDSosxgszjxA` | *What Is Built* (Doc 13, Aug 2026) | [`../SOURCE-claude-artifact-ntxj-what-is-built.md`](../SOURCE-claude-artifact-ntxj-what-is-built.md) | **BODY** [`claude-NtXjmL4yYGCDSosxgszjxA-what-is-built.md`](claude-NtXjmL4yYGCDSosxgszjxA-what-is-built.md) · [`…html`](claude-NtXjmL4yYGCDSosxgszjxA-what-is-built.html) · also Proposal + `12_PUBLICATIONS/` |
 | `Dyhq3oN217iAaVAVPAhqkV` | Protocol Omega | [`../SOURCE-claude-artifact-protocol-omega.md`](../SOURCE-claude-artifact-protocol-omega.md) | **BODY** [`claude-Dyhq3oN217iAaVAVPAhqkV-protocol-omega.html`](claude-Dyhq3oN217iAaVAVPAhqkV-protocol-omega.html) · also `10_ORIGINAL_CREATIVE/protocol-omega/` |
 | `YHaJcQn5rsTwLnZVL9Gyoe` | Discursive Ops | [`../SOURCE-claude-artifact-discursive-ops.md`](../SOURCE-claude-artifact-discursive-ops.md) | **NOTE** only — no full HTML on disk |
-| `T5RGKzZwsScR7wfyPxd51Q` | Remaining Work matrix | [`../SOURCE-claude-artifact-remaining-work.md`](../SOURCE-claude-artifact-remaining-work.md) | **NOTE** only |
-| `7tTJBfqX6UMVXY17zuNATE` | aeon-atlas roadmap | [`../SOURCE-claude-artifact-aeon-atlas-roadmap.md`](../SOURCE-claude-artifact-aeon-atlas-roadmap.md) | **NOTE** only |
-| `PiiKNJsLJq2sDKUVCbMNKX` | CrystalCore.OS console v1.7.9 | [`../SOURCE-claude-artifact-crystalcore-os-console.md`](../SOURCE-claude-artifact-crystalcore-os-console.md) | **NOTE** only (interactive UI; no static dump) |
-| `b7fc01e4-…` (code artifact) | CrystalCore.OS Live Party shell | [`../SOURCE-claude-artifact-b7fc-crystalcore-os.md`](../SOURCE-claude-artifact-b7fc-crystalcore-os.md) | **NOTE** only · **SHOT-MISS** |
-| `UkFksTnUyjNCumHWDdTsdv` | Clementine product page | [`../SOURCE-claude-artifact-ukfk-clementine.md`](../SOURCE-claude-artifact-ukfk-clementine.md) | **NOTE** only · **SHOT-MISS** |
+| `T5RGKzZwsScR7wfyPxd51Q` | Remaining Work matrix | [`../SOURCE-claude-artifact-remaining-work.md`](../SOURCE-claude-artifact-remaining-work.md) | **EXTRACT** [`extract-T5RGKzZwsScR7wfyPxd51Q-remaining-work.md`](extract-T5RGKzZwsScR7wfyPxd51Q-remaining-work.md) (from SOURCE note; not live HTML) |
+| `7tTJBfqX6UMVXY17zuNATE` | aeon-atlas roadmap | [`../SOURCE-claude-artifact-aeon-atlas-roadmap.md`](../SOURCE-claude-artifact-aeon-atlas-roadmap.md) | **EXTRACT** [`extract-7tTJBfqX6UMVXY17zuNATE-aeon-atlas-roadmap.md`](extract-7tTJBfqX6UMVXY17zuNATE-aeon-atlas-roadmap.md) (from SOURCE note; not live HTML) |
+| `PiiKNJsLJq2sDKUVCbMNKX` | CrystalCore.OS console v1.7.9 | [`../SOURCE-claude-artifact-crystalcore-os-console.md`](../SOURCE-claude-artifact-crystalcore-os-console.md) | **NOTE** only · adjacent UI [`adjacent-crystalcore-os-v4-shell.html`](adjacent-crystalcore-os-v4-shell.html) (Portal sitting — not claimed identical) |
+| `b7fc01e4-…` (code artifact) | CrystalCore.OS Live Party shell | [`../SOURCE-claude-artifact-b7fc-crystalcore-os.md`](../SOURCE-claude-artifact-b7fc-crystalcore-os.md) | **NOTE** only · **SHOT-MISS** · same adjacent shell pointer as above |
+| `UkFksTnUyjNCumHWDdTsdv` | Clementine product page | [`../SOURCE-claude-artifact-ukfk-clementine.md`](../SOURCE-claude-artifact-ukfk-clementine.md) | **NOTE** (Claude page HTML absent) · **ADJACENT BODY** live app [`adjacent-UkFksTnUyjNCumHWDdTsdv-clementine-voice-app.html`](adjacent-UkFksTnUyjNCumHWDdTsdv-clementine-voice-app.html) + [README](adjacent-UkFksTnUyjNCumHWDdTsdv-clementine-voice-README.md) |
 | `/share/a364bfde-…` | TerAustralis site design (Jul 21–23) | [`../SOURCE-claude-share-a364-teraustralis-design.md`](../SOURCE-claude-share-a364-teraustralis-design.md) | **NOTE** only · **SHOT-MISS** · in-chat folder `teraustralis-artefacts/` **never landed in this monorepo** |
 | `/share/4e12…` | Boot CrystalCore.OS invoke | [`../SOURCE-claude-share-4e12-crystalcore-boot.md`](../SOURCE-claude-share-4e12-crystalcore-boot.md) | **NOTE** only · **SHOT-MISS** |
 
@@ -75,16 +75,20 @@ All have SOURCE stubs; bodies unknown; all cited screenshots **SHOT-MISS** on th
 
 ---
 
-## Counts (this pass)
+## Counts (this pass · updated 2026-10-06)
 
 | Bucket | Count |
 | --- | --- |
 | Claude SOURCE files total | 27 |
 | Public/readable notes | 11 |
 | Gated stubs | 16 |
-| Full bodies newly filed here | 3 IDs (map-and-territory · What Is Built · Protocol Omega) |
+| Full Claude bodies filed (`claude-*`) | 3 IDs (map-and-territory · What Is Built · Protocol Omega) |
+| Extracts from SOURCE notes | 2 (Remaining Work · aeon-atlas roadmap) |
+| Adjacent product/UI bodies | Clementine voice app + CrystalCore.OS v4 shell |
 | Screenshot paths cited vs present | 23 cited · **0 present** |
 | Visual dump durable / indexed | 8 / 56 |
+
+Latest continuation: [`CONTINUATION-2026-10-06.md`](CONTINUATION-2026-10-06.md) · Ungate: [`UNGATE-RUN-SHEET.md`](UNGATE-RUN-SHEET.md)
 
 ---
 
