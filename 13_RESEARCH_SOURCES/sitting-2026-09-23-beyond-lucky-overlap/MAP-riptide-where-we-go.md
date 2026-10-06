@@ -67,9 +67,9 @@ Algorithms: shrink feed
 2. **Control one-pager** — **SHIPPED** [`ONE-PAGER-agent-harness-controls.md`](ONE-PAGER-agent-harness-controls.md) · master save [`SAVE-will-and-elon-2026-09-25.md`](SAVE-will-and-elon-2026-09-25.md). Send **only if asked**.  
 3. **Grok Bot** — short handoff paste **READY** · EVERYTHING dump **refreshed** 6 Oct (§B2 SAVE/booth/mobile). Create Frequency / Safety / TerAustralis / Everyday.  
 4. **FIRE Core Four** — [`FIRE-CORE-FOUR-PLAIN.md`](FIRE-CORE-FOUR-PLAIN.md) · paste [`BOOTH-PASTE-core-four-elevenlabs.txt`](BOOTH-PASTE-core-four-elevenlabs.txt) · CapCut [`CHECKLIST-capcut-core-four.md`](CHECKLIST-capcut-core-four.md). **← CRYSTAL EXECUTE**  
-5. **Own surface** — teraustralis.com.au / CrystalCore local audit as the shore people can *stay* on without the algorithm.  
+5. **Own surface** — **DOCKED** [`NOTE-own-surface-teraustralis-shore.md`](NOTE-own-surface-teraustralis-shore.md) · Crystal publishes walls + will on teraustralis.com.au.  
 6. **Crystalum** — private chorus calibration only; original titles later (*Stay* / *the Current* / grammar already named in the Grok pack). Not a Riptide debut.  
-7. **Movement door** — Academy Kangaroo interest ledger with consent; Starlink as pipe not product ([`MOVEMENT-FIELD-SHEET-academy-kangaroo.md`](MOVEMENT-FIELD-SHEET-academy-kangaroo.md)).  
+7. **Movement door** — **TEMPLATES LIVE** join line · ledger · Witness cards ([`DRAFT-join-line-academy-kangaroo.md`](DRAFT-join-line-academy-kangaroo.md) · [`LEDGER-academy-kangaroo-interest.md`](LEDGER-academy-kangaroo-interest.md) · [`CARD-witness-academy-kangaroo.md`](CARD-witness-academy-kangaroo.md)). Crystal stamps join line; first Builder ask still open.  
 8. **Refuse the wrong words** — no protection-racket lane; no exploit how-to on NDIS; no patient-record claims.
 
 ---

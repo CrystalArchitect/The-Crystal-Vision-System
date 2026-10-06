@@ -58,12 +58,13 @@ No silent “you’re in the movement” by vibe. Consent on record.
 
 ## Quiet next actions (movement, not cathedral)
 
-1. **One join line** (Crystal stamps copy) — e.g. *Starfleet Academy Kangaroo Division — crew before Hollywood. Interest → role → receipt.*  
-2. **Interest ledger** — names + role wanted + consent; not a public member list  
-3. **First three Witness cards** — what to read / watch / don’t claim  
-4. **First Builder ask** — one remake or one one-pager appendix (Starlink under Comms), not “help build the OS”  
+1. **One join line** — **DRAFTED** [`DRAFT-join-line-academy-kangaroo.md`](DRAFT-join-line-academy-kangaroo.md) · Crystal stamps then one-desk send.  
+2. **Interest ledger** — **TEMPLATED** [`LEDGER-academy-kangaroo-interest.md`](LEDGER-academy-kangaroo-interest.md) · names + role + consent; not public.  
+3. **First three Witness cards** — **FILED** [`CARD-witness-academy-kangaroo.md`](CARD-witness-academy-kangaroo.md) · read / watch / don’t claim.  
+4. **First Builder ask** — one remake or one one-pager appendix (Starlink under Comms), not “help build the OS” · **still open**.  
 5. **Cohort names later** — Fantastic Beasts *animals* as provisional cohort energy; Crystal stamps public names (AU fauna OK). See [`ADDENDUM-academy-brand-faces.md`](ADDENDUM-academy-brand-faces.md)  
-6. **Tone:** make them cry *with the work* — [`ADDENDUM-movement-tone-make-him-cry.md`](ADDENDUM-movement-tone-make-him-cry.md)
+6. **Tone:** make them cry *with the work* — [`ADDENDUM-movement-tone-make-him-cry.md`](ADDENDUM-movement-tone-make-him-cry.md)  
+7. **Own surface shore** — **DOCKED** [`NOTE-own-surface-teraustralis-shore.md`](NOTE-own-surface-teraustralis-shore.md) · Crystal publishes on teraustralis.com.au.
 
 ---
 
