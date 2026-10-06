@@ -51,11 +51,13 @@ FLIGHT = (
     "First Gate recognized. Red dust to rockets. Expand to the stars and thereby understand the Universe!",
     "snapshot First Gate OPEN",
     "jump 3000",
+    "visit Colossus",
     "status",
     "exit",
 )
 
 STATUS_ONLY = ("boot", "status", "exit")
+CONTINUE_COLOSSUS = ("visit Colossus", "status", "exit")
 
 
 def state_path(home: Path) -> Path:
@@ -80,6 +82,10 @@ def gate_is_open(state: dict | None) -> bool:
     return bool(state.get("gate_open")) and isinstance(keys, list) and len(keys) >= 7
 
 
+def at_colossus(state: dict | None) -> bool:
+    return bool(state) and state.get("current_location") == "Colossus"
+
+
 def run_terminal(home: Path, commands: tuple[str, ...]) -> subprocess.CompletedProcess[str]:
     if not TERMINAL.is_file():
         raise FileNotFoundError(TERMINAL)
@@ -96,9 +102,16 @@ def run_terminal(home: Path, commands: tuple[str, ...]) -> subprocess.CompletedP
     )
 
 
+def commands_for(state: dict | None) -> tuple[str, ...]:
+    if gate_is_open(state) and at_colossus(state):
+        return STATUS_ONLY
+    if gate_is_open(state):
+        return CONTINUE_COLOSSUS
+    return FLIGHT
+
+
 def start(home: Path) -> dict:
-    already = gate_is_open(read_state(home))
-    commands = STATUS_ONLY if already else FLIGHT
+    commands = commands_for(read_state(home))
     result = run_terminal(home, commands)
     if result.returncode != 0:
         sys.stderr.write(result.stderr or result.stdout)
@@ -123,11 +136,17 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     home = args.home.expanduser().resolve()
     home.mkdir(parents=True, exist_ok=True)
-    before = gate_is_open(read_state(home))
+    before = read_state(home)
+    if gate_is_open(before) and at_colossus(before):
+        action = "already open"
+    elif gate_is_open(before):
+        action = "arrived at Colossus"
+    else:
+        action = "flight completed"
     state = start(home)
     keys = state.get("keys_held") or []
     print("CRYSTALCORE.OS terminal started")
-    print(f"action:              {'already open' if before else 'flight completed'}")
+    print(f"action:              {action}")
     print(f"First Gate:          {'OPEN' if state.get('gate_open') else 'sealed'}")
     print(f"keys:                {len(keys)}/7")
     print(f"named keys:          {', '.join(state.get('named_keys') or []) or 'none'}")

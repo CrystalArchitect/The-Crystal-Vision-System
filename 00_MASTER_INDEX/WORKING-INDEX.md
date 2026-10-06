@@ -63,12 +63,15 @@
 | CVS-GROK-FOUND-SFOS | 14 | Grok found Starfleet OS Vision archive — find ≠ build | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-GROK-FOUND-STARFLEET-OS.md` |
 | CVS-GROK-GATE-0923 | 14 | Grok share First Gate — chat weight zero; terminal replay checked | fact | no | `/14_AI_INTERACTIONS/2026-09-23-GROK-SHARE-FIRST-GATE.md` |
 | CVS-CC-BOOT | 00 | Mythos terminal start — `scripts/crystalcore/boot.py` opens First Gate once | fact | no | `/scripts/crystalcore/boot.py` |
+| CVS-COLOSSUS-VISIT | 00 | `visit Colossus` after the First Gate — launch-map arrival, not an eighth key | fact | no | `/archive/TerAustralis-Incognita/mythos/crystalcore-os/crystalcore_os.py` |
 | CVS-AGREE | 00 | Agreement workflow — plain Needs-Your-Yes + ledger | coordination | no | `/00_MASTER_INDEX/NEEDS-YOUR-YES.md` · `AGREEMENT-WORKFLOW.md` · `/scripts/agreement/` |
 | CVS-AHS-LEMURIA | 10 | AHS Lemuria terminal sandbox (Devouring Deep; Portal framing narrative) | vision | no | `/10_ORIGINAL_CREATIVE/ahs-lemuria/` · `/scripts/portal/boot_lemuria.py` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
+
+- **2026-10-06 (Colossus visit):** After the First Gate, `visit Colossus` arrives at the launch-map cathedral. It does not add an eighth key. The gate still opens at 7/7. Canon: no.
 
 - **2026-09-26 (ICANN TSG Grok stamp):** Crystal `Ok stamp` → `AGR-ICANN-TSG-GROK` crystal_confirmed. Paste card `HANDOFF-grok-bot-icann-tsg.md` + `PLAIN-ENGLISH.md`. Research desk only; Canon no.
 - **2026-09-25 (ICANN TSG thin-PDF pass):** Attempted RySG/WIPO/CleanDNS/Netnod primaries — still Depth C (ENS cite / links only). Tucows upgraded C→B via CDN PDF crawl; Circleid URL pinned for ISPCP/MeitY/.ART. Canon: no.

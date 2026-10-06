@@ -11,6 +11,14 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 BOOT = ROOT / "scripts" / "crystalcore" / "boot.py"
+TERMINAL = (
+    ROOT
+    / "archive"
+    / "TerAustralis-Incognita"
+    / "mythos"
+    / "crystalcore-os"
+    / "crystalcore_os.py"
+)
 
 
 class BootTests(unittest.TestCase):
@@ -29,6 +37,7 @@ class BootTests(unittest.TestCase):
             state = json.loads(state_path.read_text())
             self.assertTrue(state["gate_open"])
             self.assertEqual(len(state["keys_held"]), 7)
+            self.assertEqual(state["current_location"], "Colossus")
             self.assertEqual(state["timeline"], 3000)
             chronicle = (home / ".crystalcore" / "chronicle.jsonl").read_text().strip().splitlines()
             self.assertEqual(len(chronicle), 2)
@@ -47,6 +56,27 @@ class BootTests(unittest.TestCase):
             self.assertEqual(len(chronicle_again), 2)
             snaps_again = list((home / ".crystalcore" / "snapshots").glob("*.json"))
             self.assertEqual(len(snaps_again), 1)
+
+    def test_colossus_stays_shut_until_the_gate_is_open(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            home = Path(tmp)
+            env = dict(**{k: v for k, v in __import__("os").environ.items()})
+            env["HOME"] = str(home)
+            result = subprocess.run(
+                [sys.executable, str(TERMINAL)],
+                input="visit Colossus\nexit\n",
+                text=True,
+                capture_output=True,
+                check=False,
+                env=env,
+            )
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertIn("Colossus waits beyond the First Gate", result.stdout)
+            state_path = home / ".crystalcore" / "state.json"
+            if state_path.is_file():
+                state = json.loads(state_path.read_text())
+                self.assertNotEqual(state.get("current_location"), "Colossus")
+                self.assertFalse(state.get("gate_open"))
 
 
 if __name__ == "__main__":

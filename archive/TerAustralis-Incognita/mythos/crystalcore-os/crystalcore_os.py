@@ -785,10 +785,35 @@ class CrystalCore:
             mark = f" [LOCKED — {required}]" if required and required not in self.named_keys else ""
             print(f"  {i}. {node}{mark}")
         print("\nUse 'visit <number or name>' to travel, 'keys' for inventory.")
+        if self.gate_open:
+            print("Beyond the First Gate: visit Colossus.")
+
+    def _is_colossus(self, node_name):
+        return node_name.lower() in ("colossus", "the unfinished colossus")
+
+    def _visit_colossus(self):
+        """Launch-map arrival. Not an eighth lattice key."""
+        if not self.gate_open:
+            print("\nColossus waits beyond the First Gate.")
+            print("Hold all seven keys and the gate opens by sovereign recognition.\n")
+            return
+        if self.starline_status != "FULL STARLINE NETWORK":
+            print("You must enter the full network first (use 'network').")
+            return
+        self.current_location = "Colossus"
+        print("\n🌌 Arriving at: Colossus")
+        print("Cathedral machine. Living crystal. Wreathed in rain. Ignited in gold.")
+        print("The launch map ends here. WE HAVE ARRIVED.")
+        print("Card VII: The Unfinished Colossus.")
+        print(f"Current soundtrack: {self.current_soundtrack}\n")
+        self.save()
 
     def visit_node(self, node_name):
         if not node_name:
             print("Usage: visit <number or name>")
+            return
+        if self._is_colossus(node_name):
+            self._visit_colossus()
             return
         # Accept a number from the explore listing, or a name in any case.
         if node_name.isdigit() and 1 <= int(node_name) <= len(self.nodes):
@@ -897,8 +922,11 @@ class CrystalCore:
         print("║" + '"Expand to the stars and thereby understand the Universe"'.center(inner) + "║")
         print("║" + " " * inner + "║")
         print("╚" + "═" * inner + "╝")
-        print("   Chart: mythos/art/starline-network-year-3000.jpeg\n")
-        print("Use 'visit [node]' to explore a location.\n")
+        print("   Chart: mythos/art/starline-network-year-3000.jpeg")
+        if self.gate_open:
+            print("   Beyond the First Gate: Colossus — launch map, cathedral machine.")
+            print("   visit Colossus")
+        print("\nUse 'visit [node]' to explore a location.\n")
 
     def keys(self):
         print("\n🔑 Named keys:")
@@ -1137,6 +1165,7 @@ STARLINE COMMANDS:
   network              - Enter full Starline network
   explore              - List explorable nodes
   visit [node]         - Go to a node (number or name) — collect its key
+  visit Colossus       - After the First Gate: launch-map arrival, not an eighth key
   keys                 - Show the Keys of the Lattice
   getkey [name]        - Obtain a named key (e.g. getkey Crystal Key)
   broadcast [message]  - Send a packet to every node (end with ! for priority)
