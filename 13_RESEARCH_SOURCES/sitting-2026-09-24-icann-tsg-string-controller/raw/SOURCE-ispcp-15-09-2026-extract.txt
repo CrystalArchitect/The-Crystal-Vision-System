@@ -1,0 +1,38 @@
+# ISPCP — Public Comment input — TSG on gTLD Integrations with Alternative Naming Systems
+# Philippe Fouquart · 15 Sep 2026
+# Primary host (constituency mirror): https://ispcp.memberclicks.net/assets/docs/PolicyStatements/2026_PolicyStatements/ISPCP%20-%20Public%20Comment%20input%20-%20TSG%20on%20gTLD%20Integrations%20with%20Alternative%20Naming%20Systems.pdf
+# ICANN submission: https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/the-internet-service-providers-and-connectivity-providers-constituency-ispcp-15-09-2026
+# Recovery: WebSearch PDF crawl · 6 Oct 2026 (second pass) · byte PDF not on disk (egress)
+# Depth: B (near-complete substantive asks; not page-faithful OCR)
+
+---
+
+The ISPCP recalls according to the TSG’s mandate [https://www.icann.org/tsg/alternative naming-systems-integrations].
+
+The ISPCP is supportive of the technical work and the potential model but asks for a substantially stronger and more explicit risk-assessment and assurance framework before such integrations are approved and incorporated into contractual requirements.
+
+In particular, the report provides a useful technical framework around the “same string + same controller” model and the Unified Source of Truth (USoT). These are useful foundations. However, the report spends considerably more effort describing how consistency between the systems could be achieved than assessing the consequences and risks if that consistency, security, availability or policy coherence is not maintained. The report itself recognises that the integrated name must not be able to “drift” between naming systems, but the actual risk assessment of such divergence remains relatively underdeveloped.
+
+The ISPCP therefore recommends that any approval of such integration be conditional upon clearly defined security and stability risk assessments, enforceable consistency and controller-assurance mechanisms, appropriate dispute and abuse safeguards, continuous monitoring, and mandatory continuity and turn-down provisions.
+
+Key asks recovered from crawl:
+
+1. Equivalent security, integrity and authenticity assurance MUST be required for every integrated alternative naming system, with the specific mechanism determined by the technology of that naming system. Where applicable, DNSSEC-equivalent assurance so that the security and authenticity guarantees are commensurate with those expected of the DNS.
+
+2. URS/UDRP-equivalent dispute and abuse mechanisms MUST be addressed as a precondition for approval, rather than being left as an open question. The report itself identifies URS/UDRP, consumer protection and anti-abuse as issues requiring resolution.
+
+3. The turn-down/EBERO gap should be elevated from RECOMMENDED to REQUIRED. The report acknowledges that alternative-naming integration may fall outside the current EBERO critical functions and therefore proposes a turn-down plan. Continuity, controlled shutdown, transition/recovery and protection of registrants and relying parties should be mandatory conditions of approval.
+
+Further:
+
+- The report should more clearly address how ongoing consistency will be verified and enforced, rather than relying primarily on the assumption that the relevant controls will remain in place.
+
+- The report should explicitly address the implications of relying on an “eventually consistent” source of truth. A clear maximum convergence/consistency window, detection mechanism and fail-safe behaviour should be defined to ensure that temporary inconsistency between the DNS and alternative naming systems cannot create a security or stability risk.
+
+- The issue of multiple alternative naming systems deserves more attention. The report acknowledges that more than one alternative system may be involved and also recognises that the complexity of proving the Unified Source of Truth increases as the number and diversity of naming systems increases.
+
+- The thin-registry/controller-identity issue is important. Where the registry does not itself hold sufficient information about the controller, there needs to be a reliable mechanism to establish that the DNS-name and alt-name are [under the same controller].
+
+- There should be continuous conformance monitoring and auditability, not just an assessment at the time the registry service is approved. The security and stability properties of the integrated system need to remain demonstrably valid throughout its operational lifecycle. Such monitoring should also include defined thresholds, incident notification, remediation timelines and appropriate consequences where the integration no longer satisfies the required security, stability or controller-consistency criteria.
+
+(End of recovered extract.)
