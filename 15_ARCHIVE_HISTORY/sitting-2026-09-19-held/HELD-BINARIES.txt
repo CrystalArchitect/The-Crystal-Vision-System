@@ -1,6 +1,34 @@
+# Held binaries — sitting 2026-09-19
+
+**Updated:** 2026-10-06  
+**Canon:** no
+
+## ABSENT BYTES (critical)
+
+Most names below were listed from the upload session. **The zip/torrent/sqlite/large-HTML/PDF bytes are not in this git tree.**  
+Re-drop the file into a Cloud Agent session (or Drive) if you need it read again.
+
+### Present on disk in this folder
+
+| File | Notes |
+| --- | --- |
+| `clementine.skill` | Zip; markdown also at `docs/bots/clementine/SKILL.md` |
+| `taskmarket.skill` | Zip; root `SKILL.md` extract at `20_ECONOMIC_MODELS/sitting-2026-09-19/taskmarket-SKILL.md` |
+| `web-os-easter-eggs.skill` | Zip; extract trail under `14_AI_INTERACTIONS/sitting-2026-09-19/skills/` |
+| `HELD-BINARIES.txt` | This manifest |
+
+### Present elsewhere (extracts, not the held zip)
+
+- Freeze pack markdown → `handoff/crystalcore-os-freeze-2026-09-11/`
+- Filings *reports* → `13_RESEARCH_SOURCES/sitting-2026-09-19/elon-musk-filings-2026-09-16/`
+
+---
+
+## Session name list (bytes mostly gone)
+
 continuum-sync-loop_c958.zip
 crystalcore-os-freeze-2026-09-11_f75e.zip
-  NOTE: freeze *markdown* pack filed under handoff/crystalcore-os-freeze-2026-09-11/ (full 00–06 + licenses). Zip still held — do not unpack over living tree.
+  NOTE: freeze *markdown* pack filed under handoff/crystalcore-os-freeze-2026-09-11/ (full 00–06 + licenses). Zip still held — do not unpack over living tree. **Zip bytes ABSENT from repo.**
 memorycore-build_40aa.zip
 remix-remix-death_a70c.zip
 The-Crystal-Vision-System_2_328d.zip
@@ -45,9 +73,9 @@ web-os-easter-eggs.skill
 
 --- wave 2026-09-19c (filings evidence) ---
 elon-musk-evidence-LITE-2026-09-16_1898.zip
-  (reports extracted to 13_RESEARCH_SOURCES/.../elon-musk-filings-2026-09-16/; privacy/sec snippets stay in zip)
+  (reports extracted to 13_RESEARCH_SOURCES/.../elon-musk-filings-2026-09-16/; privacy/sec snippets stay in zip — **zip ABSENT**)
 elon-musk-evidence-FILINGS-2026-09-16_b122.zip
-  (large SEC HTML: 424B4, 10-Q, 10-K, DEF 14A — hold only; verify via EDGAR + SHA256SUMS)
+  (large SEC HTML: 424B4, 10-Q, 10-K, DEF 14A — hold only; verify via EDGAR + SHA256SUMS — **zip ABSENT**)
 
 --- wave 2026-09-19d (starcrystal / lattice / plates) ---
 odyssey-engine-clean.tar_1f7e.gz
@@ -55,6 +83,6 @@ React_Artifact_2_9ed6.html
 React_Artifact_3_4233.html
 React_Artifact_4_3dbe.html
 React_Artifact_5_b009.html
-continuing_x5f_chart_8d61.html   (~1.1MB chart HTML — hold)
-visual_x5f_atlas_x5f_seven_3266.html  (~2.3MB — hold)
-TerAustralis_x5f_Sovereign_x5f_Lattice_x5f_Proxy_x5f_Sheet_ef58.pdf  (~2.9MB — hold)
+continuing_x5f_chart_8d61.html   (~1.1MB chart HTML — hold — **ABSENT**)
+visual_x5f_atlas_x5f_seven_3266.html  (~2.3MB — hold — **ABSENT**)
+TerAustralis_x5f_Sovereign_x5f_Lattice_x5f_Proxy_x5f_Sheet_ef58.pdf  (~2.9MB — hold — **ABSENT**)
