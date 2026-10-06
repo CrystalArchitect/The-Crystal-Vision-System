@@ -10,7 +10,7 @@ Research pack for the Public Comment proceeding on the **Initial Report of the T
 | [`raw/Unregistry-submission.txt`](raw/Unregistry-submission.txt) | Unregistry public comment PDF text |
 | [`raw/Clowes-blog-same-string-same-controller.txt`](raw/Clowes-blog-same-string-same-controller.txt) | Clowes companion blog extract |
 
-**Sibling (integrated deep pass):** [`../sitting-2026-09-24-icann-tsg-string-controller/`](../sitting-2026-09-24-icann-tsg-string-controller/) — SYNTHESIS + extracts/DEEP-EXTRACTS + TENSION-MAP + checklist PC overlay.
+**Sibling (integrated deep pass + thin recovery):** [`../sitting-2026-09-24-icann-tsg-string-controller/`](../sitting-2026-09-24-icann-tsg-string-controller/) — SYNTHESIS + extracts/DEEP-EXTRACTS + TENSION-MAP + raw Depth A/B extracts (Netnod, D3, ISPCP, .ART, WIPO summary). Prefer that pack for comment-body depth after 6 Oct 2026 recovery.
 
 **Canon:** no  
 **Authority:** Crystal Arena-Turner (ingest for filing hub)  

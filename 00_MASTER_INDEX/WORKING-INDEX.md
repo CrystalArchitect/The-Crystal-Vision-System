@@ -70,6 +70,7 @@ Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
+- **2026-10-06 (ICANN TSG merge-review pass 3):** Archived WIPO Summary of Submission under `raw/`; synced sibling `icann-tsg-gtld-ans-2026` Depth pointers (D3 A / ISPCP+.ART B) so merge won’t leave Circleid-thin stubs. Local merge-tree vs cached `origin/main`: no conflicts. Canon: no.
 - **2026-10-06 (ICANN TSG thin recovery pass 2):** D3 → Depth A; ISPCP/.ART → Depth B; raw extracts filed under `raw/`. Public Final Report still shared-Drive only (Sullivan ~30 Sep–1 Oct). Canon: no.
 - **2026-10-06 (ICANN TSG thin recovery):** Upgraded RySG / WIPO / CleanDNS / Netnod / MeitY off thin (Depth A/B); Netnod raw extract filed; Sullivan updated report noted (30 Sep shared-drive). Canon: no.
 - **2026-09-26 (ICANN TSG Grok stamp):** Crystal `Ok stamp` → `AGR-ICANN-TSG-GROK` crystal_confirmed. Paste card `HANDOFF-grok-bot-icann-tsg.md` + `PLAIN-ENGLISH.md`. Research desk only; Canon no.

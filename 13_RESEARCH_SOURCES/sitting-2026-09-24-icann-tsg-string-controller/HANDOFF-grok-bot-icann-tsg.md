@@ -67,7 +67,7 @@ Hold the ICANN TSG **string+controller** map: same-string gTLD × alternative na
 | Submitter | Status |
 | --- | --- |
 | RySG / CleanDNS / MeitY / Netnod | Depth A/B recovered 6 Oct — cite `DEEP-EXTRACTS` |
-| WIPO | Depth B via ICANN Summary — **attachment PDF still unrecovered** |
+| WIPO | Depth B via ICANN Summary (raw extract filed) — **attachment PDF still unrecovered** |
 | D3 Global | Depth A (CDN crawl + raw extract) |
 | ISPCP | Depth B (memberclicks PDF crawl + raw extract) |
 | .ART | Depth B (CDN crawl + ICANN summary + raw extract) |

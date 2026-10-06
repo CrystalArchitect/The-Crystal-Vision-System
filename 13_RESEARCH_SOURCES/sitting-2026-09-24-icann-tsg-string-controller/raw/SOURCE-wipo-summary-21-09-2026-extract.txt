@@ -1,0 +1,19 @@
+# WIPO Arbitration and Mediation Center — Brian Beckham — 21 Sep 2026
+# ICANN submission: https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/wipo-arbitration-and-mediation-center-21-09-2026
+# Source: ICANN Summary of Submission (official docket text) · recovered via WebSearch crawl · 6 Oct 2026
+# Attachment PDF: still unrecovered as full text (egress / CDN crawl miss)
+# Depth: B (summary-complete; attachment thin)
+
+---
+
+Summary of Submission (ICANN docket):
+
+While this Report is focused on technical architectural concepts, future discussions should also look at the intersection with ICANN Consensus Policies (e.g., Rights Protection Mechanisms such as Sunrise and UDRP); this seems to be recognized at 8.6 and also in by comments from the RrSG.
+
+It is known that there is significant equivalent second-level-domain cybersquatting of labels in alternative naming systems; the holders / controllers of those altroot “registrations” should not be afforded an opportunity to replicate their infringements in any ICANN-managed TLD space under some default notion of (technical) mapping between systems.
+
+Mechanical application of “the same name” principle would pass cybersquatting in the altroot unchecked into the global root, and would fly in the face of security and stability (not to mention consumer protection and fraud prevention) considerations; this cannot be allowed for an operator that is seeking the privilege and responsibility of delegating a TLD into the global ICANN-managed root.
+
+Brand owners should be allowed to challenge and if successful, block the delegation into the ICANN-managed gTLD root system (in terms of the report: withhold or integration-prohibited), any label determined to be infringing in an altroot.
+
+(End of recovered Summary of Submission extract. Attachment PDF body not on disk.)
