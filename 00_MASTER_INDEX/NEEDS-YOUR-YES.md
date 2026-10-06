@@ -50,6 +50,12 @@ Reply when you pick E1-E4: `AGREE DEC-E — E1` (or E2/E3/E4).
 ### AGR-STACK-SURFACE — Stack map
 Siri to Portal to CrystalCore.OS to TAI is on disk as the layer map. Not Canon yet.
 
+### AGR-X-ALGO-GROK — X algorithm Grok desk
+Grok Bot may use the X For You / Under the Hood paste card as a **research desk** only (no gaming advice; Canon still no)?
+
+Reply: `AGREE AGR-X-ALGO-GROK — research desk only` or `REJECT AGR-X-ALGO-GROK — …`  
+Card: [`../13_RESEARCH_SOURCES/sitting-2026-09-24-x-algorithm/HANDOFF-grok-bot-x-algorithm.md`](../13_RESEARCH_SOURCES/sitting-2026-09-24-x-algorithm/HANDOFF-grok-bot-x-algorithm.md)
+
 ## You already said yes (still not Canon)
 
 - Alive Weave: connect islands; do not merge  

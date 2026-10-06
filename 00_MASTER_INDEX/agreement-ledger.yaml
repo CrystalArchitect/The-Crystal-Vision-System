@@ -108,3 +108,10 @@ items:
     confirmed: "2026-09-26"
     note: "Ok stamp — research desk only; Canon no; no invented Depth-C quotes; human publishes"
 
+  - id: AGR-X-ALGO-GROK
+    title: Grok Bot may use X For You / Under the Hood sitting as research-desk paste handoff
+    status: proposed
+    source: 13_RESEARCH_SOURCES/sitting-2026-09-24-x-algorithm/HANDOFF-grok-bot-x-algorithm.md
+    confirmed: ""
+    note: "Waiting on Crystal — research desk only; Canon no; no gaming advice; no invented Grox prompts; human publishes"
+

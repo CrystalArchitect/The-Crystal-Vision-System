@@ -7,17 +7,22 @@
 
 **Verdict (one line):** X published the For You **skeleton** (pipeline, weights, filters, VF rules) and a user **label dump** (Under the Hood); the **judgment layer** (Grox prompts), **brain** (live Phoenix P + checkpoints), and **live dials** (feature switches / GrowthBook / mock thresholds) remain incomplete — map in [`WITHHELD-MAP.md`](WITHHELD-MAP.md).
 
+**On main:** PR #71 (base sitting) + PR #73 (UTH checklist).  
+**Grok desk:** [`HANDOFF-grok-bot-x-algorithm.md`](HANDOFF-grok-bot-x-algorithm.md) — status **proposed** (`AGR-X-ALGO-GROK`); Canon no.
+
 ---
 
 ## Start here
 
-1. [`SYNTHESIS.md`](SYNTHESIS.md) — full algorithm analysis (architecture, weights, playbook, UTH)  
-2. [`WITHHELD-MAP.md`](WITHHELD-MAP.md) — **published vs withheld vs falsified vs out-of-scope**  
-3. [`CHECKLIST-UTH-LABELS.md`](CHECKLIST-UTH-LABELS.md) — run your UTH JSON against the public label catalog  
-4. [`RECEIPT-agent-sitting-2026-09-24.md`](RECEIPT-agent-sitting-2026-09-24.md) — how this sitting was built  
-5. [`raw/`](raw/) — source receipts (posts, repo pointers)  
-6. [`extracts/SOURCE-INDEX.md`](extracts/SOURCE-INDEX.md) — URL / claim index  
-7. [`extracts/SOURCE-underTheHoodLabels.strato`](extracts/SOURCE-underTheHoodLabels.strato) — verbatim label allowlist (repo extract)
+1. [`PLAIN-ENGLISH.md`](PLAIN-ENGLISH.md) — Crystal-first  
+2. [`HANDOFF-grok-bot-x-algorithm.md`](HANDOFF-grok-bot-x-algorithm.md) — **Grok Bot paste card** (proposed · research desk · Canon no)  
+3. [`SYNTHESIS.md`](SYNTHESIS.md) — full algorithm analysis (architecture, weights, playbook, UTH)  
+4. [`WITHHELD-MAP.md`](WITHHELD-MAP.md) — **published vs withheld vs falsified vs out-of-scope**  
+5. [`CHECKLIST-UTH-LABELS.md`](CHECKLIST-UTH-LABELS.md) — run your UTH JSON against the public label catalog  
+6. [`RECEIPT-agent-sitting-2026-09-24.md`](RECEIPT-agent-sitting-2026-09-24.md) — how this sitting was built  
+7. [`raw/`](raw/) — source receipts (posts, repo pointers)  
+8. [`extracts/SOURCE-INDEX.md`](extracts/SOURCE-INDEX.md) — URL / claim index  
+9. [`extracts/SOURCE-underTheHoodLabels.strato`](extracts/SOURCE-underTheHoodLabels.strato) — verbatim label allowlist (repo extract)
 
 ---
 

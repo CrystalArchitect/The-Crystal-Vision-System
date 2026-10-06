@@ -70,6 +70,7 @@ Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
+- **2026-10-06 (X algo Grok handoff proposed):** `PLAIN-ENGLISH.md` + `HANDOFF-grok-bot-x-algorithm.md`; ledger `AGR-X-ALGO-GROK` status **proposed**. Sitting already on main (#71/#73). Research desk only if stamped; Canon no.
 - **2026-09-26 (ICANN TSG Grok stamp):** Crystal `Ok stamp` → `AGR-ICANN-TSG-GROK` crystal_confirmed. Paste card `HANDOFF-grok-bot-icann-tsg.md` + `PLAIN-ENGLISH.md`. Research desk only; Canon no.
 - **2026-09-25 (ICANN TSG thin-PDF pass):** Attempted RySG/WIPO/CleanDNS/Netnod primaries — still Depth C (ENS cite / links only). Tucows upgraded C→B via CDN PDF crawl; Circleid URL pinned for ISPCP/MeitY/.ART. Canon: no.
 - **2026-09-25 (energy × Cosmic plain read):** Indexed `CVS-ENERGY-AI` + `CVS-ORIGIN-VERSE`; drawer READMEs point at `PLAIN-ENGLISH.md` first so the sitting is readable. Canon: no.
