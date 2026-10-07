@@ -62,5 +62,6 @@ AI-SYSTEM-BRIEF remains the verified 2026-09-10 Portal/MemoryCore contract. AERI
 - Triaged `99_UNRESOLVED/sitting-2026-09-19/`: Codex Private Master → drawer 10 (+ extract); Lumenia setup → drawer 11 (+ extract)
 - TaskMarket root `SKILL.md` extract under drawer 20
 - Marked held manifest **ABSENT BYTES**
+- **PR #86 merged.** Post-merge review: [`15_ARCHIVE_HISTORY/sitting-2026-09-19-held/POST-MERGE-REVIEW-2026-10-06.md`](../15_ARCHIVE_HISTORY/sitting-2026-09-19-held/POST-MERGE-REVIEW-2026-10-06.md) (chronology fix follow-up)
 
 *Non Solus.*
