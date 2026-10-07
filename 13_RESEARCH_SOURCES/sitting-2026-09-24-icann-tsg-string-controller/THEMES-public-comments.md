@@ -4,7 +4,7 @@
 **Roster:** [`SOURCE-public-comment-roster.csv`](SOURCE-public-comment-roster.csv) — 40 rows (38 active + 2 retracted) from chat paste  
 **Proceeding:** closed 21 Sep 2026 · report due ~5 Oct 2026  
 **Canon:** **no**  
-**Limit:** Institutional / published positions summarized from Public Comment pages, SAC134 PDF snippets, ENS/Unregistry/IPC/RrSG/ALAC/Circleid secondary coverage. Individual comments not all read end-to-end (icann.org binary fetch blocked on this host).  
+**Limit:** Institutional / published positions summarized from Public Comment pages, SAC134 PDF snippets, ENS/Unregistry/IPC/RrSG/ALAC pages, plus CDN/memberclicks crawls for recovered Depth A/B rows (see DEEP-EXTRACTS). Circleid used only as historic secondary for unrecovered rows. Individual comments not all read end-to-end (icann.org binary fetch blocked on this host).  
 **Deep pass:** [`extracts/DEEP-EXTRACTS.md`](extracts/DEEP-EXTRACTS.md) · [`extracts/TENSION-MAP.md`](extracts/TENSION-MAP.md) (v2 + **6 Oct 2026 recovery** + **pass 2:** D3 Depth A; ISPCP/.ART Depth B).
 
 ---

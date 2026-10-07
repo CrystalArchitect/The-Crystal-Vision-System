@@ -5,7 +5,7 @@
 **Proceeding:** [Initial Report of the TSG on gTLD Integrations with Alternative Naming Systems](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026)  
 **Comment window:** 10 Aug 2026 – 21 Sep 2026 23:59 UTC  
 **Report due:** 05 Oct 2026  
-**Sources in this pack:** public ICANN pages/PDFs + secondary coverage (CircleID); full texts where retrieved under `raw/`
+**Sources in this pack:** public ICANN pages/PDFs + search crawls; full texts where retrieved under `raw/`. Prefer sibling deep pack for Depth A/B comment bodies after 6 Oct 2026 recovery.
 
 ---
 
@@ -72,7 +72,7 @@ Legend: **Support** = endorses string+controller baseline · **Conditional** = y
 
 ### 1. Technical baseline vs policy gate
 
-Almost every institutional commenter says the Report is useful **technical advice**. IPC, ALAC, RrSG, Tucows, and .ART (secondary coverage) insist **GNSO / contractual process** must handle rights protection, contacts, consent for “permanent” ANS names, and registrar obligations **before** treating integrations as routine RSEP approvals.
+Almost every institutional commenter says the Report is useful **technical advice**. IPC, ALAC, RrSG, Tucows, and **.ART (primary Depth B)** insist **GNSO / contractual process** must handle rights protection, contacts, consent for “permanent” ANS names, and registrar obligations **before** treating integrations as routine RSEP approvals.
 
 ### 2. §8.3 legacy populations (the hottest fight)
 
@@ -169,15 +169,27 @@ PDF: https://itp.cdn.icann.org/public-comment/proceeding/Initial%20Report%20of%2
 - Aligns with ENS Foundation registry-direction (not registrant-elected import).
 - Complements subordinate-name lifecycle work (Altname / Clowes line).
 
-### D3 Global (Kevin Kreuser, 16 Sep 2026)
+### D3 Global (Kevin Kreuser / Inder Singh, 16 Sep 2026) — Depth **A** (sibling deep pack)
 
-- Support risk-based framework for integrations **affirmatively proposed and controlled** by the registry; DNS remains authoritative; architecture-neutral implementations.
+- Supports TSG threshold yes; framework must stay **narrow, risk-based, architecture-neutral**.
+- Scope = integrations **affirmatively proposed and controlled by the RO** only — independent same-string ANS creates **no claim** on DNS inventory.
+- Prefer **DNS-first** for new integrated names; treat §8.2 alt-while-withheld as optional, not default.
+- Distinguish RO Registry Service vs registrar tokenization vs independent ANS; wallet/token ≠ automatic DNS registrant.
+- No retroactive effect on 2026 Round applicants who did not propose an integration.
+- Primary extract: sibling `sitting-2026-09-24-icann-tsg-string-controller/raw/SOURCE-d3-global-16-09-2026-extract.txt`.
 
-### ISPCP (Philippe Fouquart, 15 Sep 2026)
+### ISPCP (Philippe Fouquart, 15 Sep 2026) — Depth **B** (sibling deep pack)
 
-- Supportive of technical direction but Report does not fully answer charter on concrete security/stability implications; wants stronger assurance / monitoring / shutdown / independent testing (per index + CircleID).
+- Supports string+controller / USoT foundations but says divergence **risk assessment** is underdeveloped.
+- Asks: DNSSEC-equivalent assurance; URS/UDRP-equivalent as **precondition**; turn-down **REQUIRED**; max consistency window + fail-safes; multi-ANS complexity; thin-registry controller identity; continuous conformance monitoring.
+- Primary extract: sibling `…/raw/SOURCE-ispcp-15-09-2026-extract.txt`.
 
----
+### .ART Domain Registry (Kurt Pritz, 20 Sep 2026) — Depth **B** (sibling deep pack)
+
+- Supports common technical baseline; Report strays into PDP / RA negotiation.
+- Production existence proof: 2023 one-controller DNS↔Web3 (TXT eligibility; Web3-first holds matching DNS; forfeit on DNS expiry/abuse) after ICANN go-ahead **without RSEP**.
+- Data/RDAP/EPP extension questions → multistakeholder or negotiation track.
+- Primary extract: sibling `…/raw/SOURCE-art-domain-registry-20-09-2026-extract.txt`.
 
 ## Prior-claim / transition cluster (individuals & operators)
 
@@ -205,7 +217,8 @@ PDF: https://itp.cdn.icann.org/public-comment/proceeding/Initial%20Report%20of%2
 
 - Direct HTTPS from this Cloud Agent VM to `icann.org` / `itp.cdn.icann.org` is **egress-blocked**; content was retrieved via search-index extracts and secondary pages.
 - Full PDF text **confirmed in-pack** for: TSG Initial Report, Unregistry, Clowes blog.
-- Positions for **Netnod, CleanDNS, WIPO, RySG, MeitY** are **roster-confirmed** from the user index; body digests incomplete pending allowlist or offline PDF drop.
+- Body digests for Netnod / CleanDNS / RySG / MeitY / WIPO-summary / **D3 / ISPCP / .ART** live in sibling deep pack (`sitting-2026-09-24-icann-tsg-string-controller/extracts/DEEP-EXTRACTS.md` + `raw/`). Do not treat this pack’s older CircleID-thin stubs as authoritative after 6 Oct 2026 recovery.
+- Still thin across both packs: WIPO **attachment** PDF bytes · public Final Report PDF · byte-faithful CDN archives.
 - Retracted submissions listed but not analyzed.
 - Connection ≠ merge: this is research filing only — not Canon, not a product decision.
 

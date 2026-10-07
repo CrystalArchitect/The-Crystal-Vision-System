@@ -199,18 +199,19 @@ Roster: [`../SOURCE-public-comment-roster.csv`](../SOURCE-public-comment-roster.
 
 ---
 
-## 12. WIPO Arbitration and Mediation Center — Brian Beckham — 21 Sep 2026 — Depth **B** (ICANN summary · 6 Oct 2026)
+## 12. WIPO Arbitration and Mediation Center — Brian Beckham — 21 Sep 2026 — Depth **B** (ICANN Summary of Submission · 6 Oct 2026; summary extract filed pass 3)
 
-**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/wipo-arbitration-and-mediation-center-21-09-2026)
+**Link:** [submission](https://www.icann.org/en/public-comment/proceeding/initial-report-of-the-tsg-on-gtld-integrations-with-alternative-naming-systems-10-08-2026/submissions/wipo-arbitration-and-mediation-center-21-09-2026) · raw: [`../raw/SOURCE-wipo-summary-21-09-2026-extract.txt`](../raw/SOURCE-wipo-summary-21-09-2026-extract.txt)
 
 **Stance (ICANN Summary of Submission + corroborating ENS cite):** Report is technical; future work must intersect **Consensus Policies / RPMs** (Sunrise, UDRP) — already gestured at §8.6 and in RrSG comments.
 
-**Load-bearing asks:**
+**Load-bearing asks (official Summary text):**
 1. Significant second-level cybersquatting already exists in alternative namespaces; mechanical “same name” mapping would pass that into the global root — **not allowed** for an operator seeking root delegation privilege.
-2. Altroot holders/controllers of infringing labels should **not** get default DNS TLD-space rights.
-3. Brand owners must be able to **challenge and, if successful, block** delegation/integration (withhold / integration-prohibited) for labels found infringing in an altroot.
+2. Altroot holders/controllers of infringing labels should **not** get default DNS TLD-space rights under a technical-mapping default.
+3. Brand owners must be able to **challenge and, if successful, block** delegation/integration (**withhold / integration-prohibited**) for labels found infringing in an altroot.
+4. Future discussions must look at intersection with Consensus Policies / RPMs (Sunrise, UDRP) — flagged as already recognized at §8.6 and by RrSG.
 
-**Honesty:** Primary WIPO attachment PDF still not recovered as full text via CDN crawl; Depth B rests on ICANN Summary of Submission (official docket text). ENS paraphrase aligns.
+**Honesty:** Depth B rests on ICANN Summary of Submission (official docket text) now filed under `raw/`. Primary WIPO **attachment PDF** full text still unrecovered via CDN crawl. ENS paraphrase aligns. Do not invent attachment-only quotes.
 
 ---
 
@@ -370,7 +371,7 @@ Roster: [`../SOURCE-public-comment-roster.csv`](../SOURCE-public-comment-roster.
 | RySG primary | **Hit — Depth B** (CDN crawl + ICANN summary) |
 | CleanDNS primary | **Hit — Depth B** (CDN crawl + ICANN summary) |
 | MeitY primary | **Hit — Depth B** (CDN crawl + ICANN summary) |
-| WIPO primary | **Hit — Depth B** (ICANN Summary of Submission; attachment PDF still thin) |
+| WIPO primary | **Hit — Depth B** (ICANN Summary of Submission → `raw/SOURCE-wipo-summary-21-09-2026-extract.txt`; attachment PDF still thin) |
 | ISPCP / .ART / D3 primaries | Still Circleid B-lite / list summary only (pass 1) |
 | Full PDF bytes on disk | Still blocked — `itp.cdn.icann.org` / `www.icann.org` not on egress allowlist; WebFetch rejected |
 
@@ -384,6 +385,15 @@ Roster: [`../SOURCE-public-comment-roster.csv`](../SOURCE-public-comment-roster.
 | Public Final / revised TSG report | **Still thin** — Sullivan 30 Sep / 1 Oct updated report on TSG shared Drive (clean + redline); public ICANN.org Final PDF not confirmed |
 | WIPO attachment PDF full text | Still thin beyond Summary of Submission |
 | Byte-faithful CDN archives | Still egress-blocked |
+
+### Recovery pass 3 — 6 Oct 2026 (merge-review / WIPO summary archive)
+
+| Target | Result |
+| --- | --- |
+| WIPO Summary of Submission | **Hit — archived** (`raw/SOURCE-wipo-summary-21-09-2026-extract.txt`; Depth B unchanged, now on-disk) |
+| WIPO attachment PDF | Still thin |
+| Public Final Report on ICANN.org | Still thin (Initial Report PDF only; Sullivan update remains shared-Drive) |
+| Sibling pack `icann-tsg-gtld-ans-2026` | Synced Depth pointers so merge does not leave Circleid-thin D3/ISPCP/.ART stubs |
 
 **Egress note:** Direct `curl` / WebFetch to ICANN hosts still fail. WebSearch PDF crawls now recover D3 (A), ISPCP/.ART (B) alongside prior RySG/CleanDNS/Netnod/MeitY hits.
 
