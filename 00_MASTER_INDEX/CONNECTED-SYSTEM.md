@@ -114,7 +114,7 @@ Status legend: **original** = CrystalArchitect non-fork · **fork-mirror** = por
 | 19_PHILOSOPHICAL_FOUNDATIONS | Axioms / claims / consciousness | `AI-Foundations-*` (10), `Consciousness-Is-Subjectivity` | fork-mirrors of alyssadata |
 | 20_ECONOMIC_MODELS | Agent-based econ / GTB | `MiroShark` | fork-mirror |
 | 99_UNRESOLVED | Speculative / UNKNOWN | in-repo | hub |
-| *(portfolio outside drawers)* | Design / stubs / private | `api-gateway` **design-only**; `UK-MonoRepo` **private**; stubs `jolly-bolt-flora-lotus`, `pilot-horizon-acre-spring` **private** | see gaps |
+| *(portfolio outside drawers)* | Design / former stubs | `api-gateway` **design-only**; `UK-MonoRepo` + stubs **GONE** (DEC-C intentional) | see gaps |
 
 Drive folders for drawers **16–20** are live in `STRUCTURE.md` (created 2026-10-06, packet A).
 
