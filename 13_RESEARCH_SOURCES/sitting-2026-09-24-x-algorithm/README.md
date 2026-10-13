@@ -8,7 +8,7 @@
 **Verdict (one line):** X published the For You **skeleton** (pipeline, weights, filters, VF rules) and a user **label dump** (Under the Hood); the **judgment layer** (Grox prompts), **brain** (live Phoenix P + checkpoints), and **live dials** (feature switches / GrowthBook / mock thresholds) remain incomplete — map in [`WITHHELD-MAP.md`](WITHHELD-MAP.md).
 
 **On main:** PR #71 (base sitting) + PR #73 (UTH checklist).  
-**Grok desk:** [`HANDOFF-grok-bot-x-algorithm.md`](HANDOFF-grok-bot-x-algorithm.md) — status **proposed** (`AGR-X-ALGO-GROK`); Canon no.
+**Grok desk:** [`HANDOFF-grok-bot-x-algorithm.md`](HANDOFF-grok-bot-x-algorithm.md) — status **crystal_confirmed** (`AGR-X-ALGO-GROK`, `ok go` 13 Oct 2026); Canon no.
 
 ---
 

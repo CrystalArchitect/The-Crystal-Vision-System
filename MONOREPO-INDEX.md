@@ -1,7 +1,8 @@
 # CrystalArchitect Monorepo Index
 
 **Status**: Consolidated (20 repositories imported as git subtrees)  
-**Last Updated**: 2026-09-09  
+**Canon (filing hub):** **yes** (`AGR-MONOREPO-BASE` — Crystal `ok go` 13 Oct 2026)  
+**Last Updated**: 2026-10-13  
 **Archive Location**: `/archive/` subdirectories
 
 ---

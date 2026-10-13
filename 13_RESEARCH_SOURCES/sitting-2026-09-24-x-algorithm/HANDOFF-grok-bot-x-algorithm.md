@@ -2,7 +2,7 @@
 
 **Paste this whole file into Grok** when briefing a **research** desk — not Frequency / mythos.  
 **Filed:** 6 Oct 2026  
-**Crystal stamp:** `proposed` — waiting on chat `AGREE AGR-X-ALGO-GROK — …`  
+**Crystal stamp:** `crystal_confirmed` — chat `ok go` 13 Oct 2026 · ledger `AGR-X-ALGO-GROK`  
 **Canon:** **no** · Connection ≠ merge · Vision ≠ Built  
 
 **Desk:** Research / platform-literacy compass only. Do **not** mash into Frequency, CapCut, or brand marketing voice.
@@ -25,7 +25,7 @@ Hold the public **X For You** map: Home Mixer pipeline, Phoenix multi-action sco
 6. **No invented prompts.** Grox `.j2` policy prompts are withheld. Say “criteria dark,” never invent spam/hate/adult prompt text.  
 7. **No fake live dials.** Feature-switch YAML and GrowthBook live numbers are not in the public repo; mock thresholds exist on purpose.  
 8. **Human publishes.** Drafts only. No auto-post to X.  
-9. **Stamp gate.** Until Crystal replies `AGREE AGR-X-ALGO-GROK`, treat this card as **draft for Crystal** — do not claim bot desk authorization.  
+9. **Stamp gate.** Crystal stamped `AGR-X-ALGO-GROK` (`ok go` 13 Oct 2026). Research-desk use is authorized; Canon remains **no**.  
 10. If unsure → ask Crystal. Prefer silence over confident wrong.
 
 ---
@@ -118,7 +118,7 @@ Working Index id: **CVS-X-ALGO**
 | Field | Value |
 | --- | --- |
 | Authority | Crystal Elle Arena-Turner |
-| Stamp | **proposed** — reply `AGREE AGR-X-ALGO-GROK — research desk only` |
+| Stamp | **crystal_confirmed** — `ok go` 13 Oct 2026 |
 | Ledger | `AGR-X-ALGO-GROK` |
 | Canon | **no** |
 | Publish | Human only |

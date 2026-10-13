@@ -20,6 +20,6 @@
 | S16 | Code extract | [`SOURCE-underTheHoodLabels.strato`](SOURCE-underTheHoodLabels.strato) | Full post/account/takedown about+effect allowlist (`bf7db1b` sparse clone 2026-09-25) |
 | S17 | Checklist | [`../CHECKLIST-UTH-LABELS.md`](../CHECKLIST-UTH-LABELS.md) | Operator worksheet over S16 |
 | S18 | Plain | [`../PLAIN-ENGLISH.md`](../PLAIN-ENGLISH.md) | Crystal-first read (6 Oct 2026) |
-| S19 | Handoff | [`../HANDOFF-grok-bot-x-algorithm.md`](../HANDOFF-grok-bot-x-algorithm.md) | Grok research-desk paste card (`AGR-X-ALGO-GROK` proposed) |
+| S19 | Handoff | [`../HANDOFF-grok-bot-x-algorithm.md`](../HANDOFF-grok-bot-x-algorithm.md) | Grok research-desk paste card (`AGR-X-ALGO-GROK` confirmed) |
 
 Local receipts under [`../raw/`](../raw/).

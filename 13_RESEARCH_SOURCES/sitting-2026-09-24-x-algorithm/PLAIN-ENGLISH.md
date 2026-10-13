@@ -3,7 +3,7 @@
 **Canon:** no  
 **Sitting:** 2026-09-24 · UTH checklist addendum 25 Sep · on `main` via PR #71 + #73  
 **For:** Crystal  
-**Grok paste card:** [`HANDOFF-grok-bot-x-algorithm.md`](HANDOFF-grok-bot-x-algorithm.md) (waiting on your `AGREE AGR-X-ALGO-GROK`)
+**Grok paste card:** [`HANDOFF-grok-bot-x-algorithm.md`](HANDOFF-grok-bot-x-algorithm.md) (`AGR-X-ALGO-GROK` confirmed 13 Oct 2026 — research desk; Canon no)
 
 Everything else in this folder is denser. This page is the same story in ordinary language.
 

@@ -2,12 +2,12 @@
 
 | ID | Drawer | Title | Belt | Canon | GitHub |
 | --- | --- | --- | --- | --- | --- |
-| CVS-STRUCT | 00 | STRUCTURE.md | fact | no | `/STRUCTURE.md` |
+| CVS-STRUCT | 00 | STRUCTURE.md (filing hub law Canon) | fact | **yes** | `/STRUCTURE.md` · `AGR-MONOREPO-BASE` |
 | CVS-CODEX-1 | 10 | Codex Crystalum gathering | vision | no | `/codex/CODEX-CRYSTALUM.md` |
 | CVS-PLACE | 10 | This Place (Star Song / umbra) | vision | **no** | `/10_ORIGINAL_CREATIVE/THIS-PLACE.md` |
 | CVS-OMEGA | 10 | Protocol Omega (boundaries practice) | vision | no | `/10_ORIGINAL_CREATIVE/protocol-omega/` |
 | CVS-CONNECTED | 00 | Connected System Map (CVS ↔ portfolio ↔ Protocol Omega) | coordination | no | `/00_MASTER_INDEX/CONNECTED-SYSTEM.md` |
-| CVS-ALIVE | 00 | Alive Weave (multi-AI pulse + S4 bus→twin) | coordination | no | `/00_MASTER_INDEX/ALIVE-WEAVE.md` · `/scripts/alive/` |
+| CVS-ALIVE | 00 | Alive Weave (multi-AI pulse + S4 bus→twin) | coordination | **yes** | `/00_MASTER_INDEX/ALIVE-WEAVE.md` · `/scripts/alive/` · `AGR-ALIVE-WEAVE` · `AGR-CONSENTGATE` |
 | CVS-LEWIS | 13 | Lewis, Dream Encyclopedia 2e | research | no | `/13_RESEARCH_SOURCES/` |
 | CVS-PERMUTT | 13 | Permutt, Ancient Power of Crystals | research | no | `/13_RESEARCH_SOURCES/` |
 | CVS-MILD | 13 | Night drill / MILD | research | no | `/13_RESEARCH_SOURCES/MILD.md` |
@@ -16,7 +16,7 @@
 | CVS-PORTAL-A | 07 | Portal export partial | fact | no | `/handoff/celestial-portal/` |
 | CVS-Q32K | 99 | Quartz as timeline grid | speculation | no | `/99_UNRESOLVED/QUARTZ-TIMELINE-METAPHOR.md` |
 | CVS-OOB-LINE | -- | Forbidden brand-name (not used in this project) | out of bounds | never | Use **Starline** — [`NAMING-STARLINE.md`](NAMING-STARLINE.md) |
-| CVS-STARLINE | 04 | Starline — Consent Transport / Starlines / Weaver | coordination | no | [`NAMING-STARLINE.md`](NAMING-STARLINE.md) |
+| CVS-STARLINE | 04 | Starline — Consent Transport / Starlines / Weaver | coordination | **yes** | [`NAMING-STARLINE.md`](NAMING-STARLINE.md) · `AGR-STARLINE-NAME` |
 | CVS-MEMORY | 00 | memory/ umbrella protocol (DECISIONS/MILESTONES/OPEN-QUESTIONS/PRIVACY) | fact | no | `/memory/` |
 | CVS-AISAFE-16 | 16 | AI Safety Research Drawer | coordination | no | `/16_AI_SAFETY_RESEARCH/INDEX.md` |
 | CVS-PHYSICS-17 | 17 | Physics Simulation Drawer | coordination | no | `/17_PHYSICS_SIMULATION/INDEX.md` |
@@ -62,19 +62,20 @@
 | CVS-CHAOS-LOOT | 14 | Chaos loot bag — launch sitting spoils | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-LOOT-BAG.md` |
 | CVS-CHAOS-LOOT-W2 | 14 | Chaos loot wave 2 — solos, /ask, manifest, paste pack | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-CHAOS-LOOT-WAVE2.md` |
 | CVS-STARFLEET-KANGAROO | 00 | Kangaroo Division pitch face (Vision) — **not** Starfleet OS | vision | no | `/00_MASTER_INDEX/STARFLEET-AU-KANGAROO-DIVISION.md` · `archive/starfleet-au-kangaroo-pack/` |
-| CVS-NO-STARFLEET-OS | 14 | No Starfleet OS — stack already exists | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-NO-STARFLEET-OS.md` |
+| CVS-NO-STARFLEET-OS | 14 | No Starfleet OS — stack already exists | coordination | **yes** | `/14_AI_INTERACTIONS/2026-09-20-NO-STARFLEET-OS.md` · `AGR-NO-STARFLEET-OS` |
 | CVS-GROK-FOUND-SFOS | 14 | Grok found Starfleet OS Vision archive — find ≠ build | coordination | no | `/14_AI_INTERACTIONS/2026-09-20-GROK-FOUND-STARFLEET-OS.md` |
 | CVS-GROK-GATE-0923 | 14 | Grok share First Gate — chat weight zero; terminal replay checked | fact | no | `/14_AI_INTERACTIONS/2026-09-23-GROK-SHARE-FIRST-GATE.md` |
 | CVS-CC-BOOT | 00 | Mythos terminal start — `scripts/crystalcore/boot.py` opens First Gate once | fact | no | `/scripts/crystalcore/boot.py` |
 | CVS-AGREE | 00 | Agreement workflow — plain Needs-Your-Yes + ledger | coordination | no | `/00_MASTER_INDEX/NEEDS-YOUR-YES.md` · `AGREEMENT-WORKFLOW.md` · `/scripts/agreement/` |
-| CVS-CANON-START | 00 | Canon starter — first seals (Crystal pastes CANON ids) | coordination | no | `/00_MASTER_INDEX/CANON-STARTER.md` |
+| CVS-CANON-START | 00 | Canon starter — Batch A sealed 13 Oct 2026 | coordination | no | `/00_MASTER_INDEX/CANON-STARTER.md` |
 | CVS-AHS-LEMURIA | 10 | AHS Lemuria terminal sandbox (Devouring Deep; Portal framing narrative) | vision | no | `/10_ORIGINAL_CREATIVE/ahs-lemuria/` · `/scripts/portal/boot_lemuria.py` |
 
-Canon stays **no** until Crystal stamps it.
+Canon stays **no** until Crystal stamps it. Batch A hub laws stamped **yes** 13 Oct 2026 (`ok go`).
 
 ## Latest Updates
 
-- **2026-10-13 (Canon starter):** Filed `CANON-STARTER.md` — Batch A hub laws ready for `CANON <id>`; restored X-algo Grok handoff (closed #84) as proposed `AGR-X-ALGO-GROK`. No Canon inferred. Canon: no until Crystal stamps.
+- **2026-10-13 (Canon Batch A + X desk):** Crystal `ok go` — Canon: `AGR-NO-STARFLEET-OS`, `AGR-ALIVE-WEAVE`, `AGR-CONSENTGATE`, `AGR-MONOREPO-BASE`, `AGR-STARLINE-NAME`. `AGR-X-ALGO-GROK` → crystal_confirmed (research desk; Canon still no). Headers + Working Index flipped only for stamped ids.
+- **2026-10-13 (Canon starter):** Filed `CANON-STARTER.md` — Batch A hub laws ready for `CANON <id>`; restored X-algo Grok handoff (closed #84) as proposed `AGR-X-ALGO-GROK`. (Superseded same day by seal above.)
 - **2026-10-06 (ICANN TSG merge-review pass 3):** Archived WIPO Summary of Submission under `raw/`; synced sibling `icann-tsg-gtld-ans-2026` Depth pointers (D3 A / ISPCP+.ART B) so merge won’t leave Circleid-thin stubs. Local merge-tree vs cached `origin/main`: no conflicts. Canon: no.
 - **2026-10-06 (ICANN TSG thin recovery pass 2):** D3 → Depth A; ISPCP/.ART → Depth B; raw extracts filed under `raw/`. Public Final Report still shared-Drive only (Sullivan ~30 Sep–1 Oct). Canon: no.
 - **2026-10-06 (ICANN TSG thin recovery):** Upgraded RySG / WIPO / CleanDNS / Netnod / MeitY off thin (Depth A/B); Netnod raw extract filed; Sullivan updated report noted (30 Sep shared-drive). Canon: no.
@@ -133,7 +134,7 @@ Canon stays **no** until Crystal stamps it.
 
 - **2026-09-19 (bots):** Filled Alive Weave island gaps on roster — BOT-CONTEXTGATE, BOT-SAT, BOT-LEAF (≠ Orchestrator), BOT-GROK-MIND alias. Cross-link `ALIVE-WEAVE.md` ↔ `BOT-STRUCTURE.md`. Canon: no.
 
-- **2026-09-19:** Alive Weave — CrystalBridge ConsentGate wired into pulse + weave (allow/refuse proven; `signal.gate_check` into twin). Gate on by default; `--no-gate` to skip. Canon: no.
+- **2026-09-19:** Alive Weave — CrystalBridge ConsentGate wired into pulse + weave (allow/refuse proven; `signal.gate_check` into twin). Gate on by default; `--no-gate` to skip. Canon sealed 13 Oct 2026 (`AGR-CONSENTGATE`).
 
 - **2026-09-18:** Alive Weave — hub coordination for multi-AI islands without merge. Map: `00_MASTER_INDEX/ALIVE-WEAVE.md`. Runners: `scripts/alive/pulse.py` (island pulse + selftests), `scripts/alive/weave.py` (TCV bridge bus + Starline Weaver → twin `signal.bus_message`, Architecture S4). Optional `--sat` gates hub turn via SAT `wrap_turn`. Law unchanged: connection ≠ merge; out-of-bounds titles stay out of bounds. Canon: no.
 
