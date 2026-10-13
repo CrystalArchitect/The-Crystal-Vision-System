@@ -77,6 +77,7 @@ Canon stays **no** until Crystal stamps it.
 - **2026-10-06 (ICANN TSG thin recovery pass 2):** D3 → Depth A; ISPCP/.ART → Depth B; raw extracts filed under `raw/`. Public Final Report still shared-Drive only (Sullivan ~30 Sep–1 Oct). Canon: no.
 - **2026-10-06 (ICANN TSG thin recovery):** Upgraded RySG / WIPO / CleanDNS / Netnod / MeitY off thin (Depth A/B); Netnod raw extract filed; Sullivan updated report noted (30 Sep shared-drive). Canon: no.
 - **2026-10-06 (collection continue):** Cleared `99` sitting binaries — Codex Private Master → 10, Lumenia → 11; TaskMarket SKILL extract → 20; held manifest marked **ABSENT BYTES**. PR #86 merged. Post-merge review filed. Canon: no.
+- **2026-10-13:** DEC-C agreed — stub / UK / CrystalCore* privates GONE was intentional; do not recreate. Canon: no.
 - **2026-10-06:** Packet A done — Drive folders 16–20 created under CVSC root; `STRUCTURE.md` URLs live; DEC-A crystal_confirmed. Canon: no.
 
 - **2026-09-26 (ICANN TSG Grok stamp):** Crystal `Ok stamp` → `AGR-ICANN-TSG-GROK` crystal_confirmed. Paste card `HANDOFF-grok-bot-icann-tsg.md` + `PLAIN-ENGLISH.md`. Research desk only; Canon no.

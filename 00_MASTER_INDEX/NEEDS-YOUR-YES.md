@@ -20,11 +20,6 @@ Saying **yes** to coordination is not the same as making something **Canon**.
 
 ## Waiting on you
 
-### DEC-C — Gone repos
-Confirm those missing stub / UK / CrystalCore private repos were deleted on purpose?
-
-Reply: `AGREE DEC-C — yes, intentional` or `REJECT DEC-C — …`
-
 ### DEC-D — Stewards
 Name stewards for drawers 16-20 and Product when ready.
 
@@ -48,6 +43,7 @@ Siri to Portal to CrystalCore.OS to TAI is on disk as the layer map. Not Canon y
 ## You already said yes (still not Canon)
 
 - **DEC-A** — Drive folders 16–20 created 2026-10-06; URLs in `STRUCTURE.md`  
+- **DEC-C** — stub / UK / CrystalCore* privates GONE was intentional (13 Oct `agree`)  
 - Alive Weave: connect islands; do not merge  
 - ConsentGate before guest speech  
 - This repo is the filing hub  
@@ -63,7 +59,7 @@ Siri to Portal to CrystalCore.OS to TAI is on disk as the layer map. Not Canon y
 ## How to answer (copy/paste)
 
 ```
-AGREE DEC-C — yes, intentional
+AGREE DEC-D — names: …
 CANON DEC-B — keep both memory folders
 INTERIM DEC-E — stay on E1
 ```

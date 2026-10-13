@@ -1,11 +1,11 @@
 # Crystal decisions pending (hub packets)
 
 **Canon:** **no**  
-**Updated:** 2026-10-06  
+**Updated:** 2026-10-13  
 **Role:** Decision packets only — agents do **not** execute Drive creates, deletes, or renames without Crystal yes. Crystal stamps / acts.  
 **Related:** [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md), [`WORKING-INDEX.md`](WORKING-INDEX.md), [`MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md`](MEMORYCORE-ARCHITECTURE-TRUTHCHECK-2026-09-19.md), [`NEEDS-YOUR-YES.md`](NEEDS-YOUR-YES.md) (plain confirm list)
 
-To stamp a packet, reply `AGREE DEC-A` / `REJECT DEC-C` / `CANON DEC-B` (etc.). Agents update `agreement-ledger.yaml` after your reply — you do not need to edit YAML.
+To stamp a packet, reply `CANON DEC-B` / `AGREE DEC-D` / `AGREE DEC-E` (etc.). Agents update `agreement-ledger.yaml` after your reply — you do not need to edit YAML.
 
 ---
 
@@ -44,25 +44,21 @@ Silence is not permission for options 2–3 — do not rename until Crystal pick
 
 ---
 
-## C. Stub repos + UK-MonoRepo + former auth-blocked privates (GONE on live — confirm)
+## C. Stub repos + UK-MonoRepo + former auth-blocked privates (DONE — 2026-10-13)
 
-Live `gh repo list CrystalArchitect` (2026-09-18): **65** repos, **0** private.
+**Crystal:** `AGREE DEC-C — yes, intentional` (2026-10-13). Absence was intentional. Hub cannot restore deleted repos. Do **not** invent recreated stubs or private imports.
 
-| Name (earlier inventory / open questions) | Live status 2026-09-18 |
+Live inventory baseline 2026-09-18: **65** repos, **0** private. Names below remain **GONE**:
+
+| Name | Status |
 | --- | --- |
-| `jolly-bolt-flora-lotus` | **Not found** |
-| `pilot-horizon-acre-spring` | **Not found** |
-| `UK-MonoRepo` | **Not found** |
-| `CrystalCore.OS-Aeris-Vault12` | **Not found** |
-| `CrystalCore-AERIS` | **Not found** |
-| `CrystalCore` | **Not found** |
-| `TerAustralis-Incognita-` (trailing hyphen) | **Not found** |
-
-**Implication:** Stub/UK “delete or adopt” and “import auth-blocked privates” gates are **not actionable** on live inventory.  
-
-**Crystal confirm:** Reply yes if absence was intentional. Hub cannot restore deleted repos.
-
-Until confirmed, hub docs mark these **GONE (live)**. Do not invent recreated stubs or private imports.
+| `jolly-bolt-flora-lotus` | **GONE** (intentional) |
+| `pilot-horizon-acre-spring` | **GONE** (intentional) |
+| `UK-MonoRepo` | **GONE** (intentional) |
+| `CrystalCore.OS-Aeris-Vault12` | **GONE** (intentional) |
+| `CrystalCore-AERIS` | **GONE** (intentional) |
+| `CrystalCore` | **GONE** (intentional) |
+| `TerAustralis-Incognita-` (trailing hyphen) | **GONE** (intentional) |
 
 ---
 
