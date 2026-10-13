@@ -1,9 +1,9 @@
 # Structure — follow this. Do not invent a parallel tree.
 
+**Canon (filing hub):** **yes** (`AGR-MONOREPO-BASE` — Crystal `ok go` 13 Oct 2026). This repo is the monorepo filing hub. Canon remains a Crystal stamp, not a folder.
+
 Crystal Vision Source Collection drawers (Drive root `1mc0RvTCg3d94WcYIot2pLKoiHQb8nBnX`).
 GitHub mirrors the **same names**. Drive = staging. This repo = kept trail.
-
-Canon is a Crystal stamp, not a folder.
 
 | Drawer | Drive | This repo |
 | --- | --- | --- |

@@ -3,7 +3,7 @@
 # Workflow: 00_MASTER_INDEX/AGREEMENT-WORKFLOW.md
 # Update only when Crystal replies AGREE / REJECT / CANON / INTERIM <id>
 version: 1
-updated: "2026-10-06"
+updated: "2026-10-13"
 authority: Crystal Arena-Turner
 
 items:
@@ -46,24 +46,24 @@ items:
   # --- Coordination already treated as Crystal-confirmed (still Canon no) ---
   - id: AGR-ALIVE-WEAVE
     title: Alive Weave — connect islands; do not merge
-    status: crystal_confirmed
+    status: canon
     source: memory/DECISIONS.md
-    confirmed: "2026-09-18"
-    note: "Connection ≠ merge; pulse/weave on hub"
+    confirmed: "2026-10-13"
+    note: "Canon — Crystal ok go 13 Oct 2026; Connection ≠ merge; pulse/weave on hub"
 
   - id: AGR-CONSENTGATE
     title: ConsentGate before Alive Weave guest speech
-    status: crystal_confirmed
+    status: canon
     source: memory/DECISIONS.md
-    confirmed: "2026-09-19"
-    note: "Fail-closed; default on"
+    confirmed: "2026-10-13"
+    note: "Canon — Crystal ok go 13 Oct 2026; Fail-closed; default on"
 
   - id: AGR-MONOREPO-BASE
     title: Use The-Crystal-Vision-System as monorepo filing hub
-    status: crystal_confirmed
+    status: canon
     source: memory/DECISIONS.md
-    confirmed: "2026-09-09"
-    note: "Subtree custody ≠ project merge"
+    confirmed: "2026-10-13"
+    note: "Canon — Crystal ok go 13 Oct 2026; Subtree custody ≠ project merge"
 
   - id: AGR-CHAOS-ENGINE
     title: Chaos Engine GO — multi-seat fan-out Built
@@ -74,10 +74,10 @@ items:
 
   - id: AGR-NO-STARFLEET-OS
     title: Do not build Starfleet OS — stack already covers it
-    status: crystal_confirmed
+    status: canon
     source: 14_AI_INTERACTIONS/2026-09-20-NO-STARFLEET-OS.md
-    confirmed: "2026-09-20"
-    note: "Kangaroo Division = pitch pack only"
+    confirmed: "2026-10-13"
+    note: "Canon — Crystal ok go 13 Oct 2026; Kangaroo Division = pitch pack only"
 
   - id: AGR-STACK-SURFACE
     title: Siri→Portal→CrystalCore.OS→TAI layer contracts
@@ -107,4 +107,18 @@ items:
     source: 13_RESEARCH_SOURCES/sitting-2026-09-24-icann-tsg-string-controller/HANDOFF-grok-bot-icann-tsg.md
     confirmed: "2026-09-26"
     note: "Ok stamp — research desk only; Canon no; no invented Depth-C quotes; human publishes"
+
+  - id: AGR-X-ALGO-GROK
+    title: Grok Bot may use X For You / Under the Hood sitting as research-desk paste handoff
+    status: crystal_confirmed
+    source: 13_RESEARCH_SOURCES/sitting-2026-09-24-x-algorithm/HANDOFF-grok-bot-x-algorithm.md
+    confirmed: "2026-10-13"
+    note: "Ok go — research desk only; Canon no; no gaming advice; no invented Grox prompts; human publishes"
+
+  - id: AGR-STARLINE-NAME
+    title: Project name is Starline — spread the bird, not the word
+    status: canon
+    source: 00_MASTER_INDEX/NAMING-STARLINE.md
+    confirmed: "2026-10-13"
+    note: "Canon — Crystal ok go 13 Oct 2026; naming law live since 19 Sep"
 

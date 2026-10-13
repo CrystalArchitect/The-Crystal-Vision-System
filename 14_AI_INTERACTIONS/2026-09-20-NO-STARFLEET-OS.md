@@ -1,6 +1,6 @@
 # No Starfleet OS (2026-09-20)
 
-**Canon:** **no**  
+**Canon:** **yes** (`AGR-NO-STARFLEET-OS` — Crystal `ok go` 13 Oct 2026)  
 **Crystal stamp (this sitting):** **No Starfleet OS — we already have everything else.**
 
 ## Meaning

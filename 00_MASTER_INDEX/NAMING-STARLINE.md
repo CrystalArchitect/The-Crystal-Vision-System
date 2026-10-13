@@ -1,6 +1,7 @@
 # Starline — naming law
 
 **For Crystal (and anyone filing).** Agents: follow this too.  
+**Canon:** **yes** (`AGR-STARLINE-NAME` — Crystal `ok go` 13 Oct 2026)  
 **Sitting:** closed / archived 2026-09-24 — see [`15_ARCHIVE_HISTORY/starline-naming-sitting-2026-09-19-closed/`](../15_ARCHIVE_HISTORY/starline-naming-sitting-2026-09-19-closed/). **This law stays live.**
 
 ---

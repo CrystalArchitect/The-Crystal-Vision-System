@@ -2,7 +2,7 @@
 
 **Owner:** Crystal Arena-Turner (CrystalArchitect)  
 **Doc role:** Coordination map + Built/Vision labels for the multi-AI weave  
-**Canon:** **no**  
+**Canon:** **yes** (`AGR-ALIVE-WEAVE` · `AGR-CONSENTGATE` — Crystal `ok go` 13 Oct 2026)  
 **Built:** 2026-09-18  
 **Law:** Connection ≠ merge. Out-of-bounds titles stay out of bounds. Authority = Crystal.
 

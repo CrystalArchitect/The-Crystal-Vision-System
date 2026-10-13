@@ -45,15 +45,24 @@ Reply when you pick E1-E4: `AGREE DEC-E — E1` (or E2/E3/E4).
 ### AGR-STACK-SURFACE — Stack map
 Siri to Portal to CrystalCore.OS to TAI is on disk as the layer map. Not Canon yet.
 
+## Canon (sealed 13 Oct 2026 — `ok go`)
+
+| Id | Law |
+| --- | --- |
+| AGR-NO-STARFLEET-OS | Do not build Starfleet OS; stack covers it |
+| AGR-ALIVE-WEAVE | Connect islands; do not merge |
+| AGR-CONSENTGATE | ConsentGate before guest speech |
+| AGR-MONOREPO-BASE | This repo is the filing hub |
+| AGR-STARLINE-NAME | Project name is Starline; spread the bird, not the word |
+
+Packet: [`CANON-STARTER.md`](CANON-STARTER.md) (Batch A stamped).
+
 ## You already said yes (still not Canon)
 
 - **DEC-A** — Drive folders 16–20 created 2026-10-06; URLs in `STRUCTURE.md`  
-- Alive Weave: connect islands; do not merge  
-- ConsentGate before guest speech  
-- This repo is the filing hub  
 - Chaos Engine is a go (counts are not verdicts)  
-- Do not build Starfleet OS  
 - **AGR-ICANN-TSG-GROK** — Grok Bot may use the ICANN TSG paste card as a **research desk** only (26 Sep `Ok stamp`; Canon still no)  
+- **AGR-X-ALGO-GROK** — Grok Bot may use the X For You / Under the Hood paste card as a **research desk** only (13 Oct `ok go`; Canon still no)  
 
 ## Story only (not a decision)
 
