@@ -67,12 +67,14 @@
 | CVS-GROK-GATE-0923 | 14 | Grok share First Gate — chat weight zero; terminal replay checked | fact | no | `/14_AI_INTERACTIONS/2026-09-23-GROK-SHARE-FIRST-GATE.md` |
 | CVS-CC-BOOT | 00 | Mythos terminal start — `scripts/crystalcore/boot.py` opens First Gate once | fact | no | `/scripts/crystalcore/boot.py` |
 | CVS-AGREE | 00 | Agreement workflow — plain Needs-Your-Yes + ledger | coordination | no | `/00_MASTER_INDEX/NEEDS-YOUR-YES.md` · `AGREEMENT-WORKFLOW.md` · `/scripts/agreement/` |
+| CVS-CANON-START | 00 | Canon starter — first seals (Crystal pastes CANON ids) | coordination | no | `/00_MASTER_INDEX/CANON-STARTER.md` |
 | CVS-AHS-LEMURIA | 10 | AHS Lemuria terminal sandbox (Devouring Deep; Portal framing narrative) | vision | no | `/10_ORIGINAL_CREATIVE/ahs-lemuria/` · `/scripts/portal/boot_lemuria.py` |
 
 Canon stays **no** until Crystal stamps it.
 
 ## Latest Updates
 
+- **2026-10-13 (Canon starter):** Filed `CANON-STARTER.md` — Batch A hub laws ready for `CANON <id>`; restored X-algo Grok handoff (closed #84) as proposed `AGR-X-ALGO-GROK`. No Canon inferred. Canon: no until Crystal stamps.
 - **2026-10-06 (ICANN TSG merge-review pass 3):** Archived WIPO Summary of Submission under `raw/`; synced sibling `icann-tsg-gtld-ans-2026` Depth pointers (D3 A / ISPCP+.ART B) so merge won’t leave Circleid-thin stubs. Local merge-tree vs cached `origin/main`: no conflicts. Canon: no.
 - **2026-10-06 (ICANN TSG thin recovery pass 2):** D3 → Depth A; ISPCP/.ART → Depth B; raw extracts filed under `raw/`. Public Final Report still shared-Drive only (Sullivan ~30 Sep–1 Oct). Canon: no.
 - **2026-10-06 (ICANN TSG thin recovery):** Upgraded RySG / WIPO / CleanDNS / Netnod / MeitY off thin (Depth A/B); Netnod raw extract filed; Sullivan updated report noted (30 Sep shared-drive). Canon: no.

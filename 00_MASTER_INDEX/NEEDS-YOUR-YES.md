@@ -45,6 +45,32 @@ Reply when you pick E1-E4: `AGREE DEC-E — E1` (or E2/E3/E4).
 ### AGR-STACK-SURFACE — Stack map
 Siri to Portal to CrystalCore.OS to TAI is on disk as the layer map. Not Canon yet.
 
+### AGR-X-ALGO-GROK — X algorithm Grok desk
+Grok Bot may use the X For You / Under the Hood paste card as a **research desk** only (no gaming advice; Canon still no)?
+
+Reply: `AGREE AGR-X-ALGO-GROK — research desk only` or `REJECT AGR-X-ALGO-GROK — …`  
+Card: [`../13_RESEARCH_SOURCES/sitting-2026-09-24-x-algorithm/HANDOFF-grok-bot-x-algorithm.md`](../13_RESEARCH_SOURCES/sitting-2026-09-24-x-algorithm/HANDOFF-grok-bot-x-algorithm.md)
+
+## Ready for Canon (you start here)
+
+Full packet: [`CANON-STARTER.md`](CANON-STARTER.md)
+
+Paste any you want sealed:
+
+```
+CANON AGR-NO-STARFLEET-OS — do not build Starfleet OS; stack covers it
+CANON AGR-ALIVE-WEAVE — connect islands; do not merge
+CANON AGR-CONSENTGATE — ConsentGate before guest speech
+CANON AGR-MONOREPO-BASE — The-Crystal-Vision-System is the filing hub
+CANON AGR-STARLINE-NAME — project name is Starline; spread the bird not the word
+```
+
+Research desks (optional Canon; usually AGREE is enough):
+
+```
+AGREE AGR-X-ALGO-GROK — research desk only; Canon no
+```
+
 ## You already said yes (still not Canon)
 
 - **DEC-A** — Drive folders 16–20 created 2026-10-06; URLs in `STRUCTURE.md`  

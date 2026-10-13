@@ -19,5 +19,7 @@
 | S15 | Article | https://techcrunch.com/2026/08/13/x-open-sources-its-ranking-algorithm-letting-users-see-if-theyve-been-shadowbanned/ | Aug 13 launch context (fetch blocked here; via search) |
 | S16 | Code extract | [`SOURCE-underTheHoodLabels.strato`](SOURCE-underTheHoodLabels.strato) | Full post/account/takedown about+effect allowlist (`bf7db1b` sparse clone 2026-09-25) |
 | S17 | Checklist | [`../CHECKLIST-UTH-LABELS.md`](../CHECKLIST-UTH-LABELS.md) | Operator worksheet over S16 |
+| S18 | Plain | [`../PLAIN-ENGLISH.md`](../PLAIN-ENGLISH.md) | Crystal-first read (6 Oct 2026) |
+| S19 | Handoff | [`../HANDOFF-grok-bot-x-algorithm.md`](../HANDOFF-grok-bot-x-algorithm.md) | Grok research-desk paste card (`AGR-X-ALGO-GROK` proposed) |
 
 Local receipts under [`../raw/`](../raw/).
