@@ -14,6 +14,24 @@ decision gets a new entry that says so.
 · agent map [`AGREEMENT-WORKFLOW.md`](../00_MASTER_INDEX/AGREEMENT-WORKFLOW.md)
 · `python3 scripts/agreement/status.py --plain`
 
+## 2026-10-13 — Canon Batch A + X-algo research desk
+
+Crystal chat: `ok go` (after [`CANON-STARTER.md`](../00_MASTER_INDEX/CANON-STARTER.md)).
+
+**Canon** (`status: canon` in `agreement-ledger.yaml`):
+
+- `AGR-NO-STARFLEET-OS` — do not build Starfleet OS; stack covers it  
+- `AGR-ALIVE-WEAVE` — connect islands; do not merge  
+- `AGR-CONSENTGATE` — ConsentGate before guest speech  
+- `AGR-MONOREPO-BASE` — this repo is the filing hub  
+- `AGR-STARLINE-NAME` — project name is Starline; spread the bird, not the word  
+
+**Coordination yes, Canon no:**
+
+- `AGR-X-ALGO-GROK` — Grok Bot may use X For You / Under the Hood paste card as research desk only  
+
+Plain: [`NEEDS-YOUR-YES.md`](../00_MASTER_INDEX/NEEDS-YOUR-YES.md)
+
 ## 2026-09-19 — Naming: Starline
 
 Decision (Crystal): the name is **Starline** (Consent Transport, Starlines map, Starline Weaver).

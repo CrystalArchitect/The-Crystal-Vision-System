@@ -6,6 +6,7 @@ See [`WORKING-INDEX.md`](WORKING-INDEX.md).
 Open remaining work: [`OPEN-BACKLOG.md`](OPEN-BACKLOG.md).  
 Crystal decision packets (Drive / naming / stubs): [`CRYSTAL-DECISIONS-PENDING.md`](CRYSTAL-DECISIONS-PENDING.md).  
 Connected system map: [`CONNECTED-SYSTEM.md`](CONNECTED-SYSTEM.md).  
-**Starline naming:** [`NAMING-STARLINE.md`](NAMING-STARLINE.md) — *spread the bird, not the word — because the bird is the word.*
+**Starline naming:** [`NAMING-STARLINE.md`](NAMING-STARLINE.md) — *spread the bird, not the word — because the bird is the word.*  
+**Canon starter:** [`CANON-STARTER.md`](CANON-STARTER.md) — Batch A sealed 13 Oct 2026 (`ok go`); agents still do not invent Canon.
 
 Drive copy of increment CSV: https://drive.google.com/file/d/1SEeSb8xkYjfOGMXe9x_kB5ygJdVAr-T7/view
