@@ -172,4 +172,11 @@ renaming (packet B option 1). Former auth-blocked private import targets also
 absent from live list. Expanded `07_CELESTIAL_PORTAL/README.md`. Drive MCP
 auth timed out — packet A unchanged. Canon: **no**.
 
+## 2026-10-13 — DEC-C agreed (stubs/UK/CrystalCore* GONE intentional)
+
+Crystal reply `agree` → recorded as **AGREE DEC-C — yes, intentional**.
+Stub templates, `UK-MonoRepo`, and former auth-blocked CrystalCore* /
+`TerAustralis-Incognita-` absences are confirmed intentional. Agents must
+not recreate them. Canon: **no**.
+
 

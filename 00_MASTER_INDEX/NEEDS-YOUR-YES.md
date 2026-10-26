@@ -20,11 +20,6 @@ Saying **yes** to coordination is not the same as making something **Canon**.
 
 ## Waiting on you
 
-### DEC-C — Gone repos
-Confirm those missing stub / UK / CrystalCore private repos were deleted on purpose?
-
-Reply: `AGREE DEC-C — yes, intentional` or `REJECT DEC-C — …`
-
 ### DEC-D — Stewards
 Name stewards for drawers 16-20 and Product when ready.
 
@@ -72,7 +67,7 @@ Packet: [`CANON-STARTER.md`](CANON-STARTER.md) (Batch A stamped).
 ## How to answer (copy/paste)
 
 ```
-AGREE DEC-C — yes, intentional
+AGREE DEC-D — names: …
 CANON DEC-B — keep both memory folders
 INTERIM DEC-E — stay on E1
 ```

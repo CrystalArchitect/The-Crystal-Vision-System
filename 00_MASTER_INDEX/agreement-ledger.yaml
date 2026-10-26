@@ -24,10 +24,10 @@ items:
 
   - id: DEC-C
     title: Confirm stub/UK/CrystalCore* repos GONE was intentional
-    status: proposed
+    status: crystal_confirmed
     source: 00_MASTER_INDEX/CRYSTAL-DECISIONS-PENDING.md#C
-    confirmed: null
-    note: "Live inventory 0 private; need Crystal yes"
+    confirmed: "2026-10-13"
+    note: "AGREE DEC-C — yes, intentional; do not recreate stubs/UK/CrystalCore* privates"
 
   - id: DEC-D
     title: Appoint domain stewards drawers 16–20 + Product
