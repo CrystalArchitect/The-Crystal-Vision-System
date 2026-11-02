@@ -19,7 +19,7 @@
     "dnb"
   ],
   "author": "MC_MUSK@icloud.com",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "dependencies": {
     "astro": "^4.0.0",
     "@astrojs/react": "^3.0.0",
