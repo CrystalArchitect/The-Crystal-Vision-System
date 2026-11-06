@@ -26,4 +26,4 @@ The live [teraustralis.com.au](https://www.teraustralis.com.au/) homepage is a s
 
 ## Licence
 
-CC BY-NC-ND 4.0 for this page. Commercial use of the spec requires a separate licence.
+See [LICENSE](LICENSE).

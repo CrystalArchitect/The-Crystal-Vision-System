@@ -1,56 +1,31 @@
-# MIT License (Non-Commercial Use)
+Copyright (c) 2026 Crystal E Arena-Turner (TerAustralis Incognita, ABN 70 741 068 059).
+All rights reserved, except as set out below.
 
-> **Superseded — not the project's license.** This was the non-commercial
-> half of a proposed dual license for the CrystalCore-EI package. The
-> maintainer decided against differentiated per-package licensing: the
-> whole repository is uniformly CC BY-NC-ND 4.0 — see
-> [`ADR-0010`](docs/adr/ADR-0010.md). Kept for provenance, not in effect.
+This work includes all source code, text, designs, documentation, research,
+findings and evidence in this project.
 
-Copyright (c) 2026 CrystalArchitect
+1. SHARING WITH CREDIT IS ALLOWED
+   You may view, share and link to this work for personal, educational or
+   non-commercial purposes, as long as you:
+   a) clearly credit "Crystal E Arena-Turner (TerAustralis Incognita)" as the
+      creator, with a link to the original source; and
+   b) do not change the work or present it as your own.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+2. EVERYTHING ELSE NEEDS WRITTEN PERMISSION
+   You must get the copyright owner's prior written permission before you:
+   a) sell, license or use this work, or any part of it, commercially.
+      Commercial use also requires a signed written payment agreement
+      with the copyright owner before any use begins;
+   b) modify it, build on it, or include it in another product or project;
+   c) use it to train, fine-tune or test artificial intelligence models; or
+   d) remove or change this notice or the credit.
 
-**This license applies ONLY to non-commercial use.** See COMMERCIAL_LICENSE.md for commercial use rights.
+   The copyright owner is open to commercial and collaboration requests.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+3. NO OTHER RIGHTS
+   No other rights are granted. Any use outside these terms infringes the
+   copyright owner's rights under the Copyright Act 1968 (Cth) and
+   international copyright law.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
----
-
-## Permitted Uses (Non-Commercial)
-
-✅ Personal projects and learning  
-✅ Academic research and education  
-✅ Open source contributions (non-commercial)  
-✅ Internal use within educational institutions  
-✅ Non-profit organizations (non-commercial projects)  
-
-## Restricted Uses
-
-❌ Commercial products or services  
-❌ SaaS offerings  
-❌ Any use generating revenue or profit  
-❌ Consulting services using this code  
-❌ Resale or sublicensing (commercial)  
-
-## Commercial Use
-
-For commercial use, licensing, or enterprise agreements, see **COMMERCIAL_LICENSE.md** or contact:
-📧 licensing@crystalarchitect.dev
-
----
-
-*CrystalCore.OS – Emotional Intelligence & Affective Computing System*
+Permission requests: contact the copyright owner through
+https://teraustralis.com.au

@@ -2,15 +2,8 @@ CrystalCore OS / TerAustralis Incognita
 Copyright 2026 Crystal Arena-Turner (TerAustralis Incognita)
 
 LICENSING:
-  Code and Specifications (CrystalCore OS): CC BY-NC-ND 4.0
-  - Attribution required
-  - Non-commercial use only (with exceptions for commercial licensing)
-  - No derivative redistribution
-  - Commercial use requires explicit permission
-  
-  Mythos Content (mythos/ directory): CC BY-NC-ND 4.0
-  - See LICENSE-CONTENT.md for full terms
-  
+  Code, specifications, and mythos content: see LICENSE and LICENSE-CONTENT.md.
+
   Referenced Architectural Concepts: Apache 2.0
   - MemClaw patterns are licensed under Apache 2.0
   - https://github.com/caura-ai/caura-memclaw
@@ -28,7 +21,7 @@ TRADE MARKS:
   repository. The evidence of use is the dated public record itself — the
   repository history and the OpenTimestamps proofs in mythos/proofs/.
 
-  No licence granted over these contents, CC BY-NC-ND 4.0 included,
+  No licence granted over these contents, including the terms in LICENSE,
   transfers or licenses any trade mark, trade name, or service mark right.
 
 THIRD-PARTY ACKNOWLEDGMENTS:

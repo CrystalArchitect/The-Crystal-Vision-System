@@ -21,4 +21,4 @@ Poems locked as poem-not-proof. No full lyrics. No church rewrite. No sequel in 
 Also filed: Notion Analyst · Drive CrystalCore-Grok-Build-2026-08 · desk `/workspace/desk/loop-field/` · Crystal Vision Source Collection twin.
 
 ---
-*Part of TerAustralis Incognita — Vision-layer. Content licensed CC BY-NC-ND 4.0 — see LICENSE-CONTENT.md.*
+*Part of TerAustralis Incognita — Vision-layer. See LICENSE-CONTENT.md.*

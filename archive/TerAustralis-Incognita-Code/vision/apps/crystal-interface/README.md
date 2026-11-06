@@ -19,7 +19,7 @@ ancestor), **crystal-vision** (this shell's interface-demo ancestor),
 and **crystalcore** (frozen protocol sketches, sealed 2026-07-17 — not a living component). Full map: the
 umbrella's `docs/governance/Project-Boundaries.md`, "Repositories,
 today."  
-**License:** CC BY-NC-ND 4.0 — see `LICENSE` (portfolio-wide, per ADR-0013)
+**License:** See `LICENSE`.
 
 **Not production.** Every number is illustrative and **simulated in the browser**;
 this shell makes **no backend calls**. Authority **HOLD**.

@@ -70,8 +70,7 @@ For this repository's governance, roadmap, and decisions, see:
 
 **Why `mythos/` sits at the top level instead of under `docs/`:** code and
 content are administratively separate license areas — `LICENSE-CONTENT.md`
-for `mythos/`, `LICENSE` for everything else — even though both currently
-carry the same CC BY-NC-ND 4.0 terms ([`ADR-0008`](docs/adr/ADR-0008.md)).
+for `mythos/`, `LICENSE` for everything else. Both files now carry the project licence.
 Folding canon into `docs/` would blur that boundary. Keeping it a peer of
 `src/` and `docs/` makes the split visible from the directory listing alone,
 with no need to open a file to find out which rule applies. Full reasoning:
@@ -116,15 +115,10 @@ every PR names the tools that helped produce it.
   (now in `TerAustralis-Incognita-Code`, per `ADR-0011`) for the protocol
   pack's specific guarantees (Starline Weaver, pipeline quarantine, Starline's
   consent gating).
-- **License:** Everything in this repository — `src/`, `packages/`, and
-  mythos content (lore, art, the Codex, the Apocryphon) alike — is
-  uniformly **CC BY-NC-ND 4.0** (`LICENSE`, `LICENSE-CONTENT.md`): share
-  with credit, no commercial use, no derivatives; commercial licensing by
-  negotiation — see [`docs/ATTRIBUTIONS.md`](docs/ATTRIBUTIONS.md). A
+- **License:** See [`LICENSE`](LICENSE) and [`LICENSE-CONTENT.md`](LICENSE-CONTENT.md). A
   differentiated per-package model (AGPL v3 / Proprietary / Dual /
   CC BY-NC-ND) was implemented in `packages/` and then deliberately
-  reverted in favour of this uniform, simpler license — see
-  [`ADR-0010`](docs/adr/ADR-0010.md).
+  reverted — see [`ADR-0010`](docs/adr/ADR-0010.md).
 - **Roadmap:** [`Roadmap.md`](docs/governance/Roadmap.md) — what's built,
   what's in progress, and what hasn't started yet.
 - **Changelog:** [`CHANGELOG.md`](CHANGELOG.md) — repository milestones.

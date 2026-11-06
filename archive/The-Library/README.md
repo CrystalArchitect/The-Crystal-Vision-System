@@ -1,6 +1,6 @@
 # The Library
 
-**Licence:** All rights reserved — see [LICENSE](LICENSE).
+**Licence:** See [LICENSE](LICENSE).
 
 The shared reading room of the TerAustralis Incognita / CrystalCore
 constellation: whole documents, accessioned with their provenance on the
