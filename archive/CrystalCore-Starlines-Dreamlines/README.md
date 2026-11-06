@@ -15,7 +15,7 @@ review (`ARCHITECTURE-REVIEW-2026-08-26.md`); this note exists so the next revie
 This is **CrystalCore-Starlines-and-Dreamlines** — the static demo shell, published to GitHub Pages.  
 **Formerly `crystal-vision`**, renamed 2026-07-29. GitHub redirects the old name, so existing clones and links keep working — which also means the two names refer to *one* repository, not two.  
 Siblings: **crystalcore** = Crystal Core (protocol pack) · **the-crystal-vision** = The Crystal Vision (codex site + Clementine sovereign companion app) · **teraustralis-incognita** = TerAustralis Incognita (narrative + CrystalBridge).  
-**License:** CC BY-NC-ND 4.0 — see `LICENSE` (portfolio-wide, per ADR-0013)
+**License:** See `LICENSE`.
 
 `vercel.json` is left over from the Vercel deployment this repository had
 under its previous name. Publication is now via GitHub Pages

@@ -13,7 +13,7 @@
     "build": "tsc -p tsconfig.json"
   },
   "files": ["src", "dist", "README.md"],
-  "license": "Apache-2.0",
+  "license": "SEE LICENSE IN LICENSE",
   "devDependencies": {
     "typescript": "^5.4.0"
   }

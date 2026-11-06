@@ -169,4 +169,4 @@ Response: [{ event_id, event_category, actor_steward_id, outcome, event_hash, pr
 
 ## License
 
-MIT — See `LICENSE` in repository root.
+See `LICENSE` in the repository root.

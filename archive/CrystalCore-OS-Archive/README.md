@@ -54,7 +54,7 @@ they say — nothing is filed higher than it earns:
 
 ## Licence
 
-CC BY-NC-ND 4.0 — see [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE).
+See [`LICENSE`](LICENSE) and [`NOTICE`](NOTICE).
 Portfolio-wide, per ADR-0013 in the umbrella repository.
 
 ---

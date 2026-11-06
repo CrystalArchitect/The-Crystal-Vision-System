@@ -61,15 +61,9 @@ All documents live in [`content/`](content/) and are rendered in-app by the ligh
 
 ## Licensing
 
-**Code**: CC BY-NC-ND 4.0 (see [`LICENSE`](../LICENSE) file) — non-commercial,
-no derivative redistribution; commercial licensing available by negotiation.
+**Code**: see [`LICENSE`](../LICENSE).
 
-**Content** (writing, Codex, Apocryphon, imagery, and design):
-[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-
-You are welcome to share this work, but you may not modify it or use it for commercial purposes.
-
-See [`LICENSE-CONTENT.md`](content/LICENSE-CONTENT.md) for the full content-license terms.
+**Content** (writing, Codex, Apocryphon, imagery, and design): see [`LICENSE-CONTENT.md`](content/LICENSE-CONTENT.md).
 
 ---
 

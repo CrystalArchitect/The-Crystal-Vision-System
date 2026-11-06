@@ -48,7 +48,7 @@ The flagship companion that actually gates model calls is
 [`Clementine-ai-companion`](https://github.com/CrystalArchitect/Clementine-ai-companion).
 `vision/apps/clementine/` here is a pointer, not that runtime.
 
-`LICENSE` is in the tree (CC-BY-NC-ND-4.0 on these modules). Pages deploy
+`LICENSE` is in the tree (see `LICENSE`). Pages deploy
 lives here (`vision/site/` + `.github/workflows/deploy.yml`).
 
 ## Self-tests (this tip)

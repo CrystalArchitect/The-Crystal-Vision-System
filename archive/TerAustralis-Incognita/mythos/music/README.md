@@ -1,8 +1,7 @@
 # Mythos Music
 
 Audio of the TerAustralis Incognita universe — the canon works, and recordings
-that are not canon and are marked so. Content licensed
-CC BY-NC-ND 4.0 — see [`../content/LICENSE-CONTENT.md`](../content/LICENSE-CONTENT.md).
+that are not canon and are marked so. See [`../content/LICENSE-CONTENT.md`](../content/LICENSE-CONTENT.md).
 
 The lyrics live as text in [`../content/`](../content/), one page per work.
 The recordings live here, and — for the commercially-licensed ones — also on

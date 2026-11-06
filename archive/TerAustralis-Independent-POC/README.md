@@ -28,4 +28,4 @@ src/components/      # TunnelingTracker + related Svelte demos
 
 ## Licence
 
-CC BY-NC-ND 4.0 unless noted otherwise.
+See [LICENSE](LICENSE).

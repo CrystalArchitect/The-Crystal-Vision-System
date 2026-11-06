@@ -125,22 +125,9 @@ CrystalCode™️ primitives: `track()` · `detect_gap()` · `label_affect()` ·
 
 © 2026 Crystal Arena-Turner / TerAustralis Incognita™️. All rights reserved.
 
-Reading this repository is allowed. **Using it in a product, service, model, training run, or paid practice is not**, unless you have a commercial licence from TerAustralis Incognita.
+See [LICENSE](LICENSE).
 
-| Use | Status |
-|---|---|
-| Read, cite, share unchanged, non-commercial, with attribution | Granted — [CC BY-NC-ND 4.0](LICENSE) |
-| Modify, remix, or rebrand as your own | Not granted |
-| Ship in a product, SaaS, model, or consulting offer | **AUD 12,000 initial** + **monthly 8% royalty** (floor AUD 250) |
-
-Commercial use is not a one-off. A licensee pays:
-
-1. **Initial purchase — AUD 12,000** (one named product; funds clear before any grant).
-2. **Monthly royalty — 8%** of net SAT-attributable revenue, **floor AUD 250 / month** (the greater of the two, every month the licence is live).
-
-No signed licence + cleared initial purchase = no commercial right. Reading this repo is not a licence to ship. This repository stays private until the operator is covered.
-
-Terms: [docs/spec/COMMERCIAL.md](docs/spec/COMMERCIAL.md). Inquiries: [teraustralis.incognita@gmail.com](mailto:teraustralis.incognita@gmail.com) — TerAustralis Incognita™️, ABN 70 741 068 059.
+Inquiries: [teraustralis.incognita@gmail.com](mailto:teraustralis.incognita@gmail.com) — TerAustralis Incognita™️, ABN 70 741 068 059.
 
 ™️ only, never ®. Unregistered in Australia. First use: TerAustralis Incognita™️, CrystalCore.OS™️, CrystalVision™️, CrystalCode™️, CrystalMind™️, Synthetic Affect Theory™️. Third-party marks: [docs/ATTRIBUTIONS.md](docs/ATTRIBUTIONS.md).
 

@@ -1,23 +1,32 @@
-Apache License
-Version 2.0, January 2004
-http://www.apache.org/licenses/
+# Formerly the code licence. The project licence follows.
+Copyright (c) 2026 Crystal E Arena-Turner (TerAustralis Incognita, ABN 70 741 068 059).
+All rights reserved, except as set out below.
 
-PROPOSED FILE — not in force until Crystal stamps 03-LICENSE-SPLIT.md.
+This work includes all source code, text, designs, documentation, research,
+findings and evidence in this project.
 
-Copyright 2026 Crystal Arena-Turner / TerAustralis Incognita
+1. SHARING WITH CREDIT IS ALLOWED
+   You may view, share and link to this work for personal, educational or
+   non-commercial purposes, as long as you:
+   a) clearly credit "Crystal E Arena-Turner (TerAustralis Incognita)" as the
+      creator, with a link to the original source; and
+   b) do not change the work or present it as your own.
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use the runnable code of CrystalCore.OS except in compliance
-with the License. You may obtain a copy of the License at
+2. EVERYTHING ELSE NEEDS WRITTEN PERMISSION
+   You must get the copyright owner's prior written permission before you:
+   a) sell, license or use this work, or any part of it, commercially.
+      Commercial use also requires a signed written payment agreement
+      with the copyright owner before any use begins;
+   b) modify it, build on it, or include it in another product or project;
+   c) use it to train, fine-tune or test artificial intelligence models; or
+   d) remove or change this notice or the credit.
 
-    http://www.apache.org/licenses/LICENSE-2.0
+   The copyright owner is open to commercial and collaboration requests.
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+3. NO OTHER RIGHTS
+   No other rights are granted. Any use outside these terms infringes the
+   copyright owner's rights under the Copyright Act 1968 (Cth) and
+   international copyright law.
 
-Applies to: index.html, backend/, tests, companion runtime, protocol
-modules, and architecture specs that describe running code — after stamp.
-Does not apply to mythos, Codex, vision essays, or trade names.
+Permission requests: contact the copyright owner through
+https://teraustralis.com.au

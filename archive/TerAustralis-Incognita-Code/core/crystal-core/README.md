@@ -18,7 +18,7 @@ and **crystalcore** (this Songline pack itself — direct ancestor of
 `core/crystal-core/`, the directory this README describes). Full map:
 the umbrella's `docs/governance/Project-Boundaries.md`, "Repositories,
 today."  
-**License:** CC BY-NC-ND 4.0 — see `LICENSE` (portfolio-wide, per ADR-0013)
+**License:** See `LICENSE`.
 
 **Author:** Crystal Arena-Turner (@M13CrystalAT) · TerAustralis Incognita  
 **Status:** Build in public  

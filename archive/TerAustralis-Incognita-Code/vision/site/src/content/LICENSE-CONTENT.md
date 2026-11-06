@@ -1,21 +1,32 @@
-# License
+<!-- Formerly the content licence. The project licence follows. -->
+Copyright (c) 2026 Crystal E Arena-Turner (TerAustralis Incognita, ABN 70 741 068 059).
+All rights reserved, except as set out below.
 
-All original written content, Codex, Apocryphon, imagery, and design in this repository are licensed under:
+This work includes all source code, text, designs, documentation, research,
+findings and evidence in this project.
 
-**Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)**
+1. SHARING WITH CREDIT IS ALLOWED
+   You may view, share and link to this work for personal, educational or
+   non-commercial purposes, as long as you:
+   a) clearly credit "Crystal E Arena-Turner (TerAustralis Incognita)" as the
+      creator, with a link to the original source; and
+   b) do not change the work or present it as your own.
 
-This means you are free to:
+2. EVERYTHING ELSE NEEDS WRITTEN PERMISSION
+   You must get the copyright owner's prior written permission before you:
+   a) sell, license or use this work, or any part of it, commercially.
+      Commercial use also requires a signed written payment agreement
+      with the copyright owner before any use begins;
+   b) modify it, build on it, or include it in another product or project;
+   c) use it to train, fine-tune or test artificial intelligence models; or
+   d) remove or change this notice or the credit.
 
-- Share and redistribute the material in any medium or format
+   The copyright owner is open to commercial and collaboration requests.
 
-Under the following terms:
+3. NO OTHER RIGHTS
+   No other rights are granted. Any use outside these terms infringes the
+   copyright owner's rights under the Copyright Act 1968 (Cth) and
+   international copyright law.
 
-- **Attribution** — You must give appropriate credit
-- **NonCommercial** — You may not use the material for commercial purposes
-- **NoDerivatives** — You may not modify, remix, or build upon the material
-
-Full legal text: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
-
----
-
-**Note**: The code itself is licensed separately under CC BY-NC-ND 4.0 — see `LICENSE`.
+Permission requests: contact the copyright owner through
+https://teraustralis.com.au

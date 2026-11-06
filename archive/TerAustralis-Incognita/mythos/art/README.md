@@ -1,7 +1,6 @@
 # Mythos Art
 
-Visual canon of the TerAustralis Incognita universe. Content licensed
-CC BY-NC-ND 4.0 — see `../content/LICENSE-CONTENT.md`.
+Visual canon of the TerAustralis Incognita universe. See `../content/LICENSE-CONTENT.md`.
 
 | Image | What it shows |
 |-------|---------------|
